@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Schema;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -20,31 +21,29 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        // Add a hook to completely disable any wildcard routes named 'services.custom'
+        // Set default string length for MySQL
+        Schema::defaultStringLength(191);
+
+        // Skip authentication during console commands (like migrations)
+        if ($this->app->runningInConsole()) {
+            $this->app['auth']->shouldUse(null);
+        }
+
+        // Your existing route handling logic
         $this->app->booted(function () {
-            // Access the router instance
             $router = $this->app['router'];
-            
-            // Get all routes
             $routes = $router->getRoutes()->getRoutes();
-            
-            // Create a new route collection without the problematic route
             $newRouteCollection = new \Illuminate\Routing\RouteCollection();
             
             foreach ($routes as $route) {
-                // Skip the problematic route
                 if ($route->getName() === 'services.custom') {
                     continue;
                 }
-                
-                // Add all other routes back
                 $newRouteCollection->add($route);
             }
             
-            // Replace the router's route collection
             $router->setRoutes($newRouteCollection);
             
-            // Add a proper fallback route for 404 errors
             Route::fallback(function () {
                 return response()->view('errors.404', [], 404);
             });

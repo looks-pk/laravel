@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 
 class AdminUserProvider extends ServiceProvider
@@ -21,7 +22,14 @@ class AdminUserProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        $this->ensureAdminUserExists();
+        // Only run if the users table exists
+        try {
+            if (Schema::hasTable('users')) {
+                $this->ensureAdminUserExists();
+            }
+        } catch (\Exception $e) {
+            // Silently fail during migrations or when DB is not available
+        }
     }
 
     /**

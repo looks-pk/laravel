@@ -1,6 +1,7 @@
 <?php
 
-use App\Http\Controllers\Admin\BlogController;
+use App\Http\Controllers\Admin\BlogController as AdminBlogController;
+use App\Http\Controllers\BlogController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Admin\CategoryController;
 use Illuminate\Support\Facades\Route;
@@ -63,12 +64,12 @@ Route::prefix('admin')->middleware(['auth', 'admin'])->name('admin.')->group(fun
     })->name('dashboard');
     
     // Blog management
-    Route::resource('blog', BlogController::class)->except(['show']);
+    Route::resource('blog', AdminBlogController::class)->except(['show']);
     
     // Tag management
-    Route::get('tags', [BlogController::class, 'manageTags'])->name('tags.index');
-    Route::post('tags', [BlogController::class, 'storeTag'])->name('tags.store');
-    Route::delete('tags/{tag}', [BlogController::class, 'destroyTag'])->name('tags.destroy');
+    Route::get('tags', [AdminBlogController::class, 'manageTags'])->name('tags.index');
+    Route::post('tags', [AdminBlogController::class, 'storeTag'])->name('tags.store');
+    Route::delete('tags/{tag}', [AdminBlogController::class, 'destroyTag'])->name('tags.destroy');
     
     // Category management
     Route::resource('categories', CategoryController::class);

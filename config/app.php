@@ -165,7 +165,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         // Temporarily commented out to fix migration issues
-        // App\Providers\AdminUserProvider::class,
+        App\Providers\AdminUserProvider::class,
     ],
 
     /*

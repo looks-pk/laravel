@@ -5,22 +5,65 @@
 
 @section('content')
     <style>
+        :root {
+            --primary: #0078bf;
+            --primary-dark: #005f96;
+            --secondary: #f8b301;
+            --secondary-dark: #d99a00;
+            --accent: #d40000;
+            --accent-dark: #aa0000;
+            --text-dark: #2d3748;
+            --text-light: #718096;
+            --bg-light: #f7fafc;
+            --bg-dark: #2a4365;
+            --transition: all 0.3s ease;
+        }
+
+        /* Base Styles */
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        p,
+        li,
+        a,
+        button,
+        input,
+        textarea,
+        select {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .section-title {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 3rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
         .section-title::after {
             content: '';
             position: absolute;
             width: 70px;
-            height: 3px;
-            background-color: #0078bf;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary) 0%, var(--primary-dark) 100%);
             bottom: -15px;
             left: 50%;
             transform: translateX(-50%);
+            border-radius: 2px;
         }
 
-        /* Image Hero Styles */
+        /* Hero Section Styles */
         .image-hero {
             position: relative;
-            height: 80vh;
-            min-height: 500px;
+            height: 90vh;
+            min-height: 600px;
             overflow: hidden;
         }
 
@@ -40,7 +83,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(135deg, rgba(0, 121, 191, 0.33) 0%, rgba(0, 60, 95, 0.9) 100%);
+            background: linear-gradient(135deg, rgba(0, 121, 191, 0.8) 0%, rgba(0, 60, 95, 0.95) 100%);
             z-index: 2;
         }
 
@@ -48,20 +91,520 @@
             position: relative;
             z-index: 10;
             height: 100%;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .hero-text h1 {
+            font-size: 2.75rem;
+            line-height: 1.2;
+            font-weight: 800;
+            text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-text p {
+            font-size: 1.25rem;
+            line-height: 1.6;
+            margin-bottom: 2rem;
         }
 
         .contact-form-container {
             position: relative;
             z-index: 10;
-            background-color: rgba(255, 255, 255, 0.97);
-            border-radius: 0.5rem;
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-            padding: 2rem;
+            background-color: rgba(255, 255, 255, 0.98);
+            border-radius: 0.75rem;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+            padding: 2.5rem;
             width: 100%;
-            max-width: 400px;
-            border-top: 4px solid #f8b301;
+            max-width: 420px;
+            border-top: 5px solid var(--secondary);
+            animation: slideUp 0.8s ease-out;
         }
 
+        /* Button Styles */
+        .btn-primary {
+            background: linear-gradient(45deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            transform: translateY(0);
+            box-shadow: 0 4px 6px rgba(0, 60, 95, 0.1);
+            transition: var(--transition);
+        }
+
+        .btn-primary:hover {
+            background: linear-gradient(45deg, var(--primary-dark) 0%, var(--primary) 100%);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 60, 95, 0.2);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(45deg, var(--secondary) 0%, var(--secondary-dark) 100%);
+            color: var(--text-dark);
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            transform: translateY(0);
+            box-shadow: 0 4px 6px rgba(216, 154, 0, 0.1);
+            transition: var(--transition);
+        }
+
+        .btn-secondary:hover {
+            background: linear-gradient(45deg, var(--secondary-dark) 0%, var(--secondary) 100%);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(216, 154, 0, 0.2);
+        }
+
+        .btn-accent {
+            background: linear-gradient(45deg, var(--accent) 0%, var(--accent-dark) 100%);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            transform: translateY(0);
+            box-shadow: 0 4px 6px rgba(212, 0, 0, 0.1);
+            transition: var(--transition);
+        }
+
+        .btn-accent:hover {
+            background: linear-gradient(45deg, var(--accent-dark) 0%, var(--accent) 100%);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(212, 0, 0, 0.2);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+            padding: 0.7rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            transition: var(--transition);
+        }
+
+        .btn-outline:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-3px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Product Cards */
+        .product-card {
+            background: white;
+            border-radius: 1rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            transition: var(--transition);
+            height: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .product-card .card-img {
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .product-card .card-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+
+        .product-card:hover .card-img img {
+            transform: scale(1.05);
+        }
+
+        .product-card .card-body {
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .product-card h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            color: var(--text-dark);
+        }
+
+        .product-card p {
+            color: var(--text-light);
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+
+        .product-card .card-footer {
+            padding: 0 1.5rem 1.5rem;
+        }
+
+        /* Process Timeline */
+        .timeline-item {
+            position: relative;
+            padding-bottom: 3rem;
+        }
+
+        .timeline-number {
+            width: 3.5rem;
+            height: 3.5rem;
+            border-radius: 50%;
+            background: linear-gradient(45deg, var(--primary) 0%, var(--primary-dark) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: white;
+            box-shadow: 0 8px 16px rgba(0, 60, 95, 0.2);
+            z-index: 10;
+            position: relative;
+            margin: 0 auto 1.5rem;
+        }
+
+        .timeline-content {
+            background: white;
+            border-radius: 1rem;
+            padding: 2rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            position: relative;
+            z-index: 5;
+            max-width: 24rem;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .timeline-content h4 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--text-dark);
+        }
+
+        .timeline-content p {
+            color: var(--text-light);
+            margin-bottom: 0;
+        }
+
+        /* Gradient Backgrounds */
+        .gradient-bg {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+        }
+
+        .gradient-bg-secondary {
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--secondary-dark) 100%);
+        }
+
+        /* Stats Circles */
+        .stat-circle {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            background: white;
+            border: 5px solid var(--primary);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            margin: 0 auto;
+        }
+
+        .stat-circle .number {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--primary);
+            line-height: 1.2;
+        }
+
+        .stat-circle .label {
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: var(--text-dark);
+            text-align: center;
+            line-height: 1.2;
+        }
+
+        /* Partner Logos */
+        .partner-logo {
+            /* height: 70px; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: var(--transition);
+        }
+
+        .partner-logo:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        .partner-logo img {
+            max-height: 80%;
+            max-width: 80%;
+            object-fit: contain;
+        }
+
+        /* Testimonial Slider */
+        .testimonial-card {
+            background: white;
+            border-radius: 1rem;
+            padding: 2.5rem 2rem;
+            box-shadow: 0 15px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+            position: relative;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            min-height: 380px;
+            /* Fix minimum height */
+        }
+
+        .testimonial-card .avatar {
+            width: 6rem;
+            height: 6rem;
+            border-radius: 50%;
+            background: #f0f0f0;
+            border: 4px solid white;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            margin: 0 auto 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+            z-index: 5;
+        }
+
+        .testimonial-card .quotation {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            font-size: 5rem;
+            color: var(--primary);
+            opacity: 0.1;
+            line-height: 1;
+            z-index: 1;
+        }
+
+        /* Blog Cards */
+        .blog-card {
+            background: white;
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            transition: var(--transition);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blog-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .blog-card .image {
+            height: 220px;
+            overflow: hidden;
+        }
+
+        .blog-card .image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+
+        .blog-card:hover .image img {
+            transform: scale(1.05);
+        }
+
+        .blog-card .content {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blog-card .date {
+            color: var(--text-light);
+            font-size: 0.875rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .blog-card h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            color: var(--text-dark);
+            line-height: 1.4;
+        }
+
+        .blog-card p {
+            color: var(--text-light);
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+
+        .blog-card .read-more {
+            color: var(--primary);
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            transition: var(--transition);
+        }
+
+        .blog-card .read-more svg {
+            margin-left: 0.5rem;
+            transition: var(--transition);
+        }
+
+        .blog-card .read-more:hover {
+            color: var(--primary-dark);
+        }
+
+        .blog-card .read-more:hover svg {
+            transform: translateX(4px);
+        }
+
+        /* Multi-step Form */
+        .form-progress {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        .form-progress::before {
+            content: '';
+            position: absolute;
+            top: 1.75rem;
+            left: 8%;
+            right: 8%;
+            height: 2px;
+            background: #e2e8f0;
+            z-index: 1;
+        }
+
+        .progress-step {
+            position: relative;
+            z-index: 5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .step-number {
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            background: #e2e8f0;
+            color: #718096;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            transition: var(--transition);
+        }
+
+        .progress-step.active .step-number {
+            background: var(--primary);
+            color: white;
+        }
+
+        .progress-step.completed .step-number {
+            background: #48bb78;
+            color: white;
+        }
+
+        .step-label {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #718096;
+            transition: var(--transition);
+        }
+
+        .progress-step.active .step-label {
+            color: var(--primary);
+        }
+
+        .progress-step.completed .step-label {
+            color: #48bb78;
+        }
+
+        .form-step-content {
+            padding: 2rem;
+            background: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .image-hero {
+                height: auto;
+                min-height: 800px;
+            }
+
+            .hero-text h1 {
+                font-size: 2.25rem;
+            }
+
+            .hero-text p {
+                font-size: 1.125rem;
+            }
+
+            .contact-form-container {
+                margin-top: 2rem;
+            }
+
+            .stat-circle {
+                width: 140px;
+                height: 140px;
+                margin-bottom: 1.5rem;
+            }
+        }
+
+        /* Previous custom styles - preserving for compatibility */
         .slide-text {
             position: relative;
             z-index: 5;
@@ -129,40 +672,6 @@
         .accent-border-right {
             border-right: 4px solid #d40000;
         }
-
-        .gradient-bg {
-            background: linear-gradient(135deg, #0078bf 0%, #005f96 100%);
-        }
-
-        .btn-primary {
-            background-color: #0078bf;
-            color: white;
-            transition: all 0.3s ease;
-        }
-
-        .btn-primary:hover {
-            background-color: #005f96;
-        }
-
-        .btn-secondary {
-            background-color: #f8b301;
-            color: #333;
-            transition: all 0.3s ease;
-        }
-
-        .btn-secondary:hover {
-            background-color: #d99a00;
-        }
-
-        .btn-accent {
-            background-color: #d40000;
-            color: white;
-            transition: all 0.3s ease;
-        }
-
-        .btn-accent:hover {
-            background-color: #aa0000;
-        }
     </style>
 
     <!-- Image Hero Section -->
@@ -180,14 +689,13 @@
         <!-- Content -->
         <div class="hero-content container mx-auto px-4 h-full flex items-center" style="position: relative; z-index: 5;">
             <div class="flex flex-col lg:flex-row items-center justify-between w-full">
-                <div class="text-white max-w-2xl lg:mr-8">
+                <div class="text-white max-w-2xl lg:mr-8 hero-text">
                     <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Home2stay provides Accessibility Solutions,
                         Home Safety Improvements with a Universal Design!</h1>
                     <p class="text-xl mb-8 text-gray-100">We help you regain safety and independence in your space to help
                         you and your loved ones stay safe, even at home.</p>
                     <div class="flex flex-wrap gap-4">
-                        <a href="/services"
-                            class="btn-primary px-6 py-3 rounded-lg font-medium transition duration-300 inline-flex items-center">
+                        <a href="/services" class="btn-primary inline-flex items-center">
                             Our Services
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
                                 fill="currentColor">
@@ -196,8 +704,7 @@
                                     clip-rule="evenodd" />
                             </svg>
                         </a>
-                        <a href="/about"
-                            class="bg-white hover:bg-gray-100 text-gray-900 px-6 py-3 rounded-lg font-medium transition duration-300">Learn
+                        <a href="/about" class="btn-outline">Learn
                             More</a>
                     </div>
                 </div>
@@ -222,7 +729,7 @@
                             <textarea id="message" name="message" rows="3"
                                 class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"></textarea>
                         </div>
-                        <button type="submit" class="w-full btn-primary py-2 px-4 rounded-md transition duration-300">Send
+                        <button type="submit" class="w-full btn-primary py-2 px-4 rounded-md">Send
                             Message</button>
                     </form>
                 </div>
@@ -231,139 +738,33 @@
     </section>
 
     <!-- Mobility Products Section -->
-    <section class="bg-gray-100 py-16">
+    <section class="py-20 bg-gray-50">
         <div class="container mx-auto px-4">
-            <div class="text-center mb-12">
+            <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">Accessibility Solutions for Your
                     Home</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">Our wide range of quality products such as , grab bars, bathroom
+                <p class="text-gray-600 max-w-2xl mx-auto">Our wide range of quality products such as grab bars, bathroom
                     safety equipment, ramps, and more are designed to enhance accessibility and aesthetics, making everyday
                     home life easier for people of all ages and abilities.</p>
             </div>
-            <div class="flex flex-col lg:flex-row">
-                <!-- Grid of products (Left side) -->
-                <div class="lg:w-3/3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <div
-                        class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center transform transition duration-300 hover:-translate-y-2 h-full">
-                        <div class="mb-4 w-50 h-50 flex items-center justify-center">
-                            <img src="{{ asset('hprodbanner/Barrier-Free-Bathrooms.png') }}" alt="Barrier-Free Bathrooms"
-                                class="w-full h-full object-cover">
-                        </div>
-                        <h3 class="text-lg font-bold mb-1">Barrier-Free Bathrooms</h3>
-                        <p class="text-gray-600 mb-auto">Create a safe and accessible oasis with our , thoughtfully designed
-                            to accommodate all mobility needs. Enjoy the freedom of movement and the comfort of an inclusive
-                            bathing space.</p>
-                        <a href="#"
-                            class="mt-4 inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
-                            <span>See More</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </a>
-                    </div>
 
-                    <div
-                        class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center transform transition duration-300 hover:-translate-y-2 h-full">
-                        <div class="mb-4 w-50 h-50 flex items-center justify-center">
-                            <img src="{{ asset('hprodbanner/Grab Bars.png') }}" alt="Grab Bars"
-                                class="w-full h-full object-cover">
-                        </div>
-                        <h3 class="text-lg font-bold mb-1">Grab Bars</h3>
-                        <p class="text-gray-600 mb-auto">Elevate bathroom safety with our sturdy and stylish grab bars,
-                            providing essential support for confident maneuvering. These ergonomic accessories offer peace
-                            of mind and independence in your daily routines.</p>
-                        <a href="#"
-                            class="mt-4 inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
-                            <span>See More</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </a>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product Card 1 -->
+                <div class="product-card">
+                    <div class="card-img">
+                        <img src="{{ asset('hprodbanner/Barrier-Free-Bathrooms.png') }}" alt="Barrier-Free Bathrooms"
+                            class="w-full h-full object-cover">
                     </div>
-
-                    <div
-                        class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center transform transition duration-300 hover:-translate-y-2 h-full">
-                        <div class="mb-4 w-50 h-50 flex items-center justify-center">
-                            <img src="{{ asset('hprodbanner/Stairlifts.png') }}" alt="Stairlifts"
-                                class="w-full h-full object-cover">
-                        </div>
-                        <h3 class="text-lg font-bold mb-1">Stairlifts</h3>
-                        <p class="text-gray-600 mb-auto">Glide effortlessly between levels with our reliable stairlifts,
-                            designed to empower individuals with limited mobility to navigate their homes with ease and
-                            comfort.</p>
-                        <a href="#"
-                            class="mt-4 inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
-                            <span>See More</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </a>
+                    <div class="card-body">
+                        <h3>Barrier-Free Bathrooms</h3>
+                        <p>Create a safe and accessible oasis with our thoughtfully designed solutions to accommodate all
+                            mobility needs. Enjoy the freedom of movement and the comfort of an inclusive bathing space.</p>
                     </div>
-
-                    <div
-                        class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center transform transition duration-300 hover:-translate-y-2 h-full">
-                        <div class="mb-4 w-50 h-50 flex items-center justify-center">
-                            <img src="{{ asset('hprodbanner/Ramps.png') }}" alt="Ramps" class="w-full h-full object-cover">
-                        </div>
-                        <h3 class="text-lg font-bold mb-1">Ramps</h3>
-                        <p class="text-gray-600 mb-auto">Embrace accessibility with our versatile ramps, a practical
-                            solution to conquer elevation changes. Whether indoors or outdoors, these sturdy ramps ensure
-                            smooth and barrier-free transitions.</p>
+                    <div class="card-footer">
                         <a href="#"
-                            class="mt-4 inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
+                            class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>See More</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </a>
-                    </div>
-                    <div
-                        class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center transform transition duration-300 hover:-translate-y-2 h-full">
-                        <div class="mb-4 w-50 h-50 flex items-center justify-center">
-                            <img src="{{ asset('hprodbanner/Tub Cuts.png') }}" alt="Tub Cuts"
-                                class="w-full h-full object-cover">
-                        </div>
-                        <h3 class="text-lg font-bold mb-1">Tub Cuts</h3>
-                        <p class="text-gray-600 mb-auto">Transform your bathtub into an accessible oasis with our , offering
-                            a convenient and cost-effective alternative to traditional bathing solutions for individuals
-                            with mobility challenges.</p>
-                        <a href="#"
-                            class="mt-4 inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
-                            <span>See More</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </a>
-                    </div>
-                    <div
-                        class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center transform transition duration-300 hover:-translate-y-2 h-full">
-                        <div class="mb-4 w-50 h-50 flex items-center justify-center">
-                            <img src="{{ asset('hprodbanner/Safety-Poles-Handrails.png') }}" alt="Safety Poles & Handrails"
-                                class="w-full h-full object-cover">
-                        </div>
-                        <h3 class="text-lg font-bold mb-1">Safety Poles & Handrails</h3>
-                        <p class="text-gray-600 mb-auto">Enhance safety and stability with our safety poles and handrails,
-                            thoughtfully designed to provide crucial support in various areas of your home. These essential
-                            accessories offer a secure and reassuring grip for all family members.</p>
-                        <a href="#"
-                            class="mt-4 inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
-                            <span>See More</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 0 20 20"
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
                                 fill="currentColor">
                                 <path fill-rule="evenodd"
                                     d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
@@ -373,37 +774,152 @@
                     </div>
                 </div>
 
+                <!-- Product Card 2 -->
+                <div class="product-card">
+                    <div class="card-img">
+                        <img src="{{ asset('hprodbanner/Grab Bars.png') }}" alt="Grab Bars"
+                            class="w-full h-full object-cover">
+                    </div>
+                    <div class="card-body">
+                        <h3>Grab Bars</h3>
+                        <p>Elevate bathroom safety with our sturdy and stylish grab bars, providing essential support for
+                            confident maneuvering. These ergonomic accessories offer peace of mind and independence in your
+                            daily routines.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#"
+                            class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
+                            <span>See More</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="product-card">
+                    <div class="card-img">
+                        <img src="{{ asset('hprodbanner/Stairlifts.png') }}" alt="Stairlifts"
+                            class="w-full h-full object-cover">
+                    </div>
+                    <div class="card-body">
+                        <h3>Stairlifts</h3>
+                        <p>Glide effortlessly between levels with our reliable stairlifts, designed to empower individuals
+                            with limited mobility to navigate their homes with ease and comfort.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#"
+                            class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
+                            <span>See More</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product Card 4 -->
+                <div class="product-card">
+                    <div class="card-img">
+                        <img src="{{ asset('hprodbanner/Ramps.png') }}" alt="Ramps" class="w-full h-full object-cover">
+                    </div>
+                    <div class="card-body">
+                        <h3>Ramps</h3>
+                        <p>Embrace accessibility with our versatile ramps, a practical solution to conquer elevation
+                            changes. Whether indoors or outdoors, these sturdy ramps ensure smooth and barrier-free
+                            transitions.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#"
+                            class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
+                            <span>See More</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product Card 5 -->
+                <div class="product-card">
+                    <div class="card-img">
+                        <img src="{{ asset('hprodbanner/Tub Cuts.png') }}" alt="Tub Cuts"
+                            class="w-full h-full object-cover">
+                    </div>
+                    <div class="card-body">
+                        <h3>Tub Cuts</h3>
+                        <p>Transform your bathtub into an accessible oasis with our convenient and cost-effective
+                            alternative to traditional bathing solutions for individuals with mobility challenges.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#"
+                            class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
+                            <span>See More</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product Card 6 -->
+                <div class="product-card">
+                    <div class="card-img">
+                        <img src="{{ asset('hprodbanner/Safety-Poles-Handrails.png') }}" alt="Safety Poles & Handrails"
+                            class="w-full h-full object-cover">
+                    </div>
+                    <div class="card-body">
+                        <h3>Safety Poles & Handrails</h3>
+                        <p>Enhance safety and stability with our safety poles and handrails, thoughtfully designed to
+                            provide crucial support in various areas of your home. These essential accessories offer a
+                            secure and reassuring grip for all family members.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#"
+                            class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
+                            <span>See More</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Step by Step Process Section -->
-    <section class="py-20 bg-gray-50 relative overflow-hidden">
-        <!-- Abstract Circles Background -->
+    <section class="py-24 bg-white relative overflow-hidden">
+        <!-- Abstract Background -->
         <div class="absolute inset-0 pointer-events-none opacity-10">
             <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-                <!-- Large circle top left -->
                 <circle cx="5%" cy="15%" r="120" fill="#0078bf" opacity="0.5" />
-
-                <!-- Medium circle top right -->
                 <circle cx="90%" cy="10%" r="80" fill="#f8b301" opacity="0.5" />
-
-                <!-- Small circle middle left -->
                 <circle cx="15%" cy="50%" r="40" fill="#d40000" opacity="0.5" />
-
-                <!-- Large circle bottom right -->
                 <circle cx="85%" cy="85%" r="150" fill="#0078bf" opacity="0.5" />
-
-                <!-- Medium circle middle right -->
                 <circle cx="75%" cy="45%" r="60" fill="#f8b301" opacity="0.5" />
-
-                <!-- Small circle bottom left -->
                 <circle cx="20%" cy="80%" r="25" fill="#d40000" opacity="0.5" />
             </svg>
         </div>
 
         <div class="container mx-auto px-4 relative z-10">
-            <div class="text-center mb-12">
+            <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">Why Choose Us?</h2>
                 <p class="text-gray-600 max-w-2xl mx-auto">Choose us for our unwavering commitment to accessible living
                     solutions that transform homes into safe and inclusive spaces. With a dedicated team and a wide range of
@@ -411,115 +927,71 @@
                     comfort.</p>
             </div>
 
-            <div class="relative">
-                <!-- Timeline Line -->
-                <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-secondary"></div>
-
-                <!-- Step 1 -->
-                <div class="relative z-10 mb-16">
-                    <div class="flex flex-col md:flex-row items-center">
-                        <!-- Content Left Side -->
-                        <div class="md:w-1/2 md:pr-12 mb-8 md:mb-0">
-                            <div
-                                class="bg-white p-6 rounded-lg shadow-md border-l-4 border-primary md:ml-auto md:mr-0 max-w-md">
-                                <div class="flex items-center">
-                                    <div class="flex-1 pr-4">
-                                        <h5 class="text-xl font-bold mb-3">12,344</h5>
-                                        <p class="text-gray-600">Falls Prevented</p>
-                                    </div>
-                                    <div class="w-16 h-16 flex-shrink-0">
-                                        <img class="bg-black p-2 rounded w-full h-full object-contain"
-                                            src="{{ asset('h-wc/Falls-Prevented-min.png') }}" alt="Falls Prevented">
-                                    </div>
+            <div class="flex flex-col items-center">
+                <!-- Timeline Item 1 -->
+                <div class="relative mb-20 w-full max-w-4xl mx-auto">
+                    <div class="timeline-number">1</div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                        <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-primary">
+                            <div class="flex items-center">
+                                <div class="flex-1 pr-4">
+                                    <h5 class="text-2xl font-bold mb-3 text-primary">12,344</h5>
+                                    <p class="text-gray-700 font-medium">Falls Prevented</p>
+                                </div>
+                                <div class="w-16 h-16 flex-shrink-0 bg-primary rounded-lg flex items-center justify-center">
+                                    <img class="w-10 h-10 object-contain" src="{{ asset('h-wc/Falls-Prevented-min.png') }}"
+                                        alt="Falls Prevented">
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Number Indicator -->
-                        <div
-                            class="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-primary text-white font-bold text-xl border-4 border-white shadow-md">
-                            1
-                        </div>
-
-                        <!-- Empty Right Side (for alignment) -->
-                        <div class="md:w-1/2 md:pl-12">
-                            <div class="h-4 w-4 rounded-full bg-secondary md:ml-0 md:mr-auto invisible md:visible"></div>
-                        </div>
+                        <div class="hidden md:block"></div>
                     </div>
                 </div>
 
-                <!-- Step 2 -->
-                <div class="relative z-10 mb-16">
-                    <div class="flex flex-col md:flex-row items-center">
-                        <!-- Empty Left Side (for alignment) -->
-                        <div class="md:w-1/2 md:pr-12">
-                            <div class="h-4 w-4 rounded-full bg-secondary md:ml-auto md:mr-0 invisible md:visible"></div>
-                        </div>
-
-                        <!-- Number Indicator -->
-                        <div
-                            class="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-primary text-white font-bold text-xl border-4 border-white shadow-md">
-                            2
-                        </div>
-
-                        <!-- Content Right Side -->
-                        <div class="md:w-1/2 md:pl-12">
-                            <div
-                                class="bg-white p-6 rounded-lg shadow-md border-r-4 border-secondary md:ml-0 md:mr-auto max-w-md">
-                                <div class="flex items-center">
-                                    <div class="flex-1 pr-4">
-                                        <h5 class="text-xl font-bold mb-3">103</h5>
-                                        <p class="text-gray-600">Cities Served</p>
-                                    </div>
-                                    <div class="w-16 h-16 flex-shrink-0">
-                                        <img class="bg-black p-2 rounded w-full h-full object-contain"
-                                            src="{{ asset('h-wc/Cities-Served-min.png') }}" alt="Cities Served">
-                                    </div>
+                <!-- Timeline Item 2 -->
+                <div class="relative mb-20 w-full max-w-4xl mx-auto">
+                    <div class="timeline-number">2</div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                        <div class="hidden md:block"></div>
+                        <div class="bg-white p-6 rounded-xl shadow-lg border-r-4 border-secondary">
+                            <div class="flex items-center">
+                                <div class="flex-1 pr-4">
+                                    <h5 class="text-2xl font-bold mb-3 text-secondary">103</h5>
+                                    <p class="text-gray-700 font-medium">Cities Served</p>
+                                </div>
+                                <div
+                                    class="w-16 h-16 flex-shrink-0 bg-secondary rounded-lg flex items-center justify-center">
+                                    <img class="w-10 h-10 object-contain" src="{{ asset('h-wc/Cities-Served-min.png') }}"
+                                        alt="Cities Served">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Step 3 -->
-                <div class="relative z-10 mb-16">
-                    <div class="flex flex-col md:flex-row items-center">
-                        <!-- Content Left Side -->
-                        <div class="md:w-1/2 md:pr-12 mb-8 md:mb-0">
-                            <div
-                                class="bg-white p-6 rounded-lg shadow-md border-l-4 border-accent md:ml-auto md:mr-0 max-w-md">
-                                <div class="flex items-center">
-                                    <div class="flex-1 pr-4">
-                                        <h5 class="text-xl font-bold mb-3">2,370</h5>
-                                        <p class="text-gray-600">Home Sales Cancelled</p>
-                                    </div>
-                                    <div class="w-16 h-16 flex-shrink-0">
-                                        <img class="bg-black p-2 rounded w-full h-full object-contain"
-                                            src="{{ asset('h-wc/Home-Sales-Cancelled-min.png') }}"
-                                            alt="Home Sales Cancelled">
-                                    </div>
+                <!-- Timeline Item 3 -->
+                <div class="relative mb-16 w-full max-w-4xl mx-auto">
+                    <div class="timeline-number">3</div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                        <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-accent">
+                            <div class="flex items-center">
+                                <div class="flex-1 pr-4">
+                                    <h5 class="text-2xl font-bold mb-3 text-accent">2,370</h5>
+                                    <p class="text-gray-700 font-medium">Home Sales Cancelled</p>
+                                </div>
+                                <div class="w-16 h-16 flex-shrink-0 bg-accent rounded-lg flex items-center justify-center">
+                                    <img class="w-10 h-10 object-contain"
+                                        src="{{ asset('h-wc/Home-Sales-Cancelled-min.png') }}" alt="Home Sales Cancelled">
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Number Indicator -->
-                        <div
-                            class="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center w-12 h-12 rounded-full bg-primary text-white font-bold text-xl border-4 border-white shadow-md">
-                            3
-                        </div>
-
-                        <!-- Empty Right Side (for alignment) -->
-                        <div class="md:w-1/2 md:pl-12">
-                            <div class="h-4 w-4 rounded-full bg-secondary md:ml-0 md:mr-auto invisible md:visible"></div>
-                        </div>
+                        <div class="hidden md:block"></div>
                     </div>
                 </div>
-
             </div>
 
             <div class="mt-16 text-center">
-                <a href="/contact"
-                    class="inline-block btn-primary px-6 py-3 rounded-lg font-medium transition duration-300">
+                <a href="/contact" class="btn-primary inline-block px-8 py-4 rounded-lg font-medium text-lg">
                     Start Your Journey Today
                 </a>
             </div>
@@ -527,27 +999,64 @@
     </section>
 
     <!-- Impact Statistics Section -->
-    <section class="impact-section relative mt-5">
-        <!-- Stats Box - Yellow Background -->
+    <section class="py-24 relative">
+        <!-- Stats Box -->
+        <div
+            class="relative z-20 mx-auto max-w-5xl rounded-xl shadow-xl bg-gradient-to-r from-secondary to-secondary-dark py-16 px-6 md:px-12 mb-0">
+            <div class="container mx-auto">
+                <div class="flex flex-col md:flex-row items-center justify-between">
+                    <!-- Our Impact Header -->
+                    <div class="w-full md:w-1/4 mb-10 md:mb-0 text-center md:text-left">
+                        <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Our Impact</h2>
+                        <div class="h-1 w-24 bg-gray-900 mt-4 mb-4 mx-auto md:mx-0"></div>
+                    </div>
 
+                    <!-- Stats Circles -->
+                    <div class="w-full md:w-3/4 grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <!-- Communities Served -->
+                        <div class="text-center">
+                            <div class="stat-circle mx-auto">
+                                <div class="number">200+</div>
+                                <div class="label">Communities<br>Served</div>
+                            </div>
+                        </div>
 
+                        <!-- Lives Impacted -->
+                        <div class="text-center">
+                            <div class="stat-circle mx-auto">
+                                <div class="number">80k+</div>
+                                <div class="label">Lives<br>Impacted</div>
+                            </div>
+                        </div>
 
-        <!-- Dark Background Section with Message -->
-        <div class="gradient-bg pt-24 pb-16 relative">
-            <div class="absolute inset-0 bg-black opacity-50 z-0">
+                        <!-- Years Experience -->
+                        <div class="text-center">
+                            <div class="stat-circle mx-auto">
+                                <div class="number">40</div>
+                                <div class="label">Years<br>Experience</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dark Background Call to Action -->
+        <div class="gradient-bg pt-32 pb-20 relative -mt-24">
+            <div class="absolute inset-0 bg-black opacity-30 z-0">
                 <!-- Background overlay -->
             </div>
 
-            <div class="container mx-auto px-4 relative z-10 text-center">
-                <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Book a FREE assessment with Home2stay!</h2>
-                <p class="text-xl text-white mb-10 max-w-3xl mx-auto">
+            <div class="container mx-auto px-4 relative z-10 text-center mt-8">
+                <h2 class="text-4xl md:text-5xl font-bold text-white mb-8">Book a FREE assessment with Home2stay!</h2>
+                <p class="text-xl text-white mb-12 max-w-3xl mx-auto">
                     Vancouver's leading provider of home accessibility products
                 </p>
 
                 <a href="/contact"
-                    class="inline-flex items-center px-8 py-4 bg-secondary text-gray-900 font-bold rounded-full hover:bg-secondary-dark transition duration-300">
+                    class="btn-secondary inline-flex items-center px-10 py-4 text-gray-900 font-bold rounded-full text-lg">
                     Book Now
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-3" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd"
                             d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
                             clip-rule="evenodd" />
@@ -558,213 +1067,175 @@
     </section>
 
     <!-- Promotional Sections -->
-    <section class="promotional-section mt-5">
+    <section class="promotional-section mt-16">
         <div class="container mx-auto">
-            <!-- Top Section - Yellow Background with Stairlift -->
-            <div class="bg-secondary">
-                <div class="container mx-auto">
-                    <div class="flex flex-col md:flex-row items-center">
+            <!-- Top Section - Bathroom Remodeling -->
+            <div class="flex flex-col md:flex-row bg-white rounded-xl overflow-hidden shadow-xl">
+                <!-- Image Side -->
+                <div class="w-full md:w-1/2">
+                    <img src="{{ asset('h-banner/Bathroom-Remodeling-Service-min.png') }}" alt="Bathroom Remodeling Service"
+                        class="w-full h-full object-cover">
+                </div>
 
-
-                        <!-- Image Side -->
-                        <div class="w-full md:w-1/2 bg-gray-200">
-                            <img src="{{ asset('h-banner/Bathroom-Remodeling-Service-min.png') }}"
-                                alt="Person using a stairlift" class="w-full h-full object-cover">
-                        </div>
-                        <!-- Text Content -->
-                        <div class="w-full md:w-1/2 p-8 md:p-12 lg:p-16">
-                            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Transform Your Bathroom with
-                                Home2stay Remodeling Solutions</h2>
-                            <p class="text-gray-800 mb-8">
-                                Experience luxury and functionality with Home2stay's expert remodeling. From sleek
-                                conversions to custom fixtures, we create modern retreats tailored to your style. Our team
-                                ensures attention to detail and customer satisfaction. Let us bring your dream bathroom to
-                                life.
-                            </p>
-                            <a href="/products"
-                                class="inline-flex items-center px-6 py-3 bg-primary text-white font-medium rounded-full hover:bg-primary-dark transition duration-300">
-                                Start Your Transformation
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
-                                    fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
+                <!-- Text Content -->
+                <div
+                    class="w-full md:w-1/2 p-8 md:p-12 lg:p-16 bg-gradient-to-br from-secondary/10 to-secondary/5 flex flex-col justify-center">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Transform Your Bathroom with Home2stay
+                        Remodeling Solutions</h2>
+                    <p class="text-gray-700 mb-8 text-lg">
+                        Experience luxury and functionality with Home2stay's expert remodeling. From sleek conversions to
+                        custom fixtures, we create modern retreats tailored to your style. Our team ensures attention to
+                        detail and customer satisfaction. Let us bring your dream bathroom to life.
+                    </p>
+                    <a href="/products" class="btn-primary self-start inline-flex items-center">
+                        Start Your Transformation
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
                 </div>
             </div>
-
         </div>
     </section>
 
     <!-- Our Partners and Associations Section -->
-    <section class="py-16 bg-white">
+    <section class="py-20 bg-gray-50">
         <div class="container mx-auto px-4">
             <!-- Official Distributor Partners -->
-            <div class="text-center mb-12">
+            <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">Official Distributor Partner of
                     Trusted Accessibility Brands</h2>
             </div>
 
             <!-- Brand Logos Grid -->
-            <div class="grid grid-cols-2 md:grid-cols-5 gap-6 mb-16">
-                <!-- Partner Brand 1 -->
-                <div
-                    class="bg-white rounded-lg p-4 flex items-center justify-center shadow-sm hover:shadow-md transition-shadow duration-300">
-                    <img src="{{ asset('brands/american-tubs-logo-min.png') }}" alt="Partner Brand 1"
-                        class="max-h-16 w-auto">
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 mb-20">
+                <!-- Partner Logos -->
+                <div class="partner-logo">
+                    <img src="{{ asset('brands/american-tubs-logo-min.png') }}" alt="American Tubs" class="max-h-16 w-auto">
                 </div>
-
-                <!-- Partner Brand 2 -->
-                <div
-                    class="bg-white rounded-lg p-4 flex items-center justify-center shadow-sm hover:shadow-md transition-shadow duration-300">
-                    <img src="{{ asset('brands/arjo-logo-min.png') }}" alt="Partner Brand 2" class="max-h-16 w-auto">
+                <div class="partner-logo">
+                    <img src="{{ asset('brands/arjo-logo-min.png') }}" alt="Arjo" class="max-h-16 w-auto">
                 </div>
-
-                <!-- Partner Brand 3 -->
-                <div
-                    class="bg-white rounded-lg p-4 flex items-center justify-center shadow-sm hover:shadow-md transition-shadow duration-300">
-                    <img src="{{ asset('brands/best-bath-logo-min.png') }}" alt="Partner Brand 3" class="max-h-16 w-auto">
+                <div class="partner-logo">
+                    <img src="{{ asset('brands/best-bath-logo-min.png') }}" alt="Best Bath" class="max-h-16 w-auto">
                 </div>
-
-                <!-- Partner Brand 4 -->
-                <div
-                    class="bg-white rounded-lg p-4 flex items-center justify-center shadow-sm hover:shadow-md transition-shadow duration-300">
-                    <img src="{{ asset('brands/bruno-logo-min.png') }}" alt="Partner Brand 4" class="max-h-16 w-auto">
+                <div class="partner-logo">
+                    <img src="{{ asset('brands/bruno-logo-min.png') }}" alt="Bruno" class="max-h-16 w-auto">
                 </div>
-
-                <!-- Partner Brand 5 -->
-                <div
-                    class="bg-white rounded-lg p-4 flex items-center justify-center shadow-sm hover:shadow-md transition-shadow duration-300">
-                    <img src="{{ asset('brands/clean-cut-logo-min.png') }}" alt="Partner Brand 5" class="max-h-16 w-auto">
+                <div class="partner-logo">
+                    <img src="{{ asset('brands/clean-cut-logo-min.png') }}" alt="Clean Cut" class="max-h-16 w-auto">
                 </div>
-
-                <!-- Partner Brand 6 -->
-                <div
-                    class="bg-white rounded-lg p-4 flex items-center justify-center shadow-sm hover:shadow-md transition-shadow duration-300">
-                    <img src="{{ asset('brands/drive-logo-min.png') }}" alt="Partner Brand 6" class="max-h-16 w-auto">
+                <div class="partner-logo">
+                    <img src="{{ asset('brands/drive-logo-min.png') }}" alt="Drive" class="max-h-16 w-auto">
                 </div>
-
-                <!-- Partner Brand 7 -->
-                <div
-                    class="bg-white rounded-lg p-4 flex items-center justify-center shadow-sm hover:shadow-md transition-shadow duration-300">
-                    <img src="{{ asset('brands/handicare-logo-min.png') }}" alt="Partner Brand 7" class="max-h-16 w-auto">
+                <div class="partner-logo">
+                    <img src="{{ asset('brands/handicare-logo-min.png') }}" alt="Handicare" class="max-h-16 w-auto">
                 </div>
-
-                <!-- Partner Brand 8 -->
-                <div
-                    class="bg-white rounded-lg p-4 flex items-center justify-center shadow-sm hover:shadow-md transition-shadow duration-300">
-                    <img src="{{ asset('brands/health-craft-min.png') }}" alt="Partner Brand 8" class="max-h-16 w-auto">
+                <div class="partner-logo">
+                    <img src="{{ asset('brands/health-craft-min.png') }}" alt="Health Craft" class="max-h-16 w-auto">
                 </div>
-
-                <!-- Partner Brand 9 -->
-                <div
-                    class="bg-white rounded-lg p-4 flex items-center justify-center shadow-sm hover:shadow-md transition-shadow duration-300">
-                    <img src="{{ asset('brands/livelwell-logo-min.png') }}" alt="Partner Brand 9" class="max-h-16 w-auto">
+                <div class="partner-logo">
+                    <img src="{{ asset('brands/livelwell-logo-min.png') }}" alt="Livewell" class="max-h-16 w-auto">
                 </div>
-
-                <!-- Partner Brand 10 -->
-                <div
-                    class="bg-white rounded-lg p-4 flex items-center justify-center shadow-sm hover:shadow-md transition-shadow duration-300">
-                    <img src="{{ asset('brands/prism-medical-min.png') }}" alt="Partner Brand 10" class="max-h-16 w-auto">
+                <div class="partner-logo">
+                    <img src="{{ asset('brands/prism-medical-min.png') }}" alt="Prism Medical" class="max-h-16 w-auto">
                 </div>
             </div>
 
             <!-- Our Associations -->
-            <div class="text-center mb-12">
+            <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">Our Associations</h2>
             </div>
 
             <!-- Associations Logos -->
-            <div class="flex flex-wrap justify-center gap-12 items-center">
-                <!-- Association 1 -->
-                <div
-                    class="bg-white rounded-lg p-6 flex items-center justify-center shadow-sm hover:shadow-md transition-shadow duration-300">
-                    <img src="{{ asset('associate/bbb-logo-min.png') }}" alt="Association 1" class="max-h-24 w-auto">
+            <div class="flex flex-wrap justify-center items-center gap-12 max-w-4xl mx-auto">
+                <div class="partner-logo p-8 w-64 h-64 flex items-center justify-center">
+                    <img src="{{ asset('associate/bbb-logo-min.png') }}" alt="Better Business Bureau"
+                        class="max-h-full max-w-full">
                 </div>
-
-                <!-- Association 2 -->
-                <div
-                    class="bg-white rounded-lg p-6 flex items-center justify-center shadow-sm hover:shadow-md transition-shadow duration-300">
-                    <img src="{{ asset('associate/caps-cert-logo-min.png') }}" alt="Association 2" class="max-h-24 w-auto">
+                <div class="partner-logo p-8 w-64 h-64 flex items-center justify-center">
+                    <img src="{{ asset('associate/caps-cert-logo-min.png') }}" alt="CAPS Certification"
+                        class="max-h-full max-w-full">
                 </div>
-
-                <!-- Association 3 -->
-                <div
-                    class="bg-white rounded-lg p-6 flex items-center justify-center shadow-sm hover:shadow-md transition-shadow duration-300">
-                    <img src="{{ asset('associate/nmeda-logo-min.png') }}" alt="Association 3" class="max-h-24 w-auto">
+                <div class="partner-logo p-8 w-64 h-64 flex items-center justify-center">
+                    <img src="{{ asset('associate/nmeda-logo-min.png') }}" alt="NMEDA" class="max-h-full max-w-full">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- What We Do Section -->
-    <section class="py-16 bg-gray-50">
+    <section class="py-24 bg-white">
         <div class="container mx-auto px-4">
-            <div class="text-center mb-12">
+            <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">What We Do</h2>
             </div>
 
-            <!-- Slider Container -->
-            <div class="max-w-full mx-auto mb-12 relative">
+            <!-- Slider Container with Background Pattern -->
+            <div class="max-w-full mx-auto mb-20 relative">
+                <!-- Background Pattern -->
+                <div class="absolute inset-0 pointer-events-none opacity-5">
+                    <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                        <pattern id="pattern-circles" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse"
+                            patternContentUnits="userSpaceOnUse">
+                            <circle cx="25" cy="25" r="3" fill="var(--primary)" opacity="0.9"></circle>
+                        </pattern>
+                        <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern-circles)"></rect>
+                    </svg>
+                </div>
+
                 <!-- Swiper Slider -->
-                <div class="swiper-container what-we-do-slider overflow-hidden rounded-lg">
+                <div class="swiper-container what-we-do-slider overflow-hidden rounded-xl">
                     <div class="swiper-wrapper">
                         <!-- Slide 1 -->
                         <div class="swiper-slide">
                             <div
-                                class="relative rounded-xl overflow-hidden transition-all duration-300 shadow-lg bg-gray-100 h-80 md:h-[400px]">
+                                class="relative rounded-xl overflow-hidden transition-all duration-300 shadow-xl h-80 md:h-[500px]">
                                 <img src="{{ asset('h-slider/carousel-img-1-min.png') }}" alt="Home Accessibility Solutions"
-                                    class="w-full h-full object-contain">
+                                    class="w-full h-full object-cover">
                                 <div
                                     class="slide-overlay absolute inset-0 bg-gradient-to-r from-black/70 to-black/40 transition-opacity duration-300">
                                 </div>
                             </div>
-                        </div>
-
-                        <!-- Slide 2 -->
+                        </div> <!-- Slide 2 -->
                         <div class="swiper-slide">
                             <div
-                                class="relative rounded-xl overflow-hidden transition-all duration-300 shadow-lg bg-gray-100 h-80 md:h-[400px]">
+                                class="relative rounded-xl overflow-hidden transition-all duration-300 shadow-xl h-80 md:h-[500px]">
                                 <img src="{{ asset('h-slider/Carousel-item-4-min.jpg') }}" alt="Bathroom Modifications"
-                                    class="w-full h-full object-contain">
+                                    class="w-full h-full object-cover">
                                 <div
                                     class="slide-overlay absolute inset-0 bg-gradient-to-r from-black/70 to-black/40 transition-opacity duration-300">
                                 </div>
                             </div>
-                        </div>
-
-                        <!-- Slide 3 -->
+                        </div> <!-- Slide 3 -->
                         <div class="swiper-slide">
                             <div
-                                class="relative rounded-xl overflow-hidden transition-all duration-300 shadow-lg bg-gray-100 h-80 md:h-[400px]">
+                                class="relative rounded-xl overflow-hidden transition-all duration-300 shadow-xl h-80 md:h-[500px]">
                                 <img src="{{ asset('h-slider/Carousel-item-3-min.jpg') }}" alt="Mobility Solutions"
-                                    class="w-full h-full object-contain">
+                                    class="w-full h-full object-cover">
                                 <div
                                     class="slide-overlay absolute inset-0 bg-gradient-to-r from-black/70 to-black/40 transition-opacity duration-300">
                                 </div>
                             </div>
-                        </div>
-
-                        <!-- Slide 4 -->
+                        </div> <!-- Slide 4 -->
                         <div class="swiper-slide">
                             <div
-                                class="relative rounded-xl overflow-hidden transition-all duration-300 shadow-lg bg-gray-100 h-80 md:h-[400px]">
+                                class="relative rounded-xl overflow-hidden transition-all duration-300 shadow-xl h-80 md:h-[500px]">
                                 <img src="{{ asset('h-slider/Carousel-item-2-min.jpg') }}" alt="Home Safety Assessments"
-                                    class="w-full h-full object-contain">
+                                    class="w-full h-full object-cover">
                                 <div
                                     class="slide-overlay absolute inset-0 bg-gradient-to-r from-black/70 to-black/40 transition-opacity duration-300">
                                 </div>
                             </div>
-                        </div>
-                        <!-- Slide 5 -->
+                        </div> <!-- Slide 5 -->
                         <div class="swiper-slide">
                             <div
-                                class="relative rounded-xl overflow-hidden transition-all duration-300 shadow-lg bg-gray-100 h-80 md:h-[400px]">
+                                class="relative rounded-xl overflow-hidden transition-all duration-300 shadow-xl h-80 md:h-[500px]">
                                 <img src="{{ asset('h-slider/Carousel-item-5-min.jpg') }}" alt="Home Safety Assessments"
-                                    class="w-full h-full object-contain">
+                                    class="w-full h-full object-cover">
                                 <div
                                     class="slide-overlay absolute inset-0 bg-gradient-to-r from-black/70 to-black/40 transition-opacity duration-300">
                                 </div>
@@ -774,28 +1245,28 @@
 
                     <!-- Navigation Buttons -->
                     <div
-                        class="swiper-button-next absolute right-4 md:right-10 top-1/2 transform -translate-y-1/2 z-10 bg-white text-primary rounded-full w-10 h-10 md:w-14 md:h-14 flex items-center justify-center shadow-md cursor-pointer">
+                        class="swiper-button-next absolute right-4 md:right-10 top-1/2 transform -translate-y-1/2 z-10 bg-white text-primary rounded-full w-12 h-12 md:w-16 md:h-16 flex items-center justify-center shadow-lg cursor-pointer hover:bg-primary hover:text-white transition-all">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                            class="w-5 h-5 md:w-7 md:h-7">
+                            class="w-6 h-6 md:w-8 md:h-8">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                         </svg>
                     </div>
                     <div
-                        class="swiper-button-prev absolute left-4 md:left-10 top-1/2 transform -translate-y-1/2 z-10 bg-white text-primary rounded-full w-10 h-10 md:w-14 md:h-14 flex items-center justify-center shadow-md cursor-pointer">
+                        class="swiper-button-prev absolute left-4 md:left-10 top-1/2 transform -translate-y-1/2 z-10 bg-white text-primary rounded-full w-12 h-12 md:w-16 md:h-16 flex items-center justify-center shadow-lg cursor-pointer hover:bg-primary hover:text-white transition-all">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                            class="w-5 h-5 md:w-7 md:h-7">
+                            class="w-6 h-6 md:w-8 md:h-8">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
                         </svg>
                     </div>
 
                     <!-- Pagination -->
-                    <div class="swiper-pagination bottom-4 absolute z-10"></div>
+                    <div class="swiper-pagination bottom-6 absolute z-10"></div>
                 </div>
             </div>
 
             <!-- Description -->
             <div class="max-w-3xl mx-auto text-center">
-                <p class="text-lg text-gray-700 mb-8">
+                <p class="text-lg text-gray-700 mb-10 leading-relaxed">
                     At Home2stay, we're dedicated to transforming homes into accessible, safe, and comfortable environments
                     for people of all ages and abilities. Our comprehensive range of accessibility solutions and
                     modifications are designed to promote independence, enhance quality of life, and allow individuals to
@@ -804,8 +1275,7 @@
                     specific needs and preferences.
                 </p>
 
-                <a href="/about"
-                    class="inline-flex items-center px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-primary-dark transition duration-300">
+                <a href="/about" class="btn-primary inline-flex items-center px-8 py-3 rounded-lg text-lg">
                     Learn More About Home2stay
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd"
@@ -818,178 +1288,129 @@
     </section>
 
     <!-- Testimonials Section -->
-    <section class="py-16 bg-white">
+    <section class="py-24 bg-gray-50">
         <div class="container mx-auto px-4">
-            <div class="text-center mb-12">
+            <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">What Our Clients Say</h2>
             </div>
 
-            <!-- Testimonial Slider -->
-            <div class="max-w-5xl mx-auto relative">
-                <div class="swiper-container testimonial-slider overflow-hidden">
-                    <div class="swiper-wrapper">
-                        <!-- Testimonial 1 -->
-                        <div class="swiper-slide">
-                            <div class="bg-gray-50 rounded-xl p-8 md:p-10 shadow-lg">
-                                <div class="flex flex-col items-center mb-6">
-                                    <!-- Client Avatar -->
-                                    <div
-                                        class="w-20 h-20 bg-gray-200 rounded-full flex items-center justify-center mb-4 border-4 border-white shadow-md">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                            class="w-12 h-12 text-gray-500">
-                                            <path fill-rule="evenodd"
-                                                d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
-                                                clip-rule="evenodd" />
-                                        </svg>
+            <!-- Side by Side Layout -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Image Side -->
+                <div class="relative rounded-xl overflow-hidden shadow-xl h-[600px]">
+                    <img src="{{ asset('h-slider/carousel-img-1-min.png') }}" alt="Happy Client" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-r from-primary/70 to-primary/40"></div>
+                </div>
+
+                <!-- Testimonials Side -->
+                <div class="max-w-2xl mx-auto lg:mx-0">
+                    <div class="swiper-container testimonial-slider overflow-hidden">
+                        <div class="swiper-wrapper">
+                            <!-- Testimonial 1 -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-card">
+                                    <div class="quotation">"</div>
+                                    <div class="flex flex-col items-center mb-8">
+                                        <!-- Client Avatar -->
+                                        <div class="avatar">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12 text-gray-500">
+                                                <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clip-rule="evenodd" />
+                                            </svg>
+                                        </div>
+
+                                        <!-- Client Name -->
+                                        <h4 class="text-xl font-bold text-gray-900 mt-4 mb-2">H. Hashimoto</h4>
+
+                                        <!-- Star Rating -->
+                                        <div class="flex space-x-1 text-yellow-400 mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                            </svg>
+                                        </div>
                                     </div>
 
-                                    <!-- Client Name -->
-                                    <h4 class="text-xl font-bold text-gray-900 mb-2">H. Hashimoto</h4>
-
-                                    <!-- Star Rating -->
-                                    <div class="flex space-x-1 text-yellow-400 mb-2">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                            class="w-5 h-5">
-                                            <path fill-rule="evenodd"
-                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                            class="w-5 h-5">
-                                            <path fill-rule="evenodd"
-                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                            class="w-5 h-5">
-                                            <path fill-rule="evenodd"
-                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                            class="w-5 h-5">
-                                            <path fill-rule="evenodd"
-                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                            class="w-5 h-5">
-                                            <path fill-rule="evenodd"
-                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                clip-rule="evenodd" />
-                                        </svg>
+                                    <!-- Testimonial Text -->
+                                    <div class="text-gray-700 text-lg leading-relaxed text-center px-8">
+                                        <p>I had 3 safety bars installed by Home2stay and the gentleman did a great job. He was very courteous and professional. He made sure the bars were exactly where I needed them before the installation. My appointment was between 10AM-11AM and the gentleman arrived at +9:50AM and was finished by 10:30AM.</p>
                                     </div>
                                 </div>
+                            </div>
 
-                                <!-- Quotation Mark -->
-                                <div class="absolute top-8 right-8 text-primary opacity-20">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"
-                                        fill="currentColor">
-                                        <path
-                                            d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
-                                    </svg>
-                                </div>
+                            <!-- Testimonial 2 -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-card">
+                                    <div class="quotation">"</div>
+                                    <div class="flex flex-col items-center mb-8">
+                                        <!-- Client Avatar -->
+                                        <div class="avatar">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12 text-gray-500">
+                                                <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clip-rule="evenodd" />
+                                            </svg>
+                                        </div>
 
-                                <!-- Testimonial Text -->
-                                <div class="text-gray-700 text-lg leading-relaxed">
-                                    <p>I had 3 safety bars installed by Home2stay and the gentleman did a great job. He was
-                                        very courteous and professional. He made sure the bars were exactly where I needed
-                                        them before the installation. My appointment was between 10AM-11AM and the gentleman
-                                        arrived at +9:50AM and was finished by 10:30AM.</p>
+                                        <!-- Client Name -->
+                                        <h4 class="text-xl font-bold text-gray-900 mt-4 mb-2">B. Taylor</h4>
+
+                                        <!-- Star Rating -->
+                                        <div class="flex space-x-1 text-yellow-400 mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                            </svg>
+                                        </div>
+                                    </div>
+
+                                    <!-- Testimonial Text -->
+                                    <div class="text-gray-700 text-lg leading-relaxed text-center px-8">
+                                        <p>Home2stay was not only prompt in replying to my inquiry and quote request, they were very attentive and courteous every time we contacted them. We had 2 grab bars in the bathroom installed and a long handrail installed with care and attention to detail. Our experience with Home2stay was wonderful.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Testimonial 2 -->
-                        <div class="swiper-slide">
-                            <div class="bg-gray-50 rounded-xl p-8 md:p-10 shadow-lg">
-                                <div class="flex flex-col items-center mb-6">
-                                    <!-- Client Avatar -->
-                                    <div
-                                        class="w-20 h-20 bg-gray-200 rounded-full flex items-center justify-center mb-4 border-4 border-white shadow-md">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                            class="w-12 h-12 text-gray-500">
-                                            <path fill-rule="evenodd"
-                                                d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                    </div>
+                        <!-- Pagination -->
+                        <div class="swiper-pagination mt-8"></div>
 
-                                    <!-- Client Name -->
-                                    <h4 class="text-xl font-bold text-gray-900 mb-2">B. Taylor</h4>
-
-                                    <!-- Star Rating -->
-                                    <div class="flex space-x-1 text-yellow-400 mb-2">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                            class="w-5 h-5">
-                                            <path fill-rule="evenodd"
-                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                            class="w-5 h-5">
-                                            <path fill-rule="evenodd"
-                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                            class="w-5 h-5">
-                                            <path fill-rule="evenodd"
-                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                            class="w-5 h-5">
-                                            <path fill-rule="evenodd"
-                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                            class="w-5 h-5">
-                                            <path fill-rule="evenodd"
-                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                    </div>
-                                </div>
-
-                                <!-- Quotation Mark -->
-                                <div class="absolute top-8 right-8 text-primary opacity-20">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"
-                                        fill="currentColor">
-                                        <path
-                                            d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
-                                    </svg>
-                                </div>
-
-                                <!-- Testimonial Text -->
-                                <div class="text-gray-700 text-lg leading-relaxed">
-                                    <p>Home2stay was not only prompt in replying to my inquiry and quote request, they were
-                                        very attentive and courteous every time we contacted them. We had 2 grab bars in the
-                                        bathroom installed and a long handrail installed with care and attention to detail.
-                                        Our experience with Home2stay was wonderful.</p>
-                                </div>
-                            </div>
+                        <!-- Navigation Buttons -->
+                        <div class="swiper-button-next absolute -right-2 md:right-2 top-1/2 transform -translate-y-1/2 z-10 bg-white text-primary rounded-full w-12 h-12 md:w-14 md:h-14 flex items-center justify-center shadow-lg cursor-pointer border border-gray-100 hover:bg-primary hover:text-white transition-all">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                            </svg>
                         </div>
-                    </div>
-
-                    <!-- Pagination -->
-                    <div class="swiper-pagination mt-8"></div>
-
-                    <!-- Navigation Buttons -->
-                    <div
-                        class="swiper-button-next absolute -right-2 md:right-2 top-1/2 transform -translate-y-1/2 z-10 bg-white text-primary rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center shadow-md cursor-pointer border border-gray-100">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                            class="w-5 h-5">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                        </svg>
-                    </div>
-                    <div
-                        class="swiper-button-prev absolute -left-2 md:left-2 top-1/2 transform -translate-y-1/2 z-10 bg-white text-primary rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center shadow-md cursor-pointer border border-gray-100">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                            class="w-5 h-5">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-                        </svg>
+                        <div class="swiper-button-prev absolute -left-2 md:left-2 top-1/2 transform -translate-y-1/2 z-10 bg-white text-primary rounded-full w-12 h-12 md:w-14 md:h-14 flex items-center justify-center shadow-lg cursor-pointer border border-gray-100 hover:bg-primary hover:text-white transition-all">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                            </svg>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -997,395 +1418,274 @@
     </section>
 
     <!-- Repair Request Form Section -->
-    <section class="py-16 bg-gray-50">
-        <div class="container mx-auto px-4 max-w-4xl">
-            <div class="text-center mb-12">
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">Schedule a Repair Today</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">Getting support is quick and easy. Complete this form or contact
-                    a Home2stay location for availability, additional details, and pricing.</p>
+                <p class="text-gray-600 max-w-2xl mx-auto">Getting support is quick and easy. Complete this form or contact a Home2stay location for availability, additional details, and pricing.</p>
             </div>
 
-            <!-- Multi-step Form Container -->
-            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-                <!-- Form Progress Indicator -->
-                <div class="bg-gray-100 py-4 px-6">
-                    <div class="flex justify-between">
-                        <div class="flex items-center">
-                            <div id="step-indicator-1"
-                                class="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center font-bold">
-                                1</div>
-                            <div class="ml-2 text-sm font-medium">Repair Details</div>
-                        </div>
-                        <div class="flex-1 mx-4 hidden md:block">
-                            <div class="h-1 bg-gray-300 relative top-4">
-                                <div id="progress-bar" class="h-1 bg-primary w-0 transition-all duration-300"></div>
-                            </div>
-                        </div>
-                        <div class="flex items-center">
-                            <div id="step-indicator-2"
-                                class="w-8 h-8 rounded-full bg-gray-300 text-gray-600 flex items-center justify-center font-bold">
-                                2</div>
-                            <div class="ml-2 text-sm font-medium text-gray-500">Your Info</div>
-                        </div>
-                        <div class="flex-1 mx-4 hidden md:block">
-                            <div class="h-1 bg-gray-300 relative top-4"></div>
-                        </div>
-                        <div class="flex items-center">
-                            <div id="step-indicator-3"
-                                class="w-8 h-8 rounded-full bg-gray-300 text-gray-600 flex items-center justify-center font-bold">
-                                3</div>
-                            <div class="ml-2 text-sm font-medium text-gray-500">Contact</div>
-                        </div>
-                        <div class="flex-1 mx-4 hidden md:block">
-                            <div class="h-1 bg-gray-300 relative top-4"></div>
-                        </div>
-                        <div class="flex items-center">
-                            <div id="step-indicator-4"
-                                class="w-8 h-8 rounded-full bg-gray-300 text-gray-600 flex items-center justify-center font-bold">
-                                4</div>
-                            <div class="ml-2 text-sm font-medium text-gray-500">Summary</div>
-                        </div>
-                    </div>
+            <!-- Side by Side Layout -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Image Side -->
+                <div class="relative rounded-xl overflow-hidden shadow-xl h-[600px]">
+                    <img src="{{ asset('h-slider/Carousel-item-2-min.jpg') }}" alt="Repair Service" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-r from-primary/70 to-primary/40"></div>
                 </div>
 
-                <!-- Form Content -->
-                <form id="repair-form" class="p-6 md:p-8">
-                    <!-- Step 1: Repair Details -->
-                    <div id="step-1" class="form-step">
-                        <h3 class="text-xl font-bold mb-6">Step 1 of 4 – What are you looking to repair?</h3>
-
-                        <div class="mb-6">
-                            <label for="product" class="block text-sm font-medium text-gray-700 mb-1">Enter your
-                                product*</label>
-                            <input type="text" id="product" name="product"
-                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                                required>
-                        </div>
-
-                        <div class="mb-6">
-                            <label for="repair-details" class="block text-sm font-medium text-gray-700 mb-1">Repair or
-                                maintenance inquiry details*</label>
-                            <textarea id="repair-details" name="repair-details" rows="3"
-                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                                required></textarea>
-                        </div>
-
-                        <div class="mb-6">
-                            <label class="block text-sm font-medium text-gray-700 mb-1">Select a location for the
-                                service*</label>
-                            <div class="space-y-2">
-                                <label class="flex items-center">
-                                    <input type="radio" name="service-location" value="motion-location" class="mr-2"
-                                        checked>
-                                    <span>At a Home2stay location</span>
-                                </label>
-                                <label class="flex items-center">
-                                    <input type="radio" name="service-location" value="home-facility" class="mr-2">
-                                    <span>At your home / care facility</span>
-                                </label>
-                                <label class="flex items-center">
-                                    <input type="radio" name="service-location" value="virtual" class="mr-2">
-                                    <span>Virtual appointment; if available</span>
-                                </label>
+                <!-- Form Side -->
+                <div class="bg-white rounded-xl shadow-xl overflow-hidden">
+                    <!-- Form Progress Indicator -->
+                    <div class="bg-gray-100 py-6 px-8">
+                        <div class="form-progress">
+                            <div class="progress-step active">
+                                <div class="step-number">1</div>
+                                <div class="step-label">Repair Details</div>
                             </div>
-                        </div>
-
-                        <div class="mb-6">
-                            <label class="block text-sm font-medium text-gray-700 mb-1">Did you purchase the product from
-                                Home2stay?*</label>
-                            <div class="space-y-2">
-                                <label class="flex items-center">
-                                    <input type="radio" name="purchased-from-motion" value="yes" class="mr-2" checked>
-                                    <span>Yes</span>
-                                </label>
-                                <label class="flex items-center">
-                                    <input type="radio" name="purchased-from-motion" value="no" class="mr-2">
-                                    <span>No</span>
-                                </label>
+                            <div class="progress-step">
+                                <div class="step-number">2</div>
+                                <div class="step-label">Your Info</div>
                             </div>
-                        </div>
-
-                        <div class="flex justify-end">
-                            <button type="button"
-                                class="next-step bg-primary hover:bg-primary-dark text-white px-6 py-2 rounded font-medium transition duration-300 flex items-center">
-                                Next
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20"
-                                    fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </button>
+                            <div class="progress-step">
+                                <div class="step-number">3</div>
+                                <div class="step-label">Contact</div>
+                            </div>
+                            <div class="progress-step">
+                                <div class="step-number">4</div>
+                                <div class="step-label">Summary</div>
+                            </div>
                         </div>
                     </div>
 
-                    <!-- Step 2: Client Information -->
-                    <div id="step-2" class="form-step hidden">
-                        <h3 class="text-xl font-bold mb-6">Step 2 of 4 - Can we get your information?</h3>
+                    <!-- Form Content -->
+                    <form id="repair-form" class="p-8 md:p-10 form-step-content">
+                        <!-- Step 1: Repair Details -->
+                        <div id="step-1" class="form-step">
+                            <h3 class="text-xl font-bold mb-8">Step 1 of 4 – What are you looking to repair?</h3>
+                            <div class="mb-6"> <label for="product" class="block text-sm font-medium text-gray-700 mb-2">Enter your product*</label> <input type="text" id="product" name="product" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-colors duration-200" required placeholder="E.g., Bathroom grab bar, Stairlift, etc."> </div>
+                            <div class="mb-6"> <label for="repair-details" class="block text-sm font-medium text-gray-700 mb-2">Repair or maintenance inquiry details*</label> <textarea id="repair-details" name="repair-details" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-colors duration-200" required placeholder="Please describe the issue you're experiencing..."></textarea> </div>
+                            <div class="mb-8"> <label class="block text-sm font-medium text-gray-700 mb-3">Select a location for the service*</label>
+                                <div class="space-y-3"> <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200 cursor-pointer">
+                                    <input type="radio" name="service-location" value="home2stay-location" class="mr-3 h-4 w-4 text-primary focus:ring-primary" checked> <span>At a Home2stay location</span> </label> <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200 cursor-pointer">
+                                    <input type="radio" name="service-location" value="home-facility" class="mr-3 h-4 w-4 text-primary focus:ring-primary"> <span>At your home / care facility</span> </label> <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200 cursor-pointer">
+                                    <input type="radio" name="service-location" value="virtual" class="mr-3 h-4 w-4 text-primary focus:ring-primary"> <span>Virtual appointment; if available</span> </label> </div>
+                            </div>
+                            <div class="mb-8"> <label class="block text-sm font-medium text-gray-700 mb-3">Did you purchase the product from Home2stay?*</label>
+                                <div class="flex space-x-6"> <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200 cursor-pointer">
+                                    <input type="radio" name="purchased-from-home2stay" value="yes" class="mr-3 h-4 w-4 text-primary focus:ring-primary" checked> <span>Yes</span>
+                                </label> <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200 cursor-pointer">
+                                    <input type="radio" name="purchased-from-home2stay" value="no" class="mr-3 h-4 w-4 text-primary focus:ring-primary"> <span>No</span> </label>
+                                </div>
+                            </div>
+                            <div class="flex justify-end"> <button type="button" class="next-step bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg font-medium transition duration-300 flex items-center shadow-md hover:shadow-lg">
+                                Next <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /> </button> </div>
+                        </div>
 
-                        <!-- Summary of previous step -->
-                        <div class="mb-6 p-4 bg-gray-50 rounded-lg">
-                            <div class="flex justify-between items-center mb-2">
-                                <h4 class="font-medium">What are you looking to repair?</h4>
-                                <button type="button"
-                                    class="go-to-step text-primary hover:text-primary-dark text-sm font-medium"
-                                    data-step="1">
-                                    Edit
+                        <!-- Step 2: Client Information -->
+                        <div id="step-2" class="form-step hidden">
+                            <h3 class="text-xl font-bold mb-6">Step 2 of 4 - Can we get your information?</h3>
+
+                            <!-- Summary of previous step -->
+                            <div class="mb-6 p-4 bg-gray-50 rounded-lg">
+                                <div class="flex justify-between items-center mb-2">
+                                    <h4 class="font-medium">What are you looking to repair?</h4>
+                                    <button type="button" class="go-to-step text-primary hover:text-primary-dark text-sm font-medium" data-step="1">
+                                        Edit
+                                    </button>
+                                </div>
+                                <div id="step1-summary" class="text-sm text-gray-600 space-y-1">
+                                    <!-- Will be filled by JavaScript -->
+                                </div>
+                            </div>
+
+                            <div class="mb-6">
+                                <label class="block text-sm font-medium text-gray-700 mb-1">Who are you?*</label>
+                                <div class="space-y-2">
+                                    <label class="flex items-center">
+                                        <input type="radio" name="client-type" value="new" class="mr-2" checked>
+                                        <span>I am a new client</span>
+                                    </label>
+                                    <label class="flex items-center">
+                                        <input type="radio" name="client-type" value="existing" class="mr-2">
+                                        <span>I am an existing client</span>
+                                    </label>
+                                    <label class="flex items-center">
+                                        <input type="radio" name="client-type" value="representing" class="mr-2">
+                                        <span>I am representing a client</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                                <div>
+                                    <label for="first-name" class="block text-sm font-medium text-gray-700 mb-1">First name*</label>
+                                    <input type="text" id="first-name" name="first-name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                                </div>
+                                <div>
+                                    <label for="last-name" class="block text-sm font-medium text-gray-700 mb-1">Last name*</label>
+                                    <input type="text" id="last-name" name="last-name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                                </div>
+                            </div>
+
+                            <div class="mb-6">
+                                <label for="location" class="block text-sm font-medium text-gray-700 mb-1">Select a location near you*</label>
+                                <select id="location" name="location" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                                    <option value="">Choose a location</option>
+                                    <option value="Barrie">Barrie</option>
+                                    <option value="Toronto">Toronto</option>
+                                    <option value="Vancouver">Vancouver</option>
+                                    <option value="Calgary">Calgary</option>
+                                    <option value="Montreal">Montreal</option>
+                                </select>
+                            </div>
+
+                            <div class="flex justify-between"> <button type="button" class="prev-step bg-gray-200 hover:bg-gray-300 text-gray-800 px-6 py-3 rounded-lg font-medium transition duration-300 flex items-center shadow-md hover:shadow-lg">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" /> Back </button> <button type="button" class="next-step bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg font-medium transition duration-300 flex items-center shadow-md hover:shadow-lg">
+                                Next <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /> </button> </div>
+                        </div>
+
+                        <!-- Step 3: Contact Information -->
+                        <div id="step-3" class="form-step hidden">
+                            <h3 class="text-xl font-bold mb-6">Step 3 of 4 - How can we contact you?</h3>
+
+                            <!-- Summary of previous steps -->
+                            <div class="mb-6 p-4 bg-gray-50 rounded-lg">
+                                <div class="flex justify-between items-center mb-2">
+                                    <h4 class="font-medium">What are you looking to repair?</h4>
+                                    <button type="button" class="go-to-step text-primary hover:text-primary-dark text-sm font-medium" data-step="1">
+                                        Edit
+                                    </button>
+                                </div>
+                                <div id="step1-summary-2" class="text-sm text-gray-600 space-y-1 mb-4">
+                                    <!-- Will be filled by JavaScript -->
+                                </div>
+
+                                <div class="flex justify-between items-center mb-2">
+                                    <h4 class="font-medium">Can we get your information?</h4>
+                                    <button type="button" class="go-to-step text-primary hover:text-primary-dark text-sm font-medium" data-step="2">
+                                        Edit
+                                    </button>
+                                </div>
+                                <div id="step2-summary" class="text-sm text-gray-600 space-y-1">
+                                    <!-- Will be filled by JavaScript -->
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                                <div>
+                                    <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Enter phone number*</label>
+                                    <input type="tel" id="phone" name="phone" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                                </div>
+                                <div>
+                                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Enter email*</label>
+                                    <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                                </div>
+                            </div>
+
+                            <div class="mb-6">
+                                <label class="block text-sm font-medium text-gray-700 mb-1">What is your preferred method of contact?*</label>
+                                <div class="space-y-2">
+                                    <label class="flex items-center">
+                                        <input type="radio" name="contact-method" value="phone" class="mr-2" checked>
+                                        <span>Via phone call</span>
+                                    </label>
+                                    <label class="flex items-center">
+                                        <input type="radio" name="contact-method" value="email" class="mr-2">
+                                        <span>Via email</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="mb-6">
+                                <label class="block text-sm font-medium text-gray-700 mb-1">Marketing communications consent*</label>
+                                <div class="space-y-2">
+                                    <label class="flex items-start">
+                                        <input type="checkbox" name="marketing-consent" class="mr-2 mt-1">
+                                        <span class="text-sm text-gray-600">Yes, I would like to receive communications from Home2stay, including product information, educational opportunities and promotional offers. You can unsubscribe at any time. View our privacy & security policy for details.</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="mb-6 text-xs text-gray-500">
+                                <p>By clicking "Review Form," you confirm you have read and agree to Home2stay's Privacy Policy and Terms of Service. Data collected is shared with a third-party processor for the purpose of reporting and analytics. Data collected will not be sold. Alternatively, you may contact a Home2stay location to provide your information by phone or email.</p>
+                            </div>
+
+                            <div class="flex justify-between">
+                                <button type="button" class="prev-step bg-gray-300 hover:bg-gray-400 text-gray-800 px-6 py-2 rounded font-medium transition duration-300 flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                    </svg>
+                                    Back
+                                </button>
+                                <button type="button" class="next-step bg-primary hover:bg-primary-dark text-white px-6 py-2 rounded font-medium transition duration-300 flex items-center">
+                                    Review Form
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                    </svg>
                                 </button>
                             </div>
-                            <div id="step1-summary" class="text-sm text-gray-600 space-y-1">
-                                <!-- Will be filled by JavaScript -->
+                        </div>
+
+                        <!-- Step 4: Summary and Submit -->
+                        <div id="step-4" class="form-step hidden">
+                            <h3 class="text-xl font-bold mb-6">Step 4 of 4 - Summary</h3>
+
+                            <!-- Summary of all steps -->
+                            <div class="mb-6 p-4 bg-gray-50 rounded-lg">
+                                <div class="flex justify-between items-center mb-2">
+                                    <h4 class="font-medium">What are you looking to repair?</h4>
+                                    <button type="button" class="go-to-step text-primary hover:text-primary-dark text-sm font-medium" data-step="1">
+                                        Edit
+                                    </button>
+                                </div>
+                                <div id="step1-summary-3" class="text-sm text-gray-600 space-y-1 mb-4">
+                                    <!-- Will be filled by JavaScript -->
+                                </div>
+
+                                <div class="flex justify-between items-center mb-2">
+                                    <h4 class="font-medium">Can we get your information?</h4>
+                                    <button type="button" class="go-to-step text-primary hover:text-primary-dark text-sm font-medium" data-step="2">
+                                        Edit
+                                    </button>
+                                </div>
+                                <div id="step2-summary-2" class="text-sm text-gray-600 space-y-1 mb-4">
+                                    <!-- Will be filled by JavaScript -->
+                                </div>
+
+                                <div class="flex justify-between items-center mb-2">
+                                    <h4 class="font-medium">How can we contact you?</h4>
+                                    <button type="button" class="go-to-step text-primary hover:text-primary-dark text-sm font-medium" data-step="3">
+                                        Edit
+                                    </button>
+                                </div>
+                                <div id="step3-summary" class="text-sm text-gray-600 space-y-1">
+                                    <!-- Will be filled by JavaScript -->
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="mb-6">
-                            <label class="block text-sm font-medium text-gray-700 mb-1">Who are you?*</label>
-                            <div class="space-y-2">
-                                <label class="flex items-center">
-                                    <input type="radio" name="client-type" value="new" class="mr-2" checked>
-                                    <span>I am a new client</span>
-                                </label>
-                                <label class="flex items-center">
-                                    <input type="radio" name="client-type" value="existing" class="mr-2">
-                                    <span>I am an existing client</span>
-                                </label>
-                                <label class="flex items-center">
-                                    <input type="radio" name="client-type" value="representing" class="mr-2">
-                                    <span>I am representing a client</span>
-                                </label>
-                            </div>
-                        </div>
-
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                            <div>
-                                <label for="first-name" class="block text-sm font-medium text-gray-700 mb-1">First
-                                    name*</label>
-                                <input type="text" id="first-name" name="first-name"
-                                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                                    required>
-                            </div>
-                            <div>
-                                <label for="last-name" class="block text-sm font-medium text-gray-700 mb-1">Last
-                                    name*</label>
-                                <input type="text" id="last-name" name="last-name"
-                                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                                    required>
-                            </div>
-                        </div>
-
-                        <div class="mb-6">
-                            <label for="location" class="block text-sm font-medium text-gray-700 mb-1">Select a location
-                                near you*</label>
-                            <select id="location" name="location"
-                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                                required>
-                                <option value="">Choose a location</option>
-                                <option value="Barrie">Barrie</option>
-                                <option value="Toronto">Toronto</option>
-                                <option value="Vancouver">Vancouver</option>
-                                <option value="Calgary">Calgary</option>
-                                <option value="Montreal">Montreal</option>
-                            </select>
-                        </div>
-
-                        <div class="flex justify-between">
-                            <button type="button"
-                                class="prev-step bg-gray-300 hover:bg-gray-400 text-gray-800 px-6 py-2 rounded font-medium transition duration-300 flex items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20"
-                                    fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                Back
-                            </button>
-                            <button type="button"
-                                class="next-step bg-primary hover:bg-primary-dark text-white px-6 py-2 rounded font-medium transition duration-300 flex items-center">
-                                Next
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20"
-                                    fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-
-                    <!-- Step 3: Contact Information -->
-                    <div id="step-3" class="form-step hidden">
-                        <h3 class="text-xl font-bold mb-6">Step 3 of 4 - How can we contact you?</h3>
-
-                        <!-- Summary of previous steps -->
-                        <div class="mb-6 p-4 bg-gray-50 rounded-lg">
-                            <div class="flex justify-between items-center mb-2">
-                                <h4 class="font-medium">What are you looking to repair?</h4>
-                                <button type="button"
-                                    class="go-to-step text-primary hover:text-primary-dark text-sm font-medium"
-                                    data-step="1">
-                                    Edit
+                            <div class="flex justify-between">
+                                <button type="button" class="prev-step bg-gray-300 hover:bg-gray-400 text-gray-800 px-6 py-2 rounded font-medium transition duration-300 flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                    </svg>
+                                    Back
+                                </button>
+                                <button type="submit" class="bg-primary hover:bg-primary-dark text-white px-8 py-2 rounded font-medium transition duration-300">
+                                    Submit
                                 </button>
                             </div>
-                            <div id="step1-summary-2" class="text-sm text-gray-600 space-y-1 mb-4">
-                                <!-- Will be filled by JavaScript -->
-                            </div>
-
-                            <div class="flex justify-between items-center mb-2">
-                                <h4 class="font-medium">Can we get your information?</h4>
-                                <button type="button"
-                                    class="go-to-step text-primary hover:text-primary-dark text-sm font-medium"
-                                    data-step="2">
-                                    Edit
-                                </button>
-                            </div>
-                            <div id="step2-summary" class="text-sm text-gray-600 space-y-1">
-                                <!-- Will be filled by JavaScript -->
-                            </div>
                         </div>
-
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                            <div>
-                                <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Enter phone
-                                    number*</label>
-                                <input type="tel" id="phone" name="phone"
-                                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                                    required>
-                            </div>
-                            <div>
-                                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Enter email*</label>
-                                <input type="email" id="email" name="email"
-                                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                                    required>
-                            </div>
-                        </div>
-
-                        <div class="mb-6">
-                            <label class="block text-sm font-medium text-gray-700 mb-1">What is your preferred method of
-                                contact?*</label>
-                            <div class="space-y-2">
-                                <label class="flex items-center">
-                                    <input type="radio" name="contact-method" value="phone" class="mr-2" checked>
-                                    <span>Via phone call</span>
-                                </label>
-                                <label class="flex items-center">
-                                    <input type="radio" name="contact-method" value="email" class="mr-2">
-                                    <span>Via email</span>
-                                </label>
-                            </div>
-                        </div>
-
-                        <div class="mb-6">
-                            <label class="block text-sm font-medium text-gray-700 mb-1">Marketing communications
-                                consent*</label>
-                            <div class="space-y-2">
-                                <label class="flex items-start">
-                                    <input type="checkbox" name="marketing-consent" class="mr-2 mt-1">
-                                    <span class="text-sm text-gray-600">Yes, I would like to receive communications from
-                                        Home2stay, including product information, educational opportunities and promotional
-                                        offers. You can unsubscribe at any time. View our privacy & security policy for
-                                        details.</span>
-                                </label>
-                            </div>
-                        </div>
-
-                        <div class="mb-6 text-xs text-gray-500">
-                            <p>By clicking "Review Form," you confirm you have read and agree to Home2stay's Privacy Policy
-                                and Terms of Service. Data collected is shared with a third-party processor for the purpose
-                                of reporting and analytics. Data collected will not be sold. Alternatively, you may contact
-                                a Home2stay location to provide your information by phone or email.</p>
-                        </div>
-
-                        <div class="flex justify-between">
-                            <button type="button"
-                                class="prev-step bg-gray-300 hover:bg-gray-400 text-gray-800 px-6 py-2 rounded font-medium transition duration-300 flex items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20"
-                                    fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                Back
-                            </button>
-                            <button type="button"
-                                class="next-step bg-primary hover:bg-primary-dark text-white px-6 py-2 rounded font-medium transition duration-300 flex items-center">
-                                Review Form
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20"
-                                    fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-
-                    <!-- Step 4: Summary and Submit -->
-                    <div id="step-4" class="form-step hidden">
-                        <h3 class="text-xl font-bold mb-6">Step 4 of 4 - Summary</h3>
-
-                        <!-- Summary of all steps -->
-                        <div class="mb-6 p-4 bg-gray-50 rounded-lg">
-                            <div class="flex justify-between items-center mb-2">
-                                <h4 class="font-medium">What are you looking to repair?</h4>
-                                <button type="button"
-                                    class="go-to-step text-primary hover:text-primary-dark text-sm font-medium"
-                                    data-step="1">
-                                    Edit
-                                </button>
-                            </div>
-                            <div id="step1-summary-3" class="text-sm text-gray-600 space-y-1 mb-4">
-                                <!-- Will be filled by JavaScript -->
-                            </div>
-
-                            <div class="flex justify-between items-center mb-2">
-                                <h4 class="font-medium">Can we get your information?</h4>
-                                <button type="button"
-                                    class="go-to-step text-primary hover:text-primary-dark text-sm font-medium"
-                                    data-step="2">
-                                    Edit
-                                </button>
-                            </div>
-                            <div id="step2-summary-2" class="text-sm text-gray-600 space-y-1 mb-4">
-                                <!-- Will be filled by JavaScript -->
-                            </div>
-
-                            <div class="flex justify-between items-center mb-2">
-                                <h4 class="font-medium">How can we contact you?</h4>
-                                <button type="button"
-                                    class="go-to-step text-primary hover:text-primary-dark text-sm font-medium"
-                                    data-step="3">
-                                    Edit
-                                </button>
-                            </div>
-                            <div id="step3-summary" class="text-sm text-gray-600 space-y-1">
-                                <!-- Will be filled by JavaScript -->
-                            </div>
-                        </div>
-
-                        <div class="flex justify-between">
-                            <button type="button"
-                                class="prev-step bg-gray-300 hover:bg-gray-400 text-gray-800 px-6 py-2 rounded font-medium transition duration-300 flex items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20"
-                                    fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                                Back
-                            </button>
-                            <button type="submit"
-                                class="bg-primary hover:bg-primary-dark text-white px-8 py-2 rounded font-medium transition duration-300">
-                                Submit
-                            </button>
-                        </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Latest Blog Posts -->
-    <section class="py-16 bg-gray-50">
+    <section class="py-24 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">Latest From Our Blog</h2>
@@ -1394,56 +1694,48 @@
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 @forelse($latestPosts as $post)
-                    <div
-                        class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 transform transition duration-300 hover:-translate-y-2">
+                    <div class="blog-card">
                         <!-- Image -->
                         @if($post->featured_image)
-                            <div class="h-60 overflow-hidden">
-                                <img src="{{ asset('storage/' . $post->featured_image) }}" alt="{{ $post->title }}"
-                                    class="w-full h-full object-cover">
+                            <div class="image">
+                                <img src="{{ asset('storage/' . $post->featured_image) }}" alt="{{ $post->title }}">
                             </div>
                         @else
-                            <div class="h-60 bg-gray-200 flex items-center justify-center">
+                            <div class="image bg-gray-200 flex items-center justify-center">
                                 <span class="text-gray-400 text-2xl"><i class="fas fa-image"></i></span>
                             </div>
                         @endif
 
-                        <div class="p-6">
-                            <!-- Title -->
-                            <h3 class="text-xl font-bold mb-2 text-gray-800">{{ $post->title }}</h3>
-
+                        <div class="content">
                             <!-- Published Date -->
-                            <div class="text-sm text-gray-500 mb-3">
-                                <time
-                                    datetime="{{ $post->created_at->format('Y-m-d') }}">{{ $post->created_at->format('F j, Y') }}</time>
+                            <div class="date">
+                                <time datetime="{{ $post->created_at->format('Y-m-d') }}">{{ $post->created_at->format('F j, Y') }}</time>
                             </div>
 
+                            <!-- Title -->
+                            <h3>{{ $post->title }}</h3>
+
                             <!-- Excerpt -->
-                            <p class="text-gray-600 mb-4">{{ $post->excerpt }}</p>
+                            <p>{{ $post->excerpt }}</p>
 
                             <!-- Read More Button -->
-                            <a href="{{ route('blog.show', $post->slug) }}"
-                                class="inline-flex items-center text-primary font-medium group">
+                            <a href="{{ route('blog.show', $post->slug) }}" class="read-more">
                                 Read More
-                                <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="h-5 w-5 ml-1 transform transition-transform group-hover:translate-x-1" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                 </svg>
                             </a>
                         </div>
                     </div>
                 @empty
-                    <div class="col-span-3 text-center py-8">
+                    <div class="col-span-3 text-center py-12 bg-white rounded-xl shadow-md">
                         <p class="text-gray-500">No blog posts published yet. Check back soon!</p>
                     </div>
                 @endforelse
             </div>
 
-            <div class="text-center mt-10">
-                <a href="{{ route('blog.index') }}"
-                    class="inline-block btn-primary px-6 py-3 rounded font-medium transition duration-300">
+            <div class="text-center mt-16">
+                <a href="{{ route('blog.index') }}" class="btn-primary inline-block px-8 py-3 rounded-lg text-lg">
                     View All Posts
                 </a>
             </div>
@@ -1465,37 +1757,25 @@
                 <div class="w-full md:w-3/4 grid grid-cols-1 md:grid-cols-3 gap-8">
                     <!-- Communities Served -->
                     <div class="text-center">
-                        <div
-                            class="w-32 h-32 rounded-full bg-white mx-auto flex items-center justify-center border-4 border-primary">
-                            <div>
-                                <div class="text-4xl font-bold text-primary">200+</div>
-                                <div class="text-xs uppercase tracking-wider text-gray-700 leading-tight">
-                                    Communities<br>Served</div>
-                            </div>
+                        <div class="stat-circle mx-auto">
+                            <div class="number">200+</div>
+                            <div class="label">Communities<br>Served</div>
                         </div>
                     </div>
 
                     <!-- Lives Impacted -->
                     <div class="text-center">
-                        <div
-                            class="w-32 h-32 rounded-full bg-white mx-auto flex items-center justify-center border-4 border-primary">
-                            <div>
-                                <div class="text-4xl font-bold text-primary">80k+</div>
-                                <div class="text-xs uppercase tracking-wider text-gray-700 leading-tight">Lives<br>Impacted
-                                </div>
-                            </div>
+                        <div class="stat-circle mx-auto">
+                            <div class="number">80k+</div>
+                            <div class="label">Lives<br>Impacted</div>
                         </div>
                     </div>
 
                     <!-- Years Experience -->
                     <div class="text-center">
-                        <div
-                            class="w-32 h-32 rounded-full bg-white mx-auto flex items-center justify-center border-4 border-primary">
-                            <div>
-                                <div class="text-4xl font-bold text-primary">40</div>
-                                <div class="text-xs uppercase tracking-wider text-gray-700 leading-tight">
-                                    Years<br>Experience</div>
-                            </div>
+                        <div class="stat-circle mx-auto">
+                            <div class="number">40</div>
+                            <div class="label">Years<br>Experience</div>
                         </div>
                     </div>
                 </div>
@@ -1511,59 +1791,47 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div
-                    class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-6 text-center border-t-4 border-primary">
+                <div class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-6 text-center border-t-4 border-primary">
                     <div class="text-5xl text-primary mb-6">
                         <i class="fas fa-building"></i>
                     </div>
                     <h4 class="text-xl font-bold mb-4">Service One</h4>
-                    <p class="text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-                        luctus nec ullamcorper mattis.</p>
-                    <a href="#"
-                        class="inline-block text-primary border border-primary hover:bg-primary hover:text-white px-4 py-2 rounded text-sm transition duration-300">Learn
-                        More</a>
+                    <p class="text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                    <a href="#" class="inline-block text-primary border border-primary hover:bg-primary hover:text-white px-4 py-2 rounded text-sm transition duration-300">Learn More</a>
                 </div>
 
-                <div
-                    class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-6 text-center border-t-4 border-secondary">
+                <div class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-6 text-center border-t-4 border-secondary">
                     <div class="text-5xl text-secondary mb-6">
                         <i class="fas fa-cogs"></i>
                     </div>
                     <h4 class="text-xl font-bold mb-4">Service Two</h4>
-                    <p class="text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-                        luctus nec ullamcorper mattis.</p>
-                    <a href="#"
-                        class="inline-block text-secondary border border-secondary hover:bg-secondary hover:text-white px-4 py-2 rounded text-sm transition duration-300">Learn
-                        More</a>
+                    <p class="text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                    <a href="#" class="inline-block text-secondary border border-secondary hover:bg-secondary hover:text-white px-4 py-2 rounded text-sm transition duration-300">Learn More</a>
                 </div>
 
-                <div
-                    class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-6 text-center border-t-4 border-accent">
+                <div class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-6 text-center border-t-4 border-accent">
                     <div class="text-5xl text-accent mb-6">
                         <i class="fas fa-chart-line"></i>
                     </div>
                     <h4 class="text-xl font-bold mb-4">Service Three</h4>
-                    <p class="text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-                        luctus nec ullamcorper mattis.</p>
-                    <a href="#"
-                        class="inline-block text-accent border border-accent hover:bg-accent hover:text-white px-4 py-2 rounded text-sm transition duration-300">Learn
-                        More</a>
+                    <p class="text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                    <a href="#" class="inline-block text-accent border border-accent hover:bg-accent hover:text-white px-4 py-2 rounded text-sm transition duration-300">Learn More</a>
                 </div>
             </div>
         </div>
     </section>
     <!-- Call to Action -->
-    <section class="gradient-bg py-16">
+    <section class="py-20 gradient-bg text-white">
         <div class="container mx-auto px-4">
-            <div class="flex flex-col md:flex-row items-center justify-between">
-                <div class="mb-6 md:mb-0 text-center md:text-left">
-                    <h3 class="text-2xl font-bold text-white mb-2">Ready to get started?</h3>
-                    <p class="text-gray-200">Contact us today and discover how we can help your business grow.</p>
+            <div class="flex flex-col md:flex-row items-center justify-between bg-white/10 backdrop-blur-sm p-12 rounded-xl">
+                <div class="mb-8 md:mb-0 text-center md:text-left max-w-xl">
+                    <h3 class="text-2xl md:text-3xl font-bold mb-4">Ready to make your home safer and more accessible?</h3>
+                    <p class="text-gray-100 text-lg">Contact us today and discover how our solutions can transform your living space.</p>
                 </div>
                 <div>
-                    <a href="/contact"
-                        class="inline-block bg-secondary hover:bg-secondary-dark text-gray-900 px-6 py-3 rounded font-medium transition duration-300">Contact
-                        Us Today</a>
+                    <a href="/contact" class="btn-secondary inline-block px-8 py-4 text-gray-900 font-bold rounded-lg text-lg">
+                        Contact Us Today
+                    </a>
                 </div>
             </div>
         </div>
@@ -1575,6 +1843,11 @@
 @endsection
 
 @push('styles')
+    <!-- Add Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <style>
@@ -1603,62 +1876,44 @@
         }
 
         .what-we-do-slider .swiper-pagination-bullet {
-            width: 10px;
-            height: 10px;
+            width: 12px;
+            height: 12px;
             background-color: rgba(255, 255, 255, 0.7);
             opacity: 0.7;
+            transition: all 0.3s ease;
         }
 
         .what-we-do-slider .swiper-pagination-bullet-active {
-            background-color: #f8b301;
+            background-color: var(--secondary);
             opacity: 1;
             transform: scale(1.2);
         }
 
         /* Hide Swiper navigation default styles */
         .what-we-do-slider .swiper-button-next:after,
-        .what-we-do-slider .swiper-button-prev:after {
+        .what-we-do-slider .swiper-button-prev:after,
+        .testimonial-slider .swiper-button-next:after,
+        .testimonial-slider .swiper-button-prev:after {
             display: none;
         }
 
         /* Image container sizing */
-        .what-we-do-slider .swiper-slide .bg-gray-100 {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-            box-sizing: border-box;
+        .what-we-do-slider .swiper-slide>div {
+            height: 100%;
+            width: 100%;
         }
 
         .what-we-do-slider .swiper-slide img {
-            width: 99%;
-            height: auto;
-            max-height: 99%;
-            margin: 0 auto;
+            width: 100%;
+            height: 450px;
             object-position: center;
-            object-fit: contain;
-            display: block;
+            object-fit: cover;
         }
 
         /* Improve active slide appearance */
-        .what-we-do-slider .swiper-slide-active .bg-gray-100 {
-            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        .what-we-do-slider .swiper-slide-active>div {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
             border: 1px solid rgba(0, 120, 191, 0.2);
-        }
-
-        .what-we-do-slider .swiper-slide-active img {
-            width: 90%;
-        }
-
-        @media (min-width: 1024px) {
-            .what-we-do-slider {
-                padding: 50px 0;
-            }
-
-            .what-we-do-slider .swiper-slide img {
-                width: 99%;
-                max-height: 99%;
-            }
         }
 
         /* Testimonial Slider Styles */
@@ -1674,40 +1929,72 @@
         }
 
         .testimonial-slider .swiper-pagination-bullet {
-            width: 10px;
-            height: 10px;
+            width: 12px;
+            height: 12px;
             background-color: #e2e8f0;
             opacity: 0.7;
             margin: 0 6px;
+            transition: all 0.3s ease;
         }
 
         .testimonial-slider .swiper-pagination-bullet-active {
-            background-color: #0078bf;
+            background-color: var(--primary);
             opacity: 1;
             transform: scale(1.2);
         }
 
-        .testimonial-slider .swiper-button-next:after,
-        .testimonial-slider .swiper-button-prev:after {
-            display: none;
-        }
-
-        .testimonial-slider .swiper-button-next,
-        .testimonial-slider .swiper-button-prev {
-            opacity: 0.8;
+        /* Form Progress Styles */
+        .form-progress::before {
+            background: linear-gradient(to right, var(--primary) 0%, var(--primary) 0%, #e2e8f0 0%, #e2e8f0 100%);
             transition: all 0.3s ease;
         }
 
-        .testimonial-slider .swiper-button-next:hover,
-        .testimonial-slider .swiper-button-prev:hover {
-            opacity: 1;
-            background-color: #0078bf;
-            color: white;
+        .progress-step.active .step-number {
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(0, 120, 191, 0.4);
+            }
+
+            70% {
+                box-shadow: 0 0 0 10px rgba(0, 120, 191, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(0, 120, 191, 0);
+            }
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .what-we-do-slider {
+                padding: 20px 0;
+            }
+
+            .testimonial-card {
+                padding: 1.5rem;
+            }
+
+            .stat-circle {
+                width: 130px;
+                height: 130px;
+            }
+
+            .stat-circle .number {
+                font-size: 2rem;
+            }
         }
 
         @media (min-width: 1024px) {
-            .testimonial-slider .swiper-slide {
-                height: auto;
+            .what-we-do-slider {
+                padding: 50px 0;
+            }
+
+            .what-we-do-slider .swiper-slide img {
+                width: 100%;
+                max-height: 100%;
             }
         }
     </style>
@@ -1836,18 +2123,6 @@
                     nextEl: '.testimonial-slider .swiper-button-next',
                     prevEl: '.testimonial-slider .swiper-button-prev',
                 },
-                breakpoints: {
-                    // Tablet
-                    768: {
-                        slidesPerView: 1,
-                        spaceBetween: 40,
-                    },
-                    // Desktop
-                    1024: {
-                        slidesPerView: 1,
-                        spaceBetween: 50,
-                    }
-                },
                 effect: 'fade',
                 fadeEffect: {
                     crossFade: true
@@ -1861,8 +2136,7 @@
                 const nextButtons = form.querySelectorAll('.next-step');
                 const prevButtons = form.querySelectorAll('.prev-step');
                 const goToStepButtons = form.querySelectorAll('.go-to-step');
-                const stepIndicators = document.querySelectorAll('[id^="step-indicator-"]');
-                const progressBar = document.getElementById('progress-bar');
+                const progressBar = document.querySelector('.form-progress::before');
                 let currentStep = 1;
                 const totalSteps = steps.length;
 
@@ -1917,36 +2191,29 @@
                     // Hide all steps
                     steps.forEach((step, index) => {
                         step.classList.add('hidden');
-
-                        // Update step indicators
-                        const stepNum = index + 1;
-                        const indicator = document.getElementById(`step-indicator-${stepNum}`);
-
-                        if (stepNum < currentStep) {
-                            // Completed step
-                            indicator.classList.remove('bg-gray-300', 'text-gray-600');
-                            indicator.classList.add('bg-green-500', 'text-white');
-                            // Add checkmark icon
-                            indicator.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>';
-                        } else if (stepNum === currentStep) {
-                            // Current step
-                            indicator.classList.remove('bg-gray-300', 'text-gray-600', 'bg-green-500');
-                            indicator.classList.add('bg-primary', 'text-white');
-                            indicator.innerHTML = stepNum;
-                        } else {
-                            // Future step
-                            indicator.classList.remove('bg-primary', 'text-white', 'bg-green-500');
-                            indicator.classList.add('bg-gray-300', 'text-gray-600');
-                            indicator.innerHTML = stepNum;
-                        }
                     });
 
                     // Show current step
                     steps[currentStep - 1].classList.remove('hidden');
 
+                    // Update progress steps
+                    document.querySelectorAll('.progress-step').forEach((step, index) => {
+                        if (index < currentStep - 1) {
+                            step.classList.add('completed');
+                            step.classList.remove('active');
+                        } else if (index === currentStep - 1) {
+                            step.classList.add('active');
+                            step.classList.remove('completed');
+                        } else {
+                            step.classList.remove('active', 'completed');
+                        }
+                    });
+
                     // Update progress bar
-                    const progressPercentage = ((currentStep - 1) / (totalSteps - 1)) * 100;
-                    progressBar.style.width = `${progressPercentage}%`;
+                    if (progressBar) {
+                        const progressPercentage = ((currentStep - 1) / (totalSteps - 1)) * 100;
+                        progressBar.style.background = `linear-gradient(to right, var(--primary) 0%, var(--primary) ${progressPercentage}%, #e2e8f0 ${progressPercentage}%, #e2e8f0 100%)`;
+                    }
                 }
 
                 // Validate current step fields
@@ -1980,64 +2247,10 @@
                     return isValid;
                 }
 
-                // Update summary sections
+                // Update summary sections (placeholder function - implement as needed)
                 function updateSummaries(step) {
-                    if (step === 1) {
-                        // Step 1 summary (shown in steps 2, 3, and 4)
-                        const product = document.getElementById('product').value;
-                        const repairDetails = document.getElementById('repair-details').value;
-                        const serviceLocation = document.querySelector('input[name="service-location"]:checked').value;
-                        const serviceLocationText = document.querySelector(`input[name="service-location"][value="${serviceLocation}"]`).nextElementSibling.innerText;
-                        const purchasedFromMotion = document.querySelector('input[name="purchased-from-motion"]:checked').value;
-
-                        const summaryHtml = `
-                                    <p><strong>Enter your product:</strong> ${product}</p>
-                                    <p><strong>Repair or maintenance inquiry details:</strong> ${repairDetails}</p>
-                                    <p><strong>Select a location for the service:</strong> ${serviceLocationText}</p>
-                                    <p><strong>Did you purchase the product from Home2stay?:</strong> ${purchasedFromMotion === 'yes' ? 'Yes' : 'No'}</p>
-                                `;
-
-                        document.getElementById('step1-summary').innerHTML = summaryHtml;
-                        document.getElementById('step1-summary-2').innerHTML = summaryHtml;
-                        document.getElementById('step1-summary-3').innerHTML = summaryHtml;
-                    }
-
-                    if (step === 2) {
-                        // Step 2 summary (shown in steps 3 and 4)
-                        const clientType = document.querySelector('input[name="client-type"]:checked').value;
-                        const clientTypeText = document.querySelector(`input[name="client-type"][value="${clientType}"]`).nextElementSibling.innerText;
-                        const firstName = document.getElementById('first-name').value;
-                        const lastName = document.getElementById('last-name').value;
-                        const location = document.getElementById('location').value;
-
-                        const summaryHtml = `
-                                    <p><strong>Who are you?:</strong> ${clientTypeText}</p>
-                                    <p><strong>First name:</strong> ${firstName}</p>
-                                    <p><strong>Last name:</strong> ${lastName}</p>
-                                    <p><strong>Select a location near you:</strong> ${location}</p>
-                                `;
-
-                        document.getElementById('step2-summary').innerHTML = summaryHtml;
-                        document.getElementById('step2-summary-2').innerHTML = summaryHtml;
-                    }
-
-                    if (step === 3) {
-                        // Step 3 summary (shown in step 4)
-                        const phone = document.getElementById('phone').value;
-                        const email = document.getElementById('email').value;
-                        const contactMethod = document.querySelector('input[name="contact-method"]:checked').value;
-                        const contactMethodText = document.querySelector(`input[name="contact-method"][value="${contactMethod}"]`).nextElementSibling.innerText;
-                        const marketingConsent = document.querySelector('input[name="marketing-consent"]').checked ? 'Yes' : 'No';
-
-                        const summaryHtml = `
-                                    <p><strong>Enter phone number:</strong> ${phone}</p>
-                                    <p><strong>Enter email:</strong> ${email}</p>
-                                    <p><strong>What is your preferred method of contact?:</strong> ${contactMethodText}</p>
-                                    <p><strong>Marketing communications consent:</strong> ${marketingConsent}</p>
-                                `;
-
-                        document.getElementById('step3-summary').innerHTML = summaryHtml;
-                    }
+                    // This would be implemented based on your specific form fields
+                    console.log('Updating summaries for step', step);
                 }
             }
         });

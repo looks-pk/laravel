@@ -48,7 +48,7 @@
                             
                             <!-- Products Sub-menu -->
                             <div class="hidden group-hover/submenu:block absolute left-full top-0 w-64 bg-white rounded-lg shadow-lg py-2 ml-1">
-                                <a href="/products" class="flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 hover:text-primary transition-colors border-b border-gray-100">
+                                <a href="/all-products/" class="flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 hover:text-primary transition-colors border-b border-gray-100">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                                     </svg>
@@ -85,29 +85,11 @@
                             
                             <!-- Services Sub-menu -->
                             <div class="hidden group-hover/submenu:block absolute left-full top-0 w-64 bg-white rounded-lg shadow-lg py-2 ml-1">
-                                <a href="/services" class="flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 hover:text-primary transition-colors border-b border-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
-                                    </svg>
-                                    All Services
-                                </a>
                                 <a href="/accessible-bathroom-canada" class="flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 hover:text-primary transition-colors border-b border-gray-100">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
                                     </svg>
                                     Accessible Bathroom in Canada
-                                </a>
-                                <a href="/services/bathroom-modifications" class="flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 hover:text-primary transition-colors border-b border-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" />
-                                    </svg>
-                                    Bathroom Modifications
-                                </a>
-                                <a href="/services/home-accessibility" class="flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 hover:text-primary transition-colors border-b border-gray-100">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7m-7-7v14" />
-                                    </svg>
-                                    Home Accessibility
                                 </a>
                             </div>
                         </div>

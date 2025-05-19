@@ -362,43 +362,43 @@
 
         /* Testimonial Slider */
         .testimonial-card {
-            background: white;
-            border-radius: 1rem;
-            padding: 2.5rem 2rem;
-            box-shadow: 0 15px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
             position: relative;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            min-height: 380px;
-            /* Fix minimum height */
+            padding: 2rem;
+            border-radius: 0.5rem;
+            background-color: white;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: all 0.3s ease;
+            height: auto;
+            width: 100%;
+            overflow: visible;
         }
 
         .testimonial-card .avatar {
-            width: 6rem;
-            height: 6rem;
-            border-radius: 50%;
-            background: #f0f0f0;
-            border: 4px solid white;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-            margin: 0 auto 1.5rem;
+            width: 5rem;
+            height: 5rem;
             display: flex;
-            align-items: center;
             justify-content: center;
-            overflow: hidden;
-            position: relative;
-            z-index: 5;
+            align-items: center;
+            border-radius: 50%;
+            background-color: #f3f4f6;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5rem;
         }
 
         .testimonial-card .quotation {
             position: absolute;
             top: 1.5rem;
             right: 1.5rem;
-            font-size: 5rem;
-            color: var(--primary);
-            opacity: 0.1;
+            font-size: 4rem;
             line-height: 1;
-            z-index: 1;
+            font-weight: bold;
+            color: rgba(0, 120, 191, 0.1);
+            font-family: Georgia, serif;
+        }
+
+        .testimonial-card .text-lg {
+            font-size: 1.125rem;
+            line-height: 1.75;
         }
 
         /* Blog Cards */
@@ -610,67 +610,18 @@
             z-index: 5;
         }
 
-        .slider-controls {
-            position: absolute;
-            bottom: 2rem;
-            left: 0;
-            right: 0;
-            z-index: 20;
-            display: flex;
-            justify-content: center;
-            gap: 0.5rem;
-        }
-
-        .slider-dot {
-            width: 14px;
-            height: 14px;
-            border-radius: 50%;
-            background-color: rgba(255, 255, 255, 0.5);
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .slider-dot.active {
-            background-color: #f8b301;
-            transform: scale(1.2);
-        }
-
-        .slider-arrow {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            z-index: 30;
-            width: 48px;
-            height: 48px;
-            border-radius: 50%;
-            background-color: rgba(255, 255, 255, 0.9);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-        }
-
-        .slider-arrow:hover {
-            background-color: #0078bf;
-            color: white;
-        }
-
-        .slider-arrow.prev {
-            left: 1rem;
-        }
-
-        .slider-arrow.next {
-            right: 1rem;
-        }
-
         .accent-border-left {
             border-left: 4px solid #d40000;
         }
 
         .accent-border-right {
             border-right: 4px solid #d40000;
+        }
+
+        @media screen and (max-width: 768px) {
+            .ab {
+                width: 350px;
+            }
         }
     </style>
 
@@ -757,10 +708,53 @@
                     </div>
                     <div class="card-body">
                         <h3>Barrier-Free Bathrooms</h3>
-                        <p>Create a safe and accessible oasis with our thoughtfully designed solutions to accommodate all
-                            mobility needs. Enjoy the freedom of movement and the comfort of an inclusive bathing space.</p>
+                        <p class="mb-3">Create a safe and accessible oasis with our thoughtfully designed solutions for all
+                            mobility needs.</p>
+
+                        <!-- Price Ranges -->
+                        <div class="mb-4 text-sm">
+                            <div class="flex justify-between">
+                                <span class="font-semibold text-gray-700">Purchase:</span>
+                                <span class="text-primary font-bold">$1,200 - $3,500</span>
+                            </div>
+                            <div class="flex justify-between rental-option">
+                                <span class="font-semibold text-gray-700">Rental:</span>
+                                <span class="text-primary font-bold">$80 - $150/mo</span>
+                            </div>
+                        </div>
+
+                        <!-- Feature Points -->
+                        <ul class="mb-4">
+                            <li class="flex items-start mb-1">
+                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-sm">ADA compliant designs</span>
+                            </li>
+                            <li class="flex items-start mb-1">
+                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-sm">Non-slip surfaces for safety</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-sm">Easy to clean & maintain</span>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer flex justify-between">
                         <a href="#"
                             class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>See More</span>
@@ -771,6 +765,16 @@
                                     clip-rule="evenodd" />
                             </svg>
                         </a>
+                        <button type="button" data-product="Barrier-Free Bathrooms"
+                            class="get-info-btn inline-flex items-center px-4 py-2 border border-secondary text-secondary rounded-md hover:bg-secondary hover:text-white transition-colors">
+                            <span>Get Info</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9a1 1 0 00-1-1z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
                     </div>
                 </div>
 
@@ -782,11 +786,53 @@
                     </div>
                     <div class="card-body">
                         <h3>Grab Bars</h3>
-                        <p>Elevate bathroom safety with our sturdy and stylish grab bars, providing essential support for
-                            confident maneuvering. These ergonomic accessories offer peace of mind and independence in your
-                            daily routines.</p>
+                        <p class="mb-3">Elevate bathroom safety with our sturdy and stylish grab bars, providing essential
+                            support for confident maneuvering.</p>
+
+                        <!-- Price Ranges -->
+                        <div class="mb-4 text-sm">
+                            <div class="flex justify-between">
+                                <span class="font-semibold text-gray-700">Purchase:</span>
+                                <span class="text-primary font-bold">$40 - $150</span>
+                            </div>
+                            <div class="flex justify-between rental-option">
+                                <span class="font-semibold text-gray-700">Rental:</span>
+                                <span class="text-primary font-bold">$10 - $25/mo</span>
+                            </div>
+                        </div>
+
+                        <!-- Feature Points -->
+                        <ul class="mb-4">
+                            <li class="flex items-start mb-1">
+                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-sm">Supports up to 500 lbs</span>
+                            </li>
+                            <li class="flex items-start mb-1">
+                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-sm">Multiple finish options</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-sm">Professional installation</span>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer flex justify-between">
                         <a href="#"
                             class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>See More</span>
@@ -797,6 +843,16 @@
                                     clip-rule="evenodd" />
                             </svg>
                         </a>
+                        <button type="button" data-product="Grab Bars"
+                            class="get-info-btn inline-flex items-center px-4 py-2 border border-secondary text-secondary rounded-md hover:bg-secondary hover:text-white transition-colors">
+                            <span>Get Info</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9a1 1 0 00-1-1z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
                     </div>
                 </div>
 
@@ -808,10 +864,53 @@
                     </div>
                     <div class="card-body">
                         <h3>Stairlifts</h3>
-                        <p>Glide effortlessly between levels with our reliable stairlifts, designed to empower individuals
-                            with limited mobility to navigate their homes with ease and comfort.</p>
+                        <p class="mb-3">Glide effortlessly between levels with our reliable stairlifts, designed for
+                            individuals with limited mobility.</p>
+
+                        <!-- Price Ranges -->
+                        <div class="mb-4 text-sm">
+                            <div class="flex justify-between">
+                                <span class="font-semibold text-gray-700">Purchase:</span>
+                                <span class="text-primary font-bold">$2,500 - $5,000</span>
+                            </div>
+                            <div class="flex justify-between rental-option">
+                                <span class="font-semibold text-gray-700">Rental:</span>
+                                <span class="text-primary font-bold">$150 - $250/mo</span>
+                            </div>
+                        </div>
+
+                        <!-- Feature Points -->
+                        <ul class="mb-4">
+                            <li class="flex items-start mb-1">
+                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-sm">Quiet & smooth operation</span>
+                            </li>
+                            <li class="flex items-start mb-1">
+                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-sm">Battery backup system</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-sm">Custom fit to your staircase</span>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer flex justify-between">
                         <a href="#"
                             class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>See More</span>
@@ -822,6 +921,16 @@
                                     clip-rule="evenodd" />
                             </svg>
                         </a>
+                        <button type="button" data-product="Stairlifts"
+                            class="get-info-btn inline-flex items-center px-4 py-2 border border-secondary text-secondary rounded-md hover:bg-secondary hover:text-white transition-colors">
+                            <span>Get Info</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9a1 1 0 00-1-1z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
                     </div>
                 </div>
 
@@ -832,11 +941,53 @@
                     </div>
                     <div class="card-body">
                         <h3>Ramps</h3>
-                        <p>Embrace accessibility with our versatile ramps, a practical solution to conquer elevation
-                            changes. Whether indoors or outdoors, these sturdy ramps ensure smooth and barrier-free
-                            transitions.</p>
+                        <p class="mb-3">Embrace accessibility with our versatile ramps, a practical solution to conquer
+                            elevation changes indoors or outdoors.</p>
+
+                        <!-- Price Ranges -->
+                        <div class="mb-4 text-sm">
+                            <div class="flex justify-between">
+                                <span class="font-semibold text-gray-700">Purchase:</span>
+                                <span class="text-primary font-bold">$200 - $2,000</span>
+                            </div>
+                            <div class="flex justify-between rental-option">
+                                <span class="font-semibold text-gray-700">Rental:</span>
+                                <span class="text-primary font-bold">$50 - $150/mo</span>
+                            </div>
+                        </div>
+
+                        <!-- Feature Points -->
+                        <ul class="mb-4">
+                            <li class="flex items-start mb-1">
+                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-sm">Portable & permanent options</span>
+                            </li>
+                            <li class="flex items-start mb-1">
+                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-sm">Slip-resistant surfaces</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-sm">Customizable to your space</span>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer flex justify-between">
                         <a href="#"
                             class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>See More</span>
@@ -847,6 +998,16 @@
                                     clip-rule="evenodd" />
                             </svg>
                         </a>
+                        <button type="button" data-product="Ramps"
+                            class="get-info-btn inline-flex items-center px-4 py-2 border border-secondary text-secondary rounded-md hover:bg-secondary hover:text-white transition-colors">
+                            <span>Get Info</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9a1 1 0 00-1-1z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
                     </div>
                 </div>
 
@@ -858,10 +1019,53 @@
                     </div>
                     <div class="card-body">
                         <h3>Tub Cuts</h3>
-                        <p>Transform your bathtub into an accessible oasis with our convenient and cost-effective
-                            alternative to traditional bathing solutions for individuals with mobility challenges.</p>
+                        <p class="mb-3">Transform your bathtub into an accessible oasis with our convenient and
+                            cost-effective alternative to traditional solutions.</p>
+
+                        <!-- Price Ranges -->
+                        <div class="mb-4 text-sm">
+                            <div class="flex justify-between">
+                                <span class="font-semibold text-gray-700">Purchase:</span>
+                                <span class="text-primary font-bold">$700 - $1,500</span>
+                            </div>
+                            <div class="flex justify-between rental-option" style="display: none;">
+                                <span class="font-semibold text-gray-700">Rental:</span>
+                                <span class="text-primary font-bold">Not Available</span>
+                            </div>
+                        </div>
+
+                        <!-- Feature Points -->
+                        <ul class="mb-4">
+                            <li class="flex items-start mb-1">
+                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-sm">Quick 1-day installation</span>
+                            </li>
+                            <li class="flex items-start mb-1">
+                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-sm">Preserves existing tub</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-sm">Watertight seal guarantee</span>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer flex justify-between">
                         <a href="#"
                             class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>See More</span>
@@ -872,6 +1076,16 @@
                                     clip-rule="evenodd" />
                             </svg>
                         </a>
+                        <button type="button" data-product="Tub Cuts"
+                            class="get-info-btn inline-flex items-center px-4 py-2 border border-secondary text-secondary rounded-md hover:bg-secondary hover:text-white transition-colors">
+                            <span>Get Info</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9a1 1 0 00-1-1z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
                     </div>
                 </div>
 
@@ -883,11 +1097,53 @@
                     </div>
                     <div class="card-body">
                         <h3>Safety Poles & Handrails</h3>
-                        <p>Enhance safety and stability with our safety poles and handrails, thoughtfully designed to
-                            provide crucial support in various areas of your home. These essential accessories offer a
-                            secure and reassuring grip for all family members.</p>
+                        <p class="mb-3">Enhance safety and stability with our safety poles and handrails, providing crucial
+                            support in various home areas.</p>
+
+                        <!-- Price Ranges -->
+                        <div class="mb-4 text-sm">
+                            <div class="flex justify-between">
+                                <span class="font-semibold text-gray-700">Purchase:</span>
+                                <span class="text-primary font-bold">$100 - $500</span>
+                            </div>
+                            <div class="flex justify-between rental-option">
+                                <span class="font-semibold text-gray-700">Rental:</span>
+                                <span class="text-primary font-bold">$25 - $75/mo</span>
+                            </div>
+                        </div>
+
+                        <!-- Feature Points -->
+                        <ul class="mb-4">
+                            <li class="flex items-start mb-1">
+                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-sm">Tension-mounted options</span>
+                            </li>
+                            <li class="flex items-start mb-1">
+                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-sm">No wall damage installation</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-sm">Adjustable to your height</span>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer flex justify-between">
                         <a href="#"
                             class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>See More</span>
@@ -898,6 +1154,16 @@
                                     clip-rule="evenodd" />
                             </svg>
                         </a>
+                        <button type="button" data-product="Safety Poles & Handrails"
+                            class="get-info-btn inline-flex items-center px-4 py-2 border border-secondary text-secondary rounded-md hover:bg-secondary hover:text-white transition-colors">
+                            <span>Get Info</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9a1 1 0 00-1-1z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -998,6 +1264,41 @@
         </div>
     </section>
 
+    <!-- Promotional Sections -->
+    <section class="promotional-section mt-16">
+        <div class="container mx-auto">
+            <!-- Top Section - Bathroom Remodeling -->
+            <div class="flex flex-col md:flex-row bg-white rounded-xl overflow-hidden shadow-xl">
+                <!-- Image Side -->
+                <div class="w-full md:w-1/2">
+                    <img src="{{ asset('h-banner/Bathroom-Remodeling-Service-min.png') }}" alt="Bathroom Remodeling Service"
+                        class="w-full h-full object-cover">
+                </div>
+
+                <!-- Text Content -->
+                <div
+                    class="w-full md:w-1/2 p-8 md:p-12 lg:p-16 bg-gradient-to-br from-secondary/10 to-secondary/5 flex flex-col justify-center">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Transform Your Bathroom with Home2stay
+                        Remodeling Solutions</h2>
+                    <p class="text-gray-700 mb-8 text-lg">
+                        Experience luxury and functionality with Home2stay's expert remodeling. From sleek conversions to
+                        custom fixtures, we create modern retreats tailored to your style. Our team ensures attention to
+                        detail and customer satisfaction. Let us bring your dream bathroom to life.
+                    </p>
+                    <a href="/products" class="btn-primary self-start inline-flex items-center">
+                        Start Your Transformation
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Impact Statistics Section -->
     <section class="py-24 relative">
         <!-- Stats Box -->
@@ -1066,40 +1367,6 @@
         </div>
     </section>
 
-    <!-- Promotional Sections -->
-    <section class="promotional-section mt-16">
-        <div class="container mx-auto">
-            <!-- Top Section - Bathroom Remodeling -->
-            <div class="flex flex-col md:flex-row bg-white rounded-xl overflow-hidden shadow-xl">
-                <!-- Image Side -->
-                <div class="w-full md:w-1/2">
-                    <img src="{{ asset('h-banner/Bathroom-Remodeling-Service-min.png') }}" alt="Bathroom Remodeling Service"
-                        class="w-full h-full object-cover">
-                </div>
-
-                <!-- Text Content -->
-                <div
-                    class="w-full md:w-1/2 p-8 md:p-12 lg:p-16 bg-gradient-to-br from-secondary/10 to-secondary/5 flex flex-col justify-center">
-                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Transform Your Bathroom with Home2stay
-                        Remodeling Solutions</h2>
-                    <p class="text-gray-700 mb-8 text-lg">
-                        Experience luxury and functionality with Home2stay's expert remodeling. From sleek conversions to
-                        custom fixtures, we create modern retreats tailored to your style. Our team ensures attention to
-                        detail and customer satisfaction. Let us bring your dream bathroom to life.
-                    </p>
-                    <a href="/products" class="btn-primary self-start inline-flex items-center">
-                        Start Your Transformation
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
-                            fill="currentColor">
-                            <path fill-rule="evenodd"
-                                d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Our Partners and Associations Section -->
     <section class="py-20 bg-gray-50">
@@ -1295,58 +1562,77 @@
             </div>
 
             <!-- Side by Side Layout -->
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <!-- Image Side -->
-                <div class="relative rounded-xl overflow-hidden shadow-xl h-[600px]">
-                    <img src="{{ asset('h-slider/carousel-img-1-min.png') }}" alt="Happy Client" class="w-full h-full object-cover">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
+                <!-- Image Side - Hidden on small screens, shown at medium breakpoint and larger -->
+                <div class="relative rounded-xl overflow-hidden shadow-xl h-[300px] md:h-[400px] lg:h-[500px] hidden md:block">
+                    <img src="{{ asset('h-slider/carousel-img-1-min.png') }}" alt="Happy Client"
+                        class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-r from-primary/70 to-primary/40"></div>
                 </div>
 
                 <!-- Testimonials Side -->
-                <div class="max-w-2xl mx-auto lg:mx-0">
+                <div class="max-w-2xl mx-auto ab lg:mx-0">
                     <div class="swiper-container testimonial-slider overflow-hidden">
                         <div class="swiper-wrapper">
                             <!-- Testimonial 1 -->
                             <div class="swiper-slide">
                                 <div class="testimonial-card">
                                     <div class="quotation">"</div>
-                                    <div class="flex flex-col items-center mb-8">
+                                    <div class="flex flex-col items-center mb-4 md:mb-8">
                                         <!-- Client Avatar -->
                                         <div class="avatar">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12 text-gray-500">
-                                                <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clip-rule="evenodd" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-12 h-12 text-gray-500">
+                                                <path fill-rule="evenodd"
+                                                    d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+                                                    clip-rule="evenodd" />
                                             </svg>
                                         </div>
 
                                         <!-- Client Name -->
-                                        <h4 class="text-xl font-bold text-gray-900 mt-4 mb-2">H. Hashimoto</h4>
+                                        <h4 class="text-xl font-bold text-gray-900 mt-3 md:mt-4 mb-1 md:mb-2">H. Hashimoto</h4>
 
                                         <!-- Star Rating -->
                                         <div class="flex space-x-1 text-yellow-400 mb-2">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
-                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-4 h-4 md:w-5 md:h-5">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                    clip-rule="evenodd" />
                                             </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
-                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-4 h-4 md:w-5 md:h-5">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                    clip-rule="evenodd" />
                                             </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
-                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-4 h-4 md:w-5 md:h-5">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                    clip-rule="evenodd" />
                                             </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
-                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-4 h-4 md:w-5 md:h-5">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                    clip-rule="evenodd" />
                                             </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
-                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
-                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-4 h-4 md:w-5 md:h-5">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                    clip-rule="evenodd" />
                                             </svg>
                                         </div>
                                     </div>
 
                                     <!-- Testimonial Text -->
-                                    <div class="text-gray-700 text-lg leading-relaxed text-center px-8">
-                                        <p>I had 3 safety bars installed by Home2stay and the gentleman did a great job. He was very courteous and professional. He made sure the bars were exactly where I needed them before the installation. My appointment was between 10AM-11AM and the gentleman arrived at +9:50AM and was finished by 10:30AM.</p>
+                                    <div class="text-gray-700 text-sm md:text-lg leading-relaxed text-center px-4 md:px-8">
+                                        <p>I had 3 safety bars installed by Home2stay and the gentleman did a great job. He
+                                            was very courteous and professional. He made sure the bars were exactly where I
+                                            needed them before the installation. My appointment was between 10AM-11AM and
+                                            the gentleman arrived at +9:50AM and was finished by 10:30AM.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1355,62 +1641,72 @@
                             <div class="swiper-slide">
                                 <div class="testimonial-card">
                                     <div class="quotation">"</div>
-                                    <div class="flex flex-col items-center mb-8">
+                                    <div class="flex flex-col items-center mb-4 md:mb-8">
                                         <!-- Client Avatar -->
                                         <div class="avatar">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12 text-gray-500">
-                                                <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clip-rule="evenodd" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-12 h-12 text-gray-500">
+                                                <path fill-rule="evenodd"
+                                                    d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+                                                    clip-rule="evenodd" />
                                             </svg>
                                         </div>
 
                                         <!-- Client Name -->
-                                        <h4 class="text-xl font-bold text-gray-900 mt-4 mb-2">B. Taylor</h4>
+                                        <h4 class="text-xl font-bold text-gray-900 mt-3 md:mt-4 mb-1 md:mb-2">B. Taylor</h4>
 
                                         <!-- Star Rating -->
                                         <div class="flex space-x-1 text-yellow-400 mb-2">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
-                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-4 h-4 md:w-5 md:h-5">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                    clip-rule="evenodd" />
                                             </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
-                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-4 h-4 md:w-5 md:h-5">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                    clip-rule="evenodd" />
                                             </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
-                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-4 h-4 md:w-5 md:h-5">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                    clip-rule="evenodd" />
                                             </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
-                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-4 h-4 md:w-5 md:h-5">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                    clip-rule="evenodd" />
                                             </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
-                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
-                                                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-4 h-4 md:w-5 md:h-5">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                    clip-rule="evenodd" />
                                             </svg>
                                         </div>
                                     </div>
 
                                     <!-- Testimonial Text -->
-                                    <div class="text-gray-700 text-lg leading-relaxed text-center px-8">
-                                        <p>Home2stay was not only prompt in replying to my inquiry and quote request, they were very attentive and courteous every time we contacted them. We had 2 grab bars in the bathroom installed and a long handrail installed with care and attention to detail. Our experience with Home2stay was wonderful.</p>
+                                    <div class="text-gray-700 text-sm md:text-lg leading-relaxed text-center px-4 md:px-8">
+                                        <p>Home2stay was not only prompt in replying to my inquiry and quote request, they
+                                            were very attentive and courteous every time we contacted them. We had 2 grab
+                                            bars in the bathroom installed and a long handrail installed with care and
+                                            attention to detail. Our experience with Home2stay was wonderful.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Pagination -->
-                        <div class="swiper-pagination mt-8"></div>
-
+                        <div class="swiper-pagination mt-4 md:mt-8"></div>
+                        
                         <!-- Navigation Buttons -->
-                        <div class="swiper-button-next absolute -right-2 md:right-2 top-1/2 transform -translate-y-1/2 z-10 bg-white text-primary rounded-full w-12 h-12 md:w-14 md:h-14 flex items-center justify-center shadow-lg cursor-pointer border border-gray-100 hover:bg-primary hover:text-white transition-all">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                            </svg>
-                        </div>
-                        <div class="swiper-button-prev absolute -left-2 md:left-2 top-1/2 transform -translate-y-1/2 z-10 bg-white text-primary rounded-full w-12 h-12 md:w-14 md:h-14 flex items-center justify-center shadow-lg cursor-pointer border border-gray-100 hover:bg-primary hover:text-white transition-all">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-                            </svg>
-                        </div>
+                        <div class="swiper-button-next hidden md:flex"></div>
+                        <div class="swiper-button-prev hidden md:flex"></div>
                     </div>
                 </div>
             </div>
@@ -1422,14 +1718,16 @@
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">Schedule a Repair Today</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">Getting support is quick and easy. Complete this form or contact a Home2stay location for availability, additional details, and pricing.</p>
+                <p class="text-gray-600 max-w-2xl mx-auto">Getting support is quick and easy. Complete this form or contact
+                    a Home2stay location for availability, additional details, and pricing.</p>
             </div>
 
             <!-- Side by Side Layout -->
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <!-- Image Side -->
                 <div class="relative rounded-xl overflow-hidden shadow-xl h-[600px]">
-                    <img src="{{ asset('h-slider/Carousel-item-2-min.jpg') }}" alt="Repair Service" class="w-full h-full object-cover">
+                    <img src="{{ asset('h-slider/Carousel-item-2-min.jpg') }}" alt="Repair Service"
+                        class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-r from-primary/70 to-primary/40"></div>
                 </div>
 
@@ -1462,24 +1760,58 @@
                         <!-- Step 1: Repair Details -->
                         <div id="step-1" class="form-step">
                             <h3 class="text-xl font-bold mb-8">Step 1 of 4 – What are you looking to repair?</h3>
-                            <div class="mb-6"> <label for="product" class="block text-sm font-medium text-gray-700 mb-2">Enter your product*</label> <input type="text" id="product" name="product" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-colors duration-200" required placeholder="E.g., Bathroom grab bar, Stairlift, etc."> </div>
-                            <div class="mb-6"> <label for="repair-details" class="block text-sm font-medium text-gray-700 mb-2">Repair or maintenance inquiry details*</label> <textarea id="repair-details" name="repair-details" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-colors duration-200" required placeholder="Please describe the issue you're experiencing..."></textarea> </div>
-                            <div class="mb-8"> <label class="block text-sm font-medium text-gray-700 mb-3">Select a location for the service*</label>
-                                <div class="space-y-3"> <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200 cursor-pointer">
-                                    <input type="radio" name="service-location" value="home2stay-location" class="mr-3 h-4 w-4 text-primary focus:ring-primary" checked> <span>At a Home2stay location</span> </label> <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200 cursor-pointer">
-                                    <input type="radio" name="service-location" value="home-facility" class="mr-3 h-4 w-4 text-primary focus:ring-primary"> <span>At your home / care facility</span> </label> <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200 cursor-pointer">
-                                    <input type="radio" name="service-location" value="virtual" class="mr-3 h-4 w-4 text-primary focus:ring-primary"> <span>Virtual appointment; if available</span> </label> </div>
+                            <div class="mb-6"> 
+                            <label for="product"
+                                    class="block text-sm font-medium text-gray-700 mb-2">Enter your product*</label>
+                                 <input type="text" id="product" name="product" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-colors duration-200"
+                                    required placeholder="E.g., Bathroom grab bar, Stairlift, etc."> 
                             </div>
-                            <div class="mb-8"> <label class="block text-sm font-medium text-gray-700 mb-3">Did you purchase the product from Home2stay?*</label>
-                                <div class="flex space-x-6"> <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200 cursor-pointer">
-                                    <input type="radio" name="purchased-from-home2stay" value="yes" class="mr-3 h-4 w-4 text-primary focus:ring-primary" checked> <span>Yes</span>
-                                </label> <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200 cursor-pointer">
-                                    <input type="radio" name="purchased-from-home2stay" value="no" class="mr-3 h-4 w-4 text-primary focus:ring-primary"> <span>No</span> </label>
+                            <div class="mb-6"> 
+                                <label for="repair-details"
+                                    class="block text-sm font-medium text-gray-700 mb-2">Repair or maintenance inquiry
+                                    details*</label> 
+                                    <textarea id="repair-details" name="repair-details" rows="4"
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-colors duration-200"
+                                    required placeholder="Please describe the issue you're experiencing..."></textarea>
+                            </div>
+                            <div class="mb-8"> <label class="block text-sm font-medium text-gray-700 mb-3">Select a location
+                                    for the service*</label>
+                                <div class="space-y-3"> <label
+                                        class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200 cursor-pointer">
+                                        <input type="radio" name="service-location" value="home2stay-location"
+                                            class="mr-3 h-4 w-4 text-primary focus:ring-primary" checked> <span>At a
+                                            Home2stay location</span> </label> <label
+                                        class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200 cursor-pointer">
+                                        <input type="radio" name="service-location" value="home-facility"
+                                            class="mr-3 h-4 w-4 text-primary focus:ring-primary"> <span>At your home / care
+                                            facility</span> </label> <label
+                                        class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200 cursor-pointer">
+                                        <input type="radio" name="service-location" value="virtual"
+                                            class="mr-3 h-4 w-4 text-primary focus:ring-primary"> <span>Virtual appointment;
+                                            if available</span> </label> 
                                 </div>
                             </div>
-                            <div class="flex justify-end"> <button type="button" class="next-step bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg font-medium transition duration-300 flex items-center shadow-md hover:shadow-lg">
-                                Next <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /> </button> </div>
+                            <div class="mb-8"> <label class="block text-sm font-medium text-gray-700 mb-3">Did you purchase
+                                    the product from Home2stay?*</label>
+                                <div class="flex space-x-6"> <label
+                                        class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200 cursor-pointer">
+                                        <input type="radio" name="purchased-from-home2stay" value="yes"
+                                            class="mr-3 h-4 w-4 text-primary focus:ring-primary" checked> <span>Yes</span>
+                                    </label> <label
+                                        class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200 cursor-pointer">
+                                        <input type="radio" name="purchased-from-home2stay" value="no"
+                                            class="mr-3 h-4 w-4 text-primary focus:ring-primary"> <span>No</span> </label>
+                                </div>
+                            </div>
+                            <div class="flex justify-end">
+                                 <button type="button" class="next-step bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg font-medium transition duration-300 flex items-center shadow-md hover:shadow-lg">
+                                    Next <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                            clip-rule="evenodd" /> 
+                                </button> 
+                            </div>
                         </div>
 
                         <!-- Step 2: Client Information -->
@@ -1490,7 +1822,9 @@
                             <div class="mb-6 p-4 bg-gray-50 rounded-lg">
                                 <div class="flex justify-between items-center mb-2">
                                     <h4 class="font-medium">What are you looking to repair?</h4>
-                                    <button type="button" class="go-to-step text-primary hover:text-primary-dark text-sm font-medium" data-step="1">
+                                    <button type="button"
+                                        class="go-to-step text-primary hover:text-primary-dark text-sm font-medium"
+                                        data-step="1">
                                         Edit
                                     </button>
                                 </div>
@@ -1519,18 +1853,27 @@
 
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                                 <div>
-                                    <label for="first-name" class="block text-sm font-medium text-gray-700 mb-1">First name*</label>
-                                    <input type="text" id="first-name" name="first-name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                                    <label for="first-name" class="block text-sm font-medium text-gray-700 mb-1">First
+                                        name*</label>
+                                    <input type="text" id="first-name" name="first-name"
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                                        required>
                                 </div>
                                 <div>
-                                    <label for="last-name" class="block text-sm font-medium text-gray-700 mb-1">Last name*</label>
-                                    <input type="text" id="last-name" name="last-name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                                    <label for="last-name" class="block text-sm font-medium text-gray-700 mb-1">Last
+                                        name*</label>
+                                    <input type="text" id="last-name" name="last-name"
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                                        required>
                                 </div>
                             </div>
 
                             <div class="mb-6">
-                                <label for="location" class="block text-sm font-medium text-gray-700 mb-1">Select a location near you*</label>
-                                <select id="location" name="location" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                                <label for="location" class="block text-sm font-medium text-gray-700 mb-1">Select a location
+                                    near you*</label>
+                                <select id="location" name="location"
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                                    required>
                                     <option value="">Choose a location</option>
                                     <option value="Barrie">Barrie</option>
                                     <option value="Toronto">Toronto</option>
@@ -1540,11 +1883,19 @@
                                 </select>
                             </div>
 
-                            <div class="flex justify-between"> <button type="button" class="prev-step bg-gray-200 hover:bg-gray-300 text-gray-800 px-6 py-3 rounded-lg font-medium transition duration-300 flex items-center shadow-md hover:shadow-lg">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" /> Back </button> <button type="button" class="next-step bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg font-medium transition duration-300 flex items-center shadow-md hover:shadow-lg">
-                                Next <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /> </button> </div>
+                            <div class="flex justify-between"> <button type="button"
+                                    class="prev-step bg-gray-200 hover:bg-gray-300 text-gray-800 px-6 py-3 rounded-lg font-medium transition duration-300 flex items-center shadow-md hover:shadow-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" /> Back </button> <button type="button"
+                                    class="next-step bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg font-medium transition duration-300 flex items-center shadow-md hover:shadow-lg">
+                                    Next <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                            clip-rule="evenodd" /> </button> </div>
                         </div>
 
                         <!-- Step 3: Contact Information -->
@@ -1555,7 +1906,9 @@
                             <div class="mb-6 p-4 bg-gray-50 rounded-lg">
                                 <div class="flex justify-between items-center mb-2">
                                     <h4 class="font-medium">What are you looking to repair?</h4>
-                                    <button type="button" class="go-to-step text-primary hover:text-primary-dark text-sm font-medium" data-step="1">
+                                    <button type="button"
+                                        class="go-to-step text-primary hover:text-primary-dark text-sm font-medium"
+                                        data-step="1">
                                         Edit
                                     </button>
                                 </div>
@@ -1565,7 +1918,9 @@
 
                                 <div class="flex justify-between items-center mb-2">
                                     <h4 class="font-medium">Can we get your information?</h4>
-                                    <button type="button" class="go-to-step text-primary hover:text-primary-dark text-sm font-medium" data-step="2">
+                                    <button type="button"
+                                        class="go-to-step text-primary hover:text-primary-dark text-sm font-medium"
+                                        data-step="2">
                                         Edit
                                     </button>
                                 </div>
@@ -1576,17 +1931,24 @@
 
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                                 <div>
-                                    <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Enter phone number*</label>
-                                    <input type="tel" id="phone" name="phone" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                                    <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Enter phone
+                                        number*</label>
+                                    <input type="tel" id="phone" name="phone"
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                                        required>
                                 </div>
                                 <div>
-                                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Enter email*</label>
-                                    <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" required>
+                                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Enter
+                                        email*</label>
+                                    <input type="email" id="email" name="email"
+                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                                        required>
                                 </div>
                             </div>
 
                             <div class="mb-6">
-                                <label class="block text-sm font-medium text-gray-700 mb-1">What is your preferred method of contact?*</label>
+                                <label class="block text-sm font-medium text-gray-700 mb-1">What is your preferred method of
+                                    contact?*</label>
                                 <div class="space-y-2">
                                     <label class="flex items-center">
                                         <input type="radio" name="contact-method" value="phone" class="mr-2" checked>
@@ -1600,30 +1962,45 @@
                             </div>
 
                             <div class="mb-6">
-                                <label class="block text-sm font-medium text-gray-700 mb-1">Marketing communications consent*</label>
+                                <label class="block text-sm font-medium text-gray-700 mb-1">Marketing communications
+                                    consent*</label>
                                 <div class="space-y-2">
                                     <label class="flex items-start">
                                         <input type="checkbox" name="marketing-consent" class="mr-2 mt-1">
-                                        <span class="text-sm text-gray-600">Yes, I would like to receive communications from Home2stay, including product information, educational opportunities and promotional offers. You can unsubscribe at any time. View our privacy & security policy for details.</span>
+                                        <span class="text-sm text-gray-600">Yes, I would like to receive communications from
+                                            Home2stay, including product information, educational opportunities and
+                                            promotional offers. You can unsubscribe at any time. View our privacy & security
+                                            policy for details.</span>
                                     </label>
                                 </div>
                             </div>
 
                             <div class="mb-6 text-xs text-gray-500">
-                                <p>By clicking "Review Form," you confirm you have read and agree to Home2stay's Privacy Policy and Terms of Service. Data collected is shared with a third-party processor for the purpose of reporting and analytics. Data collected will not be sold. Alternatively, you may contact a Home2stay location to provide your information by phone or email.</p>
+                                <p>By clicking "Review Form," you confirm you have read and agree to Home2stay's Privacy
+                                    Policy and Terms of Service. Data collected is shared with a third-party processor for
+                                    the purpose of reporting and analytics. Data collected will not be sold. Alternatively,
+                                    you may contact a Home2stay location to provide your information by phone or email.</p>
                             </div>
 
                             <div class="flex justify-between">
-                                <button type="button" class="prev-step bg-gray-300 hover:bg-gray-400 text-gray-800 px-6 py-2 rounded font-medium transition duration-300 flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                <button type="button"
+                                    class="prev-step bg-gray-300 hover:bg-gray-400 text-gray-800 px-6 py-2 rounded font-medium transition duration-300 flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Back
                                 </button>
-                                <button type="button" class="next-step bg-primary hover:bg-primary-dark text-white px-6 py-2 rounded font-medium transition duration-300 flex items-center">
+                                <button type="button"
+                                    class="next-step bg-primary hover:bg-primary-dark text-white px-6 py-2 rounded font-medium transition duration-300 flex items-center">
                                     Review Form
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                 </button>
                             </div>
@@ -1637,7 +2014,9 @@
                             <div class="mb-6 p-4 bg-gray-50 rounded-lg">
                                 <div class="flex justify-between items-center mb-2">
                                     <h4 class="font-medium">What are you looking to repair?</h4>
-                                    <button type="button" class="go-to-step text-primary hover:text-primary-dark text-sm font-medium" data-step="1">
+                                    <button type="button"
+                                        class="go-to-step text-primary hover:text-primary-dark text-sm font-medium"
+                                        data-step="1">
                                         Edit
                                     </button>
                                 </div>
@@ -1647,7 +2026,9 @@
 
                                 <div class="flex justify-between items-center mb-2">
                                     <h4 class="font-medium">Can we get your information?</h4>
-                                    <button type="button" class="go-to-step text-primary hover:text-primary-dark text-sm font-medium" data-step="2">
+                                    <button type="button"
+                                        class="go-to-step text-primary hover:text-primary-dark text-sm font-medium"
+                                        data-step="2">
                                         Edit
                                     </button>
                                 </div>
@@ -1657,7 +2038,9 @@
 
                                 <div class="flex justify-between items-center mb-2">
                                     <h4 class="font-medium">How can we contact you?</h4>
-                                    <button type="button" class="go-to-step text-primary hover:text-primary-dark text-sm font-medium" data-step="3">
+                                    <button type="button"
+                                        class="go-to-step text-primary hover:text-primary-dark text-sm font-medium"
+                                        data-step="3">
                                         Edit
                                     </button>
                                 </div>
@@ -1667,13 +2050,18 @@
                             </div>
 
                             <div class="flex justify-between">
-                                <button type="button" class="prev-step bg-gray-300 hover:bg-gray-400 text-gray-800 px-6 py-2 rounded font-medium transition duration-300 flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                <button type="button"
+                                    class="prev-step bg-gray-300 hover:bg-gray-400 text-gray-800 px-6 py-2 rounded font-medium transition duration-300 flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Back
                                 </button>
-                                <button type="submit" class="bg-primary hover:bg-primary-dark text-white px-8 py-2 rounded font-medium transition duration-300">
+                                <button type="submit"
+                                    class="bg-primary hover:bg-primary-dark text-white px-8 py-2 rounded font-medium transition duration-300">
                                     Submit
                                 </button>
                             </div>
@@ -1709,7 +2097,8 @@
                         <div class="content">
                             <!-- Published Date -->
                             <div class="date">
-                                <time datetime="{{ $post->created_at->format('Y-m-d') }}">{{ $post->created_at->format('F j, Y') }}</time>
+                                <time
+                                    datetime="{{ $post->created_at->format('Y-m-d') }}">{{ $post->created_at->format('F j, Y') }}</time>
                             </div>
 
                             <!-- Title -->
@@ -1721,8 +2110,10 @@
                             <!-- Read More Button -->
                             <a href="{{ route('blog.show', $post->slug) }}" class="read-more">
                                 Read More
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                 </svg>
                             </a>
                         </div>
@@ -1782,6 +2173,7 @@
             </div>
         </div>
     </div>
+
     <!-- Services Section -->
     <section class="py-16">
         <div class="container mx-auto px-4">
@@ -1791,52 +2183,67 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-6 text-center border-t-4 border-primary">
+                <div
+                    class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-6 text-center border-t-4 border-primary">
                     <div class="text-5xl text-primary mb-6">
                         <i class="fas fa-building"></i>
                     </div>
                     <h4 class="text-xl font-bold mb-4">Service One</h4>
-                    <p class="text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
-                    <a href="#" class="inline-block text-primary border border-primary hover:bg-primary hover:text-white px-4 py-2 rounded text-sm transition duration-300">Learn More</a>
+                    <p class="text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                        luctus nec ullamcorper mattis.</p>
+                    <a href="#"
+                        class="inline-block text-primary border border-primary hover:bg-primary hover:text-white px-4 py-2 rounded text-sm transition duration-300">Learn
+                        More</a>
                 </div>
 
-                <div class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-6 text-center border-t-4 border-secondary">
+                <div
+                    class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-6 text-center border-t-4 border-secondary">
                     <div class="text-5xl text-secondary mb-6">
                         <i class="fas fa-cogs"></i>
                     </div>
                     <h4 class="text-xl font-bold mb-4">Service Two</h4>
-                    <p class="text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
-                    <a href="#" class="inline-block text-secondary border border-secondary hover:bg-secondary hover:text-white px-4 py-2 rounded text-sm transition duration-300">Learn More</a>
+                    <p class="text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                        luctus nec ullamcorper mattis.</p>
+                    <a href="#"
+                        class="inline-block text-secondary border border-secondary hover:bg-secondary hover:text-white px-4 py-2 rounded text-sm transition duration-300">Learn
+                        More</a>
                 </div>
 
-                <div class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-6 text-center border-t-4 border-accent">
+                <div
+                    class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-6 text-center border-t-4 border-accent">
                     <div class="text-5xl text-accent mb-6">
                         <i class="fas fa-chart-line"></i>
                     </div>
                     <h4 class="text-xl font-bold mb-4">Service Three</h4>
-                    <p class="text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
-                    <a href="#" class="inline-block text-accent border border-accent hover:bg-accent hover:text-white px-4 py-2 rounded text-sm transition duration-300">Learn More</a>
+                    <p class="text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                        luctus nec ullamcorper mattis.</p>
+                    <a href="#"
+                        class="inline-block text-accent border border-accent hover:bg-accent hover:text-white px-4 py-2 rounded text-sm transition duration-300">Learn
+                        More</a>
                 </div>
             </div>
         </div>
     </section>
+    
     <!-- Call to Action -->
     <section class="py-20 gradient-bg text-white">
         <div class="container mx-auto px-4">
-            <div class="flex flex-col md:flex-row items-center justify-between bg-white/10 backdrop-blur-sm p-12 rounded-xl">
+            <div
+                class="flex flex-col md:flex-row items-center justify-between bg-white/10 backdrop-blur-sm p-12 rounded-xl">
                 <div class="mb-8 md:mb-0 text-center md:text-left max-w-xl">
                     <h3 class="text-2xl md:text-3xl font-bold mb-4">Ready to make your home safer and more accessible?</h3>
-                    <p class="text-gray-100 text-lg">Contact us today and discover how our solutions can transform your living space.</p>
+                    <p class="text-gray-100 text-lg">Contact us today and discover how our solutions can transform your
+                        living space.</p>
                 </div>
                 <div>
-                    <a href="/contact" class="btn-secondary inline-block px-8 py-4 text-gray-900 font-bold rounded-lg text-lg">
+                    <a href="/contact"
+                        class="btn-secondary inline-block px-8 py-4 text-gray-900 font-bold rounded-lg text-lg">
                         Contact Us Today
                     </a>
                 </div>
             </div>
         </div>
     </section>
-
 
     <!-- REUSEABLE COMPONENT -->
 
@@ -1846,7 +2253,9 @@
     <!-- Add Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
@@ -1975,6 +2384,39 @@
 
             .testimonial-card {
                 padding: 1.5rem;
+                min-height: auto; /* Remove fixed height on mobile */
+                height: auto; /* Ensures adaptive height */
+                overflow: visible; /* Prevent content from being cut off */
+            }
+            
+            .testimonial-card .avatar {
+                width: 4.5rem;
+                height: 4.5rem;
+                margin-bottom: 1rem;
+            }
+            
+            .testimonial-card .quotation {
+                font-size: 3.5rem;
+                top: 1rem;
+                right: 1rem;
+            }
+            
+            .testimonial-card .text-lg {
+                font-size: 1rem;
+                line-height: 1.5;
+            }
+            
+            .testimonial-slider {
+                overflow: hidden; /* Ensure slider container doesn't overflow */
+                height: auto !important; /* Force auto height */
+            }
+            
+            .testimonial-slider .swiper-wrapper {
+                height: auto !important; /* Force auto height on wrapper */
+            }
+            
+            .testimonial-slider .swiper-slide {
+                height: auto !important; /* Force auto height on slides */
             }
 
             .stat-circle {
@@ -1984,6 +2426,11 @@
 
             .stat-circle .number {
                 font-size: 2rem;
+            }
+            
+            /* Fix image height on mobile */
+            .relative.rounded-xl.overflow-hidden.shadow-xl.h-\[600px\] {
+                height: 300px;
             }
         }
 
@@ -2127,6 +2574,32 @@
                 fadeEffect: {
                     crossFade: true
                 },
+                // Add responsive settings for improved mobile experience
+                breakpoints: {
+                    // Mobile
+                    320: {
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                        autoHeight: true,
+                        effect: 'slide', // Use simpler slide effect on mobile
+                    },
+                    // Tablet
+                    768: {
+                        slidesPerView: 1,
+                        spaceBetween: 30,
+                        autoHeight: true,
+                    },
+                    // Desktop
+                    1024: {
+                        slidesPerView: 1,
+                        spaceBetween: 30,
+                        autoHeight: false,
+                    }
+                },
+                observer: true, // Enable dynamic updates
+                observeParents: true,
+                resizeObserver: true, // Force resize recalculation
+                updateOnWindowResize: true // Update on window resize
             });
 
             // Multi-step Form Functionality
@@ -2253,6 +2726,186 @@
                     console.log('Updating summaries for step', step);
                 }
             }
+        });
+    </script>
+
+    <!-- Product Info Modal -->
+    <div id="productInfoModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center hidden">
+        <div class="bg-white rounded-xl shadow-2xl w-full max-w-2xl max-h-[90vh] overflow-y-auto">
+            <!-- Modal Header -->
+            <div class="bg-primary text-white p-4 rounded-t-xl flex justify-between items-center sticky top-0 z-10">
+                <h3 class="text-xl font-bold" id="modalProductTitle">Get Product Information</h3>
+                <button id="closeModal" class="text-white hover:text-gray-200 focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="p-6">
+                <form id="productInfoForm">
+                    <input type="hidden" id="productName" name="productName">
+
+                    <!-- Product Info Section -->
+                    <div class="mb-6">
+                        <h4 class="text-lg font-semibold mb-4 text-primary">Product Information</h4>
+                        <div class="p-3 bg-gray-50 rounded-lg mb-4">
+                            <p>You're requesting information about: <span id="displayProductName"
+                                    class="font-semibold text-primary"></span></p>
+                        </div>
+                    </div>
+
+                    <!-- Purpose Section -->
+                    <div class="mb-6">
+                        <h4 class="text-lg font-semibold mb-3 text-primary">What kind of information are you looking for?
+                        </h4>
+                        <div class="space-y-2">
+                            <label class="flex items-start">
+                                <input type="checkbox" name="infoType[]" value="newProduct" class="mt-1 mr-2">
+                                <span>New product information</span>
+                            </label>
+                            <label class="flex items-start">
+                                <input type="checkbox" name="infoType[]" value="repairing" class="mt-1 mr-2">
+                                <span>Repairing existing product</span>
+                            </label>
+                            <label class="flex items-start">
+                                <input type="checkbox" name="infoType[]" value="pricing" class="mt-1 mr-2">
+                                <span>Pricing and payment options</span>
+                            </label>
+                            <label class="flex items-start">
+                                <input type="checkbox" name="infoType[]" value="installation" class="mt-1 mr-2">
+                                <span>Installation services</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- For Whom Section -->
+                    <div class="mb-6">
+                        <h4 class="text-lg font-semibold mb-3 text-primary">Who will be using this product?</h4>
+                        <div class="space-y-2">
+                            <label class="flex items-center">
+                                <input type="radio" name="forWhom" value="self" class="mr-2" checked>
+                                <span>Myself</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="radio" name="forWhom" value="familyMember" class="mr-2">
+                                <span>Family member</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="radio" name="forWhom" value="client" class="mr-2">
+                                <span>Client/Patient</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="radio" name="forWhom" value="other" class="mr-2">
+                                <span>Other</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="mb-6">
+                        <h4 class="text-lg font-semibold mb-4 text-primary">Your Contact Information</h4>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div>
+                                <label for="firstName" class="block text-sm font-medium text-gray-700 mb-1">First
+                                    Name*</label>
+                                <input type="text" id="firstName" name="firstName" required
+                                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                            </div>
+                            <div>
+                                <label for="lastName" class="block text-sm font-medium text-gray-700 mb-1">Last
+                                    Name*</label>
+                                <input type="text" id="lastName" name="lastName" required
+                                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                            </div>
+                        </div>
+
+                        <div class="mt-4">
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email*</label>
+                            <input type="email" id="email" name="email" required
+                                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                        </div>
+
+                        <div class="mt-4">
+                            <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number*</label>
+                            <input type="tel" id="phone" name="phone" required
+                                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                        </div>
+
+                        <div class="mt-4">
+                            <label for="comments" class="block text-sm font-medium text-gray-700 mb-1">Additional
+                                Comments</label>
+                            <textarea id="comments" name="comments" rows="3"
+                                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 flex justify-end">
+                        <button type="submit"
+                            class="bg-primary hover:bg-primary-dark text-white px-6 py-2 rounded-md font-medium transition duration-300">
+                            Submit Request
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Get all elements
+            const getInfoButtons = document.querySelectorAll('.get-info-btn');
+            const modal = document.getElementById('productInfoModal');
+            const closeModalBtn = document.getElementById('closeModal');
+            const productNameInput = document.getElementById('productName');
+            const displayProductName = document.getElementById('displayProductName');
+            const modalProductTitle = document.getElementById('modalProductTitle');
+            const productInfoForm = document.getElementById('productInfoForm');
+
+            // Open modal when Get Info button is clicked
+            getInfoButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const productName = this.getAttribute('data-product');
+                    productNameInput.value = productName;
+                    displayProductName.textContent = productName;
+                    modalProductTitle.textContent = `Get Information: ${productName}`;
+                    modal.classList.remove('hidden');
+                    document.body.style.overflow = 'hidden'; // Prevent scrolling
+                });
+            });
+
+            // Close modal when the close button is clicked
+            closeModalBtn.addEventListener('click', function () {
+                modal.classList.add('hidden');
+                document.body.style.overflow = 'auto'; // Re-enable scrolling
+            });
+
+            // Close modal when clicking outside the modal content
+            modal.addEventListener('click', function (e) {
+                if (e.target === modal) {
+                    modal.classList.add('hidden');
+                    document.body.style.overflow = 'auto';
+                }
+            });
+
+            // Handle form submission
+            productInfoForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+
+                // Create FormData object to easily get form values
+                const formData = new FormData(this);
+
+                // You would typically send this data to your server with AJAX
+                // For now, we'll just display a success message
+                alert('Your request has been submitted! We will contact you shortly.');
+
+                // Reset form and close modal
+                this.reset();
+                modal.classList.add('hidden');
+                document.body.style.overflow = 'auto';
+            });
         });
     </script>
 @endpush

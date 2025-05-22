@@ -143,14 +143,14 @@
                             <!-- Categories Sub-menu -->
                             <div
                                 class="hidden group-hover/submenu:block absolute left-full top-0 w-64 bg-white rounded-lg shadow-lg py-2 ml-1">
-                                <a href="/products-categories"
+                                <a href="/products-categories/automotive/"
                                     class="flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 hover:text-primary transition-colors border-b border-gray-100">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 text-primary"
                                         fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                             d="M4 6h16M4 10h16M4 14h16M4 18h16" />
                                     </svg>
-                                    All Categories
+                                    Automotive
                                 </a>
                                 <a href="/products-categories/grab-bars/"
                                     class="flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 hover:text-primary transition-colors border-b border-gray-100">

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Home2stay VSL Curb-Sider Interior Lift - Home2stay')
-@section('meta_description', 'Bruno\'s dependable hoist-style lift for scooters and powerchairs, the Curb-Sider\'s space-efficient design lets you keep your third-row seating when a mobility device isn\'t present.')
+@section('title', 'Home2stay Swivel Car Seat Lift - Home2stay')
+@section('meta_description', 'Enter &amp; exit your car safely with a Home2stay Swivel Car Seat Lift! Effortless rotation helps you transfer from wheelchair to seat. Easy installation, various models - find your perfect fit online!')
 
 @section('content')
     <!-- Hero Section -->
@@ -47,12 +47,12 @@
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" d="m1 9 4-4-4-4" />
                                 </svg>
-                                <span class="ml-1 font-medium text-gray-100">Home2stay VSL Curb-Sider Interior Lift</span>
+                                <span class="ml-1 font-medium text-gray-100">Home2stay Swivel Car Seat Lift</span>
                             </div>
                         </li>
                     </ol>
                 </nav>
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Home2stay VSL Curb-Sider Interior Lift</h1>
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Home2stay Swivel Car Seat Lift</h1>
                 <div class="flex items-center mb-4">
                     <div class="flex text-yellow-400">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -90,8 +90,8 @@
                 <!-- Product Image Gallery -->
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gray-100 rounded-lg overflow-hidden mb-4">
-                        <img src="{{ asset('prod-aotumotive/bruno-curb-sider-hd-1024x683-2.jpg') }}"
-                            alt="VSL Curb Sider Interior Lift 2" class="w-full h-auto object-cover">
+                        <img src="{{ asset('al-prod-page-imgs/Automotive.jpg') }}"
+                            alt="Home2stay Swivel Car Seat Lift - BraunAbility Turny Evo" class="w-full h-auto object-cover">
                     </div>
                     <!-- Request Quote Button -->
                     <div class="text-center mt-4 mb-6">
@@ -104,19 +104,20 @@
 
                 <!-- Product Info -->
                 <div class="w-full lg:w-1/2">
-
-
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Bruno's dependable hoist-style lift for scooters and powerchairs, the Curb-Sider's
-                            space-efficient design lets you keep your third-row seating when a mobility device isn't
-                            present.
+                            The Turny Evo mobility seat by BraunAbility is the best selling handicap vehicle transfer seat for SUVs, trucks and vans.
                         </p>
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Stand by the bumper, connect a docking device, push a button and the Curb-Sider lifts and stows
-                            your mobility device.</p>
+                            It moves completely outside the vehicle and lowers the seat to the desired height, making it easy for the user to sit down and transfer from a wheelchair to the vehicle and vice versa.
+                        </p>
+                    </div>
+                    <div class="mb-6">
+                        <p class="text-gray-600 text-lg">
+                            One-button activation lifts the user inside the vehicle. It can be used with the included Comfort Seat or with the vehicle's original seat.
+                        </p>
                     </div>
 
                     <!-- Product Tabs Section -->
@@ -175,10 +176,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Ease of Use</h3>
-                                            <p class="text-gray-600">The Curb-Sider makes loading and unloading your
-                                                mobility device simple and efficient. Just push a button and the lift does
-                                                the work for you.</p>
+                                            <h3 class="font-semibold text-gray-800">One-Button Operation</h3>
+                                            <p class="text-gray-600">Simple one-button activation lifts the user inside the vehicle. Can be operated via hand-held control or optional smartphone app.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -189,9 +188,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Space-Saving Design</h3>
-                                            <p class="text-gray-600">Keep your third-row seating when a mobility device
-                                                isn't present, maximizing your vehicle's versatility.</p>
+                                            <h3 class="font-semibold text-gray-800">Full Powered Movement</h3>
+                                            <p class="text-gray-600">Fully powered system that rotates, extends, and moves up and down. Moves completely outside the vehicle and lowers to desired height.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -202,9 +200,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Reliable Performance</h3>
-                                            <p class="text-gray-600">Bruno's dependable hoist-style lift provides
-                                                consistent, reliable operation for years of trouble-free use.</p>
+                                            <h3 class="font-semibold text-gray-800">Reversible Installation</h3>
+                                            <p class="text-gray-600">Installation is completely reversible and will not affect the resale value or aesthetics of your vehicle. Can be transferred to other vehicles with ease.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -215,9 +212,20 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Versatile Compatibility</h3>
-                                            <p class="text-gray-600">Works with most scooters and powerchairs, making it a
-                                                flexible solution for your mobility needs.</p>
+                                            <h3 class="font-semibold text-gray-800">Customizable Options</h3>
+                                            <p class="text-gray-600">Comes in 6 color options and two material types (smooth and textured faux leather). Can be used with included Comfort Seat or vehicle's original seat.</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="h-5 w-5 text-primary flex-shrink-0 mr-3 mt-1"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd"
+                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                clip-rule="evenodd" />
+                                        </svg>
+                                        <div>
+                                            <h3 class="font-semibold text-gray-800">Manual Backup System</h3>
+                                            <p class="text-gray-600">Includes a manual backup system for your peace of mind, ensuring the seat can always be operated even in case of power failure.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -225,64 +233,41 @@
 
                             <!-- Accessories Tab -->
                             <div class="tab-pane" data-tab="accessories-tab" style="display: none !important;">
-                                <div class="text-center">
-                                    <p>Coming soon</p>
+                                <div class="space-y-4">
+                                    <div class="text-center">
+                                        <h3 class="text-lg font-semibold text-gray-800 mb-4">Available Options & Accessories</h3>
+                                    </div>
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                        <div class="border rounded-lg p-4">
+                                            <h4 class="font-semibold text-gray-800 mb-2">Comfort Seat</h4>
+                                            <p class="text-gray-600 text-sm">Included comfort seat option for enhanced user experience.</p>
+                                        </div>
+                                        <div class="border rounded-lg p-4">
+                                            <h4 class="font-semibold text-gray-800 mb-2">Original Vehicle Seat Compatibility</h4>
+                                            <p class="text-gray-600 text-sm">Can be used with your vehicle's original seat.</p>
+                                        </div>
+                                        <div class="border rounded-lg p-4">
+                                            <h4 class="font-semibold text-gray-800 mb-2">Smartphone App Control</h4>
+                                            <p class="text-gray-600 text-sm">Optional smartphone app for convenient operation.</p>
+                                        </div>
+                                        <div class="border rounded-lg p-4">
+                                            <h4 class="font-semibold text-gray-800 mb-2">Custom Color Options</h4>
+                                            <p class="text-gray-600 text-sm">6 color options available with smooth or textured faux leather.</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <!-- <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                    <div class="border rounded-lg overflow-hidden">
-                                        <div class="h-48 bg-gray-100">
-                                            <img src="{{ asset('images/products/docking-device.jpg') }}"
-                                                alt="Docking Device" class="w-full h-full object-cover">
-                                        </div>
-                                        <div class="p-4">
-                                            <h3 class="font-semibold text-gray-800">Docking Device</h3>
-                                            <p class="text-gray-600 text-sm mt-1">Compatible docking device for secure
-                                                attachment to your mobility device</p>
-                                        </div>
-                                    </div>
-                                    <div class="border rounded-lg overflow-hidden">
-                                        <div class="h-48 bg-gray-100">
-                                            <img src="{{ asset('images/products/weatherproof-cover.jpg') }}"
-                                                alt="Weatherproof Cover" class="w-full h-full object-cover">
-                                        </div>
-                                        <div class="p-4">
-                                            <h3 class="font-semibold text-gray-800">Weatherproof Cover</h3>
-                                            <p class="text-gray-600 text-sm mt-1">Protect your lift mechanism from the
-                                                elements</p>
-                                        </div>
-                                    </div>
-                                    <div class="border rounded-lg overflow-hidden">
-                                        <div class="h-48 bg-gray-100">
-                                            <img src="{{ asset('images/products/extended-arm.jpg') }}" alt="Extended Arm"
-                                                class="w-full h-full object-cover">
-                                        </div>
-                                        <div class="p-4">
-                                            <h3 class="font-semibold text-gray-800">Extended Arm Option</h3>
-                                            <p class="text-gray-600 text-sm mt-1">For larger vehicles or mobility devices
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="border rounded-lg overflow-hidden">
-                                        <div class="h-48 bg-gray-100">
-                                            <img src="{{ asset('images/products/battery-pack.jpg') }}" alt="Battery Pack"
-                                                class="w-full h-full object-cover">
-                                        </div>
-                                        <div class="p-4">
-                                            <h3 class="font-semibold text-gray-800">Backup Battery Pack</h3>
-                                            <p class="text-gray-600 text-sm mt-1">Ensures operation even if your vehicle
-                                                battery is low</p>
-                                        </div>
-                                    </div>
-                                </div> -->
                             </div>
 
                             <!-- More Images Tab -->
                             <div class="tab-pane" data-tab="images-tab" style="display: none !important;">
                                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('prod-aotumotive/bruno-curb-sider-hd-1024x683-2.jpg') }}"
-                                            alt="VSL Curb Sider Interior Lift"
+                                        <img src="{{ asset('al-prod-page-imgs/Automotive.jpg') }}"
+                                            alt="Home2stay Swivel Car Seat Lift - BraunAbility Turny Evo"
                                             class="w-full h-32 object-cover rounded-lg hover:opacity-90 transition duration-200">
+                                    </div>
+                                    <div class="text-center col-span-2 md:col-span-2 flex items-center justify-center">
+                                        <p class="text-gray-500">More images coming soon</p>
                                     </div>
                                 </div>
                             </div>
@@ -292,32 +277,23 @@
                                 <div class="space-y-4">
                                     <div class="border-l-4 border-primary pl-4">
                                         <h3 class="font-semibold text-gray-800">Professional Installation</h3>
-                                        <p class="text-gray-600">Our trained technicians will install your VSL Curb Sider
-                                            Interior Lift ensuring it fits perfectly with your vehicle and operates safely.
-                                        </p>
+                                        <p class="text-gray-600">Our trained technicians will install your Swivel Car Seat Lift ensuring it fits perfectly with your vehicle and operates safely. Installation is completely reversible and will not affect your vehicle's resale value.</p>
                                     </div>
                                     <div class="border-l-4 border-primary pl-4">
                                         <h3 class="font-semibold text-gray-800">Delivery Options</h3>
-                                        <p class="text-gray-600">We offer delivery throughout the Greater Vancouver area.
-                                            For locations outside our service area, please contact us for options.</p>
+                                        <p class="text-gray-600">We offer delivery throughout the Greater Vancouver area. For locations outside our service area, please contact us for shipping options.</p>
                                     </div>
                                     <div class="border-l-4 border-primary pl-4">
                                         <h3 class="font-semibold text-gray-800">Installation Process</h3>
-                                        <p class="text-gray-600">Installation typically takes 4-6 hours. We'll schedule a
-                                            convenient time for you and provide a courtesy vehicle if needed during the
-                                            installation.</p>
+                                        <p class="text-gray-600">Installation typically takes 4-8 hours depending on your vehicle type. We'll schedule a convenient time for you and provide a courtesy vehicle if needed during the installation.</p>
                                     </div>
                                     <div class="border-l-4 border-primary pl-4">
                                         <h3 class="font-semibold text-gray-800">Training & Support</h3>
-                                        <p class="text-gray-600">After installation, our technicians will provide thorough
-                                            training on how to use your new lift system and answer any questions you may
-                                            have.</p>
+                                        <p class="text-gray-600">After installation, our technicians will provide comprehensive training on how to use your new swivel seat system, including operation via hand-held control or smartphone app.</p>
                                     </div>
                                     <div class="border-l-4 border-primary pl-4">
                                         <h3 class="font-semibold text-gray-800">Warranty & Service</h3>
-                                        <p class="text-gray-600">Your lift comes with a comprehensive warranty. We also
-                                            offer ongoing maintenance services to keep your lift operating at peak
-                                            performance.</p>
+                                        <p class="text-gray-600">Your swivel seat comes with a 3-year limited warranty (3-year parts / 1-year labor). We also offer ongoing maintenance services to keep your seat operating at peak performance.</p>
                                     </div>
                                 </div>
                             </div>
@@ -333,8 +309,7 @@
                                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                                     clip-rule="evenodd" />
                                             </svg>
-                                            <span>Fully powered, one-button seat rotation
-                                            </span>
+                                            <span>Weight Capacity: 370 lbs</span>
                                         </li>
                                         <li class="flex items-start">
                                             <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
@@ -343,7 +318,7 @@
                                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                                     clip-rule="evenodd" />
                                             </svg>
-                                            <span>Multiple fabric colors</span>
+                                            <span>Position & Location: Driver or passenger side; first or second row</span>
                                         </li>
                                         <li class="flex items-start">
                                             <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
@@ -352,7 +327,7 @@
                                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                                     clip-rule="evenodd" />
                                             </svg>
-                                            <span>Original seat unmodified and easily reinstalled</span>
+                                            <span>Full powered: rotates, extends, moves up and down</span>
                                         </li>
                                         <li class="flex items-start">
                                             <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
@@ -361,7 +336,7 @@
                                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                                     clip-rule="evenodd" />
                                             </svg>
-                                            <span>Manual seat slider extends seat beyond door frame</span>
+                                            <span>One-button operation via hand-held control or optional smartphone app</span>
                                         </li>
                                         <li class="flex items-start">
                                             <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
@@ -370,29 +345,55 @@
                                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                                     clip-rule="evenodd" />
                                             </svg>
-                                            <span>Scratch resistant, easy-to-clean fabrics</span>
+                                            <span>Travel time: 35 to 65 seconds</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                                <path fill-rule="evenodd"
+                                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                            <span>Manual backup system for your peace of mind</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                                <path fill-rule="evenodd"
+                                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                            <span>3-year limited warranty (3-year parts / 1-year labor)</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                                <path fill-rule="evenodd"
+                                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                            <span>6 color options and two material types (smooth and textured faux leather)</span>
                                         </li>
                                     </ul>
                                 </div>
 
                                 <div class="mb-8">
                                     <div class="mb-6">
-
                                         <div class="bg-gray-50 rounded-lg p-4">
                                             <div class="flex items-center justify-between mb-2">
-                                                <h3 class="text-xl font-semibold text-gray-800 mb-3">Specifications</h3>
-                                                <span class="text-sm text-gray-800">Bruno</span>
+                                                <h3 class="text-xl font-semibold text-gray-800 mb-3">Supplier</h3>
+                                                <span class="text-sm text-gray-800">BraunAbility</span>
                                             </div>
                                             <div class="flex items-center justify-between mb-2">
                                                 <h3 class="text-xl font-semibold text-gray-800 mb-3">Pricing</h3>
-                                                <span class="text-sm text-gray-800">Starts at $4,250.00 +
-                                                    installation</span>
+                                                <span class="text-sm text-gray-800">Starts at $12,913 + installation and shipping</span>
                                             </div>
-                                            <d iv class="flex items-center justify-between mb-2">
+                                            <div class="flex items-center justify-between mb-2">
                                                 <h3 class="text-xl font-semibold text-gray-800 mb-3">Call Us</h3>
                                                 <a href="tel:+16042591211" class="text-secondary">
                                                     <span class="text-sm text-gray-800">604-259-1211</span>
                                                 </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -508,14 +509,13 @@
     <section id="inquiry" class="py-12 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="max-w-3xl mx-auto">
-                <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Interested in the VSL Curb Sider Interior Lift
-                    2?</h2>
+                <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Interested in the Swivel Car Seat Lift?</h2>
                 <p class="text-lg text-center text-gray-600 mb-8">Fill out the form below and our team will get back to you
                     with detailed information and pricing.</p>
 
                 <form action="#" method="POST" class="bg-white rounded-xl p-6 md:p-8 shadow-md">
                     @csrf
-                    <input type="hidden" name="product" value="VSL Curb Sider Interior Lift 2">
+                    <input type="hidden" name="product" value="Home2stay Swivel Car Seat Lift">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                         <div>
                             <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
@@ -562,8 +562,7 @@
         <div class="container mx-auto px-4">
             <div class="max-w-3xl mx-auto">
                 <h2 class="text-3xl font-bold text-center text-gray-800 mb-4">Schedule a Free Assessment</h2>
-                <p class="text-lg text-center text-gray-600 mb-8">Our mobility specialists will help determine if the VSL
-                    Curb Sider Interior Lift 2 is the right solution for your needs.</p>
+                <p class="text-lg text-center text-gray-600 mb-8">Our mobility specialists will help determine if the Swivel Car Seat Lift is the right solution for your needs.</p>
 
                 <!-- Assessment form here -->
                 <div class="text-center">
@@ -602,14 +601,13 @@
                 <form id="quoteRequestForm">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name"
-                        value="Home2stay VSL Curb-Sider Interior Lift">
+                        value="Home2stay Swivel Car Seat Lift">
 
                     <!-- Product Info Section -->
                     <div class="mb-6">
                         <h4 class="text-lg font-semibold mb-4 text-primary">Product Information</h4>
                         <div class="p-3 bg-gray-50 rounded-lg mb-4">
-                            <p>You're requesting a quote for: <span class="font-semibold text-primary">Home2stay VSL
-                                    Curb-Sider Interior Lift</span></p>
+                            <p>You're requesting a quote for: <span class="font-semibold text-primary">Home2stay Swivel Car Seat Lift</span></p>
                         </div>
                     </div>
 

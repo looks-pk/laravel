@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>@yield('title', config('app.name', 'Laravel'))</title>
     <meta name="description" content="@yield('meta_description', 'Professional IT services and solutions')">
 
     <!-- Fonts -->
@@ -38,7 +38,11 @@
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                     <!-- Company Info -->
                     <div>
-                        <h3 class="text-xl font-bold mb-4">YourCompany</h3>
+                    <div class="flex-shrink-0 mb-4">
+                <a href="{{ route('home') }}" class="flex items-center">
+                    <span class="text-2xl font-bold text-primary"><img src="/logo/logo-light.png" alt=""></span>
+                </a>
+            </div>
                         <p class="text-gray-400 mb-4">Professional IT services and solutions for your business needs.</p>
                         <div class="flex space-x-4">
                             <a href="#" class="text-gray-400 hover:text-white transition-colors">

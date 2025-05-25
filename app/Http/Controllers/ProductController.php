@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Service;
+use App\Models\BlogPost;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 
@@ -36,11 +37,18 @@ class ProductController extends Controller
         if (!in_array($category, $allowedCategories)) {
             abort(404);
         }
+
+        // Get latest blog posts for the related blogs section
+        $latestPosts = BlogPost::published()
+            ->orderBy('published_at', 'desc')
+            ->take(3)
+            ->get();
         
         // If we've made it this far, the view must exist
         return view('products.categories.' . $category, [
             'category' => $category,
-            'categoryTitle' => ucwords(str_replace('-', ' ', $category))
+            'categoryTitle' => ucwords(str_replace('-', ' ', $category)),
+            'latestPosts' => $latestPosts
         ]);
     }
     
@@ -63,11 +71,18 @@ class ProductController extends Controller
         if (!in_array($product, $allowedProducts)) {
             abort(404);
         }
+
+        // Get latest blog posts for the related blogs section
+        $latestPosts = BlogPost::published()
+            ->orderBy('published_at', 'desc')
+            ->take(3)
+            ->get();
         
         // If we've made it this far, the view must exist
         return view('products.products.' . $product, [
             'product' => $product,
-            'productTitle' => ucwords(str_replace('-', ' ', $product))
+            'productTitle' => ucwords(str_replace('-', ' ', $product)),
+            'latestPosts' => $latestPosts
         ]);
     }
 } 

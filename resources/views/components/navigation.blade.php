@@ -4,7 +4,7 @@
             <!-- Logo (Left Side) -->
             <div class="flex-shrink-0">
                 <a href="{{ route('home') }}" class="flex items-center">
-                    <span class="text-2xl font-bold text-primary">YourLogo</span>
+                    <span class="text-2xl font-bold text-primary"><img src="/logo/logo-clr.png" alt=""></span>
                 </a>
             </div>
 
@@ -19,7 +19,7 @@
                 <div class="relative group">
                     <button
                         class="flex items-center text-gray-700 hover:text-primary transition-colors {{ request()->routeIs('services.*') ? 'text-primary font-medium' : '' }}">
-                        Services
+                        Products
                         <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg>
@@ -28,17 +28,8 @@
                     <!-- Dropdown Menu - Redesigned to be vertical with icons and support for sub-links -->
                     <div
                         class="absolute left-0 mt-2 w-72 bg-white rounded-lg shadow-lg py-2 hidden group-hover:block z-50">
-                        <a href="{{ route('services.index') }}"
-                            class="flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 hover:text-primary transition-colors border-b border-gray-100">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h16M4 18h7" />
-                            </svg>
-                            All Services
-                        </a>
-
-                        <!-- Products Section -->
+        
+                    <!-- Products Section -->
                         <div class="relative group/submenu">
                             <button
                                 class="w-full flex items-center justify-between px-4 py-3 text-gray-700 hover:bg-gray-100 hover:text-primary transition-colors border-b border-gray-100">
@@ -233,6 +224,40 @@
                                     d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
                             Accessibility Solutions
+                        </a>
+                    </div>
+                </div>
+                <!-- About Drop Down -->
+                <div class="relative group">
+                    <button
+                        class="flex items-center text-gray-700 hover:text-primary transition-colors {{ request()->routeIs('services.*') ? 'text-primary font-medium' : '' }}">
+                        About Us
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+
+                    <!-- Dropdown Menu - Redesigned to be vertical with icons and support for sub-links -->
+                    <div
+                        class="absolute left-0 mt-2 w-72 bg-white rounded-lg shadow-lg py-2 hidden group-hover:block z-50">
+                        <a href="/company-profile/"
+                            class="flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 hover:text-primary transition-colors border-b border-gray-100">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 text-primary" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h16M4 18h7" />
+                            </svg>
+                            Company Profile
+                        </a>
+                        <!-- Accessibility Solutions -->
+                        <a href="/gallery/"
+                            class="flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 hover:text-primary transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 text-primary" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            Gallery
                         </a>
                     </div>
                 </div>

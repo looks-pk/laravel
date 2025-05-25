@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Automotive Solutions For Seniors &amp; People with Disabilities - Home2stay')
-@section('meta_description', 'Enjoy senior-friendly and disability-friend travels! Home2Stay’s range of automotive solutions, such as the Wheelchair / Scooter Lifts and Mobility Seats will allow you to bring your mobility devices securely on your trip and help those with mobility limitations to be seated safely inside the vehicle.')
+@section('title', 'Bath Benches, Shower Seats &amp; Accessories for a Safe Bathroom - Home2stay')
+@section('meta_description', 'We stock a full range of products to help seniors and people with disabilities to bathe in safety, comfort and independence. These include bath seats, bath benches, bath stools, transfer benches, bathroom mats, bath lifts and raised toilet seats.')
 
 @push('styles')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -17,17 +17,16 @@
     <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('{{ asset('al-prod-page-imgs/Automotive.jpg') }}');">
+            style="background-image: url('{{ asset('bathsafety-cat/seat-corner.jpg') }}');">
             <div class="absolute inset-0 bg-black opacity-60"></div>
         </div>
 
         <!-- Hero Content -->
         <div class="container mx-auto px-4 relative z-10 flex items-center" style="min-height: 500px;">
             <div class="max-w-3xl">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Automotive</h1>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Bathroom Safety</h1>
                 <p class="text-xl text-white/90 mb-8">
-                    Enabling independence on the road with innovative mobility solutions designed for comfort, safety, and
-                    ease of use.
+                    Elevate your bathroom's safety with our reliable products, ensuring peace of mind and independence in your daily routines.
                 </p>
                 <div class="flex flex-wrap gap-4">
                     <a href="#products"
@@ -47,99 +46,125 @@
     <section id="products" class="py-16 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Automotive Accessibility Products</h2>
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Bathroom Safety Products</h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto">
-                    Discover our range of innovative solutions designed to make vehicle access and operation easier for
-                    individuals with mobility challenges.
+                    Discover our comprehensive range of bathroom safety solutions designed to provide stability, support, and confidence in your daily bathing routines.
                 </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Product 1 -->
+                <!-- Product 1 - Padded Transfer Bench -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('prod-aotumotive/bruno-curb-sider-hd-1024x683-2.jpg') }}" alt="Vehicle Transfer Seats"
+                        <img class="w-full" src="{{ asset('bathsafety-cat/padded-transfer-bench.jpg') }}" alt="Home2stay Padded Transfer Bench"
                             class="w-full object-cover" style="height: 300px;">
                         <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Popular
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay VSL Curb-Sider Interior Lift</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">Bruno’s dependable hoist-style lift for scooters and
-                            powerchairs, the Curb-Sider’s space-efficie
-
-                        </p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Padded Transfer Bench</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Designed for easy and safe transfers in the bathroom. With comfortable cushioned seat and backrest.</p>
                         <div class="mt-auto">
-
-                            <a href="{{ route('products.show', 'home2stay-vsl-curb-sider-interior-lift-2') }}"
+                            <a href="/products/home2stay-padded-transfer-bench/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
-                                Learn More
+                                View Product
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Product 2 -->
+                <!-- Product 2 - Invisia Serena Seat PRO -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img class="contain p-10" src="/logo/logo-clr.png" alt="Wheelchair Ramps"
+                        <img class="contain w-full" src="{{ asset('bathsafety-cat/invisia-pro.jpg') }}" alt="Home2stay Invisia Serena Seat PRO"
                             class="w-full object-cover" style="height: 300px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Swivel Car Seat Lift</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">The Turny Evo mobility seat by BraunAbility is the best
-                            selling handicap vehicle transfer seat for S
-
-                        </p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Invisia Serena Seat PRO</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Seats and fasteners. Supports up to 500 lbs. Comes in 2 seat width options: 18″ or 26″(ADA-compliant).</p>
                         <div class="mt-auto">
-                            <!-- <div class="mb-4">
-                                    <div class="flex items-center justify-between mb-2">
-                                        <span class="text-sm font-medium text-gray-600">Materials</span>
-                                        <span class="text-sm text-gray-800">Aircraft-grade aluminum</span>
-                                    </div>
-                                    <div class="flex items-center justify-between">
-                                        <span class="text-sm font-medium text-gray-600">Length Options</span>
-                                        <span class="text-sm text-gray-800">2ft to 10ft available</span>
-                                    </div>
-                                </div> -->
-                            <a href="/products/home2stay-swivel-car-seat-lift/"
+                            <a href="/products/home2stay-invisia-serena-seat-pro/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
-                                Learn More
+                                View Product
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Product 3 -->
+                <!-- Product 3 - Premium Raised Toilet Seat -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('prod-aotumotive/bruno-curb-sider-hd-1024x683-2.jpg') }}" alt="Hand Controls"
+                        <img src="{{ asset('bathsafety-cat/171126.jpg') }}" alt="Home2stay Premium Raised Toilet Seat w/ Removable Arms"
                             class="w-full object-cover" style="height: 300px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay VSL Curb-Sider Interior Lift
-                        </h3>
-                        <p class="text-gray-600 mb-4 flex-grow">Bruno’s dependable hoist-style lift for scooters and powerchairs, the Curb-Sider’s space-efficie
-
-</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Premium Raised Toilet Seat w/ Removable Arms</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Designed for individuals who have difficulty sitting down or getting up from the toilet, the Premium raised toilet seat provides essential support.</p>
                         <div class="mt-auto">
-                            <!-- <div class="mb-4">
-                                    <div class="flex items-center justify-between mb-2">
-                                        <span class="text-sm font-medium text-gray-600">Installation</span>
-                                        <span class="text-sm text-gray-800">Professional required</span>
-                                    </div>
-                                    <div class="flex items-center justify-between">
-                                        <span class="text-sm font-medium text-gray-600">Control Types</span>
-                                        <span class="text-sm text-gray-800">Push/Pull & Radial</span>
-                                    </div>
-                                </div> -->
-                            <a href="/products/home2stay-vsl-curb-sider-interior-lift/"
+                            <a href="/products/home2stay-premium-raised-toilet-seat-w-removable-arms/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
-                                Learn More
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 - ADA Commercial Shower Seat -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('bathsafety-cat/ADA.jpg') }}" alt="Home2stay ADA Commercial Shower Seat"
+                            class="w-full object-cover" style="height: 300px;">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay ADA Commercial Shower Seat</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Excellent quality and commercial grade- designed to hold up to countless years of tough commercial use.</p>
+                        <div class="mt-auto">
+                            <a href="/products/home2stay-ada-commercial-shower-seat/"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 - Bath Mat -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
+                    <div class="overflow-hidden relative">
+                        <img class="contain p-4 w-full" src="{{ asset('bathsafety-cat/bath-mat.jpg') }}" alt="Home2stay Bath Mat"
+                            class="w-full object-cover" style="height: 300px;">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Bath Mat</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">This extra-long Bath Mat adds safety and security by providing a large, slip-proof surface in your bathroom.</p>
+                        <div class="mt-auto">
+                            <a href="/products/home2stay-bath-mat/"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 - Invisia Corner Seat -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('bathsafety-cat/seat-corner.jpg') }}" alt="Home2stay Invisia Corner Seat"
+                            class="w-full object-cover" style="height: 300px;">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Invisia Corner Seat</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Add a little luxury to your shower with our elegant Corner Seat that provides a solid surface to sit on during your shower.</p>
+                        <div class="mt-auto">
+                            <a href="/products/home2stay-invisia-corner-seat/"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
                             </a>
                         </div>
                     </div>
@@ -153,11 +178,9 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Enhancing Mobility & Independence</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Creating Safer Bathroom Environments</h2>
                     <p class="text-lg text-gray-600">
-                        Our automotive accessibility solutions are designed to help individuals with mobility challenges
-                        travel with comfort, dignity, and independence. Whether you're a driver or passenger, we offer a
-                        range of products that can be customized to meet your specific needs.
+                        Bathroom safety is essential for maintaining independence and preventing accidents. Our comprehensive range of safety products transforms your bathroom into a secure, accessible space where you can perform daily routines with confidence and peace of mind.
                     </p>
                 </div>
 
@@ -170,9 +193,8 @@
                                     d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                             </svg>
                         </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Safety First</h3>
-                        <p class="text-gray-600">All our automotive products meet or exceed industry safety standards and
-                            regulations.</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Prevent Falls</h3>
+                        <p class="text-gray-600">Our safety products significantly reduce the risk of slips and falls in wet bathroom environments.</p>
                     </div>
 
                     <div class="bg-gray-50 p-6 rounded-lg text-center">
@@ -180,12 +202,11 @@
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11" />
+                                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                             </svg>
                         </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Customizable</h3>
-                        <p class="text-gray-600">Solutions tailored to individual needs with adjustable components and
-                            personalized installation.</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Maintain Independence</h3>
+                        <p class="text-gray-600">Enable safe, independent bathroom use with supportive aids and accessible design solutions.</p>
                     </div>
 
                     <div class="bg-gray-50 p-6 rounded-lg text-center">
@@ -196,9 +217,8 @@
                                     d="M13 10V3L4 14h7v7l9-11h-7z" />
                             </svg>
                         </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Easy to Use</h3>
-                        <p class="text-gray-600">Intuitive designs that prioritize convenience, requiring minimal effort to
-                            operate.</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Stylish Design</h3>
+                        <p class="text-gray-600">Our products blend seamlessly with any design or aesthetics you want to maintain in your home.</p>
                     </div>
                 </div>
             </div>
@@ -212,23 +232,18 @@
                 <div class="flex flex-col lg:flex-row">
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-
-                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Inclusive Living Solutions: Discover Our Complete
-                            Product Catalog</h2>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Inclusive Living Solutions: Discover Our Complete Product Catalog</h2>
                         <p class="text-lg text-gray-600 mb-6">
-                            Home2stay is a trusted provider of accessibility and mobility solutions in the British Columbia
-                            region, servicing the following: Vancouver, Surrey, Abbotsford, Richmond, Coquitlam, Tricities,
-                            Mission, Delta, Pitt Meadows, Burnaby, Port Moody, Maple Ridge, Langley, Chilli Wack, White
-                            Rock, Aldergrove, and other nearby areas.</p>
+                            Home2stay has been providing accessibility solutions for almost a decade in the British Columbia region, servicing the following: Vancouver, Surrey, Abbotsford, Richmond, Coquitlam, Tricities, Mission, Delta, Pitt Meadows, Burnaby, Port Moody, Maple Ridge, Langley, Chilliwack, White Rock, Aldergrove, and other nearby areas.
+                        </p>
                         <p class="mb-5">Is your area not listed? Give us a call at <a href="tel:+16042591211"
                                 class="text-secondary">604-259-1211</a> or submit a FREE
                             <a href="#assessment" class="text-secondary"> ASSESSMENT FORM </a> to check.
                         </p>
-
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Automotive.jpg') }}" alt="Vehicle Wheelchair Lift"
+                        <img src="{{ asset('al-prod-page-imgs/Rectangle%20320-min.png') }}" alt="Bathroom Safety Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -236,62 +251,53 @@
         </div>
     </section>
 
-    <!-- Automotive Solutions Details -->
+    <!-- Bathroom Safety Details -->
     <section class="py-16 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="bg-white rounded-xl shadow-md p-8 md:p-12">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Automotive Mobility Solutions</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Comprehensive Bathroom Safety Solutions</h2>
 
                     <div class="prose prose-lg max-w-none">
                         <p class="text-gray-700 mb-4">
-                            Travel comfortably, conveniently and in-style with your loved ones. Home2stay's range of
-                            automotive solutions allow you to bring your mobile devices securely on your trips and help
-                            those with mobility limitations to be seated safely inside the vehicle. Our Wheelchair / Scooter
-                            Lifts and Mobility Seats are easy to install and can be transferred to other vehicles easily,
-                            without affecting any parts of your vehicle.
-                        </p>
-
-                        <p class="text-gray-700 mb-4">
-                            Whether you want your mobility device to be placed on the inside or outside of your vehicle, or
-                            whatever the size of your vehicle is- Home2stay has options for you to choose from.
+                            These are the other small and simple elements you can add to improve the safety in your bathroom: Shower / Bath Seats and Stools, Transfer Benches, Bath Steps, Bathroom Mats, Auto Bath Lifter and Raised Toilet Seats. Home2stay's bathroom safety products will not make your bathroom look clinical or institutional- these items can blend with any design or aesthetics you want to maintain in your home.
                         </p>
 
                         <div class="my-8 p-6 bg-primary/5 border-l-4 border-primary rounded-r-lg">
                             <p class="text-gray-800 font-medium">
-                                For those who may have trouble entering or exiting the vehicle, the Mobility Seat is a good
-                                idea. The BraunAbility Turny Evo is a fully powered seating solution that rotates, extends,
-                                and moves up and down to make transferring from your wheelchair to the vehicle (and vice
-                                versa) safer. The seat retains the full recline and power adjustments even after
-                                installation, and a one-button push via a handheld control or with your smartphone makes
-                                operation effortless.
+                                Minimize the risk of falls and accidents with these simple solutions. Let us transform your bathroom into a safe and beautiful haven for yourself and your loved ones.
                             </p>
                         </div>
 
+                        <h3 class="text-2xl font-bold text-gray-800 mt-8 mb-4">Trusted Brands</h3>
+
                         <p class="text-gray-700 mb-4">
-                            We have two brands of automotive solutions available: BraunAbility and Bruno. All products meet
-                            or exceed applicable federal safety standards and are easy to operate.
+                            We proudly offer products from leading manufacturers in bathroom safety and accessibility:
                         </p>
 
-                        <h3 class="text-2xl font-bold text-gray-800 mt-8 mb-4">Expert Support & Maintenance</h3>
+                        <ul class="space-y-2 text-gray-700 mb-6">
+                            <li class="flex items-center">
+                                <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span><strong>Ponte Giulio</strong> - Premium Italian design and engineering</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span><strong>Drive Medical</strong> - Innovative healthcare solutions</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <span><strong>Healthcraft</strong> - Canadian-made accessibility products</span>
+                            </li>
+                        </ul>
 
                         <p class="text-gray-700 mb-4">
-                            Book a FREE ASSESSMENT with us at Home2stay and we'll guide you through the process of choosing
-                            the automotive solutions for yourself or your loved ones. After installation, our technicians
-                            and/or salesperson will give you, your caregiver or the user/s a comprehensive introduction to
-                            the operation and maintenance of the product.
-                        </p>
-
-                        <p class="text-gray-700 mb-4">
-                            Additional training can be requested if the main user or caregiver is not on-site after the
-                            installation is completed. This can also be done via video call, for your convenience.
-                        </p>
-
-                        <p class="text-gray-700 mb-4">
-                            We will do our best to go over everything at the end of each installation, to ensure that you
-                            know how to use and maintain the products safely and accurately. Annual maintenance will also be
-                            done by our team members, as we have been extensively trained in the maintenance of BraunAbility
-                            and Bruno products.
+                            To learn more about each product, please click on the individual product links above.
                         </p>
 
                         <div class="mt-8 flex flex-wrap gap-4">
@@ -319,7 +325,6 @@
                 <div class="flex flex-col lg:flex-row">
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-
                         <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready to book a schedule?</h2>
                         <p class="text-lg text-gray-600 mb-6">
                             We look forward to helping you create your safe and accessible space</p>
@@ -335,11 +340,10 @@
                                 </svg>
                             </a>
                         </div>
-
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Automotive.jpg') }}" alt="Vehicle Wheelchair Lift"
+                        <img src="{{ asset('al-prod-page-imgs/Ready-to-book-aschedule-min.png') }}" alt="Bathroom Safety Assessment"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -405,9 +409,8 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Request Your Automotive Accessibility Assessment</h2>
-                    <p class="text-gray-600">Our mobility specialists will evaluate your specific needs and recommend the
-                        best automotive solutions for you.</p>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Request Your Bathroom Safety Assessment</h2>
+                    <p class="text-gray-600">Our safety specialists will evaluate your bathroom and recommend the best solutions to enhance safety and accessibility.</p>
                 </div>
 
                 <form action="#" method="POST" class="space-y-6">
@@ -430,40 +433,71 @@
                                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
                         </div>
                         <div>
-                            <label class="block text-gray-700 font-medium mb-2" for="vehicle">Vehicle Make/Model (if
-                                known)</label>
-                            <input type="text" id="vehicle" name="vehicle"
+                            <label class="block text-gray-700 font-medium mb-2" for="location">Your Location</label>
+                            <input type="text" id="location" name="location"
                                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
                         </div>
                     </div>
 
-                    <!-- Product Interest -->
+                    <!-- Safety Products Interest -->
                     <div>
-                        <label class="block text-gray-700 font-medium mb-2">Which products are you interested in? *</label>
+                        <label class="block text-gray-700 font-medium mb-2">Which bathroom safety products are you interested in? *</label>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="products[]" value="transfer_seats"
+                                <input type="checkbox" name="products[]" value="transfer_bench"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Vehicle Transfer Seats</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Transfer Bench</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="products[]" value="wheelchair_ramps"
+                                <input type="checkbox" name="products[]" value="shower_seats"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Wheelchair Ramps</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Shower Seats</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="products[]" value="hand_controls"
+                                <input type="checkbox" name="products[]" value="raised_toilet_seat"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Hand Controls</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Raised Toilet Seat</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="products[]" value="wheelchair_lifts"
+                                <input type="checkbox" name="products[]" value="bath_mats"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Wheelchair Lifts</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Bath Mats</span>
+                            </label>
+                            <label class="flex items-center space-x-3">
+                                <input type="checkbox" name="products[]" value="corner_seat"
+                                    class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Corner Seat</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="checkbox" name="products[]" value="other" class="form-checkbox text-primary">
                                 <span class="text-gray-700" style="margin-left: 5px;">Other/Not Sure</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Current Concerns -->
+                    <div>
+                        <label class="block text-gray-700 font-medium mb-2">Current safety concerns (check all that apply):</label>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                            <label class="flex items-center space-x-3">
+                                <input type="checkbox" name="concerns[]" value="slipping_falling"
+                                    class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Slipping or falling in shower/tub</span>
+                            </label>
+                            <label class="flex items-center space-x-3">
+                                <input type="checkbox" name="concerns[]" value="getting_up_toilet"
+                                    class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Difficulty getting up from toilet</span>
+                            </label>
+                            <label class="flex items-center space-x-3">
+                                <input type="checkbox" name="concerns[]" value="stepping_tub"
+                                    class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Difficulty stepping into tub</span>
+                            </label>
+                            <label class="flex items-center space-x-3">
+                                <input type="checkbox" name="concerns[]" value="standing_shower"
+                                    class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Difficulty standing in shower</span>
                             </label>
                         </div>
                     </div>
@@ -473,7 +507,7 @@
                         <label class="block text-gray-700 font-medium mb-2" for="message">Additional Information</label>
                         <textarea id="message" name="message" rows="4"
                             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-                            placeholder="Please share any specific requirements or concerns..."></textarea>
+                            placeholder="Please describe your specific safety concerns, bathroom layout, or any mobility challenges..."></textarea>
                     </div>
 
                     <!-- Submit Button -->
@@ -498,15 +532,14 @@
     <section class="py-16 bg-primary">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto text-center text-white">
-                <h2 class="text-3xl font-bold mb-6">Ready to Enhance Your Mobility?</h2>
-                <p class="text-xl mb-8">Contact us today to explore how our automotive accessibility solutions can transform
-                    your travel experience.</p>
+                <h2 class="text-3xl font-bold mb-6">Ready to Make Your Bathroom Safer?</h2>
+                <p class="text-xl mb-8">Contact us today to explore how our bathroom safety solutions can provide peace of mind and independence in your daily routines.</p>
                 <div class="flex flex-wrap justify-center gap-4">
                     <a href="{{ route('contact') }}"
                         class="px-8 py-3 bg-white text-primary hover:bg-gray-100 rounded-lg font-medium transition duration-300">
                         Contact Us
                     </a>
-                    <a href="#"
+                    <a href="{{ route('products.index') }}"
                         class="px-8 py-3 bg-transparent border-2 border-white text-white hover:bg-white/10 rounded-lg font-medium transition duration-300">
                         View All Products
                     </a>

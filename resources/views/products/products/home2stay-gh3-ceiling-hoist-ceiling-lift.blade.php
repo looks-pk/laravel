@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Home2stay VSL Curb-Sider Interior Lift - Home2stay')
-@section('meta_description', 'Bruno\'s dependable hoist-style lift for scooters and powerchairs, the Curb-Sider\'s space-efficient design lets you keep your third-row seating when a mobility device isn\'t present.')
+@section('title', 'Home2stay GH3 Ceiling Hoist / Ceiling Lift - Home2stay')
+@section('meta_description', 'Powerful and user-friendly, Guldmann’s GH3 Ceiling Hoist / Lift ensures effective lifting and moving of up to 114 lbs. (250 [&hellip;]')
 
 @section('content')
     <!-- Hero Section -->
@@ -34,9 +34,9 @@
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" d="m1 9 4-4-4-4" />
                                 </svg>
-                                <a href="{{ route('products.category', 'automotive') }}"
+                                <a href="{{ route('products.category', 'ceiling-lifts') }}"
                                     class="ml-1 text-white hover:text-gray-200">
-                                    Automotive
+                                    Ceiling Lifts
                                 </a>
                             </div>
                         </li>
@@ -47,12 +47,12 @@
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" d="m1 9 4-4-4-4" />
                                 </svg>
-                                <span class="ml-1 font-medium text-gray-100">Home2stay VSL Curb-Sider Interior Lift</span>
+                                <span class="ml-1 font-medium text-gray-100">Home2stay GH3 Ceiling Hoist / Ceiling Lift</span>
                             </div>
                         </li>
                     </ol>
                 </nav>
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Home2stay VSL Curb-Sider Interior Lift</h1>
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Home2stay GH3 Ceiling Hoist / Ceiling Lift</h1>
                 <div class="flex items-center mb-4">
                     <div class="flex text-yellow-400">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -90,33 +90,40 @@
                 <!-- Product Image Gallery -->
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gray-100 rounded-lg overflow-hidden mb-4">
-                        <img src="{{ asset('prod-aotumotive/bruno-curb-sider-hd-1024x683-2.jpg') }}"
-                            alt="VSL Curb Sider Interior Lift 2" class="w-full h-auto object-cover">
+                        <img src="{{ asset('bathsafety-cat/GH3-1.jpg') }}"
+                            alt="Home2stay GH3 Ceiling Hoist / Ceiling Lift" class="w-full h-auto object-contain p-4">
                     </div>
                     <!-- Request Quote Button -->
                     <div class="text-center mt-4 mb-6">
                         <button id="quoteRequestBtn"
                             class="px-6 py-3 bg-secondary text-white font-medium rounded-lg hover:bg-secondary-dark transition duration-300">
-                            Request A Purchase Quote
+                            Request A Quote
                         </button>
                     </div>
                 </div>
 
                 <!-- Product Info -->
                 <div class="w-full lg:w-1/2">
-
-
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Bruno's dependable hoist-style lift for scooters and powerchairs, the Curb-Sider's
-                            space-efficient design lets you keep your third-row seating when a mobility device isn't
-                            present.
+                            Powerful and user-friendly, Guldmann's GH3 Ceiling Hoist ensures effective lifting and moving of up to 550 lbs. (250 kgs).
                         </p>
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Stand by the bumper, connect a docking device, push a button and the Curb-Sider lifts and stows
-                            your mobility device.</p>
+                            This stationary lifting module is easy to operate, safe and comfortable for the user and caregiver alike. It charges itself through the rails, making sure that the ceiling hoist is always ready to use.
+                        </p>
+                    </div>
+                    <div class="mb-6">
+                        <p class="text-gray-600 text-lg">
+                            Falls within ministry-funding guidelines. Reddot award-winning design.
+                        </p>
+                    </div>
+
+                    <div class="mb-6 p-4 bg-primary/5 border-l-4 border-primary rounded-r-lg">
+                        <p class="text-gray-700 font-medium">
+                            CONTACT US for a price quote customized to your needs.
+                        </p>
                     </div>
 
                     <!-- Product Tabs Section -->
@@ -134,13 +141,6 @@
                                 <li class="mr-2 mb-2">
                                     <button
                                         class="tab-button inline-block p-4 border border-gray-200 rounded-t-lg bg-gray-50 hover:text-gray-600 hover:bg-gray-100"
-                                        data-target="accessories-tab">
-                                        Accessories
-                                    </button>
-                                </li>
-                                <li class="mr-2 mb-2">
-                                    <button
-                                        class="tab-button inline-block p-4 border border-gray-200 rounded-t-lg bg-gray-50 hover:text-gray-600 hover:bg-gray-100"
                                         data-target="images-tab">
                                         More Images
                                     </button>
@@ -148,15 +148,22 @@
                                 <li class="mr-2 mb-2">
                                     <button
                                         class="tab-button inline-block p-4 border border-gray-200 rounded-t-lg bg-gray-50 hover:text-gray-600 hover:bg-gray-100"
-                                        data-target="delivery-tab">
-                                        Delivery & Installation
+                                        data-target="technical-tab">
+                                        Technical Information
+                                    </button>
+                                </li>
+                                <li class="mr-2 mb-2">
+                                    <button
+                                        class="tab-button inline-block p-4 border border-gray-200 rounded-t-lg bg-gray-50 hover:text-gray-600 hover:bg-gray-100"
+                                        data-target="pricing-tab">
+                                        Pricing & Rental
                                     </button>
                                 </li>
                                 <li>
                                     <button
                                         class="tab-button inline-block p-4 border border-gray-200 rounded-t-lg bg-gray-50 hover:text-gray-600 hover:bg-gray-100"
-                                        data-target="technical-tab">
-                                        Technical Information
+                                        data-target="supplier-tab">
+                                        Supplier
                                     </button>
                                 </li>
                             </ul>
@@ -175,10 +182,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Ease of Use</h3>
-                                            <p class="text-gray-600">The Curb-Sider makes loading and unloading your
-                                                mobility device simple and efficient. Just push a button and the lift does
-                                                the work for you.</p>
+                                            <h3 class="font-semibold text-gray-800">High Weight Capacity</h3>
+                                            <p class="text-gray-600">Effective lifting and moving of up to 550 lbs. (250 kgs) with powerful and user-friendly operation.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -189,9 +194,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Space-Saving Design</h3>
-                                            <p class="text-gray-600">Keep your third-row seating when a mobility device
-                                                isn't present, maximizing your vehicle's versatility.</p>
+                                            <h3 class="font-semibold text-gray-800">Built-in Power Sources</h3>
+                                            <p class="text-gray-600">Charges itself through the rails with rapid, effective recharging ensuring the hoist is always ready to use.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -202,9 +206,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Reliable Performance</h3>
-                                            <p class="text-gray-600">Bruno's dependable hoist-style lift provides
-                                                consistent, reliable operation for years of trouble-free use.</p>
+                                            <h3 class="font-semibold text-gray-800">Quiet Operation</h3>
+                                            <p class="text-gray-600">Quiet operation with smooth starts and stops for comfortable user and caregiver experience.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -215,213 +218,237 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Versatile Compatibility</h3>
-                                            <p class="text-gray-600">Works with most scooters and powerchairs, making it a
-                                                flexible solution for your mobility needs.</p>
+                                            <h3 class="font-semibold text-gray-800">Dual-Speed Feature</h3>
+                                            <p class="text-gray-600">Dual-speed feature with easy-to-use control units for precise and comfortable transfers.</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="h-5 w-5 text-primary flex-shrink-0 mr-3 mt-1"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd"
+                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                clip-rule="evenodd" />
+                                        </svg>
+                                        <div>
+                                            <h3 class="font-semibold text-gray-800">Built-in Safety Systems</h3>
+                                            <p class="text-gray-600">Built-in safety systems including emergency stops and lowering for maximum user protection.</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="h-5 w-5 text-primary flex-shrink-0 mr-3 mt-1"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd"
+                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                clip-rule="evenodd" />
+                                        </svg>
+                                        <div>
+                                            <h3 class="font-semibold text-gray-800">Award-Winning Design</h3>
+                                            <p class="text-gray-600">Reddot award-winning design with low maintenance cost and electrical consumption.</p>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <!-- Accessories Tab -->
-                            <div class="tab-pane" data-tab="accessories-tab" style="display: none !important;">
-                                <div class="text-center">
-                                    <p>Coming soon</p>
-                                </div>
-                                <!-- <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                    <div class="border rounded-lg overflow-hidden">
-                                        <div class="h-48 bg-gray-100">
-                                            <img src="{{ asset('images/products/docking-device.jpg') }}"
-                                                alt="Docking Device" class="w-full h-full object-cover">
-                                        </div>
-                                        <div class="p-4">
-                                            <h3 class="font-semibold text-gray-800">Docking Device</h3>
-                                            <p class="text-gray-600 text-sm mt-1">Compatible docking device for secure
-                                                attachment to your mobility device</p>
-                                        </div>
-                                    </div>
-                                    <div class="border rounded-lg overflow-hidden">
-                                        <div class="h-48 bg-gray-100">
-                                            <img src="{{ asset('images/products/weatherproof-cover.jpg') }}"
-                                                alt="Weatherproof Cover" class="w-full h-full object-cover">
-                                        </div>
-                                        <div class="p-4">
-                                            <h3 class="font-semibold text-gray-800">Weatherproof Cover</h3>
-                                            <p class="text-gray-600 text-sm mt-1">Protect your lift mechanism from the
-                                                elements</p>
-                                        </div>
-                                    </div>
-                                    <div class="border rounded-lg overflow-hidden">
-                                        <div class="h-48 bg-gray-100">
-                                            <img src="{{ asset('images/products/extended-arm.jpg') }}" alt="Extended Arm"
-                                                class="w-full h-full object-cover">
-                                        </div>
-                                        <div class="p-4">
-                                            <h3 class="font-semibold text-gray-800">Extended Arm Option</h3>
-                                            <p class="text-gray-600 text-sm mt-1">For larger vehicles or mobility devices
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="border rounded-lg overflow-hidden">
-                                        <div class="h-48 bg-gray-100">
-                                            <img src="{{ asset('images/products/battery-pack.jpg') }}" alt="Battery Pack"
-                                                class="w-full h-full object-cover">
-                                        </div>
-                                        <div class="p-4">
-                                            <h3 class="font-semibold text-gray-800">Backup Battery Pack</h3>
-                                            <p class="text-gray-600 text-sm mt-1">Ensures operation even if your vehicle
-                                                battery is low</p>
-                                        </div>
-                                    </div>
-                                </div> -->
                             </div>
 
                             <!-- More Images Tab -->
                             <div class="tab-pane" data-tab="images-tab" style="display: none !important;">
                                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('prod-aotumotive/bruno-curb-sider-hd-1024x683-2.jpg') }}"
-                                            alt="VSL Curb Sider Interior Lift"
-                                            class="w-full h-32 object-cover rounded-lg hover:opacity-90 transition duration-200">
+                                        <img src="{{ asset('bathsafety-cat/GH3-1.jpg') }}"
+                                            alt="Home2stay GH3 Ceiling Hoist / Ceiling Lift"
+                                            class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
+                                    </div>
+                                    <div class="image-thumbnail cursor-pointer">
+                                        <img src="{{ asset('bathsafety-cat/Scale.png') }}"
+                                            alt="GH3 Ceiling Hoist Installation"
+                                            class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
+                                    </div>
+                                    <div class="image-thumbnail cursor-pointer">
+                                        <img src="{{ asset('bathsafety-cat/Remote.png') }}"
+                                            alt="GH3 Ceiling Hoist Installation"
+                                            class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- Delivery & Installation Tab -->
-                            <div class="tab-pane" data-tab="delivery-tab" style="display: none !important;">
-                                <div class="space-y-4">
-                                    <div class="border-l-4 border-primary pl-4">
-                                        <h3 class="font-semibold text-gray-800">Professional Installation</h3>
-                                        <p class="text-gray-600">Our trained technicians will install your VSL Curb Sider
-                                            Interior Lift ensuring it fits perfectly with your vehicle and operates safely.
-                                        </p>
-                                    </div>
-                                    <div class="border-l-4 border-primary pl-4">
-                                        <h3 class="font-semibold text-gray-800">Delivery Options</h3>
-                                        <p class="text-gray-600">We offer delivery throughout the Greater Vancouver area.
-                                            For locations outside our service area, please contact us for options.</p>
-                                    </div>
-                                    <div class="border-l-4 border-primary pl-4">
-                                        <h3 class="font-semibold text-gray-800">Installation Process</h3>
-                                        <p class="text-gray-600">Installation typically takes 4-6 hours. We'll schedule a
-                                            convenient time for you and provide a courtesy vehicle if needed during the
-                                            installation.</p>
-                                    </div>
-                                    <div class="border-l-4 border-primary pl-4">
-                                        <h3 class="font-semibold text-gray-800">Training & Support</h3>
-                                        <p class="text-gray-600">After installation, our technicians will provide thorough
-                                            training on how to use your new lift system and answer any questions you may
-                                            have.</p>
-                                    </div>
-                                    <div class="border-l-4 border-primary pl-4">
-                                        <h3 class="font-semibold text-gray-800">Warranty & Service</h3>
-                                        <p class="text-gray-600">Your lift comes with a comprehensive warranty. We also
-                                            offer ongoing maintenance services to keep your lift operating at peak
-                                            performance.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Technical Information -->
+                            <!-- Technical Information Tab -->
                             <div class="tab-pane" data-tab="technical-tab" style="display: none !important;">
-                                <div class="mb-6">
-                                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Technical Information</h3>
-                                    <ul class="space-y-2">
-                                        <li class="flex items-start">
-                                            <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
-                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                                <path fill-rule="evenodd"
-                                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            <span>Fully powered, one-button seat rotation
-                                            </span>
-                                        </li>
-                                        <li class="flex items-start">
-                                            <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
-                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                                <path fill-rule="evenodd"
-                                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            <span>Multiple fabric colors</span>
-                                        </li>
-                                        <li class="flex items-start">
-                                            <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
-                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                                <path fill-rule="evenodd"
-                                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            <span>Original seat unmodified and easily reinstalled</span>
-                                        </li>
-                                        <li class="flex items-start">
-                                            <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
-                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                                <path fill-rule="evenodd"
-                                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            <span>Manual seat slider extends seat beyond door frame</span>
-                                        </li>
-                                        <li class="flex items-start">
-                                            <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
-                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                                <path fill-rule="evenodd"
-                                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            <span>Scratch resistant, easy-to-clean fabrics</span>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div class="mb-8">
-                                    <div class="mb-6">
-
-                                        <div class="bg-gray-50 rounded-lg p-4">
-                                            <div class="flex items-center justify-between mb-2">
-                                                <h3 class="text-xl font-semibold text-gray-800 mb-3">Specifications</h3>
-                                                <span class="text-sm text-gray-800">Bruno</span>
+                                <div class="space-y-6">
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                        <div class="space-y-3">
+                                            <div class="flex justify-between border-b pb-2">
+                                                <span class="font-medium text-gray-700">Weight Capacity:</span>
+                                                <span class="text-gray-600">Up to 550 lbs. (250 kgs)</span>
                                             </div>
-                                            <div class="flex items-center justify-between mb-2">
-                                                <h3 class="text-xl font-semibold text-gray-800 mb-3">Pricing</h3>
-                                                <span class="text-sm text-gray-800">Starts at $4,250.00 +
-                                                    installation</span>
+                                            <div class="flex justify-between border-b pb-2">
+                                                <span class="font-medium text-gray-700">Power Source:</span>
+                                                <span class="text-gray-600">Built-in with rail charging</span>
                                             </div>
-                                            <d iv class="flex items-center justify-between mb-2">
-                                                <h3 class="text-xl font-semibold text-gray-800 mb-3">Call Us</h3>
-                                                <a href="tel:+16042591211" class="text-secondary">
-                                                    <span class="text-sm text-gray-800">604-259-1211</span>
-                                                </a>
+                                            <div class="flex justify-between border-b pb-2">
+                                                <span class="font-medium text-gray-700">Operation:</span>
+                                                <span class="text-gray-600">Dual-speed feature</span>
+                                            </div>
+                                            <div class="flex justify-between border-b pb-2">
+                                                <span class="font-medium text-gray-700">Control:</span>
+                                                <span class="text-gray-600">Easy-to-use control units</span>
+                                            </div>
                                         </div>
+                                        <div class="space-y-3">
+                                            <div class="flex justify-between border-b pb-2">
+                                                <span class="font-medium text-gray-700">Recharging:</span>
+                                                <span class="text-gray-600">Rapid, effective recharging</span>
+                                            </div>
+                                            <div class="flex justify-between border-b pb-2">
+                                                <span class="font-medium text-gray-700">Operation:</span>
+                                                <span class="text-gray-600">Quiet; smooth starts and stops</span>
+                                            </div>
+                                            <div class="flex justify-between border-b pb-2">
+                                                <span class="font-medium text-gray-700">Maintenance:</span>
+                                                <span class="text-gray-600">Low maintenance cost</span>
+                                            </div>
+                                            <div class="flex justify-between border-b pb-2">
+                                                <span class="font-medium text-gray-700">Availability:</span>
+                                                <span class="text-gray-600">Sale or Rental</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="bg-gray-50 p-4 rounded-lg">
+                                        <h4 class="font-semibold text-gray-800 mb-2">Key Features</h4>
+                                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                                            <li>Up to 550 lbs. (250 kgs) weight capacity</li>
+                                            <li>Built-in power sources with rapid, effective recharging</li>
+                                            <li>Quiet operation with smooth starts and stops</li>
+                                            <li>Low maintenance cost and electrical consumption</li>
+                                            <li>Dual-speed feature</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="bg-blue-50 p-4 rounded-lg">
+                                        <h4 class="font-semibold text-gray-800 mb-2">Advanced Features</h4>
+                                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                                            <li>Built-in safety systems, including emergency stops and lowering</li>
+                                            <li>Easy-to-use control units</li>
+                                            <li>Charges itself through the rails</li>
+                                            <li>Always ready to use</li>
+                                            <li>Falls within ministry-funding guidelines</li>
+                                            <li>Reddot award-winning design</li>
+                                            <li>Stationary lifting module</li>
+                                            <li>Safe and comfortable for user and caregiver</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Pricing & Rental Tab -->
+                            <div class="tab-pane" data-tab="pricing-tab" style="display: none !important;">
+                                <div class="space-y-6">
+                                    <div>
+                                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Purchase Options</h3>
+                                        <div class="bg-gray-50 p-6 rounded-lg">
+                                            <h4 class="font-semibold text-gray-800 mb-2">GH3 Ceiling Hoist / Ceiling Lift</h4>
+                                            <p class="text-2xl font-bold text-primary mb-2">Starts at $4,268.32</p>
+                                            <p class="text-gray-600 text-sm">Complete system with built-in power sources and safety systems</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="border-t pt-6">
+                                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Rental Options</h3>
+                                        <div class="bg-blue-50 p-6 rounded-lg">
+                                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                                <div class="space-y-3">
+                                                    <div class="flex justify-between">
+                                                        <span class="font-medium text-gray-700">Monthly Rental Fee:</span>
+                                                        <span class="text-gray-600 font-semibold">$300</span>
+                                                    </div>
+                                                    <div class="flex justify-between">
+                                                        <span class="font-medium text-gray-700">Minimum Period:</span>
+                                                        <span class="text-gray-600">1 Month</span>
+                                                    </div>
+                                                </div>
+                                                <div class="space-y-3">
+                                                    <div class="flex justify-between">
+                                                        <span class="font-medium text-gray-700">Setup Fees:</span>
+                                                        <span class="text-gray-600">$125</span>
+                                                    </div>
+                                                    <div class="flex justify-between">
+                                                        <span class="font-medium text-gray-700">Removal Fees:</span>
+                                                        <span class="text-gray-600">$95</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="text-gray-600 text-sm mt-3">Setup fees include measuring and installation</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="bg-gray-50 rounded-lg p-4">
+                                        <div class="flex items-center justify-between mb-2">
+                                            <h3 class="text-xl font-semibold text-gray-800">Contact for Custom Pricing</h3>
+                                        </div>
+                                        <div class="flex items-center justify-between">
+                                            <h3 class="text-xl font-semibold text-gray-800">Call Us</h3>
+                                            <a href="tel:+16042591211" class="text-secondary">
+                                                <span class="text-lg font-semibold text-primary">604-259-1211</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Supplier Tab -->
+                            <div class="tab-pane" data-tab="supplier-tab" style="display: none !important;">
+                                <div class="space-y-6">
+                                    <div class="bg-gray-50 p-6 rounded-lg">
+                                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Product Supplier Information</h3>
+                                                                <p class="text-gray-600 mb-4">
+                            The GH3 Ceiling Hoist / Ceiling Lift is supplied by Guldmann, a leading global provider of medical devices and solutions that enhance quality of life for people with reduced mobility and age-related health challenges.
+                        </p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="space-y-3">
+                                <div class="flex justify-between border-b pb-2">
+                                    <span class="font-medium text-gray-700">Supplier:</span>
+                                    <span class="text-gray-600">Guldmann</span>
+                                </div>
+                                <div class="flex justify-between border-b pb-2">
+                                    <span class="font-medium text-gray-700">Product Model:</span>
+                                    <span class="text-gray-600">GH3</span>
+                                </div>
+                                <div class="flex justify-between border-b pb-2">
+                                    <span class="font-medium text-gray-700">Category:</span>
+                                    <span class="text-gray-600">Ceiling Hoist / Ceiling Lift</span>
+                                </div>
+                                <div class="flex justify-between border-b pb-2">
+                                    <span class="font-medium text-gray-700">Weight Capacity:</span>
+                                    <span class="text-gray-600">Up to 550 lbs. (250 kgs)</span>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex justify-between border-b pb-2">
+                                    <span class="font-medium text-gray-700">Design Award:</span>
+                                    <span class="text-gray-600">Reddot award-winning</span>
+                                </div>
+                                <div class="flex justify-between border-b pb-2">
+                                    <span class="font-medium text-gray-700">Certification:</span>
+                                    <span class="text-gray-600">Medical device certified</span>
+                                </div>
+                                <div class="flex justify-between border-b pb-2">
+                                    <span class="font-medium text-gray-700">Warranty:</span>
+                                    <span class="text-gray-600">Manufacturer warranty included</span>
+                                </div>
+                                <div class="flex justify-between border-b pb-2">
+                                    <span class="font-medium text-gray-700">Support:</span>
+                                    <span class="text-gray-600">Full technical support</span>
+                                </div>
+                            </div>
+                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
-        </div>
         </div>
     </section>
-
-    <!-- Image Modal -->
-    <div id="imageModal"
-        class="fixed inset-0 z-50 hidden overflow-auto bg-black bg-opacity-75 flex items-center justify-center p-4">
-        <div class="relative bg-white rounded-lg max-w-4xl w-full mx-auto">
-            <button id="closeModal"
-                class="absolute top-2 right-2 text-white hover:text-gray-300 bg-gray-800 bg-opacity-75 hover:bg-opacity-100 p-1 rounded-full transition-all duration-200">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-            </button>
-            <div class="p-4">
-                <img id="modalImage" src="" alt="Large product image" class="w-full h-auto">
-            </div>
-        </div>
-    </div>
 
     <!-- Featured Product -->
     <section class="py-16 bg-primary">
@@ -430,20 +457,13 @@
                 <div class="flex flex-col lg:flex-row">
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-
-                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Are you interested in having this product
-                            installed?</h2>
-                        <p class="text-lg text-gray-600 mb-6">Accessibility solutions to make everyday home life easier and
-                            safer for yourself and your loved ones.</p>
-                        <p class="mb-5">Give us a call at <a href="tel:+16042591211" class="text-secondary">604-259-1211</a>
-                            or submit a FREE
-                            <a href="#assessment" class="text-secondary"> ASSESSMENT FORM </a> to check.
-                        </p>
-
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Are you interested in having this product installed?</h2>
+                        <p class="text-lg text-gray-600 mb-6">Accessibility solutions to make everyday home life easier and safer for yourself and your loved ones.</p>
+                        <p class="mb-5">Give us a call at <a href="tel:+16042591211" class="text-secondary">604-259-1211</a> or submit a FREE <a href="#assessment" class="text-secondary">ASSESSMENT FORM</a> to check.</p>
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Automotive.jpg') }}" alt="Vehicle Wheelchair Lift"
+                        <img src="{{ asset('al-prod-page-imgs/Rectangle%20320-min.png') }}" alt="GH3 Ceiling Hoist Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -504,52 +524,81 @@
         </div>
     </section>
 
-    <!-- Inquiry Form -->
-    <section id="inquiry" class="py-12 bg-gray-50">
+    <!-- Get Your Free Quote Section -->
+    <section class="py-16 bg-gray-50">
         <div class="container mx-auto px-4">
-            <div class="max-w-3xl mx-auto">
-                <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Interested in the VSL Curb Sider Interior Lift
-                    2?</h2>
-                <p class="text-lg text-center text-gray-600 mb-8">Fill out the form below and our team will get back to you
-                    with detailed information and pricing.</p>
+            <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
+                <div class="text-center mb-10">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We would love to hear from you!</p>
+                </div>
 
-                <form action="#" method="POST" class="bg-white rounded-xl p-6 md:p-8 shadow-md">
+                <form action="#" method="POST" class="space-y-6">
                     @csrf
-                    <input type="hidden" name="product" value="VSL Curb Sider Interior Lift 2">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <input type="hidden" name="product" value="Home2stay GH3 Ceiling Hoist / Ceiling Lift">
+                    
+                    <!-- Personal Information -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
-                            <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
-                            <input type="text" id="name" name="name"
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary"
-                                required>
+                            <label class="block text-gray-700 font-medium mb-2" for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
                         </div>
                         <div>
-                            <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
-                            <input type="email" id="email" name="email"
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary"
-                                required>
+                            <label class="block text-gray-700 font-medium mb-2" for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
                         </div>
                         <div>
-                            <label for="phone" class="block text-gray-700 font-medium mb-2">Phone Number</label>
-                            <input type="tel" id="phone" name="phone"
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary">
+                            <label class="block text-gray-700 font-medium mb-2" for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
                         </div>
                         <div>
-                            <label for="location" class="block text-gray-700 font-medium mb-2">Your Location</label>
+                            <label class="block text-gray-700 font-medium mb-2" for="location">Your Location</label>
                             <input type="text" id="location" name="location"
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary">
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
                         </div>
                     </div>
-                    <div class="mb-6">
-                        <label for="message" class="block text-gray-700 font-medium mb-2">Your Message</label>
-                        <textarea id="message" name="message" rows="4"
-                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary"
-                            required></textarea>
+
+                    <!-- Interest Type -->
+                    <div>
+                        <label class="block text-gray-700 font-medium mb-2">Interest Type: *</label>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                            <label class="flex items-center space-x-3">
+                                <input type="radio" name="interest_type" value="purchase" class="text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Purchase</span>
+                            </label>
+                            <label class="flex items-center space-x-3">
+                                <input type="radio" name="interest_type" value="rental" class="text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Rental</span>
+                            </label>
+                            <label class="flex items-center space-x-3">
+                                <input type="radio" name="interest_type" value="assessment" class="text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Assessment</span>
+                            </label>
+                        </div>
                     </div>
+
+                    <!-- Additional Information -->
+                    <div>
+                        <label class="block text-gray-700 font-medium mb-2" for="message">Additional Information</label>
+                        <textarea id="message" name="message" rows="4"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
+                            placeholder="Please describe your specific needs, room layout, or any questions about the GH3 system..."></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
                     <div class="text-center">
                         <button type="submit"
-                            class="px-8 py-3 bg-primary text-white font-medium rounded-lg hover:bg-primary-dark transition duration-300">
-                            Submit Inquiry
+                            class="inline-flex items-center px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition duration-300">
+                            Submit Quote Request
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
                         </button>
                     </div>
                 </form>
@@ -561,11 +610,9 @@
     <section id="assessment" class="py-12 bg-white">
         <div class="container mx-auto px-4">
             <div class="max-w-3xl mx-auto">
-                <h2 class="text-3xl font-bold text-center text-gray-800 mb-4">Schedule a Free Assessment</h2>
-                <p class="text-lg text-center text-gray-600 mb-8">Our mobility specialists will help determine if the VSL
-                    Curb Sider Interior Lift 2 is the right solution for your needs.</p>
+                <h2 class="text-3xl font-bold text-center text-gray-800 mb-4">Are You Interested Having This Product Installed</h2>
+                <p class="text-lg text-center text-gray-600 mb-8">We are Here For You - We're here to listen, help and provide insights.</p>
 
-                <!-- Assessment form here -->
                 <div class="text-center">
                     <a href="{{ route('contact') }}"
                         class="inline-flex items-center px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition duration-300">
@@ -588,7 +635,7 @@
         <div class="relative bg-white rounded-lg max-w-2xl w-full mx-auto max-h-[90vh] overflow-y-auto">
             <!-- Modal Header -->
             <div class="bg-primary text-white p-4 rounded-t-lg flex justify-between items-center sticky top-0 z-10">
-                <h3 class="text-xl font-bold">Request a Purchase Quote</h3>
+                <h3 class="text-xl font-bold">Request a Quote</h3>
                 <button id="closeQuoteModal" class="text-white hover:text-gray-200 focus:outline-none">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
@@ -602,20 +649,19 @@
                 <form id="quoteRequestForm">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name"
-                        value="Home2stay VSL Curb-Sider Interior Lift">
+                        value="Home2stay GH3 Ceiling Hoist / Ceiling Lift">
 
                     <!-- Product Info Section -->
                     <div class="mb-6">
                         <h4 class="text-lg font-semibold mb-4 text-primary">Product Information</h4>
                         <div class="p-3 bg-gray-50 rounded-lg mb-4">
-                            <p>You're requesting a quote for: <span class="font-semibold text-primary">Home2stay VSL
-                                    Curb-Sider Interior Lift</span></p>
+                            <p>You're requesting a quote for: <span class="font-semibold text-primary">Home2stay GH3 Ceiling Hoist / Ceiling Lift</span></p>
                         </div>
                     </div>
 
                     <!-- Timeframe Section -->
                     <div class="mb-6">
-                        <h4 class="text-lg font-semibold mb-3 text-primary">When are you looking to purchase?</h4>
+                        <h4 class="text-lg font-semibold mb-3 text-primary">When are you looking to get this system?</h4>
                         <div class="space-y-2">
                             <label class="flex items-center">
                                 <input type="radio" name="timeframe" value="immediately" class="mr-2" checked>
@@ -636,25 +682,25 @@
                         </div>
                     </div>
 
-                    <!-- For Whom Section -->
+                    <!-- Interest Type Section -->
                     <div class="mb-6">
-                        <h4 class="text-lg font-semibold mb-3 text-primary">Who will be using this product?</h4>
+                        <h4 class="text-lg font-semibold mb-3 text-primary">What are you interested in?</h4>
                         <div class="space-y-2">
                             <label class="flex items-center">
-                                <input type="radio" name="for_whom" value="self" class="mr-2" checked>
-                                <span>Myself</span>
+                                <input type="radio" name="interest_type" value="purchase" class="mr-2" checked>
+                                <span>Purchase System</span>
                             </label>
                             <label class="flex items-center">
-                                <input type="radio" name="for_whom" value="familyMember" class="mr-2">
-                                <span>Family member</span>
+                                <input type="radio" name="interest_type" value="rental" class="mr-2">
+                                <span>Rental Option</span>
                             </label>
                             <label class="flex items-center">
-                                <input type="radio" name="for_whom" value="client" class="mr-2">
-                                <span>Client/Patient</span>
+                                <input type="radio" name="interest_type" value="both" class="mr-2">
+                                <span>Both Purchase and Rental Information</span>
                             </label>
                             <label class="flex items-center">
-                                <input type="radio" name="for_whom" value="other" class="mr-2">
-                                <span>Other</span>
+                                <input type="radio" name="interest_type" value="assessment" class="mr-2">
+                                <span>Assessment Only</span>
                             </label>
                         </div>
                     </div>
@@ -664,14 +710,12 @@
                         <h4 class="text-lg font-semibold mb-4 text-primary">Your Contact Information</h4>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div>
-                                <label for="firstName" class="block text-sm font-medium text-gray-700 mb-1">First
-                                    Name*</label>
+                                <label for="firstName" class="block text-sm font-medium text-gray-700 mb-1">First Name*</label>
                                 <input type="text" id="firstName" name="first_name" required
                                     class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
                             </div>
                             <div>
-                                <label for="lastName" class="block text-sm font-medium text-gray-700 mb-1">Last
-                                    Name*</label>
+                                <label for="lastName" class="block text-sm font-medium text-gray-700 mb-1">Last Name*</label>
                                 <input type="text" id="lastName" name="last_name" required
                                     class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
                             </div>
@@ -690,10 +734,10 @@
                         </div>
 
                         <div class="mt-4">
-                            <label for="comments" class="block text-sm font-medium text-gray-700 mb-1">Additional
-                                Comments</label>
+                            <label for="comments" class="block text-sm font-medium text-gray-700 mb-1">Additional Details</label>
                             <textarea id="comments" name="comments" rows="3"
-                                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"></textarea>
+                                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                                placeholder="Please describe your specific needs, room layout, or any questions about the GH3 system..."></textarea>
                         </div>
                     </div>
 
@@ -704,6 +748,28 @@
                         </button>
                     </div>
                 </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Modal -->
+    <div id="imageModal"
+        class="fixed inset-0 z-50 hidden overflow-auto bg-black bg-opacity-75 flex items-center justify-center p-4">
+        <div class="relative bg-white rounded-lg max-w-2xl w-full mx-auto max-h-[90vh] overflow-y-auto">
+            <!-- Modal Header -->
+            <div class="bg-primary text-white p-4 rounded-t-lg flex justify-between items-center sticky top-0 z-10">
+                <h3 class="text-xl font-bold">Image</h3>
+                <button id="closeModal" class="text-white hover:text-gray-200 focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="p-6">
+                <img id="modalImage" src="" alt="Modal Image" class="w-full h-auto">
             </div>
         </div>
     </div>

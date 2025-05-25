@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Home2stay VSL Curb-Sider Interior Lift - Home2stay')
-@section('meta_description', 'Bruno\'s dependable hoist-style lift for scooters and powerchairs, the Curb-Sider\'s space-efficient design lets you keep your third-row seating when a mobility device isn\'t present.')
+@section('title', 'Home2stay Stainless Steel Locking Support Grab Bar - Home2stay')
+@section('meta_description', 'Mount across the toilet for when someone needs help pulling themselves up from a seated position or lowering themselves onto [&hellip;]')
 
 @section('content')
     <!-- Hero Section -->
@@ -34,9 +34,9 @@
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" d="m1 9 4-4-4-4" />
                                 </svg>
-                                <a href="{{ route('products.category', 'automotive') }}"
+                                <a href="{{ route('products.category', 'grab-bars') }}"
                                     class="ml-1 text-white hover:text-gray-200">
-                                    Automotive
+                                    Grab Bars
                                 </a>
                             </div>
                         </li>
@@ -47,12 +47,12 @@
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" d="m1 9 4-4-4-4" />
                                 </svg>
-                                <span class="ml-1 font-medium text-gray-100">Home2stay VSL Curb-Sider Interior Lift</span>
+                                <span class="ml-1 font-medium text-gray-100">Home2stay Stainless Steel Locking Support Grab Bar</span>
                             </div>
                         </li>
                     </ol>
                 </nav>
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Home2stay VSL Curb-Sider Interior Lift</h1>
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Home2stay Stainless Steel Locking Support Grab Bar</h1>
                 <div class="flex items-center mb-4">
                     <div class="flex text-yellow-400">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -90,8 +90,8 @@
                 <!-- Product Image Gallery -->
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gray-100 rounded-lg overflow-hidden mb-4">
-                        <img src="{{ asset('prod-aotumotive/bruno-curb-sider-hd-1024x683-2.jpg') }}"
-                            alt="VSL Curb Sider Interior Lift 2" class="w-full h-auto object-cover">
+                        <img src="{{ asset('bathsafety-cat/lock-support-grab-bar.jpg') }}"
+                            alt="Home2stay Stainless Steel Locking Support Grab Bar" class="w-full h-auto object-cover">
                     </div>
                     <!-- Request Quote Button -->
                     <div class="text-center mt-4 mb-6">
@@ -104,19 +104,32 @@
 
                 <!-- Product Info -->
                 <div class="w-full lg:w-1/2">
-
-
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Bruno's dependable hoist-style lift for scooters and powerchairs, the Curb-Sider's
-                            space-efficient design lets you keep your third-row seating when a mobility device isn't
-                            present.
+                            Mount across the toilet for when someone needs help pulling themselves up from a seated position or lowering themselves onto the toilet. Or use in the shower for balance and support and never worry about rust due to stainless steel construction.
                         </p>
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Stand by the bumper, connect a docking device, push a button and the Curb-Sider lifts and stows
-                            your mobility device.</p>
+                            Can also be used by a caregiver for support when helping someone.
+                        </p>
+                    </div>
+                    <div class="mb-6">
+                        <p class="text-gray-600 text-lg">
+                            This grab bar folds up or down for storage and easily locks in place with a pin.
+                        </p>
+                    </div>
+                    <div class="mb-6">
+                        <p class="text-gray-600 text-lg">
+                            Comes in two finishes: N1 Satin / Brushed Nickel and W2 Painted White
+                        </p>
+                    </div>
+                    <div class="mb-6">
+                        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+                            <p class="text-yellow-800 font-medium">
+                                This is a non-stock item (turnaround time of 2 to 3 weeks).
+                            </p>
+                        </div>
                     </div>
 
                     <!-- Product Tabs Section -->
@@ -134,8 +147,8 @@
                                 <li class="mr-2 mb-2">
                                     <button
                                         class="tab-button inline-block p-4 border border-gray-200 rounded-t-lg bg-gray-50 hover:text-gray-600 hover:bg-gray-100"
-                                        data-target="accessories-tab">
-                                        Accessories
+                                        data-target="applications-tab">
+                                        Applications
                                     </button>
                                 </li>
                                 <li class="mr-2 mb-2">
@@ -148,8 +161,8 @@
                                 <li class="mr-2 mb-2">
                                     <button
                                         class="tab-button inline-block p-4 border border-gray-200 rounded-t-lg bg-gray-50 hover:text-gray-600 hover:bg-gray-100"
-                                        data-target="delivery-tab">
-                                        Delivery & Installation
+                                        data-target="installation-tab">
+                                        Installation Options
                                     </button>
                                 </li>
                                 <li>
@@ -175,10 +188,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Ease of Use</h3>
-                                            <p class="text-gray-600">The Curb-Sider makes loading and unloading your
-                                                mobility device simple and efficient. Just push a button and the lift does
-                                                the work for you.</p>
+                                            <h3 class="font-semibold text-gray-800">Foldable Design</h3>
+                                            <p class="text-gray-600">Folds up or down for storage and easily locks in place with a pin for secure use.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -189,9 +200,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Space-Saving Design</h3>
-                                            <p class="text-gray-600">Keep your third-row seating when a mobility device
-                                                isn't present, maximizing your vehicle's versatility.</p>
+                                            <h3 class="font-semibold text-gray-800">Heavy-Duty Support</h3>
+                                            <p class="text-gray-600">450-lb horizontal (pulling) capacity and 250-lb vertical load capacity for reliable support.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -202,9 +212,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Reliable Performance</h3>
-                                            <p class="text-gray-600">Bruno's dependable hoist-style lift provides
-                                                consistent, reliable operation for years of trouble-free use.</p>
+                                            <h3 class="font-semibold text-gray-800">Stainless Steel Construction</h3>
+                                            <p class="text-gray-600">Rust-resistant stainless steel construction perfect for bathroom and shower environments.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -215,116 +224,116 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Versatile Compatibility</h3>
-                                            <p class="text-gray-600">Works with most scooters and powerchairs, making it a
-                                                flexible solution for your mobility needs.</p>
+                                            <h3 class="font-semibold text-gray-800">Versatile Mounting</h3>
+                                            <p class="text-gray-600">Can be mounted across toilet for transfer support or in shower for balance assistance.</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="h-5 w-5 text-primary flex-shrink-0 mr-3 mt-1"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd"
+                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                clip-rule="evenodd" />
+                                        </svg>
+                                        <div>
+                                            <h3 class="font-semibold text-gray-800">Caregiver Support</h3>
+                                            <p class="text-gray-600">Can also be used by caregivers for support when helping someone with transfers.</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="h-5 w-5 text-primary flex-shrink-0 mr-3 mt-1"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd"
+                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                clip-rule="evenodd" />
+                                        </svg>
+                                        <div>
+                                            <h3 class="font-semibold text-gray-800">Finish Options</h3>
+                                            <p class="text-gray-600">Available in N1 Satin/Brushed Nickel, W2 Painted White to match your bathroom decor.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- Accessories Tab -->
-                            <div class="tab-pane" data-tab="accessories-tab" style="display: none !important;">
-                                <div class="text-center">
-                                    <p>Coming soon</p>
+                            <!-- Applications Tab -->
+                            <div class="tab-pane" data-tab="applications-tab" style="display: none !important;">
+                                <div class="space-y-4">
+                                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Installation Applications</h3>
+                                    
+                                    <div class="bg-gray-50 rounded-lg p-4">
+                                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                            <div class="space-y-3">
+                                                <h4 class="font-medium text-gray-700">Toilet Support:</h4>
+                                                <ul class="space-y-1 text-gray-600">
+                                                    <li>• Mount across toilet for transfer support</li>
+                                                    <li>• Help pulling up from seated position</li>
+                                                    <li>• Assistance lowering onto toilet</li>
+                                                    <li>• Support for users with mobility challenges</li>
+                                                </ul>
+                                            </div>
+                                            <div class="space-y-3">
+                                                <h4 class="font-medium text-gray-700">Shower Support:</h4>
+                                                <ul class="space-y-1 text-gray-600">
+                                                    <li>• Balance and support in shower</li>
+                                                    <li>• Rust-resistant for wet environments</li>
+                                                    <li>• Folds away when not needed</li>
+                                                    <li>• Caregiver assistance support</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="mt-6">
+                                        <p class="text-gray-600 mb-4">The locking support grab bar provides versatile support options with its foldable design, making it perfect for spaces where permanent grab bars may not be suitable.</p>
+                                    </div>
                                 </div>
-                                <!-- <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                    <div class="border rounded-lg overflow-hidden">
-                                        <div class="h-48 bg-gray-100">
-                                            <img src="{{ asset('images/products/docking-device.jpg') }}"
-                                                alt="Docking Device" class="w-full h-full object-cover">
-                                        </div>
-                                        <div class="p-4">
-                                            <h3 class="font-semibold text-gray-800">Docking Device</h3>
-                                            <p class="text-gray-600 text-sm mt-1">Compatible docking device for secure
-                                                attachment to your mobility device</p>
-                                        </div>
-                                    </div>
-                                    <div class="border rounded-lg overflow-hidden">
-                                        <div class="h-48 bg-gray-100">
-                                            <img src="{{ asset('images/products/weatherproof-cover.jpg') }}"
-                                                alt="Weatherproof Cover" class="w-full h-full object-cover">
-                                        </div>
-                                        <div class="p-4">
-                                            <h3 class="font-semibold text-gray-800">Weatherproof Cover</h3>
-                                            <p class="text-gray-600 text-sm mt-1">Protect your lift mechanism from the
-                                                elements</p>
-                                        </div>
-                                    </div>
-                                    <div class="border rounded-lg overflow-hidden">
-                                        <div class="h-48 bg-gray-100">
-                                            <img src="{{ asset('images/products/extended-arm.jpg') }}" alt="Extended Arm"
-                                                class="w-full h-full object-cover">
-                                        </div>
-                                        <div class="p-4">
-                                            <h3 class="font-semibold text-gray-800">Extended Arm Option</h3>
-                                            <p class="text-gray-600 text-sm mt-1">For larger vehicles or mobility devices
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="border rounded-lg overflow-hidden">
-                                        <div class="h-48 bg-gray-100">
-                                            <img src="{{ asset('images/products/battery-pack.jpg') }}" alt="Battery Pack"
-                                                class="w-full h-full object-cover">
-                                        </div>
-                                        <div class="p-4">
-                                            <h3 class="font-semibold text-gray-800">Backup Battery Pack</h3>
-                                            <p class="text-gray-600 text-sm mt-1">Ensures operation even if your vehicle
-                                                battery is low</p>
-                                        </div>
-                                    </div>
-                                </div> -->
                             </div>
 
                             <!-- More Images Tab -->
                             <div class="tab-pane" data-tab="images-tab" style="display: none !important;">
                                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('prod-aotumotive/bruno-curb-sider-hd-1024x683-2.jpg') }}"
-                                            alt="VSL Curb Sider Interior Lift"
+                                        <img src="{{ asset('bathsafety-cat/lock-support-grab-bar.jpg') }}"
+                                            alt="Home2stay Stainless Steel Locking Support Grab Bar"
                                             class="w-full h-32 object-cover rounded-lg hover:opacity-90 transition duration-200">
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- Delivery & Installation Tab -->
-                            <div class="tab-pane" data-tab="delivery-tab" style="display: none !important;">
+                            <!-- Installation Options Tab -->
+                            <div class="tab-pane" data-tab="installation-tab" style="display: none !important;">
                                 <div class="space-y-4">
-                                    <div class="border-l-4 border-primary pl-4">
-                                        <h3 class="font-semibold text-gray-800">Professional Installation</h3>
-                                        <p class="text-gray-600">Our trained technicians will install your VSL Curb Sider
-                                            Interior Lift ensuring it fits perfectly with your vehicle and operates safely.
-                                        </p>
-                                    </div>
-                                    <div class="border-l-4 border-primary pl-4">
-                                        <h3 class="font-semibold text-gray-800">Delivery Options</h3>
-                                        <p class="text-gray-600">We offer delivery throughout the Greater Vancouver area.
-                                            For locations outside our service area, please contact us for options.</p>
-                                    </div>
-                                    <div class="border-l-4 border-primary pl-4">
-                                        <h3 class="font-semibold text-gray-800">Installation Process</h3>
-                                        <p class="text-gray-600">Installation typically takes 4-6 hours. We'll schedule a
-                                            convenient time for you and provide a courtesy vehicle if needed during the
-                                            installation.</p>
-                                    </div>
-                                    <div class="border-l-4 border-primary pl-4">
-                                        <h3 class="font-semibold text-gray-800">Training & Support</h3>
-                                        <p class="text-gray-600">After installation, our technicians will provide thorough
-                                            training on how to use your new lift system and answer any questions you may
-                                            have.</p>
-                                    </div>
-                                    <div class="border-l-4 border-primary pl-4">
-                                        <h3 class="font-semibold text-gray-800">Warranty & Service</h3>
-                                        <p class="text-gray-600">Your lift comes with a comprehensive warranty. We also
-                                            offer ongoing maintenance services to keep your lift operating at peak
-                                            performance.</p>
+                                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Installation Options</h3>
+                                    
+                                    <div class="space-y-4">
+                                        <div class="border-l-4 border-primary pl-4">
+                                            <h4 class="font-semibold text-gray-800">Wall Mount Installation</h4>
+                                            <p class="text-gray-600">Securely mounts to wall studs for maximum stability and weight capacity.</p>
+                                        </div>
+                                        <div class="border-l-4 border-primary pl-4">
+                                            <h4 class="font-semibold text-gray-800">Toilet Area Mounting</h4>
+                                            <p class="text-gray-600">Ideal for mounting across toilet area to provide transfer support and assistance.</p>
+                                        </div>
+                                        <div class="border-l-4 border-primary pl-4">
+                                            <h4 class="font-semibold text-gray-800">Shower Installation</h4>
+                                            <p class="text-gray-600">Stainless steel construction makes it perfect for wet shower environments.</p>
+                                        </div>
+                                        <div class="border-l-4 border-primary pl-4">
+                                            <h4 class="font-semibold text-gray-800">Professional Installation</h4>
+                                            <p class="text-gray-600">Professional installation recommended for proper mounting and safety. Contact us for installation services.</p>
+                                        </div>
+                                        <div class="border-l-4 border-primary pl-4">
+                                            <h4 class="font-semibold text-gray-800">Custom Sizing Available</h4>
+                                            <p class="text-gray-600">Contact us for custom sizing options to fit your specific space requirements.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+
                             <!-- Technical Information -->
                             <div class="tab-pane" data-tab="technical-tab" style="display: none !important;">
                                 <div class="mb-6">
-                                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Technical Information</h3>
+                                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Technical Specifications</h3>
                                     <ul class="space-y-2">
                                         <li class="flex items-start">
                                             <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
@@ -333,8 +342,7 @@
                                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                                     clip-rule="evenodd" />
                                             </svg>
-                                            <span>Fully powered, one-button seat rotation
-                                            </span>
+                                            <span>450-lb. horizontal (pulling) capacity</span>
                                         </li>
                                         <li class="flex items-start">
                                             <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
@@ -343,7 +351,7 @@
                                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                                     clip-rule="evenodd" />
                                             </svg>
-                                            <span>Multiple fabric colors</span>
+                                            <span>250-lb. vertical load capacity</span>
                                         </li>
                                         <li class="flex items-start">
                                             <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
@@ -352,7 +360,7 @@
                                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                                     clip-rule="evenodd" />
                                             </svg>
-                                            <span>Original seat unmodified and easily reinstalled</span>
+                                            <span>17.5″ wide and 12″ deep</span>
                                         </li>
                                         <li class="flex items-start">
                                             <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
@@ -361,7 +369,7 @@
                                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                                     clip-rule="evenodd" />
                                             </svg>
-                                            <span>Manual seat slider extends seat beyond door frame</span>
+                                            <span>Stainless steel construction - rust resistant</span>
                                         </li>
                                         <li class="flex items-start">
                                             <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
@@ -370,29 +378,46 @@
                                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                                     clip-rule="evenodd" />
                                             </svg>
-                                            <span>Scratch resistant, easy-to-clean fabrics</span>
+                                            <span>Foldable design with locking pin mechanism</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                                <path fill-rule="evenodd"
+                                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                            <span>Available finishes: N1 Satin/Brushed Nickel, W2 Painted White</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                                <path fill-rule="evenodd"
+                                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                            <span>Non-stock item - 2 to 3 weeks turnaround time</span>
                                         </li>
                                     </ul>
                                 </div>
 
                                 <div class="mb-8">
-                                    <div class="mb-6">
-
-                                        <div class="bg-gray-50 rounded-lg p-4">
-                                            <div class="flex items-center justify-between mb-2">
-                                                <h3 class="text-xl font-semibold text-gray-800 mb-3">Specifications</h3>
-                                                <span class="text-sm text-gray-800">Bruno</span>
+                                    <div class="bg-gray-50 rounded-lg p-4">
+                                        <div class="flex items-center justify-between mb-2">
+                                            <h3 class="text-xl font-semibold text-gray-800">Supplier</h3>
+                                            <span class="text-sm text-gray-800">Ponte Giulio</span>
+                                        </div>
+                                        <div class="flex items-center justify-between mb-2">
+                                            <h3 class="text-xl font-semibold text-gray-800">Pricing</h3>
+                                            <div class="text-sm text-gray-800">
+                                                <div>Contact us for customized pricing</div>
                                             </div>
-                                            <div class="flex items-center justify-between mb-2">
-                                                <h3 class="text-xl font-semibold text-gray-800 mb-3">Pricing</h3>
-                                                <span class="text-sm text-gray-800">Starts at $4,250.00 +
-                                                    installation</span>
-                                            </div>
-                                            <d iv class="flex items-center justify-between mb-2">
-                                                <h3 class="text-xl font-semibold text-gray-800 mb-3">Call Us</h3>
-                                                <a href="tel:+16042591211" class="text-secondary">
-                                                    <span class="text-sm text-gray-800">604-259-1211</span>
-                                                </a>
+                                        </div>
+                                        <div class="flex items-center justify-between mb-2">
+                                            <h3 class="text-xl font-semibold text-gray-800">Call Us</h3>
+                                            <a href="tel:+16042591211" class="text-secondary">
+                                                <span class="text-sm text-gray-800">604-259-1211</span>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -400,9 +425,7 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-        </div>
         </div>
     </section>
 
@@ -430,20 +453,13 @@
                 <div class="flex flex-col lg:flex-row">
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-
-                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Are you interested in having this product
-                            installed?</h2>
-                        <p class="text-lg text-gray-600 mb-6">Accessibility solutions to make everyday home life easier and
-                            safer for yourself and your loved ones.</p>
-                        <p class="mb-5">Give us a call at <a href="tel:+16042591211" class="text-secondary">604-259-1211</a>
-                            or submit a FREE
-                            <a href="#assessment" class="text-secondary"> ASSESSMENT FORM </a> to check.
-                        </p>
-
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Are you interested in having this product installed?</h2>
+                        <p class="text-lg text-gray-600 mb-6">Accessibility solutions to make everyday home life easier and safer for yourself and your loved ones.</p>
+                        <p class="mb-5">Give us a call at <a href="tel:+16042591211" class="text-secondary">604-259-1211</a> or submit a FREE <a href="#assessment" class="text-secondary">ASSESSMENT FORM</a> to check.</p>
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Automotive.jpg') }}" alt="Vehicle Wheelchair Lift"
+                        <img src="{{ asset('al-prod-page-imgs/Rectangle 320-min.png') }}" alt="European Wet Room Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -504,52 +520,96 @@
         </div>
     </section>
 
-    <!-- Inquiry Form -->
-    <section id="inquiry" class="py-12 bg-gray-50">
+    <!-- Get Your Free Quote Section -->
+    <section class="py-16 bg-gray-50">
         <div class="container mx-auto px-4">
-            <div class="max-w-3xl mx-auto">
-                <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Interested in the VSL Curb Sider Interior Lift
-                    2?</h2>
-                <p class="text-lg text-center text-gray-600 mb-8">Fill out the form below and our team will get back to you
-                    with detailed information and pricing.</p>
+            <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
+                <div class="text-center mb-10">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We would love to hear from you!</p>
+                </div>
 
-                <form action="#" method="POST" class="bg-white rounded-xl p-6 md:p-8 shadow-md">
+                <form action="#" method="POST" class="space-y-6">
                     @csrf
-                    <input type="hidden" name="product" value="VSL Curb Sider Interior Lift 2">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <input type="hidden" name="product" value="Home2stay Stainless Steel Locking Support Grab Bar">
+                    
+                    <!-- Personal Information -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
-                            <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
-                            <input type="text" id="name" name="name"
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary"
-                                required>
+                            <label class="block text-gray-700 font-medium mb-2" for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
                         </div>
                         <div>
-                            <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
-                            <input type="email" id="email" name="email"
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary"
-                                required>
+                            <label class="block text-gray-700 font-medium mb-2" for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
                         </div>
                         <div>
-                            <label for="phone" class="block text-gray-700 font-medium mb-2">Phone Number</label>
-                            <input type="tel" id="phone" name="phone"
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary">
+                            <label class="block text-gray-700 font-medium mb-2" for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
                         </div>
                         <div>
-                            <label for="location" class="block text-gray-700 font-medium mb-2">Your Location</label>
+                            <label class="block text-gray-700 font-medium mb-2" for="location">Your Location</label>
                             <input type="text" id="location" name="location"
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary">
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
                         </div>
                     </div>
-                    <div class="mb-6">
-                        <label for="message" class="block text-gray-700 font-medium mb-2">Your Message</label>
-                        <textarea id="message" name="message" rows="4"
-                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary"
-                            required></textarea>
+
+                    <!-- Installation Type -->
+                    <div>
+                        <label class="block text-gray-700 font-medium mb-2">Installation Location: *</label>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                            <label class="flex items-center space-x-3">
+                                <input type="radio" name="installation_location" value="toilet_area" class="text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Toilet Area</span>
+                            </label>
+                            <label class="flex items-center space-x-3">
+                                <input type="radio" name="installation_location" value="shower_area" class="text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Shower Area</span>
+                            </label>
+                            <label class="flex items-center space-x-3">
+                                <input type="radio" name="installation_location" value="other_location" class="text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Other Location</span>
+                            </label>
+                        </div>
                     </div>
+
+                    <!-- Finish Selection -->
+                    <div>
+                        <h4 class="text-lg font-semibold mb-3 text-primary">Preferred Finish</h4>
+                        <div class="space-y-2">
+                            <label class="flex items-center">
+                                <input type="radio" name="finish_preference" value="brushed_nickel" class="mr-2" checked>
+                                <span class="text-gray-700" style="margin-left: 5px;">N1 Satin/Brushed Nickel</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="radio" name="finish_preference" value="painted_white" class="mr-2">
+                                <span class="text-gray-700" style="margin-left: 5px;">W2 Painted White</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Additional Information -->
+                    <div>
+                        <label class="block text-gray-700 font-medium mb-2" for="message">Additional Information</label>
+                        <textarea id="message" name="message" rows="4"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
+                            placeholder="Please share details about your locking support grab bar needs, installation location, or any specific requirements..."></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
                     <div class="text-center">
                         <button type="submit"
-                            class="px-8 py-3 bg-primary text-white font-medium rounded-lg hover:bg-primary-dark transition duration-300">
-                            Submit Inquiry
+                            class="inline-flex items-center px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition duration-300">
+                            Submit Quote Request
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
                         </button>
                     </div>
                 </form>
@@ -562,10 +622,8 @@
         <div class="container mx-auto px-4">
             <div class="max-w-3xl mx-auto">
                 <h2 class="text-3xl font-bold text-center text-gray-800 mb-4">Schedule a Free Assessment</h2>
-                <p class="text-lg text-center text-gray-600 mb-8">Our mobility specialists will help determine if the VSL
-                    Curb Sider Interior Lift 2 is the right solution for your needs.</p>
+                <p class="text-lg text-center text-gray-600 mb-8">Our bathroom safety specialists will help determine the best placement and installation options for your Locking Support Grab Bar.</p>
 
-                <!-- Assessment form here -->
                 <div class="text-center">
                     <a href="{{ route('contact') }}"
                         class="inline-flex items-center px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition duration-300">
@@ -602,20 +660,19 @@
                 <form id="quoteRequestForm">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name"
-                        value="Home2stay VSL Curb-Sider Interior Lift">
+                        value="Home2stay Stainless Steel Locking Support Grab Bar">
 
                     <!-- Product Info Section -->
                     <div class="mb-6">
                         <h4 class="text-lg font-semibold mb-4 text-primary">Product Information</h4>
                         <div class="p-3 bg-gray-50 rounded-lg mb-4">
-                            <p>You're requesting a quote for: <span class="font-semibold text-primary">Home2stay VSL
-                                    Curb-Sider Interior Lift</span></p>
+                            <p>You're requesting a quote for: <span class="font-semibold text-primary">Home2stay Stainless Steel Locking Support Grab Bar</span></p>
                         </div>
                     </div>
 
                     <!-- Timeframe Section -->
                     <div class="mb-6">
-                        <h4 class="text-lg font-semibold mb-3 text-primary">When are you looking to purchase?</h4>
+                        <h4 class="text-lg font-semibold mb-3 text-primary">When are you looking to start your project?</h4>
                         <div class="space-y-2">
                             <label class="flex items-center">
                                 <input type="radio" name="timeframe" value="immediately" class="mr-2" checked>
@@ -636,25 +693,40 @@
                         </div>
                     </div>
 
-                    <!-- For Whom Section -->
+                    <!-- Installation Location Section -->
                     <div class="mb-6">
-                        <h4 class="text-lg font-semibold mb-3 text-primary">Who will be using this product?</h4>
+                        <h4 class="text-lg font-semibold mb-3 text-primary">Where do you want to install the grab bar?</h4>
                         <div class="space-y-2">
                             <label class="flex items-center">
-                                <input type="radio" name="for_whom" value="self" class="mr-2" checked>
-                                <span>Myself</span>
+                                <input type="radio" name="installation_location" value="toilet_area" class="mr-2" checked>
+                                <span>Toilet Area (for transfer support)</span>
                             </label>
                             <label class="flex items-center">
-                                <input type="radio" name="for_whom" value="familyMember" class="mr-2">
-                                <span>Family member</span>
+                                <input type="radio" name="installation_location" value="shower_area" class="mr-2">
+                                <span>Shower Area (for balance support)</span>
                             </label>
                             <label class="flex items-center">
-                                <input type="radio" name="for_whom" value="client" class="mr-2">
-                                <span>Client/Patient</span>
+                                <input type="radio" name="installation_location" value="other_location" class="mr-2">
+                                <span>Other Location</span>
                             </label>
                             <label class="flex items-center">
-                                <input type="radio" name="for_whom" value="other" class="mr-2">
-                                <span>Other</span>
+                                <input type="radio" name="installation_location" value="not_sure" class="mr-2">
+                                <span>Not Sure - Need Consultation</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Finish Selection -->
+                    <div>
+                        <h4 class="text-lg font-semibold mb-3 text-primary">Preferred Finish</h4>
+                        <div class="space-y-2">
+                            <label class="flex items-center">
+                                <input type="radio" name="finish_preference" value="brushed_nickel" class="mr-2" checked>
+                                <span class="text-gray-700" style="margin-left: 5px;">N1 Satin/Brushed Nickel</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="radio" name="finish_preference" value="painted_white" class="mr-2">
+                                <span class="text-gray-700" style="margin-left: 5px;">W2 Painted White</span>
                             </label>
                         </div>
                     </div>
@@ -664,14 +736,12 @@
                         <h4 class="text-lg font-semibold mb-4 text-primary">Your Contact Information</h4>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div>
-                                <label for="firstName" class="block text-sm font-medium text-gray-700 mb-1">First
-                                    Name*</label>
+                                <label for="firstName" class="block text-sm font-medium text-gray-700 mb-1">First Name*</label>
                                 <input type="text" id="firstName" name="first_name" required
                                     class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
                             </div>
                             <div>
-                                <label for="lastName" class="block text-sm font-medium text-gray-700 mb-1">Last
-                                    Name*</label>
+                                <label for="lastName" class="block text-sm font-medium text-gray-700 mb-1">Last Name*</label>
                                 <input type="text" id="lastName" name="last_name" required
                                     class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
                             </div>
@@ -690,10 +760,10 @@
                         </div>
 
                         <div class="mt-4">
-                            <label for="comments" class="block text-sm font-medium text-gray-700 mb-1">Additional
-                                Comments</label>
+                            <label for="comments" class="block text-sm font-medium text-gray-700 mb-1">Project Details</label>
                             <textarea id="comments" name="comments" rows="3"
-                                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"></textarea>
+                                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                                placeholder="Please describe your locking support grab bar needs, installation location, or any specific requirements..."></textarea>
                         </div>
                     </div>
 

@@ -1,7 +1,8 @@
 @extends('layouts.app')
 
 @section('title', 'Home2stay VSL Curb-Sider Interior Lift - Home2stay')
-@section('meta_description', 'Bruno\'s dependable hoist-style lift for scooters and powerchairs, the Curb-Sider\'s space-efficient design lets you keep your third-row seating when a mobility device isn\'t present.')
+@section('meta_description', 'rb-Sider Interior Lift" />
+	<meta property="og:description" content="Bruno’s dependable hoist-style lift for scooters and powerchairs, the Curb-Sider’s space-efficient design lets you keep your third-row seating when a [&hellip;]')
 
 @section('content')
     <!-- Hero Section -->
@@ -104,8 +105,6 @@
 
                 <!-- Product Info -->
                 <div class="w-full lg:w-1/2">
-
-
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
                             Bruno's dependable hoist-style lift for scooters and powerchairs, the Curb-Sider's
@@ -116,7 +115,13 @@
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
                             Stand by the bumper, connect a docking device, push a button and the Curb-Sider lifts and stows
-                            your mobility device.</p>
+                            your mobility device.
+                        </p>
+                    </div>
+                    <div class="mb-6">
+                        <p class="text-gray-600 text-lg">
+                            <strong>CONTACT US</strong> for a price quote customized to your needs.
+                        </p>
                     </div>
 
                     <!-- Product Tabs Section -->
@@ -175,10 +180,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Ease of Use</h3>
-                                            <p class="text-gray-600">The Curb-Sider makes loading and unloading your
-                                                mobility device simple and efficient. Just push a button and the lift does
-                                                the work for you.</p>
+                                            <h3 class="font-semibold text-gray-800">Fully Powered Operation</h3>
+                                            <p class="text-gray-600">One-button operation makes loading and unloading your mobility device simple and efficient. Just push a button and the lift does the work for you.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -190,8 +193,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Space-Saving Design</h3>
-                                            <p class="text-gray-600">Keep your third-row seating when a mobility device
-                                                isn't present, maximizing your vehicle's versatility.</p>
+                                            <p class="text-gray-600">Keep your third-row seating when a mobility device isn't present, maximizing your vehicle's versatility and passenger capacity.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -202,9 +204,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Reliable Performance</h3>
-                                            <p class="text-gray-600">Bruno's dependable hoist-style lift provides
-                                                consistent, reliable operation for years of trouble-free use.</p>
+                                            <h3 class="font-semibold text-gray-800">Docking Device System</h3>
+                                            <p class="text-gray-600">Simple connection system - just connect the docking device to your mobility device and the lift handles the rest automatically.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -215,9 +216,20 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Versatile Compatibility</h3>
-                                            <p class="text-gray-600">Works with most scooters and powerchairs, making it a
-                                                flexible solution for your mobility needs.</p>
+                                            <h3 class="font-semibold text-gray-800">Bruno Dependability</h3>
+                                            <p class="text-gray-600">Bruno's dependable hoist-style technology provides consistent, reliable operation for years of trouble-free use with your scooters and powerchairs.</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="h-5 w-5 text-primary flex-shrink-0 mr-3 mt-1"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd"
+                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                clip-rule="evenodd" />
+                                        </svg>
+                                        <div>
+                                            <h3 class="font-semibold text-gray-800">Easy Bumper Operation</h3>
+                                            <p class="text-gray-600">Convenient operation from the bumper area - simply stand by the bumper, connect the docking device, and activate the lift with the push of a button.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -225,55 +237,29 @@
 
                             <!-- Accessories Tab -->
                             <div class="tab-pane" data-tab="accessories-tab" style="display: none !important;">
-                                <div class="text-center">
-                                    <p>Coming soon</p>
+                                <div class="space-y-4">
+                                    <div class="text-center">
+                                        <h3 class="text-lg font-semibold text-gray-800 mb-4">Available Accessories</h3>
+                                    </div>
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                        <div class="border rounded-lg p-4">
+                                            <h4 class="font-semibold text-gray-800 mb-2">Docking Device</h4>
+                                            <p class="text-gray-600 text-sm">Essential connecting component that attaches to your mobility device for secure lifting and stowing.</p>
+                                        </div>
+                                        <div class="border rounded-lg p-4">
+                                            <h4 class="font-semibold text-gray-800 mb-2">Multiple Fabric Colors</h4>
+                                            <p class="text-gray-600 text-sm">Choose from various fabric color options to match your vehicle's interior.</p>
+                                        </div>
+                                        <div class="border rounded-lg p-4">
+                                            <h4 class="font-semibold text-gray-800 mb-2">Manual Seat Slider</h4>
+                                            <p class="text-gray-600 text-sm">Extends seat beyond door frame for easier transfer access.</p>
+                                        </div>
+                                        <div class="border rounded-lg p-4">
+                                            <h4 class="font-semibold text-gray-800 mb-2">Weather Protection</h4>
+                                            <p class="text-gray-600 text-sm">Optional protective covering to shield the lift mechanism from weather elements.</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <!-- <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                    <div class="border rounded-lg overflow-hidden">
-                                        <div class="h-48 bg-gray-100">
-                                            <img src="{{ asset('images/products/docking-device.jpg') }}"
-                                                alt="Docking Device" class="w-full h-full object-cover">
-                                        </div>
-                                        <div class="p-4">
-                                            <h3 class="font-semibold text-gray-800">Docking Device</h3>
-                                            <p class="text-gray-600 text-sm mt-1">Compatible docking device for secure
-                                                attachment to your mobility device</p>
-                                        </div>
-                                    </div>
-                                    <div class="border rounded-lg overflow-hidden">
-                                        <div class="h-48 bg-gray-100">
-                                            <img src="{{ asset('images/products/weatherproof-cover.jpg') }}"
-                                                alt="Weatherproof Cover" class="w-full h-full object-cover">
-                                        </div>
-                                        <div class="p-4">
-                                            <h3 class="font-semibold text-gray-800">Weatherproof Cover</h3>
-                                            <p class="text-gray-600 text-sm mt-1">Protect your lift mechanism from the
-                                                elements</p>
-                                        </div>
-                                    </div>
-                                    <div class="border rounded-lg overflow-hidden">
-                                        <div class="h-48 bg-gray-100">
-                                            <img src="{{ asset('images/products/extended-arm.jpg') }}" alt="Extended Arm"
-                                                class="w-full h-full object-cover">
-                                        </div>
-                                        <div class="p-4">
-                                            <h3 class="font-semibold text-gray-800">Extended Arm Option</h3>
-                                            <p class="text-gray-600 text-sm mt-1">For larger vehicles or mobility devices
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="border rounded-lg overflow-hidden">
-                                        <div class="h-48 bg-gray-100">
-                                            <img src="{{ asset('images/products/battery-pack.jpg') }}" alt="Battery Pack"
-                                                class="w-full h-full object-cover">
-                                        </div>
-                                        <div class="p-4">
-                                            <h3 class="font-semibold text-gray-800">Backup Battery Pack</h3>
-                                            <p class="text-gray-600 text-sm mt-1">Ensures operation even if your vehicle
-                                                battery is low</p>
-                                        </div>
-                                    </div>
-                                </div> -->
                             </div>
 
                             <!-- More Images Tab -->
@@ -292,32 +278,23 @@
                                 <div class="space-y-4">
                                     <div class="border-l-4 border-primary pl-4">
                                         <h3 class="font-semibold text-gray-800">Professional Installation</h3>
-                                        <p class="text-gray-600">Our trained technicians will install your VSL Curb Sider
-                                            Interior Lift ensuring it fits perfectly with your vehicle and operates safely.
-                                        </p>
+                                        <p class="text-gray-600">Our trained technicians will install your Curb-Sider Interior Lift ensuring it fits perfectly with your vehicle and operates safely. The lift can be used with the original seat unmodified.</p>
                                     </div>
                                     <div class="border-l-4 border-primary pl-4">
                                         <h3 class="font-semibold text-gray-800">Delivery Options</h3>
-                                        <p class="text-gray-600">We offer delivery throughout the Greater Vancouver area.
-                                            For locations outside our service area, please contact us for options.</p>
+                                        <p class="text-gray-600">We offer delivery throughout the Greater Vancouver area. For locations outside our service area, please contact us for shipping options.</p>
                                     </div>
                                     <div class="border-l-4 border-primary pl-4">
                                         <h3 class="font-semibold text-gray-800">Installation Process</h3>
-                                        <p class="text-gray-600">Installation typically takes 4-6 hours. We'll schedule a
-                                            convenient time for you and provide a courtesy vehicle if needed during the
-                                            installation.</p>
+                                        <p class="text-gray-600">Installation typically takes 4-6 hours. The original seat remains unmodified and can be easily reinstalled if needed. We'll schedule a convenient time for you.</p>
                                     </div>
                                     <div class="border-l-4 border-primary pl-4">
                                         <h3 class="font-semibold text-gray-800">Training & Support</h3>
-                                        <p class="text-gray-600">After installation, our technicians will provide thorough
-                                            training on how to use your new lift system and answer any questions you may
-                                            have.</p>
+                                        <p class="text-gray-600">After installation, our technicians will provide thorough training on how to use your new Curb-Sider lift system, including proper docking device connection and one-button operation.</p>
                                     </div>
                                     <div class="border-l-4 border-primary pl-4">
                                         <h3 class="font-semibold text-gray-800">Warranty & Service</h3>
-                                        <p class="text-gray-600">Your lift comes with a comprehensive warranty. We also
-                                            offer ongoing maintenance services to keep your lift operating at peak
-                                            performance.</p>
+                                        <p class="text-gray-600">Your Curb-Sider lift comes with Bruno's comprehensive warranty. We also offer ongoing maintenance services to keep your lift operating at peak performance.</p>
                                     </div>
                                 </div>
                             </div>
@@ -333,8 +310,7 @@
                                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                                     clip-rule="evenodd" />
                                             </svg>
-                                            <span>Fully powered, one-button seat rotation
-                                            </span>
+                                            <span>Fully powered, one-button operation</span>
                                         </li>
                                         <li class="flex items-start">
                                             <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
@@ -343,7 +319,7 @@
                                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                                     clip-rule="evenodd" />
                                             </svg>
-                                            <span>Multiple fabric colors</span>
+                                            <span>Multiple fabric colors available</span>
                                         </li>
                                         <li class="flex items-start">
                                             <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
@@ -372,27 +348,44 @@
                                             </svg>
                                             <span>Scratch resistant, easy-to-clean fabrics</span>
                                         </li>
+                                        <li class="flex items-start">
+                                            <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                                <path fill-rule="evenodd"
+                                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                            <span>Hoist-style dependable lifting mechanism</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                                <path fill-rule="evenodd"
+                                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                            <span>Compatible with scooters and powerchairs</span>
+                                        </li>
                                     </ul>
                                 </div>
 
                                 <div class="mb-8">
                                     <div class="mb-6">
-
                                         <div class="bg-gray-50 rounded-lg p-4">
                                             <div class="flex items-center justify-between mb-2">
-                                                <h3 class="text-xl font-semibold text-gray-800 mb-3">Specifications</h3>
+                                                <h3 class="text-xl font-semibold text-gray-800 mb-3">Supplier</h3>
                                                 <span class="text-sm text-gray-800">Bruno</span>
                                             </div>
                                             <div class="flex items-center justify-between mb-2">
                                                 <h3 class="text-xl font-semibold text-gray-800 mb-3">Pricing</h3>
-                                                <span class="text-sm text-gray-800">Starts at $4,250.00 +
-                                                    installation</span>
+                                                <span class="text-sm text-gray-800">Starts at $4,250.00 + installation</span>
                                             </div>
-                                            <d iv class="flex items-center justify-between mb-2">
+                                            <div class="flex items-center justify-between mb-2">
                                                 <h3 class="text-xl font-semibold text-gray-800 mb-3">Call Us</h3>
                                                 <a href="tel:+16042591211" class="text-secondary">
                                                     <span class="text-sm text-gray-800">604-259-1211</span>
                                                 </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -433,11 +426,11 @@
 
                         <h2 class="text-3xl font-bold text-gray-800 mb-4">Are you interested in having this product
                             installed?</h2>
-                        <p class="text-lg text-gray-600 mb-6">Accessibility solutions to make everyday home life easier and
+                        <p class="text-lg text-gray-600 mb-6">Accessibility solutions to make everyday vehicle travel easier and
                             safer for yourself and your loved ones.</p>
                         <p class="mb-5">Give us a call at <a href="tel:+16042591211" class="text-secondary">604-259-1211</a>
                             or submit a FREE
-                            <a href="#assessment" class="text-secondary"> ASSESSMENT FORM </a> to check.
+                            <a href="#assessment" class="text-secondary"> ASSESSMENT FORM </a> to get your personalized quote.
                         </p>
 
                     </div>
@@ -508,14 +501,13 @@
     <section id="inquiry" class="py-12 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="max-w-3xl mx-auto">
-                <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Interested in the VSL Curb Sider Interior Lift
-                    2?</h2>
+                <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Interested in the Curb-Sider Interior Lift?</h2>
                 <p class="text-lg text-center text-gray-600 mb-8">Fill out the form below and our team will get back to you
                     with detailed information and pricing.</p>
 
                 <form action="#" method="POST" class="bg-white rounded-xl p-6 md:p-8 shadow-md">
                     @csrf
-                    <input type="hidden" name="product" value="VSL Curb Sider Interior Lift 2">
+                    <input type="hidden" name="product" value="Home2stay VSL Curb-Sider Interior Lift">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                         <div>
                             <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
@@ -562,8 +554,7 @@
         <div class="container mx-auto px-4">
             <div class="max-w-3xl mx-auto">
                 <h2 class="text-3xl font-bold text-center text-gray-800 mb-4">Schedule a Free Assessment</h2>
-                <p class="text-lg text-center text-gray-600 mb-8">Our mobility specialists will help determine if the VSL
-                    Curb Sider Interior Lift 2 is the right solution for your needs.</p>
+                <p class="text-lg text-center text-gray-600 mb-8">Our mobility specialists will help determine if the Curb-Sider Interior Lift is the right solution for your needs.</p>
 
                 <!-- Assessment form here -->
                 <div class="text-center">

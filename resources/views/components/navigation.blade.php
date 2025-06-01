@@ -4,7 +4,7 @@
             <!-- Logo (Left Side) -->
             <div class="flex-shrink-0">
                 <a href="{{ route('home') }}" class="flex items-center">
-                    <span class="text-2xl font-bold text-primary"><img src="/logo/logo-clr.png" alt=""></span>
+                    <span class="text-2xl font-bold text-primary"><img src="/logo/Logo-clr.png" alt=""></span>
                 </a>
             </div>
 

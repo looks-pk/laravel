@@ -305,7 +305,7 @@
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Vinyl Folding Grab Bar</h3>
                         <p class="text-gray-600 mb-4 flex-grow">Vinyl coating provides anti-microbial protection, superior grip, and feels warmer to the hands. Anti...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-vinyl-folding-grab-bar/"
+                            <a href="/products/home2stay-vinyl-folding-grab-bar-2"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -325,7 +325,7 @@
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Vinyl Folding Grab Bar w/ Floor Support Leg</h3>
                         <p class="text-gray-600 mb-4 flex-grow">Vinyl coating provides anti-microbial protection, superior grip, and feels warmer to the hands. Anti...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-vinyl-folding-grab-bar-w-floor-support-leg/"
+                            <a href="/products/home2stay-vinyl-folding-grab-bar-w-floor-support-leg"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -345,7 +345,7 @@
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Vinyl Folding & Rotating Grab Bar</h3>
                         <p class="text-gray-600 mb-4 flex-grow">Vinyl coating provides anti-microbial protection, superior grip, and feels warmer to the hands. Anti...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-vinyl-folding-rotating-grab-bar/"
+                            <a href="/products/home2stay-vinyl-folding-rotating-grab-bar"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -365,7 +365,7 @@
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Dependa-Bar</h3>
                         <p class="text-gray-600 mb-4 flex-grow">This award-winning grab bar provides assistance exactly where it's needed- no reaching, leaning or...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-dependa-bar/"
+                            <a href="/products/home2stay-dependa-bar"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -385,7 +385,7 @@
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Grab Bars- Curved, Arched or Straight</h3>
                         <p class="text-gray-600 mb-4 flex-grow">Grabcessories Grab Bars blend into any bathroom decor and provide dependable support for people of a...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-grab-bars-curved-arched-or-straight/"
+                            <a href="/products/home2stay-grab-bars-curved-arched-or-straight"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -405,7 +405,7 @@
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay 2-in-1 Grab Bar Toilet Paper Holder</h3>
                         <p class="text-gray-600 mb-4 flex-grow">Grabcessories 2-in-1 Grab Bar Toilet Paper Holder ensures safer mobility and convenience in one of t...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-2-in-1-grab-bar-toilet-paper-holder/"
+                            <a href="/products/home2stay-2-in-1-grab-bar-toilet-paper-holder"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -425,7 +425,7 @@
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay 2-in-1 Grab Bar Towel Bar</h3>
                         <p class="text-gray-600 mb-4 flex-grow">Grabcessories 2-in-1 Grab Bar Towel Bar prevents falls in one of the key "fall risk" zones in th...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-2-in-1-grab-bar-towel-bar/"
+                            <a href="/products/home2stay-2-in-1-grab-bar-towel-bar"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -446,7 +446,7 @@
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay 3-in-1 Grab Bar Towel Shelf</h3>
                         <p class="text-gray-600 mb-4 flex-grow">Grabcessories 3-in-1 Grab Bars & Towel Shelf provides beauty, fall prevention, towel &...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-3-in-1-grab-bar-towel-shelf/"
+                            <a href="/products/home2stay-3-in-1-grab-bar-towel-shelf"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -466,7 +466,7 @@
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Easy Mount Grab Bars(Stainless Steel)</h3>
                         <p class="text-gray-600 mb-4 flex-grow">Easy Mount Grab Bars provide safety and security in the bathroom, shower and any room in your house...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-easy-mount-grab-bars-stainless-steel/"
+                            <a href="/products/home2stay-easy-mount-grab-bars-stainless-steel"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>

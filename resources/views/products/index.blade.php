@@ -199,7 +199,7 @@
                         <p class="font-bold text-primary mb-5 flex items-center">
                             <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">1 Products</span>
                         </p>
-                        <a href="#"
+                        <a href="/products-categories/ramps/"
                             class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
                             View All Products
                         </a>
@@ -230,7 +230,7 @@
                         <p class="font-bold text-primary mb-5 flex items-center">
                             <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">3 Products</span>
                         </p>
-                        <a href="#"
+                        <a href="/products-categories/safety-poles-handrails/"
                             class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
                             View All Products
                         </a>
@@ -258,7 +258,7 @@
                         <p class="font-bold text-primary mb-5 flex items-center">
                             <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">4 Products</span>
                         </p>
-                        <a href="#"
+                        <a href="/products-categories/stair-lifts/"
                             class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
                             View All Products
                         </a>
@@ -287,7 +287,7 @@
                         <p class="font-bold text-primary mb-5 flex items-center">
                             <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">5 Products</span>
                         </p>
-                        <a href="#"
+                        <a href="/products-categories/tub-cuts/"
                             class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
                             View All Products
                         </a>
@@ -315,7 +315,7 @@
                         <p class="font-bold text-primary mb-5 flex items-center">
                             <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">2 Products</span>
                         </p>
-                        <a href="#"
+                        <a href="/products-categories/vertical-porch-lifts-vpl/"
                             class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
                             View All Products
                         </a>
@@ -343,7 +343,7 @@
                         <p class="font-bold text-primary mb-5 flex items-center">
                             <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">1 Products</span>
                         </p>
-                        <a href="#"
+                        <a href="/products-categories/walk-in-tubs/"
                             class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
                             View All Products
                         </a>

@@ -703,7 +703,7 @@
                 <!-- Product Card 1 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('hprodbanner/Barrier-Free-Bathrooms.png') }}" alt="Barrier-Free Bathrooms"
+                        <img src="{{ asset('/al-prod-page-imgs/141-1200x800-1-1024x683-min.jpg') }}" alt="Barrier-Free Bathrooms"
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
@@ -755,7 +755,7 @@
                         </ul>
                     </div>
                     <div class="card-footer flex justify-between">
-                        <a href="#"
+                        <a href="/products-categories/barrier-free-bathrooms/"
                             class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>See More</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
@@ -781,7 +781,7 @@
                 <!-- Product Card 2 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('hprodbanner/Grab Bars.png') }}" alt="Grab Bars"
+                        <img src="{{ asset('/al-prod-page-imgs/Grab-Bars.jpg') }}" alt="Grab Bars"
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
@@ -833,7 +833,7 @@
                         </ul>
                     </div>
                     <div class="card-footer flex justify-between">
-                        <a href="#"
+                        <a href="/products-categories/grab-bars/"
                             class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>See More</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
@@ -859,7 +859,7 @@
                 <!-- Product Card 3 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('hprodbanner/Stairlifts.png') }}" alt="Stairlifts"
+                        <img src="{{ asset('/al-prod-page-imgs/Stair-Lifts.jpg') }}" alt="Stairlifts"
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
@@ -911,7 +911,7 @@
                         </ul>
                     </div>
                     <div class="card-footer flex justify-between">
-                        <a href="#"
+                        <a href="/products-categories/stair-lifts/"
                             class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>See More</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
@@ -937,7 +937,7 @@
                 <!-- Product Card 4 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('hprodbanner/Ramps.png') }}" alt="Ramps" class="w-full h-full object-cover">
+                        <img src="{{ asset('/al-prod-page-imgs/Ramps.jpg') }}" alt="Ramps" class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
                         <h3>Ramps</h3>
@@ -988,7 +988,7 @@
                         </ul>
                     </div>
                     <div class="card-footer flex justify-between">
-                        <a href="#"
+                        <a href="/products-categories/ramps/"
                             class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>See More</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
@@ -1014,7 +1014,7 @@
                 <!-- Product Card 5 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('hprodbanner/Tub Cuts.png') }}" alt="Tub Cuts"
+                        <img src="{{ asset('/al-prod-page-imgs/Tub-Cuts.jpg') }}" alt="Tub Cuts"
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
@@ -1066,7 +1066,7 @@
                         </ul>
                     </div>
                     <div class="card-footer flex justify-between">
-                        <a href="#"
+                        <a href="/products-categories/tub-cuts/"
                             class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>See More</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
@@ -1092,7 +1092,7 @@
                 <!-- Product Card 6 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('hprodbanner/Safety-Poles-Handrails.png') }}" alt="Safety Poles & Handrails"
+                        <img src="{{ asset('/al-prod-page-imgs/Safety-Poles-Handrails.jpg') }}" alt="Safety Poles & Handrails"
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
@@ -1144,7 +1144,7 @@
                         </ul>
                     </div>
                     <div class="card-footer flex justify-between">
-                        <a href="#"
+                        <a href="/products-categories/safety-poles-handrails/"
                             class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>See More</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"

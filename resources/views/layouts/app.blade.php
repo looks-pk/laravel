@@ -92,7 +92,6 @@
                                 <i class="fas fa-map-marker-alt mt-1 mr-2 text-primary"></i>
                                 <div class="text-gray-400">
                                     <div>196 West 6 Ave, Vancouver, BC, V5Y 1K6</div>
-                                    <div class="mt-1">305-1515 Broadway St. Port Coquitlam, BC</div>
                                 </div>
                             </li>
                             <li class="flex items-start">
@@ -104,7 +103,7 @@
                             </li>
                             <li class="flex items-start">
                                 <i class="fas fa-envelope mt-1 mr-2 text-primary"></i>
-                                <a href="mailto:info@home2stay.ca" class="text-gray-400 hover:text-white transition-colors">info@home2stay.ca</a>
+                                <a href="mailto:info@home2stay.com" class="text-gray-400 hover:text-white transition-colors">info@home2stay.com</a>
                             </li>
                             <li class="flex items-start">
                                 <i class="fas fa-clock mt-1 mr-2 text-primary"></i>

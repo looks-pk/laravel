@@ -67,14 +67,44 @@
             overflow: hidden;
         }
 
-        .video-background {
+        .hero-slider-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+
+        .hero-slider {
+            width: 100%;
+            height: 100%;
+        }
+
+        .hero-slide-bg {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .hero-slide-image {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
             object-fit: cover;
-            z-index: 1;
+            object-position: center;
+        }
+
+        .hero-slide-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(0, 121, 191, 0.1) 0%, rgba(0, 60, 95, 0.2) 100%);
+            z-index: 2;
         }
 
         .image-overlay {
@@ -83,7 +113,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(135deg, rgba(0, 121, 191, 0.8) 0%, rgba(0, 60, 95, 0.95) 100%);
+            background: linear-gradient(135deg, rgba(0, 121, 191, 0.3) 0%, rgba(0, 60, 95, 0.4) 100%);
             z-index: 2;
         }
 
@@ -633,14 +663,60 @@
 
     <!-- Image Hero Section -->
     <section class="image-hero">
-        <!-- Video Background -->
-        <video class="video-background" autoplay muted loop playsinline preload="auto">
-            <source src="{{ asset('h-video/main-page-lower-res-2-new.mp4') }}" type="video/mp4">
-            <!-- Fallback image if video doesn't load -->
-            <img src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg" alt="Hero background">
-        </video>
+        <!-- Hero Image Carousel -->
+        <div class="hero-slider-container">
+            <div class="swiper-container hero-slider">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1: Stairlift Flow X -->
+                    <div class="swiper-slide">
+                        <div class="hero-slide-bg">
+                            <img src="{{ asset('h2s-banners/clean-cut-tub-cut-2.png') }}" alt="Stairlift Flow X" class="hero-slide-image">
+                            <div class="hero-slide-overlay"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 2: Bruno SRE-3050 Stairlift -->
+                    <div class="swiper-slide">
+                        <div class="hero-slide-bg">
+                            <img src="{{ asset('h2s-banners/promenaid-grab-bar-2.png') }}" alt="Bruno SRE-3050 Stairlift" class="hero-slide-image">
+                            <div class="hero-slide-overlay"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 3: Sentrel Bathroom -->
+                    <div class="swiper-slide">
+                        <div class="hero-slide-bg">
+                            <img src="{{ asset('h2s-banners/clean-cut-tub-cut-3.png') }}" alt="Sentrel Bathroom" class="hero-slide-image">
+                            <div class="hero-slide-overlay"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 4: Clean Cut Tub Cut -->
+                    <div class="swiper-slide">
+                        <div class="hero-slide-bg">
+                            <img src="{{ asset('h2s-banners/Sentrel-Bathroom-2.png') }}" alt="Clean Cut Tub Cut" class="hero-slide-image">
+                            <div class="hero-slide-overlay"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 5: Promenaid Grab Bar -->
+                    <div class="swiper-slide">
+                        <div class="hero-slide-bg">
+                            <img src="{{ asset('h2s-banners/stairlift-bruno-sre-3050-2.png') }}" alt="Promenaid Grab Bar" class="hero-slide-image">
+                            <div class="hero-slide-overlay"></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hero-slide-bg">
+                            <img src="{{ asset('h2s-banners/stairlift-flow-x.png') }}" alt="Promenaid Grab Bar" class="hero-slide-image">
+                            <div class="hero-slide-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <!-- Dark overlay -->
+        <!-- Dark overlay for text readability -->
         <div class="image-overlay"></div>
 
         <!-- Content -->
@@ -772,7 +848,7 @@
                             </svg>
                         </a>
                         <button type="button" data-product="Barrier-Free Bathrooms"
-                            class="get-info-btn inline-flex items-center px-4 py-2 border border-secondary text-secondary rounded-md hover:bg-secondary hover:text-white transition-colors">
+                            class="get-info-btn inline-flex items-center px-4 py-2 border border-black text-black rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>Get Info</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
                                 fill="currentColor">
@@ -785,84 +861,6 @@
                 </div>
 
                 <!-- Product Card 2 -->
-                <div class="product-card">
-                    <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/Grab-Bars.jpg') }}" alt="Grab Bars"
-                            class="w-full h-full object-cover">
-                    </div>
-                    <div class="card-body">
-                        <h3>Grab Bars</h3>
-                        <p class="mb-3">Elevate bathroom safety with our sturdy and stylish grab bars, providing essential
-                            support for confident maneuvering.</p>
-
-                        <!-- Price Ranges -->
-                        <div class="mb-4 text-sm">
-                            <div class="flex justify-between">
-                                <span class="font-semibold text-gray-700">Purchase:</span>
-                                <span class="text-primary font-bold">$40 - $150</span>
-                            </div>
-                            <div class="flex justify-between rental-option" style="display: none;">
-                                <span class="font-semibold text-gray-700">Rental:</span>
-                                <span class="text-primary font-bold">Not Available</span>
-                            </div>
-                        </div>
-
-                        <!-- Feature Points -->
-                        <ul class="mb-4">
-                            <li class="flex items-start mb-1">
-                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
-                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span class="text-sm">Supports up to 500 lbs</span>
-                            </li>
-                            <li class="flex items-start mb-1">
-                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
-                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span class="text-sm">Multiple finish options</span>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
-                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span class="text-sm">Professional installation</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="card-footer flex justify-between">
-                        <a href="/products-categories/grab-bars/"
-                            class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
-                            <span>See More</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </a>
-                        <button type="button" data-product="Grab Bars"
-                            class="get-info-btn inline-flex items-center px-4 py-2 border border-secondary text-secondary rounded-md hover:bg-secondary hover:text-white transition-colors">
-                            <span>Get Info</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9a1 1 0 00-1-1z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Product Card 3 -->
                 <div class="product-card">
                     <div class="card-img">
                         <img src="{{ asset('/al-prod-page-imgs/Stair-Lifts.jpg') }}" alt="Stairlifts"
@@ -928,7 +926,7 @@
                             </svg>
                         </a>
                         <button type="button" data-product="Stairlifts"
-                            class="get-info-btn inline-flex items-center px-4 py-2 border border-secondary text-secondary rounded-md hover:bg-secondary hover:text-white transition-colors">
+                            class="get-info-btn inline-flex items-center px-4 py-2 border border-black text-black rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>Get Info</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
                                 fill="currentColor">
@@ -939,6 +937,87 @@
                         </button>
                     </div>
                 </div>
+                
+
+                <!-- Product Card 3 -->
+                <div class="product-card">
+                    <div class="card-img">
+                        <img src="{{ asset('/al-prod-page-imgs/Safety-Poles-Handrails.jpg') }}" alt="Safety Poles & Handrails"
+                            class="w-full h-full object-cover">
+                    </div>
+                    <div class="card-body">
+                        <h3>Safety Poles & Handrails</h3>
+                        <p class="mb-3">Enhance safety and stability with our safety poles and handrails, providing crucial
+                            support in various home areas.</p>
+
+                        <!-- Price Ranges -->
+                        <div class="mb-4 text-sm">
+                            <div class="flex justify-between">
+                                <span class="font-semibold text-gray-700">Purchase:</span>
+                                <span class="text-primary font-bold">$100 - $500</span>
+                            </div>
+                            <div class="flex justify-between rental-option" style="display: none;">
+                                <span class="font-semibold text-gray-700">Rental:</span>
+                                <span class="text-primary font-bold">Not Available</span>
+                            </div>
+                        </div>
+
+                        <!-- Feature Points -->
+                        <ul class="mb-4">
+                            <li class="flex items-start mb-1">
+                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-sm">Tension-mounted options</span>
+                            </li>
+                            <li class="flex items-start mb-1">
+                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-sm">No wall damage installation</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-sm">Adjustable to your height</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer flex justify-between">
+                        <a href="/products-categories/safety-poles-handrails/"
+                            class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
+                            <span>See More</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                        <button type="button" data-product="Safety Poles & Handrails"
+                            class="get-info-btn inline-flex items-center px-4 py-2 border border-black text-black rounded-md hover:bg-primary hover:text-white transition-colors">
+                            <span>Get Info</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9a1 1 0 00-1-1z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                 
+                
 
                 <!-- Product Card 4 -->
                 <div class="product-card">
@@ -1005,7 +1084,7 @@
                             </svg>
                         </a>
                         <button type="button" data-product="Ramps"
-                            class="get-info-btn inline-flex items-center px-4 py-2 border border-secondary text-secondary rounded-md hover:bg-secondary hover:text-white transition-colors">
+                            class="get-info-btn inline-flex items-center px-4 py-2 border border-black text-black rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>Get Info</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
                                 fill="currentColor">
@@ -1083,7 +1162,7 @@
                             </svg>
                         </a>
                         <button type="button" data-product="Tub Cuts"
-                            class="get-info-btn inline-flex items-center px-4 py-2 border border-secondary text-secondary rounded-md hover:bg-secondary hover:text-white transition-colors">
+                            class="get-info-btn inline-flex items-center px-4 py-2 border border-black text-black rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>Get Info</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
                                 fill="currentColor">
@@ -1098,19 +1177,19 @@
                 <!-- Product Card 6 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/Safety-Poles-Handrails.jpg') }}" alt="Safety Poles & Handrails"
+                        <img src="{{ asset('/al-prod-page-imgs/Grab-Bars.jpg') }}" alt="Grab Bars"
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
-                        <h3>Safety Poles & Handrails</h3>
-                        <p class="mb-3">Enhance safety and stability with our safety poles and handrails, providing crucial
-                            support in various home areas.</p>
+                        <h3>Grab Bars</h3>
+                        <p class="mb-3">Elevate bathroom safety with our sturdy and stylish grab bars, providing essential
+                            support for confident maneuvering.</p>
 
                         <!-- Price Ranges -->
                         <div class="mb-4 text-sm">
                             <div class="flex justify-between">
                                 <span class="font-semibold text-gray-700">Purchase:</span>
-                                <span class="text-primary font-bold">$100 - $500</span>
+                                <span class="text-primary font-bold">$40 - $150</span>
                             </div>
                             <div class="flex justify-between rental-option" style="display: none;">
                                 <span class="font-semibold text-gray-700">Rental:</span>
@@ -1127,7 +1206,7 @@
                                         d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                         clip-rule="evenodd"></path>
                                 </svg>
-                                <span class="text-sm">Tension-mounted options</span>
+                                <span class="text-sm">Supports up to 500 lbs</span>
                             </li>
                             <li class="flex items-start mb-1">
                                 <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
@@ -1136,7 +1215,7 @@
                                         d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                         clip-rule="evenodd"></path>
                                 </svg>
-                                <span class="text-sm">No wall damage installation</span>
+                                <span class="text-sm">Multiple finish options</span>
                             </li>
                             <li class="flex items-start">
                                 <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
@@ -1145,12 +1224,12 @@
                                         d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                         clip-rule="evenodd"></path>
                                 </svg>
-                                <span class="text-sm">Adjustable to your height</span>
+                                <span class="text-sm">Professional installation</span>
                             </li>
                         </ul>
                     </div>
                     <div class="card-footer flex justify-between">
-                        <a href="/products-categories/safety-poles-handrails/"
+                        <a href="/products-categories/grab-bars/"
                             class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>See More</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
@@ -1160,8 +1239,8 @@
                                     clip-rule="evenodd" />
                             </svg>
                         </a>
-                        <button type="button" data-product="Safety Poles & Handrails"
-                            class="get-info-btn inline-flex items-center px-4 py-2 border border-secondary text-secondary rounded-md hover:bg-secondary hover:text-white transition-colors">
+                        <button type="button" data-product="Grab Bars"
+                            class="get-info-btn inline-flex items-center px-4 py-2 border border-black text-black rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>Get Info</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
                                 fill="currentColor">
@@ -1172,21 +1251,20 @@
                         </button>
                     </div>
                 </div>
+                
             </div>
         </div>
     </section>
 
-    <!-- Step by Step Process Section -->
+    <!-- Why Choose Us Section -->
     <section class="py-24 bg-white relative overflow-hidden">
         <!-- Abstract Background -->
-        <div class="absolute inset-0 pointer-events-none opacity-10">
+        <div class="absolute inset-0 pointer-events-none opacity-5">
             <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="5%" cy="15%" r="120" fill="#0078bf" opacity="0.5" />
-                <circle cx="90%" cy="10%" r="80" fill="#f8b301" opacity="0.5" />
-                <circle cx="15%" cy="50%" r="40" fill="#d40000" opacity="0.5" />
-                <circle cx="85%" cy="85%" r="150" fill="#0078bf" opacity="0.5" />
-                <circle cx="75%" cy="45%" r="60" fill="#f8b301" opacity="0.5" />
-                <circle cx="20%" cy="80%" r="25" fill="#d40000" opacity="0.5" />
+                <pattern id="dots" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+                    <circle cx="25" cy="25" r="2" fill="#0078bf" opacity="0.3" />
+                </pattern>
+                <rect width="100%" height="100%" fill="url(#dots)" />
             </svg>
         </div>
 
@@ -1199,70 +1277,90 @@
                     comfort.</p>
             </div>
 
-            <div class="flex flex-col items-center">
-                <!-- Timeline Item 1 -->
-                <div class="relative mb-20 w-full max-w-4xl mx-auto">
-                    <div class="timeline-number">1</div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                        <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-primary">
-                            <div class="flex items-center">
-                                <div class="flex-1 pr-4">
-                                    <h5 class="text-2xl font-bold mb-3 text-primary">12,344</h5>
-                                    <p class="text-gray-700 font-medium">Falls Prevented</p>
-                                </div>
-                                <div class="w-16 h-16 flex-shrink-0 bg-primary rounded-lg flex items-center justify-center">
-                                    <img class="w-10 h-10 object-contain" src="{{ asset('h-wc/Falls-Prevented-min.png') }}"
-                                        alt="Falls Prevented">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hidden md:block"></div>
+            <!-- Statistics Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <!-- Statistic 1: Falls Prevented -->
+                <div class="bg-white rounded-2xl shadow-xl p-8 text-center transform hover:scale-105 transition-all duration-300">
+                    <div class="w-20 h-20 bg-gradient-to-br from-primary to-primary-dark rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
+                        <img class="w-12 h-12 object-contain filter brightness-0 invert" 
+                             src="{{ asset('h-wc/Falls-Prevented-min.png') }}" alt="Falls Prevented">
                     </div>
+                    <h3 class="text-4xl font-bold text-primary mb-2">12,344</h3>
+                    <p class="text-gray-700 font-semibold text-lg">Falls Prevented</p>
+                    <div class="w-16 h-1 bg-gradient-to-r from-primary to-primary-dark mx-auto mt-4 rounded-full"></div>
                 </div>
 
-                <!-- Timeline Item 2 -->
-                <div class="relative mb-20 w-full max-w-4xl mx-auto">
-                    <div class="timeline-number">2</div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                        <div class="hidden md:block"></div>
-                        <div class="bg-white p-6 rounded-xl shadow-lg border-r-4 border-secondary">
-                            <div class="flex items-center">
-                                <div class="flex-1 pr-4">
-                                    <h5 class="text-2xl font-bold mb-3 text-secondary">103</h5>
-                                    <p class="text-gray-700 font-medium">Cities Served</p>
-                                </div>
-                                <div
-                                    class="w-16 h-16 flex-shrink-0 bg-secondary rounded-lg flex items-center justify-center">
-                                    <img class="w-10 h-10 object-contain" src="{{ asset('h-wc/Cities-Served-min.png') }}"
-                                        alt="Cities Served">
-                                </div>
-                            </div>
-                        </div>
+                <!-- Statistic 2: Cities Served -->
+                <div class="bg-white rounded-2xl shadow-xl p-8 text-center transform hover:scale-105 transition-all duration-300">
+                    <div class="w-20 h-20 bg-gradient-to-br from-secondary to-secondary-dark rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
+                        <img class="w-12 h-12 object-contain" 
+                             src="{{ asset('h-wc/Cities-Served-min.png') }}" alt="Cities Served">
                     </div>
+                    <h3 class="text-4xl font-bold text-secondary mb-2">103</h3>
+                    <p class="text-gray-700 font-semibold text-lg">Cities Served</p>
+                    <div class="w-16 h-1 bg-gradient-to-r from-secondary to-secondary-dark mx-auto mt-4 rounded-full"></div>
                 </div>
 
-                <!-- Timeline Item 3 -->
-                <div class="relative mb-16 w-full max-w-4xl mx-auto">
-                    <div class="timeline-number">3</div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                        <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-accent">
-                            <div class="flex items-center">
-                                <div class="flex-1 pr-4">
-                                    <h5 class="text-2xl font-bold mb-3 text-accent">2,370</h5>
-                                    <p class="text-gray-700 font-medium">Home Sales Cancelled</p>
-                                </div>
-                                <div class="w-16 h-16 flex-shrink-0 bg-accent rounded-lg flex items-center justify-center">
-                                    <img class="w-10 h-10 object-contain"
-                                        src="{{ asset('h-wc/Home-Sales-Cancelled-min.png') }}" alt="Home Sales Cancelled">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hidden md:block"></div>
+                <!-- Statistic 3: Home Sales Cancelled -->
+                <div class="bg-white rounded-2xl shadow-xl p-8 text-center transform hover:scale-105 transition-all duration-300">
+                    <div class="w-20 h-20 bg-gradient-to-br from-accent to-accent-dark rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
+                        <img class="w-12 h-12 object-contain filter brightness-0 invert" 
+                             src="{{ asset('h-wc/Home-Sales-Cancelled-min.png') }}" alt="Home Sales Cancelled">
                     </div>
+                    <h3 class="text-4xl font-bold text-accent mb-2">2,370</h3>
+                    <p class="text-gray-700 font-semibold text-lg">Home Sales Cancelled</p>
+                    <div class="w-16 h-1 bg-gradient-to-r from-accent to-accent-dark mx-auto mt-4 rounded-full"></div>
                 </div>
             </div>
 
-            <div class="mt-16 text-center">
+            <!-- Key Benefits Section -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+                <!-- Benefit 1 -->
+                <div class="text-center p-6 rounded-xl bg-gradient-to-br from-gray-50 to-white border border-gray-100 hover:shadow-lg transition-all duration-300">
+                    <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h4 class="font-bold text-gray-800 mb-2">Expert Installation</h4>
+                    <p class="text-sm text-gray-600">Professional certified installers with years of experience</p>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="text-center p-6 rounded-xl bg-gradient-to-br from-gray-50 to-white border border-gray-100 hover:shadow-lg transition-all duration-300">
+                    <div class="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h4 class="font-bold text-gray-800 mb-2">Quick Service</h4>
+                    <p class="text-sm text-gray-600">Fast installation and responsive customer support</p>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="text-center p-6 rounded-xl bg-gradient-to-br from-gray-50 to-white border border-gray-100 hover:shadow-lg transition-all duration-300">
+                    <div class="w-12 h-12 bg-accent rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
+                    </div>
+                    <h4 class="font-bold text-gray-800 mb-2">Quality Guarantee</h4>
+                    <p class="text-sm text-gray-600">Premium products backed by comprehensive warranties</p>
+                </div>
+
+                <!-- Benefit 4 -->
+                <div class="text-center p-6 rounded-xl bg-gradient-to-br from-gray-50 to-white border border-gray-100 hover:shadow-lg transition-all duration-300">
+                    <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                        </svg>
+                    </div>
+                    <h4 class="font-bold text-gray-800 mb-2">Personalized Care</h4>
+                    <p class="text-sm text-gray-600">Customized solutions tailored to your specific needs</p>
+                </div>
+            </div>
+
+            <div class="text-center">
                 <a href="/contact" class="btn-primary inline-block px-8 py-4 rounded-lg font-medium text-lg">
                     Start Your Journey Today
                 </a>
@@ -1723,7 +1821,7 @@
     <section class="py-24 px-10 bg-white">
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">Schedule a Repair Today</h2>
+                <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">Schedule a Service Today</h2>
                 <p class="text-gray-600 max-w-2xl mx-auto">Getting support is quick and easy. Complete this form or contact
                     a Home2stay location for availability, additional details, and pricing.</p>
             </div>
@@ -2153,6 +2251,25 @@
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <style>
+        /* Hero Slider Specific Styles */
+        .hero-slider .swiper-slide {
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .hero-slider .swiper-slide-active {
+            opacity: 1;
+        }
+
+        /* Hide Swiper pagination and navigation for hero slider */
+        .hero-slider .swiper-pagination,
+        .hero-slider .swiper-button-next,
+        .hero-slider .swiper-button-prev {
+            display: none;
+        }
+
         /* Custom styles for the Swiper carousel */
         .what-we-do-slider {
             padding: 30px 0;
@@ -2345,6 +2462,23 @@
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
+            // Initialize Hero Slider
+            const heroSlider = new Swiper('.hero-slider', {
+                slidesPerView: 1,
+                spaceBetween: 0,
+                loop: true,
+                autoplay: {
+                    delay: 4000,
+                    disableOnInteraction: false,
+                },
+                effect: 'fade',
+                fadeEffect: {
+                    crossFade: true
+                },
+                speed: 1000,
+                allowTouchMove: false, // Disable manual swiping to keep it automatic
+            });
+
             // Initialize What We Do Slider
             const whatWeDoSlider = new Swiper('.what-we-do-slider', {
                 slidesPerView: 'auto',

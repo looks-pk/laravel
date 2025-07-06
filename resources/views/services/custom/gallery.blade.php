@@ -1,535 +1,493 @@
 @extends('layouts.app')
 
-@section('title', 'Equipment Rentals - Home2stay')
-@section('meta_description', 'Browse our collection of mobility and accessibility equipment available for rent for your home, including bathroom safety products, mobility aids, and more.')
+@section('title', 'Gallery - Home2stay Installation Projects')
+@section('meta_description', 'Browse our gallery of completed accessibility installations including grab bars, stairlifts, tub cuts, barrier-free bathrooms, and more mobility solutions.')
 
 @push('styles')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+        
+        .gallery-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.6));
+            display: flex;
+            align-items: end;
+            padding: 20px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .gallery-item:hover .gallery-overlay {
+            opacity: 1;
+        }
+        
+        .gallery-title {
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .lightbox {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            animation: fadeIn 0.3s ease;
+        }
+        
+        .lightbox-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .lightbox-content img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            z-index: 1001;
+            transition: color 0.3s ease;
+        }
+        
+        .lightbox-close:hover {
+            color: #ccc;
+        }
+        
+        .lightbox-title {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+            border-radius: 8px;
+            z-index: 1001;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .masonry-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            align-items: start;
+        }
+        
+        .masonry-item {
+            break-inside: avoid;
+            margin-bottom: 20px;
+        }
+        
+        .category-section {
+            margin-bottom: 60px;
+        }
+        
+        .category-title {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #1f2937;
+            margin-bottom: 15px;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .category-title::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: #3B82F6;
+            border-radius: 2px;
+        }
+        
+        .stats-counter {
+            background: linear-gradient(135deg, #3B82F6 0%, #1D4ED8 100%);
+            color: white;
+            padding: 40px 0;
+            margin: 60px 0;
+        }
+        
+        .stats-counter .stat-item {
+            text-align: center;
+            padding: 0 20px;
+        }
+        
+        .stats-counter .stat-number {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .stats-counter .stat-label {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+    </style>
 @endpush
 
 @section('content')
     <!-- Page Banner -->
-    <section class="relative bg-gray-800 overflow-hidden" style="min-height: 350px;">
-
+    <section class="relative bg-gradient-to-br from-gray-800 to-gray-900 overflow-hidden" style="min-height: 400px;">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        
+        <!-- Decorative Elements -->
+        <div class="absolute top-0 left-0 w-full h-full">
+            <div class="absolute top-10 left-10 w-20 h-20 bg-blue-500 rounded-full opacity-20 animate-pulse"></div>
+            <div class="absolute top-32 right-20 w-16 h-16 bg-blue-400 rounded-full opacity-15 animate-pulse" style="animation-delay: 1s;"></div>
+            <div class="absolute bottom-20 left-1/4 w-12 h-12 bg-blue-300 rounded-full opacity-10 animate-pulse" style="animation-delay: 2s;"></div>
+        </div>
 
         <!-- Banner Content -->
-        <div class="container mx-auto px-4 relative z-10 flex items-center justify-center" style="min-height: 350px;">
+        <div class="container mx-auto px-4 relative z-10 flex items-center justify-center" style="min-height: 400px;">
             <div class="text-center">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Gallery</h1>
-                <div class="w-24 h-1 bg-primary mx-auto"></div>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+                    Installation Gallery
+                </h1>
+                <p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+                    Discover our completed accessibility installations and see how we've helped transform homes across Canada
+                </p>
+                <div class="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
+                <div class="flex justify-center space-x-4">
+                    <span class="px-4 py-2 bg-blue-500 text-white rounded-full text-sm">500+ Installations</span>
+                    <span class="px-4 py-2 bg-green-500 text-white rounded-full text-sm">100% Satisfaction</span>
+                    <span class="px-4 py-2 bg-purple-500 text-white rounded-full text-sm">Professional Results</span>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Products Section -->
+    <!-- Stats Counter -->
+    <div class="stats-counter">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Installations Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Customer Satisfaction</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Support Available</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery Sections -->
     <section class="py-16 bg-gray-50">
         <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-                <!-- Home2stay Barrier-Free Bathrooms Installations -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
-                    <!-- Product Image -->
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('gallery/1.jpg') }}"
-                            alt="Automotive"
-                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            style="height: 400px;">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        </div>
-                    </div>
-
-                    <!-- Product Details -->
-                    <div class="p-6 flex-1 flex flex-col">
-                        <h3
-                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Home2stay Barrier-Free Bathrooms Installations</h3>
-                        <a href="#"
-                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
-                            View All Products
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Home2stay Ceilling Lift Installations -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
-                    <!-- Product Image -->
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('rentals-main/Home2stay-Ceiling-Track-Lifts-Motor-remtals-category-min.jpg') }}"
-                            alt="Barrier-Free Bathrooms"
-                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            style="height: 400px;">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        </div>
-                    </div>
-
-                    <!-- Product Details -->
-                    <div class="p-6 flex-1 flex flex-col">
-                        <h3
-                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Home2stay Ceilling Lift Installations</h3>
-                        <a href="#"
-                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
-                            View All Products
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Home2stay Elevator/Porch Lifts Installations -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
-                    <!-- Product Image -->
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('rentals-main/Home2Stay-Folding-Ramp-rentals-category-min.jpg') }}"
-                            alt="Bathroom Safety"
-                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            style="height: 400px;">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        </div>
-                    </div>
-
-                    <!-- Product Details -->
-                    <div class="p-6 flex-1 flex flex-col">
-                        <h3
-                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Home2stay Elevator/Porch Lifts Installations</h3>
-                        
-                        <a href="#"
-                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
-                            View All Products
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Home2stay Grab Bars Installations -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
-                    <!-- Product Image -->
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('rentals-main/Home2stay-Modular-Ramps-rentals-category-min.jpg') }}"
-                            alt="Ceiling Lifts"
-                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            style="height: 400px;">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        </div>
-                    </div>
-
-                    <!-- Product Details -->
-                    <div class="p-6 flex-1 flex flex-col">
-                        <h3
-                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Home2stay Grab Bars Installations</h3>
-                        
-                        <a href="#"
-                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
-                            View All Products
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Home2stay Hand Rails Installations -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
-                    <!-- Product Image -->
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('rentals-main/Home2stay-Portable-Shower-Unit-remtals-category-min.jpg') }}"
-                            alt="Grab Bars"
-                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            style="height: 400px;">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        </div>
-                    </div>
-
-                    <!-- Product Details -->
-                    <div class="p-6 flex-1 flex flex-col">
-                        <h3
-                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Home2stay Hand Rails Installations</h3>
-                        
-                        <a href="#"
-                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
-                            View All Products
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Home2stay Ramp Installations -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
-                    <!-- Product Image -->
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('rentals-main/Home2Stay-Straight-Indoor-Stair-Lift-rentals-category-min.jpg') }}"
-                            alt="Ramps" class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            style="height: 400px;">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        </div>
-                    </div>
-
-                    <!-- Product Details -->
-                    <div class="p-6 flex-1 flex flex-col">
-                        <h3
-                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Home2stay Ramp Installations</h3>
-                        
-                        <a href="#"
-                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
-                            View All Products
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Home2stay Safety Poles & Handrails Installations -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
-                    <!-- Product Image -->
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('rentals-main/Home2stay-Threshold-Ramp-rentals-category-min.jpg') }}"
-                            alt="Safety Poles & Handrails"
-                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            style="height: 400px;">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        </div>
-                    </div>
-
-                    <!-- Product Details -->
-                    <div class="p-6 flex-1 flex flex-col">
-                        <h3
-                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Home2stay Safety Poles & Handrails Installations</h3>
-                        <a href="#"
-                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
-                            View All Products
-                        </a>
-                    </div>
-                </div>
+            
+            <!-- Featured Projects -->
+            <div class="category-section">
+                <h2 class="category-title mb-6">Featured Installation Projects</h2>
+                <p class="text-gray-600 mb-8 text-lg">Take a look at some of our most impressive accessibility installations</p>
                 
-                <!-- Home2stay Stair Lift Installations -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
-                    <!-- Product Image -->
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('rentals-main/Home2stay-Threshold-Ramp-rentals-category-min.jpg') }}"
-                            alt="Safety Poles & Handrails"
-                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            style="height: 400px;">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div class="masonry-grid">
+                    <div class="gallery-item masonry-item" style="height: 350px;" onclick="openLightbox('{{ asset('h2s-gallary/1.png') }}', 'Barrier-Free Bathroom Installation')">
+                        <img src="{{ asset('h2s-gallary/1.png') }}" alt="Barrier-Free Bathroom Installation">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">Barrier-Free Bathroom Installation</div>
                         </div>
                     </div>
-
-                    <!-- Product Details -->
-                    <div class="p-6 flex-1 flex flex-col">
-                        <h3
-                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Home2stay Stair Lift Installations</h3>
-                        <a href="#"
-                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
-                            View All Products
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Home2stay Tub Cuts Installations -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
-                    <!-- Product Image -->
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('rentals-main/Home2stay-Threshold-Ramp-rentals-category-min.jpg') }}"
-                            alt="Safety Poles & Handrails"
-                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            style="height: 400px;">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    
+                    <div class="gallery-item masonry-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-gallary/2.png') }}', 'Accessible Shower Solution')">
+                        <img src="{{ asset('h2s-gallary/2.png') }}" alt="Accessible Shower Solution">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">Accessible Shower Solution</div>
                         </div>
                     </div>
-
-                    <!-- Product Details -->
-                    <div class="p-6 flex-1 flex flex-col">
-                        <h3
-                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Home2stay Tub Cuts Installations</h3>
-                        <a href="#"
-                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
-                            View All Products
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Home2stay Walk-in Tub Installations -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
-                    <!-- Product Image -->
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('rentals-main/Home2stay-Threshold-Ramp-rentals-category-min.jpg') }}"
-                            alt="Safety Poles & Handrails"
-                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            style="height: 400px;">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    
+                    <div class="gallery-item masonry-item" style="height: 320px;" onclick="openLightbox('{{ asset('h2s-gallary/3.png') }}', 'Complete Bathroom Renovation')">
+                        <img src="{{ asset('h2s-gallary/3.png') }}" alt="Complete Bathroom Renovation">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">Complete Bathroom Renovation</div>
                         </div>
                     </div>
-
-                    <!-- Product Details -->
-                    <div class="p-6 flex-1 flex flex-col">
-                        <h3
-                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Home2stay Walk-in Tub Installations</h3>
-                        <a href="#"
-                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
-                            View All Products
-                        </a>
+                    
+                    <div class="gallery-item masonry-item" style="height: 300px;" onclick="openLightbox('{{ asset('h2s-gallary/4.png') }}', 'Modern Accessible Design')">
+                        <img src="{{ asset('h2s-gallary/4.png') }}" alt="Modern Accessible Design">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">Modern Accessible Design</div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item masonry-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-gallary/5.png') }}', 'Safety-First Installation')">
+                        <img src="{{ asset('h2s-gallary/5.png') }}" alt="Safety-First Installation">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">Safety-First Installation</div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item masonry-item" style="height: 350px;" onclick="openLightbox('{{ asset('h2s-gallary/6.png') }}', 'Luxury Accessible Bathroom')">
+                        <img src="{{ asset('h2s-gallary/6.png') }}" alt="Luxury Accessible Bathroom">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">Luxury Accessible Bathroom</div>
+                        </div>
                     </div>
                 </div>
+            </div>
 
+            <!-- Grab Bars Installation -->
+            <div class="category-section">
+                <h2 class="category-title mb-6">Grab Bars Installation</h2>
+                <p class="text-gray-600 mb-8 text-lg">Professional grab bar installations for enhanced bathroom safety</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/promenaid grab bar.png') }}', 'Promenaid Grab Bar Installation')">
+                        <img src="{{ asset('h2s-banners/promenaid grab bar.png') }}" alt="Promenaid Grab Bar Installation">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">Promenaid Grab Bar Installation</div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/promenaid-grab-bar-2.png') }}', 'Advanced Grab Bar Solution')">
+                        <img src="{{ asset('h2s-banners/promenaid-grab-bar-2.png') }}" alt="Advanced Grab Bar Solution">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">Advanced Grab Bar Solution</div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/promenaid grab bar (3).png') }}', 'Custom Grab Bar Configuration')">
+                        <img src="{{ asset('h2s-banners/promenaid grab bar (3).png') }}" alt="Custom Grab Bar Configuration">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">Custom Grab Bar Configuration</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tub Cuts Installation -->
+            <div class="category-section">
+                <h2 class="category-title mb-6">Tub Cuts Installation</h2>
+                <p class="text-gray-600 mb-8 text-lg">Transform your existing tub with our professional tub cut services</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/clean cut tub cut.png') }}', 'CleanCut Tub Cut Solution')">
+                        <img src="{{ asset('h2s-banners/clean cut tub cut.png') }}" alt="CleanCut Tub Cut Solution">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">CleanCut Tub Cut Solution</div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/clean-cut-tub-cut-2.png') }}', 'Professional Tub Modification')">
+                        <img src="{{ asset('h2s-banners/clean-cut-tub-cut-2.png') }}" alt="Professional Tub Modification">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">Professional Tub Modification</div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/clean-cut-tub-cut-3.png') }}', 'Safe Entry Tub Cut')">
+                        <img src="{{ asset('h2s-banners/clean-cut-tub-cut-3.png') }}" alt="Safe Entry Tub Cut">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">Safe Entry Tub Cut</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Barrier-Free Bathrooms -->
+            <div class="category-section">
+                <h2 class="category-title mb-6">Barrier-Free Bathrooms</h2>
+                <p class="text-gray-600 mb-8 text-lg">Complete barrier-free bathroom solutions for maximum accessibility</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/Sentrel Bathroom.png') }}', 'Sentrel Bathroom Installation')">
+                        <img src="{{ asset('h2s-banners/Sentrel Bathroom.png') }}" alt="Sentrel Bathroom Installation">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">Sentrel Bathroom Installation</div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/Sentrel-Bathroom-2.png') }}', 'Modern Barrier-Free Design')">
+                        <img src="{{ asset('h2s-banners/Sentrel-Bathroom-2.png') }}" alt="Modern Barrier-Free Design">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">Modern Barrier-Free Design</div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/Sentrel Bathroom (3).png') }}', 'Complete Accessibility Solution')">
+                        <img src="{{ asset('h2s-banners/Sentrel Bathroom (3).png') }}" alt="Complete Accessibility Solution">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">Complete Accessibility Solution</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stairlift Installation -->
+            <div class="category-section">
+                <h2 class="category-title mb-6">Stairlift Installation</h2>
+                <p class="text-gray-600 mb-8 text-lg">Professional stairlift installations for safe and comfortable mobility</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('h2s-banners/stairlift bruno sre-3050.png') }}', 'Bruno SRE-3050 Stairlift')">
+                        <img src="{{ asset('h2s-banners/stairlift bruno sre-3050.png') }}" alt="Bruno SRE-3050 Stairlift">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">Bruno SRE-3050 Stairlift</div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('h2s-banners/stairlift-flow-x.png') }}', 'Flow X Stairlift Installation')">
+                        <img src="{{ asset('h2s-banners/stairlift-flow-x.png') }}" alt="Flow X Stairlift Installation">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">Flow X Stairlift Installation</div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('h2s-banners/stairlift-bruno-sre-3050-2.png') }}', 'Custom Stairlift Configuration')">
+                        <img src="{{ asset('h2s-banners/stairlift-bruno-sre-3050-2.png') }}" alt="Custom Stairlift Configuration">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">Custom Stairlift Configuration</div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('h2s-banners/stairlift - flow x (2).png') }}', 'Premium Stairlift Solution')">
+                        <img src="{{ asset('h2s-banners/stairlift - flow x (2).png') }}" alt="Premium Stairlift Solution">
+                        <div class="gallery-overlay">
+                            <div class="gallery-title">Premium Stairlift Solution</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-16 bg-gradient-to-r from-blue-600 to-blue-700">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+                Ready to Transform Your Home?
+            </h2>
+            <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+                Let our expert team help you create a safe, accessible, and beautiful living space. 
+                Contact us today for a free consultation and quote.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="/contact" class="inline-flex items-center px-8 py-4 bg-white text-blue-600 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
+                    Get Free Quote
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+                <a href="tel:604-259-1211" class="inline-flex items-center px-8 py-4 bg-transparent text-white border-2 border-white rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition duration-300">
+                    Call Now: 604-259-1211
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                    </svg>
+                </a>
             </div>
         </div>
     </section>
 
-    @include('rentals.rates-section')
-
-    <!-- How Rentals Work Section -->
-    <section class="py-16 bg-secondary bg-opacity-10">
-        <div class="container mx-auto px-4">
-            <div class="text-center max-w-3xl mx-auto mb-12">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">How Home2stay's Rentals Work</h2>
-                <p class="text-lg text-gray-600">Our simple rental process makes it easy to get the accessibility equipment
-                    you need.</p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <!-- Step 1 -->
-                <div
-                    class="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:shadow-xl hover:-translate-y-1">
-                    <div class="bg-primary text-white p-4 text-center">
-                        <h3 class="text-xl font-bold">Step 1</h3>
-                    </div>
-                    <div class="p-8 text-center">
-                        <div
-                            class="w-16 h-16 bg-primary bg-opacity-10 rounded-full mx-auto flex items-center justify-center mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                            </svg>
-                        </div>
-                        <p class="text-gray-600">Browse through our list of items available for rental. You can take note of
-                            which accessibility solutions cater best to your needs. You can also list down any questions you
-                            have for us as well.</p>
-                    </div>
-                </div>
-
-                <!-- Step 2 -->
-                <div
-                    class="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:shadow-xl hover:-translate-y-1">
-                    <div class="bg-primary text-white p-4 text-center">
-                        <h3 class="text-xl font-bold">Step 2</h3>
-                    </div>
-                    <div class="p-8 text-center">
-                        <div
-                            class="w-16 h-16 bg-primary bg-opacity-10 rounded-full mx-auto flex items-center justify-center mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                            </svg>
-                        </div>
-                        <p class="text-gray-600">Call Home2stay at 604.259.1211. During this call, you can tell our staff
-                            what items you need to rent from our list. Our staff will set an installation schedule for you.
-                            You can also submit a Free Assessment Form.</p>
-                    </div>
-                </div>
-
-                <!-- Step 3 -->
-                <div
-                    class="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:shadow-xl hover:-translate-y-1">
-                    <div class="bg-primary text-white p-4 text-center">
-                        <h3 class="text-xl font-bold">Step 3</h3>
-                    </div>
-                    <div class="p-8 text-center">
-                        <div
-                            class="w-16 h-16 bg-primary bg-opacity-10 rounded-full mx-auto flex items-center justify-center mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                            </svg>
-                        </div>
-                        <p class="text-gray-600">Wait for your installation schedule. If you'll need to make changes to
-                            this, please inform Home2stay immediately so that we can reschedule our appointment with you.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Step 4 -->
-                <div
-                    class="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:shadow-xl hover:-translate-y-1">
-                    <div class="bg-primary text-white p-4 text-center">
-                        <h3 class="text-xl font-bold">Step 4</h3>
-                    </div>
-                    <div class="p-8 text-center">
-                        <div
-                            class="w-16 h-16 bg-primary bg-opacity-10 rounded-full mx-auto flex items-center justify-center mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                        </div>
-                        <p class="text-gray-600">Using your preferred payment method, pay for the following upon
-                            installation: setup fees, removal fees, and first-month rental fee.</p>
-                    </div>
-                </div>
-            </div>
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-image" src="" alt="">
+            <div id="lightbox-title" class="lightbox-title"></div>
         </div>
-    </section>
+    </div>
 
-    <!-- Contact Form Section -->
-    <section class="py-16 bg-gray-50">
-        <div class="container mx-auto px-4">
-            <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8">
-                <div class="text-center mb-10">
-                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">We are Here For You</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights.
-
-                        Tell us what you need – We would love to hear from you!</p>
-                </div>
-
-                <form action="/submit-assessment" method="POST" class="space-y-6">
-                    @csrf
-                    <!-- Personal Information -->
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div>
-                            <label class="block text-gray-700 font-medium mb-2" for="name">Full Name *</label>
-                            <input type="text" id="name" name="name" required
-                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
-                        </div>
-                        <div>
-                            <label class="block text-gray-700 font-medium mb-2" for="phone">Phone Number *</label>
-                            <input type="tel" id="phone" name="phone" required
-                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
-                        </div>
-                        <div>
-                            <label class="block text-gray-700 font-medium mb-2" for="email">Email Address *</label>
-                            <input type="email" id="email" name="email" required
-                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
-                        </div>
-                        <div>
-                            <label class="block text-gray-700 font-medium mb-2" for="city">City/Municipality *</label>
-                            <input type="text" id="city" name="city" required
-                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
-                        </div>
-                    </div>
-
-                    <!-- Service Selection -->
-                    <div>
-                        <label class="block text-gray-700 font-medium mb-2" for="service">What service are you interested
-                            in? *</label>
-                        <select id="service" name="service" required
-                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
-                            <option value="">Select a service</option>
-                            <option value="barrier_free_bathrooms">Barrier-Free Bathrooms</option>
-                            <option value="grab_bars">Grab Bars</option>
-                            <option value="stairlifts">Stairlifts</option>
-                            <option value="ramps">Ramps</option>
-                            <option value="tub_cuts">Tub Cuts</option>
-                            <option value="safety_poles">Safety Poles & Handrails</option>
-                            <option value="other">Other</option>
-                        </select>
-                    </div>
-
-                    <!-- Assessment Type -->
-                    <div>
-                        <label class="block text-gray-700 font-medium mb-2">Preferred Assessment Type *</label>
-                        <div class="space-y-2">
-                            <label class="flex items-center space-x-3">
-                                <input type="radio" name="assessment_type" value="in_person"
-                                    class="form-radio text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">In-Person Assessment</span>
-                            </label>
-                            <label class="flex items-center space-x-3">
-                                <input type="radio" name="assessment_type" value="video_call"
-                                    class="form-radio text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Video Call Assessment</span>
-                            </label>
-                        </div>
-                    </div>
-
-                    <!-- Additional Information -->
-                    <div>
-                        <label class="block text-gray-700 font-medium mb-2">Additional Information</label>
-                        <div class="space-y-2">
-                            <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="funding_assistance" class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">I need information about funding
-                                    assistance</span>
-                            </label>
-                            <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="urgent_request" class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">This is an urgent request</span>
-                            </label>
-                            <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="insurance_claim" class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">This is an insurance claim</span>
-                            </label>
-                        </div>
-                    </div>
-
-                    <!-- Preferred Contact Time -->
-                    <div>
-                        <label class="block text-gray-700 font-medium mb-2" for="contact_time">Best Time to Contact
-                            You</label>
-                        <select id="contact_time" name="contact_time"
-                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
-                            <option value="morning">Morning (9AM - 12PM)</option>
-                            <option value="afternoon">Afternoon (12PM - 5PM)</option>
-                            <option value="evening">Evening (5PM - 8PM)</option>
-                        </select>
-                    </div>
-
-                    <!-- Message -->
-                    <div>
-                        <label class="block text-gray-700 font-medium mb-2" for="message">Additional Notes or
-                            Requirements</label>
-                        <textarea id="message" name="message" rows="4"
-                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-                            placeholder="Please share any specific requirements or concerns..."></textarea>
-                    </div>
-
-                    <!-- Terms -->
-                    <div class="space-y-4">
-                        <label class="flex items-start space-x-3">
-                            <input type="checkbox" required name="terms" class="form-checkbox text-primary mt-1">
-                            <span class="text-gray-700 text-sm" style="margin-left: 5px;">I agree to receive communications
-                                from Home2stay regarding
-                                my assessment request. I understand that my information will be handled according to
-                                Home2stay's privacy policy.</span>
-                        </label>
-                    </div>
-
-                    <!-- Submit Button -->
-                    <div class="text-center">
-                        <button type="submit"
-                            class="inline-flex items-center px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition duration-300">
-                            Submit
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
 @endsection
+
+@push('scripts')
+    <script>
+        function openLightbox(imageSrc, title) {
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImage = document.getElementById('lightbox-image');
+            const lightboxTitle = document.getElementById('lightbox-title');
+            
+            lightboxImage.src = imageSrc;
+            lightboxTitle.textContent = title;
+            lightbox.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeLightbox() {
+            const lightbox = document.getElementById('lightbox');
+            lightbox.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+        
+        // Close lightbox on escape key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeLightbox();
+            }
+        });
+        
+        // Prevent lightbox from closing when clicking on the image
+        document.getElementById('lightbox-image').addEventListener('click', function(event) {
+            event.stopPropagation();
+        });
+        
+        document.querySelector('.lightbox-content').addEventListener('click', function(event) {
+            event.stopPropagation();
+        });
+    </script>
+@endpush

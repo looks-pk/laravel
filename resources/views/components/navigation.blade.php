@@ -598,7 +598,7 @@
                                         North Shore & Central
                                     </h3>
                                     
-                                    <a href="/areas/stair-lifts-north-vancouver-british-columbia" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                    <a href="/areas/stair-lifts-north-vancouver" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
                                         <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -611,7 +611,7 @@
                                         </div>
                                     </a>
                                     
-                                    <a href="/areas/stair-lifts-burnaby-british-columbia" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                    <a href="/areas/stair-lifts-burnaby" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
                                         <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -703,7 +703,7 @@
                                         </div>
                                     </a>
                                     
-                                    <a href="/areas/stair-lifts-white-rock-british-columbia" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                    <a href="/areas/stair-lifts-white-rock" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
                                         <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -964,7 +964,7 @@
                         </svg>
                         All Service Areas
                     </a>
-                    <a href="/areas/stair-lifts-north-vancouver-british-columbia"
+                            <a href="/areas/stair-lifts-north-vancouver"
                         class="flex items-center px-4 py-2 text-gray-600 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -972,7 +972,7 @@
                         </svg>
                         North Vancouver
                     </a>
-                    <a href="/areas/stair-lifts-white-rock-british-columbia"
+                    <a href="/areas/stair-lifts-white-rock"
                         class="flex items-center px-4 py-2 text-gray-600 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -980,7 +980,7 @@
                         </svg>
                         White Rock
                     </a>
-                    <a href="/areas/stair-lifts-burnaby-british-columbia"
+                    <a href="/areas/stair-lifts-burnaby"
                         class="flex items-center px-4 py-2 text-gray-600 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />

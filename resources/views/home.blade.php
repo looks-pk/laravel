@@ -1694,7 +1694,7 @@
                                         </div>
 
                                         <!-- Client Name -->
-                                        <h4 class="text-xl font-bold text-gray-900 mt-3 md:mt-4 mb-1 md:mb-2">H. Hashimoto</h4>
+                                        <h4 class="text-xl font-bold text-gray-900 mt-3 md:mt-4 mb-1 md:mb-2">Budman</h4>
 
                                         <!-- Star Rating -->
                                         <div class="flex space-x-1 text-yellow-400 mb-2">
@@ -1733,10 +1733,7 @@
 
                                     <!-- Testimonial Text -->
                                     <div class="text-gray-700 text-sm md:text-lg leading-relaxed text-center px-4 md:px-8">
-                                        <p>I had 3 safety bars installed by Home2stay and the gentleman did a great job. He
-                                            was very courteous and professional. He made sure the bars were exactly where I
-                                            needed them before the installation. My appointment was between 10AM-11AM and
-                                            the gentleman arrived at +9:50AM and was finished by 10:30AM.</p>
+                                        <p>January 2023 my parents, both seniors, asked me to look into having grab bars installed for their bathtub and for their shower and possibly a stairlift, someone mentioned "Home2stay", turns out that was the best suggestion ever!!!</p>
                                     </div>
                                 </div>
                             </div>
@@ -1757,7 +1754,7 @@
                                         </div>
 
                                         <!-- Client Name -->
-                                        <h4 class="text-xl font-bold text-gray-900 mt-3 md:mt-4 mb-1 md:mb-2">B. Taylor</h4>
+                                        <h4 class="text-xl font-bold text-gray-900 mt-3 md:mt-4 mb-1 md:mb-2">Agnes Casgrain</h4>
 
                                         <!-- Star Rating -->
                                         <div class="flex space-x-1 text-yellow-400 mb-2">
@@ -1796,10 +1793,113 @@
 
                                     <!-- Testimonial Text -->
                                     <div class="text-gray-700 text-sm md:text-lg leading-relaxed text-center px-4 md:px-8">
-                                        <p>Home2stay was not only prompt in replying to my inquiry and quote request, they
-                                            were very attentive and courteous every time we contacted them. We had 2 grab
-                                            bars in the bathroom installed and a long handrail installed with care and
-                                            attention to detail. Our experience with Home2stay was wonderful.</p>
+                                        <p>My tub insert was installed today and I was impressed with the quick and professional work. The installer was efficient and polite. The work was done in the time indicated and he left my washroom in a spotless condition. Happy customer here!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Testimonial 5 -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-card">
+                                    <div class="quotation">"</div>
+                                    <div class="flex flex-col items-center mb-4 md:mb-8">
+                                        <div class="avatar">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-12 h-12 text-gray-500">
+                                                <path fill-rule="evenodd"
+                                                    d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="text-xl font-bold text-gray-900 mt-3 md:mt-4 mb-1 md:mb-2">Neil K</h4>
+                                        <div class="flex space-x-1 text-yellow-400 mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-4 h-4 md:w-5 md:h-5">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-4 h-4 md:w-5 md:h-5">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-4 h-4 md:w-5 md:h-5">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-4 h-4 md:w-5 md:h-5">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-4 h-4 md:w-5 md:h-5">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="text-gray-700 text-sm md:text-lg leading-relaxed text-center px-4 md:px-8">
+                                        <p>This company is extremely knowledgeable and I was very happy I found them. They did an outstanding job of making a bathroom ready for a senior who had hip surgery. The advice and recommendations they gave us was incredibly helpful. 10/10!!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Testimonial 6 -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-card">
+                                    <div class="quotation">"</div>
+                                    <div class="flex flex-col items-center mb-4 md:mb-8">
+                                        <div class="avatar">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-12 h-12 text-gray-500">
+                                                <path fill-rule="evenodd"
+                                                    d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="text-xl font-bold text-gray-900 mt-3 md:mt-4 mb-1 md:mb-2">Mario Varandas</h4>
+                                        <div class="flex space-x-1 text-yellow-400 mb-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-4 h-4 md:w-5 md:h-5">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-4 h-4 md:w-5 md:h-5">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-4 h-4 md:w-5 md:h-5">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-4 h-4 md:w-5 md:h-5">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                                class="w-4 h-4 md:w-5 md:h-5">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                    clip-rule="evenodd" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="text-gray-700 text-sm md:text-lg leading-relaxed text-center px-4 md:px-8">
+                                        <p>My wife Odete and I had a chair lifter installed in our place in Coquitlam and we are very pleased with the service we had done by Sahib. We appreciate his good work and his good manners in personal communication. We give him 10 stars.</p>
                                     </div>
                                 </div>
                             </div>

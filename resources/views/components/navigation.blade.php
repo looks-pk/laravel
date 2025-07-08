@@ -110,6 +110,18 @@
         animation: fadeInDown 0.3s ease-out;
     }
 
+    /* Fix dropdown positioning - no transitions on position/transform - Areas dropdown only */
+    .areas-dropdown.group-hover\:block {
+        transition: opacity 0.2s ease-in-out !important;
+        transform: translateX(-50%) !important;
+    }
+
+    /* Restore normal positioning for other dropdowns */
+    .group .group-hover\:block:not(.areas-dropdown) {
+        transition: opacity 0.2s ease-in-out;
+        transform: none !important;
+    }
+
     /* Fix dropdown hover behavior - add bridge and delay */
     .group {
         position: relative;
@@ -575,63 +587,148 @@
                         </svg>
                     </button>
 
-                    <!-- Areas Dropdown Menu -->
-                    <div class="absolute right-0 w-80 bg-white rounded-xl shadow-2xl py-6 hidden group-hover:block z-40 border border-gray-100">
-                        <div class="px-6">
-                            <div class="space-y-2">
-                                <a href="{{ route('areas.index') }}"
-                                    class="flex items-center p-3 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
-                                    <div class="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                                        </svg>
-                                    </div>
-                                    <div>
-                                        <h4 class="font-medium text-gray-900">All Service Areas</h4>
-                                        <p class="text-sm text-gray-500">View all areas we serve</p>
-                                    </div>
-                                </a>
+                    <!-- Areas Dropdown Menu - Multi-Column Layout -->
+                    <div class="areas-dropdown absolute left-1/2 transform -translate-x-1/2 w-[900px] bg-white rounded-xl shadow-2xl py-8 hidden group-hover:block z-40 border border-gray-100">
+                        <div class="px-8">
+                            <div class="grid grid-cols-3 gap-6">
                                 
-                                <a href="{{ route('areas.show', 'toronto') }}"
-                                    class="flex items-center p-3 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
-                                    <div class="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                                        </svg>
-                                    </div>
-                                    <div>
-                                        <h4 class="font-medium text-gray-900">Toronto</h4>
-                                        <p class="text-sm text-gray-500">Greater Toronto Area services</p>
-                                    </div>
-                                </a>
-                                
-                                <a href="{{ route('areas.show', 'vancouver') }}"
-                                    class="flex items-center p-3 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
-                                    <div class="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                        </svg>
-                                    </div>
-                                    <div>
-                                        <h4 class="font-medium text-gray-900">Vancouver</h4>
-                                        <p class="text-sm text-gray-500">Lower Mainland services</p>
-                                    </div>
-                                </a>
-                                
-                                <a href="{{ route('areas.show', 'surrey') }}"
-                                    class="flex items-center p-3 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
-                                    <div class="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                                        </svg>
-                                    </div>
-                                    <div>
-                                        <h4 class="font-medium text-gray-900">Surrey</h4>
-                                        <p class="text-sm text-gray-500">Fraser Valley region services</p>
-                                    </div>
-                                </a>
+                                <!-- Column 1: North Shore & Central -->
+                                <div class="space-y-3">
+                                    <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider border-b border-gray-200 pb-2 mb-3">
+                                        North Shore & Central
+                                    </h3>
+                                    
+                                    <a href="/areas/stair-lifts-north-vancouver-british-columbia" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                        <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 616 0z" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-medium text-gray-900 text-sm">North Vancouver</h4>
+                                            <p class="text-xs text-gray-500">Professional stair lift services</p>
+                                        </div>
+                                    </a>
+                                    
+                                    <a href="/areas/stair-lifts-burnaby-british-columbia" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                        <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 616 0z" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-medium text-gray-900 text-sm">Burnaby</h4>
+                                            <p class="text-xs text-gray-500">Expert installation & support</p>
+                                        </div>
+                                    </a>
+                                    
+                                    <a href="/areas/stair-lifts-new-westminster-british-columbia" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                        <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 616 0z" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-medium text-gray-900 text-sm">New Westminster</h4>
+                                            <p class="text-xs text-gray-500">Luxury stair lift solutions</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Column 2: Tri-Cities Area -->
+                                <div class="space-y-3">
+                                    <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider border-b border-gray-200 pb-2 mb-3">
+                                        Tri-Cities Area
+                                    </h3>
+                                    
+                                    <a href="/areas/stair-lifts-coquitlam-british-columbia" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                        <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 616 0z" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-medium text-gray-900 text-sm">Coquitlam</h4>
+                                            <p class="text-xs text-gray-500">Trusted stair lift experts</p>
+                                        </div>
+                                    </a>
+                                    
+                                    <a href="/areas/stair-lifts-port-coquitlam-british-columbia" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                        <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 616 0z" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-medium text-gray-900 text-sm">Port Coquitlam</h4>
+                                            <p class="text-xs text-gray-500">Quality mobility solutions</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Column 3: Fraser Valley & Services -->
+                                <div class="space-y-3">
+                                    <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider border-b border-gray-200 pb-2 mb-3">
+                                        Fraser Valley
+                                    </h3>
+                                    
+                                    <a href="/areas/stair-lifts-surrey-british-columbia" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                        <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 616 0z" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-medium text-gray-900 text-sm">Surrey</h4>
+                                            <p class="text-xs text-gray-500">Professional stair lifts</p>
+                                        </div>
+                                    </a>
+                                    
+                                    <a href="/areas/stair-lifts-delta-british-columbia" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                        <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 616 0z" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-medium text-gray-900 text-sm">Delta</h4>
+                                            <p class="text-xs text-gray-500">Reliable stair lift services</p>
+                                        </div>
+                                    </a>
+                                    
+                                    <a href="/areas/stair-lifts-white-rock-british-columbia" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                        <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 616 0z" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-medium text-gray-900 text-sm">White Rock</h4>
+                                            <p class="text-xs text-gray-500">Custom stair lift solutions</p>
+                                        </div>
+                                    </a>
+
+                                    <!-- All Areas Link -->
+                                    <a href="{{ route('areas.index') }}" class="flex items-center p-2 text-primary hover:bg-primary-50 border border-primary/20 rounded-lg transition-colors group/item bg-primary/5 mt-4">
+                                        <div class="flex-shrink-0 w-8 h-8 bg-primary/20 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/30 transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-medium text-primary text-sm">View All Areas</h4>
+                                            <p class="text-xs text-primary/70">Complete service map</p>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -867,27 +964,69 @@
                         </svg>
                         All Service Areas
                     </a>
-                    <a href="{{ route('areas.show', 'toronto') }}"
-                        class="flex items-center px-4 py-2 text-gray-600 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                        </svg>
-                        Toronto
-                    </a>
-                    <a href="{{ route('areas.show', 'vancouver') }}"
-                        class="flex items-center px-4 py-2 text-gray-600 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                        Vancouver
-                    </a>
-                    <a href="{{ route('areas.show', 'surrey') }}"
+                    <a href="/areas/stair-lifts-north-vancouver-british-columbia"
                         class="flex items-center px-4 py-2 text-gray-600 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
+                        North Vancouver
+                    </a>
+                    <a href="/areas/stair-lifts-white-rock-british-columbia"
+                        class="flex items-center px-4 py-2 text-gray-600 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        White Rock
+                    </a>
+                    <a href="/areas/stair-lifts-burnaby-british-columbia"
+                        class="flex items-center px-4 py-2 text-gray-600 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        Burnaby
+                    </a>
+                    <a href="/areas/stair-lifts-port-coquitlam-british-columbia"
+                        class="flex items-center px-4 py-2 text-gray-600 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 616 0z" />
+                        </svg>
+                        Port Coquitlam
+                    </a>
+                    <a href="/areas/stair-lifts-coquitlam-british-columbia"
+                        class="flex items-center px-4 py-2 text-gray-600 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 616 0z" />
+                        </svg>
+                        Coquitlam
+                    </a>
+                    <a href="/areas/stair-lifts-delta-british-columbia"
+                        class="flex items-center px-4 py-2 text-gray-600 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 616 0z" />
+                        </svg>
+                        Delta
+                    </a>
+                    <a href="/areas/stair-lifts-surrey-british-columbia"
+                        class="flex items-center px-4 py-2 text-gray-600 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 616 0z" />
+                        </svg>
                         Surrey
+                    </a>
+                    <a href="/areas/stair-lifts-new-westminster-british-columbia"
+                        class="flex items-center px-4 py-2 text-gray-600 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 616 0z" />
+                        </svg>
+                        New Westminster
                     </a>
                 </div>
             </div>

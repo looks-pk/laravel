@@ -15,6 +15,7 @@ class BlogPost extends Model
         'slug',
         'content',
         'sections',
+        'sidebar_cards',
         'excerpt',
         'featured_image',
         'is_published',
@@ -29,6 +30,7 @@ class BlogPost extends Model
         'is_published' => 'boolean',
         'published_at' => 'datetime',
         'sections' => 'array',
+        'sidebar_cards' => 'array',
     ];
 
     // Generate a slug from the title if no slug is provided

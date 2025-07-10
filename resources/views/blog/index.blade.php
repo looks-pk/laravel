@@ -56,59 +56,78 @@
         
         <!-- Sidebar -->
         <div class="w-full md:w-1/4 space-y-6">
-            <!-- Categories Widget -->
-            <div class="bg-white rounded-lg shadow-md p-6">
-                <h3 class="text-xl font-bold mb-4 flex items-center">
-                    <i class="fas fa-folder-open mr-2 text-primary"></i> Categories
+            <!-- Categories -->
+            <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100 sticky top-8">
+                <h3 class="text-xl font-bold mb-4 text-gray-900 flex items-center">
+                    <svg class="w-5 h-5 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+                    </svg>
+                    Categories
                 </h3>
-                <ul class="space-y-2">
-                    @foreach($categories as $category)
+                <ul class="space-y-3">
+                    @foreach($categories->take(8) as $category)
                         <li>
                             <a href="{{ route('blog.index', ['category' => $category->slug]) }}" 
-                               class="flex justify-between items-center text-gray-700 hover:text-primary transition-colors {{ request('category') == $category->slug ? 'text-primary font-medium' : '' }}">
+                               class="group flex justify-between items-center p-3 rounded-lg hover:bg-gray-50 transition-all duration-200 {{ request('category') == $category->slug ? 'bg-primary/10 text-primary' : 'text-gray-700 hover:text-primary' }}">
                                 <span class="flex items-center">
-                                    <i class="fas fa-folder mr-2"></i>
-                                    {{ $category->name }}
+                                    <svg class="w-4 h-4 mr-3 {{ request('category') == $category->slug ? 'text-primary' : 'text-gray-400 group-hover:text-primary' }}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+                                    </svg>
+                                    <span class="font-medium">{{ $category->name }}</span>
                                 </span>
-                                <span class="bg-gray-100 text-gray-600 text-xs font-medium px-2 py-1 rounded-full">{{ $category->blog_posts_count }}</span>
+                                <span class="bg-gray-100 text-gray-600 text-xs font-semibold px-2 py-1 rounded-full group-hover:bg-primary group-hover:text-white transition-all duration-200">
+                                    {{ $category->blog_posts_count }}
+                                </span>
                             </a>
-                            
-                            @if($category->children->count() > 0)
-                                <ul class="ml-4 mt-1 space-y-1">
-                                    @foreach($category->children as $subcategory)
-                                        <li>
-                                            <a href="{{ route('blog.index', ['category' => $subcategory->slug]) }}" 
-                                               class="flex justify-between items-center text-gray-600 hover:text-primary transition-colors {{ request('category') == $subcategory->slug ? 'text-primary font-medium' : '' }}">
-                                                <span class="flex items-center">
-                                                    <i class="fas fa-folder-open mr-2"></i>
-                                                    {{ $subcategory->name }}
-                                                </span>
-                                                <span class="bg-gray-100 text-gray-600 text-xs font-medium px-2 py-1 rounded-full">{{ $subcategory->blog_posts_count }}</span>
-                                            </a>
-                                        </li>
-                                    @endforeach
-                                </ul>
-                            @endif
                         </li>
                     @endforeach
                 </ul>
+                
+                @if($categories->count() > 8)
+                    <div class="mt-4 pt-4 border-t border-gray-200">
+                        <p class="text-gray-500 text-sm">
+                            <svg class="w-4 h-4 inline mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"/>
+                            </svg>
+                            {{ $categories->count() - 8 }} more categories available
+                        </p>
+                    </div>
+                @endif
             </div>
             
-            <!-- Tags Widget -->
-            <div class="bg-white rounded-lg shadow-md p-6">
-                <h3 class="text-xl font-bold mb-4 flex items-center">
-                    <i class="fas fa-tags mr-2 text-primary"></i> Tags
+            <!-- Popular Tags -->
+            <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100">
+                <h3 class="text-xl font-bold mb-4 text-gray-900 flex items-center">
+                    <svg class="w-5 h-5 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.99 1.99 0 013 12V7a4 4 0 014-4z"/>
+                    </svg>
+                    Popular Tags
                 </h3>
-                <div class="flex flex-wrap gap-2 max-h-[400px] overflow-y-auto">
-                    @foreach($tags as $tag)
+                <div class="flex flex-wrap gap-2">
+                    @foreach($tags->take(12) as $tag)
                         <a href="{{ route('blog.index', ['tag' => $tag->slug]) }}" 
-                           class="inline-flex items-center bg-gray-100 text-gray-700 text-sm px-3 py-1 rounded-full hover:bg-primary hover:text-white transition-colors {{ request('tag') == $tag->slug ? 'bg-primary text-white' : '' }}">
-                            <i class="fas fa-tag mr-1"></i>
+                           class="inline-flex items-center px-3 py-2 rounded-full text-sm font-medium transition-all duration-200 hover:scale-105 {{ request('tag') == $tag->slug ? 'bg-primary text-white shadow-lg' : 'bg-gray-100 text-gray-700 hover:bg-primary hover:text-white hover:shadow-md' }}">
+                            <svg class="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.99 1.99 0 013 12V7a4 4 0 014-4z"/>
+                            </svg>
                             {{ $tag->name }}
-                            <span class="ml-1 bg-white/20 text-xs px-1.5 py-0.5 rounded-full">{{ $tag->blog_posts_count }}</span>
+                            <span class="ml-2 bg-white/20 text-xs px-1.5 py-0.5 rounded-full font-semibold">
+                                {{ $tag->blog_posts_count }}
+                            </span>
                         </a>
                     @endforeach
                 </div>
+                
+                @if($tags->count() > 12)
+                    <div class="mt-4 pt-4 border-t border-gray-200">
+                        <p class="text-gray-500 text-sm">
+                            <svg class="w-4 h-4 inline mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.99 1.99 0 013 12V7a4 4 0 014-4z"/>
+                            </svg>
+                            {{ $tags->count() - 12 }} more tags available
+                        </p>
+                    </div>
+                @endif
             </div>
         </div>
     </div>

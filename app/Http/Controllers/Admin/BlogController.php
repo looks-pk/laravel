@@ -42,8 +42,10 @@ class BlogController extends Controller
     {
         $validated = $request->validate([
             'title' => 'required|string|max:255',
+            'slug' => 'required|string|max:255|unique:blog_posts,slug',
             'content' => 'required|string',
             'sections' => 'nullable|json',
+            'sidebar_cards' => 'nullable|json',
             'excerpt' => 'nullable|string',
             'featured_image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
             'is_published' => 'boolean',
@@ -54,10 +56,8 @@ class BlogController extends Controller
             'categories' => 'nullable|array',
         ]);
         
-        // Handle the slug
-        $slug = Str::slug($request->title);
-        $slugExists = BlogPost::where('slug', $slug)->exists();
-        $finalSlug = $slugExists ? $slug . '-' . uniqid() : $slug;
+        // Use the custom slug from the form, ensuring it's properly formatted
+        $finalSlug = Str::slug($validated['slug']);
         
         // Handle featured image upload
         if ($request->hasFile('featured_image')) {
@@ -76,12 +76,19 @@ class BlogController extends Controller
             $sections = json_decode($request->sections, true);
         }
         
+        // Parse sidebar cards JSON if provided
+        $sidebarCards = null;
+        if ($request->has('sidebar_cards')) {
+            $sidebarCards = json_decode($request->sidebar_cards, true);
+        }
+        
         // Create the post
         $post = BlogPost::create([
             'title' => $validated['title'],
             'slug' => $finalSlug,
             'content' => $validated['content'],
             'sections' => $sections,
+            'sidebar_cards' => $sidebarCards,
             'excerpt' => $validated['excerpt'] ?? null,
             'featured_image' => $validated['featured_image'] ?? null,
             'is_published' => $request->is_published ?? false,
@@ -126,8 +133,10 @@ class BlogController extends Controller
     {
         $validated = $request->validate([
             'title' => 'required|string|max:255',
+            'slug' => 'required|string|max:255|unique:blog_posts,slug,' . $blog->id,
             'content' => 'required|string',
             'sections' => 'nullable|json',
+            'sidebar_cards' => 'nullable|json',
             'excerpt' => 'nullable|string',
             'featured_image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
             'is_published' => 'boolean',
@@ -138,14 +147,8 @@ class BlogController extends Controller
             'categories' => 'nullable|array',
         ]);
         
-        // Update the slug only if title has changed
-        if ($blog->title !== $request->title) {
-            $slug = Str::slug($request->title);
-            $slugExists = BlogPost::where('slug', $slug)
-                ->where('id', '!=', $blog->id)
-                ->exists();
-            $blog->slug = $slugExists ? $slug . '-' . uniqid() : $slug;
-        }
+        // Use the custom slug from the form, ensuring it's properly formatted
+        $blog->slug = Str::slug($validated['slug']);
         
         // Handle featured image upload
         if ($request->hasFile('featured_image')) {
@@ -166,6 +169,11 @@ class BlogController extends Controller
         // Parse sections JSON if provided
         if ($request->has('sections')) {
             $blog->sections = json_decode($request->sections, true);
+        }
+        
+        // Parse sidebar cards JSON if provided
+        if ($request->has('sidebar_cards')) {
+            $blog->sidebar_cards = json_decode($request->sidebar_cards, true);
         }
         
         // Update the post

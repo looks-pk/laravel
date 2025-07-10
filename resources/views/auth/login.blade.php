@@ -50,7 +50,7 @@
                         </div>
                         <input type="email" name="email" id="email" 
                             class="pl-10 w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-50" 
-                            value="{{ old('email') }}" required autofocus placeholder="admin@example.com">
+                            value="{{ old('email') }}" required autofocus>
                     </div>
                 </div>
                 
@@ -86,14 +86,6 @@
             </form>
         </div>
     </div>
-    
-    <!-- Admin Credentials Info (Remove in production) -->
-    <div class="mt-4 text-center">
-        <div class="inline-block bg-white p-4 rounded-lg shadow text-sm text-gray-600">
-            <p class="font-semibold">Default Admin Credentials:</p>
-            <p>Email: digitalpartnerabdullah@gmail.com</p>
-            <p>Password: digitalpartnerabdullah@gmail.com</p>
-        </div>
-    </div>
+
 </body>
 </html> 

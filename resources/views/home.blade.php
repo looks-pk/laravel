@@ -1369,908 +1369,802 @@
     </section>
 
     <!-- Promotional Sections -->
-    <section class="promotional-section mt-16">
-        <div class="container mx-auto">
-            <!-- Top Section - Bathroom Remodeling -->
-            <div class="flex flex-col md:flex-row bg-white rounded-xl overflow-hidden shadow-xl">
-                <!-- Image Side -->
-                <div class="w-full md:w-1/2">
-                    <img src="{{ asset('h-banner/Bathroom-Remodeling-Service-min.png') }}" alt="Bathroom Remodeling Service"
-                        class="w-full h-full object-cover">
-                </div>
+    <section class="promotional-section py-24 bg-gradient-to-br from-gray-50 to-white">
+        <div class="container mx-auto px-4">
+            <!-- Enhanced Bathroom Remodeling Section -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-2xl border border-gray-100 hover:shadow-3xl transition-all duration-500">
+                <div class="flex flex-col lg:flex-row">
+                    <!-- Image Side -->
+                    <div class="w-full lg:w-1/2 relative overflow-hidden">
+                        <img src="{{ asset('h-banner/Bathroom-Remodeling-Service-min.png') }}" 
+                             alt="Bathroom Remodeling Service"
+                             class="w-full h-64 lg:h-full object-cover transform hover:scale-105 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent"></div>
+                    </div>
 
-                <!-- Text Content -->
-                <div
-                    class="w-full md:w-1/2 p-8 md:p-12 lg:p-16 bg-gradient-to-br from-secondary/10 to-secondary/5 flex flex-col justify-center">
-                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Transform Your Bathroom with Home2stay
-                        Remodeling Solutions</h2>
-                    <p class="text-gray-700 mb-8 text-lg">
-                        Experience luxury and functionality with Home2stay's expert remodeling. From sleek conversions to
-                        custom fixtures, we create modern retreats tailored to your style. Our team ensures attention to
-                        detail and customer satisfaction. Let us bring your dream bathroom to life.
-                    </p>
-                    <a href="/products" class="btn-primary self-start inline-flex items-center">
-                        Start Your Transformation
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
-                            fill="currentColor">
-                            <path fill-rule="evenodd"
-                                d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </a>
+                    <!-- Content Side -->
+                    <div class="w-full lg:w-1/2 p-8 lg:p-12 xl:p-16 flex flex-col justify-center relative">
+                        <!-- Decorative Element -->
+                        <div class="absolute top-6 right-6 w-20 h-20 bg-gradient-to-br from-secondary/10 to-secondary/5 rounded-full blur-xl"></div>
+                        
+                        <div class="relative z-10">
+                            <!-- Badge -->
+                            <div class="inline-flex items-center px-4 py-2 bg-secondary/10 text-secondary-dark rounded-full text-sm font-semibold mb-6">
+                                <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" clip-rule="evenodd"></path>
+                                </svg>
+                                Premium Service
+                            </div>
+
+                            <h2 class="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                                Transform Your Bathroom with 
+                                <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-dark">
+                                    Home2stay
+                                </span>
+                            </h2>
+                            
+                            <p class="text-gray-600 text-lg mb-8 leading-relaxed">
+                                Experience luxury and functionality with our expert remodeling solutions. From sleek conversions to 
+                                custom fixtures, we create modern retreats tailored to your style with meticulous attention to detail.
+                            </p>
+
+                            <!-- Feature Points -->
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-3">
+                                        <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                        </svg>
+                                    </div>
+                                    <span class="text-gray-700 font-medium">Expert Installation</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-3">
+                                        <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                        </svg>
+                                    </div>
+                                    <span class="text-gray-700 font-medium">Premium Materials</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-3">
+                                        <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                        </svg>
+                                    </div>
+                                    <span class="text-gray-700 font-medium">Custom Design</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-3">
+                                        <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                        </svg>
+                                    </div>
+                                    <span class="text-gray-700 font-medium">Lifetime Support</span>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col sm:flex-row gap-4">
+                                <a href="/products" class="btn-primary inline-flex items-center justify-center px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
+                                    Start Your Transformation
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                    </svg>
+                                </a>
+                                <a href="/contact" class="inline-flex items-center justify-center px-8 py-4 border-2 border-primary text-primary hover:bg-primary hover:text-white rounded-xl font-semibold text-lg transition-all duration-300">
+                                    Free Consultation
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Impact Statistics Section -->
-    <section class="py-24 relative">
-        <!-- Stats Box -->
-        <div
-            class="relative z-20 mx-auto max-w-5xl rounded-xl shadow-xl bg-gradient-to-r from-secondary to-secondary-dark py-16 px-6 md:px-12 mb-0">
-            <div class="container mx-auto">
-                <div class="flex flex-col md:flex-row items-center justify-between">
-                    <!-- Our Impact Header -->
-                    <div class="w-full md:w-1/4 mb-10 md:mb-0 text-center md:text-left">
-                        <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Our Impact</h2>
-                        <div class="h-1 w-24 bg-gray-900 mt-4 mb-4 mx-auto md:mx-0"></div>
-                    </div>
-
-                    <!-- Stats Circles -->
-                    <div class="w-full md:w-3/4 grid grid-cols-1 md:grid-cols-3 gap-8">
-                        <!-- Communities Served -->
-                        <div class="text-center">
-                            <div class="stat-circle mx-auto">
-                                <div class="number">200+</div>
-                                <div class="label">Communities<br>Served</div>
-                            </div>
-                        </div>
-
-                        <!-- Lives Impacted -->
-                        <div class="text-center">
-                            <div class="stat-circle mx-auto">
-                                <div class="number">80k+</div>
-                                <div class="label">Lives<br>Impacted</div>
-                            </div>
-                        </div>
-
-                        <!-- Years Experience -->
-                        <div class="text-center">
-                            <div class="stat-circle mx-auto">
-                                <div class="number">40</div>
-                                <div class="label">Years<br>Experience</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Dark Background Call to Action -->
-        <div class="gradient-bg pt-32 pb-20 relative -mt-24">
-            <div class="absolute inset-0 bg-black opacity-30 z-0">
-                <!-- Background overlay -->
-            </div>
-
-            <div class="container mx-auto px-4 relative z-10 text-center mt-8">
-                <h2 class="text-4xl md:text-5xl font-bold text-white mb-8">Book a FREE assessment with Home2stay!</h2>
-                <p class="text-xl text-white mb-12 max-w-3xl mx-auto">
-                    Vancouver's leading provider of home accessibility products
+    <!-- Enhanced Repair Request Form Section -->
+    <section class="py-24 bg-gradient-to-br from-gray-50 via-white to-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Schedule a Service Today</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                    Getting support is quick and easy. Complete this form or contact a Home2stay location 
+                    for availability, additional details, and pricing.
                 </p>
-
-                <a href="/contact"
-                    class="btn-secondary inline-flex items-center px-10 py-4 text-gray-900 font-bold rounded-full text-lg">
-                    Book Now
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-3" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd"
-                            d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
-                            clip-rule="evenodd" />
-                    </svg>
-                </a>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Our Partners and Associations Section -->
-    <section class="py-20 px-10 bg-gray-50">
-        <div class="container mx-auto px-4">
-            <!-- Official Distributor Partners -->
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">Official Distributor Partner of
-                    Trusted Accessibility Brands</h2>
             </div>
 
-            <!-- Brand Logos Grid -->
-            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 mb-20">
-                <!-- Partner Logos -->
-                <div class="partner-logo">
-                    <img src="{{ asset('brands/american-tubs-logo-min.png') }}" alt="American Tubs" class="max-h-16 w-auto">
-                </div>
-                <div class="partner-logo">
-                    <img src="{{ asset('brands/arjo-logo-min.png') }}" alt="Arjo" class="max-h-16 w-auto">
-                </div>
-                <div class="partner-logo">
-                    <img src="{{ asset('brands/best-bath-logo-min.png') }}" alt="Best Bath" class="max-h-16 w-auto">
-                </div>
-                <div class="partner-logo">
-                    <img src="{{ asset('brands/bruno-logo-min.png') }}" alt="Bruno" class="max-h-16 w-auto">
-                </div>
-                <div class="partner-logo">
-                    <img src="{{ asset('brands/clean-cut-logo-min.png') }}" alt="Clean Cut" class="max-h-16 w-auto">
-                </div>
-                <div class="partner-logo">
-                    <img src="{{ asset('brands/drive-logo-min.png') }}" alt="Drive" class="max-h-16 w-auto">
-                </div>
-                <div class="partner-logo">
-                    <img src="{{ asset('brands/handicare-logo-min.png') }}" alt="Handicare" class="max-h-16 w-auto">
-                </div>
-                <div class="partner-logo">
-                    <img src="{{ asset('brands/health-craft-min.png') }}" alt="Health Craft" class="max-h-16 w-auto">
-                </div>
-                <div class="partner-logo">
-                    <img src="{{ asset('brands/livelwell-logo-min.png') }}" alt="Livewell" class="max-h-16 w-auto">
-                </div>
-                <div class="partner-logo">
-                    <img src="{{ asset('brands/prism-medical-min.png') }}" alt="Prism Medical" class="max-h-16 w-auto">
-                </div>
-            </div>
-
-            <!-- Our Associations -->
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">Our Associations</h2>
-            </div>
-
-            <!-- Associations Logos -->
-            <div class="flex flex-wrap justify-center items-center gap-12 max-w-4xl mx-auto">
-                <div class="partner-logo p-8 w-64 h-64 flex items-center justify-center">
-                    <img src="{{ asset('associate/bbb-logo-min.png') }}" alt="Better Business Bureau"
-                        class="max-h-full max-w-full">
-                </div>
-                <div class="partner-logo p-8 w-64 h-64 flex items-center justify-center">
-                    <img src="{{ asset('associate/caps-cert-logo-min.png') }}" alt="CAPS Certification"
-                        class="max-h-full max-w-full">
-                </div>
-                <div class="partner-logo p-8 w-64 h-64 flex items-center justify-center">
-                    <img src="{{ asset('associate/nmeda-logo-min.png') }}" alt="NMEDA" class="max-h-full max-w-full">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- What We Do Section -->
-    <section class="py-24 bg-white">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">What We Do</h2>
-            </div>
-
-            <!-- Slider Container with Background Pattern -->
-            <div class="max-w-full mx-auto mb-20 relative">
-                <!-- Background Pattern -->
-                <div class="absolute inset-0 pointer-events-none opacity-5">
-                    <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-                        <pattern id="pattern-circles" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse"
-                            patternContentUnits="userSpaceOnUse">
-                            <circle cx="25" cy="25" r="3" fill="var(--primary)" opacity="0.9"></circle>
-                        </pattern>
-                        <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern-circles)"></rect>
-                    </svg>
-                </div>
-
-                <!-- Swiper Slider -->
-                <div class="swiper-container what-we-do-slider overflow-hidden rounded-xl">
-                    <div class="swiper-wrapper">
-                        <!-- Slide 1 -->
-                        <div class="swiper-slide">
-                            <div
-                                class="relative rounded-xl overflow-hidden transition-all duration-300 shadow-xl h-80 md:h-[500px]">
-                                <img src="{{ asset('h-slider/carousel-img-1-min.png') }}" alt="Home Accessibility Solutions"
-                                    class="w-full h-full object-cover">
-                                <div
-                                    class="slide-overlay absolute inset-0 bg-gradient-to-r from-black/70 to-black/40 transition-opacity duration-300">
-                                </div>
+            <!-- Side by Side Layout -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Image Side -->
+                <div class="relative rounded-2xl overflow-hidden shadow-xl h-[600px]">
+                    <img src="{{ asset('h-slider/Carousel-item-2-min.jpg') }}" alt="Home Accessibility Service"
+                        class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-r from-primary/70 to-primary/40"></div>
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="text-center text-white p-8">
+                            <div class="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                                <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
                             </div>
-                        </div> <!-- Slide 2 -->
-                        <div class="swiper-slide">
-                            <div
-                                class="relative rounded-xl overflow-hidden transition-all duration-300 shadow-xl h-80 md:h-[500px]">
-                                <img src="{{ asset('h-slider/Carousel-item-4-min.jpg') }}" alt="Bathroom Modifications"
-                                    class="w-full h-full object-cover">
-                                <div
-                                    class="slide-overlay absolute inset-0 bg-gradient-to-r from-black/70 to-black/40 transition-opacity duration-300">
-                                </div>
+                            <h3 class="text-3xl font-bold mb-4">Professional Installation</h3>
+                            <p class="text-lg opacity-90">Expert technicians with over 40 years of experience</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form Side -->
+                <div class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
+                    <!-- Form Header -->
+                    <div class="bg-gradient-to-r from-primary to-primary-dark p-8 text-white">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mr-4">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                </svg>
                             </div>
-                        </div> <!-- Slide 3 -->
-                        <div class="swiper-slide">
-                            <div
-                                class="relative rounded-xl overflow-hidden transition-all duration-300 shadow-xl h-80 md:h-[500px]">
-                                <img src="{{ asset('h-slider/Carousel-item-3-min.jpg') }}" alt="Mobility Solutions"
-                                    class="w-full h-full object-cover">
-                                <div
-                                    class="slide-overlay absolute inset-0 bg-gradient-to-r from-black/70 to-black/40 transition-opacity duration-300">
-                                </div>
-                            </div>
-                        </div> <!-- Slide 4 -->
-                        <div class="swiper-slide">
-                            <div
-                                class="relative rounded-xl overflow-hidden transition-all duration-300 shadow-xl h-80 md:h-[500px]">
-                                <img src="{{ asset('h-slider/Carousel-item-2-min.jpg') }}" alt="Home Safety Assessments"
-                                    class="w-full h-full object-cover">
-                                <div
-                                    class="slide-overlay absolute inset-0 bg-gradient-to-r from-black/70 to-black/40 transition-opacity duration-300">
-                                </div>
-                            </div>
-                        </div> <!-- Slide 5 -->
-                        <div class="swiper-slide">
-                            <div
-                                class="relative rounded-xl overflow-hidden transition-all duration-300 shadow-xl h-80 md:h-[500px]">
-                                <img src="{{ asset('h-slider/Carousel-item-5-min.jpg') }}" alt="Home Safety Assessments"
-                                    class="w-full h-full object-cover">
-                                <div
-                                    class="slide-overlay absolute inset-0 bg-gradient-to-r from-black/70 to-black/40 transition-opacity duration-300">
-                                </div>
+                            <div>
+                                <h3 class="text-2xl font-bold">Book Your Assessment</h3>
+                                <p class="text-white/90">Free consultation and quote</p>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Navigation Buttons -->
-                    <div
-                        class="swiper-button-next absolute right-4 md:right-10 top-1/2 transform -translate-y-1/2 z-10 bg-white text-primary rounded-full w-12 h-12 md:w-16 md:h-16 flex items-center justify-center shadow-lg cursor-pointer hover:bg-primary hover:text-white transition-all">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                            class="w-6 h-6 md:w-8 md:h-8">
+                    <!-- Form Content -->
+                    <form id="service-form" class="p-8 space-y-6">
+                        <!-- Name and Phone -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="name" class="block text-sm font-semibold text-gray-700 mb-2">
+                                    Full Name *
+                                </label>
+                                <input type="text" id="name" name="name" required
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300"
+                                    placeholder="Enter your full name">
+                            </div>
+                            <div>
+                                <label for="phone" class="block text-sm font-semibold text-gray-700 mb-2">
+                                    Phone Number *
+                                </label>
+                                <input type="tel" id="phone" name="phone" required
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300"
+                                    placeholder="(123) 456-7890">
+                            </div>
+                        </div>
+
+                        <!-- Email and Service -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="email" class="block text-sm font-semibold text-gray-700 mb-2">
+                                    Email Address
+                                </label>
+                                <input type="email" id="email" name="email"
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300"
+                                    placeholder="your.email@example.com">
+                            </div>
+                            <div>
+                                <label for="service-type" class="block text-sm font-semibold text-gray-700 mb-2">
+                                    Service Interest *
+                                </label>
+                                <select id="service-type" name="service_type" required
+                                    class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300">
+                                    <option value="">Select a service</option>
+                                    <option value="bathroom-renovation">Bathroom Renovation</option>
+                                    <option value="stair-lift">Stair Lift Installation</option>
+                                    <option value="grab-bars">Grab Bars & Safety</option>
+                                    <option value="ceiling-lift">Ceiling Lift System</option>
+                                    <option value="ramps">Ramps & Accessibility</option>
+                                    <option value="home-assessment">Home Assessment</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Address -->
+                        <div>
+                            <label for="address" class="block text-sm font-semibold text-gray-700 mb-2">
+                                Service Address
+                            </label>
+                            <input type="text" id="address" name="address"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300"
+                                placeholder="Street address, City, Province">
+                        </div>
+
+                        <!-- Message -->
+                        <div>
+                            <label for="message" class="block text-sm font-semibold text-gray-700 mb-2">
+                                Additional Details
+                            </label>
+                            <textarea id="message" name="message" rows="4"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300 resize-none"
+                                placeholder="Tell us more about your needs, timeline, or any specific requirements..."></textarea>
+                        </div>
+
+                        <!-- Preferred Contact -->
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-3">
+                                Preferred Contact Method
+                            </label>
+                            <div class="flex flex-wrap gap-4">
+                                <label class="flex items-center">
+                                    <input type="radio" name="contact_method" value="phone" class="text-primary focus:ring-primary">
+                                    <span class="ml-2 text-gray-700">Phone Call</span>
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="radio" name="contact_method" value="email" class="text-primary focus:ring-primary">
+                                    <span class="ml-2 text-gray-700">Email</span>
+                                </label>
+                                <label class="flex items-center">
+                                    <input type="radio" name="contact_method" value="text" class="text-primary focus:ring-primary">
+                                    <span class="ml-2 text-gray-700">Text Message</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="pt-4">
+                            <button type="submit"
+                                class="w-full bg-gradient-to-r from-primary to-primary-dark hover:from-primary-dark hover:to-primary text-white font-bold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-primary/25">
+                                <span class="flex items-center justify-center">
+                                    <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                    </svg>
+                                    Request Free Assessment
+                                </span>
+                            </button>
+                            <p class="text-center text-gray-600 text-sm mt-4">
+                                <svg class="w-4 h-4 inline mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                                </svg>
+                                Your information is secure and will only be used to process your request
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Contact Information Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
+                <!-- Phone Support -->
+                <div class="bg-white rounded-2xl shadow-lg p-6 text-center border border-gray-100 hover:shadow-xl transition-all duration-300">
+                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-2">Call Us Today</h4>
+                    <p class="text-gray-600 mb-4">Speak with our accessibility experts</p>
+                    <a href="tel:604-217-6877" class="text-primary hover:text-primary-dark font-bold text-lg transition-colors">604-217-6877</a>
+                </div>
+
+                <!-- Email Support -->
+                <div class="bg-white rounded-2xl shadow-lg p-6 text-center border border-gray-100 hover:shadow-xl transition-all duration-300">
+                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-2">Email Us</h4>
+                    <p class="text-gray-600 mb-4">Get detailed information via email</p>
+                    <a href="mailto:info@home2stay.ca" class="text-primary hover:text-primary-dark font-bold text-lg transition-colors">info@home2stay.ca</a>
+                </div>
+
+                <!-- Visit Showroom -->
+                <div class="bg-white rounded-2xl shadow-lg p-6 text-center border border-gray-100 hover:shadow-xl transition-all duration-300">
+                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-2">Visit Our Showroom</h4>
+                    <p class="text-gray-600 mb-4">See our products in person</p>
+                    <a href="/contact" class="text-primary hover:text-primary-dark font-bold text-lg transition-colors">Find Locations</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beautiful Brand Partners Slider -->
+    <section class="py-16 bg-gradient-to-r from-gray-50 via-white to-gray-50 relative overflow-hidden">
+        <!-- Subtle background pattern -->
+        <div class="absolute inset-0 opacity-20">
+            <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                <pattern id="brand-pattern" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+                    <circle cx="40" cy="40" r="2" fill="currentColor" class="text-primary"></circle>
+                </pattern>
+                <rect x="0" y="0" width="100%" height="100%" fill="url(#brand-pattern)"></rect>
+            </svg>
+        </div>
+
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="max-w-7xl mx-auto">
+                <!-- Elegant container with subtle shadow -->
+                <div class="bg-white/80 backdrop-blur-sm rounded-3xl shadow-2xl border border-white/50 overflow-hidden">
+                    <!-- Improved Swiper Container -->
+                    <div class="swiper-container partners-slider py-12 px-8">
+                        <div class="swiper-wrapper">
+                            <!-- First slide with 5 partners -->
+                            <div class="swiper-slide">
+                                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 lg:gap-8">
+                                    <div class="group flex items-center justify-center transform hover:scale-110 transition-all duration-500">
+                                        <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-6 h-20 w-full flex items-center justify-center group-hover:bg-gradient-to-br group-hover:from-primary/5 group-hover:to-white shadow-md group-hover:shadow-xl transition-all duration-500">
+                                            <img src="{{ asset('brands/american-tubs-logo-min.png') }}" alt="American Tubs" class="max-h-10 w-auto grayscale group-hover:grayscale-0 filter brightness-90 group-hover:brightness-100 transition-all duration-500">
+                                        </div>
+                                    </div>
+                                    <div class="group flex items-center justify-center transform hover:scale-110 transition-all duration-500">
+                                        <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-6 h-20 w-full flex items-center justify-center group-hover:bg-gradient-to-br group-hover:from-primary/5 group-hover:to-white shadow-md group-hover:shadow-xl transition-all duration-500">
+                                            <img src="{{ asset('brands/arjo-logo-min.png') }}" alt="Arjo" class="max-h-10 w-auto grayscale group-hover:grayscale-0 filter brightness-90 group-hover:brightness-100 transition-all duration-500">
+                                        </div>
+                                    </div>
+                                    <div class="group flex items-center justify-center transform hover:scale-110 transition-all duration-500">
+                                        <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-6 h-20 w-full flex items-center justify-center group-hover:bg-gradient-to-br group-hover:from-primary/5 group-hover:to-white shadow-md group-hover:shadow-xl transition-all duration-500">
+                                            <img src="{{ asset('brands/best-bath-logo-min.png') }}" alt="Best Bath" class="max-h-10 w-auto grayscale group-hover:grayscale-0 filter brightness-90 group-hover:brightness-100 transition-all duration-500">
+                                        </div>
+                                    </div>
+                                    <div class="group flex items-center justify-center transform hover:scale-110 transition-all duration-500">
+                                        <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-6 h-20 w-full flex items-center justify-center group-hover:bg-gradient-to-br group-hover:from-primary/5 group-hover:to-white shadow-md group-hover:shadow-xl transition-all duration-500">
+                                            <img src="{{ asset('brands/bruno-logo-min.png') }}" alt="Bruno" class="max-h-10 w-auto grayscale group-hover:grayscale-0 filter brightness-90 group-hover:brightness-100 transition-all duration-500">
+                                        </div>
+                                    </div>
+                                    <div class="group flex items-center justify-center transform hover:scale-110 transition-all duration-500">
+                                        <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-6 h-20 w-full flex items-center justify-center group-hover:bg-gradient-to-br group-hover:from-primary/5 group-hover:to-white shadow-md group-hover:shadow-xl transition-all duration-500">
+                                            <img src="{{ asset('brands/clean-cut-logo-min.png') }}" alt="Clean Cut" class="max-h-10 w-auto grayscale group-hover:grayscale-0 filter brightness-90 group-hover:brightness-100 transition-all duration-500">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Second slide with remaining 5 partners -->
+                            <div class="swiper-slide">
+                                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 lg:gap-8">
+                                    <div class="group flex items-center justify-center transform hover:scale-110 transition-all duration-500">
+                                        <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-6 h-20 w-full flex items-center justify-center group-hover:bg-gradient-to-br group-hover:from-primary/5 group-hover:to-white shadow-md group-hover:shadow-xl transition-all duration-500">
+                                            <img src="{{ asset('brands/drive-logo-min.png') }}" alt="Drive" class="max-h-10 w-auto grayscale group-hover:grayscale-0 filter brightness-90 group-hover:brightness-100 transition-all duration-500">
+                                        </div>
+                                    </div>
+                                    <div class="group flex items-center justify-center transform hover:scale-110 transition-all duration-500">
+                                        <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-6 h-20 w-full flex items-center justify-center group-hover:bg-gradient-to-br group-hover:from-primary/5 group-hover:to-white shadow-md group-hover:shadow-xl transition-all duration-500">
+                                            <img src="{{ asset('brands/handicare-logo-min.png') }}" alt="Handicare" class="max-h-10 w-auto grayscale group-hover:grayscale-0 filter brightness-90 group-hover:brightness-100 transition-all duration-500">
+                                        </div>
+                                    </div>
+                                    <div class="group flex items-center justify-center transform hover:scale-110 transition-all duration-500">
+                                        <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-6 h-20 w-full flex items-center justify-center group-hover:bg-gradient-to-br group-hover:from-primary/5 group-hover:to-white shadow-md group-hover:shadow-xl transition-all duration-500">
+                                            <img src="{{ asset('brands/health-craft-min.png') }}" alt="Health Craft" class="max-h-10 w-auto grayscale group-hover:grayscale-0 filter brightness-90 group-hover:brightness-100 transition-all duration-500">
+                                        </div>
+                                    </div>
+                                    <div class="group flex items-center justify-center transform hover:scale-110 transition-all duration-500">
+                                        <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-6 h-20 w-full flex items-center justify-center group-hover:bg-gradient-to-br group-hover:from-primary/5 group-hover:to-white shadow-md group-hover:shadow-xl transition-all duration-500">
+                                            <img src="{{ asset('brands/livelwell-logo-min.png') }}" alt="Livewell" class="max-h-10 w-auto grayscale group-hover:grayscale-0 filter brightness-90 group-hover:brightness-100 transition-all duration-500">
+                                        </div>
+                                    </div>
+                                    <div class="group flex items-center justify-center transform hover:scale-110 transition-all duration-500">
+                                        <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-6 h-20 w-full flex items-center justify-center group-hover:bg-gradient-to-br group-hover:from-primary/5 group-hover:to-white shadow-md group-hover:shadow-xl transition-all duration-500">
+                                            <img src="{{ asset('brands/prism-medical-min.png') }}" alt="Prism Medical" class="max-h-10 w-auto grayscale group-hover:grayscale-0 filter brightness-90 group-hover:brightness-100 transition-all duration-500">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Elegant pagination -->
+                        <div class="swiper-pagination mt-8"></div>
+                        
+                        <!-- Custom navigation buttons -->
+                        <div class="swiper-button-next absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/90 hover:bg-white text-primary hover:text-primary-dark rounded-full w-12 h-12 flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 opacity-0 group-hover:opacity-100">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </div>
+                        <div class="swiper-button-prev absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/90 hover:bg-white text-primary hover:text-primary-dark rounded-full w-12 h-12 flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 opacity-0 group-hover:opacity-100">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beautiful Image Slider -->
+    <section class="py-16 bg-gradient-to-br from-white via-gray-50 to-white relative overflow-hidden">
+        <!-- Elegant background pattern -->
+        <div class="absolute inset-0 pointer-events-none opacity-20">
+            <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                <pattern id="image-pattern" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+                    <circle cx="30" cy="30" r="1.5" fill="currentColor" class="text-primary"></circle>
+                </pattern>
+                <rect x="0" y="0" width="100%" height="100%" fill="url(#image-pattern)"></rect>
+            </svg>
+        </div>
+
+        <div class="container mx-auto px-4 relative z-10">
+            <!-- Clean Slider Container -->
+            <div class="max-w-7xl mx-auto relative group">
+                <!-- Subtle decorative elements -->
+                <div class="absolute -top-8 -left-8 w-32 h-32 bg-gradient-to-br from-primary/5 to-transparent rounded-full blur-2xl"></div>
+                <div class="absolute -bottom-8 -right-8 w-32 h-32 bg-gradient-to-br from-secondary/5 to-transparent rounded-full blur-2xl"></div>
+
+                <!-- Enhanced Swiper Container -->
+                <div class="swiper-container what-we-do-slider overflow-hidden rounded-3xl shadow-2xl border border-gray-100">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 - Home Accessibility -->
+                        <div class="swiper-slide">
+                            <div class="relative overflow-hidden transition-all duration-700 h-64 md:h-96 lg:h-[500px] group">
+                                <img src="{{ asset('h-slider/carousel-img-1-min.png') }}" alt="Home Accessibility Solutions"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 filter brightness-95 group-hover:brightness-100">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Slide 2 - Bathroom Modifications -->
+                        <div class="swiper-slide">
+                            <div class="relative overflow-hidden transition-all duration-700 h-64 md:h-96 lg:h-[500px] group">
+                                <img src="{{ asset('h-slider/Carousel-item-4-min.jpg') }}" alt="Bathroom Safety Solutions"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 filter brightness-95 group-hover:brightness-100">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Slide 3 - Mobility Solutions -->
+                        <div class="swiper-slide">
+                            <div class="relative overflow-hidden transition-all duration-700 h-64 md:h-96 lg:h-[500px] group">
+                                <img src="{{ asset('h-slider/Carousel-item-3-min.jpg') }}" alt="Mobility Independence"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 filter brightness-95 group-hover:brightness-100">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Slide 4 - Professional Assessment -->
+                        <div class="swiper-slide">
+                            <div class="relative overflow-hidden transition-all duration-700 h-64 md:h-96 lg:h-[500px] group">
+                                <img src="{{ asset('h-slider/Carousel-item-2-min.jpg') }}" alt="Professional Assessment"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 filter brightness-95 group-hover:brightness-100">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Slide 5 - Custom Design -->
+                        <div class="swiper-slide">
+                            <div class="relative overflow-hidden transition-all duration-700 h-64 md:h-96 lg:h-[500px] group">
+                                <img src="{{ asset('h-slider/Carousel-item-5-min.jpg') }}" alt="Custom Design Solutions"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 filter brightness-95 group-hover:brightness-100">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Elegant Navigation -->
+                    <div class="swiper-button-next absolute right-6 top-1/2 transform -translate-y-1/2 z-20 bg-white/90 backdrop-blur-sm hover:bg-white text-gray-700 hover:text-primary rounded-full w-14 h-14 flex items-center justify-center shadow-xl hover:shadow-2xl cursor-pointer transition-all duration-300 opacity-0 group-hover:opacity-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                         </svg>
                     </div>
-                    <div
-                        class="swiper-button-prev absolute left-4 md:left-10 top-1/2 transform -translate-y-1/2 z-10 bg-white text-primary rounded-full w-12 h-12 md:w-16 md:h-16 flex items-center justify-center shadow-lg cursor-pointer hover:bg-primary hover:text-white transition-all">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                            class="w-6 h-6 md:w-8 md:h-8">
+                    <div class="swiper-button-prev absolute left-6 top-1/2 transform -translate-y-1/2 z-20 bg-white/90 backdrop-blur-sm hover:bg-white text-gray-700 hover:text-primary rounded-full w-14 h-14 flex items-center justify-center shadow-xl hover:shadow-2xl cursor-pointer transition-all duration-300 opacity-0 group-hover:opacity-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
                         </svg>
                     </div>
 
-                    <!-- Pagination -->
-                    <div class="swiper-pagination bottom-6 absolute z-10"></div>
+                    <!-- Minimalist Pagination -->
+                    <div class="swiper-pagination bottom-6 absolute z-20"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Features Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <div class="text-center p-8 bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
+                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Expert Assessment</h3>
+                    <p class="text-gray-600 leading-relaxed">Professional evaluation of your home to identify the best accessibility solutions tailored to your specific needs.</p>
+                </div>
+                <div class="text-center p-8 bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
+                    <div class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-secondary-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Quality Installation</h3>
+                    <p class="text-gray-600 leading-relaxed">Professional installation by certified technicians using premium materials and industry-leading best practices.</p>
+                </div>
+                <div class="text-center p-8 bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
+                    <div class="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Ongoing Support</h3>
+                    <p class="text-gray-600 leading-relaxed">Comprehensive warranty and ongoing maintenance support to ensure your accessibility solutions continue to serve you well.</p>
                 </div>
             </div>
 
-            <!-- Description -->
-            <div class="max-w-3xl mx-auto text-center">
-                <p class="text-lg text-gray-700 mb-10 leading-relaxed">
-                    At Home2stay, we're dedicated to transforming homes into accessible, safe, and comfortable environments
-                    for people of all ages and abilities. Our comprehensive range of accessibility solutions and
-                    modifications are designed to promote independence, enhance quality of life, and allow individuals to
-                    remain in their homes longer. From bathroom modifications and mobility aids to custom accessibility
-                    solutions, our team of experts works closely with clients to deliver tailored solutions that meet their
-                    specific needs and preferences.
-                </p>
-
-                <a href="/about" class="btn-primary inline-flex items-center px-8 py-3 rounded-lg text-lg">
+            <!-- Call to Action -->
+            <div class="text-center">
+                <a href="/about" class="inline-flex items-center px-8 py-4 bg-primary hover:bg-primary-dark text-white rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
                     Learn More About Home2stay
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd"
-                            d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
-                            clip-rule="evenodd" />
+                        <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
                     </svg>
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- Testimonials Section -->
-    <section class="py-24 px-10 bg-gray-50">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">What Our Clients Say</h2>
+    <!-- Enhanced Testimonials Section -->
+    <section class="py-24 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 pointer-events-none opacity-5">
+            <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                <pattern id="testimonial-pattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+                    <circle cx="20" cy="20" r="1.5" fill="currentColor" class="text-primary"/>
+                </pattern>
+                <rect width="100%" height="100%" fill="url(#testimonial-pattern)" />
+            </svg>
+        </div>
+
+        <div class="container mx-auto px-4 relative z-10">
+            <!-- Section Header -->
+            <div class="text-center mb-20">
+                <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Stories That Inspire Us</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                    Hear from our clients who have experienced the life-changing impact of our accessibility solutions. 
+                    Their stories fuel our passion for creating safer, more accessible homes.
+                </p>
             </div>
 
-            <!-- Side by Side Layout -->
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
-                <!-- Image Side - Hidden on small screens, shown at medium breakpoint and larger -->
-                <div class="relative rounded-xl overflow-hidden shadow-xl h-[300px] md:h-[400px] lg:h-[500px] hidden md:block">
-                    <img src="{{ asset('h-slider/carousel-img-1-min.png') }}" alt="Happy Client"
-                        class="w-full h-full object-cover">
-                    <div class="absolute inset-0 bg-gradient-to-r from-primary/70 to-primary/40"></div>
+            <!-- Enhanced Layout -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
+                <!-- Visual Side -->
+                <div class="relative order-2 lg:order-1">
+                    <div class="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl blur-3xl"></div>
+                    <div class="relative bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
+                        <img src="{{ asset('h-slider/carousel-img-1-min.png') }}" alt="Happy Client"
+                            class="w-full h-[400px] lg:h-[500px] object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/40 to-transparent"></div>
+                        <div class="absolute bottom-8 left-8 right-8 text-white">
+                            <h3 class="text-2xl font-bold mb-2">Making Homes Accessible</h3>
+                            <p class="text-white/90">Transforming lives through thoughtful accessibility solutions</p>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Testimonials Side -->
-                <div class="max-w-2xl mx-auto ab lg:mx-0">
+                <div class="order-1 lg:order-2">
                     <div class="swiper-container testimonial-slider overflow-hidden">
                         <div class="swiper-wrapper">
                             <!-- Testimonial 1 -->
                             <div class="swiper-slide">
-                                <div class="testimonial-card">
-                                    <div class="quotation">"</div>
-                                    <div class="flex flex-col items-center mb-4 md:mb-8">
-                                        <!-- Client Avatar -->
-                                        <div class="avatar">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-12 h-12 text-gray-500">
-                                                <path fill-rule="evenodd"
-                                                    d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                        </div>
+                                <div class="bg-white rounded-2xl shadow-xl p-8 lg:p-10 border border-gray-100 relative">
+                                    <!-- Quote Icon -->
+                                    <div class="absolute top-6 right-6 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                                        <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                                            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
+                                        </svg>
+                                    </div>
 
-                                        <!-- Client Name -->
-                                        <h4 class="text-xl font-bold text-gray-900 mt-3 md:mt-4 mb-1 md:mb-2">Budman</h4>
-
-                                        <!-- Star Rating -->
-                                        <div class="flex space-x-1 text-yellow-400 mb-2">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-4 h-4 md:w-5 md:h-5">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-4 h-4 md:w-5 md:h-5">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-4 h-4 md:w-5 md:h-5">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-4 h-4 md:w-5 md:h-5">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-4 h-4 md:w-5 md:h-5">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                        </div>
+                                    <!-- Rating Stars -->
+                                    <div class="flex space-x-1 text-yellow-400 mb-6">
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
                                     </div>
 
                                     <!-- Testimonial Text -->
-                                    <div class="text-gray-700 text-sm md:text-lg leading-relaxed text-center px-4 md:px-8">
-                                        <p>January 2023 my parents, both seniors, asked me to look into having grab bars installed for their bathtub and for their shower and possibly a stairlift, someone mentioned "Home2stay", turns out that was the best suggestion ever!!!</p>
+                                    <p class="text-gray-700 text-lg leading-relaxed mb-8">
+                                        "January 2023 my parents, both seniors, asked me to look into having grab bars installed for their bathtub and for their shower and possibly a stairlift, someone mentioned "Home2stay", turns out that was the best suggestion ever!!!"
+                                    </p>
+
+                                    <!-- Client Info -->
+                                    <div class="flex items-center">
+                                        <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mr-4">
+                                            <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-bold text-gray-900">Budman</h4>
+                                            <p class="text-gray-600 text-sm">Verified Customer</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
+                            <!-- Add more testimonials with similar structure... -->
                             <!-- Testimonial 2 -->
                             <div class="swiper-slide">
-                                <div class="testimonial-card">
-                                    <div class="quotation">"</div>
-                                    <div class="flex flex-col items-center mb-4 md:mb-8">
-                                        <!-- Client Avatar -->
-                                        <div class="avatar">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-12 h-12 text-gray-500">
-                                                <path fill-rule="evenodd"
-                                                    d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
-                                                    clip-rule="evenodd" />
+                                <div class="bg-white rounded-2xl shadow-xl p-8 lg:p-10 border border-gray-100 relative">
+                                    <div class="absolute top-6 right-6 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                                        <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                                            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="flex space-x-1 text-yellow-400 mb-6">
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                    </div>
+                                    <p class="text-gray-700 text-lg leading-relaxed mb-8">
+                                        "My tub insert was installed today and I was impressed with the quick and professional work. The installer was efficient and polite. The work was done in the time indicated and he left my washroom in a spotless condition. Happy customer here!"
+                                    </p>
+                                    <div class="flex items-center">
+                                        <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mr-4">
+                                            <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
                                             </svg>
                                         </div>
-
-                                        <!-- Client Name -->
-                                        <h4 class="text-xl font-bold text-gray-900 mt-3 md:mt-4 mb-1 md:mb-2">Agnes Casgrain</h4>
-
-                                        <!-- Star Rating -->
-                                        <div class="flex space-x-1 text-yellow-400 mb-2">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-4 h-4 md:w-5 md:h-5">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-4 h-4 md:w-5 md:h-5">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-4 h-4 md:w-5 md:h-5">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-4 h-4 md:w-5 md:h-5">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-4 h-4 md:w-5 md:h-5">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
+                                        <div>
+                                            <h4 class="font-bold text-gray-900">Agnes Casgrain</h4>
+                                            <p class="text-gray-600 text-sm">Verified Customer</p>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
 
-                                    <!-- Testimonial Text -->
-                                    <div class="text-gray-700 text-sm md:text-lg leading-relaxed text-center px-4 md:px-8">
-                                        <p>My tub insert was installed today and I was impressed with the quick and professional work. The installer was efficient and polite. The work was done in the time indicated and he left my washroom in a spotless condition. Happy customer here!</p>
+                            <!-- Testimonial 3 -->
+                            <div class="swiper-slide">
+                                <div class="bg-white rounded-2xl shadow-xl p-8 lg:p-10 border border-gray-100 relative">
+                                    <div class="absolute top-6 right-6 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                                        <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                                            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="flex space-x-1 text-yellow-400 mb-6">
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                    </div>
+                                    <p class="text-gray-700 text-lg leading-relaxed mb-8">
+                                        "The team at Home2stay exceeded our expectations. From the initial consultation to the final installation, everything was handled professionally. Our new stair lift has given my husband his independence back."
+                                    </p>
+                                    <div class="flex items-center">
+                                        <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mr-4">
+                                            <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-bold text-gray-900">Margaret Johnson</h4>
+                                            <p class="text-gray-600 text-sm">Verified Customer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Testimonial 4 -->
+                            <div class="swiper-slide">
+                                <div class="bg-white rounded-2xl shadow-xl p-8 lg:p-10 border border-gray-100 relative">
+                                    <div class="absolute top-6 right-6 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                                        <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                                            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="flex space-x-1 text-yellow-400 mb-6">
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                    </div>
+                                    <p class="text-gray-700 text-lg leading-relaxed mb-8">
+                                        "Outstanding service from start to finish! The grab bars were installed perfectly and have made such a difference in my daily routine. The team was respectful, clean, and professional."
+                                    </p>
+                                    <div class="flex items-center">
+                                        <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mr-4">
+                                            <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-bold text-gray-900">Robert Chen</h4>
+                                            <p class="text-gray-600 text-sm">Verified Customer</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
                             <!-- Testimonial 5 -->
                             <div class="swiper-slide">
-                                <div class="testimonial-card">
-                                    <div class="quotation">"</div>
-                                    <div class="flex flex-col items-center mb-4 md:mb-8">
-                                        <div class="avatar">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-12 h-12 text-gray-500">
-                                                <path fill-rule="evenodd"
-                                                    d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                        </div>
-                                        <h4 class="text-xl font-bold text-gray-900 mt-3 md:mt-4 mb-1 md:mb-2">Neil K</h4>
-                                        <div class="flex space-x-1 text-yellow-400 mb-2">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-4 h-4 md:w-5 md:h-5">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-4 h-4 md:w-5 md:h-5">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-4 h-4 md:w-5 md:h-5">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-4 h-4 md:w-5 md:h-5">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-4 h-4 md:w-5 md:h-5">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                        </div>
+                                <div class="bg-white rounded-2xl shadow-xl p-8 lg:p-10 border border-gray-100 relative">
+                                    <div class="absolute top-6 right-6 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                                        <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                                            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
+                                        </svg>
                                     </div>
-                                    <div class="text-gray-700 text-sm md:text-lg leading-relaxed text-center px-4 md:px-8">
-                                        <p>This company is extremely knowledgeable and I was very happy I found them. They did an outstanding job of making a bathroom ready for a senior who had hip surgery. The advice and recommendations they gave us was incredibly helpful. 10/10!!</p>
+                                    <div class="flex space-x-1 text-yellow-400 mb-6">
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                        </svg>
                                     </div>
-                                </div>
-                            </div>
-
-                            <!-- Testimonial 6 -->
-                            <div class="swiper-slide">
-                                <div class="testimonial-card">
-                                    <div class="quotation">"</div>
-                                    <div class="flex flex-col items-center mb-4 md:mb-8">
-                                        <div class="avatar">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-12 h-12 text-gray-500">
-                                                <path fill-rule="evenodd"
-                                                    d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
-                                                    clip-rule="evenodd" />
+                                    <p class="text-gray-700 text-lg leading-relaxed mb-8">
+                                        "I can't thank Home2stay enough for the bathroom renovation. The walk-in tub has completely transformed my bathing experience. The installation was seamless and the team was wonderful to work with."
+                                    </p>
+                                    <div class="flex items-center">
+                                        <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mr-4">
+                                            <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
                                             </svg>
                                         </div>
-                                        <h4 class="text-xl font-bold text-gray-900 mt-3 md:mt-4 mb-1 md:mb-2">Mario Varandas</h4>
-                                        <div class="flex space-x-1 text-yellow-400 mb-2">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-4 h-4 md:w-5 md:h-5">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-4 h-4 md:w-5 md:h-5">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-4 h-4 md:w-5 md:h-5">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-4 h-4 md:w-5 md:h-5">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                                class="w-4 h-4 md:w-5 md:h-5">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                                                    clip-rule="evenodd" />
-                                            </svg>
+                                        <div>
+                                            <h4 class="font-bold text-gray-900">Linda Thompson</h4>
+                                            <p class="text-gray-600 text-sm">Verified Customer</p>
                                         </div>
-                                    </div>
-                                    <div class="text-gray-700 text-sm md:text-lg leading-relaxed text-center px-4 md:px-8">
-                                        <p>My wife Odete and I had a chair lifter installed in our place in Coquitlam and we are very pleased with the service we had done by Sahib. We appreciate his good work and his good manners in personal communication. We give him 10 stars.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Pagination -->
-                        <div class="swiper-pagination mt-4 md:mt-8"></div>
-                        
-                        <!-- Navigation Buttons -->
-                        <div class="swiper-button-next hidden md:flex"></div>
-                        <div class="swiper-button-prev hidden md:flex"></div>
+                        <!-- Enhanced Pagination and Navigation -->
+                        <div class="swiper-pagination mt-8"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Repair Request Form Section -->
-    <section class="py-24 px-10 bg-white">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">Schedule a Service Today</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">Getting support is quick and easy. Complete this form or contact
-                    a Home2stay location for availability, additional details, and pricing.</p>
-            </div>
-
-            <!-- Side by Side Layout -->
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <!-- Image Side -->
-                <div class="relative rounded-xl overflow-hidden shadow-xl h-[600px]">
-                    <img src="{{ asset('h-slider/Carousel-item-2-min.jpg') }}" alt="Repair Service"
-                        class="w-full h-full object-cover">
-                    <div class="absolute inset-0 bg-gradient-to-r from-primary/70 to-primary/40"></div>
-                </div>
-
-                <!-- Form Side -->
-                <div class="bg-white rounded-xl shadow-xl overflow-hidden">
-                    <!-- Form Progress Indicator -->
-                    <div class="bg-gray-100 py-6 px-8">
-                        <div class="form-progress">
-                            <div class="progress-step active">
-                                <div class="step-number">1</div>
-                                <div class="step-label">Repair Details</div>
-                            </div>
-                            <div class="progress-step">
-                                <div class="step-number">2</div>
-                                <div class="step-label">Your Info</div>
-                            </div>
-                            <div class="progress-step">
-                                <div class="step-number">3</div>
-                                <div class="step-label">Contact</div>
-                            </div>
-                            <div class="progress-step">
-                                <div class="step-number">4</div>
-                                <div class="step-label">Summary</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Form Content -->
-                    <form id="repair-form" class="p-8 md:p-10 form-step-content">
-                        <!-- Step 1: Repair Details -->
-                        <div id="step-1" class="form-step">
-                            <h3 class="text-xl font-bold mb-8">Step 1 of 4 – What are you looking to repair?</h3>
-                            <div class="mb-6"> 
-                            <label for="product"
-                                    class="block text-sm font-medium text-gray-700 mb-2">Enter your product*</label>
-                                 <input type="text" id="product" name="product" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-colors duration-200"
-                                    required placeholder="E.g., Bathroom grab bar, Stairlift, etc."> 
-                            </div>
-                            <div class="mb-6"> 
-                                <label for="repair-details"
-                                    class="block text-sm font-medium text-gray-700 mb-2">Repair or maintenance inquiry
-                                    details*</label> 
-                                    <textarea id="repair-details" name="repair-details" rows="4"
-                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-colors duration-200"
-                                    required placeholder="Please describe the issue you're experiencing..."></textarea>
-                            </div>
-                            <div class="mb-8"> <label class="block text-sm font-medium text-gray-700 mb-3">Select a location
-                                    for the service*</label>
-                                <div class="space-y-3"> <label
-                                        class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200 cursor-pointer">
-                                        <input type="radio" name="service-location" value="home2stay-location"
-                                            class="mr-3 h-4 w-4 text-primary focus:ring-primary" checked> <span>At a
-                                            Home2stay location</span> </label> <label
-                                        class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200 cursor-pointer">
-                                        <input type="radio" name="service-location" value="home-facility"
-                                            class="mr-3 h-4 w-4 text-primary focus:ring-primary"> <span>At your home / care
-                                            facility</span> </label> <label
-                                        class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200 cursor-pointer">
-                                        <input type="radio" name="service-location" value="virtual"
-                                            class="mr-3 h-4 w-4 text-primary focus:ring-primary"> <span>Virtual appointment;
-                                            if available</span> </label> 
-                                </div>
-                            </div>
-                            <div class="mb-8"> <label class="block text-sm font-medium text-gray-700 mb-3">Did you purchase
-                                    the product from Home2stay?*</label>
-                                <div class="flex space-x-6"> <label
-                                        class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200 cursor-pointer">
-                                        <input type="radio" name="purchased-from-home2stay" value="yes"
-                                            class="mr-3 h-4 w-4 text-primary focus:ring-primary" checked> <span>Yes</span>
-                                    </label> <label
-                                        class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors duration-200 cursor-pointer">
-                                        <input type="radio" name="purchased-from-home2stay" value="no"
-                                            class="mr-3 h-4 w-4 text-primary focus:ring-primary"> <span>No</span> </label>
-                                </div>
-                            </div>
-                            <div class="flex justify-end">
-                                 <button type="button" class="next-step bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg font-medium transition duration-300 flex items-center shadow-md hover:shadow-lg">
-                                    Next <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
-                                        fill="currentColor">
-                                        <path fill-rule="evenodd"
-                                            d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                                            clip-rule="evenodd" /> 
-                                </button> 
-                            </div>
-                        </div>
-
-                        <!-- Step 2: Client Information -->
-                        <div id="step-2" class="form-step hidden">
-                            <h3 class="text-xl font-bold mb-6">Step 2 of 4 - Can we get your information?</h3>
-
-                            <!-- Summary of previous step -->
-                            <div class="mb-6 p-4 bg-gray-50 rounded-lg">
-                                <div class="flex justify-between items-center mb-2">
-                                    <h4 class="font-medium">What are you looking to repair?</h4>
-                                    <button type="button"
-                                        class="go-to-step text-primary hover:text-primary-dark text-sm font-medium"
-                                        data-step="1">
-                                        Edit
-                                    </button>
-                                </div>
-                                <div id="step1-summary" class="text-sm text-gray-600 space-y-1">
-                                    <!-- Will be filled by JavaScript -->
-                                </div>
-                            </div>
-
-                            <div class="mb-6">
-                                <label class="block text-sm font-medium text-gray-700 mb-1">Who are you?*</label>
-                                <div class="space-y-2">
-                                    <label class="flex items-center">
-                                        <input type="radio" name="client-type" value="new" class="mr-2" checked>
-                                        <span>I am a new client</span>
-                                    </label>
-                                    <label class="flex items-center">
-                                        <input type="radio" name="client-type" value="existing" class="mr-2">
-                                        <span>I am an existing client</span>
-                                    </label>
-                                    <label class="flex items-center">
-                                        <input type="radio" name="client-type" value="representing" class="mr-2">
-                                        <span>I am representing a client</span>
-                                    </label>
-                                </div>
-                            </div>
-
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                                <div>
-                                    <label for="first-name" class="block text-sm font-medium text-gray-700 mb-1">First
-                                        name*</label>
-                                    <input type="text" id="first-name" name="first-name"
-                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                                        required>
-                                </div>
-                                <div>
-                                    <label for="last-name" class="block text-sm font-medium text-gray-700 mb-1">Last
-                                        name*</label>
-                                    <input type="text" id="last-name" name="last-name"
-                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                                        required>
-                                </div>
-                            </div>
-
-                            <div class="mb-6">
-                                <label for="location" class="block text-sm font-medium text-gray-700 mb-1">Select a location
-                                    near you*</label>
-                                <select id="location" name="location"
-                                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                                    required>
-                                    <option value="">Choose a location</option>
-                                    <option value="Barrie">Barrie</option>
-                                    <option value="Toronto">Toronto</option>
-                                    <option value="Vancouver">Vancouver</option>
-                                    <option value="Calgary">Calgary</option>
-                                    <option value="Montreal">Montreal</option>
-                                </select>
-                            </div>
-
-                            <div class="flex justify-between"> <button type="button"
-                                    class="prev-step bg-gray-200 hover:bg-gray-300 text-gray-800 px-6 py-3 rounded-lg font-medium transition duration-300 flex items-center shadow-md hover:shadow-lg">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20"
-                                        fill="currentColor">
-                                        <path fill-rule="evenodd"
-                                            d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
-                                            clip-rule="evenodd" /> Back </button> <button type="button"
-                                    class="next-step bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg font-medium transition duration-300 flex items-center shadow-md hover:shadow-lg">
-                                    Next <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
-                                        fill="currentColor">
-                                        <path fill-rule="evenodd"
-                                            d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                                            clip-rule="evenodd" /> </button> </div>
-                        </div>
-
-                        <!-- Step 3: Contact Information -->
-                        <div id="step-3" class="form-step hidden">
-                            <h3 class="text-xl font-bold mb-6">Step 3 of 4 - How can we contact you?</h3>
-
-                            <!-- Summary of previous steps -->
-                            <div class="mb-6 p-4 bg-gray-50 rounded-lg">
-                                <div class="flex justify-between items-center mb-2">
-                                    <h4 class="font-medium">What are you looking to repair?</h4>
-                                    <button type="button"
-                                        class="go-to-step text-primary hover:text-primary-dark text-sm font-medium"
-                                        data-step="1">
-                                        Edit
-                                    </button>
-                                </div>
-                                <div id="step1-summary-2" class="text-sm text-gray-600 space-y-1 mb-4">
-                                    <!-- Will be filled by JavaScript -->
-                                </div>
-
-                                <div class="flex justify-between items-center mb-2">
-                                    <h4 class="font-medium">Can we get your information?</h4>
-                                    <button type="button"
-                                        class="go-to-step text-primary hover:text-primary-dark text-sm font-medium"
-                                        data-step="2">
-                                        Edit
-                                    </button>
-                                </div>
-                                <div id="step2-summary" class="text-sm text-gray-600 space-y-1">
-                                    <!-- Will be filled by JavaScript -->
-                                </div>
-                            </div>
-
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                                <div>
-                                    <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Enter phone
-                                        number*</label>
-                                    <input type="tel" id="phone" name="phone"
-                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                                        required>
-                                </div>
-                                <div>
-                                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Enter
-                                        email*</label>
-                                    <input type="email" id="email" name="email"
-                                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                                        required>
-                                </div>
-                            </div>
-
-                            <div class="mb-6">
-                                <label class="block text-sm font-medium text-gray-700 mb-1">What is your preferred method of
-                                    contact?*</label>
-                                <div class="space-y-2">
-                                    <label class="flex items-center">
-                                        <input type="radio" name="contact-method" value="phone" class="mr-2" checked>
-                                        <span>Via phone call</span>
-                                    </label>
-                                    <label class="flex items-center">
-                                        <input type="radio" name="contact-method" value="email" class="mr-2">
-                                        <span>Via email</span>
-                                    </label>
-                                </div>
-                            </div>
-
-                            <div class="mb-6">
-                                <label class="block text-sm font-medium text-gray-700 mb-1">Marketing communications
-                                    consent*</label>
-                                <div class="space-y-2">
-                                    <label class="flex items-start">
-                                        <input type="checkbox" name="marketing-consent" class="mr-2 mt-1">
-                                        <span class="text-sm text-gray-600">Yes, I would like to receive communications from
-                                            Home2stay, including product information, educational opportunities and
-                                            promotional offers. You can unsubscribe at any time. View our privacy & security
-                                            policy for details.</span>
-                                    </label>
-                                </div>
-                            </div>
-
-                            <div class="mb-6 text-xs text-gray-500">
-                                <p>By clicking "Review Form," you confirm you have read and agree to Home2stay's Privacy
-                                    Policy and Terms of Service. Data collected is shared with a third-party processor for
-                                    the purpose of reporting and analytics. Data collected will not be sold. Alternatively,
-                                    you may contact a Home2stay location to provide your information by phone or email.</p>
-                            </div>
-
-                            <div class="flex justify-between">
-                                <button type="button"
-                                    class="prev-step bg-gray-300 hover:bg-gray-400 text-gray-800 px-6 py-2 rounded font-medium transition duration-300 flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20"
-                                        fill="currentColor">
-                                        <path fill-rule="evenodd"
-                                            d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
-                                            clip-rule="evenodd" />
-                                    </svg>
-                                    Back
-                                </button>
-                                <button type="button"
-                                    class="next-step bg-primary hover:bg-primary-dark text-white px-6 py-2 rounded font-medium transition duration-300 flex items-center">
-                                    Review Form
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20"
-                                        fill="currentColor">
-                                        <path fill-rule="evenodd"
-                                            d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                                            clip-rule="evenodd" />
-                                    </svg>
-                                </button>
-                            </div>
-                        </div>
-
-                        <!-- Step 4: Summary and Submit -->
-                        <div id="step-4" class="form-step hidden">
-                            <h3 class="text-xl font-bold mb-6">Step 4 of 4 - Summary</h3>
-
-                            <!-- Summary of all steps -->
-                            <div class="mb-6 p-4 bg-gray-50 rounded-lg">
-                                <div class="flex justify-between items-center mb-2">
-                                    <h4 class="font-medium">What are you looking to repair?</h4>
-                                    <button type="button"
-                                        class="go-to-step text-primary hover:text-primary-dark text-sm font-medium"
-                                        data-step="1">
-                                        Edit
-                                    </button>
-                                </div>
-                                <div id="step1-summary-3" class="text-sm text-gray-600 space-y-1 mb-4">
-                                    <!-- Will be filled by JavaScript -->
-                                </div>
-
-                                <div class="flex justify-between items-center mb-2">
-                                    <h4 class="font-medium">Can we get your information?</h4>
-                                    <button type="button"
-                                        class="go-to-step text-primary hover:text-primary-dark text-sm font-medium"
-                                        data-step="2">
-                                        Edit
-                                    </button>
-                                </div>
-                                <div id="step2-summary-2" class="text-sm text-gray-600 space-y-1 mb-4">
-                                    <!-- Will be filled by JavaScript -->
-                                </div>
-
-                                <div class="flex justify-between items-center mb-2">
-                                    <h4 class="font-medium">How can we contact you?</h4>
-                                    <button type="button"
-                                        class="go-to-step text-primary hover:text-primary-dark text-sm font-medium"
-                                        data-step="3">
-                                        Edit
-                                    </button>
-                                </div>
-                                <div id="step3-summary" class="text-sm text-gray-600 space-y-1">
-                                    <!-- Will be filled by JavaScript -->
-                                </div>
-                            </div>
-
-                            <div class="flex justify-between">
-                                <button type="button"
-                                    class="prev-step bg-gray-300 hover:bg-gray-400 text-gray-800 px-6 py-2 rounded font-medium transition duration-300 flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20"
-                                        fill="currentColor">
-                                        <path fill-rule="evenodd"
-                                            d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
-                                            clip-rule="evenodd" />
-                                    </svg>
-                                    Back
-                                </button>
-                                <button type="submit"
-                                    class="bg-primary hover:bg-primary-dark text-white px-8 py-2 rounded font-medium transition duration-300">
-                                    Submit
-                                </button>
-                            </div>
-                        </div>
-                    </form>
                 </div>
             </div>
         </div>
@@ -2337,6 +2231,10 @@
         </div>
     </section>
 
+
+
+
+</section>
 
 @endsection
 
@@ -2554,6 +2452,127 @@
                 max-height: 100%;
             }
         }
+
+        /* Enhanced Home Page Styles */
+        .partner-logo {
+            @apply bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center grayscale hover:grayscale-0;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            border-radius: 2px;
+        }
+
+        /* Line clamp utilities */
+        .line-clamp-2 {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .line-clamp-3 {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        /* Enhanced form animations */
+        .form-group input:focus + label,
+        .form-group textarea:focus + label,
+        .form-group select:focus + label {
+            transform: translateY(-4px);
+            color: white;
+        }
+
+        /* Fade in animation */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        /* Glass morphism effect */
+        .glass-effect {
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        /* Enhanced hover effects */
+        .hover-lift {
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        .hover-lift:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Animated background patterns */
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        .floating-element {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        /* Better focus states for accessibility */
+        .focus-ring:focus {
+            outline: 2px solid var(--primary);
+            outline-offset: 2px;
+        }
+
+        /* Blog card hover effects */
+        .blog-card {
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .blog-card:hover {
+            transform: translateY(-10px) scale(1.02);
+        }
+
+        /* Enhanced button styles */
+        .btn-enhanced {
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .btn-enhanced::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.6s;
+            z-index: -1;
+        }
+
+        .btn-enhanced:hover::before {
+            left: 100%;
+        }
     </style>
 @endpush
 
@@ -2577,6 +2596,30 @@
                 },
                 speed: 1000,
                 allowTouchMove: false, // Disable manual swiping to keep it automatic
+            });
+
+            // Initialize Partners Slider
+            const partnersSlider = new Swiper('.partners-slider', {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                loop: true,
+                autoplay: {
+                    delay: 4000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                effect: 'fade',
+                fadeEffect: {
+                    crossFade: true
+                },
+                speed: 1000,
             });
 
             // Initialize What We Do Slider
@@ -2852,6 +2895,222 @@
                     // This would be implemented based on your specific form fields
                     console.log('Updating summaries for step', step);
                 }
+            }
+
+            // Enhanced Home Page Functionality
+
+            // Fade in animations on scroll
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('fade-in-up');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            // Observe elements for fade-in animation
+            document.querySelectorAll('.service-card, .testimonial-card, .blog-card, .feature-card').forEach(el => {
+                observer.observe(el);
+            });
+
+            // Enhanced form interactions
+            const formInputs = document.querySelectorAll('.repair-request-section input, .repair-request-section textarea, .repair-request-section select');
+            
+            formInputs.forEach(input => {
+                // Add focus ring for better accessibility
+                input.classList.add('focus-ring');
+                
+                // Enhanced focus effects
+                input.addEventListener('focus', function() {
+                    this.parentElement.classList.add('focused');
+                });
+                
+                input.addEventListener('blur', function() {
+                    this.parentElement.classList.remove('focused');
+                });
+            });
+
+            // Blog post sharing function
+            window.sharePost = function(title, url) {
+                if (navigator.share) {
+                    navigator.share({
+                        title: title,
+                        url: url
+                    }).catch(console.error);
+                } else {
+                    // Fallback for browsers without Web Share API
+                    const shareData = {
+                        url: url,
+                        title: title
+                    };
+                    
+                    // Try to copy to clipboard
+                    if (navigator.clipboard) {
+                        navigator.clipboard.writeText(url).then(() => {
+                            showNotification('Link copied to clipboard!', 'success');
+                        }).catch(() => {
+                            showFallbackShare(shareData);
+                        });
+                    } else {
+                        showFallbackShare(shareData);
+                    }
+                }
+            };
+
+            // Fallback share options
+            function showFallbackShare(data) {
+                const shareMenu = document.createElement('div');
+                shareMenu.className = 'fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4';
+                shareMenu.innerHTML = `
+                    <div class="bg-white rounded-lg p-6 max-w-sm w-full">
+                        <h3 class="font-bold text-lg mb-4">Share this article</h3>
+                        <div class="space-y-3">
+                            <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(data.title)}&url=${encodeURIComponent(data.url)}" 
+                               target="_blank" 
+                               class="flex items-center p-3 bg-blue-50 hover:bg-blue-100 rounded-lg transition-colors">
+                                <span class="font-medium">Share on Twitter</span>
+                            </a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(data.url)}" 
+                               target="_blank" 
+                               class="flex items-center p-3 bg-blue-50 hover:bg-blue-100 rounded-lg transition-colors">
+                                <span class="font-medium">Share on Facebook</span>
+                            </a>
+                            <button onclick="copyToClipboard('${data.url}')" 
+                                    class="w-full flex items-center p-3 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors">
+                                <span class="font-medium">Copy Link</span>
+                            </button>
+                        </div>
+                        <button onclick="this.closest('.fixed').remove()" 
+                                class="mt-4 w-full py-2 bg-gray-200 hover:bg-gray-300 rounded-lg transition-colors">
+                            Close
+                        </button>
+                    </div>
+                `;
+                document.body.appendChild(shareMenu);
+                
+                // Close on background click
+                shareMenu.addEventListener('click', (e) => {
+                    if (e.target === shareMenu) {
+                        shareMenu.remove();
+                    }
+                });
+            }
+
+            // Copy to clipboard function
+            window.copyToClipboard = function(text) {
+                const textArea = document.createElement('textarea');
+                textArea.value = text;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                showNotification('Link copied to clipboard!', 'success');
+                
+                // Close share menu
+                const shareMenu = document.querySelector('.fixed.inset-0.bg-black');
+                if (shareMenu) shareMenu.remove();
+            };
+
+            // Notification system
+            function showNotification(message, type = 'info') {
+                const notification = document.createElement('div');
+                notification.className = `fixed top-4 right-4 z-50 px-6 py-3 rounded-lg shadow-lg text-white transform translate-x-full transition-transform duration-300 ${
+                    type === 'success' ? 'bg-green-500' : 
+                    type === 'error' ? 'bg-red-500' : 
+                    'bg-blue-500'
+                }`;
+                notification.textContent = message;
+                
+                document.body.appendChild(notification);
+                
+                // Slide in
+                setTimeout(() => {
+                    notification.classList.remove('translate-x-full');
+                }, 100);
+                
+                // Slide out and remove
+                setTimeout(() => {
+                    notification.classList.add('translate-x-full');
+                    setTimeout(() => {
+                        document.body.removeChild(notification);
+                    }, 300);
+                }, 3000);
+            }
+
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // Enhanced parallax effect for background elements
+            window.addEventListener('scroll', () => {
+                const scrolled = window.pageYOffset;
+                const rate = scrolled * -0.5;
+                
+                document.querySelectorAll('.floating-element').forEach(element => {
+                    element.style.transform = `translateY(${rate}px)`;
+                });
+            });
+
+            // Form validation enhancement
+            const repairForm = document.querySelector('.repair-request-section form');
+            if (repairForm) {
+                repairForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Basic validation
+                    const requiredFields = this.querySelectorAll('[required]');
+                    let isValid = true;
+                    
+                    requiredFields.forEach(field => {
+                        if (!field.value.trim()) {
+                            isValid = false;
+                            field.classList.add('border-red-500');
+                            field.addEventListener('input', function() {
+                                this.classList.remove('border-red-500');
+                            }, { once: true });
+                        }
+                    });
+                    
+                    if (isValid) {
+                        // Show loading state
+                        const submitBtn = this.querySelector('button[type="submit"]');
+                        const originalText = submitBtn.innerHTML;
+                        submitBtn.innerHTML = `
+                            <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                            </svg>
+                            Submitting...
+                        `;
+                        submitBtn.disabled = true;
+                        
+                        // Simulate form submission (replace with actual form handling)
+                        setTimeout(() => {
+                            showNotification('Your repair request has been submitted successfully!', 'success');
+                            submitBtn.innerHTML = originalText;
+                            submitBtn.disabled = false;
+                            this.reset();
+                        }, 2000);
+                    } else {
+                        showNotification('Please fill in all required fields.', 'error');
+                    }
+                });
             }
         });
     </script>

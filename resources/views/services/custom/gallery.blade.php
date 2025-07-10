@@ -15,6 +15,11 @@
             cursor: pointer;
         }
         
+        .featured-item {
+            height: 320px;
+            width: 100%;
+        }
+        
         .gallery-item:hover {
             transform: translateY(-5px);
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
@@ -246,43 +251,43 @@
                 <h2 class="category-title mb-6">Featured Installation Projects</h2>
                 <p class="text-gray-600 mb-8 text-lg">Take a look at some of our most impressive accessibility installations</p>
                 
-                <div class="masonry-grid">
-                    <div class="gallery-item masonry-item" style="height: 350px;" onclick="openLightbox('{{ asset('h2s-gallary/1.png') }}', 'Barrier-Free Bathroom Installation')">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/1.png') }}', 'Barrier-Free Bathroom Installation')">
                         <img src="{{ asset('h2s-gallary/1.png') }}" alt="Barrier-Free Bathroom Installation">
                         <div class="gallery-overlay">
                             <div class="gallery-title">Barrier-Free Bathroom Installation</div>
                         </div>
                     </div>
                     
-                    <div class="gallery-item masonry-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-gallary/2.png') }}', 'Accessible Shower Solution')">
+                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/2.png') }}', 'Accessible Shower Solution')">
                         <img src="{{ asset('h2s-gallary/2.png') }}" alt="Accessible Shower Solution">
                         <div class="gallery-overlay">
                             <div class="gallery-title">Accessible Shower Solution</div>
                         </div>
                     </div>
                     
-                    <div class="gallery-item masonry-item" style="height: 320px;" onclick="openLightbox('{{ asset('h2s-gallary/3.png') }}', 'Complete Bathroom Renovation')">
+                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/3.png') }}', 'Complete Bathroom Renovation')">
                         <img src="{{ asset('h2s-gallary/3.png') }}" alt="Complete Bathroom Renovation">
                         <div class="gallery-overlay">
                             <div class="gallery-title">Complete Bathroom Renovation</div>
                         </div>
                     </div>
                     
-                    <div class="gallery-item masonry-item" style="height: 300px;" onclick="openLightbox('{{ asset('h2s-gallary/4.png') }}', 'Modern Accessible Design')">
+                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/4.png') }}', 'Modern Accessible Design')">
                         <img src="{{ asset('h2s-gallary/4.png') }}" alt="Modern Accessible Design">
                         <div class="gallery-overlay">
                             <div class="gallery-title">Modern Accessible Design</div>
                         </div>
                     </div>
                     
-                    <div class="gallery-item masonry-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-gallary/5.png') }}', 'Safety-First Installation')">
+                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/5.png') }}', 'Safety-First Installation')">
                         <img src="{{ asset('h2s-gallary/5.png') }}" alt="Safety-First Installation">
                         <div class="gallery-overlay">
                             <div class="gallery-title">Safety-First Installation</div>
                         </div>
                     </div>
                     
-                    <div class="gallery-item masonry-item" style="height: 350px;" onclick="openLightbox('{{ asset('h2s-gallary/6.png') }}', 'Luxury Accessible Bathroom')">
+                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/6.png') }}', 'Luxury Accessible Bathroom')">
                         <img src="{{ asset('h2s-gallary/6.png') }}" alt="Luxury Accessible Bathroom">
                         <div class="gallery-overlay">
                             <div class="gallery-title">Luxury Accessible Bathroom</div>

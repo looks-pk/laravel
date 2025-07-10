@@ -113,8 +113,21 @@
                     </div>
                 </div>
 
-                <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-                    <p>&copy; {{ date('Y') }} Home2stay. All rights reserved.</p>
+                <div class="border-t border-gray-800 mt-12 pt-8">
+                    <div class="flex flex-col md:flex-row justify-between items-center text-gray-400">
+                        <!-- Left Side - Copyright -->
+                        <div class="text-center md:text-left mb-4 md:mb-0">
+                            <p>&copy; {{ date('Y') }} Home2stay. All rights reserved.</p>
+                        </div>
+                        
+                        <!-- Right Side - Designed & Marketed By -->
+                        <div class="flex items-center text-center md:text-right">
+                            <span class="mr-3">Designed & Marketed By</span>
+                            <a href="https://digitalpartner.ca/" target="_blank" rel="nofollow noopener noreferrer" class="hover:opacity-80 transition-opacity">
+                                <img src="https://digitalpartner.ca/wp-content/uploads/2023/11/logo.png" alt="Digital Partner" class="w-12 h-12 object-contain">
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>

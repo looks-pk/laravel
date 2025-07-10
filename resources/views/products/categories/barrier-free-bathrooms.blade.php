@@ -60,19 +60,19 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Product 1 -->
+                <!-- Product 1 - Shower Bay -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img class="contain p-10" src="{{ asset('logo/Logo-clr.png') }}" alt="Portable Accessible Showers"
-                            class="w-full object-cover" style="height: 300px;">
+                        <img class="w-full object-cover" src="{{ asset('bathsafety-cat/Protable.jpg') }}" alt="Shower Bay Portable Accessible Shower"
+                            style="height: 300px;">
                         <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Popular
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Portable Accessible Showers</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">Shower Bay is a safe and portable shower designed for wheelchair users - providing a true shower experience with easy installation in any room.</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Shower Bay - Portable Accessible Shower</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">The Shower Bay is a revolutionary portable shower designed specifically for wheelchair users. It provides a true shower experience with easy installation in any room, offering independence and dignity for users with mobility challenges.</p>
                         <div class="mt-auto">
                             <a href="/products/home2stay-modular-accessible-showers/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
@@ -82,18 +82,62 @@
                     </div>
                 </div>
 
-                <!-- Product 2 -->
+                <!-- Product 2 - Best Bath -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/141-1200x800-1-1024x683-min.jpg') }}" alt="European Wet Room Conversion Kits"
+                        <img src="{{ asset('brands/best-bath-logo-min.png') }}" alt="Best Bath Modular Showers"
+                            class="w-full object-contain p-8" style="height: 300px; background-color: #f8f9fa;">
+                        <div class="absolute top-0 right-0 bg-green-500 text-white text-sm font-bold px-3 py-1 m-4 rounded">
+                            ADA Compliant
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Best Bath Modular Barrier-Free Showers</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Best Bath Intelligent Designs offers premium modular barrier-free showers that set the standard for safety, durability, and accessibility. Manufactured in the USA with a 30-year limited warranty.</p>
+                        <div class="mt-auto">
+                            <a href="/products/bestbath-modular-barrier-free-showers/"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 - Custom Tile Showers -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('al-prod-page-imgs/141-1200x800-1-1024x683-min.jpg') }}" alt="Custom Tile Shower Conversion Kits"
                             class="w-full object-cover" style="height: 300px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay European Wet Room Conversion Kits</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">Achieve your dream bathroom that is not only beautiful, but also accessible, safe and functional. Transform your space with curbless shower design.</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Custom Tile Shower Conversion Kits</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Transform your bathroom with our custom tile shower conversion kits. Create beautiful, accessible, and functional spaces with curbless shower design that combines style with universal accessibility.</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-european-wet-room-conversion-kits/"
+                            <a href="/products/home2stay-custom-tile-shower-conversion-kits/"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 - Sentrel Systems -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('logo/Logo-clr.png') }}" alt="Sentrel Systems Showers"
+                            class="w-full object-contain p-8" style="height: 300px; background-color: #f8f9fa;">
+                        <div class="absolute top-0 right-0 bg-blue-500 text-white text-sm font-bold px-3 py-1 m-4 rounded">
+                            Premium
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Sentrel Systems Showers</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Sentrel Systems provides innovative shower solutions designed for accessibility and comfort. Their advanced systems offer superior durability and modern design for barrier-free bathroom environments.</p>
+                        <div class="mt-auto">
+                            <a href="/products/sentrel-systems-showers/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -188,16 +232,20 @@
 
                     <div class="prose prose-lg max-w-none">
                         <p class="text-gray-700 mb-4">
-                            We are a certified distributor and installer of Bestbath Intelligent Designs - maker of our Modular Barrier-Free Showers, which are ADA-compliant. Bestbath's Modular Barrier-Free Showers set the standard for safety, durability, accessibility, and beauty. They are manufactured in the USA and backed by a 30-year limited warranty. You can choose from the selection of available sizes, finishes, designs, and colors.
+                            We are a certified distributor and installer of Best Bath Intelligent Designs - maker of premium modular barrier-free showers that are ADA-compliant. Best Bath's modular barrier-free showers set the standard for safety, durability, accessibility, and beauty. They are manufactured in the USA and backed by a 30-year limited warranty. You can choose from a wide selection of available sizes, finishes, designs, and colors to match your specific needs and preferences.
                         </p>
 
                         <p class="text-gray-700 mb-4">
-                            If you have limited space and budget or are in a hurry, the Shower Bay Portable and Barrier-Free Showers can be easily installed in any room in your home without any remodeling needed. It can be assembled quickly - just attach to any water source and you or your loved ones can shower comfortably and safely while remaining seated.
+                            The revolutionary Shower Bay is perfect for those with limited space, budget constraints, or who need a quick solution. These portable barrier-free showers can be easily installed in any room in your home without any major remodeling. The Shower Bay can be assembled quickly - simply attach to any water source and users can shower comfortably and safely while remaining seated, providing true independence and dignity.
+                        </p>
+
+                        <p class="text-gray-700 mb-4">
+                            Our Sentrel Systems showers offer another premium option for those seeking advanced accessibility solutions. These innovative systems provide superior durability and modern design, perfect for creating truly barrier-free bathroom environments that don't compromise on style or functionality.
                         </p>
 
                         <div class="my-8 p-6 bg-primary/5 border-l-4 border-primary rounded-r-lg">
                             <p class="text-gray-800 font-medium">
-                                The European Wet Room Conversion Kits or curbless showers are designed to open up the bathroom by removing obstacles, including the biggest physical barrier in it - the bathtub. The aim is to open up the bathroom and make the whole room look seamless, changing the entire look of the bathroom. This look has been embraced by the design community due to its functionality and aesthetics and is considered a Universal Design.
+                                Our custom tile shower conversion kits (also known as curbless showers) are designed to open up the bathroom by removing obstacles, including the biggest physical barrier - the bathtub. The aim is to create an open, seamless bathroom space that transforms the entire look and feel of the room. This design approach has been embraced by the design community due to its functionality and aesthetics, representing true Universal Design principles.
                             </p>
                         </div>
 
@@ -359,19 +407,24 @@
                         <label class="block text-gray-700 font-medium mb-2">Which bathroom solutions are you interested in? *</label>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="products[]" value="portable_showers"
+                                <input type="checkbox" name="products[]" value="shower_bay"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Portable Accessible Showers</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Shower Bay - Portable Accessible Showers</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="products[]" value="wet_room_kits"
+                                <input type="checkbox" name="products[]" value="best_bath"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">European Wet Room Conversion Kits</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Best Bath Modular Barrier-Free Showers</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="products[]" value="modular_showers"
+                                <input type="checkbox" name="products[]" value="custom_tile_showers"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Bestbath Modular Barrier-Free Showers</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Custom Tile Shower Conversion Kits</span>
+                            </label>
+                            <label class="flex items-center space-x-3">
+                                <input type="checkbox" name="products[]" value="sentrel_systems"
+                                    class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Sentrel Systems Showers</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="checkbox" name="products[]" value="bathroom_renovation"

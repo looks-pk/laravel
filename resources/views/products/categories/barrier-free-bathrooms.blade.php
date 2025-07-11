@@ -115,7 +115,7 @@
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Custom Tile Shower Conversion Kits</h3>
                         <p class="text-gray-600 mb-4 flex-grow">Transform your bathroom with our custom tile shower conversion kits. Create beautiful, accessible, and functional spaces with curbless shower design that combines style with universal accessibility.</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-custom-tile-shower-conversion-kits/"
+                            <a href="/products/home2stay-european-wet-room-conversion-kits/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>

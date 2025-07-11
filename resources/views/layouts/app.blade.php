@@ -45,16 +45,16 @@
             </div>
                         <p class="text-gray-400 mb-4">Located in Vancouver, British Columbia, Home2stay specializes in home accessibility solutions and renovations. With over a decade of expertise in accessibility and universal design, we aim to build safe and inclusive homes and spaces for people of all ages and abilities.</p>
                         <div class="flex space-x-4">
-                            <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <a href="https://www.facebook.com/home2stayltd" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <a href="https://x.com/home2stayltd" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors">
                                 <i class="fab fa-twitter"></i>
                             </a>
-                            <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <a href="https://www.linkedin.com/company/home2stay/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
-                            <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <a href="https://www.instagram.com/home2stayltd/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </div>

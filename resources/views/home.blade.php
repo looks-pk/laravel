@@ -1634,7 +1634,7 @@
                     </div>
                     <h4 class="text-xl font-bold text-gray-900 mb-2">Call Us Today</h4>
                     <p class="text-gray-600 mb-4">Speak with our accessibility experts</p>
-                    <a href="tel:604-217-6877" class="text-primary hover:text-primary-dark font-bold text-lg transition-colors">604-217-6877</a>
+                    <a href="tel:604-259-1211" class="text-primary hover:text-primary-dark font-bold text-lg transition-colors">604-259-1211</a>
                 </div>
 
                 <!-- Email Support -->
@@ -1646,7 +1646,7 @@
                     </div>
                     <h4 class="text-xl font-bold text-gray-900 mb-2">Email Us</h4>
                     <p class="text-gray-600 mb-4">Get detailed information via email</p>
-                    <a href="mailto:info@home2stay.ca" class="text-primary hover:text-primary-dark font-bold text-lg transition-colors">info@home2stay.ca</a>
+                    <a href="mailto:info@home2stay.com" class="text-primary hover:text-primary-dark font-bold text-lg transition-colors">info@home2stay.com</a>
                 </div>
 
                 <!-- Visit Showroom -->

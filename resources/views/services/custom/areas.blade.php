@@ -252,26 +252,28 @@
                         <div class="area-card">
                             <!-- Map Section -->
                             <div class="area-map">
-                                @if($area === 'toronto')
+                                @php
+                                    $mapEmbeds = [
+                                        'stair-lifts-surrey-british-columbia' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83280.02!2d-122.8447552!3d49.1913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d07f8644!2sSurrey%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1640995400000!5m2!1sen!2sus',
+                                        'stair-lifts-vancouver' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83326.84!2d-123.27325085!3d49.2608724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3!2sVancouver%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1640995300000!5m2!1sen!2sus',
+                                        'stair-lifts-burnaby' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83265.23!2d-122.9784776!3d49.2488091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548679fa87d86c1b!2sBurnaby%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1640995500000!5m2!1sen!2sus',
+                                        'stair-lifts-coquitlam-british-columbia' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83190.45!2d-122.7625098!3d49.2838228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548679a4b8!2sCoquitlam%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1640995600000!5m2!1sen!2sus',
+                                        'stair-lifts-port-coquitlam-british-columbia' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83180.12!2d-122.7320587!3d49.2962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548679ab8b2!2sPort%20Coquitlam%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1640995700000!5m2!1sen!2sus',
+                                        'stair-lifts-new-westminster-british-columbia' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83240.67!2d-122.9105276!3d49.2065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548679a8c2!2sNew%20Westminster%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1640995800000!5m2!1sen!2sus',
+                                        'stair-lifts-delta-british-columbia' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83420.89!2d-123.0583776!3d49.0847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d89bc7!2sDelta%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1640995900000!5m2!1sen!2sus',
+                                        'stair-lifts-langley-british-columbia' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83350.23!2d-122.6058776!3d49.1016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d7c8abc!2sLangley%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1641000000000!5m2!1sen!2sus',
+                                        'stair-lifts-white-rock' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83380.45!2d-122.8024776!3d49.0254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d89a2c!2sWhite%20Rock%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1641000100000!5m2!1sen!2sus',
+                                        'stair-lifts-north-vancouver' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83290.67!2d-123.0645776!3d49.3284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54866fb2e8!2sNorth%20Vancouver%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1641000200000!5m2!1sen!2sus',
+                                        'stair-lifts-west-vancouver' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83310.23!2d-123.1645776!3d49.3654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54866f8bc4!2sWest%20Vancouver%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1641000300000!5m2!1sen!2sus',
+                                        'stair-lifts-richmond-hill-ontario' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92380.45!2d-79.4372776!3d43.8828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2a4d7c!2sRichmond%20Hill%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sus!4v1641000400000!5m2!1sen!2sus'
+                                    ];
+                                    $mapUrl = $mapEmbeds[$area] ?? null;
+                                @endphp
+
+                                @if($mapUrl)
                                     <iframe 
                                         class="actual-map"
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184552.57909621547!2d-79.54286805!3d43.718371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sus!4v1640995200000!5m2!1sen!2sus"
-                                        allowfullscreen="" 
-                                        loading="lazy" 
-                                        referrerpolicy="no-referrer-when-downgrade">
-                                    </iframe>
-                                @elseif($area === 'vancouver')
-                                    <iframe 
-                                        class="actual-map"
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83326.84780313836!2d-123.27325085!3d49.2608724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3%3A0xbb9196ea9b81f38b!2sVancouver%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1640995300000!5m2!1sen!2sus"
-                                        allowfullscreen="" 
-                                        loading="lazy" 
-                                        referrerpolicy="no-referrer-when-downgrade">
-                                    </iframe>
-                                @elseif(str_contains($area, 'surrey'))
-                                    <iframe 
-                                        class="actual-map"
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83280.0234567890!2d-122.8447552!3d49.1913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d07f7a7b7c7b%3A0x7b7b7b7b7b7b7b7b!2sSurrey%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1640995400000!5m2!1sen!2sus"
+                                        src="{{ $mapUrl }}"
                                         allowfullscreen="" 
                                         loading="lazy" 
                                         referrerpolicy="no-referrer-when-downgrade">

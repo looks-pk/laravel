@@ -315,13 +315,10 @@
                 </h2>
                 <div class="prose prose-lg max-w-none">
                     <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                        They are not just lifelines; Stairlifts in West Vancouver, BC, are often the first step toward achieving independence again when stairs become difficult. Whether you are at home, running a care facility, or overseeing a business, stairlifts can restore the comfort and security of being mobile.
-                    </p>
-                    <p class="text-gray-600 leading-relaxed mb-6">
-                        Based in West Vancouver, we have excelled in helping homes and buildings facilitate movement with assured, stylish, and convenient stairlift services. Working locally means we know the homes, commercial spaces and terrain of West Vancouver.
+                        They are not just lifelines; Stairlifts in West Vancouver, BC, are often the first step toward achieving independence again when stairs become difficult. Whether you are at home, running a care facility, or overseeing a business, stairlifts can restore the comfort and security of being mobile. Based in West Vancouver, we have excelled in helping homes and buildings facilitate movement with assured, stylish, and convenient stairlift services.
                     </p>
                     <p class="text-gray-600 leading-relaxed">
-                        We provide expert installation, quick set-up, and trustworthy stairlift service, helping you or your loved ones to live with comfort again, with many years of hands-on experience.
+                        Working locally means we know the homes, commercial spaces and terrain of West Vancouver. We provide expert installation, quick set-up, and trustworthy stairlift service, helping you or your loved ones to live with comfort again, with many years of hands-on experience.
                     </p>
                 </div>
             </div>
@@ -1006,85 +1003,90 @@
         </h2>
         <div class="max-w-4xl mx-auto prose prose-lg">
             <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                West Vancouver is renowned for its stunning views, chic houses, and sense of community. Many high-rise units and homes in the area have multiple levels or are built on hills, an everyday obstacle for those with mobility issues.
-            </p>
-            <p class="text-gray-600 leading-relaxed mb-6">
-                But that doesn't mean you have to relocate or do something drastic to renovate. Stair Lifts in West Vancouver are customised to your space and needs and are trusted, making accessibility easy.
-            </p>
-            <p class="text-gray-600 leading-relaxed">
-                Everyone deserves to feel more comfortable and safe at home; that kind of peace of mind is just a call away. You can get relaxing stairlift services in West Vancouver according to your needs; our experts are available 24/7 for your assistance and ease.
+                West Vancouver is renowned for its stunning views, chic houses, and sense of community. Many high-rise units and homes in the area have multiple levels or are built on hills, an everyday obstacle for those with mobility issues. But that doesn't mean you have to relocate or do something drastic to renovate. Stair Lifts in West Vancouver are customised to your space and needs and are trusted, making accessibility easy.
             </p>
         </div>
     </div>
 </section>
 
-<!-- Expert Installation & Local Support Section -->
+<!-- Stairlifts in West Vancouver Section -->
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
+        <h3 class="text-2xl md:text-3xl font-bold text-gray-900 section-title mb-8 text-center">
             Stairlifts in West Vancouver
+        </h3>
+        <div class="max-w-4xl mx-auto mb-12">
+            <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">
+                Everyone deserves to feel more comfortable and safe at home; that kind of peace of mind is just a call away. You can get relaxing stairlift services in West Vancouver according to your needs; our experts are available 24/7 for your assistance and ease. From basic residential needs to more saturated building layouts, we bring the perfect stairlift right to your door. We provide both residential and commercial stairlifts in West Vancouver to suit every situation. Whether your stairs are straight, curved, or located outdoors. Our team is ready to install a stairlift in your space.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Commercial Stairlifts in West Vancouver Section -->
+<section class="py-16">
+    <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
+            Commercial Stairlifts in West Vancouver
         </h2>
         <div class="max-w-4xl mx-auto mb-12">
             <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">
-                From basic residential needs to more saturated building layouts, we bring the perfect stairlift right to your door. We provide both residential and commercial stairlifts in West Vancouver to suit every situation.
-            </p>
-            <p class="text-gray-600 leading-relaxed text-center">
-                Whether your stairs are straight, curved, or located outdoors, our team is ready to install a stairlift in your space. Installation is fast, usually taking only a few hours, and is performed with the greatest care.
+                Making your construction accessible isn't only a matter of comfort; it's also a question of compliance and care. Our Commercial Stairlifts in West Vancouver are highly trusted by property managers, retirement homes, clinics, and other properties where accessibility is a priority for business. We provide home-grade stair lifts with intricate features and designs that match the interior of your home.
             </p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="service-card p-8 text-center">
-                <div class="service-icon mx-auto">
+            <div class="service-card p-8">
+                <div class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">Stannah 260 Business (Indoor)</h3>
+                <p class="text-gray-600">
+                    Ideal for curved staircases, this model features quiet operation and a smooth design. It's perfect for small commercial spaces where stairs are narrow or winding.
+                </p>
+            </div>
+
+            <div class="service-card p-8">
+                <div class="service-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">Commercial Stairlifts</h3>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">K2 Plus Commercial</h3>
                 <p class="text-gray-600">
-                    Making your construction accessible isn't only a matter of comfort; it's also a question of compliance and care. Our Commercial Stairlifts in West Vancouver are highly trusted by property managers, retirement homes, and clinics.
+                    This is a heavy-duty model that does well in busy commercial settings. It is ideal for clinics or facilities with heavy use with a higher weight capacity and durable construction.
                 </p>
             </div>
 
-            <div class="service-card p-8 text-center">
-                <div class="service-icon mx-auto">
+            <div class="service-card p-8">
+                <div class="service-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">West Vancouver After Hours Support</h3>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">Stairfriend Commercial</h3>
                 <p class="text-gray-600">
-                    Problems do not always happen during business hours. We provide after-hours support to ensure there's never downtime without help. We quickly respond if something goes wrong.
-                </p>
-            </div>
-
-            <div class="service-card p-8 text-center">
-                <div class="service-icon mx-auto">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
-                    </svg>
-                </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">Device & Regular Maintenance</h3>
-                <p class="text-gray-600">
-                    Your stairlift will be safe and sound with a proper installation, along with regular maintenance. Local technicians are trained to identify and resolve any issues quickly so your lift keeps running smoothly.
+                    Custom-made for complex staircases. Whether your stairs turn, twist or change direction mid-flight, this model adjusts easily while following all safety standards.
                 </p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Who Can Benefit Section -->
-<section class="py-16">
+<!-- Residential Stair Lifts in West Vancouver Section -->
+<section class="py-16 bg-gray-50">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
             Residential Stair Lifts in West Vancouver
         </h2>
         <p class="text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto">
-            We should be able to live comfortably in our own homes without having to tackle stairs. Experience freedom in your life again with our residential stair lifts. We have premium models that fit your lifestyle and style for your home.
+            We should be able to live comfortably in our own homes without having to tackle stairs. Experience freedom in your life again with our residential stair lifts. Yeah, we have premium models, just as we have the model that fits your lifestyle and style for your home.
         </p>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div class="service-card p-8">
                 <div class="service-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
@@ -1108,24 +1110,76 @@
                     Designed for straight stairs, this lift is compact, reliable, and fast to install. It's also one of our top picks for homeowners searching for quick, easy solutions.
                 </p>
             </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our Major Services Section -->
+<section class="py-16">
+    <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
+            Our Major Services
+        </h2>
+        <p class="text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto">
+            We're proud to serve West Vancouver with full-service stairlift services. From your first call to post-installation support, we're here every step of the way.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="service-card p-8">
+                <div class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">West Vancouver After Hours Support</h3>
+                <p class="text-gray-600">
+                    Problems do not always happen during business hours. We provide after-hours support to ensure there's never downtime without help.
+                </p>
+            </div>
 
             <div class="service-card p-8">
                 <div class="service-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">Commercial Models Available</h3>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">Service Trouble Calls</h3>
                 <p class="text-gray-600">
-                    We offer Stannah 260 Business, K2 Plus Commercial, and Stairfriend Commercial models. These heavy-duty options are ideal for clinics, facilities, and complex staircases with higher weight capacities and durable construction.
+                    We quickly respond if something goes wrong. Local technicians are trained to identify and resolve any issues quickly so your lift keeps running smoothly.
+                </p>
+            </div>
+
+            <div class="service-card p-8">
+                <div class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">West Vancouver Device & Regular Maintenance</h3>
+                <p class="text-gray-600">
+                    Your stairlift will be safe and sound with a proper installation, along with regular maintenance. We do so much of the heavy lifting.
                 </p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Stairlift Solutions Section -->
+<!-- Locations We Service Section -->
 <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
+            Locations We Service
+        </h2>
+        <div class="max-w-4xl mx-auto prose prose-lg">
+            <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">
+                We don't merely serve West Vancouver, we also serve surrounding areas. No matter where you are in the Lower Mainland, Vancouver, Surrey, Abbotsford, Richmond, Coquitlam, Port Moody, Tri-Cities, Mission, Delta, Pitt Meadows, Burnaby, Chilliwack, White Rock, Aldergrove, Maple Ridge and Langley. Our experts are never far away. Call to see if we're in your area.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Stairlift Solutions Section -->
+<section class="py-16">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
             Types of Stair Lifts | Housing Styles | West Vancouver, BC
@@ -1143,7 +1197,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Straight Stair Lifts</h3>
                 <p class="text-gray-600">
-                    Ideal for buildings with a single flight of stairs. These are the least expensive and most common options. Fast to set up and extremely reliable.
+                    Simple, fast, and affordable. Nice for homes with one set of stairs.
                 </p>
             </div>
 
@@ -1155,7 +1209,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Curved Stair Lifts</h3>
                 <p class="text-gray-600">
-                    If your staircase includes landings or curves, we'll custom-manufacture a curved stairlift that suits your home. They're smooth, safe and custom-made for your particular staircase.
+                    Unique satellite-designed platform for homes with twists, landings, or spiral stairs.
                 </p>
             </div>
 
@@ -1167,58 +1221,70 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Outdoor Stair Lifts</h3>
                 <p class="text-gray-600">
-                    Our lifts also go outside! For stairs that lead to your front door, garden or patio, our outdoor stair lifts are designed to withstand all kinds of weather: snow, rain or shine.
+                    Durable, weatherproof lifts for front porches, back decks or outdoor steps.
                 </p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Our Major Services Section -->
-<section class="py-16">
+<!-- Our Services Section -->
+<section class="py-16 bg-gray-50">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
             Our Services
         </h2>
         <p class="text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto">
-            We provide more than just stair lifts. Your go-to destination for home accessibility in West Vancouver. You can trust that every product is installed by professional staff, with continued support.
+            We provide more than just stair lifts. Your go-to destination for home accessibility in West Vancouver.
         </p>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div class="service-card p-6">
-                <h3 class="text-lg font-bold text-gray-900 mb-3">Barrier-Free Bathrooms</h3>
-                <p class="text-gray-600">Safe and simple to use, carefree designs for all types of mobility</p>
+        <div class="max-w-4xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-700">Barrier-Free Bathrooms: Safe designs featuring walk-in tubs and curbless showers</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-700">Grab Bars: Placed in areas which require more support</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-700">Indoor, outdoor, straight, or curved Stairlifts: we provide all types of stairlift services in West Vancouver</span>
+                    </li>
+                </ul>
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-700">Ramps: Great for entrances and raised doorways</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-700">Tub Cuts: Alter your existing tub to allow easier access</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-700">Safety Poles & Handrails: Added stability and assistance, exactly where you need to have it</span>
+                    </li>
+                </ul>
             </div>
-
-            <div class="service-card p-6">
-                <h3 class="text-lg font-bold text-gray-900 mb-3">Grab Bars</h3>
-                <p class="text-gray-600">Bath, hallway, or anywhere else you may need extra support</p>
-            </div>
-
-            <div class="service-card p-6">
-                <h3 class="text-lg font-bold text-gray-900 mb-3">Stairlifts</h3>
-                <p class="text-gray-600">Industry-leading brands installed by experts</p>
-            </div>
-
-            <div class="service-card p-6">
-                <h3 class="text-lg font-bold text-gray-900 mb-3">Ramps</h3>
-                <p class="text-gray-600">For doorways, porches or anywhere that extra accessibility is needed</p>
-            </div>
-
-            <div class="service-card p-6">
-                <h3 class="text-lg font-bold text-gray-900 mb-3">Tub Cuts</h3>
-                <p class="text-gray-600">Convert a standard tub to a walk-in</p>
-            </div>
-
-            <div class="service-card p-6">
-                <h3 class="text-lg font-bold text-gray-900 mb-3">Safety Poles & Handrails</h3>
-                <p class="text-gray-600">Add stability in the places you need it most</p>
-            </div>
+            <p class="text-gray-600 text-center mt-8 max-w-2xl mx-auto">
+                You can trust that every product is installed by professional staff, with continued support.
+            </p>
         </div>
-
-        <p class="text-gray-600 text-center mt-8 max-w-2xl mx-auto">
-            We care deeply about your safety and comfort, which is why we design, measure and install our solutions ourselves and always have real people just a call away to support you when you need it.
-        </p>
     </div>
 </section>
 
@@ -1254,9 +1320,9 @@
 <!-- FAQs Section -->
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-12 text-center">
-            Frequently Asked Questions
-        </h2>
+        <h3 class="text-2xl md:text-3xl font-bold text-gray-900 section-title mb-12 text-center">
+            FAQs
+        </h3>
 
                  <div class="max-w-4xl mx-auto space-y-6">
              <div class="faq-item">

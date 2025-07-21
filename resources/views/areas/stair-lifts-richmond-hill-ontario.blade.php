@@ -317,11 +317,8 @@
                     <p class="text-lg text-gray-700 leading-relaxed mb-6">
                         If you're searching for the best stairlifts in Richmond Hill, you're in the right place. At some point, usually, the home needs to adjust to make life easier for those people we love. If you or someone else near you is searching for stairs and having more difficulty managing stairs, then a stairlift can make all the difference.
                     </p>
-                    <p class="text-gray-600 leading-relaxed mb-6">
-                        We're experts in stair lifts in Richmond Hill, ON. We offer reliable, safe, and stylish stairlift services customized to your specific needs. With professional service and local support, we ensure that every part of the process is smooth, from your first call to the final installation.
-                    </p>
                     <p class="text-gray-600 leading-relaxed">
-                        Richmond Hill is a growing, diverse community just north of Toronto. It's a place full of families, retirees and working professionals. As homes age and families change, accessibility becomes more than just a concern; it becomes essential.
+                        We're experts in stair lifts in Richmond Hill, ON. We offer reliable, safe, and stylish stairlift services customized to your specific needs. With professional service and local support, we ensure that every part of the process is smooth, from your first call to the final installation.
                     </p>
                 </div>
             </div>
@@ -337,491 +334,125 @@
     </div>
 </section>
 
+<!-- A Natural Wonder in Richmond Hill Section -->
+<section class="py-16">
+    <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
+            A Natural Wonder in Richmond Hill
+        </h2>
+        <div class="max-w-4xl mx-auto prose prose-lg">
+            <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                Richmond Hill is a growing, assorted community just north of Toronto. As we know, it's a place full of families, retirees and working professionals. As home age and families change, accessibility becomes more than just a concern; it becomes very essential. Our experts know the unique needs and requirements of Richmond Hill residents. We offer customised stair lift services to our aged clients. Also, we ensure your safety, and our experts take care of your comfortable movement throughout your home.
+            </p>
+            <p class="text-gray-600 leading-relaxed">
+                If you're going to choose any multi-level place or luxury villa, our stairlift services are specially customised to help you move anywhere in your personal space.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Stair Lifts - Richmond Hill, ON Section -->
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
+            Stair Lifts - Richmond Hill, ON
+        </h2>
+        <div class="max-w-4xl mx-auto prose prose-lg">
+            <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                Your comfort at home matters. When walking up stairs becomes challenging, or even dangerous, it's time to consider a solution that will help make your home safe once more. We offer a choice of Stair Lifts in Richmond Hill, ON, making staying in your own home more manageable than ever. We provide options for custom-made Stair Lifts Installation Richmond Hill that fit into your existing environment. Whether it's a straight or spiral staircase, or outdoors.
+            </p>
+        </div>
+    </div>
+</section>
+
 <!-- Services Section -->
 <section class="py-20 px-10 bg-gray-50">
     <div class="container mx-auto px-6 lg:px-12 max-w-7xl">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">Accessibility Solutions for Your
-                    Home</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">Our wide range of quality products such as grab bars, bathroom
-                    safety equipment, ramps, and more are designed to enhance accessibility and aesthetics, making everyday
-                    home life easier for people of all ages and abilities.</p>
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">Accessibility Solutions for Your Home</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">Our wide range of quality products such as grab bars, bathroom safety equipment, ramps, and more are designed to enhance accessibility and aesthetics, making everyday home life easier for people of all ages and abilities.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Product Card 1 -->
+            <div class="product-card">
+                <div class="card-img">
+                    <img src="{{ asset('/al-prod-page-imgs/141-1200x800-1-1024x683-min.jpg') }}" alt="Barrier-Free Bathrooms" class="w-full h-full object-cover">
+                </div>
+                <div class="card-body">
+                    <h3>Barrier-Free Bathrooms</h3>
+                    <p class="mb-3">Create a safe and accessible oasis with our thoughtfully designed solutions for all mobility needs.</p>
+                    <div class="mb-4 text-sm">
+                        <div class="flex justify-between">
+                            <span class="font-semibold text-gray-700">Purchase:</span>
+                            <span class="text-primary font-bold">$1,200 - $3,500</span>
+                        </div>
+                    </div>
+                    <ul class="mb-4">
+                        <li class="flex items-start mb-1">
+                            <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-sm">ADA compliant designs</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-footer flex justify-between">
+                    <a href="/products-categories/barrier-free-bathrooms/" class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
+                        <span>See More</span>
+                    </a>
+                    <button type="button" data-product="Barrier-Free Bathrooms" class="get-info-btn inline-flex items-center px-4 py-2 border border-black text-black rounded-md hover:bg-primary hover:text-white transition-colors">
+                        <span>Get Info</span>
+                    </button>
+                </div>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Product Card 1 -->
-                <div class="product-card">
-                    <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/141-1200x800-1-1024x683-min.jpg') }}" alt="Barrier-Free Bathrooms"
-                            class="w-full h-full object-cover">
-                    </div>
-                    <div class="card-body">
-                        <h3>Barrier-Free Bathrooms</h3>
-                        <p class="mb-3">Create a safe and accessible oasis with our thoughtfully designed solutions for all
-                            mobility needs.</p>
-
-                        <!-- Price Ranges -->
-                        <div class="mb-4 text-sm">
-                            <div class="flex justify-between">
-                                <span class="font-semibold text-gray-700">Purchase:</span>
-                                <span class="text-primary font-bold">$1,200 - $3,500</span>
-                            </div>
-                            <div class="flex justify-between rental-option" style="display: none;">
-                                <span class="font-semibold text-gray-700">Rental:</span>
-                                <span class="text-primary font-bold">Not Available</span>
-                            </div>
+            <!-- Product Card 2 -->
+            <div class="product-card">
+                <div class="card-img">
+                    <img src="{{ asset('/al-prod-page-imgs/Stair-Lifts.jpg') }}" alt="Stairlifts" class="w-full h-full object-cover">
+                </div>
+                <div class="card-body">
+                    <h3>Stairlifts</h3>
+                    <p class="mb-3">Glide effortlessly between levels with our reliable stairlifts, designed for individuals with limited mobility.</p>
+                    <div class="mb-4 text-sm">
+                        <div class="flex justify-between">
+                            <span class="font-semibold text-gray-700">Purchase:</span>
+                            <span class="text-primary font-bold">$2,500 - $5,000</span>
                         </div>
-
-                        <!-- Feature Points -->
-                        <ul class="mb-4">
-                            <li class="flex items-start mb-1">
-                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
-                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span class="text-sm">ADA compliant designs</span>
-                            </li>
-                            <li class="flex items-start mb-1">
-                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
-                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span class="text-sm">Non-slip surfaces for safety</span>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
-                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span class="text-sm">Easy to clean & maintain</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="card-footer flex justify-between">
-                        <a href="/products-categories/barrier-free-bathrooms/"
-                            class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
-                            <span>See More</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </a>
-                        <button type="button" data-product="Barrier-Free Bathrooms"
-                            class="get-info-btn inline-flex items-center px-4 py-2 border border-black text-black rounded-md hover:bg-primary hover:text-white transition-colors">
-                            <span>Get Info</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9a1 1 0 00-1-1z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </button>
                     </div>
                 </div>
-
-                <!-- Product Card 2 -->
-                <div class="product-card">
-                    <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/Stair-Lifts.jpg') }}" alt="Stairlifts"
-                            class="w-full h-full object-cover">
-                    </div>
-                    <div class="card-body">
-                        <h3>Stairlifts</h3>
-                        <p class="mb-3">Glide effortlessly between levels with our reliable stairlifts, designed for
-                            individuals with limited mobility.</p>
-
-                        <!-- Price Ranges -->
-                        <div class="mb-4 text-sm">
-                            <div class="flex justify-between">
-                                <span class="font-semibold text-gray-700">Purchase:</span>
-                                <span class="text-primary font-bold">$2,500 - $5,000</span>
-                            </div>
-                            <div class="flex justify-between rental-option">
-                                <span class="font-semibold text-gray-700">Rental:</span>
-                                <span class="text-primary font-bold">$250/mo</span>
-                            </div>
-                        </div>
-
-                        <!-- Feature Points -->
-                        <ul class="mb-4">
-                            <li class="flex items-start mb-1">
-                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
-                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span class="text-sm">Quiet & smooth operation</span>
-                            </li>
-                            <li class="flex items-start mb-1">
-                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
-                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span class="text-sm">Battery backup system</span>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
-                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span class="text-sm">Custom fit to your staircase</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="card-footer flex justify-between">
-                        <a href="/products-categories/stair-lifts/"
-                            class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
-                            <span>See More</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </a>
-                        <button type="button" data-product="Stairlifts"
-                            class="get-info-btn inline-flex items-center px-4 py-2 border border-black text-black rounded-md hover:bg-primary hover:text-white transition-colors">
-                            <span>Get Info</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9a1 1 0 00-1-1z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </button>
-                    </div>
+                <div class="card-footer flex justify-between">
+                    <a href="/products-categories/stair-lifts/" class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
+                        <span>See More</span>
+                    </a>
+                    <button type="button" data-product="Stairlifts" class="get-info-btn inline-flex items-center px-4 py-2 border border-black text-black rounded-md hover:bg-primary hover:text-white transition-colors">
+                        <span>Get Info</span>
+                    </button>
                 </div>
-                
+            </div>
 
-                <!-- Product Card 3 -->
-                <div class="product-card">
-                    <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/Safety-Poles-Handrails.jpg') }}" alt="Safety Poles & Handrails"
-                            class="w-full h-full object-cover">
-                    </div>
-                    <div class="card-body">
-                        <h3>Safety Poles & Handrails</h3>
-                        <p class="mb-3">Enhance safety and stability with our safety poles and handrails, providing crucial
-                            support in various home areas.</p>
-
-                        <!-- Price Ranges -->
-                        <div class="mb-4 text-sm">
-                            <div class="flex justify-between">
-                                <span class="font-semibold text-gray-700">Purchase:</span>
-                                <span class="text-primary font-bold">$100 - $500</span>
-                            </div>
-                            <div class="flex justify-between rental-option" style="display: none;">
-                                <span class="font-semibold text-gray-700">Rental:</span>
-                                <span class="text-primary font-bold">Not Available</span>
-                            </div>
-                        </div>
-
-                        <!-- Feature Points -->
-                        <ul class="mb-4">
-                            <li class="flex items-start mb-1">
-                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
-                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span class="text-sm">Tension-mounted options</span>
-                            </li>
-                            <li class="flex items-start mb-1">
-                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
-                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span class="text-sm">No wall damage installation</span>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
-                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span class="text-sm">Adjustable to your height</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="card-footer flex justify-between">
-                        <a href="/products-categories/safety-poles-handrails/"
-                            class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
-                            <span>See More</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </a>
-                        <button type="button" data-product="Safety Poles & Handrails"
-                            class="get-info-btn inline-flex items-center px-4 py-2 border border-black text-black rounded-md hover:bg-primary hover:text-white transition-colors">
-                            <span>Get Info</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9a1 1 0 00-1-1z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </button>
-                    </div>
+            <!-- Product Card 3 -->
+            <div class="product-card">
+                <div class="card-img">
+                    <img src="{{ asset('/al-prod-page-imgs/Grab-Bars.jpg') }}" alt="Grab Bars" class="w-full h-full object-cover">
                 </div>
-                 
-                
-
-                <!-- Product Card 4 -->
-                <div class="product-card">
-                    <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/Ramps.jpg') }}" alt="Ramps" class="w-full h-full object-cover">
-                    </div>
-                    <div class="card-body">
-                        <h3>Ramps</h3>
-                        <p class="mb-3">Embrace accessibility with our versatile ramps, a practical solution to conquer
-                            elevation changes indoors or outdoors.</p>
-
-                        <!-- Price Ranges -->
-                        <div class="mb-4 text-sm">
-                            <div class="flex justify-between">
-                                <span class="font-semibold text-gray-700">Purchase:</span>
-                                <span class="text-primary font-bold">$200 - $2,000</span>
-                            </div>
-                            <div class="flex justify-between rental-option">
-                                <span class="font-semibold text-gray-700">Rental:</span>
-                                <span class="text-primary font-bold">$22 - $50/mo</span>
-                            </div>
-                        </div>
-
-                        <!-- Feature Points -->
-                        <ul class="mb-4">
-                            <li class="flex items-start mb-1">
-                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
-                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span class="text-sm">Portable & permanent options</span>
-                            </li>
-                            <li class="flex items-start mb-1">
-                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
-                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span class="text-sm">Slip-resistant surfaces</span>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
-                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span class="text-sm">Customizable to your space</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="card-footer flex justify-between">
-                        <a href="/products-categories/ramps/"
-                            class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
-                            <span>See More</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </a>
-                        <button type="button" data-product="Ramps"
-                            class="get-info-btn inline-flex items-center px-4 py-2 border border-black text-black rounded-md hover:bg-primary hover:text-white transition-colors">
-                            <span>Get Info</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9a1 1 0 00-1-1z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </button>
-                    </div>
+                <div class="card-body">
+                    <h3>Grab Bars</h3>
+                    <p class="mb-3">Elevate bathroom safety with our sturdy and stylish grab bars, providing essential support for confident maneuvering.</p>
                 </div>
-
-                <!-- Product Card 5 -->
-                <div class="product-card">
-                    <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/Tub-Cuts.jpg') }}" alt="Tub Cuts"
-                            class="w-full h-full object-cover">
-                    </div>
-                    <div class="card-body">
-                        <h3>Tub Cuts</h3>
-                        <p class="mb-3">Transform your bathtub into an accessible oasis with our convenient and
-                            cost-effective alternative to traditional solutions.</p>
-
-                        <!-- Price Ranges -->
-                        <div class="mb-4 text-sm">
-                            <div class="flex justify-between">
-                                <span class="font-semibold text-gray-700">Purchase:</span>
-                                <span class="text-primary font-bold">$700 - $1,500</span>
-                            </div>
-                            <div class="flex justify-between rental-option" style="display: none;">
-                                <span class="font-semibold text-gray-700">Rental:</span>
-                                <span class="text-primary font-bold">Not Available</span>
-                            </div>
-                        </div>
-
-                        <!-- Feature Points -->
-                        <ul class="mb-4">
-                            <li class="flex items-start mb-1">
-                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
-                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span class="text-sm">Quick 1-day installation</span>
-                            </li>
-                            <li class="flex items-start mb-1">
-                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
-                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span class="text-sm">Preserves existing tub</span>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
-                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span class="text-sm">Watertight seal guarantee</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="card-footer flex justify-between">
-                        <a href="/products-categories/tub-cuts/"
-                            class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
-                            <span>See More</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </a>
-                        <button type="button" data-product="Tub Cuts"
-                            class="get-info-btn inline-flex items-center px-4 py-2 border border-black text-black rounded-md hover:bg-primary hover:text-white transition-colors">
-                            <span>Get Info</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9a1 1 0 00-1-1z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </button>
-                    </div>
+                <div class="card-footer flex justify-between">
+                    <a href="/products-categories/grab-bars/" class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
+                        <span>See More</span>
+                    </a>
+                    <button type="button" data-product="Grab Bars" class="get-info-btn inline-flex items-center px-4 py-2 border border-black text-black rounded-md hover:bg-primary hover:text-white transition-colors">
+                        <span>Get Info</span>
+                    </button>
                 </div>
-
-                <!-- Product Card 6 -->
-                <div class="product-card">
-                    <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/Grab-Bars.jpg') }}" alt="Grab Bars"
-                            class="w-full h-full object-cover">
-                    </div>
-                    <div class="card-body">
-                        <h3>Grab Bars</h3>
-                        <p class="mb-3">Elevate bathroom safety with our sturdy and stylish grab bars, providing essential
-                            support for confident maneuvering.</p>
-
-                        <!-- Price Ranges -->
-                        <div class="mb-4 text-sm">
-                            <div class="flex justify-between">
-                                <span class="font-semibold text-gray-700">Purchase:</span>
-                                <span class="text-primary font-bold">$40 - $150</span>
-                            </div>
-                            <div class="flex justify-between rental-option" style="display: none;">
-                                <span class="font-semibold text-gray-700">Rental:</span>
-                                <span class="text-primary font-bold">Not Available</span>
-                            </div>
-                        </div>
-
-                        <!-- Feature Points -->
-                        <ul class="mb-4">
-                            <li class="flex items-start mb-1">
-                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
-                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span class="text-sm">Supports up to 500 lbs</span>
-                            </li>
-                            <li class="flex items-start mb-1">
-                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
-                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span class="text-sm">Multiple finish options</span>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
-                                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                                <span class="text-sm">Professional installation</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="card-footer flex justify-between">
-                        <a href="/products-categories/grab-bars/"
-                            class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
-                            <span>See More</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </a>
-                        <button type="button" data-product="Grab Bars"
-                            class="get-info-btn inline-flex items-center px-4 py-2 border border-black text-black rounded-md hover:bg-primary hover:text-white transition-colors">
-                            <span>Get Info</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9a1 1 0 00-1-1z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-                
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
 <!-- Contact Section -->
 <section id="contact" class="py-16 bg-gray-50">
@@ -921,11 +552,11 @@
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
                                 <li>• Richmond Hill (All Areas)</li>
-                                <li>• Thornhill</li>
-                                <li>• Markham</li>
-                                <li>• Vaughan</li>
-                                <li>• Aurora</li>
-                                <li>• Newmarket</li>
+                                <li>• Toronto & Markham</li>
+                                <li>• York Region & Durham</li>
+                                <li>• Vaughan & Aurora</li>
+                                <li>• Newmarket & Stouffville</li>
+                                <li>• Greater Toronto Area</li>
                             </ul>
                         </div>
                     </div>
@@ -959,7 +590,7 @@
 
                     <div>
                         <label for="city" class="block text-sm font-medium text-gray-700 mb-2">City/Neighborhood</label>
-                        <input type="text" id="city" name="city" placeholder="e.g., Oak Ridges, Bayview Hill, Crosby" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        <input type="text" id="city" name="city" placeholder="e.g., Thornhill, Oak Ridges, Jefferson" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
                     </div>
 
                     <div>
@@ -998,26 +629,6 @@
     </div>
 </section>
 
-<!-- A Natural Wonder in Richmond Hill Section -->
-<section class="py-16">
-    <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
-            A Natural Wonder in Richmond Hill
-        </h2>
-        <div class="max-w-4xl mx-auto prose prose-lg">
-            <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                Richmond Hill is a growing, diverse community just north of Toronto. As we know, it's a place full of families, retirees and working professionals. As homes age and families change, accessibility becomes more than just a concern; it becomes very essential.
-            </p>
-            <p class="text-gray-600 leading-relaxed mb-6">
-                Our experts know the unique needs and requirements of Richmond Hill residents. We offer customized stair lift services to our aged clients. Also, we ensure your safety, and our experts take care of your comfortable movement throughout your home.
-            </p>
-            <p class="text-gray-600 leading-relaxed">
-                If you're going to choose any multi-level place or luxury villa, our stairlift services are specially customized to help you move anywhere in your personal space.
-            </p>
-        </div>
-    </div>
-</section>
-
 <!-- Expert Installation & Local Support Section -->
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
@@ -1026,10 +637,7 @@
         </h2>
         <div class="max-w-4xl mx-auto mb-12">
             <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">
-                We are a local team living and working in Richmond Hill. That means we know the homes and the layout of our neighbourhoods, and most importantly, we're just a call away when you need support.
-            </p>
-            <p class="text-gray-600 leading-relaxed text-center">
-                Your wait will not be weeks. Installation is fast, usually taking only a few hours, and is performed with the greatest care. No damage to your walls. No mess was left behind. Just a good and working stairlift.
+                We are a local team living and working in Richmond Hill. That means we know the homes and the layout of our neighbourhoods, and most importantly. We're just a call away when you need support. Stair lifts Installation Richmond Hill services. Your wait will not be weeks. Installation is fast, usually taking only a few hours, and is performed with the greatest care. No damage to your walls. No mess was left behind. Just a good and working stairlift.
             </p>
         </div>
 
@@ -1067,7 +675,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Comprehensive Support</h3>
                 <p class="text-gray-600">
-                    We offer support and maintenance services to ensure your stairlift remains in top condition, providing you with reassurance and peace of mind well beyond installation.
+                    We offer support and maintenance services to ensure your stairlift remains in top condition, providing you with reassurance and quiet well beyond installation.
                 </p>
             </div>
         </div>
@@ -1093,7 +701,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Seniors Choosing to Age in Place</h3>
                 <p class="text-gray-600">
-                    A lot of Richmond Hill seniors are choosing to remain in their homes longer. This is where a stair lift comes in; aging in place becomes a safer reality. You won't need to downsize or go to assisted living. One easy fix can retain your independence.
+                    A lot of Richmond Hill seniors are choosing to remain in their homes longer. This is where a stair lift comes in; ageing in place becomes a safer reality. You won't need to downsize or go to assisted living. One easy fix can retain your independence.
                 </p>
             </div>
 
@@ -1105,7 +713,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">People with Mobility Issues</h3>
                 <p class="text-gray-600">
-                    Mobility issues can occur at any point in life. Whether for a short-term injury or a chronic disease such as arthritis or MS, a stair lift provides safety against falls. This way, you can comfortably and confidently navigate in your own home.
+                    Immobility issues can occur at any point in life. Whether for a short-term injury or a chronic disease such as arthritis or MS, a stair lift provides safety against falls. This way, you can comfortably and confidently navigate in your own home.
                 </p>
             </div>
 
@@ -1117,7 +725,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Family Caregivers and Loved Ones</h3>
                 <p class="text-gray-600">
-                    If you're giving a helping hand to a parent or partner, preventing them from falling, a stairlift will make your job easier. It eliminates one of the most dangerous areas in the home: the stairs. It's reassurance, both for yourself and the person that you love.
+                    And if you're giving a helping hand to a parent or partner, preventing them from falling, a stairlift will make your job easier. It eliminates one of the most dangerous areas in the home: the stairs. It's reassurance, both for yourself and the person that you love.
                 </p>
             </div>
         </div>
@@ -1178,10 +786,10 @@
 <section class="py-16">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
-            Our Major Services
+            Our Major services
         </h2>
         <p class="text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto">
-            We're not only stairlift experts, we offer a comprehensive range of services for home safety and accessibility in Richmond Hill. All so you can maintain your independence.
+            We're not only stairlift experts, we offer a comprehensive range of services for home safety and accessibility in Richmond Hill. And all so you can maintain your independence.
         </p>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -1225,14 +833,8 @@
 <!-- Call to Action Section -->
 <section class="py-16 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
     <div class="container mx-auto px-4 text-center">
-        <h2 class="text-3xl md:text-4xl font-bold mb-6">
-            Ready to Get Started?
-        </h2>
         <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-            Ready to make your home safer, easier to live in, and more comfortable for everyone? Call us today. If you're shopping or about to pull the trigger, we're here to walk you through each part of the process.
-        </p>
-        <p class="text-lg mb-8 max-w-2xl mx-auto">
-            You can get the Best Stair Lifts Richmond Hill by simply making a call. Let us find a way for you to stay in the home you love, without needing to navigate stairs.
+            Ready to make your home safer, easier to live in, and more comfortable for everyone? Call us today. If you're shopping or about to pull the trigger, we're here to walk you through each part of the process. You can get the Best Stair Lifts Richmond Hill by simply making a call. Let us find a way for you to stay in the home you love, without needing to navigate stairs.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:604-259-1211" class="btn-secondary text-lg px-8 py-4">
@@ -1254,9 +856,9 @@
 <!-- FAQs Section -->
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-12 text-center">
-            Frequently Asked Questions
-        </h2>
+        <h3 class="text-xl font-bold text-gray-900 mb-8 text-center">
+            FAQs
+        </h3>
 
                  <div class="max-w-4xl mx-auto space-y-6">
              <div class="faq-item">

@@ -64,23 +64,11 @@ Route::get('/rentals-categories/{category}', [RentalController::class, 'category
 
 // Areas - Test route first
 Route::get('/areas-test', function() {
-    return 'Areas test route works!';
+    return 'Areas test route works! Current time: ' . date('Y-m-d H:i:s');
 });
 
-// Areas - Debug controller
-Route::get('/areas-debug', function() {
-    try {
-        $controller = new \App\Http\Controllers\AreaController();
-        $result = $controller->index();
-        return 'AreaController works! View: ' . $result->name() . ', Areas count: ' . count($result->getData()['areas']);
-    } catch (\Exception $e) {
-        return 'AreaController error: ' . $e->getMessage();
-    }
-});
-
-// Areas - Simple direct route
-Route::get('/areas', function() {
-    // Get areas the same way the controller does
+// Areas - Test view update
+Route::get('/areas-test-view', function() {
     $path = resource_path('views/areas');
     $areas = [];
     
@@ -96,7 +84,21 @@ Route::get('/areas', function() {
     }
     
     return view('areas.index', compact('areas'));
-})->name('areas.index');
+});
+
+// Areas - Debug controller
+Route::get('/areas-debug', function() {
+    try {
+        $controller = new \App\Http\Controllers\AreaController();
+        $result = $controller->index();
+        return 'AreaController works! View: ' . $result->name() . ', Areas count: ' . count($result->getData()['areas']);
+    } catch (\Exception $e) {
+        return 'AreaController error: ' . $e->getMessage();
+    }
+});
+
+// Areas - Use controller instead of closure
+Route::get('/areas', [AreaController::class, 'index'])->name('areas.index');
 
 Route::get('/areas/{area}', [AreaController::class, 'show'])->name('areas.show');
 

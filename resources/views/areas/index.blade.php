@@ -41,7 +41,7 @@
 
     .area-map {
         height: 200px;
-        background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+        background: url('/ser-bath/make safety a priority at home by installing the products for your accessible bathroom in canada.png') center center / cover no-repeat !important;
         position: relative;
         overflow: hidden;
     }
@@ -195,7 +195,7 @@
                 <!-- Header Section -->
                 <div class="mb-12">
                     <h1 class="text-4xl md:text-5xl font-bold text-gray-900 section-title mb-8">
-                        Our Service Areas
+                        Our Service Areas eeee - Updated at {{ date('Y-m-d H:i:s') }}
                     </h1>
                     <div class="prose prose-lg max-w-none">
                         <p class="text-xl text-gray-700 leading-relaxed mb-6">
@@ -223,14 +223,8 @@
                         <div class="area-card">
                             <!-- Map Section -->
                             <div class="area-map">
-                                <div class="map-placeholder">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-16 h-16">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                                    </svg>
-                                </div>
                                 <!-- Overlay with city name -->
-                                <div class="absolute inset-0 bg-black bg-opacity-30 flex items-end p-4">
+                                <div class="absolute inset-0 bg-black bg-opacity-60 flex items-end p-4">
                                     <h3 class="text-white text-xl font-bold">{{ ucfirst(str_replace('-', ' ', $area)) }}</h3>
                                 </div>
                             </div>
@@ -239,16 +233,16 @@
                             <div class="card-body">
                                 <h3>Home2stay {{ ucfirst(str_replace('-', ' ', $area)) }}</h3>
                                 <p>
-                                    @if($area === 'toronto')
-                                        Serving Toronto and the Greater Toronto Area with comprehensive accessibility solutions including stairlifts, grab bars, ramps, and bathroom modifications. Our local team understands the unique needs of GTA residents.
-                                    @elseif($area === 'vancouver')
-                                        Providing accessibility solutions throughout Vancouver and the Lower Mainland. From downtown Vancouver to Surrey, we help residents create safer, more accessible homes with professional installation services.
+                                    @if($area === 'stair-lifts-surrey-british-columbia')
+                                        Serving Surrey and the surrounding Fraser Valley region with professional accessibility solutions. Our Surrey team specializes in stairlifts, grab bars, ramps, and comprehensive home modifications for residents throughout the area.
+                                    @elseif($area === 'stair-lifts-vancouver')
+                                        Providing accessibility solutions throughout Vancouver and the Lower Mainland. We help residents create safer, more accessible homes with professional installation services.
                                     @else
                                         Professional accessibility solutions and home safety equipment for {{ ucfirst(str_replace('-', ' ', $area)) }} residents. Our experienced team provides personalized service and expert installation.
                                     @endif
                                 </p>
                                 
-                                <a href="{{ route('areas.show', $area) }}" class="btn-primary">
+                                <a href="{{ route('areas.show', $area) }}" class="btn-primary mt-auto">
                                     <span>Learn More</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20" fill="currentColor">
                                         <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />

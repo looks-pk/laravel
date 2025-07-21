@@ -998,93 +998,98 @@
     </div>
 </section>
 
-<!-- A Natural Wonder in Richmond Hill Section -->
+<!-- About North Vancouver Section -->
 <section class="py-16">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
+        <h3 class="text-2xl md:text-3xl font-bold text-gray-900 section-title mb-8 text-center">
             About North Vancouver, BC
-        </h2>
+        </h3>
         <div class="max-w-4xl mx-auto prose prose-lg">
             <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                Nestled in nature, North Vancouver is famous for its hills, multi-level homes, and stunning architecture. It is an incredibly beautiful place to live, but stairs can be a hurdle, especially for seniors or people with mobility issues.
-            </p>
-            <p class="text-gray-600 leading-relaxed mb-6">
-                That's where we come in. We offer the most reliable, safe and stylish stairlifts North Vancouver has to offer for any home and building.
-            </p>
-            <p class="text-gray-600 leading-relaxed">
-                Specialising in high-quality stairlifts in North Vancouver that improve your life and your staircase. Straight, curved, custom-designed, however you want your railing installed, we are meticulous with it. Our stairlifts are contemporary, stylish and loaded with features.
+                Nestled in nature, North Vancouver is famous for its hills, multi-level homes, and stunning architecture. It is an incredibly beautiful place to live, but stairs can be a hurdle, especially for seniors or people with mobility issues. That's where we come in. We offer the most reliable, safe and stylish stairlifts North Vancouver has to offer for any home and building.
             </p>
         </div>
     </div>
 </section>
 
-<!-- Expert Installation & Local Support Section -->
+<!-- Stair Lifts in North Vancouver Section -->
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
+        <h3 class="text-2xl md:text-3xl font-bold text-gray-900 section-title mb-8 text-center">
             Stair Lifts in North Vancouver
+        </h3>
+        <div class="max-w-4xl mx-auto prose prose-lg">
+            <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                Specialising in high-quality stairlifts in North Vancouver that improve your life and your staircase. Straight, curved, custom-designed, however you want your railing installed, we are meticulous with it. Our stairlifts are contemporary, stylish and loaded with features.
+            </p>
+            <p class="text-gray-600 leading-relaxed">
+                Need something custom-made? No problem. Our special stair lifts in North Vancouver have been customised for our homes and buildings that need much more than a routine solution. We ensure it's a stress-free experience from consultation to installation.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Commercial Stair Lifts Section -->
+<section class="py-16">
+    <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
+            Commercial stair lifts North Vancouver
         </h2>
         <div class="max-w-4xl mx-auto mb-12">
             <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">
-                Need something custom-made? No problem. Our special stair lifts in North Vancouver have been customised for our homes and buildings that need much more than a routine solution.
-            </p>
-            <p class="text-gray-600 leading-relaxed text-center">
-                We ensure it's a stress-free experience from consultation to installation. We handle everything, from pre-installation and installation to post-installation. You receive more than a stairlift from us. You get peace of mind.
+                Every business needs access. We are proud to support businesses in and around North Vancouver to make their offices more accessible and inclusive by offering heavy-duty, sleek and smooth, frequently used Commercial stairlifts.
             </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="service-card p-8 text-center">
-                <div class="service-icon mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="service-card p-8">
+                <div class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">Business (Indoor) Stannah 260</h3>
+                <p class="text-gray-600">
+                    This curved lift is sturdy and smooth with a modern design for commercial applications. It provides gentle relief for anyone and is ideal for offices, clinics, and public settings.
+                </p>
+            </div>
+
+            <div class="service-card p-8">
+                <div class="service-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">Commercial Stair Lifts North Vancouver</h3>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">K2 Plus Commercial</h3>
                 <p class="text-gray-600">
-                    Every business needs access. We are proud to support businesses in and around North Vancouver to make their offices more accessible and inclusive by offering heavy-duty, sleek and smooth, frequently used Commercial stairlifts.
+                    This heavy-duty lift lifts and carries more weight, and is perfect for narrow stairways. It is sturdy, safe, and suitable for a hectic environment.
                 </p>
             </div>
 
-            <div class="service-card p-8 text-center">
-                <div class="service-icon mx-auto">
+            <div class="service-card p-8">
+                <div class="service-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">North Vancouver After Hours Support</h3>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">Stairfriend Commercial</h3>
                 <p class="text-gray-600">
-                    Not everything in life happens during business hours. We're here to help your team with whatever you need, nights, weekends, holidays or otherwise. If something's not working right, we're on it quickly.
+                    Have a staircase that's hard or curved? Stairfriend offers customised aesthetics, easy installation and unmatched safety for your loved one. Ideal for any commercial place in North Vancouver.
                 </p>
             </div>
 
-            <div class="service-card p-8 text-center">
-                <div class="service-icon mx-auto">
+            <div class="service-card p-8">
+                <div class="service-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">North Vancouver Device & Regular Maintenance</h3>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">Vancouver North Home Stair Lifts</h3>
                 <p class="text-gray-600">
-                    Ensure your lift is operable throughout the year. We provide complete maintenance and safety inspections to ensure that your lift works like new. We are fast to respond, and get it done right the first time.
+                    Your home is meant to be a safe place where to have the means to navigate it safely. Our North Vancouver home stairlifts provide you with that freedom without a drastic redesign or alteration of your home design.
                 </p>
             </div>
-        </div>
-    </div>
-</section>
 
-<!-- Who Can Benefit Section -->
-<section class="py-16">
-    <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
-            Vancouver North Home Stair Lifts
-        </h2>
-        <p class="text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto">
-            Your home is meant to be a safe place where to have the means to navigate it safely. Our North Vancouver home stairlifts provide you with that freedom without a drastic redesign or alteration of your home design.
-        </p>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="service-card p-8">
                 <div class="service-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
@@ -1108,31 +1113,88 @@
                     Ideal for straight staircases, this lift is small, sleek and easy to use. It's a neat-folded and easy-operated garment. Great for smaller homes.
                 </p>
             </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our Major Services Section -->
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
+            Our Major Services
+        </h2>
+        <p class="text-lg text-gray-700 leading-relaxed mb-12 text-center max-w-3xl mx-auto">
+            We handle everything, from pre-installation and installation to post-installation. You receive more than a stairlift from us. You get peace of mind.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="service-card p-8">
+                <div class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">North Vancouver After Hours Support</h3>
+                <p class="text-gray-600">
+                    Not everything in life happens during business hours. We're here to help your team with whatever you need, nights, weekends, holidays or otherwise.
+                </p>
+            </div>
 
             <div class="service-card p-8">
                 <div class="service-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">Commercial Models Available</h3>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">Service Trouble Calls</h3>
                 <p class="text-gray-600">
-                    We offer Business (Indoor) Stannah 260, K2 Plus Commercial, and Stairfriend Commercial models. These heavy-duty lifts provide gentle relief for anyone and are ideal for offices, clinics, and public settings.
+                    If something's not working right, we're on it quickly. We are fast to respond, and get it done right the first time.
+                </p>
+            </div>
+
+            <div class="service-card p-8">
+                <div class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">North Vancouver Device & Regular Maintenance</h3>
+                <p class="text-gray-600">
+                    Ensure your lift is operable throughout the year. We provide complete maintenance and safety inspections to ensure that your lift works like new.
                 </p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Stairlift Solutions Section -->
+<!-- Locations We Service Section -->
 <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
+            Locations We Service
+        </h2>
+        <div class="max-w-4xl mx-auto prose prose-lg">
+            <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">
+                We provide services to the entire North Vancouver region, from the Lower Mainland, Vancouver, Surrey, Abbotsford, Richmond, Coquitlam, Port Moody, Tri-Cities, Mission, Delta, Pitt Meadows, Burnaby, Chilliwack, White Rock, Aldergrove, Maple Ridge and Langley. If you're in a townhouse, heritage home, or condo, we have the perfect solution for you.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Stairlift Solutions Section -->
+<section class="py-16">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
             All Types Of Stair Lifts | Home Styles | North Vancouver, BC
         </h2>
-        <p class="text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto">
-            Like anywhere, North Vancouver homes come in all shapes and sizes, and so do their staircases. And that's why we have straight, curved and fully custom stair lifts in North Vancouver that are customized to fit the exact shape and format of your surroundings.
-        </p>
+        <div class="max-w-4xl mx-auto mb-12">
+            <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">
+                Like anywhere, North Vancouver homes come in all shapes and sizes, and so do their staircases. And that's why we have straight, curved and fully custom stair lifts in North Vancouver that are customized to fit the exact shape and format of your surroundings.
+            </p>
+            <p class="text-gray-600 leading-relaxed text-center">
+                No two houses are the same, and your lift should reflect that. We analyse your space and customise a perfect fit every time. Whether your stairs are narrow, wide or curved, we have the product for you.
+            </p>
+        </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="service-card p-8">
@@ -1174,60 +1236,79 @@
     </div>
 </section>
 
-<!-- Our Major Services Section -->
-<section class="py-16">
+
+
+<!-- Our Services Section -->
+<section class="py-16 bg-gray-50">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
-            Our Major Services
+            Our Services
         </h2>
-        <p class="text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto">
-            We handle everything, from pre-installation and installation to post-installation. You receive more than a stairlift from us. You get peace of mind.
-        </p>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div class="service-card p-6">
-                <h3 class="text-lg font-bold text-gray-900 mb-3">Barrier-Free Bathrooms</h3>
-                <p class="text-gray-600">Safe and simple to use, carefree designs for all types of mobility</p>
+        <div class="max-w-4xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-700">Free in-home consultation</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-700">Customized recommendations</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-700">Fast, clean installation</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-700">Custom stairlift design</span>
+                    </li>
+                </ul>
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-700">Both Curved and straight staircase choices</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-700">Indoor and outdoor models</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-700">Emergency support and repairs</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-700">Protective maintenance schedules</span>
+                    </li>
+                </ul>
             </div>
-
-            <div class="service-card p-6">
-                <h3 class="text-lg font-bold text-gray-900 mb-3">Grab Bars</h3>
-                <p class="text-gray-600">Bath, hallway, or anywhere else you may need extra support</p>
-            </div>
-
-            <div class="service-card p-6">
-                <h3 class="text-lg font-bold text-gray-900 mb-3">Stairlifts</h3>
-                <p class="text-gray-600">Industry-leading brands installed by experts</p>
-            </div>
-
-            <div class="service-card p-6">
-                <h3 class="text-lg font-bold text-gray-900 mb-3">Ramps</h3>
-                <p class="text-gray-600">For doorways, porches or anywhere that extra accessibility is needed</p>
-            </div>
-
-            <div class="service-card p-6">
-                <h3 class="text-lg font-bold text-gray-900 mb-3">Tub Cuts</h3>
-                <p class="text-gray-600">Convert a standard tub to a walk-in</p>
-            </div>
-
-            <div class="service-card p-6">
-                <h3 class="text-lg font-bold text-gray-900 mb-3">Safety Poles & Handrails</h3>
-                <p class="text-gray-600">Add stability in the places you need it most</p>
-            </div>
+            <p class="text-gray-600 text-center mt-8 max-w-2xl mx-auto">
+                All services are supported by a team that truly cares that you are safe and comfortable. This is the change we provide with our North Vancouver stair lifts.
+            </p>
         </div>
-
-        <p class="text-gray-600 text-center mt-8 max-w-2xl mx-auto">
-            We provide services to the entire North Vancouver region, from the Lower Mainland, Vancouver, Surrey, Abbotsford, Richmond, Coquitlam, Port Moody, Tri-Cities, Mission, Delta, Pitt Meadows, Burnaby, Chilliwack, White Rock, Aldergrove, Maple Ridge and Langley.
-        </p>
     </div>
 </section>
 
 <!-- Call to Action Section -->
 <section class="py-16 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
     <div class="container mx-auto px-4 text-center">
-        <h2 class="text-3xl md:text-4xl font-bold mb-6">
-            Ready to Get Started?
-        </h2>
         <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">
             Are you ready to move on to independence? Let's get your home or business safer today. Get in touch with us about your free consultation and find out how our expert staff is providing the best stair lifts in North Vancouver with ease, speed and great service.
         </p>
@@ -1254,9 +1335,9 @@
 <!-- FAQs Section -->
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-12 text-center">
-            Frequently Asked Questions
-        </h2>
+        <h3 class="text-2xl md:text-3xl font-bold text-gray-900 section-title mb-12 text-center">
+            FAQs
+        </h3>
 
                  <div class="max-w-4xl mx-auto space-y-6">
              <div class="faq-item">

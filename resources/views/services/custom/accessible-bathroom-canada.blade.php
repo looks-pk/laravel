@@ -317,8 +317,8 @@
                     <a href="{{ route('contact') }}" class="px-8 py-3 bg-white text-primary hover:bg-gray-100 rounded-lg font-medium transition duration-300">
                         Contact Us
                     </a>
-                    <a href="tel:+16042393662" class="px-8 py-3 bg-transparent border-2 border-white text-white hover:bg-white/10 rounded-lg font-medium transition duration-300">
-                        Call +1(604) 239-3662
+                    <a href="tel:+16042591211" class="px-8 py-3 bg-transparent border-2 border-white text-white hover:bg-white/10 rounded-lg font-medium transition duration-300">
+                        Call (604) 259-1211
                     </a>
                 </div>
             </div>

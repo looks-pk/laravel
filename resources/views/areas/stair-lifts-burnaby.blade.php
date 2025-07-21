@@ -282,10 +282,10 @@
     <div class="container mx-auto px-4 relative z-10">
         <div class="text-center">
             <h1 class="text-4xl md:text-6xl font-bold mb-6">
-                Stair Lifts in Burnaby, BC
+                Best Stair Lifts Burnaby
             </h1>
             <p class="text-xl md:text-2xl mb-8 opacity-90 max-w-3xl mx-auto">
-                Let us assist you in making your next move towards freedom with the best stairlifts custom-fitted to your home in Burnaby, BC. Our consultant team is always here for your assistance. Just call us, and we will be there on time.
+                Call Home2Stay experts for installing a stair lift in Burnaby. We're available 24/7 for your assistance in Burnaby.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="#contact" class="btn-secondary text-lg px-8 py-4">
@@ -305,23 +305,20 @@
     </div>
 </section>
 
-<!-- About Richmond Hill Section -->
+<!-- Reliable Service Section -->
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8">
-                    Professional Stair Lifts in Burnaby, BC
+                    Reliable Service If Stair Lift In Burnaby
                 </h2>
                 <div class="prose prose-lg max-w-none">
                     <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                        In search of stairlifts in Burnaby, BC? Home2stay is one of the most valuable options. We know when stairs can start getting difficult. Old age, injury, or mobility issues, whatever is slowing you down, we're here for your assistance.
+                        If you're searching for the best stairlifts in Burnaby, you're in the right place. At some point, usually, the home needs to adjust to make life easier for those people we love. If you or someone else near you is searching for stairs and having more difficulty managing stairs, then a stairlift can make all the difference.
                     </p>
                     <p class="text-gray-600 leading-relaxed mb-6">
-                        Our stairlifts give you a risk-free, easy way to take your freedom back at home or work. Well, in Burnaby here, that's what we do; we provide sturdy, budget-friendly and durable Burnaby stairlifts to suit any staircase.
-                    </p>
-                    <p class="text-gray-600 leading-relaxed">
-                        When creating a safer, more accessible home, there's no need to sacrifice style, space, or comfort. Home2stay offers top-of-the-line Burnaby stairlifts that come right to you, are easily installed with no trouble, and provide the best service around.
+                        We're experts in stair lifts in Burnaby, BC. We offer reliable, safe, and stylish stairlift services customized to your specific needs. With professional service and local support, we ensure that every part of the process is smooth, from your first call to the final installation.
                     </p>
                 </div>
             </div>
@@ -333,6 +330,37 @@
                     referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>
+        </div>
+    </div>
+</section>
+
+<!-- A Natural Wonder in Burnaby Section -->
+<section class="py-16">
+    <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
+            A Natural Wonder in Burnaby
+        </h2>
+        <div class="max-w-4xl mx-auto prose prose-lg">
+            <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                Burnaby is a growing, diverse community just east of Vancouver. As we know, it's a place full of families, retirees and working professionals. As homes age and families change, accessibility becomes more than just a concern; it becomes very essential. Our experts know the unique needs and requirements of Burnaby residents. We offer customised stair lift services to our aged clients. Also, we ensure your safety, and our experts take care of your comfortable movement throughout your home.
+            </p>
+            <p class="text-gray-600 leading-relaxed mb-6">
+                If you're going to choose any multi-level place or luxury villa, our stairlift services are specially customised to help you move anywhere in your personal space.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Stair Lifts - Burnaby, BC Section -->
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
+            Stair Lifts - Burnaby, BC
+        </h2>
+        <div class="max-w-4xl mx-auto prose prose-lg">
+            <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                Your comfort at home matters. When walking up stairs becomes challenging, or even dangerous, it's time to consider a solution that will help make your home safe once more. We offer a choice of Stair Lifts in Burnaby, BC, making staying in your own home more manageable than ever. We provide options for custom-made Stair Lifts Installation Burnaby that fit into your existing environment. Whether it's a straight or spiral staircase, or outdoors.
+            </p>
         </div>
     </div>
 </section>
@@ -998,38 +1026,17 @@
     </div>
 </section>
 
-<!-- A Natural Wonder in Richmond Hill Section -->
+
+
+<!-- Expert Installation & Local Support Section -->
 <section class="py-16">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
-            Burnaby, BC Community & Culture
-        </h2>
-        <div class="max-w-4xl mx-auto prose prose-lg">
-            <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                And Burnaby is not just growing; it's transforming. Burnaby is home to many residents, and with soaring demand for sustainable living, you will find that more and more people are getting stairlifts installed within their Burnaby homes and businesses.
-            </p>
-            <p class="text-gray-600 leading-relaxed mb-6">
-                From cute-as-a-button character homes and slick modern townhouses or flats to commercial property, every stairway here has a tale to tell, and we have a stairlift for all of them.
-            </p>
-            <p class="text-gray-600 leading-relaxed">
-                We offer nothing but the best in stair lifts in Burnaby, BC, that are made to the exact measurements of your stairs. Moreover, our models are ideal for both commercial and residential settings.
-            </p>
-        </div>
-    </div>
-</section>
-
-<!-- Expert Installation & Local Support Section -->
-<section class="py-16 bg-gray-50">
-    <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
-            Stair Lifts in Burnaby, BC
+            Expert Installation & Local Support in Burnaby
         </h2>
         <div class="max-w-4xl mx-auto mb-12">
             <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">
-                So, however you're inclined, straight, curved or personalized, we have the perfect solution for you. We're not simply a distributor for Burnaby stairlifts; we design accessibility services.
-            </p>
-            <p class="text-gray-600 leading-relaxed text-center">
-                From the initial consultation to the installation and after-service, you're in the hands of experts who have your comfort and safety in mind.
+                We are a local team living and working in Burnaby. That means we know the homes and the layout of our neighbourhoods, and most importantly. We're just a call away when you need support. Stair lifts Installation Burnaby services. Your wait will not be weeks. Installation is fast, usually taking only a few hours, and is performed with the greatest care. No damage to your walls. No mess was left behind. Just a good and working stairlift.
             </p>
         </div>
 
@@ -1040,9 +1047,9 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">Commercial Stair Lifts in Burnaby, BC</h3>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">Local Expertise</h3>
                 <p class="text-gray-600">
-                    Accessibility is not another checkbox; it's a responsibility. Whether you need them in a retail store, office building or community centre, we provide commercial stair lifts in Burnaby, BC, that are up to code and then some.
+                    Our local team will come to your residence to evaluate your mobility requirements and staircase configuration, providing professional advice on the ideal stairlift option for your home.
                 </p>
             </div>
 
@@ -1053,9 +1060,9 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">Burnaby, BC After Hours Support</h3>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">Professional Installation</h3>
                 <p class="text-gray-600">
-                    Need assistance after hours? We're there when you need us most. Quick response, no delay.
+                    Our qualified installers guarantee that your stairlift is set up swiftly and securely, allowing you to begin using it quickly without interruptions to your daily routine.
                 </p>
             </div>
 
@@ -1065,9 +1072,9 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">Burnaby, BC Device & Regular Maintenance</h3>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">Comprehensive Support</h3>
                 <p class="text-gray-600">
-                    The stairlift is something you will use for many years. Maintain it, as you would know, with our maintenance packages. Preventive care is time and money saved later.
+                    We offer support and maintenance services to ensure your stairlift remains in top condition, providing you with reassurance and quiet well beyond installation.
                 </p>
             </div>
         </div>
@@ -1075,13 +1082,13 @@
 </section>
 
 <!-- Who Can Benefit Section -->
-<section class="py-16">
+<section class="py-16 bg-gray-50">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
-            Residential Stair Lifts in Burnaby, BC
+            Who Can Benefit from a Stairlift in Burnaby?
         </h2>
         <p class="text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto">
-            You need to feel great at home. Our stairlifts in Burnaby, BC, are designed to give you back your freedom and independence, and once again offer you the ability to easily and safely move around your own home.
+            We're your best partner for your stair lift installation in Burnaby, BC. Call our consultant and get your appointment for stairlift service at your home.
         </p>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -1091,9 +1098,9 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">Stannah 260 Curved (Indoor)</h3>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">Seniors Choosing to Age in Place</h3>
                 <p class="text-gray-600">
-                    Custom-built for curved stairs with landings or turns. Molds to your staircase like a glove. Comes with seat positions, safety features and a whisper-quiet ride.
+                    A lot of Burnaby seniors are choosing to remain in their homes longer. This is where a stair lift comes in; ageing in place becomes a safer reality. You won't need to downsize or go to assisted living. One easy fix can retain your independence.
                 </p>
             </div>
 
@@ -1103,9 +1110,9 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">Stannah 600 Straight (Indoor)</h3>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">People with Mobility Issues</h3>
                 <p class="text-gray-600">
-                    Clean, unassuming and ideal for straight stairs. The slender rail system and collapsible chair design leave your hallway clean. Reliable, comfortable, and ready to fit every day.
+                    Immobility issues can occur at any point in life. Whether for a short-term injury or a chronic disease such as arthritis or MS, a stair lift provides safety against falls. This way, you can comfortably and confidently navigate in your own home.
                 </p>
             </div>
 
@@ -1115,25 +1122,23 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">Commercial Models Available</h3>
-                <div class="text-gray-600 space-y-3">
-                    <p><strong>Stannah 260 Business (Inside):</strong> Ideal for commercial curved staircases. Silent, smooth, and fit for everyday public use. Provides customizable seating styles and color choices.</p>
-                    <p><strong>K2 Plus Commercial:</strong> Heavy-duty choice that can hold more weight and stand up to frequent usage. Its compact form means it can even fit tight staircases.</p>
-                    <p><strong>Stairfriend Commercial:</strong> Best for structures that have non-standard or non-conventional stair designs. Provides automatic folding rails and custom-made options.</p>
-                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">Family Caregivers and Loved Ones</h3>
+                <p class="text-gray-600">
+                    And if you're giving a helping hand to a parent or partner, preventing them from falling, a stairlift will make your job easier. It eliminates one of the most dangerous areas in the home: the stairs. It's reassurance, both for yourself and the person that you love.
+                </p>
             </div>
         </div>
     </div>
 </section>
 
 <!-- Stairlift Solutions Section -->
-<section class="py-16 bg-gray-50">
+<section class="py-16">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
-            Types of Stair Lifts | House Styles | Burnaby, BC
+            Stairlift Solutions to Suit Burnaby's Diverse Housing Styles
         </h2>
         <p class="text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto">
-            Burnaby's homes are just as heterogeneous as its population. We've been there, from multi-level townhouses to older homes with tight staircases. And we provide the best Burnaby stair lifts to go with any home design. Straight, curved, inside, outside, the whole nine yards.
+            Burnaby has a variety of older and newer properties, bungalows, split-levels and multi-storey houses. Regardless of the type of house that you reside in, we can create our stairlifts to suit your needs.
         </p>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -1143,9 +1148,9 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">Free Home Assessment</h3>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">Straight Stair Lifts</h3>
                 <p class="text-gray-600">
-                    We come out and go over space, and the design needs to create a perfect fit. Our experts assess your home and recommend the best solution.
+                    Ideal for buildings with a single flight of stairs. These are the least expensive and most common options. Fast to set up and extremely reliable.
                 </p>
             </div>
 
@@ -1155,9 +1160,9 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z" />
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">Custom Measurement & Fitting</h3>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">Curved Stair Lifts</h3>
                 <p class="text-gray-600">
-                    Curved & Straight Rails Available. Indoor & Outdoor Units. Our custom fitting ensures your stair lift perfectly matches your home's design and requirements.
+                    If your staircase includes landings or curves, we'll custom-manufacture a curved stairlift that suits your home. They're smooth, safe and custom-made for your particular staircase.
                 </p>
             </div>
 
@@ -1167,9 +1172,9 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">Installation in One Day</h3>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">Outdoor Stair Lifts</h3>
                 <p class="text-gray-600">
-                    Post-Installation Training & Emergency Repairs & Continued Support. It's more than a purchase, it's peace of mind with the best stairlift technicians in Burnaby.
+                    Our lifts also go outside! For stairs that lead to your front door, garden or patio, our outdoor stair lifts are designed to withstand all kinds of weather: snow, rain or shine.
                 </p>
             </div>
         </div>
@@ -1177,13 +1182,13 @@
 </section>
 
 <!-- Our Major Services Section -->
-<section class="py-16">
+<section class="py-16 bg-gray-50">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
-            Our Major Services
+            Our Major services
         </h2>
         <p class="text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto">
-            When you select our stair lifts in Burnaby, BC, you are receiving more than equipment. You've got a full-service team from the get-go.
+            We're not only stairlift experts, we offer a comprehensive range of services for home safety and accessibility in Burnaby. And all so you can maintain your independence.
         </p>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -1219,7 +1224,7 @@
         </div>
 
         <p class="text-gray-600 text-center mt-8 max-w-2xl mx-auto">
-            We are committed to everyone living in Burnaby, Lower Mainland, Vancouver, Surrey, Abbotsford, Richmond, Coquitlam, Port Moody, Tri-Cities, Mission, Delta, Pitt Meadows, Chilliwack, White Rock, Aldergrove, Maple Ridge and Langley. No matter if you are in a high-rise, a bungalow or a townhome, we have assigned lifts in Burnaby customised to your space.
+            We care deeply about your safety and comfort, which is why we design, measure and install our solutions ourselves and always have real people just a call away to support you when you need it.
         </p>
     </div>
 </section>
@@ -1228,13 +1233,10 @@
 <section class="py-16 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
     <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl md:text-4xl font-bold mb-6">
-            Ready to Get Started?
+            Call to Action
         </h2>
         <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-            Isn't it time to improve your home or business access? Restore your mobility, freedom, and comfort. Call for a free in-home visit and consultation.
-        </p>
-        <p class="text-lg mb-8 max-w-2xl mx-auto">
-            Find out why homeowners and business owners trust our stairlifts in Burnaby, BC. Don't hesitate, enjoy safe, effortless mobility with just a phone call!
+            Ready to make your home safer, easier to live in, and more comfortable for everyone? Call us today. If you're shopping or about to pull the trigger, we're here to walk you through each part of the process. You can get the Best Stair Lifts Burnaby by simply making a call. Let us find a way for you to stay in the home you love, without needing to navigate stairs.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:604-259-1211" class="btn-secondary text-lg px-8 py-4">
@@ -1257,80 +1259,108 @@
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-12 text-center">
-            Frequently Asked Questions
+            FAQs
         </h2>
 
-                 <div class="max-w-4xl mx-auto space-y-6">
-             <div class="faq-item">
-                 <button class="faq-question" type="button">
-                     <span>What are alternative stair lifts for seniors?</span>
-                     <svg class="faq-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                     </svg>
-                 </button>
-                 <div class="faq-answer">
-                     <div class="faq-answer-content">
-                         Some seniors add elevators, chair lifts or downsize to single-level homes. But stairlifts in Burnaby, BC are still the cheapest and least-invasive solution.
-                     </div>
-                 </div>
-             </div>
+        <div class="max-w-4xl mx-auto space-y-6">
+            <div class="faq-item">
+                <button class="faq-question" type="button">
+                    <span>How Are Stair Lifts Installed?</span>
+                    <svg class="faq-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Most stair lifts are installed in just a few hours. They attach directly to your stair treads, not the wall, so there's no major construction or damage.
+                    </div>
+                </div>
+            </div>
 
-             <div class="faq-item">
-                 <button class="faq-question" type="button">
-                     <span>What is the next-generation stairlift?</span>
-                     <svg class="faq-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                     </svg>
-                 </button>
-                 <div class="faq-answer">
-                     <div class="faq-answer-content">
-                         The newest models also include retractable configurations, cordless remotes, and energy-efficient motors. Today's modern Burnaby stair lifts are smoother, more modern and more intelligent than ever.
-                     </div>
-                 </div>
-             </div>
+            <div class="faq-item">
+                <button class="faq-question" type="button">
+                    <span>Do Stair Lift Dealers Serve My Area?</span>
+                    <svg class="faq-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Absolutely. We provide full-service Stairlift installation in Burnaby and nearby areas.
+                    </div>
+                </div>
+            </div>
 
-             <div class="faq-item">
-                 <button class="faq-question" type="button">
-                     <span>How much does an electric stairlift cost to install?</span>
-                     <svg class="faq-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                     </svg>
-                 </button>
-                 <div class="faq-answer">
-                     <div class="faq-answer-content">
-                         It can cost between $3,000 and $12,000, depending on your staircase (straight or curved). We offer comprehensive quotes up front, no surprises.
-                     </div>
-                 </div>
-             </div>
+            <div class="faq-item">
+                <button class="faq-question" type="button">
+                    <span>Do Stair Lifts Have a Warranty?</span>
+                    <svg class="faq-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Yes, all our stairlifts come with manufacturer warranties. Extended service plans are also available.
+                    </div>
+                </div>
+            </div>
 
-             <div class="faq-item">
-                 <button class="faq-question" type="button">
-                     <span>How much does an Acorn stairlift cost on average?</span>
-                     <svg class="faq-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                     </svg>
-                 </button>
-                 <div class="faq-answer">
-                     <div class="faq-answer-content">
-                         Acorn stairlifts cost around $3,500 for a straight model. Curved mattresses are added because of the custom touch. We have competitive prices and better warranties for our clients.
-                     </div>
-                 </div>
-             </div>
+            <div class="faq-item">
+                <button class="faq-question" type="button">
+                    <span>Are Stair Lifts Covered by Health Insurance?</span>
+                    <svg class="faq-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        In most cases, health insurance doesn't cover stair lifts, but there may be tax credits or local funding options available. We'll help you explore them.
+                    </div>
+                </div>
+            </div>
 
-             <div class="faq-item">
-                 <button class="faq-question" type="button">
-                     <span>What is the most affordable stairlift?</span>
-                     <svg class="faq-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                     </svg>
-                 </button>
-                 <div class="faq-answer">
-                     <div class="faq-answer-content">
-                         Straight stairlifts are also the least expensive. They are easy to install and do not need as much customisation. If your home has a plain staircase, this is the perfect fit.
-                     </div>
-                 </div>
-             </div>
-         </div>
+            <div class="faq-item">
+                <button class="faq-question" type="button">
+                    <span>Do Stair Lifts Work During Power Outages?</span>
+                    <svg class="faq-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Yes! Our stair lifts come with battery backup so you can still use them even if the power goes out.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" type="button">
+                    <span>What Stairlift Weight Capacities Are Available?</span>
+                    <svg class="faq-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Most models support up to 300-400 lbs. We also offer heavy-duty options for higher weight capacities.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" type="button">
+                    <span>How Much Does A Stair Lift Cost?</span>
+                    <svg class="faq-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Prices vary depending on the model and staircase type. We offer free in-home assessments so you get an accurate quote with no surprises.
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 @endsection

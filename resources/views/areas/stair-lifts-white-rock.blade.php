@@ -1026,62 +1026,20 @@
         </h2>
         <div class="max-w-4xl mx-auto mb-12">
             <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">
-                You're not alone. We're an expert in high-quality Stairlifts in White Rock, offering comfort, reliability, and modern design, all at competitive prices.
+                You're not alone. Many families in White Rock are making smart moves by installing stairlifts. And when you work with Home2Stay, you're not just getting a stairlift, you're getting peace of mind. We're an expert in high-quality Stairlifts in White Rock, offering comfort, reliability, and modern design, all at competitive prices. From start to finish, we handle everything for you. No stress. No hassle. Just a stairlift that fits your life.
             </p>
-            <p class="text-gray-600 leading-relaxed text-center">
-                From start to finish, we handle everything for you. No stress. No hassle. Just a stairlift that fits your life.
-            </p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="service-card p-8 text-center">
-                <div class="service-icon mx-auto">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">What Type of Stairlift Do You Require?</h3>
-                <p class="text-gray-600">
-                    We offer a range of stairlifts to match every home style and need. Our most popular models come from Acorn, known for safety and durability. Choose from the Acorn 130 Straight, Acorn 180 Curved, or Acorn 130 Outdoor models.
-                </p>
-            </div>
-
-            <div class="service-card p-8 text-center">
-                <div class="service-icon mx-auto">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">A Fully Fitted Stairlift in Four Simple Steps</h3>
-                <p class="text-gray-600">
-                    Getting your stairlift from home2stay is easy: 1) Book a Free Home Visit, 2) Get Your Personalised Quote, 3) Professional Installation, 4) Enjoy Everyday Comfort. Your stairlift is ready to use, and we're always here for support.
-                </p>
-            </div>
-
-            <div class="service-card p-8 text-center">
-                <div class="service-icon mx-auto">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
-                    </svg>
-                </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">Installation of Stairlifts in White Rock, British Columbia</h3>
-                <p class="text-gray-600">
-                    You'll never wait long. We provide quick and professional stairlift installation right here in White Rock. Most models are installed in just a few hours. We're local stairlift service providers, so we know how to work with the homes in White Rock.
-                </p>
-            </div>
         </div>
     </div>
 </section>
 
-<!-- Who Can Benefit Section -->
+<!-- What Type of Stairlift Do You Require Section -->
 <section class="py-16">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
-            Acorn Stairlift Models for White Rock Homes
+            What Type of Stairlift Do You Require?
         </h2>
         <p class="text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto">
-            No matter which you choose, you'll enjoy safety, comfort, and confidence every day. Our trusted Acorn models are designed to fit perfectly in White Rock homes.
+            We offer a range of stairlifts to match every home style and need. Our most popular models come from Acorn, known for safety and durability.
         </p>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -1093,7 +1051,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">The Acorn 130 Straight Stairlift</h3>
                 <p class="text-gray-600">
-                    Perfect for homes with a straight staircase. Simple, fast to install, and built for daily use. This reliable model offers smooth operation and safety features that give you peace of mind every time you use it.
+                    Perfect for homes with a straight staircase. Simple, fast to install, and built for daily use.
                 </p>
             </div>
 
@@ -1105,7 +1063,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">The Acorn 180 Curved Stairlift</h3>
                 <p class="text-gray-600">
-                    Custom-designed for curved stairs, landings, or spiral designs. It fits perfectly and runs smoothly, handling even the most complex staircase configurations with ease and reliability.
+                    Custom-designed for curved stairs, landings, or spiral designs. It fits perfectly and runs smoothly.
                 </p>
             </div>
 
@@ -1117,9 +1075,73 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">The Acorn 130 Outdoor Stairlift</h3>
                 <p class="text-gray-600">
-                    This model is built to handle the elements. Great for outdoor steps, porches, and garden paths. Weather-resistant and durable, it provides reliable access in all seasons.
+                    This model is built to handle the elements. Great for outdoor steps, porches, and garden paths.
                 </p>
             </div>
+        </div>
+
+        <p class="text-gray-600 text-center mt-8 max-w-2xl mx-auto">
+            No matter which you choose, you'll enjoy safety, comfort, and confidence every day.
+        </p>
+    </div>
+</section>
+
+<!-- A Fully Fitted Stairlift in Four Simple Steps Section -->
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
+            A Fully Fitted Stairlift in Four Simple Steps
+        </h2>
+        <p class="text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto">
+            Getting your stairlift from home2stay is easy. Here's how it works:
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="service-card p-6 text-center">
+                <div class="service-icon mx-auto mb-4">
+                    <span class="text-2xl font-bold">1</span>
+                </div>
+                <h3 class="text-lg font-bold text-gray-900 mb-3">Book a Free Home Visit</h3>
+                <p class="text-gray-600">We come to your home, take measurements, and answer your questions.</p>
+            </div>
+
+            <div class="service-card p-6 text-center">
+                <div class="service-icon mx-auto mb-4">
+                    <span class="text-2xl font-bold">2</span>
+                </div>
+                <h3 class="text-lg font-bold text-gray-900 mb-3">Get Your Personalised Quote</h3>
+                <p class="text-gray-600">No surprises. Just clear pricing and options customised to your space.</p>
+            </div>
+
+            <div class="service-card p-6 text-center">
+                <div class="service-icon mx-auto mb-4">
+                    <span class="text-2xl font-bold">3</span>
+                </div>
+                <h3 class="text-lg font-bold text-gray-900 mb-3">Professional Installation</h3>
+                <p class="text-gray-600">Our expert installers arrive on time and treat your home with care.</p>
+            </div>
+
+            <div class="service-card p-6 text-center">
+                <div class="service-icon mx-auto mb-4">
+                    <span class="text-2xl font-bold">4</span>
+                </div>
+                <h3 class="text-lg font-bold text-gray-900 mb-3">Enjoy Everyday Comfort</h3>
+                <p class="text-gray-600">Your stairlift is ready to use, and we're always here for support.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Installation of Stairlifts in White Rock Section -->
+<section class="py-16">
+    <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
+            Installation of Stairlifts in White Rock, British Columbia
+        </h2>
+        <div class="max-w-4xl mx-auto prose prose-lg">
+            <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">
+                You'll never wait long. We provide quick and professional stairlift installation right here in White Rock. Most models are installed in just a few hours. Our team ensures every detail is right, so your lift works perfectly and looks great, too. Whether it's indoors or outdoors, straight or curved, we make sure it fits just right. We're local stairlift service providers, so we know how to work with the homes in White Rock.
+            </p>
         </div>
     </div>
 </section>
@@ -1130,46 +1152,40 @@
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
             Commercial Stairlifts in White Rock
         </h2>
-        <p class="text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto">
-            Accessibility isn't just for homes. We also install Commercial Stairlifts in White Rock for businesses, care facilities, and public spaces. We help you meet code requirements while improving access for everyone who visits your building.
-        </p>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="service-card p-8">
-                <div class="service-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                    </svg>
+        <div class="max-w-4xl mx-auto prose prose-lg">
+            <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">
+                Accessibility isn't just for homes. We also install Commercial Stairlifts in White Rock for businesses, care facilities, and public spaces. If you want your space to be fully accessible, we've got reliable options that meet safety standards and blend into your building's design.
+            </p>
+            
+            <div class="space-y-4 mb-8">
+                <div class="flex items-start">
+                    <span class="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-1">1</span>
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Stannah 260 – Commercial (Indoor):</h3>
+                        <p class="text-gray-600">A top choice for curved indoor staircases in public settings.</p>
+                    </div>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">Stannah 260 – Commercial (Indoor)</h3>
-                <p class="text-gray-600">
-                    A top choice for curved indoor staircases in public settings. Built for reliability and designed to handle frequent use while maintaining a professional appearance.
-                </p>
-            </div>
-
-            <div class="service-card p-8">
-                <div class="service-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z" />
-                    </svg>
+                
+                <div class="flex items-start">
+                    <span class="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-1">2</span>
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">K2 Plus – Commercial:</h3>
+                        <p class="text-gray-600">Built tough for high-traffic areas and commercial durability.</p>
+                    </div>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">K2 Plus – Commercial</h3>
-                <p class="text-gray-600">
-                    Built tough for high-traffic areas and commercial durability. This heavy-duty model is perfect for businesses that need reliable, frequent use accessibility solutions.
-                </p>
-            </div>
-
-            <div class="service-card p-8">
-                <div class="service-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
-                    </svg>
+                
+                <div class="flex items-start">
+                    <span class="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-1">3</span>
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Stairfriend – Commercial:</h3>
+                        <p class="text-gray-600">Custom-made for complex or uniquely shaped stairs, including multiple levels or landings.</p>
+                    </div>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">Stairfriend – Commercial</h3>
-                <p class="text-gray-600">
-                    Custom-made for complex or uniquely shaped stairs, including multiple levels or landings. Perfect for buildings with challenging staircase configurations that require specialized solutions.
-                </p>
             </div>
+            
+            <p class="text-gray-600 text-center">
+                We help you meet code requirements while improving access for everyone who visits your building.
+            </p>
         </div>
     </div>
 </section>
@@ -1180,45 +1196,107 @@
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
             Residential Stair Lifts in White Rock
         </h2>
-        <p class="text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto">
-            Making your home safer shouldn't mean giving up your style. We offer elegant and efficient Residential Stair Lifts in White Rock that match your decor and layout. No matter the shape or size of your staircase, Home2Stay has a lift that fits perfectly.
-        </p>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div class="service-card p-6">
-                <h3 class="text-lg font-bold text-gray-900 mb-3">Stannah 260 Curved (Indoor)</h3>
-                <p class="text-gray-600">Designed for more complex stairs with curves or landings. Custom fit and ultra-smooth operation.</p>
+        <div class="max-w-4xl mx-auto prose prose-lg">
+            <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">
+                Making your home safer shouldn't mean giving up your style. We offer elegant and efficient Residential Stair Lifts in White Rock that match your decor and layout.
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-700"><strong>Stannah 260 Curved (Indoor):</strong> Designed for more complex stairs with curves or landings. Custom fit and ultra-smooth.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-700"><strong>Stannah 600 Straight (Indoor):</strong> Clean, modern, and compact. A great fit for straight staircases in any home.</span>
+                    </li>
+                </ul>
             </div>
-
-            <div class="service-card p-6">
-                <h3 class="text-lg font-bold text-gray-900 mb-3">Stannah 600 Straight (Indoor)</h3>
-                <p class="text-gray-600">Clean, modern, and compact. A great fit for straight staircases in any home.</p>
-            </div>
-
-            <div class="service-card p-6">
-                <h3 class="text-lg font-bold text-gray-900 mb-3">Locations We Service</h3>
-                <p class="text-gray-600">We proudly serve White Rock and the entire surrounding region including Surrey, Vancouver, Langley, Delta, and more.</p>
-            </div>
-
-            <div class="service-card p-6">
-                <h3 class="text-lg font-bold text-gray-900 mb-3">Ramps</h3>
-                <p class="text-gray-600">For doorways, porches or anywhere that extra accessibility is needed</p>
-            </div>
-
-            <div class="service-card p-6">
-                <h3 class="text-lg font-bold text-gray-900 mb-3">Tub Cuts</h3>
-                <p class="text-gray-600">Convert a standard tub to a walk-in</p>
-            </div>
-
-            <div class="service-card p-6">
-                <h3 class="text-lg font-bold text-gray-900 mb-3">Safety Poles & Handrails</h3>
-                <p class="text-gray-600">Add stability in the places you need it most</p>
-            </div>
+            
+            <p class="text-gray-600 text-center">
+                No matter the shape or size of your staircase, Home2Stay has a lift that fits perfectly.
+            </p>
         </div>
+    </div>
+</section>
 
-        <p class="text-gray-600 text-center mt-8 max-w-2xl mx-auto">
-            We proudly serve not just White Rock, but the entire surrounding region. If you're nearby and need accessibility services, give us a call: Lower Mainland, Vancouver, Surrey, Abbotsford, Richmond, Coquitlam, Port Moody, Tri-Cities, Mission, Delta, Pitt Meadows, Burnaby, Chilliwack, White Rock, Aldergrove, Maple Ridge and Langley.
-        </p>
+<!-- Locations We Service Section -->
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
+            Locations We Service
+        </h2>
+        <div class="max-w-4xl mx-auto prose prose-lg">
+            <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">
+                We proudly serve not just White Rock, but the entire surrounding region. If you're nearby and need accessibility services, give us a call. Our friendly team will let you know how quickly we can help in these areas: Lower Mainland, Vancouver, Surrey, Abbotsford, Richmond, Coquitlam, Port Moody, Tri-Cities, Mission, Delta, Pitt Meadows, Burnaby, Chilliwack, White Rock, Aldergrove, Maple Ridge and Langley.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Our Major Services Section -->
+<section class="py-16">
+    <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
+            Our Major Services
+        </h2>
+        <div class="max-w-4xl mx-auto">
+            <p class="text-lg text-gray-700 leading-relaxed mb-8 text-center">
+                We do more than stairlifts. Our full range of accessibility services makes your entire home safer and easier to live in.
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-700">Barrier-Free Bathrooms: Safer, smarter bathrooms built for independence</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-700">Grab Bars: Extra security where you need it most</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-700">Stairlifts: Straight, curved, indoor, or outdoor, we install them all</span>
+                    </li>
+                </ul>
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-700">Ramps: Smooth access for wheelchairs and walkers</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-700">Tub Cuts: Turn your standard tub into a walk-in</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-blue-600 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-700">Safety Poles & Handrails: Extra support without remodelling</span>
+                    </li>
+                </ul>
+            </div>
+            
+            <p class="text-gray-600 text-center mt-8 max-w-2xl mx-auto">
+                Every service is designed to make your daily routine easier and worry-free.
+            </p>
+        </div>
     </div>
 </section>
 
@@ -1229,10 +1307,7 @@
             Ready to Get Started?
         </h2>
         <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-            We make your safety our top priority. If you or a loved one needs affordable, professional Stairlifts in White Rock, we're ready to help. Whether it's for your home or business, residential or commercial, we've got all the services for you.
-        </p>
-        <p class="text-lg mb-8 max-w-2xl mx-auto">
-            We have installed a stairlift by caring professionals who know what matters most. Contact us today and let's make your space safer together!
+            We make your safety our top priority. If you or a loved one needs affordable, professional Stairlifts in White Rock, we're ready to help. Whether it's for your home or business, residential or commercial, we've got all the services for you. We have installed a stairlift by caring professionals who know what matters most.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:604-259-1211" class="btn-secondary text-lg px-8 py-4">
@@ -1254,9 +1329,9 @@
 <!-- FAQs Section -->
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-12 text-center">
-            Frequently Asked Questions
-        </h2>
+        <h3 class="text-2xl md:text-3xl font-bold text-gray-900 section-title mb-12 text-center">
+            FAQs
+        </h3>
 
                  <div class="max-w-4xl mx-auto space-y-6">
              <div class="faq-item">

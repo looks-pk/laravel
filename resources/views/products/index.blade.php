@@ -717,7 +717,7 @@
                         <p class="text-lg leading-relaxed mb-8">
                             We look forward to helping you create your safe and accessible space
                         </p>
-                        <a href="/about"
+                        <a href="/contact"
                             class="inline-flex items-center px-6 py-3 bg-white text-primary hover:bg-gray-100 rounded-lg font-medium transition duration-300">
                             Book Online
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
@@ -753,6 +753,8 @@
 
                 <form action="/submit-assessment" method="POST" class="space-y-6">
                     @csrf
+                    <input type="hidden" name="form_type" value="assessment">
+                    <input type="hidden" name="form_source" value="products_page_assessment_form">
                     <!-- Personal Information -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>

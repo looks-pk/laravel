@@ -376,8 +376,10 @@
                     <p class="text-gray-600">Our accessibility specialists will evaluate your bathroom space and recommend the best barrier-free solutions for your needs.</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-quote" method="POST">
                     @csrf
+                    <input type="hidden" name="form_type" value="quote">
+                    <input type="hidden" name="form_source" value="Barrier-Free-Bathrooms_quote_form">
                     <!-- Personal Information -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>

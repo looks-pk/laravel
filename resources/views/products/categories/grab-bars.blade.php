@@ -756,8 +756,10 @@
                         best grab bar solutions for your home or facility.</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-assessment" method="POST">
                     @csrf
+                    <input type="hidden" name="form_type" value="quote">
+                    <input type="hidden" name="form_source" value="Grab_Bars_quote_form">
                     <!-- Personal Information -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>

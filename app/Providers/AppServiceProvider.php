@@ -12,7 +12,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+        // Register the Universal Mail Service
+        $this->app->singleton(\App\Services\UniversalMailService::class, function ($app) {
+            return new \App\Services\UniversalMailService();
+        });
     }
 
     /**
@@ -20,34 +23,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        // Add a hook to completely disable any wildcard routes named 'services.custom'
-        $this->app->booted(function () {
-            // Access the router instance
-            $router = $this->app['router'];
-            
-            // Get all routes
-            $routes = $router->getRoutes()->getRoutes();
-            
-            // Create a new route collection without the problematic route
-            $newRouteCollection = new \Illuminate\Routing\RouteCollection();
-            
-            foreach ($routes as $route) {
-                // Skip the problematic route
-                if ($route->getName() === 'services.custom') {
-                    continue;
-                }
-                
-                // Add all other routes back
-                $newRouteCollection->add($route);
-            }
-            
-            // Replace the router's route collection
-            $router->setRoutes($newRouteCollection);
-            
-            // Add a proper fallback route for 404 errors
-            Route::fallback(function () {
-                return response()->view('errors.404', [], 404);
-            });
-        });
+        // No route manipulation needed - routes are handled in web.php
     }
 }

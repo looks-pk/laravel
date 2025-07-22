@@ -12,6 +12,8 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\RentalController;
 use App\Http\Controllers\AreaController;
+use App\Http\Controllers\UniversalFormController;
+use App\Http\Controllers\TestController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,6 +26,19 @@ use App\Http\Controllers\AreaController;
 |
 */
 
+// CONTROLLER-BASED TEST ROUTES
+Route::get('/test-simple', [TestController::class, 'simple']);
+Route::get('/test-mail', [TestController::class, 'mail']);
+
+// CLOSURE TEST ROUTES - Alternative
+Route::get('/test-closure', function () {
+    return "✅ Closure route works! Time: " . now()->format('Y-m-d H:i:s');
+});
+
+Route::get('/test-form', function () {
+    return view('test-form');
+})->name('test-form');
+
 // Home
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
@@ -33,6 +48,16 @@ Route::get('/about', [AboutController::class, 'index'])->name('about');
 // Contact
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
+
+// Universal Form Submissions - handles any form from any page
+Route::post('/submit-form', [UniversalFormController::class, 'submit'])->name('forms.submit');
+Route::post('/submit-contact', [UniversalFormController::class, 'contact'])->name('forms.contact');
+Route::post('/submit-quote', [UniversalFormController::class, 'quote'])->name('forms.quote');
+Route::post('/submit-assessment', [UniversalFormController::class, 'assessment'])->name('forms.assessment');
+Route::post('/submit-quick-contact', [UniversalFormController::class, 'quickContact'])->name('forms.quick-contact');
+Route::post('/submit-detailed-contact', [UniversalFormController::class, 'detailedContact'])->name('forms.detailed-contact');
+Route::post('/submit-product-inquiry', [UniversalFormController::class, 'productInquiry'])->name('forms.product-inquiry');
+Route::post('/submit-service-request', [UniversalFormController::class, 'serviceRequest'])->name('forms.service-request');
 
 // Services
 Route::get('/services', [ServiceController::class, 'index'])->name('services.index');
@@ -98,7 +123,7 @@ Route::get('/areas-debug', function() {
 });
 
 // Areas - Use controller instead of closure
-Route::get('/areas', [AreaController::class, 'index'])->name('areas.index');
+// Route::get('/areas', [AreaController::class, 'index'])->name('areas.index'); // Commented out to allow custom service routing
 
 Route::get('/areas/{area}', [AreaController::class, 'show'])->name('areas.show');
 
@@ -140,7 +165,7 @@ Route::prefix('admin')->middleware(['auth', 'admin'])->name('admin.')->group(fun
     Route::resource('categories', CategoryController::class);
 });
 
-// Important: Fallback route for 404 errors - must be the last route
-Route::fallback(function () {
-    return response()->view('errors.404', [], 404);
-});
+// TEMPORARILY COMMENT OUT FALLBACK ROUTE FOR TESTING
+// Route::fallback(function () {
+//     return response()->view('errors.404', [], 404);
+// });

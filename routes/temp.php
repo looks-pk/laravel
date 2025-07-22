@@ -95,22 +95,38 @@ Route::get('/custom-services-list', function() {
     return response()->json($customServices);
 })->name('services.custom.list');
 
-// Dynamic custom service pages - automatically find all view files in services/custom directory
-// This must be placed after all other explicit routes but before the fallback
-Route::get('/{customService}', function($customService) {
+// Specific route for areas to avoid conflicts
+Route::get('/areas', function() {
     $controller = app(ServiceController::class);
-    
-    // Check if a template exists for this service
-    if ($controller->isValidCustomService($customService)) {
-        // View exists, pass to the controller
-        return app()->call([$controller, 'customShow'], ['service' => $customService]);
-    }
-    
-    // If view doesn't exist, proceed to the fallback route
-    abort(404);
-})->where('customService', '[a-zA-Z0-9_-]+');
+    return $controller->customShow('areas');
+})->name('services.custom.areas');
 
-// Important: Fallback route for 404 errors - must be the last route
-Route::fallback(function () {
-    return response()->view('errors.404', [], 404);
-}); 
+// TEMPORARILY DISABLED - Custom Service Catch-All Route 
+// (keeping areas route working but disabling catch-all to avoid conflicts)
+// Route::get('/{customService}', function($customService) {
+//     // Skip areas as it has its own route above
+//     if ($customService === 'areas') {
+//         abort(404);
+//     }
+//     
+//     // Skip test routes to avoid interference
+//     if (str_starts_with($customService, 'test-')) {
+//         abort(404);
+//     }
+//     
+//     $controller = app(ServiceController::class);
+//     
+//     // Check if a template exists for this service
+//     if ($controller->isValidCustomService($customService)) {
+//         // View exists, pass to the controller
+//         return app()->call([$controller, 'customShow'], ['service' => $customService]);
+//     }
+//     
+//     // If view doesn't exist, proceed to the fallback route
+//     abort(404);
+// })->where('customService', '[a-zA-Z0-9_-]+');
+
+// TEMPORARILY DISABLED FALLBACK ROUTE TOO
+// Route::fallback(function () {
+//     return response()->view('errors.404', [], 404);
+// }); 

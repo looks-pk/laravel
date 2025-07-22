@@ -410,8 +410,10 @@
                         best automotive solutions for you.</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                     @csrf
+                    <input type="hidden" name="form_type" value="assessment">
+                    <input type="hidden" name="form_source" value="automotive_page_assessment_form">
                     <!-- Personal Information -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>

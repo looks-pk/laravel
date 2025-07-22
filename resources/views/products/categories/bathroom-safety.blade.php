@@ -413,8 +413,10 @@
                     <p class="text-gray-600">Our safety specialists will evaluate your bathroom and recommend the best solutions to enhance safety and accessibility.</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-assessment" method="POST">
                     @csrf
+                    <input type="hidden" name="form_type" value="quote">
+                    <input type="hidden" name="form_source" value="Bathroom_safety_quote_form">
                     <!-- Personal Information -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>

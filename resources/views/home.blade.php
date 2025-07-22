@@ -746,20 +746,24 @@
                 <div class="contact-form-container mt-10 lg:mt-0">
                     <h3 class="text-2xl font-bold text-gray-900 mb-4">Get In Touch</h3>
                     <p class="text-gray-600 mb-6">Fill out the form below and we'll get back to you soon.</p>
-                    <form>
+                    <form action="/submit-contact" method="POST">
+                        @csrf
+                        <input type="hidden" name="form_type" value="contact">
+                        <input type="hidden" name="form_source" value="home_page_contact">
+                        
                         <div class="mb-4">
-                            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
-                            <input type="text" id="name" name="name"
+                            <label for="contact_name" class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
+                            <input type="text" id="contact_name" name="name" required
                                 class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
                         </div>
                         <div class="mb-4">
-                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
-                            <input type="email" id="email" name="email"
+                            <label for="contact_email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                            <input type="email" id="contact_email" name="email" required
                                 class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
                         </div>
                         <div class="mb-4">
-                            <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
-                            <textarea id="message" name="message" rows="3"
+                            <label for="contact_message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                            <textarea id="contact_message" name="message" rows="3" required
                                 class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"></textarea>
                         </div>
                         <button type="submit" class="w-full btn-primary py-2 px-4 rounded-md">Send
@@ -1511,22 +1515,26 @@
                     </div>
 
                     <!-- Form Content -->
-                    <form id="service-form" class="p-8 space-y-6">
+                    <form id="service-form" action="/submit-assessment" method="POST" class="p-8 space-y-6">
+                        @csrf
+                        <input type="hidden" name="form_type" value="assessment">
+                        <input type="hidden" name="form_source" value="home_page_service_form">
+                        
                         <!-- Name and Phone -->
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div>
-                                <label for="name" class="block text-sm font-semibold text-gray-700 mb-2">
+                                <label for="service_name" class="block text-sm font-semibold text-gray-700 mb-2">
                                     Full Name *
                                 </label>
-                                <input type="text" id="name" name="name" required
+                                <input type="text" id="service_name" name="name" required
                                     class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300"
                                     placeholder="Enter your full name">
                             </div>
                             <div>
-                                <label for="phone" class="block text-sm font-semibold text-gray-700 mb-2">
+                                <label for="service_phone" class="block text-sm font-semibold text-gray-700 mb-2">
                                     Phone Number *
                                 </label>
-                                <input type="tel" id="phone" name="phone" required
+                                <input type="tel" id="service_phone" name="phone" required
                                     class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300"
                                     placeholder="(123) 456-7890">
                             </div>
@@ -1535,10 +1543,10 @@
                         <!-- Email and Service -->
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div>
-                                <label for="email" class="block text-sm font-semibold text-gray-700 mb-2">
+                                <label for="service_email" class="block text-sm font-semibold text-gray-700 mb-2">
                                     Email Address
                                 </label>
-                                <input type="email" id="email" name="email"
+                                <input type="email" id="service_email" name="email"
                                     class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-300"
                                     placeholder="your.email@example.com">
                             </div>
@@ -3150,8 +3158,11 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="productInfoForm">
-                    <input type="hidden" id="productName" name="productName">
+                <form id="productInfoForm" action="/submit-product-inquiry" method="POST">
+                    @csrf
+                    <input type="hidden" name="form_type" value="product_inquiry">
+                    <input type="hidden" name="form_source" value="home_page_product_modal">
+                    <input type="hidden" id="productName" name="product" />
 
                     <!-- Product Info Section -->
                     <div class="mb-6">
@@ -3228,14 +3239,14 @@
                         </div>
 
                         <div class="mt-4">
-                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email*</label>
-                            <input type="email" id="email" name="email" required
+                            <label for="modal_email" class="block text-sm font-medium text-gray-700 mb-1">Email*</label>
+                            <input type="email" id="modal_email" name="email" required
                                 class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
                         </div>
 
                         <div class="mt-4">
-                            <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number*</label>
-                            <input type="tel" id="phone" name="phone" required
+                            <label for="modal_phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number*</label>
+                            <input type="tel" id="modal_phone" name="phone" required
                                 class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
                         </div>
 
@@ -3295,22 +3306,87 @@
                 }
             });
 
-            // Handle form submission
-            productInfoForm.addEventListener('submit', function (e) {
-                e.preventDefault();
-
-                // Create FormData object to easily get form values
-                const formData = new FormData(this);
-
-                // You would typically send this data to your server with AJAX
-                // For now, we'll just display a success message
-                alert('Your request has been submitted! We will contact you shortly.');
-
-                // Reset form and close modal
-                this.reset();
-                modal.classList.add('hidden');
-                document.body.style.overflow = 'auto';
-            });
+            // Handle form submission with AJAX to prevent quick refresh and show proper feedback
+            if (productInfoForm) {
+                productInfoForm.addEventListener('submit', function(e) {
+                    e.preventDefault(); // Prevent normal form submission to avoid quick refresh
+                    
+                    console.log('🚀 Product form submission detected!');
+                    console.log('Form action:', this.action);
+                    console.log('Form method:', this.method);
+                    
+                    // Check if all required fields are filled
+                    const requiredFields = this.querySelectorAll('[required]');
+                    let allValid = true;
+                    requiredFields.forEach(field => {
+                        if (!field.value.trim()) {
+                            console.log('Missing required field:', field.name);
+                            allValid = false;
+                            field.style.borderColor = 'red';
+                        } else {
+                            field.style.borderColor = '';
+                        }
+                    });
+                    
+                    if (!allValid) {
+                        console.log('❌ Form validation failed');
+                        alert('Please fill in all required fields (First Name, Last Name, Email, Phone)');
+                        return false;
+                    }
+                    
+                    console.log('✅ Form validation passed, submitting via AJAX...');
+                    
+                    // Submit form via AJAX
+                    const formData = new FormData(this);
+                    
+                    // Debug: Log all form data
+                    console.log('📋 Form data being sent:');
+                    for (let [key, value] of formData.entries()) {
+                        console.log(`  ${key}: ${value}`);
+                    }
+                    
+                    fetch(this.action, {
+                        method: 'POST',
+                        body: formData,
+                        headers: {
+                            'X-Requested-With': 'XMLHttpRequest',
+                            'Accept': 'application/json'
+                        }
+                    })
+                    .then(response => {
+                        console.log('📡 Server response status:', response.status);
+                        return response.json().catch(() => response.text());
+                    })
+                    .then(data => {
+                        console.log('✅ Server response received');
+                        console.log('📄 Response data:', data);
+                        
+                        // Check if it's JSON response
+                        if (typeof data === 'object' && data.success !== undefined) {
+                            if (data.success) {
+                                alert(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                                
+                                // Reset form and close modal
+                                this.reset();
+                                modal.classList.add('hidden');
+                                document.body.style.overflow = 'auto';
+                            } else {
+                                alert('Error: ' + (data.message || 'There was an error submitting your request.'));
+                            }
+                        } else {
+                            // Fallback for HTML response (shouldn't happen now)
+                            alert('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                            this.reset();
+                            modal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                        }
+                    })
+                    .catch(error => {
+                        console.error('❌ Error submitting form:', error);
+                        alert('There was an error submitting your request. Please try again or contact us directly.');
+                    });
+                });
+            }
         });
     </script>
 @endpush

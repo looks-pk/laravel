@@ -340,6 +340,8 @@
                 <div class="quick-form">
                     <form action="/submit-quick-contact" method="POST" class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         @csrf
+                        <input type="hidden" name="form_type" value="quick_contact">
+                        <input type="hidden" name="form_source" value="contact_page_quick_form">
                         <div class="form-floating">
                             <input type="text" id="quick_name" name="name" placeholder=" " required>
                             <label for="quick_name">Your Name</label>
@@ -399,6 +401,8 @@
                 <div class="detailed-form">
                     <form action="/submit-detailed-contact" method="POST" class="space-y-6">
                         @csrf
+                        <input type="hidden" name="form_type" value="detailed_contact">
+                        <input type="hidden" name="form_source" value="contact_page_detailed_form">
                         
                         <!-- Personal Information -->
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">

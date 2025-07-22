@@ -80,7 +80,6 @@
                             <li><a href="/products-categories/grab-bars/" class="text-gray-400 hover:text-white transition-colors">Grab Bars</a></li>
                             <li><a href="/products-categories/barrier-free-bathrooms/" class="text-gray-400 hover:text-white transition-colors">Barrier-Free Bathrooms</a></li>
                             <li><a href="/products-categories/automotive/" class="text-gray-400 hover:text-white transition-colors">Automotive</a></li>
-                            <li><a href="/accessibility-solutions" class="text-gray-400 hover:text-white transition-colors">Accessibility Solutions</a></li>
                         </ul>
                     </div>
 
@@ -98,7 +97,6 @@
                                 <i class="fas fa-phone mt-1 mr-2 text-primary"></i>
                                 <div class="text-gray-400">
                                     <div><a href="tel:+16042591211" class="hover:text-white transition-colors">(604) 259-1211</a></div>
-                                    <div class="mt-1"><a href="tel:+16046089442" class="hover:text-white transition-colors">(604) 608-9442</a></div>
                                 </div>
                             </li>
                             <li class="flex items-start">

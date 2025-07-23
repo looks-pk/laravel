@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Services\UniversalMailService;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Log;
 
 class UniversalFormController extends Controller
 {
@@ -68,7 +69,7 @@ class UniversalFormController extends Controller
             return redirect()->back()->withErrors($e->errors())->withInput();
             
         } catch (\Exception $e) {
-            \Log::error('Universal Form Submission Error: ' . $e->getMessage(), [
+            Log::error('Universal Form Submission Error: ' . $e->getMessage(), [
                 'form_data' => $formData,
                 'user_ip' => $request->ip(),
                 'url' => $request->fullUrl(),

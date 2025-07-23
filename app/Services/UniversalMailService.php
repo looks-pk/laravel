@@ -3,6 +3,7 @@
 namespace App\Services;
 
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Log;
 use App\Mail\UniversalFormSubmission;
 
 class UniversalMailService
@@ -48,7 +49,7 @@ class UniversalMailService
 
             return true;
         } catch (\Exception $e) {
-            \Log::error('Universal Mail Service Error: ' . $e->getMessage(), [
+            Log::error('Universal Mail Service Error: ' . $e->getMessage(), [
                 'form_data' => $formData,
                 'options' => $options,
                 'exception' => $e,
@@ -199,7 +200,7 @@ class UniversalMailService
 
             return true;
         } catch (\Exception $e) {
-            \Log::error('Custom Mail Notification Error: ' . $e->getMessage());
+            Log::error('Custom Mail Notification Error: ' . $e->getMessage());
             return false;
         }
     }

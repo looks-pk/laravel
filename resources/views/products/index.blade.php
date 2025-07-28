@@ -24,12 +24,12 @@
     <section class="py-16 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Barrier-Free Bathrooms -->
+                <!-- Stair Lifts 8 -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/Automotive.jpg') }}" alt="Automotive"
+                        <img src="{{ asset('al-prod-page-imgs/Stair-Lifts.jpg') }}" alt="Stair Lifts"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -41,20 +41,19 @@
                     <div class="p-6 flex-1 flex flex-col">
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Automotive</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">Discover top-notch automotive solutions designed for
-                            seamless accessibility and ease of travel.</p>
+                            Stair Lifts</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Glide effortlessly between levels with our reliable stair
+                            lifts, empowering individuals with limited mobility to navigate their homes with ease.</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
-                            <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">3 Products</span>
+                            <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">4 Products</span>
                         </p>
-                        <a href="/products-categories/automotive/"
+                        <a href="/products-categories/stair-lifts/"
                             class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
                             View All Products
                         </a>
                     </div>
                 </div>
-
-                <!-- Grab Bars -->
+                <!-- Grab Bars 2 -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
@@ -86,7 +85,71 @@
                     </div>
                 </div>
 
-                <!-- Stairlifts -->
+                <!-- Safety Poles & Handrails 6 -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
+                    <!-- Product Image -->
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('al-prod-page-imgs/Ramps.jpg') }}" alt="Ramps"
+                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            style="height: 400px;">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        </div>
+                    </div>
+
+                    <!-- Product Details -->
+                    <div class="p-6 flex-1 flex flex-col">
+                        <h3
+                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
+                            Ramps</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Conquer elevation changes indoors and outdoors with our
+                            versatile ramps, providing a barrier-free solution for easy transitions.</p>
+                        <p class="font-bold text-primary mb-5 flex items-center">
+                            <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">1 Products</span>
+                        </p>
+                        <a href="/products-categories/ramps/"
+                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
+                            View All Products
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Barrier-Free Bathrooms 1 -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
+                    <!-- Product Image -->
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('al-prod-page-imgs/Automotive.jpg') }}" alt="Automotive"
+                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            style="height: 400px;">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        </div>
+                    </div>
+
+                    <!-- Product Details -->
+                    <div class="p-6 flex-1 flex flex-col">
+                        <h3
+                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
+                            Automotive</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Discover top-notch automotive solutions designed for
+                            seamless accessibility and ease of travel.</p>
+                        <p class="font-bold text-primary mb-5 flex items-center">
+                            <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">3 Products</span>
+                        </p>
+                        <a href="/products-categories/automotive/"
+                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
+                            View All Products
+                        </a>
+                    </div>
+                </div>
+
+
+
+                
+
+                <!-- Stairlifts 3 -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
@@ -116,7 +179,7 @@
                     </div>
                 </div>
 
-                <!-- Ramps -->
+                <!-- Ramps 4 -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
@@ -146,7 +209,7 @@
                     </div>
                 </div>
 
-                <!-- Tub Cuts -->
+                <!-- Tub Cuts 5 -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
@@ -176,36 +239,9 @@
                     </div>
                 </div>
 
-                <!-- Safety Poles & Handrails -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
-                    <!-- Product Image -->
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/Ramps.jpg') }}" alt="Ramps"
-                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            style="height: 400px;">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        </div>
-                    </div>
+                
 
-                    <!-- Product Details -->
-                    <div class="p-6 flex-1 flex flex-col">
-                        <h3
-                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Ramps</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">Conquer elevation changes indoors and outdoors with our
-                            versatile ramps, providing a barrier-free solution for easy transitions.</p>
-                        <p class="font-bold text-primary mb-5 flex items-center">
-                            <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">1 Products</span>
-                        </p>
-                        <a href="/products-categories/ramps/"
-                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
-                            View All Products
-                        </a>
-                    </div>
-                </div>
-
+                <!-- Safety Poles & Handrails 7 -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
@@ -236,34 +272,10 @@
                         </a>
                     </div>
                 </div>
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
-                    <!-- Product Image -->
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/Stair-Lifts.jpg') }}" alt="Stair Lifts"
-                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            style="height: 400px;">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        </div>
-                    </div>
 
-                    <!-- Product Details -->
-                    <div class="p-6 flex-1 flex flex-col">
-                        <h3
-                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Stair Lifts</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">Glide effortlessly between levels with our reliable stair
-                            lifts, empowering individuals with limited mobility to navigate their homes with ease.</p>
-                        <p class="font-bold text-primary mb-5 flex items-center">
-                            <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">4 Products</span>
-                        </p>
-                        <a href="/products-categories/stair-lifts/"
-                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
-                            View All Products
-                        </a>
-                    </div>
-                </div>
+                
+
+                <!-- Tub Cuts 9 -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
@@ -293,6 +305,8 @@
                         </a>
                     </div>
                 </div>
+
+                <!-- Vertical Platform Lifts 10 -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
@@ -321,6 +335,8 @@
                         </a>
                     </div>
                 </div>
+
+                <!-- Walk-In Tub 11 -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->

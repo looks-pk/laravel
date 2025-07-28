@@ -211,7 +211,7 @@
                 <div class="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
                 <div class="flex justify-center space-x-4">
                     <span class="px-4 py-2 bg-blue-500 text-white rounded-full text-sm">500+ Installations</span>
-                    <span class="px-4 py-2 bg-green-500 text-white rounded-full text-sm">100% Satisfaction</span>
+                    <span class="px-4 py-2 bg-green-500 text-white rounded-full text-sm">97% Satisfaction</span>
                     <span class="px-4 py-2 bg-purple-500 text-white rounded-full text-sm">Professional Results</span>
                 </div>
             </div>
@@ -231,11 +231,11 @@
                     <div class="stat-label">Years Experience</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number">100%</div>
+                    <div class="stat-number">97%</div>
                     <div class="stat-label">Customer Satisfaction</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number">24/7</div>
+                    <div  class="stat-number">8:30 - 5:30</div>
                     <div class="stat-label">Support Available</div>
                 </div>
             </div>
@@ -252,45 +252,39 @@
                 <p class="text-gray-600 mb-8 text-lg">Take a look at some of our most impressive accessibility installations</p>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/1.png') }}', 'Barrier-Free Bathroom Installation')">
+                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/1.png') }}', '')">
                         <img src="{{ asset('h2s-gallary/1.png') }}" alt="Barrier-Free Bathroom Installation">
                         <div class="gallery-overlay">
-                            <div class="gallery-title">Barrier-Free Bathroom Installation</div>
                         </div>
                     </div>
                     
-                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/2.png') }}', 'Accessible Shower Solution')">
+                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/2.png') }}', '')">
                         <img src="{{ asset('h2s-gallary/2.png') }}" alt="Accessible Shower Solution">
                         <div class="gallery-overlay">
-                            <div class="gallery-title">Accessible Shower Solution</div>
                         </div>
                     </div>
                     
-                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/3.png') }}', 'Complete Bathroom Renovation')">
+                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/3.png') }}', '')">
                         <img src="{{ asset('h2s-gallary/3.png') }}" alt="Complete Bathroom Renovation">
                         <div class="gallery-overlay">
-                            <div class="gallery-title">Complete Bathroom Renovation</div>
                         </div>
                     </div>
                     
-                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/4.png') }}', 'Modern Accessible Design')">
+                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/4.png') }}', '')">
                         <img src="{{ asset('h2s-gallary/4.png') }}" alt="Modern Accessible Design">
                         <div class="gallery-overlay">
-                            <div class="gallery-title">Modern Accessible Design</div>
                         </div>
                     </div>
                     
-                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/5.png') }}', 'Safety-First Installation')">
+                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/5.png') }}', '')">
                         <img src="{{ asset('h2s-gallary/5.png') }}" alt="Safety-First Installation">
                         <div class="gallery-overlay">
-                            <div class="gallery-title">Safety-First Installation</div>
                         </div>
                     </div>
                     
-                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/6.png') }}', 'Luxury Accessible Bathroom')">
+                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/6.png') }}', '')">
                         <img src="{{ asset('h2s-gallary/6.png') }}" alt="Luxury Accessible Bathroom">
                         <div class="gallery-overlay">
-                            <div class="gallery-title">Luxury Accessible Bathroom</div>
                         </div>
                     </div>
                 </div>
@@ -302,24 +296,21 @@
                 <p class="text-gray-600 mb-8 text-lg">Professional grab bar installations for enhanced bathroom safety</p>
                 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/promenaid grab bar.png') }}', 'Promenaid Grab Bar Installation')">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/promenaid grab bar.png') }}', '')">
                         <img src="{{ asset('h2s-banners/promenaid grab bar.png') }}" alt="Promenaid Grab Bar Installation">
                         <div class="gallery-overlay">
-                            <div class="gallery-title">Promenaid Grab Bar Installation</div>
                         </div>
                     </div>
                     
-                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/promenaid-grab-bar-2.png') }}', 'Advanced Grab Bar Solution')">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/promenaid-grab-bar-2.png') }}', '')">
                         <img src="{{ asset('h2s-banners/promenaid-grab-bar-2.png') }}" alt="Advanced Grab Bar Solution">
                         <div class="gallery-overlay">
-                            <div class="gallery-title">Advanced Grab Bar Solution</div>
                         </div>
                     </div>
                     
-                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/promenaid grab bar (3).png') }}', 'Custom Grab Bar Configuration')">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/promenaid grab bar (3).png') }}', '')">
                         <img src="{{ asset('h2s-banners/promenaid grab bar (3).png') }}" alt="Custom Grab Bar Configuration">
                         <div class="gallery-overlay">
-                            <div class="gallery-title">Custom Grab Bar Configuration</div>
                         </div>
                     </div>
                 </div>
@@ -331,24 +322,21 @@
                 <p class="text-gray-600 mb-8 text-lg">Transform your existing tub with our professional tub cut services</p>
                 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/clean cut tub cut.png') }}', 'CleanCut Tub Cut Solution')">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/clean cut tub cut.png') }}', '')">
                         <img src="{{ asset('h2s-banners/clean cut tub cut.png') }}" alt="CleanCut Tub Cut Solution">
                         <div class="gallery-overlay">
-                            <div class="gallery-title">CleanCut Tub Cut Solution</div>
                         </div>
                     </div>
                     
-                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/clean-cut-tub-cut-2.png') }}', 'Professional Tub Modification')">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/clean-cut-tub-cut-2.png') }}', '')">
                         <img src="{{ asset('h2s-banners/clean-cut-tub-cut-2.png') }}" alt="Professional Tub Modification">
                         <div class="gallery-overlay">
-                            <div class="gallery-title">Professional Tub Modification</div>
                         </div>
                     </div>
                     
-                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/clean-cut-tub-cut-3.png') }}', 'Safe Entry Tub Cut')">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/clean-cut-tub-cut-3.png') }}', '')">
                         <img src="{{ asset('h2s-banners/clean-cut-tub-cut-3.png') }}" alt="Safe Entry Tub Cut">
                         <div class="gallery-overlay">
-                            <div class="gallery-title">Safe Entry Tub Cut</div>
                         </div>
                     </div>
                 </div>
@@ -360,24 +348,21 @@
                 <p class="text-gray-600 mb-8 text-lg">Complete barrier-free bathroom solutions for maximum accessibility</p>
                 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/Sentrel Bathroom.png') }}', 'Sentrel Bathroom Installation')">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/Sentrel Bathroom.png') }}', '')">
                         <img src="{{ asset('h2s-banners/Sentrel Bathroom.png') }}" alt="Sentrel Bathroom Installation">
                         <div class="gallery-overlay">
-                            <div class="gallery-title">Sentrel Bathroom Installation</div>
                         </div>
                     </div>
                     
-                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/Sentrel-Bathroom-2.png') }}', 'Modern Barrier-Free Design')">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/Sentrel-Bathroom-2.png') }}', '')">
                         <img src="{{ asset('h2s-banners/Sentrel-Bathroom-2.png') }}" alt="Modern Barrier-Free Design">
                         <div class="gallery-overlay">
-                            <div class="gallery-title">Modern Barrier-Free Design</div>
                         </div>
                     </div>
                     
-                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/Sentrel Bathroom (3).png') }}', 'Complete Accessibility Solution')">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/Sentrel Bathroom (3).png') }}', '')">
                         <img src="{{ asset('h2s-banners/Sentrel Bathroom (3).png') }}" alt="Complete Accessibility Solution">
                         <div class="gallery-overlay">
-                            <div class="gallery-title">Complete Accessibility Solution</div>
                         </div>
                     </div>
                 </div>
@@ -389,31 +374,27 @@
                 <p class="text-gray-600 mb-8 text-lg">Professional stairlift installations for safe and comfortable mobility</p>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('h2s-banners/stairlift bruno sre-3050.png') }}', 'Bruno SRE-3050 Stairlift')">
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('h2s-banners/stairlift bruno sre-3050.png') }}', '')">
                         <img src="{{ asset('h2s-banners/stairlift bruno sre-3050.png') }}" alt="Bruno SRE-3050 Stairlift">
                         <div class="gallery-overlay">
-                            <div class="gallery-title">Bruno SRE-3050 Stairlift</div>
                         </div>
                     </div>
                     
-                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('h2s-banners/stairlift-flow-x.png') }}', 'Flow X Stairlift Installation')">
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('h2s-banners/stairlift-flow-x.png') }}', '')">
                         <img src="{{ asset('h2s-banners/stairlift-flow-x.png') }}" alt="Flow X Stairlift Installation">
                         <div class="gallery-overlay">
-                            <div class="gallery-title">Flow X Stairlift Installation</div>
                         </div>
                     </div>
                     
-                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('h2s-banners/stairlift-bruno-sre-3050-2.png') }}', 'Custom Stairlift Configuration')">
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('h2s-banners/stairlift-bruno-sre-3050-2.png') }}', '')">
                         <img src="{{ asset('h2s-banners/stairlift-bruno-sre-3050-2.png') }}" alt="Custom Stairlift Configuration">
                         <div class="gallery-overlay">
-                            <div class="gallery-title">Custom Stairlift Configuration</div>
                         </div>
                     </div>
                     
-                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('h2s-banners/stairlift - flow x (2).png') }}', 'Premium Stairlift Solution')">
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('h2s-banners/stairlift - flow x (2).png') }}', '')">
                         <img src="{{ asset('h2s-banners/stairlift - flow x (2).png') }}" alt="Premium Stairlift Solution">
                         <div class="gallery-overlay">
-                            <div class="gallery-title">Premium Stairlift Solution</div>
                         </div>
                     </div>
                 </div>
@@ -468,7 +449,14 @@
             const lightboxTitle = document.getElementById('lightbox-title');
             
             lightboxImage.src = imageSrc;
-            lightboxTitle.textContent = title;
+            
+            if (title && title.trim() !== '') {
+                lightboxTitle.textContent = title;
+                lightboxTitle.style.display = 'block';
+            } else {
+                lightboxTitle.style.display = 'none';
+            }
+            
             lightbox.style.display = 'block';
             document.body.style.overflow = 'hidden';
         }

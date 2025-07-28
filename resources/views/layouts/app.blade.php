@@ -115,7 +115,7 @@
                     <div class="flex flex-col md:flex-row justify-between items-center text-gray-400">
                         <!-- Left Side - Copyright -->
                         <div class="text-center md:text-left mb-4 md:mb-0">
-                            <p>&copy; {{ date('Y') }} Home2stay. All rights reserved.</p>
+                            <p>&copy; {{ date('Y') }} Home2stay Accessibility Ltd. All rights reserved.</p>
                         </div>
                         
                         <!-- Right Side - Designed & Marketed By -->

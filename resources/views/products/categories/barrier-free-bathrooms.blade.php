@@ -421,7 +421,7 @@
                             <label class="flex items-center space-x-3">
                                 <input type="checkbox" name="products[]" value="custom_tile_showers"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Custom Tile Shower Conversion Kits</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Custom Tile Showers</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="checkbox" name="products[]" value="sentrel_systems"

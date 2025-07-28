@@ -304,7 +304,7 @@
                     <h3 class="text-xl font-bold text-gray-800 mb-2">Address</h3>
                     <p class="text-gray-600 mb-4">Visit our showroom</p>
                     <p class="text-gray-800 font-semibold">
-                        Vancouver, BC<br>
+                    196 West 6 Ave, Vancouver, BC, V5Y 1K6
                         Canada
                     </p>
                 </div>
@@ -319,9 +319,7 @@
                     <h3 class="text-xl font-bold text-gray-800 mb-2">Hours</h3>
                     <p class="text-gray-600 mb-4">We're here when you need us</p>
                     <div class="text-sm text-gray-800">
-                        <p class="font-semibold">Mon-Fri: 8:00 AM - 6:00 PM</p>
-                        <p class="font-semibold">Sat: 9:00 AM - 4:00 PM</p>
-                        <p class="font-semibold">Sun: Emergency only</p>
+                        <p class="font-semibold">Mon-Fri: 8:00 AM - 4:30 PM</p>
                     </div>
                 </div>
             </div>
@@ -566,7 +564,7 @@
                                 </svg>
                             </div>
                             <div>
-                                <h4 class="font-semibold text-gray-800">Phone Support</h4>
+                                <h4 class="font-semibold text-gray-800">Phone Customer Service</h4>
                                 <p class="text-gray-600">Call us at <a href="tel:604-259-1211" class="text-blue-600 hover:underline">604-259-1211</a></p>
                             </div>
                         </div>
@@ -579,7 +577,7 @@
                                 </svg>
                             </div>
                                                          <div>
-                                 <h4 class="font-semibold text-gray-800">Email Support</h4>
+                                 <h4 class="font-semibold text-gray-800">Email Customer Service</h4>
                                  <p class="text-gray-600">Email us at <a href="mailto:info@home2stay.com" class="text-blue-600 hover:underline">info@home2stay.com</a></p>
                              </div>
                         </div>
@@ -616,15 +614,7 @@
                         <div class="space-y-2">
                             <div class="hour-item">
                                 <span class="hour-day">Monday - Friday</span>
-                                <span class="hour-time open">8:00 AM - 6:00 PM</span>
-                            </div>
-                            <div class="hour-item">
-                                <span class="hour-day">Saturday</span>
-                                <span class="hour-time open">9:00 AM - 4:00 PM</span>
-                            </div>
-                            <div class="hour-item">
-                                <span class="hour-day">Sunday</span>
-                                <span class="hour-time">Emergency Service Only</span>
+                                <span class="hour-time open">8:00 AM - 4:30 PM</span>
                             </div>
                         </div>
                     </div>
@@ -634,15 +624,8 @@
                 <div>
                     <h2 class="text-3xl font-bold text-gray-800 mb-8">Our Location</h2>
                     <div class="map-container">
-                        <iframe 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.3391482825785!2d-123.1207367!3d49.2827291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3%3A0xbb9196ea9b81f38b!2sVancouver%2C%20BC!5e0!3m2!1sen!2sca!4v1644934721054!5m2!1sen!2sca" 
-                            width="100%" 
-                            height="100%" 
-                            style="border:0;" 
-                            allowfullscreen="" 
-                            loading="lazy" 
-                            referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.2012764719584!2d-123.11172942330118!3d49.265463471390305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673de323d85e7%3A0xfbe60ca85e1bd2d9!2sHome2stay%20Accessibility%20Ltd!5e1!3m2!1sen!2s!4v1753717233941!5m2!1sen!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
                     </div>
                     <div class="mt-4 p-4 bg-gray-50 rounded-lg">
                         <h4 class="font-semibold text-gray-800 mb-2">Service Areas</h4>

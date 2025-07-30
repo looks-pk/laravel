@@ -90,7 +90,7 @@
                 <!-- Product Image Gallery -->
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gray-100 rounded-lg overflow-hidden mb-4">
-                        <img src="{{ asset('logo/Logo-clr.png') }}"
+                        <img src="{{ asset('np-img/mdas.jpg') }}"
                             alt="Home2stay Portable Accessible Showers" class="w-full h-auto object-contain p-10">
                     </div>
                     <!-- Request Quote Button -->
@@ -263,7 +263,7 @@
                             <div class="tab-pane" data-tab="images-tab" style="display: none !important;">
                                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('logo/Logo-clr.png') }}"
+                                        <img src="{{ asset('np-img/mdas.jpg') }}"
                                             alt="Home2stay Portable Accessible Showers"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-4 bg-gray-50">
                                     </div>
@@ -405,11 +405,11 @@
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
                         <h2 class="text-3xl font-bold text-gray-800 mb-4">Are you interested in having this product installed?</h2>
                         <p class="text-lg text-gray-600 mb-6">Accessibility solutions to make everyday home life easier and safer for yourself and your loved ones.</p>
-                        <p class="mb-5">Give us a call at <a href="tel:+16042591211" class="text-secondary">604-259-1211</a> or submit a FREE <a href="#assessment" class="text-secondary">ASSESSMENT FORM</a> to check.</p>
+                        <p class="mb-5">Give us a call at <b> <a href="tel:+16042591211" style="color:red;">604-259-1211</a></b> or submit a FREE <b> <a href="#assessment" style="color:red;">ASSESSMENT FORM</a></b> to check.</p>
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Rectangle 320-min.png') }}" alt="Accessible Shower Solutions"
+                        <img src="{{ asset('np-img/mdas.jpg') }}" alt="Accessible Shower Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

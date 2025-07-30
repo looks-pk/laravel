@@ -86,8 +86,8 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('brands/best-bath-logo-min.png') }}" alt="Best Bath Modular Showers"
-                            class="w-full object-contain p-8" style="height: 300px; background-color: #f8f9fa;">
+                        <img src="{{ asset('np-img/best-bath.jpg') }}" alt="Best Bath Modular Showers"
+                            class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
                         <div class="absolute top-0 right-0 bg-green-500 text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             ADA Compliant
                         </div>
@@ -127,8 +127,8 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('logo/Logo-clr.png') }}" alt="Sentrel Systems Showers"
-                            class="w-full object-contain p-8" style="height: 300px; background-color: #f8f9fa;">
+                        <img src="{{ asset('np-img/central-system.jpg') }}" alt="Sentrel Systems Showers"
+                            class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
                         <div class="absolute top-0 right-0 bg-blue-500 text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Premium
                         </div>
@@ -211,11 +211,11 @@
                         <p class="text-lg text-gray-600 mb-6">
                             Home2stay has been providing accessibility solutions for almost a decade in the British Columbia region, servicing the following: Vancouver, Surrey, Abbotsford, Richmond, Coquitlam, Tricities, Mission, Delta, Pitt Meadows, Burnaby, Port Moody, Maple Ridge, Langley, Chilli Wack, White Rock, Aldergrove, and other nearby areas.
                         </p>
-                        <p class="mb-5">Is your area not listed? Give us a call at <a href="tel:+16042591211" class="text-secondary">(604) 259-1211</a> or submit a FREE <a href="#assessment" class="text-secondary">ASSESSMENT FORM</a> to check.</p>
+                        <p class="mb-5">Is your area not listed? Give us a call at <a href="tel:+16042591211" style="color:red;">(604) 259-1211</a> or submit a FREE <a href="#assessment" style="color:red;">ASSESSMENT FORM</a> to check.</p>
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Rectangle 320-min.png') }}" alt="Barrier-Free Bathroom Solutions"
+                        <img src="{{ asset('h2s-banners/Sentrel-Bathroom-2.png') }}" alt="Barrier-Free Bathroom Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

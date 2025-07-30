@@ -29,7 +29,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            transition: transform 0.3s ease;
+            transition: transform 0.3s ease, opacity 0.6s ease;
         }
         
         .gallery-item:hover img {
@@ -252,38 +252,86 @@
                 <p class="text-gray-600 mb-8 text-lg">Take a look at some of our most impressive accessibility installations</p>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/1.png') }}', '')">
-                        <img src="{{ asset('h2s-gallary/1.png') }}" alt="Barrier-Free Bathroom Installation">
+                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('np-img/ft-1.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/ft-1.jpg') }}" 
+                                 alt="Barrier-Free Bathroom Installation"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
                         <div class="gallery-overlay">
                         </div>
                     </div>
                     
-                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/2.png') }}', '')">
-                        <img src="{{ asset('h2s-gallary/2.png') }}" alt="Accessible Shower Solution">
+                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('np-img/ft-2.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/ft-2.jpg') }}" 
+                                 alt="Accessible Shower Solution"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
                         <div class="gallery-overlay">
                         </div>
                     </div>
                     
-                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/3.png') }}', '')">
-                        <img src="{{ asset('h2s-gallary/3.png') }}" alt="Complete Bathroom Renovation">
+                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('np-img/ft-3.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/ft-3.jpg') }}" 
+                                 alt="Complete Bathroom Renovation"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
                         <div class="gallery-overlay">
                         </div>
                     </div>
                     
-                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/4.png') }}', '')">
-                        <img src="{{ asset('h2s-gallary/4.png') }}" alt="Modern Accessible Design">
+                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('np-img/ft-4.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/ft-4.jpg') }}" 
+                                 alt="Modern Accessible Design"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
                         <div class="gallery-overlay">
                         </div>
                     </div>
                     
-                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/5.png') }}', '')">
-                        <img src="{{ asset('h2s-gallary/5.png') }}" alt="Safety-First Installation">
+                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('np-img/ft-5.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/ft-5.jpg') }}" 
+                                 alt="Safety-First Installation"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
                         <div class="gallery-overlay">
                         </div>
                     </div>
                     
-                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('h2s-gallary/6.png') }}', '')">
-                        <img src="{{ asset('h2s-gallary/6.png') }}" alt="Luxury Accessible Bathroom">
+                    <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('np-img/ft-6.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/ft-6.jpg') }}" 
+                                 alt="Luxury Accessible Bathroom"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
                         <div class="gallery-overlay">
                         </div>
                     </div>
@@ -297,19 +345,43 @@
                 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/promenaid grab bar.png') }}', '')">
-                        <img src="{{ asset('h2s-banners/promenaid grab bar.png') }}" alt="Promenaid Grab Bar Installation">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('h2s-banners/promenaid grab bar.png') }}" 
+                                 alt="Promenaid Grab Bar Installation"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
                         <div class="gallery-overlay">
                         </div>
                     </div>
                     
                     <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/promenaid-grab-bar-2.png') }}', '')">
-                        <img src="{{ asset('h2s-banners/promenaid-grab-bar-2.png') }}" alt="Advanced Grab Bar Solution">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('h2s-banners/promenaid-grab-bar-2.png') }}" 
+                                 alt="Advanced Grab Bar Solution"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
                         <div class="gallery-overlay">
                         </div>
                     </div>
                     
-                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/promenaid grab bar (3).png') }}', '')">
-                        <img src="{{ asset('h2s-banners/promenaid grab bar (3).png') }}" alt="Custom Grab Bar Configuration">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('np-img/grab-gal.webp') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/grab-gal.webp') }}" 
+                                 alt="Custom Grab Bar Configuration"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
                         <div class="gallery-overlay">
                         </div>
                     </div>
@@ -322,20 +394,44 @@
                 <p class="text-gray-600 mb-8 text-lg">Transform your existing tub with our professional tub cut services</p>
                 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/clean cut tub cut.png') }}', '')">
-                        <img src="{{ asset('h2s-banners/clean cut tub cut.png') }}" alt="CleanCut Tub Cut Solution">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('np-img/tub-1.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/tub-1.jpg') }}" 
+                                 alt="CleanCut Tub Cut Solution"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
                         <div class="gallery-overlay">
                         </div>
                     </div>
                     
-                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/clean-cut-tub-cut-2.png') }}', '')">
-                        <img src="{{ asset('h2s-banners/clean-cut-tub-cut-2.png') }}" alt="Professional Tub Modification">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('np-img/tub-2.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/tub-2.jpg') }}" 
+                                 alt="Professional Tub Modification"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
                         <div class="gallery-overlay">
                         </div>
                     </div>
                     
-                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/clean-cut-tub-cut-3.png') }}', '')">
-                        <img src="{{ asset('h2s-banners/clean-cut-tub-cut-3.png') }}" alt="Safe Entry Tub Cut">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('np-img/tub-3.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/tub-3.jpg') }}" 
+                                 alt="Safe Entry Tub Cut"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
                         <div class="gallery-overlay">
                         </div>
                     </div>
@@ -348,20 +444,44 @@
                 <p class="text-gray-600 mb-8 text-lg">Complete barrier-free bathroom solutions for maximum accessibility</p>
                 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/Sentrel Bathroom.png') }}', '')">
-                        <img src="{{ asset('h2s-banners/Sentrel Bathroom.png') }}" alt="Sentrel Bathroom Installation">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('np-img/bari-1.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/bari-1.jpg') }}" 
+                                 alt="Sentrel Bathroom Installation"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
                         <div class="gallery-overlay">
                         </div>
                     </div>
                     
-                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/Sentrel-Bathroom-2.png') }}', '')">
-                        <img src="{{ asset('h2s-banners/Sentrel-Bathroom-2.png') }}" alt="Modern Barrier-Free Design">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('np-img/bari-2.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/bari-2.jpg') }}" 
+                                 alt="Modern Barrier-Free Design"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
                         <div class="gallery-overlay">
                         </div>
                     </div>
                     
-                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('h2s-banners/Sentrel Bathroom (3).png') }}', '')">
-                        <img src="{{ asset('h2s-banners/Sentrel Bathroom (3).png') }}" alt="Complete Accessibility Solution">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('np-img/bari-3.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/bari-3.jpg') }}" 
+                                 alt="Complete Accessibility Solution"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
                         <div class="gallery-overlay">
                         </div>
                     </div>
@@ -374,26 +494,86 @@
                 <p class="text-gray-600 mb-8 text-lg">Professional stairlift installations for safe and comfortable mobility</p>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('h2s-banners/stairlift bruno sre-3050.png') }}', '')">
-                        <img src="{{ asset('h2s-banners/stairlift bruno sre-3050.png') }}" alt="Bruno SRE-3050 Stairlift">
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('np-img/str-1.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/str-1.jpg') }}" 
+                                 alt="Bruno SRE-3050 Stairlift"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
                         <div class="gallery-overlay">
                         </div>
                     </div>
                     
-                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('h2s-banners/stairlift-flow-x.png') }}', '')">
-                        <img src="{{ asset('h2s-banners/stairlift-flow-x.png') }}" alt="Flow X Stairlift Installation">
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('np-img/str-2.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/str-2.jpg') }}" 
+                                 alt="Flow X Stairlift Installation"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
                         <div class="gallery-overlay">
                         </div>
                     </div>
                     
-                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('h2s-banners/stairlift-bruno-sre-3050-2.png') }}', '')">
-                        <img src="{{ asset('h2s-banners/stairlift-bruno-sre-3050-2.png') }}" alt="Custom Stairlift Configuration">
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('np-img/str-3.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/str-3.jpg') }}" 
+                                 alt="Custom Stairlift Configuration"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
                         <div class="gallery-overlay">
                         </div>
                     </div>
                     
-                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('h2s-banners/stairlift - flow x (2).png') }}', '')">
-                        <img src="{{ asset('h2s-banners/stairlift - flow x (2).png') }}" alt="Premium Stairlift Solution">
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('np-img/str-4.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/str-4.jpg') }}" 
+                                 alt="Premium Stairlift Solution"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('np-img/str-5.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/str-5.jpg') }}" 
+                                 alt="Premium Stairlift Solution"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('np-img/str-6.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/str-6.jpg') }}" 
+                                 alt="Premium Stairlift Solution"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
                         <div class="gallery-overlay">
                         </div>
                     </div>
@@ -443,6 +623,7 @@
 
 @push('scripts')
     <script>
+        // Lightbox Functions (using global lazy loader)
         function openLightbox(imageSrc, title) {
             const lightbox = document.getElementById('lightbox');
             const lightboxImage = document.getElementById('lightbox-image');
@@ -481,6 +662,15 @@
         
         document.querySelector('.lightbox-content').addEventListener('click', function(event) {
             event.stopPropagation();
+        });
+
+        // Refresh lazy loader when this page loads (for any dynamically added content)
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(() => {
+                if (window.lazyLoader) {
+                    window.lazyLoader.refresh();
+                }
+            }, 200);
         });
     </script>
 @endpush

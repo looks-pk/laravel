@@ -137,7 +137,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full product-item"
                     data-page="1">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('logo/logo-clr.png') }}" alt="Home2stay Invisia Accent Bar"
+                        <img src="{{ asset('np-img/grab-bar-page.webp') }}" alt="Home2stay Invisia Accent Bar"
                             class="p-20 contain" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -551,13 +551,13 @@
                         <p class="text-lg text-gray-600 mb-6">
                             Home2stay is the local Bruno stair lift expert in the British Columbia region, servicing the following: Vancouver, Surrey, Abbotsford, Richmond, Coquitlam, Tricities, Mission, Delta, Pitt Meadows, Burnaby, Port Moody, Maple Ridge, Langley, Chilli Wack, White Rock, Aldergrove, and other nearby areas.</p>
                         <p class="mb-5">Is your area not listed? Give us a call at <a href="tel:+16042591211"
-                                class="text-secondary">604-259-1211</a> or submit a FREE
-                            <a href="#assessment" class="text-secondary"> ASSESSMENT FORM </a> to check.
+                                style="color:red;">604-259-1211</a> or submit a FREE
+                            <a href="#assessment" style="color:red;"> ASSESSMENT FORM </a> to check.
                         </p>
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Rectangle%20320-min.png') }}" alt="Grab Bar Installation"
+                        <img src="{{ asset('np-img/grab-bar-page.webp') }}" alt="Grab Bar Installation"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

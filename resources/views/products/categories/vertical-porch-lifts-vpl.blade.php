@@ -159,7 +159,7 @@
                         <h2 class="text-3xl font-bold text-gray-800 mb-4">Inclusive Living Solutions: Discover Our Complete Product Catalog</h2>
                         <p class="text-lg text-gray-600 mb-6">
                             Home2stay is the local Bruno and RAM lifts expert in the British Columbia region, servicing the following: Vancouver, Surrey, Abbotsford, Richmond, Coquitlam, Tricities, Mission, Delta, Pitt Meadows, Burnaby, Port Moody, Maple Ridge, Lengley, Chilli Wack, White Rock, Aldergrove, and other nearby areas.</p>
-                        <p class="mb-5">Is your area not listed? Give us a call at (604) 259-1211 or submit a FREE ASSESSMENT FORM to check.</p>
+                        <p class="mb-5">Is your area not listed? Give us a call at <b><a href="tel:+16042591211" style="color: red;">(604) 259-1211</a></b> or submit a <b> <a href="#assessment" style="color: red;">FREE ASSESSMENT FORM</a></b> to check.</p>
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">

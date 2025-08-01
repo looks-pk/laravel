@@ -140,7 +140,7 @@
                         <h2 class="text-3xl font-bold text-gray-800 mb-4">Inclusive Living Solutions: Discover Our Complete Product Catalog</h2>
                         <p class="text-lg text-gray-600 mb-6">
                             A Walk-in Tub redefines your bathing experience- like having a refreshing and luxurious spa-like experience every time you take a bath. Home2stay's Walk-in Tubs are designed with superior safety and therapy systems just for you.</p>
-                        <p class="mb-5">Give us a call at <a href="tel:+16042591211" class="text-secondary">(604) 259-1211</a> or submit a FREE ASSESSMENT FORM to check.</p>
+                        <p class="mb-5">Give us a call at <b><a href="tel:+16042591211" style="color: red;">(604) 259-1211</a></b> or submit a <b> <a href="#assessment" style="color: red;">FREE ASSESSMENT FORM</a></b> to check.</p>
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">

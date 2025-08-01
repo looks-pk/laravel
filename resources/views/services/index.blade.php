@@ -23,14 +23,14 @@
             <div class="p-6">
                 <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Stairlifts</h3>
                 <p class="text-gray-600 mb-4">Provide your loved ones with an easier way to get up and down the stairs safely and efficiently.</p>
-                <a href="{{ url('/stairlifts-vancouver') }}" class="inline-flex items-center text-primary hover:text-primary/80 font-medium">
+                <a href="{{ url('/products-categories/stair-lifts') }}" class="inline-flex items-center text-primary hover:text-primary/80 font-medium">
                     Learn More <i class="fas fa-arrow-right ml-1 group-hover:translate-x-1 transition-transform"></i>
                 </a>
             </div>
         </div>
 
         <!-- Service Card 2: Home Elevators -->
-        <div class="bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-lg transition-shadow duration-300">
+        <!-- <div class="bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-lg transition-shadow duration-300">
             <div class="h-48 overflow-hidden">
                 <img src="{{ asset('al-prod-page-imgs/ElevatorPorch-Lifts.jpg') }}" alt="Home Elevators" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
             </div>
@@ -41,7 +41,7 @@
                     Learn More <i class="fas fa-arrow-right ml-1 group-hover:translate-x-1 transition-transform"></i>
                 </a>
             </div>
-        </div>
+        </div> -->
 
         <!-- Service Card 3: Tub Cut Outs -->
         <div class="bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-lg transition-shadow duration-300">
@@ -51,7 +51,7 @@
             <div class="p-6">
                 <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Tub Cut Outs</h3>
                 <p class="text-gray-600 mb-4">Make your bathroom safer and more accessible with our custom tub cut out installations.</p>
-                <a href="{{ url('/tub-cut-out-canada') }}" class="inline-flex items-center text-primary hover:text-primary/80 font-medium">
+                <a href="{{ url('/products-categories/tub-cuts/') }}" class="inline-flex items-center text-primary hover:text-primary/80 font-medium">
                     Learn More <i class="fas fa-arrow-right ml-1 group-hover:translate-x-1 transition-transform"></i>
                 </a>
             </div>
@@ -65,7 +65,7 @@
             <div class="p-6">
                 <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Grab Bars</h3>
                 <p class="text-gray-600 mb-4">Enhance bathroom safety with a wide selection of grab bars for stability and support.</p>
-                <a href="{{ url('/grab-bars-vancouver') }}" class="inline-flex items-center text-primary hover:text-primary/80 font-medium">
+                <a href="{{ url('/products-categories/grab-bars/') }}" class="inline-flex items-center text-primary hover:text-primary/80 font-medium">
                     Learn More <i class="fas fa-arrow-right ml-1 group-hover:translate-x-1 transition-transform"></i>
                 </a>
             </div>
@@ -79,7 +79,7 @@
             <div class="p-6">
                 <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">Accessible Bathrooms</h3>
                 <p class="text-gray-600 mb-4">Professional accessible bathroom solutions to create safe, stylish, and functional bathrooms for all mobility needs.</p>
-                <a href="{{ url('/accessible-bathroom-canada') }}" class="inline-flex items-center text-primary hover:text-primary/80 font-medium">
+                <a href="{{ url('/products-categories/barrier-free-bathrooms/') }}" class="inline-flex items-center text-primary hover:text-primary/80 font-medium">
                     Learn More <i class="fas fa-arrow-right ml-1 group-hover:translate-x-1 transition-transform"></i>
                 </a>
             </div>

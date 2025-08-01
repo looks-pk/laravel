@@ -182,9 +182,7 @@
                             region, servicing the following: Vancouver, Surrey, Abbotsford, Richmond, Coquitlam, Tricities,
                             Mission, Delta, Pitt Meadows, Burnaby, Port Moody, Maple Ridge, Langley, Chilli Wack, White
                             Rock, Aldergrove, and other nearby areas.</p>
-                        <p class="mb-5">Is your area not listed? Give us a call at <a href="tel:+16042591211"
-                                class="text-secondary">(604) 259-1211</a> or submit a FREE
-                            <a href="#assessment" class="text-secondary"> ASSESSMENT FORM </a> to check.
+                        <p class="mb-5">Is your area not listed? Give us a call at <b><a href="tel:+16042591211" style="color: red;">(604) 259-1211</a></b> or submit a <b> <a href="#assessment" style="color: red;">FREE ASSESSMENT FORM</a></b> to check.
                         </p>
                     </div>
                     <!-- Image -->

@@ -566,7 +566,10 @@
             <!-- Quick Quote Form -->
             <div class="contact-card">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Get Your Free Quote</h3>
-                <form class="space-y-6">
+                <form action="/submit-assessment" class="space-y-6">
+                @csrf
+                <input type="hidden" name="form_type" value="assessment">
+                    <input type="hidden" name="form_source" value="area-richmond-hill_page_assessment_form">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div>
                             <label for="first_name" class="block text-sm font-medium text-gray-700 mb-2">First Name *</label>

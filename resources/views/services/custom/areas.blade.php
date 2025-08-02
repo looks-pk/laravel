@@ -256,6 +256,8 @@
                                     $mapEmbeds = [
                                         'stair-lifts-surrey-british-columbia' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83280.02!2d-122.8447552!3d49.1913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d07f8644!2sSurrey%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1640995400000!5m2!1sen!2sus',
                                         'stair-lifts-vancouver' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83326.84!2d-123.27325085!3d49.2608724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3!2sVancouver%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1640995300000!5m2!1sen!2sus',
+                                        'stair-lifts-vancouver-british-columbia' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83326.84!2d-123.27325085!3d49.2608724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3!2sVancouver%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1640995300000!5m2!1sen!2sus',
+                                        'stair-lifts-richmond-british-columbia' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83290.45!2d-123.1367776!3d49.1666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d8c8b!2sRichmond%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1641000500000!5m2!1sen!2sus',
                                         'stair-lifts-burnaby' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83265.23!2d-122.9784776!3d49.2488091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548679fa87d86c1b!2sBurnaby%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1640995500000!5m2!1sen!2sus',
                                         'stair-lifts-coquitlam-british-columbia' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83190.45!2d-122.7625098!3d49.2838228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548679a4b8!2sCoquitlam%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1640995600000!5m2!1sen!2sus',
                                         'stair-lifts-port-coquitlam-british-columbia' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83180.12!2d-122.7320587!3d49.2962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548679ab8b2!2sPort%20Coquitlam%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1640995700000!5m2!1sen!2sus',
@@ -364,7 +366,10 @@
                             <p class="text-gray-600 text-sm">Quick and easy - no obligation</p>
                         </div>
 
-                        <form id="quote-form-submit" class="space-y-4">
+                        <form action="/submit-assessment" class="space-y-6">
+                            @csrf
+                            <input type="hidden" name="form_type" value="assessment">
+                            <input type="hidden" name="form_source" value="areas_page_assessment_form">
                             <div>
                                 <label for="name" class="form-label">Full Name *</label>
                                 <input type="text" id="name" name="name" class="form-input" required placeholder="Enter your full name">

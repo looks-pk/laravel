@@ -877,8 +877,8 @@
                         <div>
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Email</h3>
                             <p class="text-gray-600 mb-2">Send us your questions anytime</p>
-                            <a href="mailto:info@home2stay.ca" class="text-lg font-semibold text-blue-600 hover:text-blue-700">
-                                info@home2stay.ca
+                            <a href="mailto:info@home2stay.com" class="text-lg font-semibold text-blue-600 hover:text-blue-700">
+                                info@home2stay.com
                             </a>
                             <p class="text-sm text-gray-500 mt-1">We respond within 24 hours</p>
                         </div>
@@ -935,7 +935,10 @@
             <!-- Quick Quote Form -->
             <div class="contact-card">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Get Your Free Quote</h3>
-                <form class="space-y-6">
+                <form action="/submit-assessment" class="space-y-6">
+                @csrf
+                <input type="hidden" name="form_type" value="assessment">
+                    <input type="hidden" name="form_source" value="area-surrey_page_assessment_form">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div>
                             <label for="first_name" class="block text-sm font-medium text-gray-700 mb-2">First Name *</label>

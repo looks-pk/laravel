@@ -110,13 +110,13 @@
         animation: fadeInDown 0.3s ease-out;
     }
 
-    /* Fix dropdown positioning - no transitions on position/transform - Areas dropdown only */
+    /* Fix dropdown positioning - no transitions on position/transform */
     .areas-dropdown.group-hover\:block {
         transition: opacity 0.2s ease-in-out !important;
         transform: translateX(-50%) !important;
     }
 
-    /* Restore normal positioning for other dropdowns */
+    /* Prevent transform transitions for other dropdowns to avoid flicker */
     .group .group-hover\:block:not(.areas-dropdown) {
         transition: opacity 0.2s ease-in-out;
         transform: none !important;
@@ -157,24 +157,20 @@
 
     /* Specific fixes for Products dropdown */
     .group .group-hover\:block.z-50 {
-        margin-top: 0;
-        padding-top: 8px;
+        margin-top: 8px;
     }
 
     /* Specific fixes for About Us dropdown */
     .group .group-hover\:block.z-40 {
-        margin-top: 0;
-        padding-top: 8px;
+        margin-top: 8px;
     }
 
     @keyframes fadeInDown {
         from {
             opacity: 0;
-            transform: translateY(-10px);
         }
         to {
             opacity: 1;
-            transform: translateY(0);
         }
     }
 
@@ -293,7 +289,7 @@
                         </button>
 
                     <!-- Full Width Modern Dropdown Menu -->
-                    <div class="absolute left-0 right-0 mx-auto max-w-7xl w-[1200px] bg-white rounded-xl shadow-2xl py-8 hidden group-hover:block z-50 border border-gray-100">
+                    <div class="absolute left-[-100px] w-[1200px] bg-white rounded-xl shadow-2xl py-8 hidden group-hover:block z-50 border border-gray-100">
                         <div class="px-8">
                             <div class="grid grid-cols-4 gap-6">
                                 
@@ -492,19 +488,6 @@
                                             <p class="text-xs text-gray-500">Short & long-term rentals</p>
                                         </div>
                                     </a>
-                                    
-                                    <a href="/accessibility-solutions" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
-                                        <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                            </svg>
-                                        </div>
-                                        <div>
-                                            <h4 class="font-medium text-gray-900 text-sm">Accessibility Solutions</h4>
-                                            <p class="text-xs text-gray-500">Custom home modifications</p>
-                                        </div>
-                                    </a>
-
                                     <!-- Featured Call-to-Action -->
                                     <div class="bg-gradient-to-br from-primary/5 to-blue-50 p-3 rounded-lg border border-primary/10 mt-4">
                                         <h4 class="font-semibold text-gray-800 mb-2 flex items-center text-sm">
@@ -535,7 +518,7 @@
                     </button>
 
                     <!-- Dropdown Menu - Fixed positioning to prevent shifting -->
-                    <div class="absolute right-0 w-80 bg-white rounded-xl shadow-2xl py-6 hidden group-hover:block z-40 border border-gray-100">
+                    <div class="absolute right-[-80px] w-80 bg-white rounded-xl shadow-2xl py-6 hidden group-hover:block z-40 border border-gray-100">
                         <div class="px-6">
                             <div class="space-y-2">
                                 <a href="/company-profile/"
@@ -634,6 +617,32 @@
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">New Westminster</h4>
                                             <p class="text-xs text-gray-500">Luxury stair lift solutions</p>
+                                        </div>
+                                    </a>
+                                    
+                                    <a href="/areas/stair-lifts-vancouver-british-columbia" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                        <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 616 0z" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-medium text-gray-900 text-sm">Vancouver</h4>
+                                            <p class="text-xs text-gray-500">Professional stair lift services</p>
+                                        </div>
+                                    </a>
+                                    
+                                    <a href="/areas/stair-lifts-richmond-british-columbia" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                        <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 616 0z" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-medium text-gray-900 text-sm">Richmond</h4>
+                                            <p class="text-xs text-gray-500">Expert installation & support</p>
                                         </div>
                                     </a>
                                 </div>

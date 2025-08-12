@@ -8,6 +8,18 @@
     <title>@yield('title', config('app.name', 'Laravel'))</title>
     <meta name="description" content="@yield('meta_description', 'Professional IT services and solutions')">
     <meta name="google-site-verification" content="0Ucpkwd7zB-q9_iN_kqFxQGogRUI3lY-eEwO79XLx7k" />
+    <!-- Google reCAPTCHA site key for form protection -->
+    <meta name="recaptcha-site-key" content="{{ config('services.recaptcha.site_key') }}">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-51J3BXNWJV"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-51J3BXNWJV');
+    </script>
     <!-- DNS Prefetch for external resources -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -98,6 +110,67 @@
     <!-- Stack for additional styles -->
     @stack('styles')
 
+    <!-- Google reCAPTCHA API -->
+    <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.site_key') }}" async defer></script>
+    <!-- Universal reCAPTCHA attachment script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const siteKeyMeta = document.querySelector('meta[name="recaptcha-site-key"]');
+            if (!siteKeyMeta) return; // No site key configured
+
+            const siteKey = siteKeyMeta.content;
+            if (!siteKey) return;
+
+            // Helper to bind reCAPTCHA execution to a form
+            function bindRecaptcha(form) {
+                if (form.dataset.recaptchaBound === 'true') return; // Avoid duplicate bindings
+                form.dataset.recaptchaBound = 'true';
+
+                // Only intercept POST submissions (skip GET/filter/search forms)
+                if (form.method && form.method.toLowerCase() !== 'post') return;
+                if (form.hasAttribute('data-no-recaptcha')) return; // Allow opt-out per form
+
+                form.addEventListener('submit', function (evt) {
+                    // If token already present, allow normal submission
+                    if (form.querySelector('input[name="g-recaptcha-response"]')?.value) {
+                        return;
+                    }
+                    evt.preventDefault();
+
+                    grecaptcha.ready(function () {
+                        grecaptcha.execute(siteKey, {action: form.dataset.recaptchaAction || 'submit'}).then(function (token) {
+                            let tokenField = form.querySelector('input[name="g-recaptcha-response"]');
+                            if (!tokenField) {
+                                tokenField = document.createElement('input');
+                                tokenField.type = 'hidden';
+                                tokenField.name = 'g-recaptcha-response';
+                                form.appendChild(tokenField);
+                            }
+                            tokenField.value = token;
+                            form.submit();
+                        });
+                    });
+                });
+            }
+
+            // Initial bind on existing forms
+            document.querySelectorAll('form').forEach(bindRecaptcha);
+
+            // Observe DOM for dynamically added forms
+            const observer = new MutationObserver((mutations) => {
+                mutations.forEach((mutation) => {
+                    mutation.addedNodes.forEach((node) => {
+                        if (node.tagName === 'FORM') {
+                            bindRecaptcha(node);
+                        } else if (node.querySelectorAll) {
+                            node.querySelectorAll('form').forEach(bindRecaptcha);
+                        }
+                    });
+                });
+            });
+            observer.observe(document.body, {childList: true, subtree: true});
+        });
+    </script>
     <!-- Global Lazy Loading Script (Critical) -->
     <script>
         // Global Lazy Loading Implementation

@@ -5,6 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title') - Admin Panel</title>
     
+    <!-- Google reCAPTCHA site key -->
+    <meta name="recaptcha-site-key" content="{{ config('services.recaptcha.site_key') }}">
+
+    <!-- Google reCAPTCHA API -->
+    <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.site_key') }}" async defer></script>
+
+    <!-- Universal reCAPTCHA attachment script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const keyMeta = document.querySelector('meta[name="recaptcha-site-key"]');
+            if (!keyMeta) return;
+            const siteKey = keyMeta.content;
+            if (!siteKey) return;
+
+            function bind(form) {
+                if (form.dataset.recaptchaBound === 'true') return;
+                form.dataset.recaptchaBound = 'true';
+                if ((form.method || '').toLowerCase() !== 'post') return;
+                if (form.hasAttribute('data-no-recaptcha')) return;
+
+                form.addEventListener('submit', function (e) {
+                    if (form.querySelector('input[name="g-recaptcha-response"]')?.value) return;
+                    e.preventDefault();
+                    grecaptcha.ready(function () {
+                        grecaptcha.execute(siteKey, {action: form.dataset.recaptchaAction || 'submit'}).then(function (token) {
+                            let input = form.querySelector('input[name="g-recaptcha-response"]');
+                            if (!input) {
+                                input = document.createElement('input');
+                                input.type = 'hidden';
+                                input.name = 'g-recaptcha-response';
+                                form.appendChild(input);
+                            }
+                            input.value = token;
+                            form.submit();
+                        });
+                    });
+                });
+            }
+
+            document.querySelectorAll('form').forEach(bind);
+            new MutationObserver((mutations) => {
+                mutations.forEach((mutation) => {
+                    mutation.addedNodes.forEach((node) => {
+                        if (node.tagName === 'FORM') {
+                            bind(node);
+                        } else if (node.querySelectorAll) {
+                            node.querySelectorAll('form').forEach(bind);
+                        }
+                    });
+                });
+            }).observe(document.body, {childList: true, subtree: true});
+        });
+    </script>
+    
     <!-- Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>

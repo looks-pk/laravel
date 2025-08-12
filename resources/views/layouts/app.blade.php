@@ -7,7 +7,7 @@
 
     <title>@yield('title', config('app.name', 'Laravel'))</title>
     <meta name="description" content="@yield('meta_description', 'Professional IT services and solutions')">
-
+    <meta name="google-site-verification" content="0Ucpkwd7zB-q9_iN_kqFxQGogRUI3lY-eEwO79XLx7k" />
     <!-- DNS Prefetch for external resources -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">

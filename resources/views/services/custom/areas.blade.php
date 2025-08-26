@@ -296,7 +296,7 @@
 
                             <!-- Card Body -->
                             <div class="card-body">
-                                <h3>Home2stay {{ ucfirst(str_replace('-', ' ', $area)) }}</h3>
+                                <h3>Home2stay {{ ucwords(str_replace('-', ' ', $area)) }}</h3>
                                 <p>
                                     @if($area === 'toronto')
                                         Serving Toronto and the Greater Toronto Area with comprehensive accessibility solutions including stairlifts, grab bars, ramps, and bathroom modifications. Our local team understands the unique needs of GTA residents.

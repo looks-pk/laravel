@@ -231,7 +231,7 @@
 
                             <!-- Card Body -->
                             <div class="card-body">
-                                <h3>Home2stay {{ ucfirst(str_replace('-', ' ', $area)) }}</h3>
+                                <h3>Home2stay {{ ucwords(str_replace('-', ' ', $area)) }}</h3>
                                 <p>
                                     @if($area === 'stair-lifts-surrey-british-columbia')
                                         Serving Surrey and the surrounding Fraser Valley region with professional accessibility solutions. Our Surrey team specializes in stairlifts, grab bars, ramps, and comprehensive home modifications for residents throughout the area.

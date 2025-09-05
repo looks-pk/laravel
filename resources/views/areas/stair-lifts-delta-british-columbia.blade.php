@@ -877,8 +877,8 @@
                         <div>
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Email</h3>
                             <p class="text-gray-600 mb-2">Send us your questions anytime</p>
-                            <a href="mailto:info@home2stay.ca" class="text-lg font-semibold text-blue-600 hover:text-blue-700">
-                                info@home2stay.ca
+                            <a href="mailto:info@home2stay.com" class="text-lg font-semibold text-blue-600 hover:text-blue-700">
+                                info@home2stay.com
                             </a>
                             <p class="text-sm text-gray-500 mt-1">We respond within 24 hours</p>
                         </div>
@@ -898,10 +898,6 @@
                                 <div>
                                     <p class="font-semibold text-gray-800">Vancouver Office</p>
                                     <p class="text-gray-600 text-sm">196 West 6 Ave, Vancouver, BC, V5Y 1K6</p>
-                                </div>
-                                <div>
-                                    <p class="font-semibold text-gray-800">Port Coquitlam Office</p>
-                                    <p class="text-gray-600 text-sm">305-1515 Broadway St. Port Coquitlam, BC</p>
                                 </div>
                             </div>
                         </div>

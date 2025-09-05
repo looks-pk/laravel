@@ -1013,10 +1013,6 @@ Our team assesses your location of need and ease of movement and prescribes type
                                     <p class="font-semibold text-gray-800">Vancouver Office</p>
                                     <p class="text-gray-600 text-sm">196 West 6 Ave, Vancouver, BC, V5Y 1K6</p>
                                 </div>
-                                <div>
-                                    <p class="font-semibold text-gray-800">Port Coquitlam Office</p>
-                                    <p class="text-gray-600 text-sm">305-1515 Broadway St. Port Coquitlam, BC</p>
-                                </div>
                             </div>
                         </div>
                     </div>

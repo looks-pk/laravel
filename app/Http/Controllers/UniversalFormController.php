@@ -4,16 +4,19 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Services\UniversalMailService;
+use App\Services\RecaptchaService;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Log;
 
 class UniversalFormController extends Controller
 {
     protected $mailService;
+    protected $recaptchaService;
 
-    public function __construct(UniversalMailService $mailService)
+    public function __construct(UniversalMailService $mailService, RecaptchaService $recaptchaService)
     {
         $this->mailService = $mailService;
+        $this->recaptchaService = $recaptchaService;
     }
 
     /**
@@ -30,6 +33,11 @@ class UniversalFormController extends Controller
             
             // Determine form type and configuration based on URL or form data
             $formConfig = $this->determineFormConfig($request);
+            
+            // Verify reCAPTCHA first
+            if (!$this->verifyRecaptcha($request)) {
+                throw new \Exception('reCAPTCHA verification failed. Please try again.');
+            }
             
             // Basic validation for common required fields
             $this->validateCommonFields($request, $formConfig);
@@ -304,4 +312,47 @@ class UniversalFormController extends Controller
             throw new \Illuminate\Validation\ValidationException($validator);
         }
     }
-} 
+
+    /**
+     * Verify reCAPTCHA token
+     *
+     * @param Request $request
+     * @return bool
+     */
+    private function verifyRecaptcha(Request $request): bool
+    {
+        // Skip verification if reCAPTCHA is not enabled
+        if (!$this->recaptchaService->isEnabled()) {
+            return true;
+        }
+
+        $recaptchaToken = $request->input('g-recaptcha-response');
+        
+        if (empty($recaptchaToken)) {
+            Log::warning('reCAPTCHA token missing from form submission', [
+                'url' => $request->fullUrl(),
+                'ip' => $request->ip(),
+                'user_agent' => $request->userAgent(),
+            ]);
+            return false;
+        }
+
+        // Determine action based on form type
+        $action = 'submit'; // default
+        $formType = $request->input('form_type');
+        if ($formType) {
+            $action = $formType;
+        } elseif ($request->route()) {
+            $routeName = $request->route()->getName();
+            if ($routeName && str_contains($routeName, 'forms.')) {
+                $action = str_replace('forms.', '', $routeName);
+            }
+        }
+
+        return $this->recaptchaService->verify(
+            $recaptchaToken,
+            $request->ip(),
+            $action
+        );
+    }
+}

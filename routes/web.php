@@ -146,6 +146,32 @@ Route::get('/test-db', function () {
     }
 });
 
+// Test reCAPTCHA configuration
+Route::get('/test-recaptcha', function () {
+    $recaptchaService = new \App\Services\RecaptchaService();
+    $siteKey = config('services.recaptcha.site_key');
+    $secretKey = config('services.recaptcha.secret_key');
+    
+    $status = [];
+    $status[] = 'reCAPTCHA Configuration Test';
+    $status[] = '================================';
+    $status[] = 'Site Key: ' . ($siteKey ? '✅ Set (' . substr($siteKey, 0, 10) . '...)' : '❌ Not set');
+    $status[] = 'Secret Key: ' . ($secretKey ? '✅ Set (' . substr($secretKey, 0, 10) . '...)' : '❌ Not set');
+    $status[] = 'Service Enabled: ' . ($recaptchaService->isEnabled() ? '✅ Yes' : '❌ No');
+    $status[] = 'Minimum Score: ' . $recaptchaService->getMinimumScore();
+    $status[] = '';
+    $status[] = 'Next Steps:';
+    if (!$siteKey || !$secretKey) {
+        $status[] = '1. Add RECAPTCHA_SITE_KEY and RECAPTCHA_SECRET_KEY to your .env file';
+        $status[] = '2. Get keys from: https://www.google.com/recaptcha/admin';
+    } else {
+        $status[] = '✅ Configuration looks good!';
+        $status[] = 'Submit a form to test verification.';
+    }
+    
+    return '<pre>' . implode("\n", $status) . '</pre>';
+});
+
 // Admin routes
 Route::prefix('admin')->middleware(['auth', 'admin'])->name('admin.')->group(function () {
     // Dashboard

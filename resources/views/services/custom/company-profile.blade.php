@@ -478,10 +478,6 @@
                     <img src="{{ asset('associate/caps-cert-logo-min.png') }}" alt="CAPS Certification" class="max-h-24 w-auto filter grayscale hover:grayscale-0 transition-all duration-300">
                 </div>
 
-                <!-- Association 3 -->
-                <div class="brand-card bg-white rounded-xl p-8 flex items-center justify-center shadow-sm">
-                    <img src="{{ asset('associate/nmeda-logo-min.png') }}" alt="NMEDA" class="max-h-24 w-auto filter grayscale hover:grayscale-0 transition-all duration-300">
-                </div>
             </div>
         </div>
     </section>

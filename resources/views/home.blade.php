@@ -1259,6 +1259,12 @@
             </div>
         </div>
     </section>
+        
+    <section>
+    <div class="container flex justify-center items-center m-auto px-4">
+        <img src="{{ asset('logo/canada.jpg') }}" alt="Canada">
+    </div>
+    </section>
 
     <!-- Why Choose Us Section -->
     <section class="py-24 bg-white relative overflow-hidden">

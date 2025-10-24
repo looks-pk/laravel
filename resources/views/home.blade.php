@@ -1262,7 +1262,7 @@
         
     <section>
     <div class="container flex justify-center items-center m-auto px-4">
-        <img src="{{ asset('logo/canada.jpg') }}" alt="Canada">
+        <img src="{{ asset('logo/canada.png') }}" alt="Canada">
     </div>
     </section>
 

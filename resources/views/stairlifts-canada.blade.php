@@ -182,11 +182,17 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl mx-auto">
                 <!-- Left Column: Images Stacked Vertically -->
                 <div class="space-y-6">
-                    <div style="height: 350px; border-radius: 12px; overflow: hidden; background: #e5e7eb;">
-                        <img src="{{ asset('/bathsafety-cat/elite-curve-image-cc-4.1-1024x683-1.jpg') }}" alt="Stairlift 1" style="width: 100%; height: 100%; object-fit: cover;">
+                <div class="items-center justify-center">
+                    <div style="height: 350px; border-radius: 12px; overflow: hidden; ">
+                        <img src="{{ asset('/ads/Stair-Lifts-cat-image-min.jpg') }}" alt="Stairlift 1" style="width: 100%; height: 100%; object-fit: contain;">
                     </div>
-                    <div style="height: 350px; border-radius: 12px; overflow: hidden; background: #e5e7eb;">
-                        <img src="{{ asset('/bathsafety-cat/1100stairlift9.jpg') }}" alt="Stairlift 2" style="width: 100%; height: 100%; object-fit: cover;">
+                    <h3 class="text-center text-2xl font-bold text-gray-800">Straight Stairlifts</h3>
+                    </div>
+                    <div class="items-center justify-center">
+                    <div style="height: 350px; border-radius: 12px; overflow: hidden;">
+                        <img src="{{ asset('/ads/ads-canada.png') }}" alt="Stairlift 2" style="width: 100%; height: 100%; object-fit: contain;">
+                    </div>
+                    <h3 class="text-center text-2xl font-bold text-gray-800">Curved Stairlifts</h3>
                     </div>
                 </div>
 

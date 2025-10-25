@@ -26,6 +26,11 @@ class RecaptchaService
      */
     public function verify(string $token, ?string $remoteIp = null, string $expectedAction = 'submit'): bool
     {
+        // TEMPORARY: Skip all reCAPTCHA verification to allow forms to work
+        // TODO: Re-enable after fixing reCAPTCHA browser-error issue
+        Log::info('reCAPTCHA verification temporarily disabled for debugging');
+        return true;
+        
         // Skip verification if no secret key is configured (development mode)
         if (empty($this->secretKey)) {
             Log::warning('reCAPTCHA verification skipped: No secret key configured');

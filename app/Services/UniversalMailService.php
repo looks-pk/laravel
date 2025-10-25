@@ -41,11 +41,22 @@ class UniversalMailService
             }
 
             // Send email
+            Log::info('Attempting to send email', [
+                'to' => $config['to'],
+                'subject' => $config['subject'],
+                'form_name' => $config['form_name'],
+            ]);
+            
             Mail::to($config['to'])->send(new UniversalFormSubmission([
                 'form_data' => $cleanedData,
                 'form_name' => $config['form_name'],
                 'subject' => $config['subject'],
             ]));
+            
+            Log::info('Email sent successfully', [
+                'to' => $config['to'],
+                'subject' => $config['subject'],
+            ]);
 
             return true;
         } catch (\Exception $e) {

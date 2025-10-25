@@ -49,6 +49,11 @@ Route::get('/about', [AboutController::class, 'index'])->name('about');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
 
+// Stairlifts Landing Page
+Route::get('/stairlifts-canada', function() {
+    return view('stairlifts-canada');
+})->name('stairlifts.canada');
+
 // Universal Form Submissions - handles any form from any page
 Route::post('/submit-form', [UniversalFormController::class, 'submit'])->name('forms.submit');
 Route::post('/submit-contact', [UniversalFormController::class, 'contact'])->name('forms.contact');

@@ -303,6 +303,9 @@
         <!-- Navigation -->
         <x-navigation />
 
+        <!-- Notice Bar -->
+        <x-notice-bar />
+
         <!-- Page Content -->
         <main>
             @yield('content')

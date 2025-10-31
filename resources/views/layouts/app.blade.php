@@ -304,7 +304,7 @@
         <x-navigation />
 
         <!-- Notice Bar -->
-        <x-notice-bar />
+        <!-- x-notice-bar -->
 
         <!-- Page Content -->
         <main>

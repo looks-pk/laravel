@@ -378,6 +378,18 @@
                                         </div>
                                     </a>
                                     
+                                    <a href="/products/flow-x-stairlift/" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                        <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-medium text-gray-900 text-sm">Flow X Curved Stairlift</h4>
+                                            <p class="text-xs text-gray-500">Custom curved stair solutions</p>
+                                        </div>
+                                    </a>
+                                    
                                     <a href="/products-categories/ceiling-lifts/" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
                                         <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -853,6 +865,13 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
                             </svg>
                             Stair Lifts
+                        </a>
+                        <a href="/products/flow-x-stairlift/"
+                            class="flex items-center px-4 py-2 text-gray-600 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                            </svg>
+                            Flow X Curved Stairlift
                         </a>
                         <a href="/products-categories/ceiling-lifts/"
                             class="flex items-center px-4 py-2 text-gray-600 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">

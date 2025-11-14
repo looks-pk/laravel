@@ -54,7 +54,7 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Product 1 -->
-                <div
+                <!-- <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
                         <img src="{{ asset('bathsafety-cat/Freecurve-Curved-Stairlift-min.jpg') }}" alt="Home2stay Freecurve Curved Stair Lift"
@@ -73,10 +73,10 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Product 2 -->
-                <div
+                <!-- <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
                         <img src="{{ asset('bathsafety-cat/1100stairlift-min.jpg') }}" alt="Home2stay Straight Stair Lift 1100"
@@ -87,6 +87,26 @@
                         <p class="text-gray-600 mb-4 flex-grow">The number 1 stairlift brand of 2022, according to Forbes Health. Regain your independence and conqu</p>
                         <div class="mt-auto">
                             <a href="/products/home2stay-straight-stair-lift-1100/"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+
+                
+                <!-- flow x new added product -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('flowx/Flow%20X_Detail%2040.jpg') }}" alt="Home2stay Straight Stair Lift 1100"
+                            class="w-full object-cover" style="height: 400px;">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Flow X Curved Stairlift Vancouver</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Experience Effortless Mobility with Custom-Made Curved Stairlifts</p>
+                        <div class="mt-auto">
+                            <a href="/products/flow-x-stairlift/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>

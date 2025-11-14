@@ -14,6 +14,7 @@ use App\Http\Controllers\RentalController;
 use App\Http\Controllers\AreaController;
 use App\Http\Controllers\UniversalFormController;
 use App\Http\Controllers\TestController;
+use App\Http\Controllers\SitemapController;
 
 /*
 |--------------------------------------------------------------------------
@@ -48,6 +49,10 @@ Route::get('/about', [AboutController::class, 'index'])->name('about');
 // Contact
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
+
+// Sitemap
+Route::get('/sitemap.xml', [SitemapController::class, 'xml'])->name('sitemap.xml');
+Route::get('/sitemap', [SitemapController::class, 'html'])->name('sitemap');
 
 // Stairlifts Landing Page
 Route::get('/stairlifts-canada', function() {

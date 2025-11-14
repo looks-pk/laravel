@@ -1,3 +1,6 @@
+/* Import Human Verification Styles */
+@import './human-verification.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

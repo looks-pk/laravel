@@ -65,7 +65,7 @@
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Bed Rail</h3>
+                    <a href="{{ route('products.show', 'home2stay-bed-rail') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Bed Rail</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">The Smart-Rail locks against the side of the bed to help laying down and moving in bed. Unlike fixed</p>
                         <div class="mt-auto">
                             <a href="/products/home2stay-bed-rail/"
@@ -84,7 +84,7 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Easy Mount Tub-Rail</h3>
+                    <a href="{{ route('products.show', 'home2stay-easy-mount-tub-rail') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Easy Mount Tub-Rail</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">The TubRail provides excellent support in both getting in and out of the tub. The 2-handle grip supp</p>
                         <div class="mt-auto">
                             <a href="/products/home2stay-easy-mount-tub-rail/"
@@ -103,7 +103,7 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Floor-Mounted Advantage Rail</h3>
+                    <a href="{{ route('products.show', 'home2stay-floor-mounted-advantage-rail') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Floor-Mounted Advantage Rail</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">The Advantage Rail provides dependable vertical and horizontal support for movements and transitions</p>
                         <div class="mt-auto">
                             <a href="/products/home2stay-floor-mounted-advantage-rail/"

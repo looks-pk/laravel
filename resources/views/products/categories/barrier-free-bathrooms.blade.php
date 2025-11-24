@@ -71,7 +71,7 @@
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Shower Bay - Portable Accessible Shower</h3>
+                    <a href="{{ route('products.show', 'home2stay-modular-accessible-showers') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Shower Bay - Portable Accessible Shower</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">The Shower Bay is a revolutionary portable shower designed specifically for wheelchair users. It provides a true shower experience with easy installation in any room, offering independence and dignity for users with mobility challenges.</p>
                         <div class="mt-auto">
                             <a href="/products/home2stay-modular-accessible-showers/"
@@ -93,7 +93,7 @@
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Best Bath Modular Barrier-Free Showers</h3>
+                    <a href="{{ route('products.show', 'bestbath-modular-barrier-free-showers') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Best Bath Modular Barrier-Free Showers</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Best Bath Intelligent Designs offers premium modular barrier-free showers that set the standard for safety, durability, and accessibility. Manufactured in the USA with a 30-year limited warranty.</p>
                         <div class="mt-auto">
                             <a href="/products/bestbath-modular-barrier-free-showers/"
@@ -112,7 +112,7 @@
                             class="w-full object-cover" style="height: 300px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Custom Tile Shower Conversion Kits</h3>
+                    <a href="{{ route('products.show', 'home2stay-european-wet-room-conversion-kits') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Custom Tile Shower Conversion Kits</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Transform your bathroom with our custom tile shower conversion kits. Create beautiful, accessible, and functional spaces with curbless shower design that combines style with universal accessibility.</p>
                         <div class="mt-auto">
                             <a href="/products/home2stay-european-wet-room-conversion-kits/"
@@ -134,7 +134,7 @@
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Sentrel Systems Showers</h3>
+                    <a href="{{ route('products.show', 'sentrel-systems-showers') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Sentrel Systems Showers</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Sentrel Systems provides innovative shower solutions designed for accessibility and comfort. Their advanced systems offer superior durability and modern design for barrier-free bathroom environments.</p>
                         <div class="mt-auto">
                             <a href="/products/sentrel-systems-showers/"

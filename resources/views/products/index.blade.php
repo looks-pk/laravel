@@ -39,9 +39,12 @@
 
                     <!-- Product Details -->
                     <div class="p-6 flex-1 flex flex-col">
+                        <a href="/products-categories/stair-lifts/"
+                        >
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
                             Stair Lifts</h3>
+                        </a>
                         <p class="text-gray-600 mb-4 flex-grow">Glide effortlessly between levels with our reliable stair
                             lifts, empowering individuals with limited mobility to navigate their homes with ease.</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
@@ -69,9 +72,12 @@
 
                     <!-- Product Details -->
                     <div class="p-6 flex-1 flex flex-col">
+                        <a href="/products-categories/barrier-free-bathrooms/"
+                        >
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
                             Barrier-Free Bathrooms</h3>
+                        </a>
                         <p class="text-gray-600 mb-4 flex-grow">Elevate your home's accessibility with our thoughtfully
                             crafted bathrooms, designed to cater to diverse mobility needs and ensure a safe, barrier-free
                             bathing experience.</p>
@@ -100,9 +106,12 @@
 
                     <!-- Product Details -->
                     <div class="p-6 flex-1 flex flex-col">
+                        <a href="/products-categories/ramps/"
+                        >
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
                             Ramps</h3>
+                        </a>
                         <p class="text-gray-600 mb-4 flex-grow">Conquer elevation changes indoors and outdoors with our
                             versatile ramps, providing a barrier-free solution for easy transitions.</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
@@ -116,9 +125,9 @@
                 </div>
                 
                 <!-- Barrier-Free Bathrooms 1 -->
-                <div
+                <!-- <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
-                    <!-- Product Image -->
+                    
                     <div class="overflow-hidden relative">
                         <img src="{{ asset('al-prod-page-imgs/Automotive.jpg') }}" alt="Automotive"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -128,11 +137,13 @@
                         </div>
                     </div>
 
-                    <!-- Product Details -->
                     <div class="p-6 flex-1 flex flex-col">
+                        <a href="/products-categories/automotive/"
+                        >
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
                             Automotive</h3>
+                        </a>
                         <p class="text-gray-600 mb-4 flex-grow">Discover top-notch automotive solutions designed for
                             seamless accessibility and ease of travel.</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
@@ -143,7 +154,7 @@
                             View All Products
                         </a>
                     </div>
-                </div>
+                </div> -->
 
 
 
@@ -164,9 +175,12 @@
 
                     <!-- Product Details -->
                     <div class="p-6 flex-1 flex flex-col">
+                        <a href="/products-categories/bathroom-safety/"
+                        >
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
                             Bathroom Safety</h3>
+                        </a>
                         <p class="text-gray-600 mb-4 flex-grow">Elevate your bathroom's safety with our reliable products,
                             ensuring peace of mind and independence in your daily routines.</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
@@ -194,9 +208,12 @@
 
                     <!-- Product Details -->
                     <div class="p-6 flex-1 flex flex-col">
+                        <a href="/products-categories/ceiling-lifts/"
+                        >
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
                             Ceiling Lifts</h3>
+                        </a>
                         <p class="text-gray-600 mb-4 flex-grow">Effortlessly transfer individuals with limited mobility
                             between locations with our space-efficient and safe ceiling lifts.</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
@@ -224,9 +241,12 @@
 
                     <!-- Product Details -->
                     <div class="p-6 flex-1 flex flex-col">
+                        <a href="/products-categories/grab-bars/"
+                        >
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
                             Grab Bars</h3>
+                        </a>
                         <p class="text-gray-600 mb-4 flex-grow">Elevate bathroom safety with our sturdy and stylish grab
                             bars, offering essential support for confident maneuvering.</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
@@ -257,9 +277,12 @@
 
                     <!-- Product Details -->
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3
-                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Safety Poles & Handrails</h3>
+                        <a href="/products-categories/safety-poles-handrails/"
+                        >
+                            <h3
+                                class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
+                                Safety Poles & Handrails</h3>
+                        </a>
                         <p class="text-gray-600 mb-4 flex-grow">Enhance stability and safety with our strategically
                             positioned safety poles and handrails, offering crucial support throughout your living space.
                         </p>
@@ -290,9 +313,12 @@
 
                     <!-- Product Details -->
                     <div class="p-6 flex-1 flex flex-col">
+                        <a href="/products-categories/tub-cuts/"
+                        >
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Tub Cuts</h3>
+                                Tub Cuts</h3>
+                        </a>
                         <p class="text-gray-600 mb-4 flex-grow">Transform your bathtub into an accessible oasis with our tub
                             cuts, providing a convenient and cost-effective alternative to traditional bathing solutions for
                             individuals with mobility challenges.</p>
@@ -321,9 +347,12 @@
 
                     <!-- Product Details -->
                     <div class="p-6 flex-1 flex flex-col">
+                        <a href="/products-categories/vertical-porch-lifts-vpl/"
+                        >
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Vertical Platform Lifts</h3>
+                                Vertical Platform Lifts</h3>
+                        </a>
                         <p class="text-gray-600 mb-4 flex-grow">Improve accessibility in your home or outdoor spaces with
                             our reliable elevator/porch lifts, ensuring smooth transportation between different levels.</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
@@ -351,9 +380,12 @@
 
                     <!-- Product Details -->
                     <div class="p-6 flex-1 flex flex-col">
+                        <a href="/products-categories/walk-in-tubs/"
+                        >
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Walk-In Tub</h3>
+                                Walk-In Tub</h3>
+                        </a>
                         <p class="text-gray-600 mb-4 flex-grow">Experience the comfort and safety of our walk-in tubs,
                             designed for easy entry and exit, promoting relaxation and peace of mind during bathing.</p>
                         <p class="font-bold text-primary mb-5 flex items-center">

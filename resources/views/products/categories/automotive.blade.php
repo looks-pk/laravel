@@ -66,7 +66,7 @@
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay VSL Curb-Sider Interior Lift</h3>
+                    <a href="{{ route('products.show', 'home2stay-vsl-curb-sider-interior-lift-2') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay VSL Curb-Sider Interior Lift</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Bruno’s dependable hoist-style lift for scooters and
                             powerchairs, the Curb-Sider’s space-efficie
 
@@ -89,7 +89,7 @@
                             class="w-full object-cover" style="height: 300px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Swivel Car Seat Lift</h3>
+                    <a href="{{ route('products.show', 'home2stay-swivel-car-seat-lift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Swivel Car Seat Lift</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">The Turny Evo mobility seat by BraunAbility is the best
                             selling handicap vehicle transfer seat for S
 
@@ -121,7 +121,7 @@
                             class="w-full object-cover" style="height: 300px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay VSL Curb-Sider Interior Lift
+                    <a href="{{ route('products.show', 'home2stay-vsl-curb-sider-interior-lift-2') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay VSL Curb-Sider Interior Lift</h3></a>   
                         </h3>
                         <p class="text-gray-600 mb-4 flex-grow">Bruno’s dependable hoist-style lift for scooters and powerchairs, the Curb-Sider’s space-efficie
 

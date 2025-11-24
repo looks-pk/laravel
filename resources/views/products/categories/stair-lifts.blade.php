@@ -103,7 +103,7 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Flow X Curved Stairlift Vancouver</h3>
+                    <a href="{{ route('products.show', 'flow-x-stairlift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Flow X Curved Stairlift Vancouver</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Experience Effortless Mobility with Custom-Made Curved Stairlifts</p>
                         <div class="mt-auto">
                             <a href="/products/flow-x-stairlift/"
@@ -122,7 +122,7 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Straight Stair Lift</h3>
+                    <a href="{{ route('products.show', 'home2stay-straight-stair-lift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Straight Stair Lift</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Use Bruno stair lifts to go up and down the stairs safely. Bruno's Elan Stair Lift SRE-3050 is a m</p>
                         <div class="mt-auto">
                             <a href="/products/home2stay-straight-stair-lift/"
@@ -141,7 +141,7 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Custom Curved Stair Lift</h3>
+                    <a href="{{ route('products.show', 'home2stay-custom-curved-stair-lift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Custom Curved Stair Lift</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Use Bruno stair lifts to go up and down the stairs safely. With an artfully, handcrafted rail made s</p>
                         <div class="mt-auto">
                             <a href="/products/home2stay-custom-curved-stair-lift/"

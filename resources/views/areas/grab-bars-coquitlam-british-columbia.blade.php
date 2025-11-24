@@ -963,12 +963,6 @@
                                     </a>
                                     <span class="text-sm text-gray-500 ml-2">Main Line</span>
                                 </div>
-                                <div>
-                                    <a href="tel:604-608-9442" class="text-xl font-bold text-blue-600 hover:text-blue-700">
-                                        (604) 608-9442
-                                    </a>
-                                    <span class="text-sm text-gray-500 ml-2">Direct Line</span>
-                                </div>
                             </div>
                             <p class="text-sm text-gray-500 mt-3">Monday - Friday: 8:30 AM - 4:30 PM</p>
                         </div>

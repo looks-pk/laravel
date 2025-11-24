@@ -437,7 +437,7 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Warranty:</span>
-                                                <span class="text-gray-600">Comprehensive coverage</span>
+                                                <span class="text-gray-600">Lifetime Warranty restrictions apply</span>
                                             </div>
                                         </div>
                                     </div>

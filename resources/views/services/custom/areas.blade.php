@@ -438,9 +438,6 @@
                                 <a href="tel:604-259-1211" class="text-xl font-bold text-blue-600 hover:text-blue-700 block">
                                     (604) 259-1211
                                 </a>
-                                <a href="tel:604-608-9442" class="text-lg font-semibold text-blue-600 hover:text-blue-700 block">
-                                    (604) 608-9442
-                                </a>
                             </div>
                             <p class="text-sm text-gray-600 mt-2">Mon-Fri 8:30AM-4:30PM</p>
                         </div>

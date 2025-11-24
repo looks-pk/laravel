@@ -53,29 +53,8 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Product 1 - Padded Transfer Bench -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
-                    <div class="overflow-hidden relative">
-                        <img class="w-full" src="{{ asset('bathsafety-cat/padded-transfer-bench.jpg') }}" alt="Home2stay Padded Transfer Bench"
-                            class="w-full object-cover" style="height: 300px;">
-                        <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
-                            Popular
-                        </div>
-                    </div>
-                    <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Padded Transfer Bench</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">Designed for easy and safe transfers in the bathroom. With comfortable cushioned seat and backrest.</p>
-                        <div class="mt-auto">
-                            <a href="/products/home2stay-padded-transfer-bench/"
-                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
-                                View Product
-                            </a>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Product 2 - Invisia Serena Seat PRO -->
+                                <!-- Product 1 - Invisia Serena Seat PRO -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
@@ -83,7 +62,7 @@
                             class="w-full object-cover" style="height: 300px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Invisia Serena Seat PRO</h3>
+                    <a href="{{ route('products.show', 'home2stay-invisia-serena-seat-pro') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Invisia Serena Seat PRO</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Seats and fasteners. Supports up to 500 lbs. Comes in 2 seat width options: 18″ or 26″(ADA-compliant).</p>
                         <div class="mt-auto">
                             <a href="/products/home2stay-invisia-serena-seat-pro/"
@@ -94,15 +73,61 @@
                     </div>
                 </div>
 
-                <!-- Product 3 - Premium Raised Toilet Seat -->
+                                <!-- Product 2 - Invisia Corner Seat -->
                 <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('bathsafety-cat/seat-corner.jpg') }}" alt="Home2stay Invisia Corner Seat"
+                            class="w-full object-cover" style="height: 300px;">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                    <a href="{{ route('products.show', 'home2stay-invisia-corner-seat') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Invisia Corner Seat</h3></a>
+                        <p class="text-gray-600 mb-4 flex-grow">Add a little luxury to your shower with our elegant Corner Seat that provides a solid surface to sit on during your shower.</p>
+                        <div class="mt-auto">
+                            <a href="/products/home2stay-invisia-corner-seat/"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Product 1 - Padded Transfer Bench -->
+                <!-- <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
+                    <div class="overflow-hidden relative">
+                        <img class="w-full" src="{{ asset('bathsafety-cat/padded-transfer-bench.jpg') }}" alt="Home2stay Padded Transfer Bench"
+                            class="w-full object-cover" style="height: 300px;">
+                        <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
+                            Popular
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                    <a href="{{ route('products.show', 'home2stay-padded-transfer-bench') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Padded Transfer Bench</h3></a>
+                        <p class="text-gray-600 mb-4 flex-grow">Designed for easy and safe transfers in the bathroom. With comfortable cushioned seat and backrest.</p>
+                        <div class="mt-auto">
+                            <a href="/products/home2stay-padded-transfer-bench/"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+
+
+
+                <!-- Product 3 - Premium Raised Toilet Seat -->
+                <!-- <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
                         <img src="{{ asset('bathsafety-cat/171126.jpg') }}" alt="Home2stay Premium Raised Toilet Seat w/ Removable Arms"
                             class="w-full object-cover" style="height: 300px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Premium Raised Toilet Seat w/ Removable Arms</h3>
+                    <a href="{{ route('products.show', 'home2stay-premium-raised-toilet-seat-w-removable-arms') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Premium Raised Toilet Seat w/ Removable Arms</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Designed for individuals who have difficulty sitting down or getting up from the toilet, the Premium raised toilet seat provides essential support.</p>
                         <div class="mt-auto">
                             <a href="/products/home2stay-premium-raised-toilet-seat-w-removable-arms/"
@@ -111,7 +136,7 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Product 4 - ADA Commercial Shower Seat -->
                 <div
@@ -121,7 +146,7 @@
                             class="w-full object-cover" style="height: 300px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay ADA Commercial Shower Seat</h3>
+                    <a href="{{ route('products.show', 'home2stay-ada-commercial-shower-seat') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay ADA Commercial Shower Seat</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Excellent quality and commercial grade- designed to hold up to countless years of tough commercial use.</p>
                         <div class="mt-auto">
                             <a href="/products/home2stay-ada-commercial-shower-seat/"
@@ -140,7 +165,7 @@
                             class="w-full object-cover" style="height: 300px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Bath Mat</h3>
+                    <a href="{{ route('products.show', 'home2stay-bath-mat') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Bath Mat</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">This extra-long Bath Mat adds safety and security by providing a large, slip-proof surface in your bathroom.</p>
                         <div class="mt-auto">
                             <a href="/products/home2stay-bath-mat/"
@@ -151,24 +176,8 @@
                     </div>
                 </div>
 
-                <!-- Product 6 - Invisia Corner Seat -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('bathsafety-cat/seat-corner.jpg') }}" alt="Home2stay Invisia Corner Seat"
-                            class="w-full object-cover" style="height: 300px;">
-                    </div>
-                    <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Invisia Corner Seat</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">Add a little luxury to your shower with our elegant Corner Seat that provides a solid surface to sit on during your shower.</p>
-                        <div class="mt-auto">
-                            <a href="/products/home2stay-invisia-corner-seat/"
-                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
-                                View Product
-                            </a>
-                        </div>
-                    </div>
-                </div>
+
+
             </div>
         </div>
     </section>

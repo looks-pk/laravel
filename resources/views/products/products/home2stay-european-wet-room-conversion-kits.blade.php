@@ -47,12 +47,12 @@
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" d="m1 9 4-4-4-4" />
                                 </svg>
-                                <span class="ml-1 font-medium text-gray-100">Home2stay European Wet Room Conversion Kits</span>
+                                <span class="ml-1 font-medium text-gray-100">Home2stay Tiled Barrier-free Showers</span>
                             </div>
                         </li>
                     </ol>
                 </nav>
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Home2stay European Wet Room Conversion Kits</h1>
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Home2stay Tiled Barrier-free Showers</h1>
                 <div class="flex items-center mb-4">
                     <div class="flex text-yellow-400">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">

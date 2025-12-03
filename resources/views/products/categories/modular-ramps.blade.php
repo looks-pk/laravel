@@ -17,7 +17,7 @@
     <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}');">
+            style="background-image: url('{{ asset('/mram/p3.png') }}');">
             <div class="absolute inset-0 bg-black opacity-60"></div>
         </div>
 
@@ -60,7 +60,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Simple and Quick Installation"
+                        <img src="{{ asset('/mram/p2.png') }}" alt="Simple and Quick Installation"
                             class="w-full object-cover" style="height: 250px;">
                         <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Popular
@@ -76,7 +76,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Strong and Weather-Resistant"
+                        <img src="{{ asset('/mram/p3.png') }}" alt="Strong and Weather-Resistant"
                             class="w-full object-cover" style="height: 250px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -89,7 +89,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Safe for Daily Use"
+                        <img src="{{ asset('/mram/p4.png') }}" alt="Safe for Daily Use"
                             class="w-full object-cover" style="height: 250px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -102,7 +102,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Fits Any Property"
+                        <img src="{{ asset('/mram/p5.png') }}" alt="Fits Any Property"
                             class="w-full object-cover" style="height: 250px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -114,119 +114,79 @@
         </div>
     </section>
 
-    <!-- Introduction Section -->
+    <!-- Professional Wheelchair Ramp Installation Section -->
     <section class="py-16 bg-white">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Home2stay for Bath Services in Vancouver?</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Professional Wheelchair Ramp Installation Vancouver Service:</h2>
                     <p class="text-lg text-gray-600">
-                        All bathrooms should be made safe. We assist with the end-to-end. Planning, measuring, installing, and fine-tuning are also in our team. We put you on a path of simple steps and clear choices. We also assist the families in choosing the correct Best Bath Services Vancouver upgrades. These upgrades simplify bathing among the seniors, children, and individuals with mobility needs while ensuring access to high-quality Bathroom safety products Vancouver:
-                    </p>
-                    <p class="text-lg text-gray-600 mt-4">
-                        We never fail to suggest safety products that can help in your everyday living. These consist of convenient features such as accessories, stable rails, and features that are easy to use. We want to defend you and your family with the right bath and toilet safety accessories in place.
+                        Home2Stay offers complete Wheelchair Ramp Installation Vancouver services, from assessment to final setup. We follow every safety guideline and building requirement to make sure your ramp is safe, smooth, and comfortable.
                     </p>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-                    <div class="bg-gray-50 p-6 rounded-lg text-center">
-                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Grab bars</h3>
-                        <p class="text-gray-600">Stable grab bars help you move with confidence.</p>
+                <div class="space-y-8 mb-12">
+                    <div class="bg-gray-50 p-8 rounded-lg">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Step 1: On-Site Assessment:</h3>
+                        <p class="text-gray-600 mb-4">Our team visits your home to:</p>
+                        <ul class="text-gray-600 space-y-2 ml-6">
+                            <li>• Measure the height of your entry</li>
+                            <li>• Check available space</li>
+                            <li>• Review safety risks</li>
+                            <li>• Understand your mobility needs</li>
+                        </ul>
+                        <p class="text-gray-600 mt-4">This helps us design a ramp that is the right size, angle, and shape for your daily use.</p>
                     </div>
 
-                    <div class="bg-gray-50 p-6 rounded-lg text-center">
-                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Non-slip mats</h3>
-                        <p class="text-gray-600">High-quality mats prevent slips and provide secure footing.</p>
+                    <div class="bg-gray-50 p-8 rounded-lg">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Step 2: Custom Ramp Design:</h3>
+                        <p class="text-gray-600 mb-4">We design your modular system based on:</p>
+                        <ul class="text-gray-600 space-y-2 ml-6">
+                            <li>• Your entry height</li>
+                            <li>• Your turning needs</li>
+                            <li>• The number of steps</li>
+                            <li>• The width of mobility devices</li>
+                        </ul>
+                        <p class="text-gray-600 mt-4">You can choose straight ramps, switchback ramps, or full platform systems.</p>
                     </div>
 
-                    <div class="bg-gray-50 p-6 rounded-lg text-center">
-                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M13 10V3L4 14h7v7l9-11h-7z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Shower chairs</h3>
-                        <p class="text-gray-600">Comfortable seating options make bathing easier and safer.</p>
+                    <div class="bg-gray-50 p-8 rounded-lg">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Step 3: Safe Installation:</h3>
+                        <p class="text-gray-600">We install your ramp with strong anchoring, slip-resistant surfaces, and stable handrails. Every piece is checked carefully to ensure long-term safety. Our Wheelchair Ramp Installation Vancouver process ensures perfect alignment and maximum stability.</p>
                     </div>
 
-                    <div class="bg-gray-50 p-6 rounded-lg text-center">
-                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Walk-in options</h3>
-                        <p class="text-gray-600">Modern walk-in showers and tubs for easy access.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-lg text-center">
-                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Raised toilet seats</h3>
-                        <p class="text-gray-600">Make sitting and standing easier with elevated solutions.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-lg text-center">
-                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Easy-grip rails</h3>
-                        <p class="text-gray-600">Rails that are easy to use for added stability.</p>
+                    <div class="bg-gray-50 p-8 rounded-lg">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Step 4: Final Safety Check and User Guidance</h3>
+                        <p class="text-gray-600">We take you through each section of your ramp to ensure you get to know how to operate and maintain it easily. Safety is not an add-on feature at Home2Stay; it is the basic building block.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Featured Product -->
+    <!-- Types of Modular Ramps -->
     <section class="py-16 bg-primary">
         <div class="container mx-auto px-4">
             <div class="bg-gray-50 rounded-xl overflow-hidden shadow-lg">
                 <div class="flex flex-col lg:flex-row">
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Bathroom Safety Products That Make Life Easier:</h2>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Types of Modular Ramps We Install:</h2>
                         <p class="text-lg text-gray-600 mb-4">
-                            Safety starts with the right tools. Home2stay offers a strong list of items that make your bathroom safer. Many families in the city trust us for Best Bath Services Vancouver because we include simple, yet powerful safety products. Our collection of Bathroom safety products Vancouver is designed to offer long-term support.
+                            We apply a great variety of styles of modular ramps to suit homes, clinics, churches, community centers, and commercial buildings. Our Modular Ramps in Vancouver collection includes:
                         </p>
-                        <p class="text-lg text-gray-600 mb-4">
-                            We carry high-quality Home2stay-approved items that last long and look good. Vancouver homes often need extra support, especially for loved ones with mobility challenges. This is why many people choose our Best Bath Services Vancouver plans that include durable Bathroom safety products Vancouver for added security.
-                        </p>
-                        <p class="text-lg text-gray-600 mb-6">
-                            We superciliously offer Bathroom safety products Vancouver that fit every style and budget. Families trust us for safe, simple, and useful upgrades. These Bathroom safety products Vancouver give you stability and confidence during your daily routine. If you want a safer home, our safety products can make a big difference.
-                        </p>
+                        <ul class="text-lg text-gray-600 space-y-3 mb-6">
+                            <li><strong>• Straight Ramps:</strong> Easy, direct access, low-step homes.</li>
+                            <li><strong>• Switchback Ramps:</strong> Ideal to use in higher entrances where there is little space.</li>
+                            <li><strong>• Porch & Landing Systems:</strong> Additional platforms facilitating turnover and rest.</li>
+                            <li><strong>• Temporary Ramps:</strong> Excellent in terms of renting it, recovering, or for an event.</li>
+                            <li><strong>• Permanent Modular Systems:</strong> Durable, heavy, and designed to be used daily.</li>
+                        </ul>
                         <p class="mb-5">Give us a call at <b><a href="tel:+16042591211" style="color: red;">(604) 259-1211</a></b> or submit a <b> <a href="#assessment" style="color: red;">FREE ASSESSMENT FORM</a></b> to check.</p>
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('/bathsafety-cat/vertical-platform-lift-bruno-residential-porch-down-by-steps.jpg') }}" alt="Bathroom Safety Products"
+                        <img src="{{ asset('/mram/p6.png') }}" alt="Types of Modular Ramps"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -234,76 +194,43 @@
         </div>
     </section>
 
-    <!-- Bath and Toilet Safety Accessories -->
+    <!-- Who Needs a Modular Ramp -->
     <section class="py-16 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="bg-white rounded-xl shadow-md overflow-hidden">
                     <div class="p-8 md:p-12">
-                        <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Bath and Toilet Safety Accessories:</h2>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Who Needs a Modular Ramp?</h2>
 
                         <div class="prose prose-lg max-w-none">
-                            <p class="text-gray-700 mb-4">
-                                Bathrooms are usually slippery with hard floors. This renders safety accessories very significant. Home2stay equips the premises with several useful aids to avoid injuries and help in everyday care, especially through our trusted bath and toilet safety accessories.
-                            </p>
-
-                            <h3 class="text-2xl font-bold text-gray-800 mt-8 mb-4">The most useful ones include:</h3>
-
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                                <div class="bg-gray-50 p-4 rounded-lg">
-                                    <h4 class="font-semibold text-gray-800 mb-2">Toilet support frames</h4>
-                                    <p class="text-gray-600 text-sm">Sturdy support frames provide balance and assistance.</p>
-                                </div>
-                                <div class="bg-gray-50 p-4 rounded-lg">
-                                    <h4 class="font-semibold text-gray-800 mb-2">Raised seats</h4>
-                                    <p class="text-gray-600 text-sm">Elevated seats make sitting and standing easier.</p>
-                                </div>
-                                <div class="bg-gray-50 p-4 rounded-lg">
-                                    <h4 class="font-semibold text-gray-800 mb-2">Transfer benches</h4>
-                                    <p class="text-gray-600 text-sm">Assist with safe entry and exit from bathtubs.</p>
-                                </div>
-                                <div class="bg-gray-50 p-4 rounded-lg">
-                                    <h4 class="font-semibold text-gray-800 mb-2">Shower grips</h4>
-                                    <p class="text-gray-600 text-sm">Provide secure grip and stability in the shower.</p>
-                                </div>
-                                <div class="bg-gray-50 p-4 rounded-lg">
-                                    <h4 class="font-semibold text-gray-800 mb-2">Anti-slip steps</h4>
-                                    <p class="text-gray-600 text-sm">Prevent slips and falls with secure footing.</p>
-                                </div>
-                            </div>
-
-                            <p class="text-gray-700 mb-4">
-                                Our team mentors you on all your decisions. We assemble all our products carefully and ensure that they fit you. Our Bath and toilet safety accessories are also popular among families that need to move more easily, as they assist with balance and support. These safety accessories minimize the pressure levels during bathing or when using the toilet. Our accessories will provide serenity when safety is primary. Many clients choose our bath and toilet safety accessories to create safer bathroom routines.
-                            </p>
-
-                            <h3 class="text-2xl font-bold text-gray-800 mt-8 mb-4">Our Most Popular Bath Services:</h3>
-
                             <p class="text-gray-700 mb-6">
-                                What you want in your bathroom, we're providing you most popular bath services.
+                                Modular ramps support people with:
                             </p>
 
-                            <div class="space-y-4 mb-8">
-                                <div class="bg-gray-50 p-6 rounded-lg">
-                                    <h4 class="font-bold text-gray-800 mb-2 text-lg">Walk-In Shower Upgrades:</h4>
-                                    <p class="text-gray-600">We replace old tubs with modern walk-in showers. They look clean and feel safe. They also pair well with safety gear and Bathroom safety products Vancouver.</p>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                                <div class="bg-gray-50 p-4 rounded-lg">
+                                    <p class="text-gray-700">• Mobility limitations</p>
                                 </div>
-                                <div class="bg-gray-50 p-6 rounded-lg">
-                                    <h4 class="font-bold text-gray-800 mb-2 text-lg">Bathtub Conversions:</h4>
-                                    <p class="text-gray-600">We convert tubs into safer spaces. This works great for seniors or people recovering from injury.</p>
+                                <div class="bg-gray-50 p-4 rounded-lg">
+                                    <p class="text-gray-700">• Disabilities</p>
                                 </div>
-                                <div class="bg-gray-50 p-6 rounded-lg">
-                                    <h4 class="font-bold text-gray-800 mb-2 text-lg">Grab Bar Installation:</h4>
-                                    <p class="text-gray-600">Grab bars help you move with confidence. We place them near showers, tubs, and toilets, supported by strong bath and toilet safety accessories.</p>
+                                <div class="bg-gray-50 p-4 rounded-lg">
+                                    <p class="text-gray-700">• Injury recovery</p>
                                 </div>
-                                <div class="bg-gray-50 p-6 rounded-lg">
-                                    <h4 class="font-bold text-gray-800 mb-2 text-lg">Toilet Height Adjustments:</h4>
-                                    <p class="text-gray-600">A raised toilet makes sitting and standing easier. This small change can help your daily routine.</p>
+                                <div class="bg-gray-50 p-4 rounded-lg">
+                                    <p class="text-gray-700">• Balance challenges</p>
                                 </div>
-                                <div class="bg-gray-50 p-6 rounded-lg">
-                                    <h4 class="font-bold text-gray-800 mb-2 text-lg">Full Bathroom Safety Planning:</h4>
-                                    <p class="text-gray-600">Our team inspects your bathroom and identifies areas that need improvement. Then we create a simple and safe plan for you.</p>
+                                <div class="bg-gray-50 p-4 rounded-lg">
+                                    <p class="text-gray-700">• Wheelchair or scooter use</p>
+                                </div>
+                                <div class="bg-gray-50 p-4 rounded-lg">
+                                    <p class="text-gray-700">• Elderly family members</p>
                                 </div>
                             </div>
+
+                            <p class="text-gray-700 mb-4">
+                                They also help caregivers, visitors, and children move in and out of the home safely.
+                            </p>
 
                             <div class="mt-8 flex flex-wrap gap-4 justify-center">
                                 <a href="#assessment"
@@ -324,67 +251,89 @@
         </div>
     </section>
 
-    <!-- Why Vancouver Families Trust Home2stay -->
+    <!-- Why Choose Home2Stay -->
     <section class="py-16 bg-white">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Vancouver Families Trust Home2stay</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Home2Stay?</h2>
                     <p class="text-lg text-gray-600">
-                        Families trust Home2stay because we care about comfort and safety. We keep our process simple. We use clear words, safe tools, and strong installation methods. Our team completes each job with honesty and attention.
+                        Home2Stay is trusted by families across Vancouver because we care about real people, not just projects. We take the time to know your needs and design a solution that truly helps you live more easily and safer. People searching for Modular Ramps in Vancouver rely on our quality and expertise.
                     </p>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-                    <div class="bg-gray-50 p-6 rounded-lg">
-                        <h3 class="text-xl font-bold text-gray-800 mb-4">When you pick Home2stay, you get:</h3>
-                        <ul class="text-gray-600 space-y-2">
-                            <li>• Friendly service</li>
-                            <li>• Clear pricing</li>
-                            <li>• Quick installation</li>
-                            <li>• Quality materials</li>
-                            <li>• Custom support</li>
-                            <li>• A safer bathroom</li>
-                        </ul>
+                <div class="mb-8">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">What Makes Us Different:</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <p class="text-gray-700">• Friendly, certified installers</p>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <p class="text-gray-700">• Honest guidance with no pressure sales</p>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <p class="text-gray-700">• Custom solutions for every home</p>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <p class="text-gray-700">• Fast installation with strong materials</p>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <p class="text-gray-700">• Clear pricing with no hidden fees</p>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <p class="text-gray-700">• Long-term support and follow-up service</p>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <p class="text-gray-700">• Local Vancouver experience and expertise</p>
+                        </div>
                     </div>
+                </div>
 
-                    <div class="bg-gray-50 p-6 rounded-lg">
-                        <h3 class="text-xl font-bold text-gray-800 mb-4">&nbsp;</h3>
-                        <p class="text-gray-600 mt-8">
-                            <strong>Your safety is our goal. Your comfort is our promise.</strong>
-                        </p>
-                    </div>
+                <div class="text-center mt-8">
+                    <p class="text-lg text-gray-600">
+                        <strong>We treat your home with respect and your safety with serious commitment.</strong>
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Featured section 2 -->
+    <!-- Maintenance and Cost Section -->
     <section class="py-16 bg-primary">
         <div class="container mx-auto px-4">
             <div class="bg-gray-50 rounded-xl overflow-hidden shadow-lg">
                 <div class="flex flex-col lg:flex-row">
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready to book a schedule?</h2>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Maintenance and Long-Term Care:</h2>
+                        <p class="text-lg text-gray-600 mb-4">
+                            Modular ramps require very little maintenance. Still, a few simple steps keep them in perfect condition:
+                        </p>
+                        <ul class="text-lg text-gray-600 space-y-2 mb-6">
+                            <li>• Clean the surface every few weeks</li>
+                            <li>• Check for loose hardware during seasonal changes</li>
+                            <li>• Make sure the non-slip surface stays clear of ice or debris</li>
+                            <li>• Call us if you ever notice movement or wear</li>
+                        </ul>
                         <p class="text-lg text-gray-600 mb-6">
-                            We look forward to helping you create your safe and accessible space</p>
-                        <div class="mt-8 flex flex-wrap gap-4">
-                            <a href="#assessment"
-                                class="inline-flex items-center px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition duration-300">
-                                Book Online
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
-                                    fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </a>
-                        </div>
+                            Our ramps are designed to last many years with minimal effort. Whether you have a temporary ramp or a complete Wheelchair Ramp Installation Vancouver setup, the care routine is simple and effective.
+                        </p>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Cost of Modular Ramp Systems:</h3>
+                        <p class="text-lg text-gray-600 mb-3">Prices depend on:</p>
+                        <ul class="text-lg text-gray-600 space-y-2 mb-4">
+                            <li>• Ramp length</li>
+                            <li>• Type of system</li>
+                            <li>• Number of platforms</li>
+                            <li>• Ground conditions</li>
+                            <li>• Safety features added</li>
+                        </ul>
+                        <p class="text-lg text-gray-600">
+                            Home2Stay provides fair, honest, and transparent pricing. After your assessment, we give you a clear quote with no hidden charges.
+                        </p>
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Vertical Platform Lifts"
+                        <img src="{{ asset('/mram/p5.png') }}" alt="Modular Ramp Maintenance"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -450,15 +399,15 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Safer Bath Services for Your Home Today</h2>
-                    <p class="text-gray-600 mb-4">Your bathroom should feel safe and easy to use every day. Home2stay offers the Best Bath Services Vancouver to help you enjoy unconcerned care. We install trusted products, helpful accessories, and custom features designed for real families. Whether you need advanced Bathroom safety products Vancouver or simple bath and toilet safety accessories, we are here to guide you.</p>
-                    <p class="text-gray-600">If you want a safer bathroom, contact Home2stay today. We are ready to help you build a space that supports your comfort, safety, and relaxation.</p>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready for Safer Access? Contact Home2Stay Today</h2>
+                    <p class="text-gray-600 mb-4">If you or your loved one struggles with steps, balance, or mobility, a modular ramp can make daily life easier and safer. We offer free home assessments to help you find the best ramp for your space.</p>
+                    <p class="text-gray-600">Call Home2Stay today and let us help you build a safer, more accessible home with Modular Ramps in Vancouver or professional Wheelchair Ramp Installation Vancouver services.</p>
                 </div>
 
                 <form action="/submit-assessment" method="POST">
                     @csrf
                     <input type="hidden" name="form_type" value="quote">
-                    <input type="hidden" name="form_source" value="Bathroom_Safety_Products_quote_form">
+                    <input type="hidden" name="form_source" value="Modular_Ramps_quote_form">
                     <!-- Personal Information -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
@@ -477,96 +426,80 @@
                                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
                         </div>
                         <div>
-                            <label class="block text-gray-700 font-medium mb-2" for="location">Bathroom Location</label>
-                            <input type="text" id="location" name="location" placeholder="e.g., Master bathroom, Main floor bathroom, etc."
+                            <label class="block text-gray-700 font-medium mb-2" for="location">Property Address</label>
+                            <input type="text" id="location" name="location" placeholder="e.g., Your home address"
                                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
                         </div>
                     </div>
 
-                    <!-- Installation Type -->
+                    <!-- Ramp Type Interest -->
                     <div>
-                        <label class="block text-gray-700 font-medium mb-2">What is your current bathing situation? *</label>
+                        <label class="block text-gray-700 font-medium mb-2">What type of ramp are you interested in? *</label>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                             <label class="flex items-center space-x-3">
-                                <input type="radio" name="current_situation" value="standard_tub" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Standard Bathtub</span>
+                                <input type="checkbox" name="ramp_types[]" value="straight_ramp" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Straight Ramp</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="radio" name="current_situation" value="shower_only" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Shower Only</span>
+                                <input type="checkbox" name="ramp_types[]" value="switchback_ramp" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Switchback Ramp</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="radio" name="current_situation" value="tub_shower_combo" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Tub/Shower Combination</span>
+                                <input type="checkbox" name="ramp_types[]" value="porch_landing" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Porch & Landing System</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="radio" name="current_situation" value="not_sure" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Not Sure</span>
-                            </label>
-                        </div>
-                    </div>
-
-                    <!-- Therapy Interest -->
-                    <div>
-                        <label class="block text-gray-700 font-medium mb-2">Which therapeutic features interest you?</label>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                            <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="therapy_features[]" value="air_therapy"
-                                    class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Air Therapy System</span>
+                                <input type="checkbox" name="ramp_types[]" value="temporary" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Temporary Ramp</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="therapy_features[]" value="hydro_therapy"
-                                    class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Hydro Therapy System</span>
+                                <input type="checkbox" name="ramp_types[]" value="permanent" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Permanent System</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="therapy_features[]" value="micro_bubble"
-                                    class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Micro Bubble Therapy</span>
-                            </label>
-                            <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="therapy_features[]" value="heated_seating"
-                                    class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Heated Seating</span>
-                            </label>
-                            <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="therapy_features[]" value="not_sure" class="form-checkbox text-primary">
+                                <input type="checkbox" name="ramp_types[]" value="not_sure" class="form-checkbox text-primary">
                                 <span class="text-gray-700" style="margin-left: 5px;">Not Sure/Need Consultation</span>
                             </label>
                         </div>
                     </div>
 
-                    <!-- Safety & Mobility Requirements -->
+                    <!-- Mobility Requirements -->
                     <div>
-                        <label class="block text-gray-700 font-medium mb-2">What are your primary safety concerns?</label>
+                        <label class="block text-gray-700 font-medium mb-2">Who will be using the ramp?</label>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="safety_concerns[]" value="high_step_over"
+                                <input type="checkbox" name="users[]" value="wheelchair_user"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">High Step-Over Height</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Wheelchair User</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="safety_concerns[]" value="slipping_falling"
+                                <input type="checkbox" name="users[]" value="mobility_scooter"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Slipping/Falling Risks</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Mobility Scooter User</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="safety_concerns[]" value="getting_in_out"
+                                <input type="checkbox" name="users[]" value="walker"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Difficulty Getting In/Out</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Walker/Cane User</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="safety_concerns[]" value="standing_balance"
+                                <input type="checkbox" name="users[]" value="elderly"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Standing/Balance Issues</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Elderly Family Member</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="safety_concerns[]" value="mobility_aids"
+                                <input type="checkbox" name="users[]" value="injury_recovery"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Use of Mobility Aids</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Person Recovering from Injury</span>
                             </label>
                         </div>
+                    </div>
+
+                    <!-- Entry Information -->
+                    <div>
+                        <label class="block text-gray-700 font-medium mb-2">Number of steps at your entry</label>
+                        <input type="number" name="number_of_steps" placeholder="Enter number of steps" min="0"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
                     </div>
 
                     <!-- Additional Information -->
@@ -574,7 +507,7 @@
                         <label class="block text-gray-700 font-medium mb-2" for="message">Additional Information</label>
                         <textarea id="message" name="message" rows="4"
                             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-                            placeholder="Please describe your bathroom space, any health conditions that affect bathing, specific therapeutic needs, or questions about walk-in tubs..."></textarea>
+                            placeholder="Please describe your property layout, available space, ground conditions, or any questions about modular ramps..."></textarea>
                     </div>
 
                     <!-- Submit Button -->
@@ -605,37 +538,37 @@
 
                 <div class="space-y-6">
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">What type of Bathroom safety products Vancouver does Home2stay offer?</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">How long does a modular ramp installation take?</h3>
                         <p class="text-gray-600">
-                            We offer grab bars, raised toilet seats, non-slip mats, shower chairs, walk-in options, and more. All products are designed to improve stability and prevent falls.
+                            Most installations take only a few hours. Larger systems may take half a day, but we finish everything the same day.
                         </p>
                     </div>
 
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">How do bath and toilet safety accessories help seniors?</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Are modular ramps safe during rain or winter?</h3>
                         <p class="text-gray-600">
-                            These accessories provide support, reduce pressure on joints, and make movement easier, helping seniors maintain independence and safety.
+                            Yes. They have non-slip surfaces and are built from rust-resistant aluminum, making them safe in wet and cold weather.
                         </p>
                     </div>
 
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Can Home2stay install customized safety solutions?</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Can the ramp be moved or changed later?</h3>
                         <p class="text-gray-600">
-                            Yes, we create a customized plan based on your layout, mobility needs, and bathroom structure to include the right safety products.
+                            Yes. Modular ramps can be expanded, shortened, or moved if your needs or home layout change.
                         </p>
                     </div>
 
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">How long does it take to install Bathroom safety products Vancouver?</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Do you offer ramps for businesses or clinics?</h3>
                         <p class="text-gray-600">
-                            Most installations take only a few hours, depending on what products you choose and the size of your bathroom.
+                            Yes. We install modular systems for commercial buildings, offices, care homes, and community centers.
                         </p>
                     </div>
 
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Do I need a full renovation to improve bathroom safety?</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Is a home assessment free?</h3>
                         <p class="text-gray-600">
-                            Not always. Many families achieve great results simply by adding essential bath and toilet safety accessories without major remodeling.
+                            Yes, Home2Stay offers free assessments to help you choose the right ramp.
                         </p>
                     </div>
                 </div>
@@ -647,14 +580,14 @@
     <section class="py-16 bg-primary">
         <div class="container mx-auto px-4">
                 <div class="max-w-4xl mx-auto text-center text-white">
-                <h2 class="text-3xl font-bold mb-6">Ready to Transform Your Bathroom Safety?</h2>
-                <p class="text-xl mb-8">Contact us today to explore how our bathroom safety products and bath services can make your daily routine safer, more comfortable, and worry-free.</p>
+                <h2 class="text-3xl font-bold mb-6">Ready for Safer Access?</h2>
+                <p class="text-xl mb-8">Contact us today to explore how Modular Ramps in Vancouver and professional Wheelchair Ramp Installation Vancouver can make your home safer and more accessible.</p>
                 <div class="flex flex-wrap justify-center gap-4">
                     <a href="{{ route('contact') }}"
                         class="px-8 py-3 bg-white text-primary hover:bg-gray-100 rounded-lg font-medium transition duration-300">
                         Contact Us
                     </a>
-                    <a href="#"
+                    <a href="{{ route('products.index') }}"
                         class="px-8 py-3 bg-transparent border-2 border-white text-white hover:bg-white/10 rounded-lg font-medium transition duration-300">
                         View All Products
                     </a>

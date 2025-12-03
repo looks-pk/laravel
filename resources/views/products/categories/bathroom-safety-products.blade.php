@@ -17,7 +17,7 @@
     <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}');">
+            style="background-image: url('{{ asset('/bsafe/p2.png') }}');">
             <div class="absolute inset-0 bg-black opacity-60"></div>
         </div>
 
@@ -56,29 +56,8 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-                <!-- Product 1 -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Grab Bars Safety Product"
-                            class="w-full object-cover" style="height: 300px;">
-                        <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
-                            Popular
-                        </div>
-                    </div>
-                    <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Safety Grab Bars</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">Durable grab bars provide stability and support near showers, tubs, and toilets. Essential bath and toilet safety accessories for every home.</p>
-                        <div class="mt-auto">
-                            <div class="block w-full bg-gray-200 text-gray-500 py-3 px-4 rounded-lg text-center font-medium cursor-not-allowed">
-                                View Product
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Product 2 -->
-                <div
+                <!-- <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
                         <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Shower Chairs Safety Product"
@@ -93,7 +72,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
 
             </div>
@@ -212,7 +191,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('/bathsafety-cat/vertical-platform-lift-bruno-residential-porch-down-by-steps.jpg') }}" alt="Bathroom Safety Products"
+                        <img src="{{ asset('/bsafe/p1.png') }}" alt="Bathroom Safety Products"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -370,7 +349,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Vertical Platform Lifts"
+                        <img src="{{ asset('/bsafe/p2.png') }}" alt="Vertical Platform Lifts"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

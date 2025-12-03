@@ -118,119 +118,99 @@
         </div>
     </section>
 
-    <!-- Introduction Section -->
+    <!-- Our Custom Tiled Shower Installation Process -->
     <section class="py-16 bg-white">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Home2stay for Bath Services in Vancouver?</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Custom Tiled Shower Installation Process:</h2>
                     <p class="text-lg text-gray-600">
-                        All bathrooms should be made safe. We assist with the end-to-end. Planning, measuring, installing, and fine-tuning are also in our team. We put you on a path of simple steps and clear choices. We also assist the families in choosing the correct Best Bath Services Vancouver upgrades. These upgrades simplify bathing among the seniors, children, and individuals with mobility needs while ensuring access to high-quality Bathroom safety products Vancouver:
-                    </p>
-                    <p class="text-lg text-gray-600 mt-4">
-                        We never fail to suggest safety products that can help in your everyday living. These consist of convenient features such as accessories, stable rails, and features that are easy to use. We want to defend you and your family with the right bath and toilet safety accessories in place.
+                        Home2stay follows a structured and reliable process to make sure every shower is installed perfectly. Here's what you can expect:
                     </p>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-                    <div class="bg-gray-50 p-6 rounded-lg text-center">
-                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Grab bars</h3>
-                        <p class="text-gray-600">Stable grab bars help you move with confidence.</p>
+                <div class="space-y-6 mb-12">
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Consultation and Planning:</h3>
+                        <p class="text-gray-600">We begin by understanding your needs. Our team discusses your design ideas, materials, budget, and layout options. We also check your current bathroom space to plan drainage, plumbing, and tile layout. Many homeowners contact us for custom shower and tile installation, and we ensure proper planning from day one.</p>
                     </div>
 
-                    <div class="bg-gray-50 p-6 rounded-lg text-center">
-                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Non-slip mats</h3>
-                        <p class="text-gray-600">High-quality mats prevent slips and provide secure footing.</p>
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Demolition and Preparation:</h3>
+                        <p class="text-gray-600">The old shower or tub is safely removed. We prepare the space by checking the walls, plumbing, and floor for any issues. This step ensures your new shower has a solid foundation.</p>
                     </div>
 
-                    <div class="bg-gray-50 p-6 rounded-lg text-center">
-                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M13 10V3L4 14h7v7l9-11h-7z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Shower chairs</h3>
-                        <p class="text-gray-600">Comfortable seating options make bathing easier and safer.</p>
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Waterproofing System:</h3>
+                        <p class="text-gray-600">This is one of the most important parts of our service. We install a complete waterproofing system, sealing walls, floors, and corners. This prevents leaks, mold, and future damage, especially important in Vancouver's humid weather.</p>
                     </div>
 
-                    <div class="bg-gray-50 p-6 rounded-lg text-center">
-                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Walk-in options</h3>
-                        <p class="text-gray-600">Modern walk-in showers and tubs for easy access.</p>
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Tile Layout Planning:</h3>
+                        <p class="text-gray-600">Before installing tiles, we map the design on the walls and floor. This helps maintain clean lines, balanced spacing, and a polished look.</p>
                     </div>
 
-                    <div class="bg-gray-50 p-6 rounded-lg text-center">
-                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Raised toilet seats</h3>
-                        <p class="text-gray-600">Make sitting and standing easier with elevated solutions.</p>
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Tile Installation:</h3>
+                        <p class="text-gray-600">Each tile is installed with high-quality materials. Be it ceramic, porcelain, stone, or mosaic, we are able to guarantee that it is perfectly aligned and firmly adhered. For all custom shower and tile installation projects, we use premium tools and techniques.</p>
                     </div>
 
-                    <div class="bg-gray-50 p-6 rounded-lg text-center">
-                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Easy-grip rails</h3>
-                        <p class="text-gray-600">Rails that are easy to use for added stability.</p>
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Grouting and Sealing:</h3>
+                        <p class="text-gray-600">Once the tiles are laid, we apply the grout of your preferred choice. The tiles are then sealed, and the grout is covered so that they are not stained or subjected to moisture.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Finishing Touches:</h3>
+                        <p class="text-gray-600">This includes placement of shelves, niches, fixtures, glass doors, or benches according to your design. All of it is even, smooth, and re-inspected.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Final Inspection:</h3>
+                        <p class="text-gray-600">We also examine the entire shower to ensure that all the details have been done up to our quality standards. You have an unused, clean, beautiful tiled shower created with complete Custom Tiled Shower Installation Vancouver quality.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Featured Product -->
+    <!-- Tile Options Section -->
     <section class="py-16 bg-primary">
         <div class="container mx-auto px-4">
             <div class="bg-gray-50 rounded-xl overflow-hidden shadow-lg">
                 <div class="flex flex-col lg:flex-row">
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Bathroom Safety Products That Make Life Easier:</h2>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Tile Options for Your New Shower:</h2>
                         <p class="text-lg text-gray-600 mb-4">
-                            Safety starts with the right tools. Home2stay offers a strong list of items that make your bathroom safer. Many families in the city trust us for Best Bath Services Vancouver because we include simple, yet powerful safety products. Our collection of Bathroom safety products Vancouver is designed to offer long-term support.
+                            We provide numerous varieties of tiles in order to build a shower the look of your house. There are popular options of:
                         </p>
+                        <div class="space-y-4 mb-6">
+                            <div class="bg-white p-4 rounded-lg">
+                                <h3 class="font-bold text-gray-800 mb-2">Ceramic Tile:</h3>
+                                <p class="text-gray-600">Walls, easy to clean and affordable.</p>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg">
+                                <h3 class="font-bold text-gray-800 mb-2">Porcelain Tile:</h3>
+                                <p class="text-gray-600">Very powerful, waterproof, and suitable for walls and floors.</p>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg">
+                                <h3 class="font-bold text-gray-800 mb-2">Stone Tile:</h3>
+                                <p class="text-gray-600">Giving a natural and luxury appearance, marble, slate, and travertine are used.</p>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg">
+                                <h3 class="font-bold text-gray-800 mb-2">Mosaic Tile:</h3>
+                                <p class="text-gray-600">Ideal in accents, shower niches, and ornamental designs.</p>
+                            </div>
+                        </div>
                         <p class="text-lg text-gray-600 mb-4">
-                            We carry high-quality Home2stay-approved items that last long and look good. Vancouver homes often need extra support, especially for loved ones with mobility challenges. This is why many people choose our Best Bath Services Vancouver plans that include durable Bathroom safety products Vancouver for added security.
-                        </p>
-                        <p class="text-lg text-gray-600 mb-6">
-                            We superciliously offer Bathroom safety products Vancouver that fit every style and budget. Families trust us for safe, simple, and useful upgrades. These Bathroom safety products Vancouver give you stability and confidence during your daily routine. If you want a safer home, our safety products can make a big difference.
+                            Our team will assist you in making the correct selection of the tiles according to your bathroom size, lighting, and style objectives.
                         </p>
                         <p class="mb-5">Give us a call at <b><a href="tel:+16042591211" style="color: red;">(604) 259-1211</a></b> or submit a <b> <a href="#assessment" style="color: red;">FREE ASSESSMENT FORM</a></b> to check.</p>
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('/bathsafety-cat/vertical-platform-lift-bruno-residential-porch-down-by-steps.jpg') }}" alt="Bathroom Safety Products"
+                        <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Tile Options"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -238,76 +218,40 @@
         </div>
     </section>
 
-    <!-- Bath and Toilet Safety Accessories -->
+    <!-- Cost Information Section -->
     <section class="py-16 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="bg-white rounded-xl shadow-md overflow-hidden">
                     <div class="p-8 md:p-12">
-                        <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Bath and Toilet Safety Accessories:</h2>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">How Much Does a Custom Tiled Shower Cost?</h2>
 
                         <div class="prose prose-lg max-w-none">
-                            <p class="text-gray-700 mb-4">
-                                Bathrooms are usually slippery with hard floors. This renders safety accessories very significant. Home2stay equips the premises with several useful aids to avoid injuries and help in everyday care, especially through our trusted bath and toilet safety accessories.
-                            </p>
-
-                            <h3 class="text-2xl font-bold text-gray-800 mt-8 mb-4">The most useful ones include:</h3>
-
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                                <div class="bg-gray-50 p-4 rounded-lg">
-                                    <h4 class="font-semibold text-gray-800 mb-2">Toilet support frames</h4>
-                                    <p class="text-gray-600 text-sm">Sturdy support frames provide balance and assistance.</p>
-                                </div>
-                                <div class="bg-gray-50 p-4 rounded-lg">
-                                    <h4 class="font-semibold text-gray-800 mb-2">Raised seats</h4>
-                                    <p class="text-gray-600 text-sm">Elevated seats make sitting and standing easier.</p>
-                                </div>
-                                <div class="bg-gray-50 p-4 rounded-lg">
-                                    <h4 class="font-semibold text-gray-800 mb-2">Transfer benches</h4>
-                                    <p class="text-gray-600 text-sm">Assist with safe entry and exit from bathtubs.</p>
-                                </div>
-                                <div class="bg-gray-50 p-4 rounded-lg">
-                                    <h4 class="font-semibold text-gray-800 mb-2">Shower grips</h4>
-                                    <p class="text-gray-600 text-sm">Provide secure grip and stability in the shower.</p>
-                                </div>
-                                <div class="bg-gray-50 p-4 rounded-lg">
-                                    <h4 class="font-semibold text-gray-800 mb-2">Anti-slip steps</h4>
-                                    <p class="text-gray-600 text-sm">Prevent slips and falls with secure footing.</p>
-                                </div>
-                            </div>
-
-                            <p class="text-gray-700 mb-4">
-                                Our team mentors you on all your decisions. We assemble all our products carefully and ensure that they fit you. Our Bath and toilet safety accessories are also popular among families that need to move more easily, as they assist with balance and support. These safety accessories minimize the pressure levels during bathing or when using the toilet. Our accessories will provide serenity when safety is primary. Many clients choose our bath and toilet safety accessories to create safer bathroom routines.
-                            </p>
-
-                            <h3 class="text-2xl font-bold text-gray-800 mt-8 mb-4">Our Most Popular Bath Services:</h3>
-
                             <p class="text-gray-700 mb-6">
-                                What you want in your bathroom, we're providing you most popular bath services.
+                                The price is based on your size of your shower, tile type, plumbing requirements, and design options. The average price of a Custom Tiled Shower Installation Vancouver will include:
                             </p>
 
-                            <div class="space-y-4 mb-8">
-                                <div class="bg-gray-50 p-6 rounded-lg">
-                                    <h4 class="font-bold text-gray-800 mb-2 text-lg">Walk-In Shower Upgrades:</h4>
-                                    <p class="text-gray-600">We replace old tubs with modern walk-in showers. They look clean and feel safe. They also pair well with safety gear and Bathroom safety products Vancouver.</p>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                                <div class="bg-gray-50 p-4 rounded-lg">
+                                    <p class="text-gray-700">• Tile materials</p>
                                 </div>
-                                <div class="bg-gray-50 p-6 rounded-lg">
-                                    <h4 class="font-bold text-gray-800 mb-2 text-lg">Bathtub Conversions:</h4>
-                                    <p class="text-gray-600">We convert tubs into safer spaces. This works great for seniors or people recovering from injury.</p>
+                                <div class="bg-gray-50 p-4 rounded-lg">
+                                    <p class="text-gray-700">• Waterproofing system</p>
                                 </div>
-                                <div class="bg-gray-50 p-6 rounded-lg">
-                                    <h4 class="font-bold text-gray-800 mb-2 text-lg">Grab Bar Installation:</h4>
-                                    <p class="text-gray-600">Grab bars help you move with confidence. We place them near showers, tubs, and toilets, supported by strong bath and toilet safety accessories.</p>
+                                <div class="bg-gray-50 p-4 rounded-lg">
+                                    <p class="text-gray-700">• Labour and installation</p>
                                 </div>
-                                <div class="bg-gray-50 p-6 rounded-lg">
-                                    <h4 class="font-bold text-gray-800 mb-2 text-lg">Toilet Height Adjustments:</h4>
-                                    <p class="text-gray-600">A raised toilet makes sitting and standing easier. This small change can help your daily routine.</p>
+                                <div class="bg-gray-50 p-4 rounded-lg">
+                                    <p class="text-gray-700">• Demolition of the old shower</p>
                                 </div>
-                                <div class="bg-gray-50 p-6 rounded-lg">
-                                    <h4 class="font-bold text-gray-800 mb-2 text-lg">Full Bathroom Safety Planning:</h4>
-                                    <p class="text-gray-600">Our team inspects your bathroom and identifies areas that need improvement. Then we create a simple and safe plan for you.</p>
+                                <div class="bg-gray-50 p-4 rounded-lg">
+                                    <p class="text-gray-700">• Individual features (bench, niche, LED lighting, etc.)</p>
                                 </div>
                             </div>
+
+                            <p class="text-gray-700 mb-4">
+                                We also give transparent and straightforward pricing. When you consult us, we provide a close estimate so that you can make the best choice based on your budget.
+                            </p>
 
                             <div class="mt-8 flex flex-wrap gap-4 justify-center">
                                 <a href="#assessment"
@@ -328,67 +272,76 @@
         </div>
     </section>
 
-    <!-- Why Vancouver Families Trust Home2stay -->
+    <!-- Why Choose Home2stay -->
     <section class="py-16 bg-white">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Vancouver Families Trust Home2stay</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Home2stay?</h2>
                     <p class="text-lg text-gray-600">
-                        Families trust Home2stay because we care about comfort and safety. We keep our process simple. We use clear words, safe tools, and strong installation methods. Our team completes each job with honesty and attention.
+                        Home2stay is reputed for quality workmanship, honest service and reliability in the long term. This is why homeowners recommend us:
                     </p>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <div class="space-y-6 mb-12">
                     <div class="bg-gray-50 p-6 rounded-lg">
-                        <h3 class="text-xl font-bold text-gray-800 mb-4">When you pick Home2stay, you get:</h3>
-                        <ul class="text-gray-600 space-y-2">
-                            <li>• Friendly service</li>
-                            <li>• Clear pricing</li>
-                            <li>• Quick installation</li>
-                            <li>• Quality materials</li>
-                            <li>• Custom support</li>
-                            <li>• A safer bathroom</li>
-                        </ul>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Skilled Tile Installers:</h3>
+                        <p class="text-gray-600">Our team is experienced in practice and knows the details that help to make a shower strong and beautiful. Many clients trust us for affordable custom shower and tile installation services.</p>
                     </div>
 
                     <div class="bg-gray-50 p-6 rounded-lg">
-                        <h3 class="text-xl font-bold text-gray-800 mb-4">&nbsp;</h3>
-                        <p class="text-gray-600 mt-8">
-                            <strong>Your safety is our goal. Your comfort is our promise.</strong>
-                        </p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Professional Waterproofing:</h3>
+                        <p class="text-gray-600">We are concerned with moisture protection to make your shower strong and without leaks.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Clean and Careful Work:</h3>
+                        <p class="text-gray-600">We value your place of residence, maintain the space clean, and operate with the least amount of disturbance.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Custom Design Support:</h3>
+                        <p class="text-gray-600">Have no idea which material or plan to use? We take you through designs that are to your liking.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Guaranteed Skill:</h3>
+                        <p class="text-gray-600">We support our work and stand behind our work even after installation.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Featured section 2 -->
+    <!-- Maintenance and Transform Section -->
     <section class="py-16 bg-primary">
         <div class="container mx-auto px-4">
             <div class="bg-gray-50 rounded-xl overflow-hidden shadow-lg">
                 <div class="flex flex-col lg:flex-row">
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready to book a schedule?</h2>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Maintenance Tips for Your Tiled Shower:</h2>
+                        <p class="text-lg text-gray-600 mb-4">
+                            A custom tiled shower is easy to take care of if you follow simple steps:
+                        </p>
+                        <ul class="text-lg text-gray-600 space-y-2 mb-6">
+                            <li>• Wipe tiles after use to prevent water marks</li>
+                            <li>• Clean grout lines using mild cleaners</li>
+                            <li>• Reseal grout once or twice a year</li>
+                            <li>• Keep the bathroom ventilated to reduce moisture</li>
+                            <li>• Avoid harsh chemicals that may damage tile surfaces</li>
+                        </ul>
                         <p class="text-lg text-gray-600 mb-6">
-                            We look forward to helping you create your safe and accessible space</p>
-                        <div class="mt-8 flex flex-wrap gap-4">
-                            <a href="#assessment"
-                                class="inline-flex items-center px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition duration-300">
-                                Book Online
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
-                                    fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </a>
-                        </div>
+                            These steps will keep your shower looking new for many years.
+                        </p>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Transform Your Bathroom with Home2stay:</h3>
+                        <p class="text-lg text-gray-600">
+                            A designed shower fitted with tiles will totally transform the appearance and feel of your bathroom. We also simplify the whole process at Home2stay, both planning and installation. Our team is concerned with the quality, safety, and long-term outcomes. We are there to assist you in case you are willing to renovate your shower or need something new and modern. The results you get from Custom Tiled Shower Installation Vancouver make your bathroom stylish, durable, and comfortable.
+                        </p>
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Vertical Platform Lifts"
+                        <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Tiled Shower Maintenance"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -454,15 +407,15 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Safer Bath Services for Your Home Today</h2>
-                    <p class="text-gray-600 mb-4">Your bathroom should feel safe and easy to use every day. Home2stay offers the Best Bath Services Vancouver to help you enjoy unconcerned care. We install trusted products, helpful accessories, and custom features designed for real families. Whether you need advanced Bathroom safety products Vancouver or simple bath and toilet safety accessories, we are here to guide you.</p>
-                    <p class="text-gray-600">If you want a safer bathroom, contact Home2stay today. We are ready to help you build a space that supports your comfort, safety, and relaxation.</p>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Custom Tiled Shower Today</h2>
+                    <p class="text-gray-600 mb-4">Ready to transform your bathroom with a beautiful custom tiled shower? Home2stay offers professional Custom Tiled Shower Installation Vancouver services designed to meet your style, budget, and functional needs.</p>
+                    <p class="text-gray-600">Contact us today for a free consultation and let us help you create the shower of your dreams.</p>
                 </div>
 
                 <form action="/submit-assessment" method="POST">
                     @csrf
                     <input type="hidden" name="form_type" value="quote">
-                    <input type="hidden" name="form_source" value="Bathroom_Safety_Products_quote_form">
+                    <input type="hidden" name="form_source" value="Custom_Tiled_Shower_Installation_quote_form">
                     <!-- Personal Information -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
@@ -487,88 +440,88 @@
                         </div>
                     </div>
 
-                    <!-- Installation Type -->
+                    <!-- Tile Type Interest -->
                     <div>
-                        <label class="block text-gray-700 font-medium mb-2">What is your current bathing situation? *</label>
+                        <label class="block text-gray-700 font-medium mb-2">What type of tile interests you? *</label>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                             <label class="flex items-center space-x-3">
-                                <input type="radio" name="current_situation" value="standard_tub" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Standard Bathtub</span>
+                                <input type="checkbox" name="tile_types[]" value="ceramic" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Ceramic Tile</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="radio" name="current_situation" value="shower_only" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Shower Only</span>
+                                <input type="checkbox" name="tile_types[]" value="porcelain" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Porcelain Tile</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="radio" name="current_situation" value="tub_shower_combo" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Tub/Shower Combination</span>
+                                <input type="checkbox" name="tile_types[]" value="stone" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Natural Stone (Marble, Slate)</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="radio" name="current_situation" value="not_sure" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Not Sure</span>
-                            </label>
-                        </div>
-                    </div>
-
-                    <!-- Therapy Interest -->
-                    <div>
-                        <label class="block text-gray-700 font-medium mb-2">Which therapeutic features interest you?</label>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                            <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="therapy_features[]" value="air_therapy"
-                                    class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Air Therapy System</span>
+                                <input type="checkbox" name="tile_types[]" value="mosaic" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Mosaic Tile</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="therapy_features[]" value="hydro_therapy"
-                                    class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Hydro Therapy System</span>
-                            </label>
-                            <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="therapy_features[]" value="micro_bubble"
-                                    class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Micro Bubble Therapy</span>
-                            </label>
-                            <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="therapy_features[]" value="heated_seating"
-                                    class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Heated Seating</span>
-                            </label>
-                            <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="therapy_features[]" value="not_sure" class="form-checkbox text-primary">
+                                <input type="checkbox" name="tile_types[]" value="not_sure" class="form-checkbox text-primary">
                                 <span class="text-gray-700" style="margin-left: 5px;">Not Sure/Need Consultation</span>
                             </label>
                         </div>
                     </div>
 
-                    <!-- Safety & Mobility Requirements -->
+                    <!-- Project Type -->
                     <div>
-                        <label class="block text-gray-700 font-medium mb-2">What are your primary safety concerns?</label>
+                        <label class="block text-gray-700 font-medium mb-2">What type of project do you have?</label>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="safety_concerns[]" value="high_step_over"
+                                <input type="checkbox" name="project_types[]" value="full_renovation"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">High Step-Over Height</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Full Bathroom Renovation</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="safety_concerns[]" value="slipping_falling"
+                                <input type="checkbox" name="project_types[]" value="shower_replacement"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Slipping/Falling Risks</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Shower Replacement</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="safety_concerns[]" value="getting_in_out"
+                                <input type="checkbox" name="project_types[]" value="tub_to_shower"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Difficulty Getting In/Out</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Tub to Shower Conversion</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="safety_concerns[]" value="standing_balance"
+                                <input type="checkbox" name="project_types[]" value="new_construction"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Standing/Balance Issues</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">New Construction</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Design Features -->
+                    <div>
+                        <label class="block text-gray-700 font-medium mb-2">Are you interested in any special features?</label>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                            <label class="flex items-center space-x-3">
+                                <input type="checkbox" name="features[]" value="built_in_bench"
+                                    class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Built-in Bench</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="safety_concerns[]" value="mobility_aids"
+                                <input type="checkbox" name="features[]" value="shower_niche"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Use of Mobility Aids</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Shower Niche/Shelving</span>
+                            </label>
+                            <label class="flex items-center space-x-3">
+                                <input type="checkbox" name="features[]" value="glass_door"
+                                    class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Glass Doors</span>
+                            </label>
+                            <label class="flex items-center space-x-3">
+                                <input type="checkbox" name="features[]" value="led_lighting"
+                                    class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">LED Lighting</span>
+                            </label>
+                            <label class="flex items-center space-x-3">
+                                <input type="checkbox" name="features[]" value="heated_floor"
+                                    class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Heated Floor</span>
                             </label>
                         </div>
                     </div>
@@ -578,7 +531,7 @@
                         <label class="block text-gray-700 font-medium mb-2" for="message">Additional Information</label>
                         <textarea id="message" name="message" rows="4"
                             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-                            placeholder="Please describe your bathroom space, any health conditions that affect bathing, specific therapeutic needs, or questions about walk-in tubs..."></textarea>
+                            placeholder="Please describe your bathroom dimensions, design preferences, budget range, or any specific questions about custom tiled shower installation..."></textarea>
                     </div>
 
                     <!-- Submit Button -->
@@ -609,37 +562,37 @@
 
                 <div class="space-y-6">
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">What type of Bathroom safety products Vancouver does Home2stay offer?</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">How long does a Custom Tiled Shower Installation Vancouver project take?</h3>
                         <p class="text-gray-600">
-                            We offer grab bars, raised toilet seats, non-slip mats, shower chairs, walk-in options, and more. All products are designed to improve stability and prevent falls.
+                            Most installations take 5–10 days, depending on size, tile type, and design features like niches or benches.
                         </p>
                     </div>
 
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">How do bath and toilet safety accessories help seniors?</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Is custom shower and tile installation more durable than prefabricated units?</h3>
                         <p class="text-gray-600">
-                            These accessories provide support, reduce pressure on joints, and make movement easier, helping seniors maintain independence and safety.
+                            Yes. Tile showers last longer, resist moisture better, and offer stronger waterproofing when installed properly.
                         </p>
                     </div>
 
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Can Home2stay install customized safety solutions?</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Can I choose my own tile materials?</h3>
                         <p class="text-gray-600">
-                            Yes, we create a customized plan based on your layout, mobility needs, and bathroom structure to include the right safety products.
+                            You can select ceramic, porcelain, mosaic, or natural stone tiles based on your style and budget.
                         </p>
                     </div>
 
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">How long does it take to install Bathroom safety products Vancouver?</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Does Home2stay handle both demolition and installation?</h3>
                         <p class="text-gray-600">
-                            Most installations take only a few hours, depending on what products you choose and the size of your bathroom.
+                            Yes. We remove the old shower, prepare the space, waterproof it, and complete the entire installation.
                         </p>
                     </div>
 
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Do I need a full renovation to improve bathroom safety?</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">How much does a Custom Tiled Shower Installation Vancouver usually cost?</h3>
                         <p class="text-gray-600">
-                            Not always. Many families achieve great results simply by adding essential bath and toilet safety accessories without major remodeling.
+                            Costs vary depending on tile material, size, and additional features. Home2stay provides transparent estimates during consultation.
                         </p>
                     </div>
                 </div>
@@ -651,14 +604,14 @@
     <section class="py-16 bg-primary">
         <div class="container mx-auto px-4">
                 <div class="max-w-4xl mx-auto text-center text-white">
-                <h2 class="text-3xl font-bold mb-6">Ready to Transform Your Bathroom Safety?</h2>
-                <p class="text-xl mb-8">Contact us today to explore how our bathroom safety products and bath services can make your daily routine safer, more comfortable, and worry-free.</p>
+                <h2 class="text-3xl font-bold mb-6">Ready to Transform Your Bathroom?</h2>
+                <p class="text-xl mb-8">Contact us today to explore how our Custom Tiled Shower Installation Vancouver services can create the beautiful, durable shower you've been dreaming of.</p>
                 <div class="flex flex-wrap justify-center gap-4">
                     <a href="{{ route('contact') }}"
                         class="px-8 py-3 bg-white text-primary hover:bg-gray-100 rounded-lg font-medium transition duration-300">
                         Contact Us
                     </a>
-                    <a href="#"
+                    <a href="{{ route('products.index') }}"
                         class="px-8 py-3 bg-transparent border-2 border-white text-white hover:bg-white/10 rounded-lg font-medium transition duration-300">
                         View All Products
                     </a>

@@ -17,7 +17,7 @@
     <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}');">
+            style="background-image: url('{{ asset('/prom/p3.png') }}');">
             <div class="absolute inset-0 bg-black opacity-60"></div>
         </div>
 
@@ -63,7 +63,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Strong and Durable"
+                        <img src="{{ asset('/prom/p1.png') }}" alt="Strong and Durable"
                             class="w-full object-cover" style="height: 250px;">
                         <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Popular
@@ -79,7 +79,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Safe for Everyone"
+                        <img src="{{ asset('/prom/p2.png') }}" alt="Safe for Everyone"
                             class="w-full object-cover" style="height: 250px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -92,7 +92,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Modern Look"
+                        <img src="{{ asset('/prom/p4.png') }}" alt="Modern Look"
                             class="w-full object-cover" style="height: 250px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -105,7 +105,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Fits Any Space"
+                        <img src="{{ asset('/prom/p5.png') }}" alt="Fits Any Space"
                             class="w-full object-cover" style="height: 250px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -114,135 +114,66 @@
                     </div>
                 </div>
 
-                <!-- Benefit 5 -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Long-Lasting Value"
-                            class="w-full object-cover" style="height: 250px;">
-                    </div>
-                    <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Long-Lasting Value:</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">These rails require virtually no maintenance after installation. A mere wipe cleans them. They remain over a long period of time, thus a wise choice when it comes to security and comfort.</p>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
-    <!-- Introduction Section -->
+    <!-- Where Promenaid Handrails Work Best -->
     <section class="py-16 bg-white">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Home2stay for Bath Services in Vancouver?</h2>
-                    <p class="text-lg text-gray-600">
-                        All bathrooms should be made safe. We assist with the end-to-end. Planning, measuring, installing, and fine-tuning are also in our team. We put you on a path of simple steps and clear choices. We also assist the families in choosing the correct Best Bath Services Vancouver upgrades. These upgrades simplify bathing among the seniors, children, and individuals with mobility needs while ensuring access to high-quality Bathroom safety products Vancouver:
-                    </p>
-                    <p class="text-lg text-gray-600 mt-4">
-                        We never fail to suggest safety products that can help in your everyday living. These consist of convenient features such as accessories, stable rails, and features that are easy to use. We want to defend you and your family with the right bath and toilet safety accessories in place.
-                    </p>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Where Promenaid Handrails Work Best:</h2>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-                    <div class="bg-gray-50 p-6 rounded-lg text-center">
-                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Grab bars</h3>
-                        <p class="text-gray-600">Stable grab bars help you move with confidence.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                    <div class="bg-gray-50 p-8 rounded-lg">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Indoor Spaces:</h3>
+                        <ul class="text-gray-600 space-y-2">
+                            <li>• Staircases</li>
+                            <li>• Hallways</li>
+                            <li>• Bathrooms</li>
+                            <li>• Entrance areas</li>
+                            <li>• Around beds or high-risk zones</li>
+                        </ul>
+                        <p class="text-gray-600 mt-4">Indoor rails give steady support without making your home look "clinical." They blend in with your existing decor.</p>
                     </div>
 
-                    <div class="bg-gray-50 p-6 rounded-lg text-center">
-                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Non-slip mats</h3>
-                        <p class="text-gray-600">High-quality mats prevent slips and provide secure footing.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-lg text-center">
-                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M13 10V3L4 14h7v7l9-11h-7z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Shower chairs</h3>
-                        <p class="text-gray-600">Comfortable seating options make bathing easier and safer.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-lg text-center">
-                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Walk-in options</h3>
-                        <p class="text-gray-600">Modern walk-in showers and tubs for easy access.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-lg text-center">
-                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Raised toilet seats</h3>
-                        <p class="text-gray-600">Make sitting and standing easier with elevated solutions.</p>
-                    </div>
-
-                    <div class="bg-gray-50 p-6 rounded-lg text-center">
-                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Easy-grip rails</h3>
-                        <p class="text-gray-600">Rails that are easy to use for added stability.</p>
+                    <div class="bg-gray-50 p-8 rounded-lg">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Outdoor Spaces:</h3>
+                        <ul class="text-gray-600 space-y-2">
+                            <li>• Front steps</li>
+                            <li>• Porches</li>
+                            <li>• Ramps</li>
+                            <li>• Decks</li>
+                            <li>• Pathways</li>
+                        </ul>
+                        <p class="text-gray-600 mt-4">Outdoor rails stay strong in any weather and help prevent slips and falls on wet or uneven surfaces.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Featured Product -->
+    <!-- Our Promenaid Handrails Installation Service -->
     <section class="py-16 bg-primary">
         <div class="container mx-auto px-4">
             <div class="bg-gray-50 rounded-xl overflow-hidden shadow-lg">
                 <div class="flex flex-col lg:flex-row">
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Bathroom Safety Products That Make Life Easier:</h2>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Promenaid Handrails Installation Service:</h2>
                         <p class="text-lg text-gray-600 mb-4">
-                            Safety starts with the right tools. Home2stay offers a strong list of items that make your bathroom safer. Many families in the city trust us for Best Bath Services Vancouver because we include simple, yet powerful safety products. Our collection of Bathroom safety products Vancouver is designed to offer long-term support.
-                        </p>
-                        <p class="text-lg text-gray-600 mb-4">
-                            We carry high-quality Home2stay-approved items that last long and look good. Vancouver homes often need extra support, especially for loved ones with mobility challenges. This is why many people choose our Best Bath Services Vancouver plans that include durable Bathroom safety products Vancouver for added security.
+                            Home2Stay offers expert, full-service support from start to finish. Our team handles everything, planning, measuring, design, installation, and after-care. We make the process easy so you can enjoy a safer home right away.
                         </p>
                         <p class="text-lg text-gray-600 mb-6">
-                            We superciliously offer Bathroom safety products Vancouver that fit every style and budget. Families trust us for safe, simple, and useful upgrades. These Bathroom safety products Vancouver give you stability and confidence during your daily routine. If you want a safer home, our safety products can make a big difference.
+                            The system we use is known for its fast, clean, and secure setup. With Promenaid Handrails Installtion Vancouver, our trained team ensures that every rail is aligned properly and anchored firmly. Each installation is done with precision to make sure your handrails look great and stay strong for years. Many clients specifically request Promenaid Handrails Installtion Vancouver because of our trusted expertise.
                         </p>
                         <p class="mb-5">Give us a call at <b><a href="tel:+16042591211" style="color: red;">(604) 259-1211</a></b> or submit a <b> <a href="#assessment" style="color: red;">FREE ASSESSMENT FORM</a></b> to check.</p>
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('/bathsafety-cat/vertical-platform-lift-bruno-residential-porch-down-by-steps.jpg') }}" alt="Bathroom Safety Products"
+                        <img src="{{ asset('/prom/p6.png') }}" alt="Promenaid Handrails Installation"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -250,74 +181,40 @@
         </div>
     </section>
 
-    <!-- Bath and Toilet Safety Accessories -->
+    <!-- How Our Installation Process Works -->
     <section class="py-16 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="bg-white rounded-xl shadow-md overflow-hidden">
                     <div class="p-8 md:p-12">
-                        <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Bath and Toilet Safety Accessories:</h2>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">How Our Installation Process Works:</h2>
+                        <p class="text-lg text-gray-600 text-center mb-8">Our team and skilled technicians install your handrails quickly, and now we'll guide you throughout the installation process.</p>
 
                         <div class="prose prose-lg max-w-none">
-                            <p class="text-gray-700 mb-4">
-                                Bathrooms are usually slippery with hard floors. This renders safety accessories very significant. Home2stay equips the premises with several useful aids to avoid injuries and help in everyday care, especially through our trusted bath and toilet safety accessories.
-                            </p>
-
-                            <h3 class="text-2xl font-bold text-gray-800 mt-8 mb-4">The most useful ones include:</h3>
-
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                                <div class="bg-gray-50 p-4 rounded-lg">
-                                    <h4 class="font-semibold text-gray-800 mb-2">Toilet support frames</h4>
-                                    <p class="text-gray-600 text-sm">Sturdy support frames provide balance and assistance.</p>
-                                </div>
-                                <div class="bg-gray-50 p-4 rounded-lg">
-                                    <h4 class="font-semibold text-gray-800 mb-2">Raised seats</h4>
-                                    <p class="text-gray-600 text-sm">Elevated seats make sitting and standing easier.</p>
-                                </div>
-                                <div class="bg-gray-50 p-4 rounded-lg">
-                                    <h4 class="font-semibold text-gray-800 mb-2">Transfer benches</h4>
-                                    <p class="text-gray-600 text-sm">Assist with safe entry and exit from bathtubs.</p>
-                                </div>
-                                <div class="bg-gray-50 p-4 rounded-lg">
-                                    <h4 class="font-semibold text-gray-800 mb-2">Shower grips</h4>
-                                    <p class="text-gray-600 text-sm">Provide secure grip and stability in the shower.</p>
-                                </div>
-                                <div class="bg-gray-50 p-4 rounded-lg">
-                                    <h4 class="font-semibold text-gray-800 mb-2">Anti-slip steps</h4>
-                                    <p class="text-gray-600 text-sm">Prevent slips and falls with secure footing.</p>
-                                </div>
-                            </div>
-
-                            <p class="text-gray-700 mb-4">
-                                Our team mentors you on all your decisions. We assemble all our products carefully and ensure that they fit you. Our Bath and toilet safety accessories are also popular among families that need to move more easily, as they assist with balance and support. These safety accessories minimize the pressure levels during bathing or when using the toilet. Our accessories will provide serenity when safety is primary. Many clients choose our bath and toilet safety accessories to create safer bathroom routines.
-                            </p>
-
-                            <h3 class="text-2xl font-bold text-gray-800 mt-8 mb-4">Our Most Popular Bath Services:</h3>
-
-                            <p class="text-gray-700 mb-6">
-                                What you want in your bathroom, we're providing you most popular bath services.
-                            </p>
-
-                            <div class="space-y-4 mb-8">
+                            <div class="space-y-6 mb-8">
                                 <div class="bg-gray-50 p-6 rounded-lg">
-                                    <h4 class="font-bold text-gray-800 mb-2 text-lg">Walk-In Shower Upgrades:</h4>
-                                    <p class="text-gray-600">We replace old tubs with modern walk-in showers. They look clean and feel safe. They also pair well with safety gear and Bathroom safety products Vancouver.</p>
+                                    <h3 class="text-xl font-bold text-gray-800 mb-3">Step 1: Free Home Assessment</h3>
+                                    <p class="text-gray-600">We visit your home to look at the areas where support is needed. We understand your needs, mobility concerns, and design preferences.</p>
                                 </div>
+
                                 <div class="bg-gray-50 p-6 rounded-lg">
-                                    <h4 class="font-bold text-gray-800 mb-2 text-lg">Bathtub Conversions:</h4>
-                                    <p class="text-gray-600">We convert tubs into safer spaces. This works great for seniors or people recovering from injury.</p>
+                                    <h3 class="text-xl font-bold text-gray-800 mb-3">Step 2: Customized Plan</h3>
+                                    <p class="text-gray-600">After measuring your staircase, hallway, or outdoor area, we suggest the best handrail placement. We help you choose styles, colors, and finishes that match your home. This is where our Promenaid Handrails Installtion Vancouver service stands out, offering guidance tailored to your home layout.</p>
                                 </div>
+
                                 <div class="bg-gray-50 p-6 rounded-lg">
-                                    <h4 class="font-bold text-gray-800 mb-2 text-lg">Grab Bar Installation:</h4>
-                                    <p class="text-gray-600">Grab bars help you move with confidence. We place them near showers, tubs, and toilets, supported by strong bath and toilet safety accessories.</p>
+                                    <h3 class="text-xl font-bold text-gray-800 mb-3">Step 3: Professional Installation</h3>
+                                    <p class="text-gray-600">Our technicians install the handrails using top-quality brackets and fasteners. Every rail is leveled, secure, and comfortable to hold.</p>
                                 </div>
+
                                 <div class="bg-gray-50 p-6 rounded-lg">
-                                    <h4 class="font-bold text-gray-800 mb-2 text-lg">Toilet Height Adjustments:</h4>
-                                    <p class="text-gray-600">A raised toilet makes sitting and standing easier. This small change can help your daily routine.</p>
+                                    <h3 class="text-xl font-bold text-gray-800 mb-3">Step 4: Testing & Final Check</h3>
+                                    <p class="text-gray-600">We test stability, alignment, and overall safety. Before leaving, we make sure everything meets our quality standards.</p>
                                 </div>
+
                                 <div class="bg-gray-50 p-6 rounded-lg">
-                                    <h4 class="font-bold text-gray-800 mb-2 text-lg">Full Bathroom Safety Planning:</h4>
-                                    <p class="text-gray-600">Our team inspects your bathroom and identifies areas that need improvement. Then we create a simple and safe plan for you.</p>
+                                    <h3 class="text-xl font-bold text-gray-800 mb-3">Step 5: Simple Care Instructions</h3>
+                                    <p class="text-gray-600">Promenaid handrails are easy to maintain. We guide you on how to keep them clean and long-lasting.</p>
                                 </div>
                             </div>
 
@@ -340,67 +237,71 @@
         </div>
     </section>
 
-    <!-- Why Vancouver Families Trust Home2stay -->
+    <!-- Why Choose Home2Stay -->
     <section class="py-16 bg-white">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Vancouver Families Trust Home2stay</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Home2Stay?</h2>
                     <p class="text-lg text-gray-600">
-                        Families trust Home2stay because we care about comfort and safety. We keep our process simple. We use clear words, safe tools, and strong installation methods. Our team completes each job with honesty and attention.
+                        Home2Stay has become one of Vancouver's most trusted mobility and safety companies because we care about our clients' quality of life. Our service is built on respect, honesty, and reliable craftsmanship. Here's what you can expect from us:
                     </p>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <div class="space-y-6 mb-12">
                     <div class="bg-gray-50 p-6 rounded-lg">
-                        <h3 class="text-xl font-bold text-gray-800 mb-4">When you pick Home2stay, you get:</h3>
-                        <ul class="text-gray-600 space-y-2">
-                            <li>• Friendly service</li>
-                            <li>• Clear pricing</li>
-                            <li>• Quick installation</li>
-                            <li>• Quality materials</li>
-                            <li>• Custom support</li>
-                            <li>• A safer bathroom</li>
-                        </ul>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Certified and Experienced Team</h3>
+                        <p class="text-gray-600">Our installers are trained in mobility equipment and home safety solutions. We understand both construction standards and accessibility needs.</p>
                     </div>
 
                     <div class="bg-gray-50 p-6 rounded-lg">
-                        <h3 class="text-xl font-bold text-gray-800 mb-4">&nbsp;</h3>
-                        <p class="text-gray-600 mt-8">
-                            <strong>Your safety is our goal. Your comfort is our promise.</strong>
-                        </p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Fast and Clean Installation</h3>
+                        <p class="text-gray-600">We value your time. Most handrail installations are completed within a few hours, with no mess or damage to your walls. Homeowners looking for Promenaid Handrails Installtion Vancouver also appreciate our fast service.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Personalized Safety Solutions</h3>
+                        <p class="text-gray-600">Every home is different. We design a handrail setup that fits your exact needs—whether it's for aging parents, young children, or improving accessibility.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Clear Pricing</h3>
+                        <p class="text-gray-600">No hidden fees. We explain costs up front and provide a detailed plan before starting any work.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Trusted by Families Across Vancouver</h3>
+                        <p class="text-gray-600">Home2Stay is known for quality work, friendly service, and a commitment to making homes safer for everyone.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Featured section 2 -->
+    <!-- Who Benefits and Safety Matters -->
     <section class="py-16 bg-primary">
         <div class="container mx-auto px-4">
             <div class="bg-gray-50 rounded-xl overflow-hidden shadow-lg">
                 <div class="flex flex-col lg:flex-row">
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready to book a schedule?</h2>
-                        <p class="text-lg text-gray-600 mb-6">
-                            We look forward to helping you create your safe and accessible space</p>
-                        <div class="mt-8 flex flex-wrap gap-4">
-                            <a href="#assessment"
-                                class="inline-flex items-center px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition duration-300">
-                                Book Online
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
-                                    fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </a>
-                        </div>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Who Benefits from Promenaid Handrails?</h2>
+                        <p class="text-lg text-gray-600 mb-4">We're going to share with you who can get the benefits from Promenaid handrails. Keep reading!</p>
+                        <ul class="text-lg text-gray-600 space-y-2 mb-6">
+                            <li>• <strong>Seniors:</strong> Helps eliminate falls and enable movement with greater safety.</li>
+                            <li>• <strong>Mobility Challenged People:</strong> Makes stairs or ramps stable, safe, and sure.</li>
+                            <li>• <strong>Families with Kids:</strong> Increases the safety of stairs and external steps.</li>
+                            <li>• <strong>Homeowners Renovating:</strong> Improves the appearance of the house as well as making it safer.</li>
+                            <li>• <strong>Caregivers:</strong> Helps take the effort out of loving loved ones and alleviates the burden.</li>
+                        </ul>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Safety Matters, And It Starts at Home:</h3>
+                        <p class="text-lg text-gray-600 mb-4">
+                            Among household accidents, falls are very frequent. An easy handrail will eliminate serious injuries. Promenaid handrails provide a powerful, stable hold where it is required. All installed with the professional installations of Home2Stay, you are assured of peace of mind that your home is secure for everyone. The process of safety should be simple, cheap, and tension-free. That is why our team is listening, working with respect, and providing results to bring a real change in your daily life.
+                        </p>
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Vertical Platform Lifts"
+                        <img src="{{ asset('/prom/p6.png') }}" alt="Promenaid Handrails Benefits"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -466,15 +367,15 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Safer Bath Services for Your Home Today</h2>
-                    <p class="text-gray-600 mb-4">Your bathroom should feel safe and easy to use every day. Home2stay offers the Best Bath Services Vancouver to help you enjoy unconcerned care. We install trusted products, helpful accessories, and custom features designed for real families. Whether you need advanced Bathroom safety products Vancouver or simple bath and toilet safety accessories, we are here to guide you.</p>
-                    <p class="text-gray-600">If you want a safer bathroom, contact Home2stay today. We are ready to help you build a space that supports your comfort, safety, and relaxation.</p>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready to Make Your Home Safer?</h2>
+                    <p class="text-gray-600 mb-4">In case you desire powerful, fashionable, and durable handrails, Promenaid is what you need. And Home2Stay is there to fit them carefully and neatly. Many residents who searched for Promenaid Handrails Vancouver and Promenaid Handrails Installtion Vancouver have already upgraded their homes with us.</p>
+                    <p class="text-gray-600">We are ready to talk to you now and how we can make your home a safer, more conducive place to live with your loved ones.</p>
                 </div>
 
                 <form action="/submit-assessment" method="POST">
                     @csrf
                     <input type="hidden" name="form_type" value="quote">
-                    <input type="hidden" name="form_source" value="Bathroom_Safety_Products_quote_form">
+                    <input type="hidden" name="form_source" value="Promenaid_Handrails_quote_form">
                     <!-- Personal Information -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
@@ -493,94 +394,66 @@
                                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
                         </div>
                         <div>
-                            <label class="block text-gray-700 font-medium mb-2" for="location">Bathroom Location</label>
-                            <input type="text" id="location" name="location" placeholder="e.g., Master bathroom, Main floor bathroom, etc."
+                            <label class="block text-gray-700 font-medium mb-2" for="location">Installation Location</label>
+                            <input type="text" id="location" name="location" placeholder="e.g., Staircase, Hallway, Bathroom, etc."
                                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
                         </div>
                     </div>
 
-                    <!-- Installation Type -->
+                    <!-- Installation Area -->
                     <div>
-                        <label class="block text-gray-700 font-medium mb-2">What is your current bathing situation? *</label>
+                        <label class="block text-gray-700 font-medium mb-2">Where do you need handrails installed? *</label>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                             <label class="flex items-center space-x-3">
-                                <input type="radio" name="current_situation" value="standard_tub" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Standard Bathtub</span>
+                                <input type="checkbox" name="installation_areas[]" value="indoor_stairs" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Indoor Stairs</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="radio" name="current_situation" value="shower_only" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Shower Only</span>
+                                <input type="checkbox" name="installation_areas[]" value="hallways" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Hallways</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="radio" name="current_situation" value="tub_shower_combo" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Tub/Shower Combination</span>
+                                <input type="checkbox" name="installation_areas[]" value="bathroom" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Bathroom</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="radio" name="current_situation" value="not_sure" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Not Sure</span>
-                            </label>
-                        </div>
-                    </div>
-
-                    <!-- Therapy Interest -->
-                    <div>
-                        <label class="block text-gray-700 font-medium mb-2">Which therapeutic features interest you?</label>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                            <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="therapy_features[]" value="air_therapy"
-                                    class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Air Therapy System</span>
+                                <input type="checkbox" name="installation_areas[]" value="outdoor_steps" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Outdoor Steps</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="therapy_features[]" value="hydro_therapy"
-                                    class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Hydro Therapy System</span>
+                                <input type="checkbox" name="installation_areas[]" value="deck_porch" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Deck/Porch</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="therapy_features[]" value="micro_bubble"
-                                    class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Micro Bubble Therapy</span>
-                            </label>
-                            <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="therapy_features[]" value="heated_seating"
-                                    class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Heated Seating</span>
-                            </label>
-                            <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="therapy_features[]" value="not_sure" class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Not Sure/Need Consultation</span>
+                                <input type="checkbox" name="installation_areas[]" value="ramp" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Ramp</span>
                             </label>
                         </div>
                     </div>
 
                     <!-- Safety & Mobility Requirements -->
                     <div>
-                        <label class="block text-gray-700 font-medium mb-2">What are your primary safety concerns?</label>
+                        <label class="block text-gray-700 font-medium mb-2">Who will be using the handrails?</label>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="safety_concerns[]" value="high_step_over"
+                                <input type="checkbox" name="users[]" value="seniors"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">High Step-Over Height</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Seniors</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="safety_concerns[]" value="slipping_falling"
+                                <input type="checkbox" name="users[]" value="mobility_challenges"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Slipping/Falling Risks</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">People with Mobility Challenges</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="safety_concerns[]" value="getting_in_out"
+                                <input type="checkbox" name="users[]" value="children"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Difficulty Getting In/Out</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Children</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="safety_concerns[]" value="standing_balance"
+                                <input type="checkbox" name="users[]" value="general_safety"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Standing/Balance Issues</span>
-                            </label>
-                            <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="safety_concerns[]" value="mobility_aids"
-                                    class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Use of Mobility Aids</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">General Home Safety</span>
                             </label>
                         </div>
                     </div>
@@ -590,7 +463,7 @@
                         <label class="block text-gray-700 font-medium mb-2" for="message">Additional Information</label>
                         <textarea id="message" name="message" rows="4"
                             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-                            placeholder="Please describe your bathroom space, any health conditions that affect bathing, specific therapeutic needs, or questions about walk-in tubs..."></textarea>
+                            placeholder="Please describe your home layout, specific mobility concerns, preferred handrail colors or finishes, or any questions about Promenaid handrails..."></textarea>
                     </div>
 
                     <!-- Submit Button -->
@@ -621,37 +494,51 @@
 
                 <div class="space-y-6">
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">What type of Bathroom safety products Vancouver does Home2stay offer?</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">What is the duration of the installation?</h3>
                         <p class="text-gray-600">
-                            We offer grab bars, raised toilet seats, non-slip mats, shower chairs, walk-in options, and more. All products are designed to improve stability and prevent falls.
+                            The installations of Promenaid handrail require between two and four hours, depending on the area size.
                         </p>
                     </div>
 
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">How do bath and toilet safety accessories help seniors?</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Are the handrails used outdoors?</h3>
                         <p class="text-gray-600">
-                            These accessories provide support, reduce pressure on joints, and make movement easier, helping seniors maintain independence and safety.
+                            Yes. Promenaid handrails are made of weather-resistant material and can be used on outdoors steps, ramps, and decks.
                         </p>
                     </div>
 
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Can Home2stay install customized safety solutions?</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Does it have a color or design choice?</h3>
                         <p class="text-gray-600">
-                            Yes, we create a customized plan based on your layout, mobility needs, and bathroom structure to include the right safety products.
+                            Yes. There are a number of finishes available, such as black, bronze, brushed aluminum, etc.
                         </p>
                     </div>
 
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">How long does it take to install Bathroom safety products Vancouver?</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Are the rails beneficial to the seniors in terms of balance?</h3>
                         <p class="text-gray-600">
-                            Most installations take only a few hours, depending on what products you choose and the size of your bathroom.
+                            They are comfortable to hold and well supported, such that even the seniors and persons requiring some assistance in terms of stability will find them to be convenient.
                         </p>
                     </div>
 
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Do I need a full renovation to improve bathroom safety?</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">How do I clean the handrails?</h3>
                         <p class="text-gray-600">
-                            Not always. Many families achieve great results simply by adding essential bath and toilet safety accessories without major remodeling.
+                            All that is required is a wipe with an easy cleaner. The substance is not rusted or faded.
+                        </p>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Do you offer a warranty?</h3>
+                        <p class="text-gray-600">
+                            Yes. Promenaid products have the warranty of the manufacturer, and Home2Stay also offers assistance with installation.
+                        </p>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Are the rails able to take curved or steep stairs?</h3>
+                        <p class="text-gray-600">
+                            Yes. The modular form can be fitted around slopes, corners, and turns without difficulty.
                         </p>
                     </div>
                 </div>
@@ -663,14 +550,14 @@
     <section class="py-16 bg-primary">
         <div class="container mx-auto px-4">
                 <div class="max-w-4xl mx-auto text-center text-white">
-                <h2 class="text-3xl font-bold mb-6">Ready to Transform Your Bathroom Safety?</h2>
-                <p class="text-xl mb-8">Contact us today to explore how our bathroom safety products and bath services can make your daily routine safer, more comfortable, and worry-free.</p>
+                <h2 class="text-3xl font-bold mb-6">Ready to Make Your Home Safer?</h2>
+                <p class="text-xl mb-8">Contact us today to explore how Promenaid Handrails Vancouver can make your home safer and more accessible for everyone.</p>
                 <div class="flex flex-wrap justify-center gap-4">
                     <a href="{{ route('contact') }}"
                         class="px-8 py-3 bg-white text-primary hover:bg-gray-100 rounded-lg font-medium transition duration-300">
                         Contact Us
                     </a>
-                    <a href="#"
+                    <a href="{{ route('products.index') }}"
                         class="px-8 py-3 bg-transparent border-2 border-white text-white hover:bg-white/10 rounded-lg font-medium transition duration-300">
                         View All Products
                     </a>

@@ -774,6 +774,13 @@
         </div>
     </section>
 
+    <!-- canada logo section -->
+    <section>
+        <div class="container flex justify-center items-center m-auto px-4">
+            <img src="{{ asset('logo/canada.png') }}" alt="Canada">
+        </div>
+    </section>
+
     <!-- Mobility Products Section -->
     <section class="py-20 px-10 bg-gray-50">
         <div class="container mx-auto px-4">
@@ -793,7 +800,9 @@
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
+                        <a href="/products-categories/barrier-free-bathrooms/">
                         <h3>Barrier-Free Bathrooms</h3>
+                        </a>
                         <p class="mb-3">Create a safe and accessible oasis with our thoughtfully designed solutions for all
                             mobility needs.</p>
 
@@ -871,7 +880,9 @@
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
+                        <a href="/products-categories/stair-lifts/">
                         <h3>Stairlifts</h3>
+                        </a>
                         <p class="mb-3">Glide effortlessly between levels with our reliable stairlifts, designed for
                             individuals with limited mobility.</p>
 
@@ -950,7 +961,9 @@
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
+                        <a href="/products-categories/safety-poles-handrails/">
                         <h3>Safety Poles & Handrails</h3>
+                        </a>
                         <p class="mb-3">Enhance safety and stability with our safety poles and handrails, providing crucial
                             support in various home areas.</p>
 
@@ -1029,7 +1042,9 @@
                         <img src="{{ asset('/al-prod-page-imgs/Ramps.jpg') }}" alt="Ramps" class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
+                        <a href="/products-categories/ramps/">
                         <h3>Ramps</h3>
+                        </a>
                         <p class="mb-3">Embrace accessibility with our versatile ramps, a practical solution to conquer
                             elevation changes indoors or outdoors.</p>
 
@@ -1107,7 +1122,9 @@
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
+                        <a href="/products-categories/tub-cuts/">
                         <h3>Tub Cuts</h3>
+                        </a>
                         <p class="mb-3">Transform your bathtub into an accessible oasis with our convenient and
                             cost-effective alternative to traditional solutions.</p>
 
@@ -1185,7 +1202,9 @@
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
+                        <a href="/products-categories/grab-bars/">
                         <h3>Grab Bars</h3>
+                        </a>
                         <p class="mb-3">Elevate bathroom safety with our sturdy and stylish grab bars, providing essential
                             support for confident maneuvering.</p>
 
@@ -1260,11 +1279,7 @@
         </div>
     </section>
         
-    <section>
-    <div class="container flex justify-center items-center m-auto px-4">
-        <img src="{{ asset('logo/canada.png') }}" alt="Canada">
-    </div>
-    </section>
+
 
     <!-- Why Choose Us Section -->
     <section class="py-24 bg-white relative overflow-hidden">

@@ -365,6 +365,135 @@
                     </div>
                 </div>
 
+                <!-- best bath -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
+                    <!-- Product Image -->
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('bsafe/p1.png') }}" alt="Vertical Platform Lifts"
+                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            style="height: 400px;">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        </div>
+                    </div>
+
+                    <!-- Product Details -->
+                    <div class="p-6 flex-1 flex flex-col">
+                        <a href="/products-categories/bathroom-safety-products/"
+                        >
+                        <h3
+                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
+                                Best Bath</h3>
+                        </a>
+                        <p class="text-gray-600 mb-4 flex-grow">A secure bathroom is important in every house. We assist the family in designing bathrooms that are safe, easy</p>
+                        <p class="font-bold text-primary mb-5 flex items-center">
+                            <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">2 Products</span> -->
+                        </p>
+                        <a href="/products-categories/bathroom-safety-products/"
+                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
+                            View All Products
+                        </a>
+                    </div>
+                </div>
+
+                <!-- sentrel -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
+                    <!-- Product Image -->
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('sent/p1.png') }}" alt="Vertical Platform Lifts"
+                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            style="height: 400px;">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        </div>
+                    </div>
+
+                    <!-- Product Details -->
+                    <div class="p-6 flex-1 flex flex-col">
+                        <a href="/products-categories/sentrel"
+                        >
+                        <h3
+                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
+                            Sentrel Bathroom Remodeling Vancouver</h3>
+                        </a>
+                        <p class="text-gray-600 mb-4 flex-grow">A secure bathroom is important in every house. Westressful to do bathroom remodelling, particularly when you wish to have a new appearance without protracted building construction</p>
+                        <p class="font-bold text-primary mb-5 flex items-center">
+                            <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">2 Products</span> -->
+                        </p>
+                        <a href="/products-categories/sentrel/"
+                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
+                            View All Products
+                        </a>
+                    </div>
+                </div>
+
+                <!-- modular ramps -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
+                    <!-- Product Image -->
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('mram/p1.png') }}" alt="Vertical Platform Lifts"
+                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            style="height: 400px;">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        </div>
+                    </div>
+
+                    <!-- Product Details -->
+                    <div class="p-6 flex-1 flex flex-col">
+                        <a href="/products-categories/modular-ramps/"
+                        >
+                        <h3
+                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
+                            Modular Ramps</h3>
+                        </a>
+                        <p class="text-gray-600 mb-4 flex-grow">Modular ramps are a cost-effective and easy-to-install solution for improving accessibility in your home or business.</p>
+                        <p class="font-bold text-primary mb-5 flex items-center">
+                            <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">2 Products</span> -->
+                        </p>
+                        <a href="/products-categories/modular-ramps/"
+                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
+                            View All Products
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- promenaid handrails -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
+                    <!-- Product Image -->
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('prom/p1.png') }}" alt="Vertical Platform Lifts"
+                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            style="height: 400px;">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        </div>
+                    </div>
+
+                    <!-- Product Details -->
+                    <div class="p-6 flex-1 flex flex-col">
+                        <a href="/products-categories/promenaid-handrail/"
+                        >
+                        <h3
+                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
+                            Promenaid Handrails</h3>
+                        </a>
+                        <p class="text-gray-600 mb-4 flex-grow">Promenaid handrails are a cost-effective and easy-to-install solution for improving accessibility in your home or business.</p>
+                        <p class="font-bold text-primary mb-5 flex items-center">
+                            <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">2 Products</span> -->
+                        </p>
+                        <a href="/products-categories/promenaid-handrail/"
+                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
+                            View All Products
+                        </a>
+                    </div>
+                </div>
+
                 <!-- Walk-In Tub 11 -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">

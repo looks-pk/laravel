@@ -11,6 +11,25 @@
     <!-- Google reCAPTCHA site key for form protection -->
     <meta name="recaptcha-site-key" content="{{ config('services.recaptcha.site_key') }}">
 
+    <script>
+            // Store correct title immediately
+            var correctPageTitle = document.title;
+
+            window.$zoho = window.$zoho || {};
+            $zoho.salesiq = $zoho.salesiq || {
+                widgetcode: "siq0bfa14f5f94a3227de3e9b2cab83f1f85d3973a6accac513dd1e254aea3dd21c84671c3c49de10717181e6f1badeb55d",
+                values: {
+                    pageTitle: correctPageTitle
+                },
+                ready: function() {
+                    // Double-check title is correct when Zoho loads
+                    if (document.title !== correctPageTitle) {
+                        document.title = correctPageTitle;
+                    }
+                }
+            };
+    </script>
+
     <script>window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}</script><script id="zsiqscript" src="https://salesiq.zohopublic.com/widget?wc=siq0bfa14f5f94a3227de3e9b2cab83f1f85d3973a6accac513dd1e254aea3dd21c84671c3c49de10717181e6f1badeb55d" defer></script>
 
     <!-- Google tag (gtag.js) -->

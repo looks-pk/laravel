@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Equipment Rentals - Home2stay')
+@section('title', 'Accessibility Equipment Rentals - Lifts, Ramps | Home2Stay')
 @section('meta_description', 'Browse our collection of mobility and accessibility equipment available for rent for your home, including bathroom safety products, mobility aids, and more.')
 
 @push('styles')
@@ -285,6 +285,72 @@
             box-shadow: 0 8px 16px rgba(0, 120, 191, 0.3);
         }
 
+        /* Enhanced Intro Section Styles */
+        .intro-section {
+            position: relative;
+        }
+
+        .intro-content {
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .feature-box {
+            transition: var(--transition);
+        }
+
+        .feature-box:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(0, 120, 191, 0.15);
+        }
+
+        .feature-box svg {
+            transition: var(--transition);
+        }
+
+        .feature-box:hover svg {
+            transform: scale(1.1);
+        }
+
+        .cta-box {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-box::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: rotateGlow 10s linear infinite;
+        }
+
+        @keyframes rotateGlow {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .intro-content .prose strong {
+            font-weight: 700;
+        }
+
         /* Responsive Design */
         @media (max-width: 768px) {
             .product-card .card-img {
@@ -308,6 +374,36 @@
                 width: 1.5rem;
                 height: 1.5rem;
             }
+
+            /* Intro Section Mobile Styles */
+            .intro-content {
+                padding: 1.5rem !important;
+            }
+
+            .intro-section h2 {
+                font-size: 1.875rem !important;
+                line-height: 1.3;
+            }
+
+            .intro-content .prose p {
+                font-size: 1rem !important;
+            }
+
+            .feature-box {
+                padding: 1rem !important;
+            }
+
+            .cta-box {
+                padding: 1.5rem !important;
+            }
+
+            .cta-box p:first-child {
+                font-size: 1.125rem !important;
+            }
+
+            .cta-box p:last-child {
+                font-size: 0.875rem !important;
+            }
         }
     </style>
 @endpush
@@ -322,6 +418,77 @@
             <div class="text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Rentals</h1>
                 <div class="w-24 h-1 bg-primary mx-auto"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Intro Section -->
+    <section class="intro-section py-16 md:py-20 relative overflow-hidden">
+        <!-- Decorative Background Elements -->
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-blue-50"></div>
+        <div class="absolute top-0 right-0 w-96 h-96 bg-primary opacity-5 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 w-96 h-96 bg-secondary opacity-5 rounded-full blur-3xl"></div>
+        
+        <div class="container mx-auto px-4 max-w-5xl relative z-10">
+            <div class="text-center mb-12">
+                <div class="inline-block mb-4">
+                    <span class="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold uppercase tracking-wide">Premium Rental Solutions</span>
+                </div>
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-gray-800 leading-tight">
+                    Comprehensive Mobility Equipment Rentals for 
+                    <span class="text-primary">Enhanced Accessibility</span>
+                </h2>
+            </div>
+            
+            <div class="intro-content bg-white rounded-2xl shadow-xl p-8 md:p-12 border-t-4 border-primary">
+                <div class="prose prose-lg max-w-none">
+                    <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
+                        At <strong class="text-primary">Home2Stay</strong>, we understand that mobility challenges shouldn't limit your independence or comfort at home. Our extensive range of rental equipment is designed to provide safe, reliable accessibility solutions tailored to your unique needs.
+                    </p>
+                    
+                    <div class="grid md:grid-cols-2 gap-6 my-8">
+                        <div class="feature-box bg-gradient-to-br from-blue-50 to-white p-6 rounded-xl border border-blue-100">
+                            <div class="flex items-start gap-4">
+                                <div class="flex-shrink-0">
+                                    <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-gray-800 mb-2">Comprehensive Equipment</h3>
+                                    <p class="text-gray-600 text-sm leading-relaxed">Bath lifters, ceiling track lift motors, straight indoor stair lifts, modular & folding ramps, threshold ramps, and portable shower units.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-box bg-gradient-to-br from-yellow-50 to-white p-6 rounded-xl border border-yellow-100">
+                            <div class="flex items-start gap-4">
+                                <div class="flex-shrink-0">
+                                    <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-gray-800 mb-2">Professional & Safe</h3>
+                                    <p class="text-gray-600 text-sm leading-relaxed">Each piece of equipment is professionally installed and maintained to ensure optimal safety and performance at all times.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                        With <strong>flexible rental terms</strong> and <strong>transparent pricing</strong> that includes setup fees, removal fees, and monthly rental rates, Home2Stay makes accessibility affordable and stress-free.
+                    </p>
+                    
+                    <div class="cta-box bg-gradient-to-r from-primary to-primary-dark text-white p-8 rounded-xl text-center shadow-lg">
+                        <p class="text-xl font-semibold mb-4">
+                            ✨ Explore our full range of mobility rental solutions today!
+                        </p>
+                        <p class="text-lg opacity-90">
+                            Discover how we can help you maintain your independence and quality of life in the comfort of your own home.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

@@ -260,7 +260,7 @@
                 <div class="flex flex-col lg:flex-row">
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready to book a schedule?</h2>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready to book an Assessment Visit?</h2>
                         <p class="text-lg text-gray-600 mb-6">
                             We look forward to helping you create your safe and accessible space</p>
                         <div class="mt-8 flex flex-wrap gap-4">

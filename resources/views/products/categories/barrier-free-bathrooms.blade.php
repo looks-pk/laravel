@@ -64,7 +64,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img class="w-full object-cover" src="{{ asset('bathsafety-cat/Protable.jpg') }}" alt="Shower Bay Portable Accessible Shower"
+                        <img class="w-full object-cover" src="{{ asset('/rentals-main/Home2stay-Portable-Shower-Unit-remtals-category-min.jpg') }}" alt="Shower Bay Portable Accessible Shower"
                             style="height: 300px;">
                         <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Popular

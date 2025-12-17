@@ -5,6 +5,33 @@
 
 @push('styles')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        .discontinued-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 20;
+            pointer-events: none;
+        }
+        .discontinued-overlay::before,
+        .discontinued-overlay::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 150%;
+            height: 8px;
+            background-color: #dc2626;
+        }
+        .discontinued-overlay::before {
+            transform: translate(-50%, -50%) rotate(45deg);
+        }
+        .discontinued-overlay::after {
+            transform: translate(-50%, -50%) rotate(-45deg);
+        }
+    </style>
 @endpush
 
 @section('content')
@@ -115,7 +142,7 @@
                         <p class="text-gray-600 mb-4 flex-grow">Conquer elevation changes indoors and outdoors with our
                             versatile ramps, providing a barrier-free solution for easy transitions.</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
-                            <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">1 Products</span>
+                            <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">2 Products</span>
                         </p>
                         <a href="/products-categories/ramps/"
                             class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
@@ -298,9 +325,10 @@
 
                 
 
-                <!-- Tub Cuts 9 -->
+                <!-- Tub Cuts 9 - Discontinued -->
                 <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group relative">
+                    <div class="discontinued-overlay"></div>
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
                         <img src="{{ asset('al-prod-page-imgs/Tub-Cuts.jpg') }}" alt="Tub Cuts"
@@ -429,37 +457,7 @@
                     </div>
                 </div>
 
-                <!-- modular ramps -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
-                    <!-- Product Image -->
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('mram/p1.png') }}" alt="Vertical Platform Lifts"
-                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            style="height: 400px;">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        </div>
-                    </div>
-
-                    <!-- Product Details -->
-                    <div class="p-6 flex-1 flex flex-col">
-                        <a href="/products-categories/modular-ramps/"
-                        >
-                        <h3
-                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Modular Ramps</h3>
-                        </a>
-                        <p class="text-gray-600 mb-4 flex-grow">Modular ramps are a cost-effective and easy-to-install solution for improving accessibility in your home or business.</p>
-                        <p class="font-bold text-primary mb-5 flex items-center">
-                            <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">2 Products</span> -->
-                        </p>
-                        <a href="/products-categories/modular-ramps/"
-                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
-                            View All Products
-                        </a>
-                    </div>
-                </div>
+                
 
 
                 <!-- promenaid handrails -->

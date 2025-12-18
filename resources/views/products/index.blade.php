@@ -328,7 +328,7 @@
                 <!-- Tub Cuts 9 - Discontinued -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group relative">
-                    <div class="discontinued-overlay"></div>
+                    <!-- <div class="discontinued-overlay"></div> -->
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
                         <img src="{{ asset('al-prod-page-imgs/Tub-Cuts.jpg') }}" alt="Tub Cuts"

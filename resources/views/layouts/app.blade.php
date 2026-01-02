@@ -8,9 +8,11 @@
 
     <title>@yield('title', config('app.name', 'Laravel'))</title>
     <meta name="description" content="@yield('meta_description', 'Professional IT services and solutions')">
-    <meta name="google-site-verification" content="0Ucpkwd7zB-q9_iN_kqFxQGogRUI3lY-eEwO79XLx7k"   />
+    <meta name="google-site-verification" content="0Ucpkwd7zB-q9_iN_kqFxQGogRUI3lY-eEwO79XLx7k"   />
     <!-- Google reCAPTCHA site key for form protection -->
     <meta name="recaptcha-site-key" content="{{ config('services.recaptcha.site_key') }}">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ asset('Logo-clr.png') }}">
 
 
 

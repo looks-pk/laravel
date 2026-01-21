@@ -8,18 +8,17 @@
 class HumanVerification {
     constructor() {
         this.verifiedForms = new Set();
+        this.formWidgets = new Map();
         this.init();
     }
 
     init() {
-        // Wait for DOM to be ready
         if (document.readyState === 'loading') {
             document.addEventListener('DOMContentLoaded', () => this.attachToAllForms());
         } else {
             this.attachToAllForms();
         }
 
-        // Watch for dynamically added forms
         this.observeNewForms();
     }
 
@@ -29,140 +28,164 @@ class HumanVerification {
     }
 
     processForm(form) {
-        // Skip if already processed
         if (form.dataset.humanVerified !== undefined) {
             return;
         }
 
-        // Mark as processed
         form.dataset.humanVerified = 'pending';
 
-        // Skip forms that should be excluded (like admin login, search forms, etc.)
         if (this.shouldSkipForm(form)) {
             form.dataset.humanVerified = 'skipped';
             return;
         }
 
-        // Disable all form inputs initially
-        this.disableFormInputs(form);
-
-        // Create and insert the verification button
-        this.insertVerificationButton(form);
+        this.insertVerificationWidget(form);
+        this.bindFormSubmitHandler(form);
     }
 
     shouldSkipForm(form) {
-        // Skip if form has the data attribute to opt-out
         if (form.hasAttribute('data-no-human-verification')) {
             return true;
         }
 
-        // Skip GET forms (search forms, filters, etc.)
         if (form.method && form.method.toLowerCase() === 'get') {
             return true;
         }
 
-        // Skip admin forms (optional - you can remove this if you want it on admin forms too)
-        const isAdminForm = form.closest('[class*="admin"]') || 
-                           form.action.includes('/admin/') ||
-                           form.id?.includes('admin');
-        
-        return isAdminForm;
+        const action = form.getAttribute('action') || '';
+        const isAdminForm = form.closest('[class*="admin"]') ||
+            (action && action.includes('/admin/')) ||
+            (form.id && form.id.includes('admin'));
+
+        return Boolean(isAdminForm);
     }
 
-    disableFormInputs(form) {
-        const inputs = form.querySelectorAll('input:not([type="hidden"]), textarea, select, button[type="submit"]');
-        inputs.forEach(input => {
-            input.dataset.originalDisabled = input.disabled;
-            input.disabled = true;
-            input.style.opacity = '0.6';
-            input.style.pointerEvents = 'none';
-        });
-    }
+    insertVerificationWidget(form) {
+        const container = document.createElement('div');
+        container.className = 'human-verification-container';
+        container.setAttribute('data-verification-ui', 'true');
 
-    enableFormInputs(form) {
-        const inputs = form.querySelectorAll('input:not([type="hidden"]), textarea, select, button[type="submit"]');
-        inputs.forEach(input => {
-            input.disabled = input.dataset.originalDisabled === 'true';
-            input.style.opacity = '';
-            input.style.pointerEvents = '';
-            delete input.dataset.originalDisabled;
-        });
-    }
+        const leftPanel = document.createElement('div');
+        leftPanel.className = 'human-verification-left';
 
-    insertVerificationButton(form) {
-        // Create verification container
-        const verificationContainer = document.createElement('div');
-        verificationContainer.className = 'human-verification-container';
-        verificationContainer.setAttribute('data-verification-ui', 'true');
-
-        // Create the button
         const button = document.createElement('button');
         button.type = 'button';
         button.className = 'human-verification-button';
+        button.setAttribute('aria-pressed', 'false');
+        button.setAttribute('aria-live', 'polite');
         button.innerHTML = `
-            <svg class="human-verification-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                <polyline points="22 4 12 14.01 9 11.01"></polyline>
-            </svg>
-            <span>I am human</span>
+            <span class="human-checkbox" aria-hidden="true">
+                <span class="human-checkbox-spinner"></span>
+                <svg class="human-checkbox-checkmark" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                    <polyline points="3.5 8.5 6.5 11.5 12.5 4.5"></polyline>
+                </svg>
+            </span>
+            <span class="human-checkbox-text">I'm not a robot</span>
         `;
 
-        // Add click handler
-        button.addEventListener('click', () => this.handleVerification(form, verificationContainer));
+        const statusMessage = document.createElement('p');
+        statusMessage.className = 'human-verification-hint';
+        statusMessage.setAttribute('aria-live', 'polite');
+        statusMessage.hidden = true;
 
-        verificationContainer.appendChild(button);
+        leftPanel.appendChild(button);
+        leftPanel.appendChild(statusMessage);
 
-        // Insert at the beginning of the form
-        if (form.firstChild) {
-            form.insertBefore(verificationContainer, form.firstChild);
+        const branding = document.createElement('div');
+        branding.className = 'human-verification-branding';
+        branding.innerHTML = `
+            <span class="human-brand-logo" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <path d="M8 13l2.5 3L16 8"></path>
+                </svg>
+            </span>
+            <span class="human-brand-text">
+                <span class="human-brand-title">HumanCheck</span>
+                <small>Privacy • Terms</small>
+            </span>
+        `;
+
+        container.append(leftPanel, branding);
+
+        button.addEventListener('click', () => this.handleVerification(form));
+
+        const primarySubmit = form.querySelector('button[type="submit"], input[type="submit"]');
+        if (primarySubmit && primarySubmit.parentNode) {
+            primarySubmit.parentNode.insertBefore(container, primarySubmit);
         } else {
-            form.appendChild(verificationContainer);
+            form.appendChild(container);
+        }
+
+        this.formWidgets.set(form, { container, button, statusMessage });
+    }
+
+    bindFormSubmitHandler(form) {
+        if (form.dataset.humanSubmitBound === 'true') {
+            return;
+        }
+
+        const submitHandler = (event) => this.preventSubmitIfNotVerified(event, form);
+        form.addEventListener('submit', submitHandler);
+        form.dataset.humanSubmitBound = 'true';
+    }
+
+    preventSubmitIfNotVerified(event, form) {
+        if (form.dataset.humanVerified === 'true') {
+            return;
+        }
+
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        this.showVerificationRequired(form);
+    }
+
+    showVerificationRequired(form) {
+        const widget = this.formWidgets.get(form);
+        if (!widget) {
+            return;
+        }
+
+        const { container, statusMessage, button } = widget;
+        container.classList.add('has-error');
+        statusMessage.hidden = false;
+        statusMessage.textContent = 'Please confirm you are not a robot before submitting.';
+
+        if (button) {
+            button.focus();
         }
     }
 
-    handleVerification(form, container) {
-        // Add success animation
-        const button = container.querySelector('.human-verification-button');
+    handleVerification(form) {
+        const widget = this.formWidgets.get(form);
+        if (!widget) {
+            return;
+        }
+
+        const { container, button, statusMessage } = widget;
+
+        if (form.dataset.humanVerified === 'true' || button.disabled) {
+            return;
+        }
+
+        container.classList.remove('has-error');
+        statusMessage.hidden = true;
+
+        button.disabled = true;
         button.classList.add('verifying');
 
         setTimeout(() => {
             button.classList.remove('verifying');
             button.classList.add('verified');
-            
-            // Update button text
-            button.innerHTML = `
-                <svg class="human-verification-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                </svg>
-                <span>Verified! You can now fill the form</span>
-            `;
+            button.setAttribute('aria-pressed', 'true');
 
-            // Wait a moment, then fade out and remove
-            setTimeout(() => {
-                container.style.transition = 'all 0.5s ease-out';
-                container.style.opacity = '0';
-                container.style.transform = 'translateY(-10px)';
-                
-                setTimeout(() => {
-                    container.remove();
-                    
-                    // Enable the form
-                    this.enableFormInputs(form);
-                    form.dataset.humanVerified = 'true';
-                    this.verifiedForms.add(form);
-
-                    // Focus on first input
-                    const firstInput = form.querySelector('input:not([type="hidden"]), textarea, select');
-                    if (firstInput) {
-                        firstInput.focus();
-                    }
-                }, 500);
-            }, 1500);
-        }, 600);
+            form.dataset.humanVerified = 'true';
+            this.verifiedForms.add(form);
+            container.classList.add('is-verified');
+        }, 800);
     }
 
     observeNewForms() {
-        // Use MutationObserver to detect dynamically added forms
         const observer = new MutationObserver((mutations) => {
             mutations.forEach((mutation) => {
                 mutation.addedNodes.forEach((node) => {
@@ -170,7 +193,7 @@ class HumanVerification {
                         this.processForm(node);
                     } else if (node.querySelectorAll) {
                         const forms = node.querySelectorAll('form');
-                        forms.forEach(form => this.processForm(form));
+                        forms.forEach(nestedForm => this.processForm(nestedForm));
                     }
                 });
             });

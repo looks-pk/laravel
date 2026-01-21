@@ -54,7 +54,7 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Product 1 -->
-                <!-- <div
+                <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
                         <img src="{{ asset('bathsafety-cat/Freecurve-Curved-Stairlift-min.jpg') }}" alt="Home2stay Freecurve Curved Stair Lift"
@@ -64,35 +64,107 @@
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Freecurve Curved Stair Lift</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">The number 1 stairlift brand of 2022, according to Forbes Health. Regain your independence and conqu</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Bruno Straight Stair Lift</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Bring effortless independence to every level of your home. The Bruno Straight Stair Lift from Home2Stay provides smooth, reliable mobility for straight staircases</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-freecurve-curved-stair-lift/"
+                            <a href="/products/home2stay-bruno-straight-stair-lift"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
                         </div>
                     </div>
-                </div> -->
+                </div>
 
                 <!-- Product 2 -->
-                <!-- <div
+                <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
                         <img src="{{ asset('bathsafety-cat/1100stairlift-min.jpg') }}" alt="Home2stay Straight Stair Lift 1100"
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Straight Stair Lift 1100</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">The number 1 stairlift brand of 2022, according to Forbes Health. Regain your independence and conqu</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Indoor Stairlift</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Change your home into a place of freedom, comfort, and independence with our premium Indoor Stairlifts from Home2Stay.</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-straight-stair-lift-1100/"
+                            <a href="/products/home2stay-Indoor-stairlift"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
                         </div>
                     </div>
-                </div> -->
+                </div>
+                <!-- Product 3 -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('bathsafety-cat/1100stairlift-min.jpg') }}" alt="Home2stay Straight Stair Lift 1100"
+                            class="w-full object-cover" style="height: 400px;">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Outdoor Stairlifts</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Rediscover freedom and independence with Home2Stay Outdoor Stairlifts. Designed to handle the elements while providing unmatched comfort and safety, our stairlifts allow you to move between levels with ease, no matter the weather.</p>
+                        <div class="mt-auto">
+                            <a href="/products/home2stay-outdoor-stairlifts"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('bathsafety-cat/1100stairlift-min.jpg') }}" alt="Home2stay Straight Stair Lift 1100"
+                            class="w-full object-cover" style="height: 400px;">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2Stay – Bruno Elan Straight Stairlift</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">he Bruno Elan Straight Stairlift is a premium mobility solution designed to help you or your loved ones navigate staircases with confidence, comfort, and independence. </p>
+                        <div class="mt-auto">
+                            <a href="/products/home2stay-bruno-elan-straight-stairlift"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 5 -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('bathsafety-cat/1100stairlift-min.jpg') }}" alt="Home2stay Straight Stair Lift 1100"
+                            class="w-full object-cover" style="height: 400px;">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Access Home Glide Straight Stairlift</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">The Access Home Glide Straight Stairlift by Home2Stay is designed to restore independence, safety, and comfort within your home.</p>
+                        <div class="mt-auto">
+                            <a href="/products/access-home-glide-straight-stairlift"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('bathsafety-cat/1100stairlift-min.jpg') }}" alt="Home2stay Straight Stair Lift 1100"
+                            class="w-full object-cover" style="height: 400px;">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Bruno Elite Straight Indoor Stairlift</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">The Bruno Elite Straight Indoor Stairlift sets the gold standard for residential stairlifts, blending exceptional performance, superior comfort, and sleek design that integrates flawlessly with your home. </p>
+                        <div class="mt-auto">
+                            <a href="/products/bruno-elite-straight-indoor-stairlift"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
                 
                 <!-- flow x new added product -->

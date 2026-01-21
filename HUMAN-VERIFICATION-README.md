@@ -7,7 +7,7 @@ A universal "I am human" verification button system that automatically applies t
 ✅ **Universal Application**: Automatically adds to ALL forms on the website  
 ✅ **Zero Configuration**: Works out of the box  
 ✅ **Professional Design**: Smooth animations and modern UI  
-✅ **Non-Intrusive**: Form fields are disabled until verification  
+✅ **Non-Intrusive**: Google-style checkbox sits by the submit button and blocks submission until verified  
 ✅ **Responsive**: Works on all screen sizes  
 ✅ **Accessible**: Keyboard navigation and screen reader friendly  
 ✅ **Smart Detection**: Automatically skips admin forms and GET requests  
@@ -15,12 +15,12 @@ A universal "I am human" verification button system that automatically applies t
 ## How It Works
 
 1. **Page Load**: When a page loads, the system automatically detects all `<form>` elements
-2. **Button Injection**: A verification button is added to the top of each form
-3. **Form Disabled**: All input fields, textareas, and submit buttons are disabled
-4. **User Clicks**: User clicks "I am human" button
-5. **Verification**: Button shows verification animation
-6. **Form Enabled**: After verification, the button fades away and form fields become enabled
-7. **User Fills Form**: User can now interact with and submit the form
+2. **Button Injection**: A verification button is inserted just above each form's primary submit action
+3. **Submission Locked**: Users can fill the form normally, but submit attempts are intercepted while verification is pending
+4. **User Clicks**: User taps the "I'm not a robot" checkbox near the submit button
+5. **Verification**: Checkbox shows the familiar spinner/check animation
+6. **Form Enabled**: Once verified, the checkbox locks in the success state and submissions are allowed
+7. **User Submits**: The form delivers as usual with zero backend changes
 
 ## Files Created
 
@@ -51,11 +51,12 @@ The system automatically skips:
 - **Admin forms** (forms with admin-related classes, IDs, or action URLs)
 
 ### Customize Button Colors
-Edit `resources/css/human-verification.css` and modify the gradient:
+Edit `resources/css/human-verification.css` and tweak the neutral panel styles:
 
 ```css
 .human-verification-container {
-    background: linear-gradient(135deg, #YOUR_COLOR_1 0%, #YOUR_COLOR_2 100%);
+    border-color: #YOUR_BORDER_COLOR;
+    background: #YOUR_BACKGROUND_COLOR;
 }
 ```
 
@@ -64,12 +65,8 @@ In `resources/js/human-verification.js`, modify the timeout values:
 
 ```javascript
 setTimeout(() => {
-    // Change 600 to adjust verification animation speed
-}, 600);
-
-setTimeout(() => {
-    // Change 1500 to adjust how long success message shows
-}, 1500);
+    // Change 800 to adjust verification animation speed
+}, 800);
 ```
 
 ## Building Assets

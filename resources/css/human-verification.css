@@ -1,206 +1,206 @@
-/**
- * Human Verification Button Styles
- * 
- * Professional styling for the "I am human" verification button
- */
-
-/* Form overlay - dims the form until verified */
-form[data-human-verified="pending"] {
-    position: relative;
-}
-
-form[data-human-verified="pending"]::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(2px);
-    z-index: 1;
-    pointer-events: none;
-    transition: opacity 0.5s ease-out;
-}
-
 .human-verification-container {
-    position: relative;
-    z-index: 2;
-    margin: 0 auto 1.5rem;
-    padding: 1.5rem;
-    max-width: 500px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2);
-    transition: all 0.3s ease;
-    animation: slideInDown 0.5s ease-out;
+    margin: 1.25rem 0;
+    padding: 1rem 1.25rem;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    background: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
 
-@keyframes slideInDown {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+.human-verification-left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    min-width: 220px;
 }
 
 .human-verification-button {
+    border: none;
+    background: transparent;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 0.75rem;
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 0.875rem 2rem;
-    background: white;
-    color: #667eea;
+    gap: 0.85rem;
     font-size: 1rem;
-    font-weight: 600;
-    border: none;
-    border-radius: 8px;
+    font-weight: 500;
+    color: #2f2f30;
     cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    text-align: left;
 }
 
-.human-verification-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    background: #f8f9ff;
+.human-verification-button:focus {
+    outline: 2px solid #3a87f4;
+    outline-offset: 4px;
 }
 
-.human-verification-button:active {
-    transform: translateY(0);
+.human-verification-button[disabled] {
+    cursor: default;
 }
 
-.human-verification-icon {
-    width: 24px;
-    height: 24px;
+.human-checkbox {
+    width: 26px;
+    height: 26px;
+    border: 2px solid #c1c1c1;
+    border-radius: 3px;
+    background: #fff;
+    display: grid;
+    place-items: center;
+    position: relative;
     flex-shrink: 0;
-    transition: transform 0.3s ease;
 }
 
-.human-verification-button:hover .human-verification-icon {
-    transform: scale(1.1);
+.human-checkbox-spinner {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top-color: #3a87f4;
+    border-right-color: #3a87f4;
+    opacity: 0;
 }
 
-/* Verifying state */
-.human-verification-button.verifying {
-    background: #fef3c7;
-    color: #d97706;
-    pointer-events: none;
+.human-checkbox-checkmark {
+    width: 18px;
+    height: 18px;
+    stroke-dasharray: 20;
+    stroke-dashoffset: 20;
+    opacity: 0;
+    transition: stroke-dashoffset 0.2s ease-out, opacity 0.2s ease-out;
 }
 
-.human-verification-button.verifying .human-verification-icon {
-    animation: spin 0.6s ease-in-out;
+.human-checkbox-text {
+    color: inherit;
 }
 
-@keyframes spin {
+.human-verification-button.verifying .human-checkbox-spinner {
+    opacity: 1;
+    animation: human-spin 0.8s linear infinite;
+}
+
+.human-verification-button.verifying .human-checkbox-checkmark {
+    opacity: 0;
+}
+
+.human-verification-button.verified .human-checkbox {
+    background: #3c84f3;
+    border-color: #3c84f3;
+}
+
+.human-verification-button.verified .human-checkbox-checkmark {
+    stroke: #fff;
+    opacity: 1;
+    stroke-dashoffset: 0;
+}
+
+.human-verification-button.verified .human-checkbox-spinner {
+    display: none;
+}
+
+.human-verification-button.verified .human-checkbox-text {
+    color: #1b3c8d;
+}
+
+.human-verification-branding {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.human-brand-logo {
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+    background: linear-gradient(135deg, #6295f9, #4361ee);
+    display: grid;
+    place-items: center;
+    color: #fff;
+}
+
+.human-brand-logo svg {
+    width: 22px;
+    height: 22px;
+}
+
+.human-brand-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.75rem;
+    color: #5f6368;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.human-brand-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: #3c4043;
+}
+
+.human-verification-hint {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #d93025;
+}
+
+.human-verification-container.has-error {
+    border-color: #ea4335;
+    box-shadow: 0 0 0 2px rgba(234, 67, 53, 0.15);
+}
+
+.human-verification-container.is-verified {
+    border-color: #c0d4fb;
+    background: #f4f8ff;
+}
+
+@media (max-width: 640px) {
+    .human-verification-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .human-verification-branding {
+        justify-content: flex-end;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .human-verification-container {
+        background: #1f1f1f;
+        border-color: #3a3a3a;
+    }
+
+    .human-verification-button {
+        color: #e5e7eb;
+    }
+
+    .human-checkbox {
+        background: #111;
+        border-color: #5f5f5f;
+    }
+
+    .human-verification-container.is-verified {
+        background: #122030;
+        border-color: #1d4ed8;
+    }
+
+    .human-verification-container.has-error {
+        border-color: #f87171;
+    }
+}
+
+@keyframes human-spin {
     from {
         transform: rotate(0deg);
     }
     to {
         transform: rotate(360deg);
     }
-}
-
-/* Verified state */
-.human-verification-button.verified {
-    background: #d1fae5;
-    color: #059669;
-    pointer-events: none;
-}
-
-.human-verification-button.verified .human-verification-icon {
-    animation: checkmark 0.6s ease-out;
-}
-
-@keyframes checkmark {
-    0% {
-        transform: scale(0);
-    }
-    50% {
-        transform: scale(1.2);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-/* Responsive design */
-@media (max-width: 640px) {
-    .human-verification-container {
-        padding: 1rem;
-        margin-bottom: 1rem;
-        max-width: 100%;
-    }
-
-    .human-verification-button {
-        font-size: 0.9375rem;
-        padding: 0.75rem 1.5rem;
-        max-width: 100%;
-    }
-
-    .human-verification-icon {
-        width: 20px;
-        height: 20px;
-    }
-}
-
-/* Accessibility improvements */
-.human-verification-button:focus {
-    outline: 3px solid #667eea;
-    outline-offset: 2px;
-}
-
-.human-verification-button:focus:not(:focus-visible) {
-    outline: none;
-}
-
-/* Dark mode support (optional) */
-@media (prefers-color-scheme: dark) {
-    .human-verification-container {
-        background: linear-gradient(135deg, #4c1d95 0%, #6b21a8 100%);
-    }
-
-    .human-verification-button {
-        background: #1f2937;
-        color: #a78bfa;
-    }
-
-    .human-verification-button:hover {
-        background: #374151;
-    }
-
-    .human-verification-button.verifying {
-        background: #78350f;
-        color: #fbbf24;
-    }
-
-    .human-verification-button.verified {
-        background: #064e3b;
-        color: #34d399;
-    }
-}
-
-/* Animation for form field enabling */
-@keyframes fadeIn {
-    from {
-        opacity: 0.6;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-/* Applied to form fields after verification */
-form[data-human-verified="true"] input:not([type="hidden"]),
-form[data-human-verified="true"] textarea,
-form[data-human-verified="true"] select,
-form[data-human-verified="true"] button[type="submit"] {
-    animation: fadeIn 0.5s ease-out;
 }

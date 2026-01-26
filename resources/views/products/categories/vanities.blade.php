@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Wheelchair Accessible Ramps | Available for Sale or Rental - Home2stay')
-@section('meta_description', 'Wheelchair ramps make your home more accessible and inclusive to wheelchair and mobility device users, and everyone of all abilities. Home2stay brings the best selection of modular, portable, and foldable ramps to Vancouver and the Lower Mainland. Find the right ramp for your space!')
+@section('title', 'Bathroom Vanities | Premium Designs & Styles - Home2stay')
+@section('meta_description', 'Discover premium bathroom vanities by Home2Stay. Wide selection of modern and traditional designs, high-quality materials, custom finishes, and expert installation. Transform your bathroom with stylish vanity solutions.')
 
 @push('styles')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -24,9 +24,9 @@
         <!-- Hero Content -->
         <div class="container mx-auto px-4 relative z-10 flex items-center" style="min-height: 500px;">
             <div class="max-w-3xl">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Ramps</h1>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Bathroom Vanities</h1>
                 <p class="text-xl text-white/90 mb-8">
-                    Enhancing accessibility and independence with durable, easy-to-install ramp solutions designed for comfort, safety, and convenience.
+                    Premium bathroom vanities combining elegant design, superior functionality, and quality craftsmanship to transform your bathroom space.
                 </p>
                 <div class="flex flex-wrap gap-4">
                     <a href="#products"
@@ -46,63 +46,20 @@
     <section id="products" class="py-16 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Accessibility Ramp Products</h2>
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Premium Vanity Collections</h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto">
-                    Discover our range of innovative ramp solutions designed to improve mobility and accessibility for
-                    individuals with mobility challenges.
+                    Explore our curated range of bathroom vanities featuring modern designs, traditional styles, and custom options to match your bathroom aesthetic.
                 </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Product 1 -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('bathsafety-cat/Home2stay-Self-Supporting-Threshold-Ramps-min.jpg') }}" alt="Self Supporting Threshold Ramps"
-                            class="w-full object-cover" style="height: 300px;">
-                        <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
-                            Popular
-                        </div>
-                    </div>
-                    <div class="p-6 flex-1 flex flex-col">
-                    <a href="/products/harmar-rubber-threshold-ramps"> <h3 class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300" >Harmar Rubber Threshold Ramps</h3></a>
-                        <p class="text-gray-600 mb-4 flex-grow">Make every doorway accessible with the Home2Stay Harmar Rubber Threshold Ramps, the best services for a smooth transition over thresholds, steps, and restraints.</p>
-                        <div class="mt-auto">
-                            <a href="/products/harmar-rubber-threshold-ramps"
-                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
-                                View Product
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Product 2 -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('bathsafety-cat/Home2stay-Self-Supporting-Threshold-Ramps-min.jpg') }}" alt="Self Supporting Threshold Ramps"
-                            class="w-full object-cover" style="height: 300px;">
-                        <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
-                            Popular
-                        </div>
-                    </div>
-                    <div class="p-6 flex-1 flex flex-col">
-                    <a href="/products/home2stay-self-supporting-threshold-ramps/" > <h3 class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">Home2stay Self Supporting Threshold Ramps</h3></a>
-                        <p class="text-gray-600 mb-4 flex-grow">The Self Supporting Threshold Ramp is designed for doorways that swing in and out. Easy to install with durable construction for long-lasting accessibility.</p>
-                        <div class="mt-auto">
-                            <a href="/products/home2stay-self-supporting-threshold-ramps/"
-                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
-                                View Product
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- modular ramps 3 -->
+                
+                <!-- product 1 -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('mram/p1.png') }}" alt="Vertical Platform Lifts"
+                        <img src="{{ asset('mram/p1.png') }}" alt="Modern Bathroom Vanities"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -112,17 +69,79 @@
 
                     <!-- Product Details -->
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="/products-categories/modular-ramps/"
+                        <a href="/products/home2stay-vanities/"
                         >
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Modular Ramps</h3>
+                            Home2Stay Vanities | Transform Your Bathroom with Style & Function</h3>
                         </a>
-                        <p class="text-gray-600 mb-4 flex-grow">Modular ramps are a cost-effective and easy-to-install solution for improving accessibility in your home or business.</p>
+                        <p class="text-gray-600 mb-4 flex-grow">Do you want to make your washroom stylish with the Home2Stay Classic Oak Vanity, where practical design meets timeless elegance?</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
-                            <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">2 Products</span> -->
+                            <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Multiple Products</span> -->
                         </p>
-                        <a href="/products-categories/modular-ramps/"
+                        <a href="/products/home2stay-vanities/"
+                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
+                            View All Products
+                        </a>
+                    </div>
+                </div>
+                <!-- product 2 -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
+                    <!-- Product Image -->
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('mram/p1.png') }}" alt="Modern Bathroom Vanities"
+                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            style="height: 400px;">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        </div>
+                    </div>
+
+                    <!-- Product Details -->
+                    <div class="p-6 flex-1 flex flex-col">
+                        <a href="/products/ready-made-vanities"
+                        >
+                        <h3
+                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
+                            Ready-Made Vanities</h3>
+                        </a>
+                        <p class="text-gray-600 mb-4 flex-grow">Home2Stay Vanities are the perfect way to enhance your Bathroom. They combine excellent design and everyday convenience.</p>
+                        <p class="font-bold text-primary mb-5 flex items-center">
+                            <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Multiple Products</span> -->
+                        </p>
+                        <a href="/products/ready-made-vanities"
+                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
+                            View All Productsx
+                        </a>
+                    </div>
+                </div>
+                <!-- product 3 -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
+                    <!-- Product Image -->
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('mram/p1.png') }}" alt="Modern Bathroom Vanities"
+                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            style="height: 400px;">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        </div>
+                    </div>
+
+                    <!-- Product Details -->
+                    <div class="p-6 flex-1 flex flex-col">
+                        <a href="/products/custom-millwork-by-home2stay"
+                        >
+                        <h3
+                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
+                            Custom Millwork by Home2Stay</h3>
+                        </a>
+                        <p class="text-gray-600 mb-4 flex-grow">We believe your vanity should be more than just a practical fixture; it should be a beautifully crafted centrepiece that enhances your bathroom’s style</p>
+                        <p class="font-bold text-primary mb-5 flex items-center">
+                            <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Multiple Products</span> -->
+                        </p>
+                        <a href="/products/custom-millwork-by-home2stay"
                             class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
                             View All Products
                         </a>
@@ -133,7 +152,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('mram/p1.png') }}" alt="Vertical Platform Lifts"
+                        <img src="{{ asset('mram/p1.png') }}" alt="Modern Bathroom Vanities"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -143,183 +162,23 @@
 
                     <!-- Product Details -->
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="/products/metal-threshold-ramps/"
+                        <a href="/products/floating-vanity"
                         >
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Metal Threshold Ramps</h3>
+                            Home2Stay Floating Vanity</h3>
                         </a>
-                        <p class="text-gray-600 mb-4 flex-grow">
-                            Make every doorway uncomplicated with Home2Stay Metal Threshold Ramps engineered for smooth transitions over thresholds, steps, and uneven surfaces.</p>
+                        <p class="text-gray-600 mb-4 flex-grow">Boost your bathroom with refined modern elegance. The Home2Stay Floating Vanity blends smooth design with superior functionality</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
-                            <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">2 Products</span> -->
+                            <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Multiple Products</span> -->
                         </p>
-                        <a href="/products/metal-threshold-ramps/"
+                        <a href="/products/floating-vanity"
                             class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
                             View All Products
                         </a>
                     </div>
                 </div>
-                <!-- product 5 -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
-                    <!-- Product Image -->
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('mram/p1.png') }}" alt="Vertical Platform Lifts"
-                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            style="height: 400px;">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        </div>
-                    </div>
 
-                    <!-- Product Details -->
-                    <div class="p-6 flex-1 flex flex-col">
-                        <a href="/products/pvi-multi-fold-reach-ramp/"
-                        >
-                        <h3
-                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            PVI Multi-Fold Reach Ramp</h3>
-                        </a>
-                        <p class="text-gray-600 mb-4 flex-grow">
-                            Make accessibility effortless with the Home2Stay PVI Multi-Fold Reach Ramp, a premium quality, lightweight aluminium ramp designed to provide safe and reliable access for wheelchairs</p>
-                        <p class="font-bold text-primary mb-5 flex items-center">
-                            <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">2 Products</span> -->
-                        </p>
-                        <a href="/products/pvi-multi-fold-reach-ramp/"
-                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
-                            View All Products
-                        </a>
-                    </div>
-                </div>
-                <!-- product 6 -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
-                    <!-- Product Image -->
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('mram/p1.png') }}" alt="Vertical Platform Lifts"
-                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            style="height: 400px;">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        </div>
-                    </div>
-
-                    <!-- Product Details -->
-                    <div class="p-6 flex-1 flex flex-col">
-                        <a href="/products/custom-wood-ramps/"
-                        >
-                        <h3
-                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Custom Wood Ramps</h3>
-                        </a>
-                        <p class="text-gray-600 mb-4 flex-grow">
-                            Bring freedom of movement to every doorstep with Home2Stay’s Custom Wood Ramps, designed, built, and customised to fit your space perfectly.</p>
-                        <p class="font-bold text-primary mb-5 flex items-center">
-                            <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">2 Products</span> -->
-                        </p>
-                        <a href="/products/custom-wood-ramps/"
-                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
-                            View All Products
-                        </a>
-                    </div>
-                </div>
-                <!-- product 7 -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
-                    <!-- Product Image -->
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('mram/p1.png') }}" alt="Vertical Platform Lifts"
-                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            style="height: 400px;">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        </div>
-                    </div>
-
-                    <!-- Product Details -->
-                    <div class="p-6 flex-1 flex flex-col">
-                        <a href="/products/folding-&-olling-ramps/"
-                        >
-                        <h3
-                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Folding & Rolling Ramps</h3>
-                        </a>
-                        <p class="text-gray-600 mb-4 flex-grow">
-                            The Home2Stay Folding & Rolling Ramps are the perfect balance of convenience, durability, and safety for everyday accessibility.</p>
-                        <p class="font-bold text-primary mb-5 flex items-center">
-                            <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">2 Products</span> -->
-                        </p>
-                        <a href="/products/folding-&-olling-ramps/"
-                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
-                            View All Products
-                        </a>
-                    </div>
-                </div>
-                <!-- product 8 -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
-                    <!-- Product Image -->
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('mram/p1.png') }}" alt="Vertical Platform Lifts"
-                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            style="height: 400px;">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        </div>
-                    </div>
-
-                    <!-- Product Details -->
-                    <div class="p-6 flex-1 flex flex-col">
-                        <a href="/products/dunlop-slope/"
-                        >
-                        <h3
-                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Dunlop Slope</h3>
-                        </a>
-                        <p class="text-gray-600 mb-4 flex-grow">
-                            Bring persistent accessibility home with the Dunlop Slope, a premium-quality ramp designed to eliminate thresholds and small steps with ease.</p>
-                        <p class="font-bold text-primary mb-5 flex items-center">
-                            <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">2 Products</span> -->
-                        </p>
-                        <a href="/products/dunlop-slope/"
-                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
-                            View All Products
-                        </a>
-                    </div>
-                </div>
-                <!-- product 9 -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
-                    <!-- Product Image -->
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('mram/p1.png') }}" alt="Vertical Platform Lifts"
-                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                            style="height: 400px;">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        </div>
-                    </div>
-
-                    <!-- Product Details -->
-                    <div class="p-6 flex-1 flex flex-col">
-                        <a href="/products/roll-a-ramp-portable-accessibility-ram/"
-                        >
-                        <h3
-                            class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Roll-A-Ramp Portable Accessibility Ram</h3>
-                        </a>
-                        <p class="text-gray-600 mb-4 flex-grow">
-                            Roll a ramp, especially designed for your convenience,  and home2stay   provide te portable accessibility that is designed for maximum convenience, strength and versatility.</p>
-                        <p class="font-bold text-primary mb-5 flex items-center">
-                            <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">2 Products</span> -->
-                        </p>
-                        <a href="/products/roll-a-ramp-portable-accessibility-ram/"
-                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
-                            View All Products
-                        </a>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -329,9 +188,9 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">The Advantages of Ramps</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Premium Vanities</h2>
                     <p class="text-lg text-gray-600">
-                        Discover how placing ramps outside and inside your home can transform accessibility and enhance your living space.
+                        Discover how a quality bathroom vanity enhances functionality, storage, and the overall aesthetic appeal of your bathroom space.
                     </p>
                 </div>
 
@@ -344,8 +203,8 @@
                                     d="M13 10V3L4 14h7v7l9-11h-7z" />
                             </svg>
                         </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Improves Mobility</h3>
-                        <p class="text-gray-600">Enhanced access and independence for wheelchair users and those with mobility challenges.</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Stylish Design</h3>
+                        <p class="text-gray-600">Premium aesthetics with modern and traditional styles that complement any bathroom décor and add visual appeal.</p>
                     </div>
 
                     <div class="bg-gray-50 p-6 rounded-lg text-center">
@@ -356,8 +215,8 @@
                                     d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                             </svg>
                         </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Beautifies Your Space</h3>
-                        <p class="text-gray-600">Modern, attractive designs that complement your home's architecture and landscaping.</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Ample Storage</h3>
+                        <p class="text-gray-600">Spacious cabinets and drawers for organized bathroom storage and improved functionality.</p>
                     </div>
 
                     <div class="bg-gray-50 p-6 rounded-lg text-center">
@@ -368,8 +227,8 @@
                                     d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                             </svg>
                         </div>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Easy Installation</h3>
-                        <p class="text-gray-600">Quick setup with no building permits required in most cases for portable and modular systems.</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Quality Craftsmanship</h3>
+                        <p class="text-gray-600">Durable materials and expert construction ensuring long-lasting performance and durability.</p>
                     </div>
                 </div>
             </div>
@@ -383,13 +242,12 @@
                 <div class="flex flex-col lg:flex-row">
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Inclusive Living Solutions: Discover Our Complete Product Catalog</h2>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Transform Your Bathroom with Premium Vanities</h2>
                         <p class="text-lg text-gray-600 mb-6">
-                            Home2stay is a trusted provider of accessibility and mobility solutions in the British Columbia
-                            region, servicing the following: Vancouver, Surrey, Abbotsford, Richmond, Coquitlam, Tricities,
-                            Mission, Delta, Pitt Meadows, Burnaby, Port Moody, Maple Ridge, Langley, Chilli Wack, White
+                            Home2Stay offers a comprehensive selection of high-quality bathroom vanities serving the British Columbia region, including: Vancouver, Surrey, Abbotsford, Richmond, Coquitlam, Tricities,
+                            Mission, Delta, Pitt Meadows, Burnaby, Port Moody, Maple Ridge, Langley, Chilliwack, White
                             Rock, Aldergrove, and other nearby areas.</p>
-                        <p class="mb-5">Is your area not listed? Give us a call at <b><a href="tel:+16042591211" style="color: red;">(604) 259-1211</a></b> or submit a <b> <a href="#assessment" style="color: red;">FREE ASSESSMENT FORM</a></b> to check.
+                        <p class="mb-5">Looking for the perfect vanity for your bathroom? Give us a call at <b><a href="tel:+16042591211" style="color: red;">(604) 259-1211</a></b> or submit a <b> <a href="#assessment" style="color: red;">FREE CONSULTATION FORM</a></b> to explore options.
                         </p>
                     </div>
                     <!-- Image -->
@@ -407,39 +265,39 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="bg-white rounded-xl shadow-md p-8 md:p-12">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Accessibility Ramp Solutions</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Premium Bathroom Vanity Solutions</h2>
 
                     <div class="prose prose-lg max-w-none">
                         <p class="text-gray-700 mb-4">
-                            At Home2stay, we recommend modular, folding, and portable ramps, which can suit any space and can roll / fold up when not in use. Best of all, you won't need a building or city permit (in most cases) to put these on the entrance or exit of your home because they are not considered as permanent fixtures.
+                            At Home2Stay, we provide a curated selection of bathroom vanities that combine style, functionality, and durability. Whether you prefer modern sleek designs or traditional elegant styles, our vanities are crafted from premium materials to enhance your bathroom's aesthetic and functionality.
                         </p>
 
                         <p class="text-gray-700 mb-4">
-                            Home2stay ramps are made from non-slip and durable materials, and the Roll-A-Ramp Modular Ramp System has a weight capacity of up to 1,000 lbs.
+                            Our vanities feature quality construction with ample storage, superior finishes, and easy-to-maintain surfaces. Each piece is designed to withstand daily use while maintaining its beauty and performance for years to come.
                         </p>
 
                         <div class="my-8 p-6 bg-primary/5 border-l-4 border-primary rounded-r-lg">
                             <p class="text-gray-800 font-medium">
-                                Brands available are: Roll-A-Ramp, Prairie View Industries (PVI), BestBath, and Harmar. All our ramp products are designed with safety, durability, and ease of use in mind.
+                                We offer multiple vanity styles including modern minimalist designs, traditional elegant pieces, transitional styles, and custom options. All our vanities combine aesthetic appeal with practical storage solutions.
                             </p>
                         </div>
 
                         <p class="text-gray-700 mb-4">
-                            In case you'll be needing a ramp for an event or a short period of time, Home2stay has modular, threshold, and folding ramps for RENT, for a minimum of one month rental period.
+                            Our vanities are available in various sizes, finishes, and configurations to fit your bathroom layout and design preferences. From single-sink units to double-sink vanities, we have options for every space and budget.
                         </p>
 
-                        <h3 class="text-2xl font-bold text-gray-800 mt-8 mb-4">Expert Installation & Support</h3>
+                        <h3 class="text-2xl font-bold text-gray-800 mt-8 mb-4">Expert Design Consultation & Installation</h3>
 
                         <p class="text-gray-700 mb-4">
-                            Book a FREE ASSESSMENT with us at Home2stay and we'll guide you through the process of choosing the right ramp solution for yourself or your loved ones. Our experienced team will evaluate your specific needs, space requirements, and recommend the most suitable ramp system.
-                        </p>
-
-                        <p class="text-gray-700 mb-4">
-                            After installation, our technicians will provide you, your caregiver, or the users with a comprehensive introduction to the operation and maintenance of your ramp system. Additional training can be requested if needed, and we can even provide guidance via video call for your convenience.
+                            Schedule a FREE CONSULTATION with Home2Stay and our design experts will help you select the perfect vanity for your bathroom. Our team will assess your space, discuss your style preferences, and recommend vanities that fit your needs and budget.
                         </p>
 
                         <p class="text-gray-700 mb-4">
-                            We ensure that you know how to use and maintain your ramp safely and accurately. Our team is extensively trained in the installation and maintenance of all our ramp products to provide you with the best possible service.
+                            Our professional installation team ensures your vanity is properly fitted, secured, and finished to perfection. We handle all aspects of installation including plumbing connections and finishing touches.
+                        </p>
+
+                        <p class="text-gray-700 mb-4">
+                            We provide guidance on vanity care and maintenance to ensure your investment lasts for years. Our team is available to answer any questions about your vanity and provide support whenever you need it.
                         </p>
 
                         <div class="mt-8 flex flex-wrap gap-4">
@@ -467,9 +325,9 @@
                 <div class="flex flex-col lg:flex-row">
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready to book a schedule?</h2>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready to upgrade your bathroom?</h2>
                         <p class="text-lg text-gray-600 mb-6">
-                            We look forward to helping you create your safe and accessible space</p>
+                            Let us help you find the perfect vanity to transform your bathroom space</p>
                         <div class="mt-8 flex flex-wrap gap-4">
                             <a href="#assessment"
                                 class="inline-flex items-center px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition duration-300">
@@ -551,15 +409,14 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Request Your Ramp Accessibility Assessment</h2>
-                    <p class="text-gray-600">Our accessibility specialists will evaluate your specific needs and recommend the
-                        best ramp solutions for your home or business.</p>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Request Your Free Vanity Consultation</h2>
+                    <p class="text-gray-600">Our design experts will help you find the perfect vanity that matches your style, space, and budget.</p>
                 </div>
 
                 <form action="/submit-assessment" method="POST">
                     @csrf
-                    <input type="hidden" name="form_type" value="quote">
-                    <input type="hidden" name="form_source" value="Ramps_quote_form">
+                    <input type="hidden" name="form_type" value="consultation">
+                    <input type="hidden" name="form_source" value="Vanities_consultation_form">
                     <!-- Personal Information -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
@@ -578,43 +435,43 @@
                                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
                         </div>
                         <div>
-                            <label class="block text-gray-700 font-medium mb-2" for="location">Installation Location</label>
-                            <input type="text" id="location" name="location" placeholder="e.g., Front entrance, Back door, etc."
+                            <label class="block text-gray-700 font-medium mb-2" for="location">Bathroom Location</label>
+                            <input type="text" id="location" name="location" placeholder="e.g., Master bathroom, Guest bathroom, etc."
                                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
                         </div>
                     </div>
 
                     <!-- Product Interest -->
                     <div>
-                        <label class="block text-gray-700 font-medium mb-2">Which ramp products are you interested in? *</label>
+                        <label class="block text-gray-700 font-medium mb-2">Which vanity style interests you? *</label>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="products[]" value="threshold_ramps"
+                                <input type="checkbox" name="products[]" value="modern_vanities"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Threshold Ramps</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Modern Vanities</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="products[]" value="modular_ramps"
+                                <input type="checkbox" name="products[]" value="traditional_vanities"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Modular Ramps</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Traditional Vanities</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="products[]" value="portable_ramps"
+                                <input type="checkbox" name="products[]" value="transitional_vanities"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Portable Ramps</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Transitional Vanities</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="products[]" value="folding_ramps"
+                                <input type="checkbox" name="products[]" value="double_sink"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Folding Ramps</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Double Sink Vanities</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="products[]" value="rental" class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Rental Options</span>
+                                <input type="checkbox" name="products[]" value="custom_vanities" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Custom Vanities</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="products[]" value="other" class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Other/Not Sure</span>
+                                <input type="checkbox" name="products[]" value="not_sure" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Not Sure/Need Advice</span>
                             </label>
                         </div>
                     </div>
@@ -624,14 +481,14 @@
                         <label class="block text-gray-700 font-medium mb-2" for="message">Additional Information</label>
                         <textarea id="message" name="message" rows="4"
                             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-                            placeholder="Please share any specific requirements, measurements, or concerns..."></textarea>
+                            placeholder="Please share your bathroom dimensions, style preferences, budget range, or any specific requirements..."></textarea>
                     </div>
 
                     <!-- Submit Button -->
                     <div class="text-center">
                         <button type="submit"
                             class="inline-flex items-center px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition duration-300">
-                            Submit Assessment Request
+                            Submit Consultation Request
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
                                 fill="currentColor">
                                 <path fill-rule="evenodd"
@@ -649,8 +506,8 @@
     <section class="py-16 bg-primary">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto text-center text-white">
-                <h2 class="text-3xl font-bold mb-6">Ready to Enhance Your Accessibility?</h2>
-                <p class="text-xl mb-8">Contact us today to explore how our ramp solutions can improve mobility and independence in your home.</p>
+                <h2 class="text-3xl font-bold mb-6">Ready to Transform Your Bathroom?</h2>
+                <p class="text-xl mb-8">Contact us today to discover premium vanity options that will enhance your bathroom's style and functionality.</p>
                 <div class="flex flex-wrap justify-center gap-4">
                     <a href="{{ route('contact') }}"
                         class="px-8 py-3 bg-white text-primary hover:bg-gray-100 rounded-lg font-medium transition duration-300">

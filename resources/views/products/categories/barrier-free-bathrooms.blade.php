@@ -144,6 +144,90 @@
                         </div>
                     </div>
                 </div>
+                <!-- Product 5 -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('np-img/central-system.jpg') }}" alt="Sentrel Systems Showers"
+                            class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
+                        <div class="absolute top-0 right-0 bg-blue-500 text-white text-sm font-bold px-3 py-1 m-4 rounded">
+                            
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                    <a href="/products/bathroom-renovations-&-showers" > <h3 class="text-xl font-bold text-gray-800 mb-3">Bathroom renovations & showers</h3></a>
+                        <p class="text-gray-600 mb-4 flex-grow">We’re experts in transforming ordinary bathrooms into elegant, functional, and modern living spaces. Our Bathroom Renovations & Showers service is designed for homeowners who value quality expertise</p>
+                        <div class="mt-auto">
+                            <a href="/products/bathroom-renovations-&-showers"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('np-img/central-system.jpg') }}" alt="Sentrel Systems Showers"
+                            class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
+                        <div class="absolute top-0 right-0 bg-blue-500 text-white text-sm font-bold px-3 py-1 m-4 rounded">
+                            
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                    <a href="/products/remodeling-an-acrylic-shower" > <h3 class="text-xl font-bold text-gray-800 mb-3">Remodeling an Acrylic Shower (Bellastone Style)</h3></a>
+                        <p class="text-gray-600 mb-4 flex-grow">Our premium Acrylic Shower renovation solutions will change your bathroom into an oasis of luxury and low maintenance.</p>
+                        <div class="mt-auto">
+                            <a href="/products/remodeling-an-acrylic-shower"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 7 -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('np-img/central-system.jpg') }}" alt="Sentrel Systems Showers"
+                            class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
+                        <div class="absolute top-0 right-0 bg-blue-500 text-white text-sm font-bold px-3 py-1 m-4 rounded">
+                            
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                    <a href="/products/tub-to-shower-conversion" > <h3 class="text-xl font-bold text-gray-800 mb-3">Tub-to-Shower Conversion</h3></a>
+                        <p class="text-gray-600 mb-4 flex-grow">Bathroom Renovations and Shower services are our specialty. A special focus is on Tub-to-Shower Converters</p>
+                        <div class="mt-auto">
+                            <a href="/products/tub-to-shower-conversion"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 8 -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('np-img/central-system.jpg') }}" alt="Sentrel Systems Showers"
+                            class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
+                        <div class="absolute top-0 right-0 bg-blue-500 text-white text-sm font-bold px-3 py-1 m-4 rounded">
+                            
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                    <a href="/products/bathroom-renovations-showers-&-general-bathrooms" > <h3 class="text-xl font-bold text-gray-800 mb-3">Bathroom Renovations, Showers & General Bathrooms</h3></a>
+                        <p class="text-gray-600 mb-4 flex-grow">Bathroom Renovations & Shower installations are what we get the knack of. We aim to improve comfort and property value while exalting everyday living.</p>
+                        <div class="mt-auto">
+                            <a href="/products/bathroom-renovations-showers-&-general-bathrooms"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

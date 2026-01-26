@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Home2stay Self Supporting Threshold Ramps - Home2stay')
-@section('meta_description', 'Home2stay Threshold Ramps provide easy doorway access. Self-supporting &amp; adjustable, they&#039;re perfect for wheelchairs &amp; scooters. Shop online for safe &amp; convenient home mobility.')
+@section('title', 'Roll-A-Ramp Portable Accessibility Ramp - Home2Stay')
+@section('meta_description', 'Roll-A-Ramp by Home2Stay - portable, adjustable aluminum ramp that rolls up for easy storage. Up to 1,000-2,000 lbs capacity, modular design. Perfect for travel and accessibility.')
 
 @section('content')
     <!-- Hero Section -->
@@ -47,12 +47,12 @@
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" d="m1 9 4-4-4-4" />
                                 </svg>
-                                <span class="ml-1 font-medium text-gray-100">Home2stay Self Supporting Threshold Ramps</span>
+                                <span class="ml-1 font-medium text-gray-100">Roll-A-Ramp</span>
                             </div>
                         </li>
                     </ol>
                 </nav>
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Home2stay Self Supporting Threshold Ramps</h1>
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Roll-A-Ramp Portable Accessibility Ramp</h1>
                 <div class="flex items-center mb-4">
                     <div class="flex text-yellow-400">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -106,48 +106,29 @@
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            The Self Supporting Threshold Ramp is designed for doorways that swing in and out. Easy to install with holes punched in top corners.
+                            Roll a ramp, especially designed for your convenience, and Home2Stay provide the portable accessibility that is designed for maximum convenience, strength and versatility. Whether you're enhancing home access, loading mobility devices into vehicles, or creating a temporary ramp solution for travel or appointments, the Roll-A-Ramp makes mobility simple and reliable.
                         </p>
+                    </div>
+                    <div class="mb-6">
+                        <p class="text-gray-600 text-lg font-semibold">
+                            Key Features & Benefits:
+                        </p>
+                        <ul class="text-gray-600 text-lg list-disc list-inside space-y-2">
+                            <li><strong>Portable & Compact Design:</strong> Rolls up like a carpet for effortless storage and transport, perfect for on-the-go accessibility.</li>
+                            <li><strong>Adjustable Modular Length:</strong> Patented modular link system lets you tailor the ramp's length to meet exact needs without special tools required.</li>
+                            <li><strong>Strong, Lightweight Construction:</strong> Crafted from aircraft-grade aluminium, offering outstanding load-bearing capacity up to 1,000-2,000 lbs.</li>
+                        </ul>
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Made of lightweight, durable aluminum, with anti-slip, high-traction surface. Comes with hardware to secure ramp to surface.
-                        </p>
-                    </div>
-                    <div class="mb-6">
-                        <p class="text-gray-600 text-lg">
-                            Aligns directly against the door threshold. Accommodates wheelchairs and scooters with various wheel configurations.
-                        </p>
-                    </div>
-                    <div class="mb-6">
-                        <p class="text-gray-600 text-lg">
-                            Prairie View Industries (PVI) products are tested to a 3x safety factor, making them pound for pound, the strongest and lightest ramps available.
-                        </p>
-                    </div>
-                    <div class="mb-6">
-                        <p class="text-gray-600 text-lg font-medium">
-                            Made in the USA.
+                            Built-in angled approach plates and volitional side rails ensure smooth, confident transitions on and off the ramp. Backed by a 10-year warranty, the Roll-A-Ramp is built to be durable, reliable, and ready for daily use, indoors or outdoors.
                         </p>
                     </div>
                     <div class="mb-6 p-4 bg-green-50 border-l-4 border-green-400 rounded-r-lg">
                         <h3 class="font-semibold text-green-800 mb-2">Pricing:</h3>
                         <div class="space-y-1 text-green-700">
-                            <p>CONTACT US for a price quote customized to your needs.</p>
+                            <p><strong>Roll-A-Ramp - Contact for Quote</strong></p>
                         </div>
-                    </div>
-                    <div class="mb-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
-                        <h3 class="font-semibold text-yellow-800 mb-2">Rental Available:</h3>
-                        <div class="space-y-1 text-yellow-700">
-                            <p><strong>Monthly Rental Fee:</strong> $35</p>
-                            <p><strong>Minimum:</strong> 1 Month</p>
-                            <p><strong>Setup Fees:</strong> $95 (including measuring and installation)</p>
-                            <p><strong>Removal Fees:</strong> $75</p>
-                        </div>
-                    </div>
-                    <div class="mb-6 p-4 bg-blue-50 border-l-4 border-blue-400 rounded-r-lg">
-                        <p class="text-blue-800 font-medium">
-                            This product is available for sale or rental. Go to Rental Page or Book Free Assessment.
-                        </p>
                     </div>
 
                     <!-- Product Tabs Section -->
@@ -199,8 +180,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Doorway Compatibility</h3>
-                                            <p class="text-gray-600">Designed specifically for doorways that swing in and out, providing seamless threshold access.</p>
+                                            <h3 class="font-semibold text-gray-800">Portable & Compact Design</h3>
+                                            <p class="text-gray-600">Rolls up like a carpet for effortless storage and transport. Perfect for on-the-go accessibility, easily stow it in the trunk of your vehicle or a closet until you need it again.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -211,8 +192,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Easy Installation</h3>
-                                            <p class="text-gray-600">Simple installation with holes punched in top corners and hardware included to secure ramp to surface.</p>
+                                            <h3 class="font-semibold text-gray-800">Adjustable Modular Length</h3>
+                                            <p class="text-gray-600">Patented modular link system lets you tailor the ramp's length to meet exact needs of your environment. Add or remove sections quickly without special tools required.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -223,8 +204,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Lightweight Aluminum Construction</h3>
-                                            <p class="text-gray-600">Made of lightweight, durable aluminum for easy handling while maintaining strength and longevity.</p>
+                                            <h3 class="font-semibold text-gray-800">Strong, Lightweight Construction</h3>
+                                            <p class="text-gray-600">Crafted from aircraft-grade aluminium, strikes the ideal balance of strength and portability. Outstanding load-bearing capacity up to 1,000 lbs for many models, up to 2,000 lbs for twin-track versions.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -235,8 +216,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Anti-Slip Surface</h3>
-                                            <p class="text-gray-600">Features anti-slip, high-traction surface for maximum safety and confidence during use.</p>
+                                            <h3 class="font-semibold text-gray-800">Safe, Stable Weather-Resistant Surface</h3>
+                                            <p class="text-gray-600">Engineered for secure traction in varying weather conditions. Built-in angled approach plates and volitional side rails ensure smooth, confident transitions on and off the ramp.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -247,56 +228,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Perfect Threshold Alignment</h3>
-                                            <p class="text-gray-600">Aligns directly against the door threshold for seamless transition and optimal functionality.</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <svg class="h-5 w-5 text-primary flex-shrink-0 mr-3 mt-1"
-                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd"
-                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        <div>
-                                            <h3 class="font-semibold text-gray-800">Universal Wheel Compatibility</h3>
-                                            <p class="text-gray-600">Accommodates wheelchairs and scooters with various wheel configurations for maximum versatility.</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <svg class="h-5 w-5 text-primary flex-shrink-0 mr-3 mt-1"
-                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd"
-                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        <div>
-                                            <h3 class="font-semibold text-gray-800">3x Safety Factor Testing</h3>
-                                            <p class="text-gray-600">Prairie View Industries (PVI) products are tested to a 3x safety factor, ensuring maximum reliability and safety.</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <svg class="h-5 w-5 text-primary flex-shrink-0 mr-3 mt-1"
-                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd"
-                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        <div>
-                                            <h3 class="font-semibold text-gray-800">Made in USA</h3>
-                                            <p class="text-gray-600">Proudly manufactured in the United States with quality materials and craftsmanship.</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <svg class="h-5 w-5 text-primary flex-shrink-0 mr-3 mt-1"
-                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd"
-                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        <div>
-                                            <h3 class="font-semibold text-gray-800">Sale or Rental Options</h3>
-                                            <p class="text-gray-600">Available for both purchase and rental with flexible terms to meet your specific needs.</p>
+                                            <h3 class="font-semibold text-gray-800">Long-Term Confidence</h3>
+                                            <p class="text-gray-600">Backed by a 10-year warranty, this ramp is built to be durable, reliable, and ready for daily use, indoors or outdoors. Perfect for wheelchairs, scooters, power chairs, vans, trucks, and RVs.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -305,56 +238,27 @@
                             <!-- Pricing Options Tab -->
                             <div class="tab-pane" data-tab="pricing-tab" style="display: none !important;">
                                 <div class="space-y-6">
-                                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Pricing Options</h3>
+                                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Pricing & Product Information</h3>
 
-                                    <!-- Purchase Pricing -->
+                                    <!-- Pricing -->
                                     <div class="bg-gray-50 rounded-lg p-4">
-                                        <h4 class="text-lg font-semibold text-gray-800 mb-3">Purchase Options</h4>
+                                        <h4 class="text-lg font-semibold text-gray-800 mb-3">Roll-A-Ramp Pricing</h4>
                                         <div class="space-y-3">
                                             <div class="flex justify-between items-center border-b pb-2">
-                                                <span class="text-gray-700 font-medium">Pricing:</span>
-                                                <span class="font-semibold text-primary">Contact for customized quote</span>
+                                                <span class="text-gray-700 font-medium">Roll-A-Ramp Models:</span>
+                                                <span class="font-semibold text-primary">Contact for Custom Quote</span>
                                             </div>
                                             <div class="text-sm text-gray-600 mt-2">
-                                                <p>* Price includes the Self Supporting Threshold Ramp</p>
-                                                <p>* Professional installation available for additional cost</p>
-                                                <p>* Limited lifetime warranty included</p>
+                                                <p>* Aircraft-grade aluminium construction</p>
+                                                <p>* Modular customizable lengths available</p>
+                                                <p>* Load capacity: 1,000-2,000 lbs depending on model</p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <!-- Rental Pricing -->
-                                    <div class="bg-blue-50 rounded-lg p-4">
-                                        <h4 class="text-lg font-semibold text-blue-800 mb-3">Rental Options</h4>
-                                        <div class="space-y-3">
-                                            <div class="flex justify-between items-center border-b border-blue-200 pb-2">
-                                                <span class="text-blue-700 font-medium">Monthly Rental Fee:</span>
-                                                <span class="font-semibold text-blue-800">$35</span>
-                                            </div>
-                                            <div class="flex justify-between items-center border-b border-blue-200 pb-2">
-                                                <span class="text-blue-700 font-medium">Minimum Period:</span>
-                                                <span class="font-semibold text-blue-800">1 Month</span>
-                                            </div>
-                                            <div class="flex justify-between items-center border-b border-blue-200 pb-2">
-                                                <span class="text-blue-700 font-medium">Setup Fees:</span>
-                                                <span class="font-semibold text-blue-800">$95 (including measuring and installation)</span>
-                                            </div>
-                                            <div class="flex justify-between items-center">
-                                                <span class="text-blue-700 font-medium">Removal Fees:</span>
-                                                <span class="font-semibold text-blue-800">$75</span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="p-4 bg-green-50 border-l-4 border-green-400 rounded-r-lg">
-                                        <p class="text-green-800 font-medium">
-                                            Contact us for a complete quote including installation. Both purchase and rental options available.
-                                        </p>
-                                    </div>
-
-                                    <div class="p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
-                                        <p class="text-yellow-800 font-medium">
-                                            Hardware to secure ramp to surface included with purchase.
+                                    <div class="p-4 bg-blue-50 border-l-4 border-blue-400 rounded-r-lg">
+                                        <p class="text-blue-800 font-medium">
+                                            Contact Home2Stay to discuss your specific mobility needs and find the perfect Roll-A-Ramp solution. Our team provides expert guidance and personalized pricing. Call 604-259-1211.
                                         </p>
                                     </div>
                                 </div>
@@ -384,58 +288,49 @@
                             <!-- Technical Information -->
                             <div class="tab-pane" data-tab="technical-tab" style="display: none !important;">
                                 <div class="mb-6">
-                                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Technical Specifications</h3>
+                                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Technical Highlights</h3>
                                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Length Available:</span>
-                                                <span class="text-gray-600">24″</span>
-                                            </div>
-                                            <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Threshold Height:</span>
-                                                <span class="text-gray-600">3″</span>
-                                            </div>
-                                            <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Weight:</span>
-                                                <span class="text-gray-600">12 lbs</span>
-                                            </div>
-                                            <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Material:</span>
-                                                <span class="text-gray-600">Lightweight Aluminum</span>
+                                                <span class="text-gray-600">Aircraft-Grade Aluminium</span>
+                                            </div>
+                                            <div class="flex justify-between border-b pb-2">
+                                                <span class="font-medium text-gray-700">Weight Capacity:</span>
+                                                <span class="text-gray-600">1,000-2,000 lbs</span>
+                                            </div>
+                                            <div class="flex justify-between border-b pb-2">
+                                                <span class="font-medium text-gray-700">Portability:</span>
+                                                <span class="text-gray-600">Rolls Up for Storage</span>
                                             </div>
                                         </div>
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Maximum Capacity (1 axle):</span>
-                                                <span class="text-gray-600">300 lbs</span>
-                                            </div>
-                                            <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Maximum Capacity (2 axles):</span>
-                                                <span class="text-gray-600">600 lbs</span>
+                                                <span class="font-medium text-gray-700">Customizable Length:</span>
+                                                <span class="text-gray-600">Modular Link System</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Warranty:</span>
-                                                <span class="text-gray-600">Limited Lifetime</span>
+                                                <span class="text-gray-600">10-Year Warranty</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Supplier:</span>
-                                                <span class="text-gray-600">Prairie View Industries (PVI)</span>
+                                                <span class="font-medium text-gray-700">Optional Accessories:</span>
+                                                <span class="text-gray-600">Handrails & Platforms</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="mb-6">
-                                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
+                                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Versatile Uses</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>• Anti-slip, high-traction surface for maximum safety</li>
-                                            <li>• Holes punched in top corners for easy installation</li>
-                                            <li>• Hardware included to secure ramp to surface</li>
-                                            <li>• Aligns directly against door threshold</li>
-                                            <li>• Accommodates various wheel configurations</li>
-                                            <li>• Tested to 3x safety factor for reliability</li>
-                                            <li>• Made in the USA with quality materials</li>
+                                            <li>• Wheelchairs, scooters, and power chairs</li>
+                                            <li>• Vans, trucks, and RVs</li>
+                                            <li>• Stages, docks, and temporary event access</li>
+                                            <li>• Public buildings, hotels, schools, and healthcare settings</li>
+                                            <li>• Home access and enhancement</li>
+                                            <li>• Travel and temporary accessibility solutions</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -443,11 +338,10 @@
                                 <div class="mb-8">
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <div class="flex items-center justify-between mb-2">
-                                            <h3 class="text-xl font-semibold text-gray-800">Pricing</h3>
-                                            <span class="text-sm text-gray-800">Contact for customized quote</span>
+                                            <h3 class="text-xl font-semibold text-gray-800">Why Choose Roll-A-Ramp?</h3>
                                         </div>
                                         <div class="flex items-center justify-between mb-2">
-                                            <h3 class="text-xl font-semibold text-gray-800">Call Us</h3>
+                                            <h3 class="text-lg font-semibold text-gray-800">Contact Us</h3>
                                             <a href="tel:+16042591211" class="text-secondary">
                                                 <span class="text-sm text-gray-800">604-259-1211</span>
                                             </a>
@@ -486,12 +380,10 @@
                 <div class="flex flex-col lg:flex-row">
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Are you interested in having this product
-                            installed?</h2>
-                        <p class="text-lg text-gray-600 mb-6" >Accessibility solutions to make everyday home life easier and
-                            safer for yourself and your loved ones.</p>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Mobility Solutions That Travel With You</h2>
+                        <p class="text-lg text-gray-600 mb-6" >We know that mobility solutions must be easy to use, dependable, and adaptive. The Roll-A-Ramp delivers all this and more. Whether you're supporting a loved one's independence or searching for a practical accessibility solution that travels with you, this ramp answers with superior design and thoughtful engineering.</p>
                         <p class="mb-5">Give us a call at <a href="tel:+16042591211" class="text-secondary" style="font-weight: bold; color: red;">604-259-1211</a>
-                            or submit a FREE <a href="#assessment" class="text-secondary" style="font-weight: bold; color: red;">ASSESSMENT FORM</a> to check.</p>
+                            or submit a FREE <a href="#assessment" class="text-secondary" style="font-weight: bold; color: red;">ASSESSMENT FORM</a> to find your perfect solution.</p>
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
@@ -576,7 +468,7 @@
 
                 <form action="#" method="POST" class="space-y-6">
                     @csrf
-                    <input type="hidden" name="product" value="Home2stay Self Supporting Threshold Ramps">
+                    <input type="hidden" name="product" value="Roll-A-Ramp Portable Accessibility Ramp">
 
                     <!-- Personal Information -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -641,7 +533,7 @@
                         <label class="block text-gray-700 font-medium mb-2" for="message">Additional Information</label>
                         <textarea id="message" name="message" rows="4"
                             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-                            placeholder="Please describe your installation space, specific needs, or any questions about the Self Supporting Threshold Ramps..."></textarea>
+                            placeholder="Please describe your accessibility needs, preferred use cases (home, vehicle, travel), or any questions about the Roll-A-Ramp..."></textarea>
                     </div>
 
                     <!-- Submit Button -->
@@ -706,13 +598,13 @@
             <div class="p-6">
                 <form id="quoteRequestForm">
                     @csrf
-                    <input type="hidden" id="product_name" name="product_name" value="Home2stay Self Supporting Threshold Ramps">
+                    <input type="hidden" id="product_name" name="product_name" value="Roll-A-Ramp Portable Accessibility Ramp">
 
                     <!-- Product Info Section -->
                     <div class="mb-6">
                         <h4 class="text-lg font-semibold mb-4 text-primary">Product Information</h4>
                         <div class="p-3 bg-gray-50 rounded-lg mb-4">
-                            <p>You're requesting a quote for: <span class="font-semibold text-primary">Home2stay Self Supporting Threshold Ramps</span></p>
+                            <p>You're requesting a quote for: <span class="font-semibold text-primary">Roll-A-Ramp Portable Accessibility Ramp</span></p>
                         </div>
                     </div>
 
@@ -785,7 +677,7 @@
                                 Details</label>
                             <textarea id="comments" name="comments" rows="3"
                                 class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                                placeholder="Please describe your installation space, specific needs, or any questions about the Self Supporting Threshold Ramps..."></textarea>
+                                placeholder="Please describe your accessibility needs, preferred use cases (home, vehicle, travel), or any questions about the Roll-A-Ramp..."></textarea>
                         </div>
                     </div>
 

@@ -137,6 +137,51 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
+                        <img src="{{ asset('/bathsafety-cat/CleanCut-Step-V1-e1503607014281-1.jpg') }}" alt="Home2stay Tub Cut w/ Door"
+                            class="w-full object-cover" style="height: 400px;">
+                        <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
+                            Popular
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                    <a href="/products/home2stay-clean-cut" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Clean Cut</h3></a>
+                        <p class="text-gray-600 mb-4 flex-grow">The Home2Stay Clean Cut Tub Accessibility Solution is an innovative and practical way to convert a standard bathtub into a safer</p>
+                        <div class="mt-auto">
+                            <a href="/products/home2stay-clean-cut"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('/bathsafety-cat/CleanCut-Step-V1-e1503607014281-1.jpg') }}" alt="Home2stay Tub Cut w/ Door"
+                            class="w-full object-cover" style="height: 400px;">
+                        <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
+                            Popular
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                    <a href="/products/quick-tub" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay – Accessibility / Tub Cuts: Quick Tub</h3></a>
+                        <p class="text-gray-600 mb-4 flex-grow">Quick Tub services turns your standard bathtub into a low-threshold step-in shower without the cost, mess or time of a complete renovation.</p>
+                        <div class="mt-auto">
+                            <a href="/products/quick-tub"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 discontinued one -->
+
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
+                    <div class="overflow-hidden relative">
                         <img src="{{ asset('bathsafety-cat/Group-137-2.jpg') }}" alt="Home2stay Tub Cut w/ Door"
                             class="w-full object-cover" style="height: 400px;">
                         <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">

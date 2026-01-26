@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Home2stay Self Supporting Threshold Ramps - Home2stay')
-@section('meta_description', 'Home2stay Threshold Ramps provide easy doorway access. Self-supporting &amp; adjustable, they&#039;re perfect for wheelchairs &amp; scooters. Shop online for safe &amp; convenient home mobility.')
+@section('title', 'Grab Bars by Ponte Giulio - Premium Safety & Style at Home2Stay')
+@section('meta_description', 'Grab Bars by Ponte Giulio at Home2Stay. Premium stainless steel, ergonomic design, multiple finishes. Custom order bars available. Safety with modern aesthetics.')
 
 @section('content')
     <!-- Hero Section -->
@@ -34,9 +34,9 @@
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" d="m1 9 4-4-4-4" />
                                 </svg>
-                                <a href="{{ route('products.category', 'ramps') }}"
+                                <a href="/products-categories/grab-bars/"
                                     class="ml-1 text-white hover:text-gray-200">
-                                    Ramps
+                                    Grab Bars
                                 </a>
                             </div>
                         </li>
@@ -47,12 +47,12 @@
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" d="m1 9 4-4-4-4" />
                                 </svg>
-                                <span class="ml-1 font-medium text-gray-100">Home2stay Self Supporting Threshold Ramps</span>
+                                <span class="ml-1 font-medium text-gray-100">Ponte Giulio</span>
                             </div>
                         </li>
                     </ol>
                 </nav>
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Home2stay Self Supporting Threshold Ramps</h1>
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Home2Stay | Grab Bars by Ponte Giulio</h1>
                 <div class="flex items-center mb-4">
                     <div class="flex text-yellow-400">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -90,8 +90,8 @@
                 <!-- Product Image Gallery -->
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gray-100 rounded-lg overflow-hidden mb-4">
-                        <img src="{{ asset('bathsafety-cat/Home2stay-Self-Supporting-Threshold-Ramps-min.jpg') }}"
-                            alt="Home2stay Self Supporting Threshold Ramps" class="w-full h-auto object-contain p-4">
+                        <img src="{{ asset('/bathsafety-cat/Home2stay-Easy-Mount-Grab-Bars-Stainless-Steel.jpg') }}"
+                            alt="Home2Stay Grab Bars" class="w-full h-auto object-contain p-4">
                     </div>
                     <!-- Request Quote Button -->
                     <div class="text-center mt-4 mb-6">
@@ -106,48 +106,43 @@
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            The Self Supporting Threshold Ramp is designed for doorways that swing in and out. Easy to install with holes punched in top corners.
+                            Ensure confidence, independence, and style in your home with Ponte Giulio Grab Bars, available at Home2Stay. Designed to provide unmatched support, these grab bars combine durability, safety, and modern aesthetics, making them a perfect addition to any bathroom or living space.
                         </p>
                     </div>
+
                     <div class="mb-6">
-                        <p class="text-gray-600 text-lg">
-                            Made of lightweight, durable aluminum, with anti-slip, high-traction surface. Comes with hardware to secure ramp to surface.
-                        </p>
+                        <h4 class="font-semibold text-gray-800 mb-3">Key Features:</h4>
+                        <ul class="text-gray-600 text-lg space-y-2">
+                            <li><strong>Premium Materials:</strong> Crafted from high-quality stainless steel and corrosion-resistant finishes, ensuring long-lasting performance even in wet environments.</li>
+                            <li><strong>Ergonomic Design:</strong> Rounded edges and comfortable grip surfaces provide maximum safety and ease of use.</li>
+                            <li><strong>Stylish Options:</strong> Available in a variety of finishes, chrome, brushed nickel, and matte white, to seamlessly match your interior décor.</li>
+                            <li><strong>Easy Installation:</strong> Simple mounting hardware included, designed for secure and stable installation on walls.</li>
+                            <li><strong>Versatile Sizes:</strong> Multiple lengths and configurations to suit any bathroom layout or accessibility need.</li>
+                        </ul>
                     </div>
+
                     <div class="mb-6">
-                        <p class="text-gray-600 text-lg">
-                            Aligns directly against the door threshold. Accommodates wheelchairs and scooters with various wheel configurations.
-                        </p>
+                        <h4 class="font-semibold text-gray-800 mb-3">Perfect For:</h4>
+                        <ul class="text-gray-600 text-lg space-y-2">
+                            <li>• Bathrooms and showers</li>
+                            <li>• Hallways and staircases</li>
+                            <li>• Elderly or mobility-impaired individuals seeking safety</li>
+                            <li>• Anyone looking to upgrade home safety with style</li>
+                        </ul>
                     </div>
-                    <div class="mb-6">
-                        <p class="text-gray-600 text-lg">
-                            Prairie View Industries (PVI) products are tested to a 3x safety factor, making them pound for pound, the strongest and lightest ramps available.
-                        </p>
-                    </div>
-                    <div class="mb-6">
-                        <p class="text-gray-600 text-lg font-medium">
-                            Made in the USA.
-                        </p>
-                    </div>
-                    <div class="mb-6 p-4 bg-green-50 border-l-4 border-green-400 rounded-r-lg">
-                        <h3 class="font-semibold text-green-800 mb-2">Pricing:</h3>
-                        <div class="space-y-1 text-green-700">
-                            <p>CONTACT US for a price quote customized to your needs.</p>
-                        </div>
-                    </div>
-                    <div class="mb-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
-                        <h3 class="font-semibold text-yellow-800 mb-2">Rental Available:</h3>
-                        <div class="space-y-1 text-yellow-700">
-                            <p><strong>Monthly Rental Fee:</strong> $35</p>
-                            <p><strong>Minimum:</strong> 1 Month</p>
-                            <p><strong>Setup Fees:</strong> $95 (including measuring and installation)</p>
-                            <p><strong>Removal Fees:</strong> $75</p>
-                        </div>
-                    </div>
+
                     <div class="mb-6 p-4 bg-blue-50 border-l-4 border-blue-400 rounded-r-lg">
-                        <p class="text-blue-800 font-medium">
-                            This product is available for sale or rental. Go to Rental Page or Book Free Assessment.
-                        </p>
+                        <h3 class="font-semibold text-blue-800 mb-2">Why Choose Ponte Giulio?</h3>
+                        <div class="space-y-1 text-blue-700">
+                            <p><strong>Ponte Giulio is renowned for combining innovative design with top-tier safety standards. Each grab bar comes with a trusted warranty and our commitment to high-quality customer service.</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="mb-6 p-4 bg-green-50 border-l-4 border-green-400 rounded-r-lg">
+                        <h3 class="font-semibold text-green-800 mb-2">Home2Stay Guarantee:</h3>
+                        <div class="space-y-1 text-green-700">
+                            <p><strong>We stand behind the quality and durability of Ponte Giulio Grab Bars. Our commitment is to provide you with exceptional products and outstanding customer service. Custom order bars are available to meet your specific needs.</strong></p>
+                        </div>
                     </div>
 
                     <!-- Product Tabs Section -->
@@ -199,8 +194,32 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Doorway Compatibility</h3>
-                                            <p class="text-gray-600">Designed specifically for doorways that swing in and out, providing seamless threshold access.</p>
+                                            <h3 class="font-semibold text-gray-800">Premium Materials</h3>
+                                            <p class="text-gray-600">Crafted from high-quality stainless steel and corrosion-resistant finishes, ensuring long-lasting performance even in wet environments.</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="h-5 w-5 text-primary flex-shrink-0 mr-3 mt-1"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd"
+                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                clip-rule="evenodd" />
+                                        </svg>
+                                        <div>
+                                            <h3 class="font-semibold text-gray-800">Ergonomic Design</h3>
+                                            <p class="text-gray-600">Rounded edges and comfortable grip surfaces provide maximum safety and ease of use.</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="h-5 w-5 text-primary flex-shrink-0 mr-3 mt-1"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd"
+                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                                clip-rule="evenodd" />
+                                        </svg>
+                                        <div>
+                                            <h3 class="font-semibold text-gray-800">Stylish Options</h3>
+                                            <p class="text-gray-600">Available in a variety of finishes, chrome, brushed nickel, and matte white, to seamlessly match your interior décor.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -212,7 +231,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Easy Installation</h3>
-                                            <p class="text-gray-600">Simple installation with holes punched in top corners and hardware included to secure ramp to surface.</p>
+                                            <p class="text-gray-600">Simple mounting hardware included, designed for secure and stable installation on walls.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -223,80 +242,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Lightweight Aluminum Construction</h3>
-                                            <p class="text-gray-600">Made of lightweight, durable aluminum for easy handling while maintaining strength and longevity.</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <svg class="h-5 w-5 text-primary flex-shrink-0 mr-3 mt-1"
-                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd"
-                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        <div>
-                                            <h3 class="font-semibold text-gray-800">Anti-Slip Surface</h3>
-                                            <p class="text-gray-600">Features anti-slip, high-traction surface for maximum safety and confidence during use.</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <svg class="h-5 w-5 text-primary flex-shrink-0 mr-3 mt-1"
-                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd"
-                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        <div>
-                                            <h3 class="font-semibold text-gray-800">Perfect Threshold Alignment</h3>
-                                            <p class="text-gray-600">Aligns directly against the door threshold for seamless transition and optimal functionality.</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <svg class="h-5 w-5 text-primary flex-shrink-0 mr-3 mt-1"
-                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd"
-                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        <div>
-                                            <h3 class="font-semibold text-gray-800">Universal Wheel Compatibility</h3>
-                                            <p class="text-gray-600">Accommodates wheelchairs and scooters with various wheel configurations for maximum versatility.</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <svg class="h-5 w-5 text-primary flex-shrink-0 mr-3 mt-1"
-                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd"
-                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        <div>
-                                            <h3 class="font-semibold text-gray-800">3x Safety Factor Testing</h3>
-                                            <p class="text-gray-600">Prairie View Industries (PVI) products are tested to a 3x safety factor, ensuring maximum reliability and safety.</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <svg class="h-5 w-5 text-primary flex-shrink-0 mr-3 mt-1"
-                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd"
-                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        <div>
-                                            <h3 class="font-semibold text-gray-800">Made in USA</h3>
-                                            <p class="text-gray-600">Proudly manufactured in the United States with quality materials and craftsmanship.</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <svg class="h-5 w-5 text-primary flex-shrink-0 mr-3 mt-1"
-                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd"
-                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        <div>
-                                            <h3 class="font-semibold text-gray-800">Sale or Rental Options</h3>
-                                            <p class="text-gray-600">Available for both purchase and rental with flexible terms to meet your specific needs.</p>
+                                            <h3 class="font-semibold text-gray-800">Versatile Sizes</h3>
+                                            <p class="text-gray-600">Multiple lengths and configurations to suit any bathroom layout or accessibility need.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -309,52 +256,34 @@
 
                                     <!-- Purchase Pricing -->
                                     <div class="bg-gray-50 rounded-lg p-4">
-                                        <h4 class="text-lg font-semibold text-gray-800 mb-3">Purchase Options</h4>
+                                        <h4 class="text-lg font-semibold text-gray-800 mb-3">Complete Ultra-Low Tub Cut Package</h4>
                                         <div class="space-y-3">
                                             <div class="flex justify-between items-center border-b pb-2">
-                                                <span class="text-gray-700 font-medium">Pricing:</span>
-                                                <span class="font-semibold text-primary">Contact for customized quote</span>
+                                                <span class="text-gray-700 font-medium">Starting Price:</span>
+                                                <span class="font-semibold text-primary">$1,150</span>
                                             </div>
                                             <div class="text-sm text-gray-600 mt-2">
-                                                <p>* Price includes the Self Supporting Threshold Ramp</p>
-                                                <p>* Professional installation available for additional cost</p>
-                                                <p>* Limited lifetime warranty included</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Rental Pricing -->
-                                    <div class="bg-blue-50 rounded-lg p-4">
-                                        <h4 class="text-lg font-semibold text-blue-800 mb-3">Rental Options</h4>
-                                        <div class="space-y-3">
-                                            <div class="flex justify-between items-center border-b border-blue-200 pb-2">
-                                                <span class="text-blue-700 font-medium">Monthly Rental Fee:</span>
-                                                <span class="font-semibold text-blue-800">$35</span>
-                                            </div>
-                                            <div class="flex justify-between items-center border-b border-blue-200 pb-2">
-                                                <span class="text-blue-700 font-medium">Minimum Period:</span>
-                                                <span class="font-semibold text-blue-800">1 Month</span>
-                                            </div>
-                                            <div class="flex justify-between items-center border-b border-blue-200 pb-2">
-                                                <span class="text-blue-700 font-medium">Setup Fees:</span>
-                                                <span class="font-semibold text-blue-800">$95 (including measuring and installation)</span>
-                                            </div>
-                                            <div class="flex justify-between items-center">
-                                                <span class="text-blue-700 font-medium">Removal Fees:</span>
-                                                <span class="font-semibold text-blue-800">$75</span>
+                                                <p>* Price includes the Home2stay Tub Cut Ultra-Low</p>
+                                                <p>* Professional installation included</p>
+                                                <p>* CleanCut quality and reliability</p>
+                                                <p>* Non-skid step pad included</p>
+                                                <p>* Ideal for high-profile tubs (14.75" + tall)</p>
+                                                <p>* Available in white and beige colors</p>
+                                                <p>* Our most affordable tub cut solution</p>
+                                                <p>* Installation completed in less than one day</p>
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="p-4 bg-green-50 border-l-4 border-green-400 rounded-r-lg">
                                         <p class="text-green-800 font-medium">
-                                            Contact us for a complete quote including installation. Both purchase and rental options available.
+                                            Complete package starting at $1,150 including installation. Our most affordable tub cut solution for high-profile tubs!
                                         </p>
                                     </div>
 
                                     <div class="p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
                                         <p class="text-yellow-800 font-medium">
-                                            Hardware to secure ramp to surface included with purchase.
+                                            Available for NEXT-DAY delivery and installation via the Home2Stay Express booking form! Perfect for tubs at least 14.75" tall.
                                         </p>
                                     </div>
                                 </div>
@@ -364,18 +293,8 @@
                             <div class="tab-pane" data-tab="images-tab" style="display: none !important;">
                                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('bathsafety-cat/Home2stay-Self-Supporting-Threshold-Ramps-min.jpg') }}"
-                                            alt="Self Supporting Threshold Ramps"
-                                            class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
-                                    </div>
-                                    <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('bathsafety-cat/Copy-of-SSTH1636-1.5_03-scaled-min.jpg') }}"
-                                            alt="Self Supporting Threshold Ramps"
-                                            class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
-                                    </div>
-                                    <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('bathsafety-cat/Copy-of-SSTH1636-1.5_02-min.jpg') }}"
-                                            alt="Self Supporting Threshold Ramps"
+                                        <img src="{{ asset('bathsafety-cat/CleanCut-Step-V1-e1503607014281-1.jpg') }}"
+                                            alt="Home2stay Tub Cut Ultra-Low"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
                                 </div>
@@ -388,38 +307,54 @@
                                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Length Available:</span>
-                                                <span class="text-gray-600">24″</span>
+                                                <span class="font-medium text-gray-700">Product Type:</span>
+                                                <span class="text-gray-600">Tub Cut Ultra-Low</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Threshold Height:</span>
-                                                <span class="text-gray-600">3″</span>
+                                                <span class="font-medium text-gray-700">Installation Type:</span>
+                                                <span class="text-gray-600">Existing tub installation</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Weight:</span>
-                                                <span class="text-gray-600">12 lbs</span>
+                                                <span class="font-medium text-gray-700">Installation Time:</span>
+                                                <span class="text-gray-600">Less than one day</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Material:</span>
-                                                <span class="text-gray-600">Lightweight Aluminum</span>
+                                                <span class="font-medium text-gray-700">Step Surface:</span>
+                                                <span class="text-gray-600">Non-skid step pad</span>
+                                            </div>
+                                            <div class="flex justify-between border-b pb-2">
+                                                <span class="font-medium text-gray-700">Width Options:</span>
+                                                <span class="text-gray-600">1 width available</span>
+                                            </div>
+                                            <div class="flex justify-between border-b pb-2">
+                                                <span class="font-medium text-gray-700">Color Options:</span>
+                                                <span class="text-gray-600">White and Beige</span>
                                             </div>
                                         </div>
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Maximum Capacity (1 axle):</span>
-                                                <span class="text-gray-600">300 lbs</span>
+                                                <span class="font-medium text-gray-700">Tub Compatibility:</span>
+                                                <span class="text-gray-600">High-profile tubs (14.75" + tall)</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Maximum Capacity (2 axles):</span>
-                                                <span class="text-gray-600">600 lbs</span>
+                                                <span class="font-medium text-gray-700">Function:</span>
+                                                <span class="text-gray-600">Step-in shower access</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Warranty:</span>
-                                                <span class="text-gray-600">Limited Lifetime</span>
+                                                <span class="font-medium text-gray-700">Safety Benefit:</span>
+                                                <span class="text-gray-600">Greatly reduces fall possibility</span>
+                                            </div>
+                                            <div class="flex justify-between border-b pb-2">
+                                                <span class="font-medium text-gray-700">Access Type:</span>
+                                                <span class="text-gray-600">Easy step-in access</span>
+                                            </div>
+                                            <div class="flex justify-between border-b pb-2">
+                                                <span class="font-medium text-gray-700">Affordability:</span>
+                                                <span class="text-gray-600">Most affordable product</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Supplier:</span>
-                                                <span class="text-gray-600">Prairie View Industries (PVI)</span>
+                                                <span class="text-gray-600">CleanCut</span>
                                             </div>
                                         </div>
                                     </div>
@@ -429,13 +364,32 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>• Anti-slip, high-traction surface for maximum safety</li>
-                                            <li>• Holes punched in top corners for easy installation</li>
-                                            <li>• Hardware included to secure ramp to surface</li>
-                                            <li>• Aligns directly against door threshold</li>
-                                            <li>• Accommodates various wheel configurations</li>
-                                            <li>• Tested to 3x safety factor for reliability</li>
-                                            <li>• Made in the USA with quality materials</li>
+                                            <li>• Step-in shower conversion for high-profile tubs</li>
+                                            <li>• Ultra-low design ideal for tubs at least 14.75" tall</li>
+                                            <li>• Non-skid step pad to reduce slips and falls</li>
+                                            <li>• Quick installation in less than one day</li>
+                                            <li>• Compatible with acrylic, fiberglass, steel, and cast iron tubs</li>
+                                            <li>• Available in 1 width</li>
+                                            <li>• Two color options: white and beige</li>
+                                            <li>• Greatly reduces possibility of falls</li>
+                                            <li>• Enables easy step-in access</li>
+                                            <li>• Our most affordable tub cut solution</li>
+                                            <li>• Next-day delivery and installation available</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="mb-6">
+                                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Installation Details</h4>
+                                    <div class="bg-gray-50 rounded-lg p-4">
+                                        <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
+                                            <li>• Installation completed on existing tub</li>
+                                            <li>• Installed in less than one day</li>
+                                            <li>• Greatly reduces the possibility of falls</li>
+                                            <li>• Enables easy step-in access</li>
+                                            <li>• Our most affordable product</li>
+                                            <li>• Professional installation by CleanCut specialists</li>
+                                            <li>• Ideal for high-profile tubs (14.75" + tall)</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -444,7 +398,7 @@
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <div class="flex items-center justify-between mb-2">
                                             <h3 class="text-xl font-semibold text-gray-800">Pricing</h3>
-                                            <span class="text-sm text-gray-800">Contact for customized quote</span>
+                                            <span class="text-sm text-gray-800">Starts at $1,150 including installation</span>
                                         </div>
                                         <div class="flex items-center justify-between mb-2">
                                             <h3 class="text-xl font-semibold text-gray-800">Call Us</h3>
@@ -488,14 +442,14 @@
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
                         <h2 class="text-3xl font-bold text-gray-800 mb-4">Are you interested in having this product
                             installed?</h2>
-                        <p class="text-lg text-gray-600 mb-6" >Accessibility solutions to make everyday home life easier and
+                        <p class="text-lg text-gray-600 mb-6">Accessibility solutions to make everyday home life easier and
                             safer for yourself and your loved ones.</p>
                         <p class="mb-5">Give us a call at <a href="tel:+16042591211" class="text-secondary" style="font-weight: bold; color: red;">604-259-1211</a>
                             or submit a FREE <a href="#assessment" class="text-secondary" style="font-weight: bold; color: red;">ASSESSMENT FORM</a> to check.</p>
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Rectangle%20320-min.png') }}" alt="Bathroom Safety Solutions"
+                        <img src="{{ asset('/bathsafety-cat/Home2stay-Easy-Mount-Grab-Bars-Stainless-Steel.jpg') }}" alt="Bathroom Safety Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -576,7 +530,7 @@
 
                 <form action="#" method="POST" class="space-y-6">
                     @csrf
-                    <input type="hidden" name="product" value="Home2stay Self Supporting Threshold Ramps">
+                    <input type="hidden" name="product" value="Ponte Giulio Grab Bars">
 
                     <!-- Personal Information -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -602,59 +556,91 @@
                         </div>
                     </div>
 
-                    <!-- Interest Type -->
-                    <div>
-                        <label class="block text-gray-700 font-medium mb-2">Interest Type: *</label>
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
-                            <label class="flex items-center space-x-3">
-                                <input type="radio" name="interest_type" value="purchase" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Purchase Product</span>
-                            </label>
-                            <label class="flex items-center space-x-3">
-                                <input type="radio" name="interest_type" value="assessment" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Assessment Only</span>
-                            </label>
-                            <label class="flex items-center space-x-3">
-                                <input type="radio" name="interest_type" value="both" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Both Assessment and Purchase</span>
-                            </label>
+                    <!-- Grab Bar Location -->
+                    <div class="mb-6">
+                        <h4 class="text-lg font-semibold mb-3 text-primary">Where do you need grab bars?</h4>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <div class="grid grid-cols-2 gap-3">
+                                <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-white cursor-pointer transition-colors">
+                                    <input type="radio" name="bar_location" value="bathroom" class="w-4 h-4 text-primary focus:ring-primary border-gray-300">
+                                    <span class="ml-3 text-gray-700 font-medium">Bathroom/Shower</span>
+                                </label>
+                                <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-white cursor-pointer transition-colors">
+                                    <input type="radio" name="bar_location" value="hallway" class="w-4 h-4 text-primary focus:ring-primary border-gray-300">
+                                    <span class="ml-3 text-gray-700 font-medium">Hallway</span>
+                                </label>
+                                <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-white cursor-pointer transition-colors">
+                                    <input type="radio" name="bar_location" value="staircase" class="w-4 h-4 text-primary focus:ring-primary border-gray-300">
+                                    <span class="ml-3 text-gray-700 font-medium">Staircase</span>
+                                </label>
+                                <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-white cursor-pointer transition-colors">
+                                    <input type="radio" name="bar_location" value="other" class="w-4 h-4 text-primary focus:ring-primary border-gray-300">
+                                    <span class="ml-3 text-gray-700 font-medium">Other</span>
+                                </label>
+                            </div>
                         </div>
                     </div>
 
-                    <!-- Express Delivery Option -->
-                    <div>
-                        <label class="block text-gray-700 font-medium mb-2">Delivery Preference:</label>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                            <label class="flex items-center space-x-3">
-                                <input type="radio" name="delivery_preference" value="standard" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Standard Delivery</span>
-                            </label>
-                            <label class="flex items-center space-x-3">
-                                <input type="radio" name="delivery_preference" value="next_day" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Next-Day Express Delivery</span>
-                            </label>
+                    <!-- Finish Options -->
+                    <div class="mb-6">
+                        <h4 class="text-lg font-semibold mb-3 text-primary">Preferred Finish</h4>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <div class="space-y-3">
+                                <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-white cursor-pointer transition-colors">
+                                    <input type="radio" name="finish_option" value="chrome" class="w-4 h-4 text-primary focus:ring-primary border-gray-300" checked>
+                                    <span class="ml-3 text-gray-700 font-medium">Chrome</span>
+                                </label>
+                                <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-white cursor-pointer transition-colors">
+                                    <input type="radio" name="finish_option" value="brushed_nickel" class="w-4 h-4 text-primary focus:ring-primary border-gray-300">
+                                    <span class="ml-3 text-gray-700 font-medium">Brushed Nickel</span>
+                                </label>
+                                <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-white cursor-pointer transition-colors">
+                                    <input type="radio" name="finish_option" value="matte_white" class="w-4 h-4 text-primary focus:ring-primary border-gray-300">
+                                    <span class="ml-3 text-gray-700 font-medium">Matte White</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interest Type Section -->
+                    <div class="mb-6">
+                        <h4 class="text-lg font-semibold mb-3 text-primary">What type of service are you interested in?</h4>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <div class="space-y-3">
+                                <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-white cursor-pointer transition-colors">
+                                    <input type="radio" name="interest_type" value="purchase" class="w-4 h-4 text-primary focus:ring-primary border-gray-300" checked>
+                                    <span class="ml-3 text-gray-700 font-medium">Purchase Product</span>
+                                </label>
+                                <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-white cursor-pointer transition-colors">
+                                    <input type="radio" name="interest_type" value="assessment" class="w-4 h-4 text-primary focus:ring-primary border-gray-300">
+                                    <span class="ml-3 text-gray-700 font-medium">Assessment Only</span>
+                                </label>
+                                <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-white cursor-pointer transition-colors">
+                                    <input type="radio" name="interest_type" value="both" class="w-4 h-4 text-primary focus:ring-primary border-gray-300">
+                                    <span class="ml-3 text-gray-700 font-medium">Both Assessment and Purchase</span>
+                                </label>
+                            </div>
                         </div>
                     </div>
 
                     <!-- Additional Information -->
                     <div>
-                        <label class="block text-gray-700 font-medium mb-2" for="message">Additional Information</label>
-                        <textarea id="message" name="message" rows="4"
+                        <label class="block text-gray-700 font-medium mb-2" for="comments">Additional
+                            Details</label>
+                        <textarea id="comments" name="comments" rows="3"
                             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-                            placeholder="Please describe your installation space, specific needs, or any questions about the Self Supporting Threshold Ramps..."></textarea>
+                            placeholder="Please describe your grab bar needs, preferred locations, dimensions, mobility requirements, or any questions about Ponte Giulio Grab Bars..."></textarea>
                     </div>
 
                     <!-- Submit Button -->
-                    <div class="text-center">
+                    <div class="text-center pt-4">
                         <button type="submit"
-                            class="inline-flex items-center px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition duration-300">
-                            Submit Quote Request
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd" />
+                            class="inline-flex items-center px-8 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-dark transition duration-300 shadow-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
                             </svg>
+                            Submit Quote Request
                         </button>
                     </div>
                 </form>
@@ -706,92 +692,96 @@
             <div class="p-6">
                 <form id="quoteRequestForm">
                     @csrf
-                    <input type="hidden" id="product_name" name="product_name" value="Home2stay Self Supporting Threshold Ramps">
+                    <input type="hidden" id="product_name" name="product_name" value="Ponte Giulio Grab Bars">
 
                     <!-- Product Info Section -->
                     <div class="mb-6">
                         <h4 class="text-lg font-semibold mb-4 text-primary">Product Information</h4>
                         <div class="p-3 bg-gray-50 rounded-lg mb-4">
-                            <p>You're requesting a quote for: <span class="font-semibold text-primary">Home2stay Self Supporting Threshold Ramps</span></p>
+                            <p>You're requesting a quote for: <span class="font-semibold text-primary">Ponte Giulio Grab Bars</span></p>
+                            <p class="text-sm text-gray-600 mt-1">Premium stainless steel grab bars with multiple finishes and custom order options available</p>
                         </div>
                     </div>
 
-                    <!-- Delivery Options -->
+                    <!-- Grab Bar Location -->
                     <div class="mb-6">
-                        <h4 class="text-lg font-semibold mb-3 text-primary">Delivery Options</h4>
-                        <div class="space-y-2">
-                            <label class="flex items-center">
-                                <input type="radio" name="delivery_preference" value="standard" class="mr-2" checked>
-                                <span>Standard Delivery</span>
-                            </label>
-                            <label class="flex items-center">
-                                <input type="radio" name="delivery_preference" value="next_day" class="mr-2">
-                                <span>Next-Day Express Delivery</span>
-                            </label>
+                        <h4 class="text-lg font-semibold mb-3 text-primary">Where do you need grab bars?</h4>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <div class="grid grid-cols-2 gap-3">
+                                <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-white cursor-pointer transition-colors">
+                                    <input type="radio" name="bar_location" value="bathroom" class="w-4 h-4 text-primary focus:ring-primary border-gray-300">
+                                    <span class="ml-3 text-gray-700 font-medium">Bathroom/Shower</span>
+                                </label>
+                                <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-white cursor-pointer transition-colors">
+                                    <input type="radio" name="bar_location" value="hallway" class="w-4 h-4 text-primary focus:ring-primary border-gray-300">
+                                    <span class="ml-3 text-gray-700 font-medium">Hallway</span>
+                                </label>
+                                <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-white cursor-pointer transition-colors">
+                                    <input type="radio" name="bar_location" value="staircase" class="w-4 h-4 text-primary focus:ring-primary border-gray-300">
+                                    <span class="ml-3 text-gray-700 font-medium">Staircase</span>
+                                </label>
+                                <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-white cursor-pointer transition-colors">
+                                    <input type="radio" name="bar_location" value="other" class="w-4 h-4 text-primary focus:ring-primary border-gray-300">
+                                    <span class="ml-3 text-gray-700 font-medium">Other</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Finish Options -->
+                    <div class="mb-6">
+                        <h4 class="text-lg font-semibold mb-3 text-primary">Preferred Finish</h4>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <div class="space-y-3">
+                                <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-white cursor-pointer transition-colors">
+                                    <input type="radio" name="finish_option" value="chrome" class="w-4 h-4 text-primary focus:ring-primary border-gray-300" checked>
+                                    <span class="ml-3 text-gray-700 font-medium">Chrome</span>
+                                </label>
+                                <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-white cursor-pointer transition-colors">
+                                    <input type="radio" name="finish_option" value="brushed_nickel" class="w-4 h-4 text-primary focus:ring-primary border-gray-300">
+                                    <span class="ml-3 text-gray-700 font-medium">Brushed Nickel</span>
+                                </label>
+                                <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-white cursor-pointer transition-colors">
+                                    <input type="radio" name="finish_option" value="matte_white" class="w-4 h-4 text-primary focus:ring-primary border-gray-300">
+                                    <span class="ml-3 text-gray-700 font-medium">Matte White</span>
+                                </label>
+                            </div>
                         </div>
                     </div>
 
                     <!-- Interest Type Section -->
                     <div class="mb-6">
                         <h4 class="text-lg font-semibold mb-3 text-primary">What type of service are you interested in?</h4>
-                        <div class="space-y-2">
-                            <label class="flex items-center">
-                                <input type="radio" name="interest_type" value="purchase" class="mr-2" checked>
-                                <span>Purchase Product</span>
-                            </label>
-                            <label class="flex items-center">
-                                <input type="radio" name="interest_type" value="assessment" class="mr-2">
-                                <span>Assessment Only</span>
-                            </label>
-                            <label class="flex items-center">
-                                <input type="radio" name="interest_type" value="both" class="mr-2">
-                                <span>Both Assessment and Purchase</span>
-                            </label>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <div class="space-y-3">
+                                <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-white cursor-pointer transition-colors">
+                                    <input type="radio" name="interest_type" value="purchase" class="w-4 h-4 text-primary focus:ring-primary border-gray-300" checked>
+                                    <span class="ml-3 text-gray-700 font-medium">Purchase Product</span>
+                                </label>
+                                <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-white cursor-pointer transition-colors">
+                                    <input type="radio" name="interest_type" value="assessment" class="w-4 h-4 text-primary focus:ring-primary border-gray-300">
+                                    <span class="ml-3 text-gray-700 font-medium">Assessment Only</span>
+                                </label>
+                                <label class="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-white cursor-pointer transition-colors">
+                                    <input type="radio" name="interest_type" value="both" class="w-4 h-4 text-primary focus:ring-primary border-gray-300">
+                                    <span class="ml-3 text-gray-700 font-medium">Both Assessment and Purchase</span>
+                                </label>
+                            </div>
                         </div>
                     </div>
 
-                    <!-- Contact Information -->
-                    <div class="mb-6">
-                        <h4 class="text-lg font-semibold mb-4 text-primary">Your Contact Information</h4>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <div>
-                                <label for="firstName" class="block text-sm font-medium text-gray-700 mb-1">First
-                                    Name*</label>
-                                <input type="text" id="firstName" name="first_name" required
-                                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
-                            </div>
-                            <div>
-                                <label for="lastName" class="block text-sm font-medium text-gray-700 mb-1">Last
-                                    Name*</label>
-                                <input type="text" id="lastName" name="last_name" required
-                                    class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
-                            </div>
-                        </div>
-
-                        <div class="mt-4">
-                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email*</label>
-                            <input type="email" id="email" name="email" required
-                                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
-                        </div>
-
-                        <div class="mt-4">
-                            <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number*</label>
-                            <input type="tel" id="phone" name="phone" required
-                                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
-                        </div>
-
-                        <div class="mt-4">
-                            <label for="comments" class="block text-sm font-medium text-gray-700 mb-1">Additional
-                                Details</label>
-                            <textarea id="comments" name="comments" rows="3"
-                                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                                placeholder="Please describe your installation space, specific needs, or any questions about the Self Supporting Threshold Ramps..."></textarea>
-                        </div>
+                    <!-- Additional Information -->
+                    <div>
+                        <label class="block text-gray-700 font-medium mb-2" for="comments">Additional
+                            Details</label>
+                        <textarea id="comments" name="comments" rows="3"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
+                            placeholder="Please describe your grab bar needs, preferred locations, dimensions, mobility requirements, or any questions about Ponte Giulio Grab Bars..."></textarea>
                     </div>
 
                     <div class="mt-6 flex justify-end">
                         <button type="submit"
-                            class="bg-primary hover:bg-primary-dark text-white px-6 py-2 rounded-md font-medium transition duration-300">
+                            class="bg-primary hover:bg-primary-dark text-white px-8 py-2 rounded-lg font-semibold transition duration-300 shadow-lg">
                             Submit Quote Request
                         </button>
                     </div>

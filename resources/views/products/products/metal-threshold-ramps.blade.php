@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Home2stay Self Supporting Threshold Ramps - Home2stay')
-@section('meta_description', 'Home2stay Threshold Ramps provide easy doorway access. Self-supporting &amp; adjustable, they&#039;re perfect for wheelchairs &amp; scooters. Shop online for safe &amp; convenient home mobility.')
+@section('title', 'Metal Threshold Ramps - Home2Stay')
+@section('meta_description', 'Home2Stay Metal Threshold Ramps for smooth doorway transitions. Rugged metal construction, anti-slip surface, tool-free installation. Perfect for indoor and outdoor accessibility.')
 
 @section('content')
     <!-- Hero Section -->
@@ -47,12 +47,12 @@
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" d="m1 9 4-4-4-4" />
                                 </svg>
-                                <span class="ml-1 font-medium text-gray-100">Home2stay Self Supporting Threshold Ramps</span>
+                                <span class="ml-1 font-medium text-gray-100">Metal Threshold Ramps</span>
                             </div>
                         </li>
                     </ol>
                 </nav>
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Home2stay Self Supporting Threshold Ramps</h1>
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Metal Threshold Ramps</h1>
                 <div class="flex items-center mb-4">
                     <div class="flex text-yellow-400">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -106,48 +106,31 @@
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            The Self Supporting Threshold Ramp is designed for doorways that swing in and out. Easy to install with holes punched in top corners.
+                            Make every doorway uncomplicated with Home2Stay Metal Threshold Ramps engineered for smooth transitions over thresholds, steps, and uneven surfaces. Whether it's a doorway inside the home or an exterior entrance, our ramps provide a safe and reliable path for both mobility devices and pedestrian traffic.
                         </p>
+                    </div>
+                    <div class="mb-6">
+                        <p class="text-gray-600 text-lg font-semibold">
+                            Key Features & Benefits:
+                        </p>
+                        <ul class="text-gray-600 text-lg list-disc list-inside space-y-2">
+                            <li><strong>Premium Metal Construction:</strong> Crafted from rugged, high-quality metal, engineered to withstand daily use while resisting wear, rust, and corrosion.</li>
+                            <li><strong>Effortless Doorway Access:</strong> Designed to bridge minor height differences at door thresholds, providing a smooth, gentle slope that eliminates awkward steps.</li>
+                            <li><strong>Reliable Traction & Safety:</strong> Features an anti-slip texture that maintains secure footing, even when wet for confident transitions.</li>
+                            <li><strong>Versatile & Portable:</strong> Lightweight and easy to install, requires no permanent fixtures; simply place where needed.</li>
+                            <li><strong>High Load Capacity:</strong> Supports a broad spectrum of mobility devices and users with substantial weight capacity for residential needs.</li>
+                        </ul>
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Made of lightweight, durable aluminum, with anti-slip, high-traction surface. Comes with hardware to secure ramp to surface.
-                        </p>
-                    </div>
-                    <div class="mb-6">
-                        <p class="text-gray-600 text-lg">
-                            Aligns directly against the door threshold. Accommodates wheelchairs and scooters with various wheel configurations.
-                        </p>
-                    </div>
-                    <div class="mb-6">
-                        <p class="text-gray-600 text-lg">
-                            Prairie View Industries (PVI) products are tested to a 3x safety factor, making them pound for pound, the strongest and lightest ramps available.
-                        </p>
-                    </div>
-                    <div class="mb-6">
-                        <p class="text-gray-600 text-lg font-medium">
-                            Made in the USA.
+                            Perfect for renters, homeowners, and anyone looking for a practical accessibility solution without construction. Home2Stay Metal Threshold Ramps combine thoughtful design with reliable performance, helping you create an inclusive environment.
                         </p>
                     </div>
                     <div class="mb-6 p-4 bg-green-50 border-l-4 border-green-400 rounded-r-lg">
                         <h3 class="font-semibold text-green-800 mb-2">Pricing:</h3>
                         <div class="space-y-1 text-green-700">
-                            <p>CONTACT US for a price quote customized to your needs.</p>
+                            <p><strong>Metal threshold ramps - starting at $110</strong></p>
                         </div>
-                    </div>
-                    <div class="mb-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
-                        <h3 class="font-semibold text-yellow-800 mb-2">Rental Available:</h3>
-                        <div class="space-y-1 text-yellow-700">
-                            <p><strong>Monthly Rental Fee:</strong> $35</p>
-                            <p><strong>Minimum:</strong> 1 Month</p>
-                            <p><strong>Setup Fees:</strong> $95 (including measuring and installation)</p>
-                            <p><strong>Removal Fees:</strong> $75</p>
-                        </div>
-                    </div>
-                    <div class="mb-6 p-4 bg-blue-50 border-l-4 border-blue-400 rounded-r-lg">
-                        <p class="text-blue-800 font-medium">
-                            This product is available for sale or rental. Go to Rental Page or Book Free Assessment.
-                        </p>
                     </div>
 
                     <!-- Product Tabs Section -->
@@ -199,8 +182,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Doorway Compatibility</h3>
-                                            <p class="text-gray-600">Designed specifically for doorways that swing in and out, providing seamless threshold access.</p>
+                                            <h3 class="font-semibold text-gray-800">Premium Metal Construction</h3>
+                                            <p class="text-gray-600">Crafted from rugged, high-quality metal designed to withstand daily use while resisting wear, rust, and corrosion.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -211,8 +194,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Easy Installation</h3>
-                                            <p class="text-gray-600">Simple installation with holes punched in top corners and hardware included to secure ramp to surface.</p>
+                                            <h3 class="font-semibold text-gray-800">Effortless Doorway Access</h3>
+                                            <p class="text-gray-600">Designed to bridge minor height differences at door thresholds with a smooth, gentle slope that eliminates awkward steps or abrupt edges.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -223,8 +206,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Lightweight Aluminum Construction</h3>
-                                            <p class="text-gray-600">Made of lightweight, durable aluminum for easy handling while maintaining strength and longevity.</p>
+                                            <h3 class="font-semibold text-gray-800">Reliable Traction & Safety</h3>
+                                            <p class="text-gray-600">Anti-slip texture surface helps maintain secure footing, even when wet, keeping users confident and safe during transitions.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -235,8 +218,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Anti-Slip Surface</h3>
-                                            <p class="text-gray-600">Features anti-slip, high-traction surface for maximum safety and confidence during use.</p>
+                                            <h3 class="font-semibold text-gray-800">Versatile & Portable</h3>
+                                            <p class="text-gray-600">Lightweight and easy to install, requires no permanent fixtures. Simply place where needed - perfect for renters and homeowners.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -247,8 +230,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Perfect Threshold Alignment</h3>
-                                            <p class="text-gray-600">Aligns directly against the door threshold for seamless transition and optimal functionality.</p>
+                                            <h3 class="font-semibold text-gray-800">High Load Capacity</h3>
+                                            <p class="text-gray-600">Supports a broad spectrum of mobility devices and users with substantial weight capacity for residential needs.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -259,8 +242,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Universal Wheel Compatibility</h3>
-                                            <p class="text-gray-600">Accommodates wheelchairs and scooters with various wheel configurations for maximum versatility.</p>
+                                            <h3 class="font-semibold text-gray-800">No Tools Required</h3>
+                                            <p class="text-gray-600">Installation requires no tools, hardware, or drilling - a practical accessibility solution without construction.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -271,32 +254,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">3x Safety Factor Testing</h3>
-                                            <p class="text-gray-600">Prairie View Industries (PVI) products are tested to a 3x safety factor, ensuring maximum reliability and safety.</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <svg class="h-5 w-5 text-primary flex-shrink-0 mr-3 mt-1"
-                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd"
-                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        <div>
-                                            <h3 class="font-semibold text-gray-800">Made in USA</h3>
-                                            <p class="text-gray-600">Proudly manufactured in the United States with quality materials and craftsmanship.</p>
-                                        </div>
-                                    </div>
-                                    <div class="flex items-start">
-                                        <svg class="h-5 w-5 text-primary flex-shrink-0 mr-3 mt-1"
-                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                            <path fill-rule="evenodd"
-                                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                                clip-rule="evenodd" />
-                                        </svg>
-                                        <div>
-                                            <h3 class="font-semibold text-gray-800">Sale or Rental Options</h3>
-                                            <p class="text-gray-600">Available for both purchase and rental with flexible terms to meet your specific needs.</p>
+                                            <h3 class="font-semibold text-gray-800">Indoor & Outdoor Use</h3>
+                                            <p class="text-gray-600">Engineered for both indoor and outdoor environments with weather-resistant durability.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -305,56 +264,27 @@
                             <!-- Pricing Options Tab -->
                             <div class="tab-pane" data-tab="pricing-tab" style="display: none !important;">
                                 <div class="space-y-6">
-                                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Pricing Options</h3>
+                                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Pricing & Product Information</h3>
 
-                                    <!-- Purchase Pricing -->
+                                    <!-- Pricing -->
                                     <div class="bg-gray-50 rounded-lg p-4">
-                                        <h4 class="text-lg font-semibold text-gray-800 mb-3">Purchase Options</h4>
+                                        <h4 class="text-lg font-semibold text-gray-800 mb-3">Starting Price</h4>
                                         <div class="space-y-3">
                                             <div class="flex justify-between items-center border-b pb-2">
-                                                <span class="text-gray-700 font-medium">Pricing:</span>
-                                                <span class="font-semibold text-primary">Contact for customized quote</span>
+                                                <span class="text-gray-700 font-medium">Metal Threshold Ramps:</span>
+                                                <span class="font-semibold text-primary">Starting at $110</span>
                                             </div>
                                             <div class="text-sm text-gray-600 mt-2">
-                                                <p>* Price includes the Self Supporting Threshold Ramp</p>
-                                                <p>* Professional installation available for additional cost</p>
-                                                <p>* Limited lifetime warranty included</p>
+                                                <p>* Durable metal construction with anti-slip surface</p>
+                                                <p>* Perfect for indoor and outdoor use</p>
+                                                <p>* No tools required for installation</p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <!-- Rental Pricing -->
-                                    <div class="bg-blue-50 rounded-lg p-4">
-                                        <h4 class="text-lg font-semibold text-blue-800 mb-3">Rental Options</h4>
-                                        <div class="space-y-3">
-                                            <div class="flex justify-between items-center border-b border-blue-200 pb-2">
-                                                <span class="text-blue-700 font-medium">Monthly Rental Fee:</span>
-                                                <span class="font-semibold text-blue-800">$35</span>
-                                            </div>
-                                            <div class="flex justify-between items-center border-b border-blue-200 pb-2">
-                                                <span class="text-blue-700 font-medium">Minimum Period:</span>
-                                                <span class="font-semibold text-blue-800">1 Month</span>
-                                            </div>
-                                            <div class="flex justify-between items-center border-b border-blue-200 pb-2">
-                                                <span class="text-blue-700 font-medium">Setup Fees:</span>
-                                                <span class="font-semibold text-blue-800">$95 (including measuring and installation)</span>
-                                            </div>
-                                            <div class="flex justify-between items-center">
-                                                <span class="text-blue-700 font-medium">Removal Fees:</span>
-                                                <span class="font-semibold text-blue-800">$75</span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="p-4 bg-green-50 border-l-4 border-green-400 rounded-r-lg">
-                                        <p class="text-green-800 font-medium">
-                                            Contact us for a complete quote including installation. Both purchase and rental options available.
-                                        </p>
-                                    </div>
-
-                                    <div class="p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
-                                        <p class="text-yellow-800 font-medium">
-                                            Hardware to secure ramp to surface included with purchase.
+                                    <div class="p-4 bg-blue-50 border-l-4 border-blue-400 rounded-r-lg">
+                                        <p class="text-blue-800 font-medium">
+                                            For custom quotes and bulk orders, please contact us. We provide practical accessibility solutions for homes, apartments, and offices.
                                         </p>
                                     </div>
                                 </div>
@@ -384,58 +314,49 @@
                             <!-- Technical Information -->
                             <div class="tab-pane" data-tab="technical-tab" style="display: none !important;">
                                 <div class="mb-6">
-                                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Technical Specifications</h3>
+                                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Specifications</h3>
                                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Length Available:</span>
-                                                <span class="text-gray-600">24″</span>
-                                            </div>
-                                            <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Threshold Height:</span>
-                                                <span class="text-gray-600">3″</span>
-                                            </div>
-                                            <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Weight:</span>
-                                                <span class="text-gray-600">12 lbs</span>
-                                            </div>
-                                            <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Material:</span>
-                                                <span class="text-gray-600">Lightweight Aluminum</span>
+                                                <span class="text-gray-600">Durable Metal Construction</span>
+                                            </div>
+                                            <div class="flex justify-between border-b pb-2">
+                                                <span class="font-medium text-gray-700">Surface:</span>
+                                                <span class="text-gray-600">Anti-Slip Textured Finish</span>
+                                            </div>
+                                            <div class="flex justify-between border-b pb-2">
+                                                <span class="font-medium text-gray-700">Use:</span>
+                                                <span class="text-gray-600">Indoor & Outdoor</span>
                                             </div>
                                         </div>
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Maximum Capacity (1 axle):</span>
-                                                <span class="text-gray-600">300 lbs</span>
+                                                <span class="font-medium text-gray-700">Installation:</span>
+                                                <span class="text-gray-600">No Tools Required</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Maximum Capacity (2 axles):</span>
-                                                <span class="text-gray-600">600 lbs</span>
+                                                <span class="font-medium text-gray-700">Capacity:</span>
+                                                <span class="text-gray-600">Heavy-Duty Load Support</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Warranty:</span>
-                                                <span class="text-gray-600">Limited Lifetime</span>
-                                            </div>
-                                            <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Supplier:</span>
-                                                <span class="text-gray-600">Prairie View Industries (PVI)</span>
+                                                <span class="font-medium text-gray-700">Setup:</span>
+                                                <span class="text-gray-600">Portable & Lightweight</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="mb-6">
-                                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
+                                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Ideal For</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>• Anti-slip, high-traction surface for maximum safety</li>
-                                            <li>• Holes punched in top corners for easy installation</li>
-                                            <li>• Hardware included to secure ramp to surface</li>
-                                            <li>• Aligns directly against door threshold</li>
-                                            <li>• Accommodates various wheel configurations</li>
-                                            <li>• Tested to 3x safety factor for reliability</li>
-                                            <li>• Made in the USA with quality materials</li>
+                                            <li>• Thresholds in homes, apartments, and offices</li>
+                                            <li>• Doorways, interior or exterior</li>
+                                            <li>• Wheelchair and scooter access</li>
+                                            <li>• Walkers, canes & foot traffic</li>
+                                            <li>• Temporary or permanent accessibility needs</li>
+                                            <li>• Customer experience - trusted in homes worldwide</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -444,7 +365,7 @@
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <div class="flex items-center justify-between mb-2">
                                             <h3 class="text-xl font-semibold text-gray-800">Pricing</h3>
-                                            <span class="text-sm text-gray-800">Contact for customized quote</span>
+                                            <span class="text-sm text-gray-800">Starting at $110</span>
                                         </div>
                                         <div class="flex items-center justify-between mb-2">
                                             <h3 class="text-xl font-semibold text-gray-800">Call Us</h3>
@@ -486,10 +407,8 @@
                 <div class="flex flex-col lg:flex-row">
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Are you interested in having this product
-                            installed?</h2>
-                        <p class="text-lg text-gray-600 mb-6" >Accessibility solutions to make everyday home life easier and
-                            safer for yourself and your loved ones.</p>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">We Believe Accessibility Should Be Elegant</h2>
+                        <p class="text-lg text-gray-600 mb-6" >Our Metal Threshold Ramps combine thoughtful design with reliable performance, helping you create an inclusive environment without compromising on quality.</p>
                         <p class="mb-5">Give us a call at <a href="tel:+16042591211" class="text-secondary" style="font-weight: bold; color: red;">604-259-1211</a>
                             or submit a FREE <a href="#assessment" class="text-secondary" style="font-weight: bold; color: red;">ASSESSMENT FORM</a> to check.</p>
                     </div>
@@ -576,7 +495,7 @@
 
                 <form action="#" method="POST" class="space-y-6">
                     @csrf
-                    <input type="hidden" name="product" value="Home2stay Self Supporting Threshold Ramps">
+                    <input type="hidden" name="product" value="Metal Threshold Ramps">
 
                     <!-- Personal Information -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -641,7 +560,7 @@
                         <label class="block text-gray-700 font-medium mb-2" for="message">Additional Information</label>
                         <textarea id="message" name="message" rows="4"
                             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-                            placeholder="Please describe your installation space, specific needs, or any questions about the Self Supporting Threshold Ramps..."></textarea>
+                            placeholder="Please describe your installation space, specific needs, or any questions about the Metal Threshold Ramps..."></textarea>
                     </div>
 
                     <!-- Submit Button -->
@@ -706,13 +625,13 @@
             <div class="p-6">
                 <form id="quoteRequestForm">
                     @csrf
-                    <input type="hidden" id="product_name" name="product_name" value="Home2stay Self Supporting Threshold Ramps">
+                    <input type="hidden" id="product_name" name="product_name" value="Metal Threshold Ramps">
 
                     <!-- Product Info Section -->
                     <div class="mb-6">
                         <h4 class="text-lg font-semibold mb-4 text-primary">Product Information</h4>
                         <div class="p-3 bg-gray-50 rounded-lg mb-4">
-                            <p>You're requesting a quote for: <span class="font-semibold text-primary">Home2stay Self Supporting Threshold Ramps</span></p>
+                            <p>You're requesting a quote for: <span class="font-semibold text-primary">Metal Threshold Ramps</span></p>
                         </div>
                     </div>
 
@@ -785,7 +704,7 @@
                                 Details</label>
                             <textarea id="comments" name="comments" rows="3"
                                 class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                                placeholder="Please describe your installation space, specific needs, or any questions about the Self Supporting Threshold Ramps..."></textarea>
+                                placeholder="Please describe your installation space, specific needs, or any questions about the Metal Threshold Ramps..."></textarea>
                         </div>
                     </div>
 

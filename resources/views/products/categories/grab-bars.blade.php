@@ -98,6 +98,94 @@
                         </div>
                     </div>
                 </div>
+                <!-- Product new1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full product-item"
+                    data-page="1" style="display: none;">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('bathsafety-cat/Home2stay-Easy-Mount-Grab-Bars-Stainless-Steel.jpg') }}"
+                            alt="Home2stay Easy Mount Grab Bars(Stainless Steel)" class=" object-cover p-2"
+                            style="height: 400px;">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <a href="/products/healthcraft-grab-bars">
+                            <h3 class="text-xl font-bold text-gray-800 mb-3">Healthcraft
+                            </h3>
+                        </a>
+                        <p class="text-gray-600 mb-4 flex-grow">Enhance comfort and safety throughout the home with Home2Stay Grab Bars, premium-grade support rails engineered for confidence</p>
+                        <div class="mt-auto">
+                            <a href="/products/healthcraft-grab-bars"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product new2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full product-item"
+                    data-page="1" style="display: none;">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('bathsafety-cat/Home2stay-Easy-Mount-Grab-Bars-Stainless-Steel.jpg') }}"
+                            alt="Home2stay Easy Mount Grab Bars(Stainless Steel)" class=" object-cover p-2"
+                            style="height: 400px;">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <a href="/products/grabcessories-premium-grab-bars">
+                            <h3 class="text-xl font-bold text-gray-800 mb-3">Grabcessories Premium Grab Bars – Safety Meets Style
+                            </h3>
+                        </a>
+                        <p class="text-gray-600 mb-4 flex-grow">Provide safety without compromising style. Grabcessories grab bars from Home2Stay provide sturdy support, a smooth design, and quiet for every home.</p>
+                        <div class="mt-auto">
+                            <a href="/products/grabcessories-premium-grab-bars"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product new3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full product-item"
+                    data-page="1" style="display: none;">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('bathsafety-cat/Home2stay-Easy-Mount-Grab-Bars-Stainless-Steel.jpg') }}"
+                            alt="Home2stay Easy Mount Grab Bars(Stainless Steel)" class=" object-cover p-2"
+                            style="height: 400px;">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <a href="/products/grab-bars-by-ponte-giulio">
+                            <h3 class="text-xl font-bold text-gray-800 mb-3">Home2Stay | Grab Bars by Ponte Giulio
+                            </h3>
+                        </a>
+                        <p class="text-gray-600 mb-4 flex-grow">Ensure confidence, independence, and style in your home with Ponte Giulio Grab Bars, available at Home2Stay.</p>
+                        <div class="mt-auto">
+                            <a href="/products/grab-bars-by-ponte-giulio"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product new4 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full product-item"
+                    data-page="1" style="display: none;">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('bathsafety-cat/Home2stay-Easy-Mount-Grab-Bars-Stainless-Steel.jpg') }}"
+                            alt="Home2stay Easy Mount Grab Bars(Stainless Steel)" class=" object-cover p-2"
+                            style="height: 400px;">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <a href="/products/handrails">
+                            <h3 class="text-xl font-bold text-gray-800 mb-3">Home2Stay | Handrails
+                            </h3>
+                        </a>
+                        <p class="text-gray-600 mb-4 flex-grow">Enhance safety and style in your home with Home2Stay Handrails. Designed to provide reliable support on stairs, ramps, or hallways, these handrails offer stability without compromising elegance. </p>
+                        <div class="mt-auto">
+                            <a href="/products/handrails"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
 
                 <!-- Product 2 -->

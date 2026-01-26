@@ -1,0 +1,449 @@
+@extends('layouts.app')
+
+@section('title', 'Flooring & Plumbing Solutions | Premium Quality Products - Home2Stay')
+@section('meta_description', 'Home2Stay flooring and plumbing solutions. High-quality engineered wood, luxury vinyl plank, laminate flooring, brass valves, and compression fittings. Professional installation available.')
+
+@push('styles')
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        .product-highlight {
+            border-left: 4px solid #4f46e5;
+        }
+    </style>
+@endpush
+
+@section('content')
+    <!-- Hero Banner -->
+    <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0 bg-cover bg-center"
+            style="background-image: url('{{ asset('al-prod-page-imgs/Ramps.jpg') }}');">
+            <div class="absolute inset-0 bg-black opacity-60"></div>
+        </div>
+
+        <!-- Hero Content -->
+        <div class="container mx-auto px-4 relative z-10 flex items-center" style="min-height: 500px;">
+            <div class="max-w-3xl">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Flooring & Plumbing Solutions</h1>
+                <p class="text-xl text-white/90 mb-8">
+                    Home2Stay offers high-quality floors and plumbing products that enhance the comfort, durability and style of every home.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#products"
+                        class="px-6 py-3 bg-primary hover:bg-primary-dark text-white rounded-lg transition duration-300 font-medium">
+                        View Products
+                    </a>
+                    <a href="#assessment"
+                        class="px-6 py-3 bg-white hover:bg-gray-100 text-primary rounded-lg transition duration-300 font-medium">
+                        Request Assessment
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Flooring & Plumbing Solutions</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                    Explore our premium flooring options and reliable plumbing essentials designed for durability, style, and performance.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- flooring and plumbing -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('mram/p1.png') }}" alt="Engineered Wood Flooring"
+                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            style="height: 400px;">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <a href="/products/flooring-and-plumbing-solutions">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">Flooring & Plumbing Solutions for Modern Living</h3> </a>
+                        <p class="text-gray-600 mb-4 flex-grow">Home2Stay offers high-quality floors that enhance the comfort, durability and style of every home. No matter if you are renovating, upgrading</p>
+                        <a href="/products/flooring-and-plumbing-solutions"
+                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
+                            View Product
+                        </a>
+                    </div>
+                </div>
+                <!-- Plumbing Fixtures -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('mram/p1.png') }}" alt="Engineered Wood Flooring"
+                            class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            style="height: 400px;">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <a href="/products/plumbing-fixtures">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">Home2Stay | Flooring & Plumbing</h3> </a>
+                        <p class="text-gray-600 mb-4 flex-grow">Improve your space with High-Quality Plumbing Fixtures. Choose fixtures with durability, functionality and timeless style.</p>
+                        <a href="/products/plumbing-fixtures"
+                            class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
+                            View Product
+                        </a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Home2Stay Flooring & Plumbing</h2>
+                    <p class="text-lg text-gray-600">
+                        Discover high-quality flooring and plumbing solutions that enhance comfort, durability and style while providing long-lasting performance.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                    <div class="bg-gray-50 p-6 rounded-lg text-center">
+                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Premium Quality Materials</h3>
+                        <p class="text-gray-600">High-quality flooring and plumbing products engineered for durability and performance.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg text-center">
+                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Enhanced Comfort & Style</h3>
+                        <p class="text-gray-600">Stylish designs and reliable functionality for modern living spaces and everyday comfort.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg text-center">
+                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Long-Lasting Reliability</h3>
+                        <p class="text-gray-600">Professional-grade performance and easy maintenance for years of dependable use.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Product -->
+    <section class="py-16 bg-primary">
+        <div class="container mx-auto px-4">
+            <div class="bg-gray-50 rounded-xl overflow-hidden shadow-lg">
+                <div class="flex flex-col lg:flex-row">
+                    <!-- Text Content -->
+                    <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Premium Flooring & Plumbing for Modern Homes</h2>
+                        <p class="text-lg text-gray-600 mb-6">
+                            Home2Stay offers high-quality floors and plumbing products that enhance the comfort, durability and style of every home. Whether you are renovating, upgrading, or building an entire room, we have flooring solutions that provide long-lasting beauty and professional-grade performance across the British Columbia region.</p>
+                        <p class="mb-5">Ready to upgrade your home? Give us a call at <b><a href="tel:+16042591211" style="color: red;">(604) 259-1211</a></b> or submit a <b> <a href="#assessment" style="color: red;">FREE CONSULTATION FORM</a></b> to explore options.
+                        </p>
+                    </div>
+                    <!-- Image -->
+                    <div class="w-full lg:w-1/2">
+                        <img src="{{ asset('al-prod-page-imgs/Ramps.jpg') }}" alt="Accessibility Ramps"
+                            class="w-full h-full object-cover" style="min-height: 400px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ramp Solutions Details -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white rounded-xl shadow-md p-8 md:p-12">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Quality Flooring & Plumbing Solutions</h2>
+
+                    <div class="prose prose-lg max-w-none">
+                        <p class="text-gray-700 mb-4">
+                            At Home2Stay, we provide premium flooring and plumbing products designed for durability, performance, and style. From engineered wood flooring to luxury vinyl plank, laminate options, brass valves, and compression fittings, our products are crafted from high-quality materials to enhance your home.
+                        </p>
+
+                        <p class="text-gray-700 mb-4">
+                            Our flooring solutions combine natural beauty with engineered durability, offering water resistance, scratch resistance, and easy maintenance. Each product is engineered to withstand daily use while maintaining its aesthetic appeal for years to come.
+                        </p>
+
+                        <div class="my-8 p-6 bg-primary/5 border-l-4 border-primary rounded-r-lg">
+                            <p class="text-gray-800 font-medium">
+                                We offer multiple flooring styles and plumbing products. From contemporary wood looks to practical vinyl options and reliable brass plumbing essentials, all our products combine quality craftsmanship with reliable performance.
+                            </p>
+                        </div>
+
+                        <p class="text-gray-700 mb-4">
+                            Our products are available in various styles, finishes, and configurations to fit your home's needs and design preferences. Whether you're renovating a single room or building new, we have professional-grade solutions for every space.
+                        </p>
+
+                        <h3 class="text-2xl font-bold text-gray-800 mt-8 mb-4">Expert Consultation & Professional Installation</h3>
+
+                        <p class="text-gray-700 mb-4">
+                            Schedule a FREE CONSULTATION with Home2Stay and our experts will help you select the perfect flooring and plumbing products for your space. Our team will assess your requirements, discuss your preferences, and recommend solutions that fit your needs and budget.
+                        </p>
+
+                        <p class="text-gray-700 mb-4">
+                            Our professional installation team ensures your products are properly installed and finished to perfection. We handle all aspects of installation with attention to detail and quality craftsmanship.
+                        </p>
+
+                        <p class="text-gray-700 mb-4">
+                            We provide guidance on product care and maintenance to ensure your investment lasts for years. Our team is available to answer any questions and provide support whenever you need it.
+                        </p>
+
+                        <div class="mt-8 flex flex-wrap gap-4">
+                            <a href="#assessment"
+                                class="inline-flex items-center px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition duration-300">
+                                Request Free Assessment
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured section 2 -->
+    <section class="py-16 bg-primary">
+        <div class="container mx-auto px-4">
+            <div class="bg-gray-50 rounded-xl overflow-hidden shadow-lg">
+                <div class="flex flex-col lg:flex-row">
+                    <!-- Text Content -->
+                    <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready to upgrade your home?</h2>
+                        <p class="text-lg text-gray-600 mb-6">
+                            Let us help you find the perfect flooring and plumbing solutions for your space</p>
+                        <div class="mt-8 flex flex-wrap gap-4">
+                            <a href="#assessment"
+                                class="inline-flex items-center px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition duration-300">
+                                Book Online
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Image -->
+                    <div class="w-full lg:w-1/2">
+                        <img src="{{ asset('al-prod-page-imgs/Ramps.jpg') }}" alt="Accessibility Ramps"
+                            class="w-full h-full object-cover" style="min-height: 400px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Blogs -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">Related Blogs</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                @forelse($latestPosts as $post)
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 group">
+                        @if($post->featured_image)
+                            <div class="h-48 overflow-hidden">
+                                <img src="{{ asset('storage/' . $post->featured_image) }}" alt="{{ $post->title }}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                            </div>
+                        @else
+                            <div class="h-48 bg-gray-200 flex items-center justify-center">
+                                <span class="text-gray-400 text-2xl"><i class="fas fa-image"></i></span>
+                            </div>
+                        @endif
+                        
+                        <div class="p-6">
+                            <div class="flex items-center text-sm text-gray-500 mb-2">
+                                <span class="mr-4">
+                                    <i class="fas fa-calendar-alt mr-1"></i> {{ $post->published_at ? $post->published_at->format('F j, Y') : $post->created_at->format('F j, Y') }}
+                                </span>
+                                <span>
+                                    <i class="fas fa-user mr-1"></i> {{ $post->user->name ?? 'Admin' }}
+                                </span>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-primary transition-colors">{{ $post->title }}</h3>
+                            <p class="text-gray-600 mb-4 line-clamp-3">{{ $post->excerpt }}</p>
+                            <a href="{{ route('blog.show', $post->slug) }}" class="inline-flex items-center text-primary hover:text-primary/80 font-medium">
+                                Read More <i class="fas fa-arrow-right ml-1 group-hover:translate-x-1 transition-transform"></i>
+                            </a>
+                        </div>
+                    </div>
+                @empty
+                    <div class="col-span-3 text-center py-8">
+                        <p class="text-gray-500">No blog posts published yet. Check back soon!</p>
+                    </div>
+                @endforelse
+            </div>
+            
+            @if($latestPosts->count() > 0)
+                <div class="text-center mt-10">
+                    <a href="{{ route('blog.index') }}" class="inline-flex items-center px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition duration-300">
+                        View All Blog Posts
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+            @endif
+        </div>
+    </section>
+
+    <!-- Assessment Form -->
+    <section id="assessment" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
+                <div class="text-center mb-10">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Request Your Free Flooring & Plumbing Consultation</h2>
+                    <p class="text-gray-600">Our experts will help you find the perfect flooring and plumbing solutions that match your style, space, and budget.</p>
+                </div>
+
+                <form action="/submit-assessment" method="POST">
+                    @csrf
+                    <input type="hidden" name="form_type" value="consultation">
+                    <input type="hidden" name="form_source" value="Flooring_Plumbing_consultation_form">
+                    <!-- Personal Information -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2" for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2" for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2" for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2" for="location">Location/Property</label>
+                            <input type="text" id="location" name="location" placeholder="e.g., Kitchen, Bathroom, Entire Home, etc."
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
+                        </div>
+                    </div>
+
+                    <!-- Product Interest -->
+                    <div>
+                        <label class="block text-gray-700 font-medium mb-2">Which products interest you? *</label>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                            <label class="flex items-center space-x-3">
+                                <input type="checkbox" name="products[]" value="engineered_wood"
+                                    class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Engineered Wood Flooring</span>
+                            </label>
+                            <label class="flex items-center space-x-3">
+                                <input type="checkbox" name="products[]" value="luxury_vinyl"
+                                    class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Luxury Vinyl Plank (LVP)</span>
+                            </label>
+                            <label class="flex items-center space-x-3">
+                                <input type="checkbox" name="products[]" value="laminate"
+                                    class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Laminate Flooring</span>
+                            </label>
+                            <label class="flex items-center space-x-3">
+                                <input type="checkbox" name="products[]" value="brass_valves"
+                                    class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Brass Ball Valves</span>
+                            </label>
+                            <label class="flex items-center space-x-3">
+                                <input type="checkbox" name="products[]" value="compression_fittings" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Compression Fittings</span>
+                            </label>
+                            <label class="flex items-center space-x-3">
+                                <input type="checkbox" name="products[]" value="not_sure" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Not Sure/Need Advice</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Additional Information -->
+                    <div>
+                        <label class="block text-gray-700 font-medium mb-2" for="message">Additional Information</label>
+                        <textarea id="message" name="message" rows="4"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
+                            placeholder="Please share your room dimensions, style preferences, budget range, or any specific requirements..."></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="text-center">
+                        <button type="submit"
+                            class="inline-flex items-center px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition duration-300">
+                            Submit Consultation Request
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-16 bg-primary">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center text-white">
+                <h2 class="text-3xl font-bold mb-6">Ready to Transform Your Home?</h2>
+                <p class="text-xl mb-8">Contact us today to discover premium flooring and plumbing solutions that will enhance your home's style and functionality.</p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="{{ route('contact') }}"
+                        class="px-8 py-3 bg-white text-primary hover:bg-gray-100 rounded-lg font-medium transition duration-300">
+                        Contact Us
+                    </a>
+                    <a href="#assessment"
+                        class="px-8 py-3 bg-transparent border-2 border-white text-white hover:bg-white/10 rounded-lg font-medium transition duration-300">
+                        Get Free Consultation
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+@endsection
+
+@push('scripts')
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        // Initialize any scripts needed for the page
+    </script>
+@endpush

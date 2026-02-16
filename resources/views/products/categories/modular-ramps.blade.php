@@ -24,7 +24,7 @@
         <!-- Hero Content -->
         <div class="container mx-auto px-4 relative z-10 flex items-center mb-4 mt-4" style="min-height: 500px;">
             <div class="max-w-3xl">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Modular Ramps in Vancouver – Safe, Strong, and Built for Your Needs | Home2Stay</h1>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Modular Ramps in Vancouver – Safe, Strong, and Built for Your Needs</h1>
                 <p class="text-xl text-white/90 mb-8">
                     Any human being should have access to their home that is safe and easy. Travelling in and out of your house must never be a scary, risky, or difficult thing to do. That is the reason we install quality Modular Ramps in Vancouver that enable seniors, persons with wheelchairs, and limited mobility to remain independent and have confidence. Our ramps are designed to be used in the long run, to be installed easily, and to be used on a daily basis, regardless of the weather or the structure of your house.
                 </p>

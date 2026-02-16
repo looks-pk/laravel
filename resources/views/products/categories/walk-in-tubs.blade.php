@@ -64,10 +64,10 @@
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'home2stay-walk-in-bathtubs') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Walk-In Bathtubs</h3></a>
+                    <a href="{{ route('products.show', 'walk-in-bathtubswalk-in-bathtubs') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Walk-In Bathtubs</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">American Tubs' Walk-In Bathtubs are designed for safe, worry-free bathing. Accommodates the needs of those seeking safety, comfort, and therapeutic benefits.</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-walk-in-bathtubs/"
+                            <a href="/products/walk-in-bathtubswalk-in-bathtubs/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>

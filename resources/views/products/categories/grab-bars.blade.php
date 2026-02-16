@@ -84,14 +84,14 @@
                             style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="{{ route('products.show', 'home2stay-easy-mount-grab-bars-stainless-steel') }}">
+                        <a href="{{ route('products.show', 'easy-mount-grab-bars-stainless-steel') }}">
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Easy Mount Grab Bars(Stainless Steel)
                             </h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">Easy Mount Grab Bars provide safety and security in the
                             bathroom, shower and any room in your house...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-easy-mount-grab-bars-stainless-steel"
+                            <a href="/products/easy-mount-grab-bars-stainless-steel"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -197,14 +197,14 @@
                             style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="{{ route('products.show', 'home2stay-stainless-steel-locking-support-grab-bar') }}">
+                        <a href="{{ route('products.show', 'stainless-steel-locking-support-grab-bar') }}">
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Stainless Steel Locking Support Grab
                                 Bar</h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">Mount across the toilet for when someone needs help pulling
                             themselves up from a seated position or...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-stainless-steel-locking-support-grab-bar/"
+                            <a href="/products/stainless-steel-locking-support-grab-bar/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -220,13 +220,13 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="{{ route('products.show', 'home2stay-invisia-towel-bar') }}">
+                        <a href="{{ route('products.show', 'invisia-towel-bar') }}">
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Invisia Soap Dish</h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">The Soap Dish is the perfect place to store your soap and it
                             also offers just the right amount of...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-invisia-towel-bar/"
+                            <a href="/products/invisia-towel-bar/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -242,13 +242,13 @@
                             class="p-20 contain" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="{{ route('products.show', 'home2stay-invisia-accent-bar') }}">
+                        <a href="{{ route('products.show', 'invisia-accent-bar') }}">
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Invisia Accent Bar</h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">A bold, stylish way to breathe new life into any bathroom,
                             our Accent Bar can be placed wherever sup...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-invisia-accent-bar/"
+                            <a href="/products/invisia-accent-bar/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -264,13 +264,13 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="{{ route('products.show', 'home2stay-120-degree-angle-grab-bar') }}">
+                        <a href="{{ route('products.show', '120-degree-angle-grab-bar') }}">
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay 120 Degree Angle Grab Bar</h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">Healthcraft's 120 Degree Angle Grab provides strength and
                             security. It is designed for shower and...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-120-degree-angle-grab-bar/"
+                            <a href="/products/120-degree-angle-grab-bar/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -287,14 +287,14 @@
                             style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="{{ route('products.show', 'home2stay-l-shaped-grab-bar-stainless-steel') }}">
+                        <a href="{{ route('products.show', 'l-shaped-grab-bar-stainless-steel') }}">
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay L-Shaped Grab Bar (Stainless Steel)
                             </h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">Our L-shaped 30 inch x 30 inch Grab Bar is the easiest to
                             install in the industry due to the...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-l-shaped-grab-bar-stainless-steel"
+                            <a href="/products/l-shaped-grab-bar-stainless-steel"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -311,14 +311,14 @@
                             style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="{{ route('products.show', 'home2stay-l-shaped-grab-bar-stainless-knurled') }}">
+                        <a href="{{ route('products.show', 'l-shaped-grab-bar-stainless-knurled') }}">
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay L-Shaped Grab Bar (Stainless Knurled)
                             </h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">HealthCraft's L-shaped grab bar is perfect for those tricky
                             spots in your bathroom. Other L-shaped...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-l-shaped-grab-bar-stainless-knurled"
+                            <a href="/products/l-shaped-grab-bar-stainless-knurled"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -334,13 +334,13 @@
                             alt="Home2stay Plus Toilet Paper Holder" class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="{{ route('products.show', 'home2stay-plus-toilet-paper-holder') }}">
+                        <a href="{{ route('products.show', 'plus-toilet-paper-holder') }}">
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Plus Toilet Paper Holder</h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">Using the wall as a grab bar doesn't have to happen. The
                             PLUS Toilet Paper Holder mounts against t...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-plus-toilet-paper-holder"
+                            <a href="/products/plus-toilet-paper-holder"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -356,13 +356,13 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="{{ route('products.show', 'home2stay-invisia-accent-ring') }}">
+                        <a href="{{ route('products.show', 'invisia-accent-ring') }}">
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Invisia Accent Ring</h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">A beautiful addition to any bathroom, the Accent Ring
                             elegantly frames your shower valve while provi...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-invisia-accent-ring"
+                            <a href="/products/invisia-accent-ring"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -379,13 +379,13 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="{{ route('products.show', 'home2stay-plus-towel-bar') }}">
+                        <a href="{{ route('products.show', 'plus-towel-bar') }}">
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Plus Towel Bar</h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">Your towel bar should do more than just hold your towels.
                             The PLUS Towel Bar holds even your largest...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-plus-towel-bar/"
+                            <a href="/products/plus-towel-bar/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -401,13 +401,13 @@
                             alt="Home2stay Invisia Toilet Roll Holder" class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="{{ route('products.show', 'home2stay-invisia-toilet-roll-holder') }}">
+                        <a href="{{ route('products.show', 'invisia-toilet-roll-holder') }}">
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Invisia Toilet Roll Holder</h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">The Toilet Roll Holder is a stunning addition to any
                             bathroom that offers discreet support for sitti...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-invisia-toilet-roll-holder/"
+                            <a href="/products/invisia-toilet-roll-holder/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -423,13 +423,13 @@
                             alt="Home2stay Vinyl Folding Grab Bar" class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="{{ route('products.show', 'home2stay-vinyl-folding-grab-bar-2') }}">
+                        <a href="{{ route('products.show', 'vinyl-folding-grab-bar-2') }}">
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Vinyl Folding Grab Bar</h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">Vinyl coating provides anti-microbial protection, superior
                             grip, and feels warmer to the hands. Anti...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-vinyl-folding-grab-bar-2"
+                            <a href="/products/vinyl-folding-grab-bar-2"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -446,14 +446,14 @@
                             style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="{{ route('products.show', 'home2stay-vinyl-folding-grab-bar-w-floor-support-leg') }}">
+                        <a href="{{ route('products.show', 'vinyl-folding-grab-bar-w-floor-support-leg') }}">
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Vinyl Folding Grab Bar w/ Floor
                                 Support Leg</h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">Vinyl coating provides anti-microbial protection, superior
                             grip, and feels warmer to the hands. Anti...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-vinyl-folding-grab-bar-w-floor-support-leg"
+                            <a href="/products/vinyl-folding-grab-bar-w-floor-support-leg"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -470,14 +470,14 @@
                             style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="{{ route('products.show', 'home2stay-vinyl-folding-rotating-grab-bar') }}">
+                        <a href="{{ route('products.show', 'vinyl-folding-rotating-grab-bar') }}">
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Vinyl Folding & Rotating Grab Bar
                             </h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">Vinyl coating provides anti-microbial protection, superior
                             grip, and feels warmer to the hands. Anti...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-vinyl-folding-rotating-grab-bar"
+                            <a href="/products/vinyl-folding-rotating-grab-bar"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -493,13 +493,13 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="{{ route('products.show', 'home2stay-dependa-bar') }}">
+                        <a href="{{ route('products.show', 'dependa-bar') }}">
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Dependa-Bar</h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">This award-winning grab bar provides assistance exactly
                             where it's needed- no reaching, leaning or...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-dependa-bar"
+                            <a href="/products/dependa-bar"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -516,14 +516,14 @@
                             style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="{{ route('products.show', 'home2stay-grab-bars-curved-arched-or-straight') }}">
+                        <a href="{{ route('products.show', 'grab-bars-curved-arched-or-straight') }}">
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Grab Bars- Curved, Arched or Straight
                             </h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">Grabcessories Grab Bars blend into any bathroom decor and
                             provide dependable support for people of a...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-grab-bars-curved-arched-or-straight"
+                            <a href="/products/grab-bars-curved-arched-or-straight
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -540,14 +540,14 @@
                             style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="{{ route('products.show', 'home2stay-2-in-1-grab-bar-toilet-paper-holder') }}">
+                        <a href="{{ route('products.show', '2-in-1-grab-bar-toilet-paper-holder') }}">
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay 2-in-1 Grab Bar Toilet Paper Holder
                             </h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">Grabcessories 2-in-1 Grab Bar Toilet Paper Holder ensures
                             safer mobility and convenience in one of t...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-2-in-1-grab-bar-toilet-paper-holder"
+                            <a href="/products/2-in-1-grab-bar-toilet-paper-holder"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -563,13 +563,13 @@
                             alt="Home2stay 2-in-1 Grab Bar Towel Bar" class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="{{ route('products.show', 'home2stay-2-in-1-grab-bar-towel-bar') }}">
+                        <a href="{{ route('products.show', '2-in-1-grab-bar-towel-bar') }}">
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay 2-in-1 Grab Bar Towel Bar</h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">Grabcessories 2-in-1 Grab Bar Towel Bar prevents falls in
                             one of the key "fall risk" zones in th...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-2-in-1-grab-bar-towel-bar"
+                            <a href="/products/2-in-1-grab-bar-towel-bar"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -586,13 +586,13 @@
                             alt="Home2stay 3-in-1 Grab Bar Towel Shelf" class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="{{ route('products.show', 'home2stay-3-in-1-grab-bar-towel-shelf') }}">
+                        <a href="{{ route('products.show', '3-in-1-grab-bar-towel-shelf') }}">
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay 3-in-1 Grab Bar Towel Shelf</h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">Grabcessories 3-in-1 Grab Bars & Towel Shelf provides
                             beauty, fall prevention, towel &...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-3-in-1-grab-bar-towel-shelf"
+                            <a href="/products/3-in-1-grab-bar-towel-shelf"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -612,14 +612,14 @@
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="{{ route('products.show', 'home2stay-2-in-1-grab-bar-tub-shower-spout-ring') }}">
+                        <a href="{{ route('products.show', '2-in-1-grab-bar-tub-shower-spout-ring') }}">
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay 2-in-1 Grab Bar Tub/ Shower Spout
                                 Ring</h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">Grabcessories 2-in-1 Tub & Shower Grab Bar Ring prevents
                             falls in two key "fall risk" zones...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-2-in-1-grab-bar-tub-shower-spout-ring"
+                            <a href="/products/2-in-1-grab-bar-tub-shower-spout-ring"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>

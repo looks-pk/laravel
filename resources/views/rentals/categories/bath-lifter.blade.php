@@ -58,7 +58,7 @@
                             vehicle entry and exit easier for individuals with mobility challenges.</p>
                         <div class="mt-auto">
 
-                            <a href="{{ route('products.show', 'home2stay-vsl-curb-sider-interior-lift-2') }}"
+                            <a href="{{ route('products.show', 'vsl-curb-sider-interior-lift-2') }}"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 Learn More
                             </a>

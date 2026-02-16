@@ -69,7 +69,7 @@
 
                     <!-- Product Details -->
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="/products/home2stay-vanities/"
+                        <a href="/products/vanities/"
                         >
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
@@ -79,7 +79,7 @@
                         <p class="font-bold text-primary mb-5 flex items-center">
                             <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Multiple Products</span> -->
                         </p>
-                        <a href="/products/home2stay-vanities/"
+                        <a href="/products/vanities/"
                             class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
                             View All Products
                         </a>

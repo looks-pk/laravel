@@ -86,10 +86,10 @@
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="/products/home2stay-self-supporting-threshold-ramps/" > <h3 class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">Home2stay Self Supporting Threshold Ramps</h3></a>
+                    <a href="/products/self-supporting-threshold-ramps/" > <h3 class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">Home2stay Self Supporting Threshold Ramps</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">The Self Supporting Threshold Ramp is designed for doorways that swing in and out. Easy to install with durable construction for long-lasting accessibility.</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-self-supporting-threshold-ramps/"
+                            <a href="/products/self-supporting-threshold-ramps/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>

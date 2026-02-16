@@ -775,12 +775,24 @@
     </section>
 
     <!-- canada logo section -->
-    <section>
-        <div class="container flex justify-center items-center m-auto px-4">
-            <img src="{{ asset('logo/canada.png') }}" alt="Canada">
+    <section class="py-12 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <div class="flex justify-center items-center gap-8 flex-wrap">
+            <div class="flex justify-center items-center" style="width: 250px; height: 250px;">
+                <img src="{{ asset('logo/canada.png') }}" class="w-full h-full object-cover" alt="Proudly Canadian Owned & Operated">
+            </div>
+            <div class="flex justify-center items-center" style="width: 250px; height: 250px;">
+                <img src="{{ asset('logo/Vancouver-2025.png') }}" class="w-full h-full object-contain" alt="Consumer Choice Award 2025 Vancouver">
+            </div>
+            <div class="flex justify-center items-center" style="width: 250px; height: 250px;">
+                <img src="{{ asset('logo/Vancouver-2026.png') }}" class="w-full h-full object-contain" alt="Consumer Choice Award 2026 Vancouver">
+            </div>
+            <div class="flex justify-center items-center" style="width: 250px; height: 250px;">
+                <img src="{{ asset('logo/Vancouver 2026_2-Years.png') }}" class="w-full h-full object-contain" alt="Consumer Choice Award 2026 Vancouver - 2 Year Winner">
+            </div>
         </div>
-    </section>
-
+    </div>
+</section>
     <!-- Mobility Products Section -->
     <section class="py-20 px-10 bg-gray-50">
         <div class="container mx-auto px-4">
@@ -1285,6 +1297,7 @@
     <section class="py-24 bg-white relative overflow-hidden">
         <!-- Abstract Background -->
         <div class="absolute inset-0 pointer-events-none opacity-5">
+            
             <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
                 <pattern id="dots" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
                     <circle cx="25" cy="25" r="2" fill="#0078bf" opacity="0.3" />

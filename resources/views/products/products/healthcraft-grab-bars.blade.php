@@ -52,7 +52,7 @@
                         </li>
                     </ol>
                 </nav>
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Home2Stay Grab Bars | Strength, Safety & Style for Every Bathroom</h1>
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4"> Grab Bars | Strength, Safety & Style for Every Bathroom</h1>
                 <div class="flex items-center mb-4">
                     <div class="flex text-yellow-400">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">

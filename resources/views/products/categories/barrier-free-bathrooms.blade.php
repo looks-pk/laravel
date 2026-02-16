@@ -71,10 +71,10 @@
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'home2stay-modular-accessible-showers') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Shower Bay - Portable Accessible Shower</h3></a>
+                    <a href="{{ route('products.show', 'modular-accessible-showers') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Shower Bay - Portable Accessible Shower</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">The Shower Bay is a revolutionary portable shower designed specifically for wheelchair users. It provides a true shower experience with easy installation in any room, offering independence and dignity for users with mobility challenges.</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-modular-accessible-showers/"
+                            <a href="/products/modular-accessible-showers/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -112,10 +112,10 @@
                             class="w-full object-cover" style="height: 300px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'home2stay-european-wet-room-conversion-kits') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Custom Tile Shower Conversion Kits</h3></a>
+                    <a href="{{ route('products.show', 'european-wet-room-conversion-kits') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Custom Tile Shower Conversion Kits</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Transform your bathroom with our custom tile shower conversion kits. Create beautiful, accessible, and functional spaces with curbless shower design that combines style with universal accessibility.</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-european-wet-room-conversion-kits/"
+                            <a href="/products/european-wet-room-conversion-kits/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>

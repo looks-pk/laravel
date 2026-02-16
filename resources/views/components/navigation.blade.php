@@ -299,6 +299,17 @@
                                         Bathroom & Safety
                                     </h3>
                                     
+                                    <a href="/products-categories/stair-lifts/" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                        <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21h4v-4h4v-4h4v-4h4V5h2" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-medium text-gray-900 text-sm">Stair Lifts</h4>
+                                            <p class="text-xs text-gray-500">Effortless Stair Navigation</p>
+                                        </div>
+                                    </a>
                                     <a href="/products-categories/barrier-free-bathrooms/" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
                                         <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -347,7 +358,7 @@
                                         </div>
                                     </a>
                                     
-                                    <a href="/products-categories/walk-in-tubs/" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                    {{-- <a href="/products-categories/walk-in-tubs/" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
                                         <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
@@ -357,7 +368,7 @@
                                             <h4 class="font-medium text-gray-900 text-sm">Walk-in Tubs</h4>
                                             <p class="text-xs text-gray-500">Safe bathing solutions</p>
                                         </div>
-                                    </a>
+                                    </a> --}}
                                 </div>
 
                                 <!-- Column 2: Mobility & Lifts -->

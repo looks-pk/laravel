@@ -91,6 +91,7 @@ Route::get('/all-products', function() {
     return view('products.index');
 })->name('products.index');
 Route::get('/products-categories/{category}', [ProductController::class, 'categoryShow'])->name('products.category');
+
 Route::get('/products/{product}', [ProductController::class, 'productShow'])->name('products.show');
 
 // Rentals

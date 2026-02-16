@@ -64,10 +64,10 @@
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'home2stay-easytrack-fs-portable-ceiling-lift-system') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Easytrack FS Portable Ceiling Lift System</h3></a>
+                    <a href="{{ route('products.show', 'easytrack-fs-portable-ceiling-lift-system') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Easytrack FS Portable Ceiling Lift System</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">A true portable lift and transport system for the home- easy to use and assemble. The Easytrack FS i...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-easytrack-fs-portable-ceiling-lift-system/"
+                            <a href="/products/easytrack-fs-portable-ceiling-lift-system/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -83,10 +83,10 @@
                             class="w-full object-cover" style="height: 300px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'home2stay-portable-ceiling-lift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Portable Ceiling Lift</h3></a>
+                    <a href="{{ route('products.show', 'portable-ceiling-lift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Portable Ceiling Lift</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">The advantages that stem from using a Ceiling Lift are undeniable and have dramatically reduced the...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-portable-ceiling-lift"
+                            <a href="/products/portable-ceiling-lift"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -102,10 +102,10 @@
                             class="w-full object-cover" style="height: 300px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'home2stay-maxi-sky-440-portable-ceiling-lift-system') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Maxi Sky 440 Portable Ceiling Lift System</h3></a>
+                    <a href="{{ route('products.show', 'maxi-sky-440-portable-ceiling-lift-system') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Maxi Sky 440 Portable Ceiling Lift System</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Ceiling lifts offer a proven method for handling patients and residents with safety and dignity that...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-maxi-sky-440-portable-ceiling-lift-system/"
+                            <a href="/products/maxi-sky-440-portable-ceiling-lift-system/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -121,10 +121,10 @@
                             class="w-full object-cover" style="height: 300px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'home2stay-maxi-sky-2-ceiling-lift-solution') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Maxi Sky 2 Ceiling Lift Solution</h3></a>
+                    <a href="{{ route('products.show', 'maxi-sky-2-ceiling-lift-solution') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Maxi Sky 2 Ceiling Lift Solution</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">The Maxi Sky 2 Ceiling Lift offers maximum flexibility and versatility- with tracks available in an...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-maxi-sky-2-ceiling-lift-solution/"
+                            <a href="/products/maxi-sky-2-ceiling-lift-solution/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -140,10 +140,10 @@
                             class="w-full object-cover" style="height: 300px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'home2stay-ceiling-track-lift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Ceiling Track Lift</h3></a>
+                    <a href="{{ route('products.show', 'ceiling-track-lift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Ceiling Track Lift</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Built for a quiet operation, the C-450 Ceiling Track Lift provides a smooth and effortless transfer...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-ceiling-track-lift/"
+                            <a href="/products/ceiling-track-lift/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -159,10 +159,10 @@
                             class="w-full object-cover" style="height: 300px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'home2stay-gh3-ceiling-hoist-ceiling-lift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay GH3 Ceiling Hoist / Ceiling Lift</h3></a>
+                    <a href="{{ route('products.show', 'gh3-ceiling-hoist-ceiling-lift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay GH3 Ceiling Hoist / Ceiling Lift</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Powerful and user-friendly, Guldmann's GH3 Ceiling Hoist / Lift ensures effective lifting and movi...</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-gh3-ceiling-hoist-ceiling-lift/"
+                            <a href="/products/gh3-ceiling-hoist-ceiling-lift/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>

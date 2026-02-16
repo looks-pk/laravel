@@ -67,7 +67,7 @@
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Bruno Straight Stair Lift</h3>
                         <p class="text-gray-600 mb-4 flex-grow">Bring effortless independence to every level of your home. The Bruno Straight Stair Lift from Home2Stay provides smooth, reliable mobility for straight staircases</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-bruno-straight-stair-lift"
+                            <a href="/products/bruno-straight-stair-lift"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -86,7 +86,7 @@
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Indoor Stairlift</h3>
                         <p class="text-gray-600 mb-4 flex-grow">Change your home into a place of freedom, comfort, and independence with our premium Indoor Stairlifts from Home2Stay.</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-Indoor-stairlift"
+                            <a href="/products/Indoor-stairlift"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -104,7 +104,7 @@
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Outdoor Stairlifts</h3>
                         <p class="text-gray-600 mb-4 flex-grow">Rediscover freedom and independence with Home2Stay Outdoor Stairlifts. Designed to handle the elements while providing unmatched comfort and safety, our stairlifts allow you to move between levels with ease, no matter the weather.</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-outdoor-stairlifts"
+                            <a href="/products/outdoor-stairlifts"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -122,7 +122,7 @@
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Home2Stay – Bruno Elan Straight Stairlift</h3>
                         <p class="text-gray-600 mb-4 flex-grow">he Bruno Elan Straight Stairlift is a premium mobility solution designed to help you or your loved ones navigate staircases with confidence, comfort, and independence. </p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-bruno-elan-straight-stairlift"
+                            <a href="/products/bruno-elan-straight-stairlift"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -194,10 +194,10 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'home2stay-straight-stair-lift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Straight Stair Lift</h3></a>
+                    <a href="{{ route('products.show', 'straight-stair-lift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Straight Stair Lift</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Use Bruno stair lifts to go up and down the stairs safely. Bruno's Elan Stair Lift SRE-3050 is a m</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-straight-stair-lift/"
+                            <a href="/products/straight-stair-lift/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -213,10 +213,10 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'home2stay-custom-curved-stair-lift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Custom Curved Stair Lift</h3></a>
+                    <a href="{{ route('products.show', 'custom-curved-stair-lift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Custom Curved Stair Lift</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Use Bruno stair lifts to go up and down the stairs safely. With an artfully, handcrafted rail made s</p>
                         <div class="mt-auto">
-                            <a href="/products/home2stay-custom-curved-stair-lift/"
+                            <a href="/products/custom-curved-stair-lift/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>

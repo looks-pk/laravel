@@ -17,7 +17,7 @@
     <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('{{ asset('al-prod-page-imgs/Ramps.jpg') }}');">
+            style="background-image: url('{{ asset('al-prod-page-imgs/Gemini_Generated_Image_kmaur5kmaur5kmau.png') }}');">
             <div class="absolute inset-0 bg-black opacity-60"></div>
         </div>
 
@@ -58,7 +58,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('bathsafety-cat/Home2stay-Self-Supporting-Threshold-Ramps-min.jpg') }}" alt="Self Supporting Threshold Ramps"
+                        <img src="{{ asset('al-prod-page-imgs/RubberRamps-13_resized.webp') }}" alt="Self Supporting Threshold Ramps"
                             class="w-full object-cover" style="height: 300px;">
                         <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Popular
@@ -102,7 +102,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('mram/p1.png') }}" alt="Vertical Platform Lifts"
+                        <img src="{{ asset('al-prod-page-imgs/modular-ramps.jpeg') }}" alt="Vertical Platform Lifts"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -133,7 +133,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('mram/p1.png') }}" alt="Vertical Platform Lifts"
+                        <img src="{{ asset('al-prod-page-imgs/metal-threshold-ramp.jpg') }}" alt="Vertical Platform Lifts"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -165,7 +165,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('mram/p1.png') }}" alt="Vertical Platform Lifts"
+                        <img src="{{ asset('al-prod-page-imgs/pvi-multi-fold-reach-ramp.jpg') }}" alt="Vertical Platform Lifts"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -197,7 +197,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('mram/p1.png') }}" alt="Vertical Platform Lifts"
+                        <img src="{{ asset('al-prod-page-imgs/custom-wood-ramp.jpg') }}" alt="Vertical Platform Lifts"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -229,7 +229,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('mram/p1.png') }}" alt="Vertical Platform Lifts"
+                        <img src="{{ asset('al-prod-page-imgs/rolling-folding-ramp.webp') }}" alt="Vertical Platform Lifts"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -261,7 +261,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('mram/p1.png') }}" alt="Vertical Platform Lifts"
+                        <img src="{{ asset('al-prod-page-imgs/dunlop-slope.webp') }}" alt="Vertical Platform Lifts"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -293,7 +293,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('mram/p1.png') }}" alt="Vertical Platform Lifts"
+                        <img src="{{ asset('al-prod-page-imgs/roll-a-ramp.webp') }}" alt="Vertical Platform Lifts"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div

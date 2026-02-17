@@ -24,7 +24,7 @@
     <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('{{ asset('al-prod-page-imgs/141-1200x800-1-1024x683-min.jpg') }}');">
+            style="background-image: url('{{ asset('al-prod-page-imgs/trojan-bathroom.jpg') }}');">
             <div class="absolute inset-0 bg-black opacity-60"></div>
         </div>
 
@@ -105,7 +105,7 @@
                 </div>
 
                 <!-- Product 3 - Custom Tile Showers -->
-                <div
+                {{-- <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
                         <img src="{{ asset('al-prod-page-imgs/141-1200x800-1-1024x683-min.jpg') }}" alt="Custom Tile Shower Conversion Kits"
@@ -121,13 +121,13 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 <!-- Product 4 - Sentrel Systems -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('np-img/central-system.jpg') }}" alt="Sentrel Systems Showers"
+                        <img src="{{ asset('al-prod-page-imgs/Sentrel-hospitality.webp') }}" alt="Sentrel Systems Showers"
                             class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
                         <div class="absolute top-0 right-0 bg-blue-500 text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Premium
@@ -169,7 +169,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('np-img/central-system.jpg') }}" alt="Sentrel Systems Showers"
+                        <img src="{{ asset('al-prod-page-imgs/remodeling-bellastone.jpeg') }}" alt="Sentrel Systems Showers"
                             class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
                         <div class="absolute top-0 right-0 bg-blue-500 text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             
@@ -190,7 +190,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('np-img/central-system.jpg') }}" alt="Sentrel Systems Showers"
+                        <img src="{{ asset('al-prod-page-imgs/bathtub-to-shower.jpeg') }}" alt="Sentrel Systems Showers"
                             class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
                         <div class="absolute top-0 right-0 bg-blue-500 text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             
@@ -211,7 +211,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('np-img/central-system.jpg') }}" alt="Sentrel Systems Showers"
+                        <img src="{{ asset('al-prod-page-imgs/141-1200x800-1-1024x683-min.jpg') }}" alt="Sentrel Systems Showers"
                             class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
                         <div class="absolute top-0 right-0 bg-blue-500 text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             

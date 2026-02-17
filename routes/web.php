@@ -59,6 +59,10 @@ Route::get('/stairlifts-canada', function() {
     return view('stairlifts-canada');
 })->name('stairlifts.canada');
 
+Route::get('/privacy-policy', function() {
+    return view('privacyPolicy');
+})->name('privacyPolicy');
+
 // Universal Form Submissions - handles any form from any page
 Route::post('/submit-form', [UniversalFormController::class, 'submit'])->name('forms.submit');
 Route::post('/submit-contact', [UniversalFormController::class, 'contact'])->name('forms.contact');

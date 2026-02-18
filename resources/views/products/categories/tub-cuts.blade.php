@@ -17,7 +17,7 @@
     <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('{{ asset('/al-prod-page-imgs/Tub-Cuts.jpg') }}');">
+            style="background-image: url('{{ asset('/al-prod-page-imgs/tub-cuts-hero.png') }}');">
             <div class="absolute inset-0 bg-black opacity-60"></div>
         </div>
 
@@ -78,7 +78,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('bathsafety-cat/CleanCut-Step-V1-e1503607014281-1.jpg') }}" alt="Home2stay Tub Cut Ultra-Low"
+                        <img src="{{ asset('al-prod-page-imgs/tub-cut-steps-ultra-low.png') }}" alt="Home2stay Tub Cut Ultra-Low"
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -137,7 +137,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/bathsafety-cat/CleanCut-Step-V1-e1503607014281-1.jpg') }}" alt="Home2stay Tub Cut w/ Door"
+                        <img src="{{ asset('/al-prod-page-imgs/clean-tub-cut.png') }}" alt="Home2stay Tub Cut w/ Door"
                             class="w-full object-cover" style="height: 400px;">
                         <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Popular
@@ -159,7 +159,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/bathsafety-cat/CleanCut-Step-V1-e1503607014281-1.jpg') }}" alt="Home2stay Tub Cut w/ Door"
+                        <img src="{{ asset('/al-prod-page-imgs/quick-tub.png') }}" alt="Home2stay Tub Cut w/ Door"
                             class="w-full object-cover" style="height: 400px;">
                         <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Popular

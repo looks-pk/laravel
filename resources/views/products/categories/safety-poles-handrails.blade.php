@@ -17,7 +17,7 @@
     <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('{{ asset('al-prod-page-imgs/Safety-Poles-Handrails.jpg') }}');">
+            style="background-image: url('{{ asset('al-prod-page-imgs/Safety Poles & Handrails.png') }}');">
             <div class="absolute inset-0 bg-black opacity-60"></div>
         </div>
 

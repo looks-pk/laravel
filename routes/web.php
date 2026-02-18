@@ -56,8 +56,12 @@ Route::get('/sitemap', [SitemapController::class, 'html'])->name('sitemap');
 
 // Stairlifts Landing Page
 Route::get('/stairlifts-canada', function() {
-    return view('stairlifts-canada');
+    return redirect()->route('stairlifts.vancouver');
 })->name('stairlifts.canada');
+
+Route::get('/stairlifts-vancouver', function() {
+    return view('stairlifts-canada');
+})->name('stairlifts.vancouver');
 
 Route::get('/privacy-policy', function() {
     return view('privacyPolicy');

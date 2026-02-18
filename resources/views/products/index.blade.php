@@ -497,7 +497,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/Model-3052.jpg') }}" alt="Walk-In Tub"
+                        <img src="{{ asset('al-prod-page-imgs/walkin-tub.png') }}" alt="Walk-In Tub"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -529,7 +529,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/Model-3052.jpg') }}" alt="Walk-In Tub"
+                        <img src="{{ asset('al-prod-page-imgs/vanities.png') }}" alt="Walk-In Tub"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -560,7 +560,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/Model-3052.jpg') }}" alt="Walk-In Tub"
+                        <img src="{{ asset('al-prod-page-imgs/flooringandplumbing.png') }}" alt="Walk-In Tub"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div

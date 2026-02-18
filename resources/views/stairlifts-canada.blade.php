@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Stairlifts Canada - Home2stay Accessibility Solutions')
+@section('title', 'Stairlifts Ve - Home2stay Accessibility Solutions')
 @section('meta_description', 'Home2stay Stairlifts help you regain access to all levels of your home. Straight or curved stairs, we have a solution that works. Industry-leading warranties and quick install times.')
 
 @push('styles')
@@ -183,17 +183,19 @@
                 <!-- Left Column: Images Stacked Vertically -->
                 <div class="space-y-6">
                 <div class="items-center justify-center">
-                    <div style="height: 350px; border-radius: 12px; overflow: hidden; ">
-                        <img src="{{ asset('/ads/Stair-Lifts-cat-image-min.jpg') }}" alt="Stairlift 1" style="width: 100%; height: 100%; object-fit: contain;">
-                    </div>
-                    <h3 class="text-center text-2xl font-bold text-gray-800">Straight Stairlifts</h3>
-                    </div>
-                    <div class="items-center justify-center">
-                    <div style="height: 350px; border-radius: 12px; overflow: hidden;">
-                        <img src="{{ asset('/ads/ads-canada.png') }}" alt="Stairlift 2" style="width: 100%; height: 100%; object-fit: contain;">
-                    </div>
+                    <a href="">
+                        <h3 class="text-center text-2xl font-bold text-gray-800">Straight Stairlifts</h3>
+                        <div style="height: 350px; border-radius: 12px; overflow: hidden; ">
+                            <img src="{{ asset('/ads/Access_BDD_Outdoor.jpg') }}" alt="Stairlift 1" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                    </a>
+                </div>
+                <div class="items-center justify-center">
                     <h3 class="text-center text-2xl font-bold text-gray-800">Curved Stairlifts</h3>
+                    <div style="height: 350px; border-radius: 12px; overflow: hidden;">
+                        <img src="{{ asset('/ads/Flow X_Detail 42.jpg') }}" alt="Stairlift 2" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
+                </div>
                 </div>
 
                 <!-- Right Column: Contact Form -->

@@ -17,7 +17,7 @@
     <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('{{ asset('/al-prod-page-imgs/ElevatorPorch-Lifts.jpg') }}');">
+            style="background-image: url('{{ asset('/al-prod-page-imgs/vertical-lift-hero.png') }}');">
             <div class="absolute inset-0 bg-black opacity-60"></div>
         </div>
 

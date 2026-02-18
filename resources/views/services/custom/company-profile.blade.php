@@ -223,6 +223,54 @@
         </div>
     </section>
 
+        <section class="py-16 md:py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row gap-12 items-center">
+                
+                <div class="w-full lg:w-1/2">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6 relative">
+                        Recognized for Excellence by the People We Serve
+                        <span class="absolute -bottom-2 left-0 w-20 h-1 bg-gradient-to-r from-primary to-purple-600 rounded-full"></span>
+                    </h2>
+
+                    <div class="space-y-6">
+                        <p class="text-gray-600 text-lg leading-relaxed">
+                            We're proud to have been named a Consumer Choice Award winner in Vancouver for both 2025 and 2026 — an honour voted on by the very community we serve.
+The Consumer Choice Award recognizes businesses that demonstrate outstanding performance, service quality, and customer satisfaction. Being selected two years in a row reflects our ongoing commitment to delivering accessible, professional, and trustworthy solutions to families and individuals across British Columbia.
+For us, this recognition isn't just an award — it's a reminder of why we do what we do: to make every home safer, more accessible, and more inclusive, one project at a time.
+                        </p>
+                        <div class="bg-gradient-to-r from-primary/5 to-purple-600/5 p-6 rounded-xl border-l-4 border-primary">
+                            <p class="text-gray-700 text-lg font-medium leading-relaxed">
+                                🏅 "Voted by our community. Driven by your trust."
+                            </p>
+                        </div>
+                        
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <img src="{{ asset('logo/canada.png') }}" className='w-100 h-[250px] object-cover' alt="">
+                            </div>
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <img src="{{ asset('logo/Vancouver-2025.png') }}" className='w-100 h-[250px] object-cover' alt="">
+                            </div>
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <img src="{{ asset('logo/Vancouver-2026.png') }}" className='w-100 h-[250px] object-cover' alt="">
+                            </div>
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <img src="{{ asset('logo/Vancouver 2026_2-Years.png') }}" className='w-100 h-[250px] object-cover' alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2">
+                    <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl overflow-hidden shadow-lg">
+                        <img src="{{ asset('abt-company/CCAYVR012726-71.jpg') }}" alt="Accessible Bathroom"
+                            class="w-full h-[600px] object-contain hover:scale-105 transition-transform duration-500" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Timeline Section -->
     <section class="py-20 bg-gradient-to-br from-primary/5 to-purple-600/5">
         <div class="container mx-auto px-4">

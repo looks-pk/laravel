@@ -241,7 +241,7 @@
         }
 
         .product-card .card-img {
-            height: 200px;
+            height: 250px;
             overflow: hidden;
         }
 
@@ -249,6 +249,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
+             object-position: center; 
             transition: var(--transition);
         }
 
@@ -670,7 +671,7 @@
                     <!-- Slide 1: Stairlift Flow X -->
                     <div class="swiper-slide">
                         <div class="hero-slide-bg">
-                            <img src="{{ asset('h2s-banners/clean-cut-tub-cut-2.png') }}" alt="Stairlift Flow X" class="hero-slide-image">
+                            <img src="{{ asset('h2s-banners/Access_BDD_Outdoor 11.jpg') }}" alt="Stairlift Flow X" class="hero-slide-image">
                             <div class="hero-slide-overlay"></div>
                         </div>
                     </div>
@@ -678,7 +679,7 @@
                     <!-- Slide 2: Bruno SRE-3050 Stairlift -->
                     <div class="swiper-slide">
                         <div class="hero-slide-bg">
-                            <img src="{{ asset('h2s-banners/promenaid-grab-bar-2.png') }}" alt="Bruno SRE-3050 Stairlift" class="hero-slide-image">
+                            <img src="{{ asset('h2s-banners/Flow X_Main_Wide 1.jpg') }}" alt="Bruno SRE-3050 Stairlift" class="hero-slide-image">
                             <div class="hero-slide-overlay"></div>
                         </div>
                     </div>
@@ -686,7 +687,7 @@
                     <!-- Slide 3: Sentrel Bathroom -->
                     <div class="swiper-slide">
                         <div class="hero-slide-bg">
-                            <img src="{{ asset('h2s-banners/clean-cut-tub-cut-3.png') }}" alt="Sentrel Bathroom" class="hero-slide-image">
+                            <img src="{{ asset('h2s-banners/11526-Revision-to-10981-Assisted-Living-2-12-14-2020-VM-Artwork-Option-2-scaled.jpg') }}" alt="Sentrel Bathroom" class="hero-slide-image">
                             <div class="hero-slide-overlay"></div>
                         </div>
                     </div>
@@ -694,7 +695,7 @@
                     <!-- Slide 4: Clean Cut Tub Cut -->
                     <div class="swiper-slide">
                         <div class="hero-slide-bg">
-                            <img src="{{ asset('h2s-banners/Sentrel-Bathroom-2.png') }}" alt="Clean Cut Tub Cut" class="hero-slide-image">
+                            <img src="{{ asset('h2s-banners/61033_lifestyle_shot.webp') }}" alt="Clean Cut Tub Cut" class="hero-slide-image">
                             <div class="hero-slide-overlay"></div>
                         </div>
                     </div>
@@ -702,13 +703,13 @@
                     <!-- Slide 5: Promenaid Grab Bar -->
                     <div class="swiper-slide">
                         <div class="hero-slide-bg">
-                            <img src="{{ asset('h2s-banners/stairlift-bruno-sre-3050-2.png') }}" alt="Promenaid Grab Bar" class="hero-slide-image">
+                            <img src="{{ asset('h2s-banners/ART-05-1138x667.webp') }}" alt="Promenaid Grab Bar" class="hero-slide-image">
                             <div class="hero-slide-overlay"></div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="hero-slide-bg">
-                            <img src="{{ asset('h2s-banners/stairlift-flow-x.png') }}" alt="Promenaid Grab Bar" class="hero-slide-image">
+                            <img src="{{ asset('h2s-banners/Glass_Mount_LED_Montreal_4-scaled.jpg') }}" alt="Promenaid Grab Bar" class="hero-slide-image">
                             <div class="hero-slide-overlay"></div>
                         </div>
                     </div>
@@ -723,8 +724,7 @@
         <div class="hero-content container mx-auto px-8 h-full flex items-center" style="position: relative; z-index: 5;">
             <div class="flex flex-col lg:flex-row items-center justify-between w-full">
                 <div class="text-white max-w-2xl lg:mr-8 hero-text">
-                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Home2stay provides Accessibility Solutions,
-                        Home Safety Improvements with a Universal Design!</h1>
+                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Stair Lifts & Accessible Bathroom Renovations in Vancouver — Aging in Place Solutions</h1>
                     <p class="text-xl mb-8 text-gray-100">We help you regain safety and independence in your space to help
                         you and your loved ones stay safe, even at home.</p>
                     <div class="flex flex-wrap gap-4">
@@ -799,21 +799,19 @@
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">Accessibility Solutions for Your
                     Home</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">Our wide range of quality products such as grab bars, bathroom
-                    safety equipment, ramps, and more are designed to enhance accessibility and aesthetics, making everyday
-                    home life easier for people of all ages and abilities.</p>
+                <p class="text-gray-600 max-w-2xl mx-auto">At Home2stay, we specialize in making Vancouver homes safer and more accessible for seniors, individuals with mobility challenges, and families of all abilities. From stair lifts and bathroom renovations to grab bars, ramps, and safety equipment — we supply and install everything you need to stay comfortable and independent at home.</p>
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Product Card 1 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/141-1200x800-1-1024x683-min.jpg') }}" alt="Barrier-Free Bathrooms"
+                        <img src="{{ asset('/home-page-card-images/barrier-free-bathroom.jpg') }}" alt="Barrier-Free Bathrooms"
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
                         <a href="/products-categories/barrier-free-bathrooms/">
-                        <h3>Barrier-Free Bathrooms</h3>
+                        <h3>Bathroom Renovations</h3>
                         </a>
                         <p class="mb-3">Create a safe and accessible oasis with our thoughtfully designed solutions for all
                             mobility needs.</p>
@@ -822,7 +820,7 @@
                         <div class="mb-4 text-sm">
                             <div class="flex justify-between">
                                 <span class="font-semibold text-gray-700">Purchase:</span>
-                                <span class="text-primary font-bold">$1,200 - $3,500</span>
+                                <span class="text-primary font-bold">Starting at $10,000</span>
                             </div>
                             <div class="flex justify-between rental-option" style="display: none;">
                                 <span class="font-semibold text-gray-700">Rental:</span>
@@ -974,7 +972,7 @@
                     </div>
                     <div class="card-body">
                         <a href="/products-categories/safety-poles-handrails/">
-                        <h3>Safety Poles & Handrails</h3>
+                        <h3>Handrails & Home Safety</h3>
                         </a>
                         <p class="mb-3">Enhance safety and stability with our safety poles and handrails, providing crucial
                             support in various home areas.</p>
@@ -1051,7 +1049,7 @@
                 <!-- Product Card 4 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/Ramps.jpg') }}" alt="Ramps" class="w-full h-full object-cover">
+                        <img src="{{ asset('/al-prod-page-imgs/rolling-folding-ramp.jpeg') }}" alt="Ramps" class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
                         <a href="/products-categories/ramps/">
@@ -1130,7 +1128,7 @@
                 <!-- Product Card 5 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/Tub-Cuts.jpg') }}" alt="Tub Cuts"
+                        <img src="{{ asset('/al-prod-page-imgs/clean-tub-cut.png') }}" alt="Tub Cuts"
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
@@ -1144,7 +1142,7 @@
                         <div class="mb-4 text-sm">
                             <div class="flex justify-between">
                                 <span class="font-semibold text-gray-700">Purchase:</span>
-                                <span class="text-primary font-bold">$700 - $1,500</span>
+                                <span class="text-primary font-bold">Starting From $950</span>
                             </div>
                             <div class="flex justify-between rental-option" style="display: none;">
                                 <span class="font-semibold text-gray-700">Rental:</span>
@@ -1210,7 +1208,7 @@
                 <!-- Product Card 6 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/Grab-Bars.jpg') }}" alt="Grab Bars"
+                        <img src="{{ asset('/al-prod-page-imgs/PTA-01-1-1138x667.webp') }}" alt="Grab Bars"
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
@@ -1427,12 +1425,12 @@
                         
                         <div class="relative z-10">
                             <!-- Badge -->
-                            <div class="inline-flex items-center px-4 py-2 bg-secondary/10 text-secondary-dark rounded-full text-sm font-semibold mb-6">
+                            {{-- <div class="inline-flex items-center px-4 py-2 bg-secondary/10 text-secondary-dark rounded-full text-sm font-semibold mb-6">
                                 <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd" d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" clip-rule="evenodd"></path>
                                 </svg>
                                 Premium Service
-                            </div>
+                            </div> --}}
 
                             <h2 class="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-6 leading-tight">
                                 Transform Your Bathroom with 
@@ -1512,9 +1510,9 @@
             </div>
 
             <!-- Side by Side Layout -->
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 ">
                 <!-- Image Side -->
-                <div class="relative rounded-2xl overflow-hidden shadow-xl h-[600px]">
+                <div class="relative rounded-2xl overflow-hidden shadow-xl h-100">
                     <img src="{{ asset('h-slider/Carousel-item-2-min.jpg') }}" alt="Home Accessibility Service"
                         class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-r from-primary/70 to-primary/40"></div>

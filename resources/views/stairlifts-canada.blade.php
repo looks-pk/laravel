@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Stairlifts Ve - Home2stay Accessibility Solutions')
+@section('title', 'Stairlifts Vancouver - Home2stay Accessibility Solutions')
 @section('meta_description', 'Home2stay Stairlifts help you regain access to all levels of your home. Straight or curved stairs, we have a solution that works. Industry-leading warranties and quick install times.')
 
 @push('styles')
@@ -158,6 +158,16 @@
             display: inline-block;
             margin-bottom: 10px;
         }
+        p{
+            font-size: 20px !important;
+        }
+        span{
+            font-size: 20px !important;
+        }
+        
+        ul li{
+            font-size: 20px !important;
+        }
     </style>
 @endpush
 
@@ -167,7 +177,7 @@
         <div class="container mx-auto px-4">
             <div class="text-center">
                 <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-2">
-                    Stairlifts Canada - Regain Freedom in Your Home
+                    Stairlifts Vancouver - Regain Freedom in Your Home
                 </h1>
                 <p class="text-lg md:text-xl text-blue-100 max-w-2xl mx-auto" style="margin-bottom: 0;">
                     Home2stay Stairlifts help you regain access to all levels of your home. Whether you have straight or curved stairs, we have a solution that will work for you. Backed by industry leading warranties and some of the quickest install times for straight and custom curved stairlifts, Home2stay will help you stay mobile in the home that you love.
@@ -179,34 +189,52 @@
     <!-- Images and Contact Form Section - Left Images, Right Form -->
     <section id="contact-form" style="background: #f9fafb; padding: 60px 0;">
         <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl mx-auto">
-                <!-- Left Column: Images Stacked Vertically -->
-                <div class="space-y-6">
-                <div class="items-center justify-center">
-                    <a href="">
-                        <h3 class="text-center text-2xl font-bold text-gray-800">Straight Stairlifts</h3>
-                        <div style="height: 350px; border-radius: 12px; overflow: hidden; ">
-                            <img src="{{ asset('/ads/Access_BDD_Outdoor.jpg') }}" alt="Stairlift 1" style="width: 100%; height: 100%; object-fit: cover;">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl ">
+                    <div class="space-y-6">
+                        <div class="relative rounded-2xl overflow-hidden shadow-xl h-50">
+                        <img src="{{ asset('/ads/Access_BDD_Outdoor.jpg') }}" alt="Home Accessibility Service"
+                            class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-r from-primary/70 to-primary/40"></div>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-center text-white p-8">
+                                <div class="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                                    <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-3xl font-bold mb-4">Straight Stair Lifts</h3>
+                                {{-- <p class="text-lg opacity-90">Expert technicians with over 40 years of experience</p> --}}
+                            </div>
                         </div>
-                    </a>
-                </div>
-                <div class="items-center justify-center">
-                    <h3 class="text-center text-2xl font-bold text-gray-800">Curved Stairlifts</h3>
-                    <div style="height: 350px; border-radius: 12px; overflow: hidden;">
-                        <img src="{{ asset('/ads/Flow X_Detail 42.jpg') }}" alt="Stairlift 2" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
-                </div>
+                    <div class="relative rounded-2xl overflow-hidden shadow-xl h-50">
+                        <img src="{{ asset('/ads/Flow X_Detail 42.jpg') }}" alt="Home Accessibility Service"
+                            class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-r from-primary/70 to-primary/40"></div>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-center text-white p-8">
+                                <div class="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                                    <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-3xl font-bold mb-4">Curved Stair Lifts</h3>
+                                <p class="text-lg opacity-90">Expert technicians with over 40 years of experience</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Right Column: Contact Form -->
                 <div>
-                    <div class="text-center mb-8">
-                        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Get Your Free Quote Today</h2>
-                        <p class="text-lg text-gray-600">Fill out the form below and our team will contact you shortly</p>
-                    </div>
 
-                    <div class="quick-form-section">
-                        <form action="/submit-quick-contact" method="POST" class="space-y-6">
+                    <div class="quick-form-section h-[100%] relative">
+                        
+                        <div class="absolute top-10 text-center mb-8">
+                            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Get Your Free Quote Today</h2>
+                            <p class="text-lg text-gray-600">Fill out the form below and our team will contact you shortly</p>
+                        </div>
+                        <form action="/submit-quick-contact" method="POST" class="space-y-6 absolute top-[15%] pr-[50px]">
                             @csrf
                             <input type="hidden" name="form_type" value="quick_contact">
                             <input type="hidden" name="form_source" value="stairlifts_landing_page">
@@ -259,15 +287,15 @@
     
     <!-- Additional Content Section -->
     <section class="py-16 bg-white">
-        <div class="container mx-auto px-4">
-            <div class="max-w-4xl mx-auto">
+        <div class="container mx-auto">
+            <div class="">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Why Choose Home2stay Stairlifts?</h2>
                     <p class="text-lg text-gray-600">Experience the difference with Canada's trusted stairlift provider</p>
                 </div>
 
-                <div class="space-y-8">
-                    <div class="content-section">
+                <div class="space-y-8 grid grid-cols-2 gap-12">
+                    <div class="content-section" style="margin-bottom: 0;">
                         <h3 class="text-2xl font-bold text-gray-800 mb-4">Stay Mobile in the Home You Love</h3>
                         <p class="text-gray-700 leading-relaxed mb-4">
                             Our stairlifts are designed with your safety and comfort in mind. Experience smooth, quiet operation with intuitive controls that make navigating your stairs effortless. No more worrying about falls or struggling with mobility challenges.
@@ -294,7 +322,7 @@
                         </div>
                     </div>
 
-                    <div class="content-section">
+                    <div class="content-section" style="margin-top: 0;">
                         <h3 class="text-2xl font-bold text-gray-800 mb-4">Professional Installation & Support</h3>
                         <p class="text-gray-700 leading-relaxed mb-4">
                             Our certified technicians ensure your stairlift is installed safely and correctly. We provide comprehensive training on operation and maintenance, so you feel confident using your new stairlift from day one.
@@ -324,45 +352,45 @@
                         </ul>
                     </div>
 
-                    <div class="content-section">
-                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Safety & Quality Features</h3>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div>
-                                <h4 class="font-semibold text-gray-800 mb-2 flex items-center">
-                                    <svg class="w-5 h-5 text-blue-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-                                    </svg>
-                                    Safety First
-                                </h4>
-                                <p class="text-gray-600 text-sm">Advanced safety features including seatbelt, sensors, and emergency stop. Battery backup ensures operation during power outages.</p>
-                            </div>
-                            <div>
-                                <h4 class="font-semibold text-gray-800 mb-2 flex items-center">
-                                    <svg class="w-5 h-5 text-blue-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-                                    </svg>
-                                    Quick Installation
-                                </h4>
-                                <p class="text-gray-600 text-sm">Industry-leading installation times. Most straight stairlifts installed in 2-4 hours with minimal disruption to your home.</p>
-                            </div>
-                            <div>
-                                <h4 class="font-semibold text-gray-800 mb-2 flex items-center">
-                                    <svg class="w-5 h-5 text-blue-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-                                    </svg>
-                                    Custom Solutions
-                                </h4>
-                                <p class="text-gray-600 text-sm">Solutions for straight, curved, narrow, and outdoor stairs. Every stairlift is tailored to your specific home layout.</p>
-                            </div>
-                            <div>
-                                <h4 class="font-semibold text-gray-800 mb-2 flex items-center">
-                                    <svg class="w-5 h-5 text-blue-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-                                    </svg>
-                                    Best Value
-                                </h4>
-                                <p class="text-gray-600 text-sm">Competitive pricing with flexible financing options. Industry-leading warranties protect your investment for years to come.</p>
-                            </div>
+                </div>
+                <div class="content-section mt-6">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Safety & Quality Features</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-2 flex items-center">
+                                <svg class="w-5 h-5 text-blue-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                Safety First
+                            </h4>
+                            <p class="text-gray-600 text-sm">Advanced safety features including seatbelt, sensors, and emergency stop. Battery backup ensures operation during power outages.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-2 flex items-center">
+                                <svg class="w-5 h-5 text-blue-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                Quick Installation
+                            </h4>
+                            <p class="text-gray-600 text-sm">Industry-leading installation times. Most straight stairlifts installed in 2-4 hours with minimal disruption to your home.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-2 flex items-center">
+                                <svg class="w-5 h-5 text-blue-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                Custom Solutions
+                            </h4>
+                            <p class="text-gray-600 text-sm">Solutions for straight, curved, narrow, and outdoor stairs. Every stairlift is tailored to your specific home layout.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-2 flex items-center">
+                                <svg class="w-5 h-5 text-blue-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                Best Value
+                            </h4>
+                            <p class="text-gray-600 text-sm">Competitive pricing with flexible financing options. Industry-leading warranties protect your investment for years to come.</p>
                         </div>
                     </div>
                 </div>

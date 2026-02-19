@@ -417,7 +417,7 @@ span   { font-size: inherit; } /* inherits from parent */
                             </a>
                         </div>
                         <p class="text-gray-400 mb-4">Located in Vancouver, British Columbia, Home2stay specializes in
-                            home accessibility solutions and renovations. With over a decade of expertise in
+                            home accessibility solutions and renovations. With decades of expertise in
                             accessibility and universal design, we aim to build safe and inclusive homes and spaces for
                             people of all ages and abilities.</p>
                         <div class="flex space-x-4">
@@ -470,11 +470,21 @@ span   { font-size: inherit; } /* inherits from parent */
                         <ul class="space-y-2">
                             <li><a href="/all-products/" class="text-gray-400 hover:text-white transition-colors">All
                                     Products</a></li>
+                            <li><a href="/products-categories/stair-lifts/"
+                                    class="text-gray-400 hover:text-white transition-colors">Stair Lifts</a>
+                            </li>
+                            <li><a href="/products-categories/barrier-free-bathrooms/"
+                                    class="text-gray-400 hover:text-white transition-colors">Bathrooms Renovations</a>
+                            </li>
                             <li><a href="/products-categories/grab-bars/"
                                     class="text-gray-400 hover:text-white transition-colors">Grab Bars</a></li>
-                            <li><a href="/products-categories/barrier-free-bathrooms/"
-                                    class="text-gray-400 hover:text-white transition-colors">Barrier-Free Bathrooms</a>
+                            <li><a href="/products-categories/ramps//"
+                                    class="text-gray-400 hover:text-white transition-colors">Ramps</a>
                             </li>
+                            <li><a href="/products-categories/vertical-porch-lifts-vpl/"
+                                    class="text-gray-400 hover:text-white transition-colors">Vertical Platform Lifts</a>
+                            </li>
+                            
                             <!-- <li><a href="/products-categories/automotive/" class="text-gray-400 hover:text-white transition-colors">Automotive</a></li> -->
                         </ul>
                     </div>

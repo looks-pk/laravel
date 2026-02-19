@@ -251,14 +251,14 @@
     </section>
 
     <!-- Emergency Banner -->
-    <section class="py-8 bg-gray-50">
+    {{-- <section class="py-8 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="emergency-banner">
                 <h3 class="text-2xl font-bold mb-2">🚨 Emergency Installation Services Available</h3>
                 <p class="text-lg">Need urgent accessibility solutions? We offer emergency installations for critical safety needs.</p>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- Contact Information Cards -->
     <section class="py-16 bg-gray-50">

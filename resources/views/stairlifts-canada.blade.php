@@ -158,13 +158,10 @@
             display: inline-block;
             margin-bottom: 10px;
         }
-        p{
-            font-size: 20px !important;
-        }
+
         span{
             font-size: 20px !important;
         }
-        
         ul li{
             font-size: 20px !important;
         }
@@ -190,8 +187,8 @@
     <section id="contact-form" style="background: #f9fafb; padding: 60px 0;">
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl ">
-                    <div class="space-y-6">
-                        <div class="relative rounded-2xl overflow-hidden shadow-xl h-50">
+                <div class="space-y-6">
+                    {{-- <div class="relative rounded-2xl overflow-hidden shadow-xl h-50">
                         <img src="{{ asset('/ads/Access_BDD_Outdoor.jpg') }}" alt="Home Accessibility Service"
                             class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-gradient-to-r from-primary/70 to-primary/40"></div>
@@ -203,7 +200,6 @@
                                     </svg>
                                 </div>
                                 <h3 class="text-3xl font-bold mb-4">Straight Stair Lifts</h3>
-                                {{-- <p class="text-lg opacity-90">Expert technicians with over 40 years of experience</p> --}}
                             </div>
                         </div>
                     </div>
@@ -222,19 +218,44 @@
                                 <p class="text-lg opacity-90">Expert technicians with over 40 years of experience</p>
                             </div>
                         </div>
+                    </div> --}}
+
+                    <div class="relative order-2 lg:order-1">
+                        <div class="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl blur-3xl"></div>
+                        <div class="relative bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
+                            <img src="{{ asset('/ads/Access_BDD_Outdoor.jpg') }}" alt="Happy Client"
+                                class="w-full h-[400px] lg:h-[500px] object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/40 to-transparent"></div>
+                            <div class="absolute bottom-8 left-8 right-8 text-white">
+                                <h2 class="text-2xl font-bold mb-2">Straight StairLifts</h2>
+                                {{-- <p class="text-white/90">Transforming lives through thoughtful accessibility solutions</p> --}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative order-2 lg:order-1">
+                        <div class="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl blur-3xl"></div>
+                        <div class="relative bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
+                            <img src="{{ asset('/ads/Flow X_Detail 42.jpg') }}" alt="Happy Client"
+                                class="w-full h-[400px] lg:h-[500px] object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/40 to-transparent"></div>
+                            <div class="absolute bottom-8 left-8 right-8 text-white">
+                                <h2 class="text-2xl font-bold mb-2">Curved StairLifts</h2>
+                                {{-- <p class="text-white/90">Transforming lives through thoughtful accessibility solutions</p> --}}
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Right Column: Contact Form -->
                 <div>
 
-                    <div class="quick-form-section h-[100%] relative">
+                    <div class="quick-form-section h-[100%]">
                         
-                        <div class="absolute top-10 text-center mb-8">
+                        <div class="text-center mb-8">
                             <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Get Your Free Quote Today</h2>
                             <p class="text-lg text-gray-600">Fill out the form below and our team will contact you shortly</p>
                         </div>
-                        <form action="/submit-quick-contact" method="POST" class="space-y-6 absolute top-[15%] pr-[50px]">
+                        <form action="/submit-quick-contact" method="POST" class="space-y-6">
                             @csrf
                             <input type="hidden" name="form_type" value="quick_contact">
                             <input type="hidden" name="form_source" value="stairlifts_landing_page">
@@ -332,20 +353,20 @@
                         </p>
                         <ul class="space-y-3 text-gray-700">
                             <li class="flex items-start">
-                                <svg class="w-5 h-5 text-blue-500 mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                                 </svg>
                                 Free in-home consultation and assessment
                             </li>
                             <li class="flex items-start">
-                                <svg class="w-5 h-5 text-blue-500 mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                                 </svg>
                                 Professional measurement and fitting
                             </li>
                             <li class="flex items-start">
-                                <svg class="w-5 h-5 text-blue-500 mr-2 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                                 </svg>
                                 Ongoing maintenance and service available
                             </li>
@@ -358,7 +379,7 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
                             <h4 class="font-semibold text-gray-800 mb-2 flex items-center">
-                                <svg class="w-5 h-5 text-blue-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                                 </svg>
                                 Safety First
@@ -367,7 +388,7 @@
                         </div>
                         <div>
                             <h4 class="font-semibold text-gray-800 mb-2 flex items-center">
-                                <svg class="w-5 h-5 text-blue-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                                 </svg>
                                 Quick Installation
@@ -376,7 +397,7 @@
                         </div>
                         <div>
                             <h4 class="font-semibold text-gray-800 mb-2 flex items-center">
-                                <svg class="w-5 h-5 text-blue-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                                 </svg>
                                 Custom Solutions
@@ -385,7 +406,7 @@
                         </div>
                         <div>
                             <h4 class="font-semibold text-gray-800 mb-2 flex items-center">
-                                <svg class="w-5 h-5 text-blue-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                                 </svg>
                                 Best Value

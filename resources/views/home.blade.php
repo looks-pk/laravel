@@ -1967,7 +1967,7 @@
                 <div class="relative order-2 lg:order-1">
                     <div class="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl blur-3xl"></div>
                     <div class="relative bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
-                        <img src="{{ asset('h-slider/carousel-img-1-min.png') }}" alt="Happy Client"
+                        <img src="{{ asset('abt-company/how-we-work-min.png') }}" alt="Happy Client"
                             class="w-full h-[400px] lg:h-[500px] object-cover">
                         <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/40 to-transparent"></div>
                         <div class="absolute bottom-8 left-8 right-8 text-white">

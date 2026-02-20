@@ -160,10 +160,7 @@
                 </nav>
                 <h1 class="hero-title text-3xl md:text-4xl lg:text-5xl mb-6">About Us</h1>
                 <p class="hero-description text-lg md:text-xl opacity-95 max-w-3xl mx-auto leading-relaxed">
-                    We dream of creating an accessible and inclusive community. Located in Vancouver, British Columbia, 
-                    Home2stay specializes in home accessibility solutions and renovations. With over 20 years of expertise 
-                    in accessibility and universal design, we aim to build safe and inclusive homes and spaces for people 
-                    of all ages and abilities.
+                    Home2stay is Vancouver, British Columbia's trusted provider of home accessibility solutions. We offer a wide range of products and renovations — including stairlifts, porch lifts, adaptive lamps and lighting, grab bars, wheelchair ramps, and custom modifications — all designed to make your home safer and more inclusive. Backed by decades of expertise in accessibility and universal design, we're committed to transforming spaces for people of all ages and abilities.
                 </p>
             </div>
         </div>
@@ -188,12 +185,38 @@
                     <div class="space-y-6">
                         <p class="text-gray-600 text-lg leading-relaxed">
                             We are dedicated to finding solutions to help you maintain a safe and dignified lifestyle in the
-                            comfort of your own home.
+                            comfort of your own home. Here's how we work with you every step of the way:
                         </p>
-                        <p class="text-gray-600 text-lg leading-relaxed">
+                        <ul class="text-gray-600 text-lg leading-relaxed list-none space-y-3">
+                            <li>
+                                <span class="font-semibold text-gray-700">1. Understanding Your Needs —</span>
+                                We start by listening. Our team takes the time to learn about your lifestyle, mobility challenges,
+                                and what matters most to you at home.
+                            </li>
+                            <li>
+                                <span class="font-semibold text-gray-700">2. Home Safety Assessment —</span>
+                                We conduct a thorough home safety checklist to identify any hazards or areas that could be improved
+                                to make your space safer and more accessible.
+                            </li>
+                            <li>
+                                <span class="font-semibold text-gray-700">3. Custom Design —</span>
+                                Based on your needs and assessment, we develop a tailored accessibility design plan that fits your
+                                home, your lifestyle, and your goals.
+                            </li>
+                            <li>
+                                <span class="font-semibold text-gray-700">4. Transparent Quote —</span>
+                                We provide you with a clear, detailed quote so you know exactly what to expect — no surprises,
+                                no pressure.
+                            </li>
+                            <li>
+                                <span class="font-semibold text-gray-700">5. Installation & Beyond —</span>
+                                Once you are happy with the quote, our experienced team gets to work. And we don't stop there —
+                                we are here to support you long after the job is done.
+                            </li>
+                        </ul>
+                        <p class="text-gray-600 text-lg leading-relaxed mt-4">
                             Your trust is valuable to us. We are more than just a provider of accessibility and mobility
-                            solutions for homes and businesses — we are here to help you before and after your purchase,
-                            ensuring you have all the information you need to reach the right decision.
+                            solutions — we are your long-term partner in creating a home that works for you.
                         </p>
                         
                         <div class="bg-gradient-to-r from-primary/5 to-purple-600/5 p-6 rounded-xl border-l-4 border-primary">
@@ -272,171 +295,290 @@ For us, this recognition isn't just an award — it's a reminder of why we do wh
     </section>
 
     <!-- Timeline Section -->
-    <section class="py-20 bg-gradient-to-br from-primary/5 to-purple-600/5">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 relative inline-block">
-                    Our Home2stay Story So Far
-                    <span class="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-primary to-purple-600 rounded-full"></span>
-                </h2>
-            </div>
+    <!-- Timeline Section -->
+<section class="py-20 bg-gradient-to-br from-primary/5 to-purple-600/5">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 relative inline-block">
+                Our Home2stay Story So Far
+                <span class="absolute -bottom-3 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-primary to-purple-600 rounded-full"></span>
+            </h2>
+        </div>
 
-            <!-- Timeline Navigation -->
-            <div class="relative max-w-4xl mx-auto mb-16">
-                <!-- Timeline Line -->
-                <div class="absolute top-1/2 left-0 right-0 h-2 timeline-line transform -translate-y-1/2 rounded-full"></div>
+        <!-- Timeline Navigation -->
+        <div class="relative max-w-5xl mx-auto mb-16">
+            <!-- Timeline Line -->
+            <div class="absolute top-1/2 left-0 right-0 h-2 timeline-line transform -translate-y-1/2 rounded-full"></div>
 
-                <!-- Timeline Years -->
-                <div class="flex justify-between relative">
-                    <!-- 2001 -->
-                    <div class="relative" id="year-nav-2001">
-                        <button onclick="showYear('2001')"
-                            class="year-button w-16 h-16 rounded-full bg-primary text-white font-bold flex items-center justify-center z-10 relative mx-auto mb-2 active-year">
-                            <span class="hidden md:inline">2001</span>
-                        </button>
-                        <div class="text-center">
-                            <span class="text-sm font-medium text-gray-600 md:hidden">2001</span>
-                        </div>
-                    </div>
-
-                    <!-- 2004 -->
-                    <div class="relative" id="year-nav-2004">
-                        <button onclick="showYear('2004')"
-                            class="year-button w-16 h-16 rounded-full bg-white text-primary font-bold flex items-center justify-center z-10 relative mx-auto mb-2 border-2 border-primary">
-                            <span class="hidden md:inline">2004</span>
-                        </button>
-                        <div class="text-center">
-                            <span class="text-sm font-medium text-gray-600 md:hidden">2004</span>
-                        </div>
-                    </div>
-
-                    <!-- 2013 -->
-                    <div class="relative" id="year-nav-2013">
-                        <button onclick="showYear('2013')"
-                            class="year-button w-16 h-16 rounded-full bg-white text-primary font-bold flex items-center justify-center z-10 relative mx-auto mb-2 border-2 border-primary">
-                            <span class="hidden md:inline">2013</span>
-                        </button>
-                        <div class="text-center">
-                            <span class="text-sm font-medium text-gray-600 md:hidden">2013</span>
-                        </div>
-                    </div>
-
-                    <!-- 2017 -->
-                    <div class="relative" id="year-nav-2017">
-                        <button onclick="showYear('2017')"
-                            class="year-button w-16 h-16 rounded-full bg-white text-primary font-bold flex items-center justify-center z-10 relative mx-auto mb-2 border-2 border-primary">
-                            <span class="hidden md:inline">2017</span>
-                        </button>
-                        <div class="text-center">
-                            <span class="text-sm font-medium text-gray-600 md:hidden">2017</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Timeline Content -->
-            <div class="max-w-5xl mx-auto">
-                <!-- 2001 Content -->
-                <div id="year-2001" class="timeline-content">
-                    <div class="flex flex-col lg:flex-row gap-8 items-center">
-                        <div class="w-full lg:w-1/2">
-                            <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
-                                <h3 class="text-2xl font-bold text-gray-800 mb-4 gradient-text">The Beginning</h3>
-                                <p class="text-lg text-gray-700 leading-relaxed">
-                                    Our Founder, Rahim Lakhani, fell in love with the challenges and the fulfillment of
-                                    positively changing lives via the home medical equipment space. He took the leap and left
-                                    his work at a Fortune 100 tech company to pursue his passion for helping others.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="w-full lg:w-1/2">
-                            <div class="bg-white rounded-2xl overflow-hidden shadow-xl border border-gray-100">
-                                <img src="{{ asset('abt-company/our-story-so-far-img-1.png') }}" 
-                                     class="w-full h-auto hover:scale-105 transition-transform duration-500" 
-                                     alt="Rahim Lakhani - Founder">
-                            </div>
-                        </div>
+            <!-- Timeline Years -->
+            <div class="flex justify-between relative">
+                <!-- 2001 -->
+                <div class="relative" id="year-nav-2001">
+                    <button onclick="showYear('2001')"
+                        class="year-button w-16 h-16 rounded-full bg-primary text-white font-bold flex items-center justify-center z-10 relative mx-auto mb-2 active-year">
+                        <span class="hidden md:inline">2001</span>
+                    </button>
+                    <div class="text-center">
+                        <span class="text-sm font-medium text-gray-600 md:hidden">2001</span>
                     </div>
                 </div>
 
-                <!-- 2004 Content -->
-                <div id="year-2004" class="timeline-content hidden">
-                    <div class="flex flex-col lg:flex-row gap-8 items-center">
-                        <div class="w-full lg:w-1/2">
-                            <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
-                                <h3 class="text-2xl font-bold text-gray-800 mb-4 gradient-text">Real Estate Ventures</h3>
-                                <p class="text-lg text-gray-700 leading-relaxed">
-                                    Rahim saw the opportunity in Vancouver's booming real estate market and entered the market
-                                    of renovating and selling properties. This experience fueled his passion for building 
-                                    beautiful and functional homes that serve people's needs.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="w-full lg:w-1/2">
-                            <div class="bg-white rounded-2xl overflow-hidden shadow-xl border border-gray-100">
-                                <img src="{{ asset('abt-company/our-story-so-far-img-1.png') }}"
-                                     alt="2004 - Real Estate Ventures" 
-                                     class="w-full h-auto hover:scale-105 transition-transform duration-500">
-                            </div>
-                        </div>
+                <!-- 2004 -->
+                <div class="relative" id="year-nav-2004">
+                    <button onclick="showYear('2004')"
+                        class="year-button w-16 h-16 rounded-full bg-white text-primary font-bold flex items-center justify-center z-10 relative mx-auto mb-2 border-2 border-primary">
+                        <span class="hidden md:inline">2004</span>
+                    </button>
+                    <div class="text-center">
+                        <span class="text-sm font-medium text-gray-600 md:hidden">2004</span>
                     </div>
                 </div>
 
-                <!-- 2013 Content -->
-                <div id="year-2013" class="timeline-content hidden">
-                    <div class="flex flex-col lg:flex-row gap-8 items-center">
-                        <div class="w-full lg:w-1/2">
-                            <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
-                                <h3 class="text-2xl font-bold text-gray-800 mb-4 gradient-text">Home2stay is Born</h3>
-                                <p class="text-lg text-gray-700 mb-4 leading-relaxed">
-                                    Home2stay was born! At the urging of many occupational therapists that Rahim worked
-                                    with, he combined his three areas of expertise: accessibility, medical equipment, and
-                                    construction.
-                                </p>
-                                <p class="text-lg text-gray-700 leading-relaxed">
-                                    The vision was to be the premier accessibility solutions provider in Vancouver and the Lower
-                                    Mainland, making homes safer and more accessible for everyone.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="w-full lg:w-1/2">
-                            <div class="bg-white rounded-2xl overflow-hidden shadow-xl border border-gray-100">
-                                <img src="{{ asset('abt-company/our-story-so-far-img-1.png') }}"
-                                     alt="2013 - Home2stay Founded" 
-                                     class="w-full h-auto hover:scale-105 transition-transform duration-500">
-                            </div>
-                        </div>
+                <!-- 2013 -->
+                <div class="relative" id="year-nav-2013">
+                    <button onclick="showYear('2013')"
+                        class="year-button w-16 h-16 rounded-full bg-white text-primary font-bold flex items-center justify-center z-10 relative mx-auto mb-2 border-2 border-primary">
+                        <span class="hidden md:inline">2013</span>
+                    </button>
+                    <div class="text-center">
+                        <span class="text-sm font-medium text-gray-600 md:hidden">2013</span>
                     </div>
                 </div>
 
-                <!-- 2017 Content -->
-                <div id="year-2017" class="timeline-content hidden">
-                    <div class="flex flex-col lg:flex-row gap-8 items-center">
-                        <div class="w-full lg:w-1/2">
-                            <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
-                                <h3 class="text-2xl font-bold text-gray-800 mb-4 gradient-text">Expansion & Growth</h3>
-                                <p class="text-lg text-gray-700 mb-4 leading-relaxed">
-                                    Home2stay moved into its beautiful new showroom and office in Vancouver in 2017,
-                                    marking a significant milestone in our growth and commitment to serving our community.
-                                </p>
-                                <p class="text-lg text-gray-700 leading-relaxed">
-                                    To serve even more people, Home2stay opened a second showroom location in Port
-                                    Coquitlam in 2021, expanding our reach across the Lower Mainland.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="w-full lg:w-1/2">
-                            <div class="bg-white rounded-2xl overflow-hidden shadow-xl border border-gray-100">
-                                <img src="{{ asset('abt-company/our-story-so-far-img-1.png') }}" 
-                                     alt="2017 - New Showroom"
-                                     class="w-full h-auto hover:scale-105 transition-transform duration-500">
-                            </div>
-                        </div>
+                <!-- 2017 -->
+                <div class="relative" id="year-nav-2017">
+                    <button onclick="showYear('2017')"
+                        class="year-button w-16 h-16 rounded-full bg-white text-primary font-bold flex items-center justify-center z-10 relative mx-auto mb-2 border-2 border-primary">
+                        <span class="hidden md:inline">2017</span>
+                    </button>
+                    <div class="text-center">
+                        <span class="text-sm font-medium text-gray-600 md:hidden">2017</span>
+                    </div>
+                </div>
+
+                <!-- 2023 -->
+                <div class="relative" id="year-nav-2023">
+                    <button onclick="showYear('2023')"
+                        class="year-button w-16 h-16 rounded-full bg-white text-primary font-bold flex items-center justify-center z-10 relative mx-auto mb-2 border-2 border-primary">
+                        <span class="hidden md:inline">2023</span>
+                    </button>
+                    <div class="text-center">
+                        <span class="text-sm font-medium text-gray-600 md:hidden">2023</span>
+                    </div>
+                </div>
+
+                <!-- 2025 -->
+                <div class="relative" id="year-nav-2025">
+                    <button onclick="showYear('2025')"
+                        class="year-button w-16 h-16 rounded-full bg-white text-primary font-bold flex items-center justify-center z-10 relative mx-auto mb-2 border-2 border-primary">
+                        <span class="hidden md:inline">2025</span>
+                    </button>
+                    <div class="text-center">
+                        <span class="text-sm font-medium text-gray-600 md:hidden">2025</span>
+                    </div>
+                </div>
+
+                <!-- 2026 -->
+                <div class="relative" id="year-nav-2026">
+                    <button onclick="showYear('2026')"
+                        class="year-button w-16 h-16 rounded-full bg-white text-primary font-bold flex items-center justify-center z-10 relative mx-auto mb-2 border-2 border-primary">
+                        <span class="hidden md:inline">2026</span>
+                    </button>
+                    <div class="text-center">
+                        <span class="text-sm font-medium text-gray-600 md:hidden">2026</span>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+
+        <!-- Timeline Content -->
+        <div class="max-w-5xl mx-auto">
+            <!-- 2001 Content -->
+            <div id="year-2001" class="timeline-content">
+                <div class="flex flex-col lg:flex-row gap-8 items-center">
+                    <div class="w-full lg:w-1/2">
+                        <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4 gradient-text">The Beginning</h3>
+                            <p class="text-lg text-gray-700 leading-relaxed">
+                                Our Founder, Rahim Lakhani, fell in love with the challenges and the fulfillment of
+                                positively changing lives via the home medical equipment space. He took the leap and left
+                                his work at a Fortune 100 tech company to pursue his passion for helping others.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/2">
+                        <div class="bg-white rounded-2xl overflow-hidden shadow-xl border border-gray-100">
+                            <img src="{{ asset('abt-company/our-story-so-far-img-1.png') }}"
+                                 class="w-full h-auto hover:scale-105 transition-transform duration-500"
+                                 alt="Rahim Lakhani - Founder">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2004 Content -->
+            <div id="year-2004" class="timeline-content hidden">
+                <div class="flex flex-col lg:flex-row gap-8 items-center">
+                    <div class="w-full lg:w-1/2">
+                        <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4 gradient-text">Real Estate Ventures</h3>
+                            <p class="text-lg text-gray-700 leading-relaxed">
+                                Rahim saw the opportunity in Vancouver's booming real estate market and entered the market
+                                of renovating and selling properties. This experience fueled his passion for building
+                                beautiful and functional homes that serve people's needs.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/2">
+                        <div class="bg-white rounded-2xl overflow-hidden shadow-xl border border-gray-100">
+                            <img src="{{ asset('abt-company/our-story-so-far-img-1.png') }}"
+                                 alt="2004 - Real Estate Ventures"
+                                 class="w-full h-auto hover:scale-105 transition-transform duration-500">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2013 Content -->
+            <div id="year-2013" class="timeline-content hidden">
+                <div class="flex flex-col lg:flex-row gap-8 items-center">
+                    <div class="w-full lg:w-1/2">
+                        <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4 gradient-text">Home2stay is Born</h3>
+                            <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                                Home2stay was born! At the urging of many occupational therapists that Rahim worked
+                                with, he combined his three areas of expertise: accessibility, medical equipment, and
+                                construction.
+                            </p>
+                            <p class="text-lg text-gray-700 leading-relaxed">
+                                The vision was to be the premier accessibility solutions provider in Vancouver and the Lower
+                                Mainland, making homes safer and more accessible for everyone.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/2">
+                        <div class="bg-white rounded-2xl overflow-hidden shadow-xl border border-gray-100">
+                            <img src="{{ asset('abt-company/our-story-so-far-img-1.png') }}"
+                                 alt="2013 - Home2stay Founded"
+                                 class="w-full h-auto hover:scale-105 transition-transform duration-500">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2017 Content -->
+            <div id="year-2017" class="timeline-content hidden">
+                <div class="flex flex-col lg:flex-row gap-8 items-center">
+                    <div class="w-full lg:w-1/2">
+                        <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4 gradient-text">Expansion & Growth</h3>
+                            <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                                Home2stay moved into its beautiful new showroom and office in Vancouver in 2017,
+                                marking a significant milestone in our growth and commitment to serving our community.
+                            </p>
+                            <p class="text-lg text-gray-700 leading-relaxed">
+                                To serve even more people, Home2stay opened a second showroom location in Port
+                                Coquitlam in 2021, expanding our reach across the Lower Mainland.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/2">
+                        <div class="bg-white rounded-2xl overflow-hidden shadow-xl border border-gray-100">
+                            <img src="{{ asset('abt-company/our-story-so-far-img-1.png') }}"
+                                 alt="2017 - New Showroom"
+                                 class="w-full h-auto hover:scale-105 transition-transform duration-500">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2023 Content -->
+            <div id="year-2023" class="timeline-content hidden">
+                <div class="flex flex-col lg:flex-row gap-8 items-center">
+                    <div class="w-full lg:w-1/2">
+                        <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4 gradient-text">A Bigger Home for Bigger Dreams</h3>
+                            <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                                In 2023, Home2stay made its most ambitious move yet — relocating to a sprawling
+                                5,300 square foot warehouse showroom. 
+                            </p>
+                            <p class="text-lg text-gray-700 leading-relaxed">
+                                This state-of-the-art space allows us to showcase our full range of accessibility
+                                solutions — from stairlifts and porch lifts to bathroom modifications and adaptive
+                                equipment — giving our customers the hands-on experience they deserve before making
+                                a decision.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/2">
+                        <div class="bg-white rounded-2xl overflow-hidden shadow-xl border border-gray-100">
+                            <img src="{{ asset('al-prod-page-imgs/IMG_4911-scaled.jpeg') }}"
+                                 alt="2023 - New Warehouse Showroom"
+                                 class="w-full h-auto hover:scale-105 transition-transform duration-500">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2025 Content -->
+            <div id="year-2025" class="timeline-content hidden">
+                <div class="flex flex-col lg:flex-row gap-8 items-center">
+                    <div class="w-full lg:w-1/2">
+                        <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4 gradient-text">Recognized & Reaching Further</h3>
+                            <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                                2025 marked a proud milestone for our team — Home2stay received its first formal
+                                industry recognition award, a testament to the dedication and care we bring to every
+                                client and every home.
+                            </p>
+                            <p class="text-lg text-gray-700 leading-relaxed">
+                                Inspired by this achievement, we doubled down on our commitment to bathroom
+                                accessibility, expanding our offerings to help even more people create safe,
+                                beautiful, and functional bathroom spaces tailored to their needs.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/2">
+                        <div class="bg-white rounded-2xl overflow-hidden shadow-xl border border-gray-100">
+                            <img src="{{ asset('logo/Vancouver-2025.png') }}"
+                                 alt="2025 - First Recognition Award"
+                                 class="w-full h-auto hover:scale-105 transition-transform duration-500">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2026 Content -->
+            <div id="year-2026" class="timeline-content hidden">
+                <div class="flex flex-col lg:flex-row gap-8 items-center">
+                    <div class="w-full lg:w-1/2">
+                        <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4 gradient-text">Consumer Choice Award</h3>
+                            <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                                The recognition keeps coming! In 2026, Home2stay was proudly honoured with the
+                                Consumer Choice Award — a reflection of the trust our clients place in us and the
+                                quality of work our team delivers every single day.
+                            </p>
+                            <p class="text-lg text-gray-700 leading-relaxed">
+                                This award is not just ours — it belongs to every client who let us into their home
+                                and every team member who showed up with care, skill, and dedication. We are just
+                                getting started.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/2">
+                        <div class="bg-white rounded-2xl overflow-hidden shadow-xl border border-gray-100">
+                            <img src="{{ asset('abt-company/CCAYVR012726-71.jpg') }}"
+                                 alt="2026 - Consumer Choice Award"
+                                 class="w-full h-auto hover:scale-105 transition-transform duration-500">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 
     <!-- Our Partners and Associations Section -->
     <section class="py-20 bg-white">
@@ -484,9 +626,9 @@ For us, this recognition isn't just an award — it's a reminder of why we do wh
                 </div>
 
                 <!-- Partner Brand 7 -->
-                <div class="brand-card bg-white rounded-xl p-6 flex items-center justify-center shadow-sm">
+                {{-- <div class="brand-card bg-white rounded-xl p-6 flex items-center justify-center shadow-sm">
                     <img src="{{ asset('brands/handicare-logo-min.png') }}" alt="Handicare" class="max-h-16 w-auto filter grayscale hover:grayscale-0 transition-all duration-300">
-                </div>
+                </div> --}}
 
                 <!-- Partner Brand 8 -->
                 <div class="brand-card bg-white rounded-xl p-6 flex items-center justify-center shadow-sm">
@@ -594,7 +736,7 @@ For us, this recognition isn't just an award — it's a reminder of why we do wh
                 <!-- Image -->
                 <div class="w-full lg:w-1/2">
                     <div class="bg-white rounded-2xl overflow-hidden shadow-xl border border-gray-200">
-                        <img src="{{ asset('abt-company/shower-handrail-grab-bar-elderly-people-bathroom-hospital-retirement-home 1.png') }}"
+                        <img src="{{ asset('al-prod-page-imgs/5165-Best-Bath-Trench-Drain-Pan-11-02-2015b-1-1024x682-2.jpeg') }}"
                             alt="Vancouver's Leading Provider" class="w-full h-auto hover:scale-105 transition-transform duration-500">
                     </div>
                 </div>
@@ -622,50 +764,28 @@ For us, this recognition isn't just an award — it's a reminder of why we do wh
                         <div class="swiper-slide">
                             <div class="testimonial-card bg-white rounded-2xl p-8 md:p-12 shadow-xl relative overflow-hidden">
                                 <div class="flex flex-col items-center mb-8">
-                                    <!-- Client Avatar -->
                                     <div class="w-24 h-24 bg-gradient-to-br from-primary/10 to-purple-600/10 rounded-full flex items-center justify-center mb-6 border-4 border-white shadow-lg">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                            class="w-12 h-12 text-primary">
-                                            <path fill-rule="evenodd"
-                                                d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
-                                                clip-rule="evenodd" />
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12 text-primary">
+                                            <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clip-rule="evenodd" />
                                         </svg>
                                     </div>
-
-                                    <!-- Client Name -->
-                                    <h4 class="text-2xl font-bold text-gray-900 mb-3">H. Hashimoto</h4>
-
-                                    <!-- Star Rating -->
+                                    <h4 class="text-2xl font-bold text-gray-900 mb-3">R. Johansson</h4>
                                     <div class="flex space-x-1 text-yellow-400 mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
-                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
                                     </div>
                                 </div>
-
-                                <!-- Quotation Mark -->
                                 <div class="absolute top-8 right-8 text-primary opacity-10">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="currentColor">
                                         <path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
                                     </svg>
                                 </div>
-
-                                <!-- Testimonial Text -->
                                 <div class="text-gray-700 text-lg leading-relaxed text-center relative z-10">
                                     <p class="text-xl">
-                                        "I had 3 safety bars installed by Home2stay and the gentleman did a great job. He was very courteous and professional. He made sure the bars were exactly where I needed them before the installation. My appointment was between 10AM-11AM and the gentleman arrived at 9:50AM and was finished by 10:30AM."
+                                        "After my hip surgery, getting around the house became a real challenge. A friend recommended Home2stay and I am so glad she did. They came in, assessed my home, and recommended the right modifications to keep me safe and independent. The ramp they installed at my front entrance has completely changed my daily life. Professional, caring, and truly knowledgeable."
                                     </p>
                                 </div>
                             </div>
@@ -675,50 +795,121 @@ For us, this recognition isn't just an award — it's a reminder of why we do wh
                         <div class="swiper-slide">
                             <div class="testimonial-card bg-white rounded-2xl p-8 md:p-12 shadow-xl relative overflow-hidden">
                                 <div class="flex flex-col items-center mb-8">
-                                    <!-- Client Avatar -->
                                     <div class="w-24 h-24 bg-gradient-to-br from-primary/10 to-purple-600/10 rounded-full flex items-center justify-center mb-6 border-4 border-white shadow-lg">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                            class="w-12 h-12 text-primary">
-                                            <path fill-rule="evenodd"
-                                                d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
-                                                clip-rule="evenodd" />
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12 text-primary">
+                                            <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clip-rule="evenodd" />
                                         </svg>
                                     </div>
-
-                                    <!-- Client Name -->
-                                    <h4 class="text-2xl font-bold text-gray-900 mb-3">B. Taylor</h4>
-
-                                    <!-- Star Rating -->
+                                    <h4 class="text-2xl font-bold text-gray-900 mb-3">D. Nguyen</h4>
                                     <div class="flex space-x-1 text-yellow-400 mb-4">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                                            <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
-                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
                                     </div>
                                 </div>
-
-                                <!-- Quotation Mark -->
                                 <div class="absolute top-8 right-8 text-primary opacity-10">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="currentColor">
                                         <path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
                                     </svg>
                                 </div>
-
-                                <!-- Testimonial Text -->
                                 <div class="text-gray-700 text-lg leading-relaxed text-center relative z-10">
                                     <p class="text-xl">
-                                        "Home2stay was not only prompt in replying to my inquiry and quote request, they were very attentive and courteous every time we contacted them. We had 2 grab bars in the bathroom installed and a long handrail installed with care and attention to detail. Our experience with Home2stay was wonderful."
+                                        "We were looking for someone to help us adapt our home for my elderly parents who recently moved in with us. Home2stay visited our home, listened carefully to our concerns, and put together a plan that covered everything — from widening doorways to installing handrails throughout the hallway. The work was done neatly and on schedule. Our parents feel safe and we have real peace of mind."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 3 -->
+                        <div class="swiper-slide">
+                            <div class="testimonial-card bg-white rounded-2xl p-8 md:p-12 shadow-xl relative overflow-hidden">
+                                <div class="flex flex-col items-center mb-8">
+                                    <div class="w-24 h-24 bg-gradient-to-br from-primary/10 to-purple-600/10 rounded-full flex items-center justify-center mb-6 border-4 border-white shadow-lg">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12 text-primary">
+                                            <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clip-rule="evenodd" />
+                                        </svg>
+                                    </div>
+                                    <h4 class="text-2xl font-bold text-gray-900 mb-3">M. Sandhu</h4>
+                                    <div class="flex space-x-1 text-yellow-400 mb-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                    </div>
+                                </div>
+                                <div class="absolute top-8 right-8 text-primary opacity-10">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
+                                    </svg>
+                                </div>
+                                <div class="text-gray-700 text-lg leading-relaxed text-center relative z-10">
+                                    <p class="text-xl">
+                                        "I visited the Home2stay showroom not really knowing what I needed, and left with a clear plan and a lot of confidence. The team was incredibly patient and walked me through every stairlift option available. The installation was quick, tidy, and the technician even stayed to make sure I was comfortable using it before he left. Truly a five-star experience."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 4 -->
+                        <div class="swiper-slide">
+                            <div class="testimonial-card bg-white rounded-2xl p-8 md:p-12 shadow-xl relative overflow-hidden">
+                                <div class="flex flex-col items-center mb-8">
+                                    <div class="w-24 h-24 bg-gradient-to-br from-primary/10 to-purple-600/10 rounded-full flex items-center justify-center mb-6 border-4 border-white shadow-lg">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12 text-primary">
+                                            <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clip-rule="evenodd" />
+                                        </svg>
+                                    </div>
+                                    <h4 class="text-2xl font-bold text-gray-900 mb-3">C. Okafor</h4>
+                                    <div class="flex space-x-1 text-yellow-400 mb-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                    </div>
+                                </div>
+                                <div class="absolute top-8 right-8 text-primary opacity-10">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
+                                    </svg>
+                                </div>
+                                <div class="text-gray-700 text-lg leading-relaxed text-center relative z-10">
+                                    <p class="text-xl">
+                                        "My husband uses a wheelchair and accessing our front porch had become a daily struggle for years. We finally reached out to Home2stay and honestly wish we had done it sooner. They installed a porch lift that fits perfectly with our home and gave my husband back his independence. The whole team was warm, efficient, and genuinely cared about getting it right."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 5 -->
+                        <div class="swiper-slide">
+                            <div class="testimonial-card bg-white rounded-2xl p-8 md:p-12 shadow-xl relative overflow-hidden">
+                                <div class="flex flex-col items-center mb-8">
+                                    <div class="w-24 h-24 bg-gradient-to-br from-primary/10 to-purple-600/10 rounded-full flex items-center justify-center mb-6 border-4 border-white shadow-lg">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12 text-primary">
+                                            <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clip-rule="evenodd" />
+                                        </svg>
+                                    </div>
+                                    <h4 class="text-2xl font-bold text-gray-900 mb-3">L. Petersen</h4>
+                                    <div class="flex space-x-1 text-yellow-400 mb-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" /></svg>
+                                    </div>
+                                </div>
+                                <div class="absolute top-8 right-8 text-primary opacity-10">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
+                                    </svg>
+                                </div>
+                                <div class="text-gray-700 text-lg leading-relaxed text-center relative z-10">
+                                    <p class="text-xl">
+                                        "Home2stay transformed our main bathroom into a space that is both safe and beautiful. They installed a walk-in shower with fold-down seating, grab bars, and non-slip flooring — all designed to look great while giving us complete peace of mind. The craftsmanship was excellent and the team cleaned up perfectly after themselves. We could not be happier with the result."
                                     </p>
                                 </div>
                             </div>
@@ -742,7 +933,7 @@ For us, this recognition isn't just an award — it's a reminder of why we do wh
         <div class="container mx-auto px-4 relative z-10">
             <div class="max-w-5xl mx-auto text-center">
                 <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 leading-tight">
-                    Get All the Things You Need for Your Accessible Bathroom in Canada from Home2stay Today!
+                    Transform Your Bathroom with Vancouver's Accessible Home Specialists — Grab Bars, Walk-In Showers, Barrier-Free Renovations & More at Home2stay!
                 </h2>
                 <p class="text-xl md:text-2xl mb-12 opacity-95 leading-relaxed max-w-4xl mx-auto">
                     Home2stay can provide your family with all the things you need for an accessible bathroom in Canada. 
@@ -767,7 +958,7 @@ For us, this recognition isn't just an award — it's a reminder of why we do wh
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
                         </div>
-                        <h3 class="text-lg font-bold mb-2">20+ Years Experience</h3>
+                        <h3 class="text-lg font-bold mb-2">Decades of Experience</h3>
                         <p class="text-white/90">Trusted by thousands of families</p>
                     </div>
                     
@@ -787,9 +978,9 @@ For us, this recognition isn't just an award — it's a reminder of why we do wh
                         class="px-10 py-4 bg-white text-primary hover:bg-gray-100 rounded-xl font-bold text-lg transition duration-300 transform hover:scale-105 shadow-lg">
                         Contact Us Today
                     </a>
-                    <a href="tel:+16042393662"
+                    <a href="tel:+16042591211"
                         class="px-10 py-4 bg-transparent border-2 border-white text-white hover:bg-white/20 rounded-xl font-bold text-lg transition duration-300 transform hover:scale-105">
-                        📞 Call (604) 239-3662
+                        📞 Call (604) 259-1211
                     </a>
                 </div>
             </div>
@@ -802,33 +993,26 @@ For us, this recognition isn't just an award — it's a reminder of why we do wh
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script>
     function showYear(year) {
-        // Hide all timeline content
         document.querySelectorAll('.timeline-content').forEach(function (content) {
             content.classList.add('hidden');
         });
 
-        // Show selected year content
         document.getElementById('year-' + year).classList.remove('hidden');
 
-        // Update active button styles
         document.querySelectorAll('.year-button').forEach(function (button) {
-            button.classList.remove('active-year');
-            button.classList.remove('bg-primary');
-            button.classList.remove('text-white');
+            button.classList.remove('active-year', 'bg-primary', 'text-white');
             button.classList.add('bg-white', 'text-primary', 'border-2', 'border-primary');
         });
 
-        // Style active button
         const activeButton = document.querySelector('#year-nav-' + year + ' .year-button');
         if (activeButton) {
-            activeButton.classList.add('active-year');
+            activeButton.classList.add('active-year', 'bg-primary', 'text-white');
             activeButton.classList.remove('bg-white', 'text-primary', 'border-2', 'border-primary');
-            activeButton.classList.add('bg-primary', 'text-white');
         }
     }
 
-    // Initialize when document is loaded
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
+
         // Initialize Testimonials Swiper
         const testimonialSwiper = new Swiper('.testimonial-slider', {
             slidesPerView: 1,
@@ -842,37 +1026,20 @@ For us, this recognition isn't just an award — it's a reminder of why we do wh
                 el: '.swiper-pagination',
                 clickable: true,
             },
-            effect: 'fade',
-            fadeEffect: {
-                crossFade: true
-            },
-            breakpoints: {
-                640: {
-                    effect: 'slide'
-                }
-            }
         });
 
-        // Add smooth scrolling for anchor links
+        // Smooth scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
             });
         });
 
-        // Add intersection observer for fade-in animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
+        // Intersection observer for fade-in animations
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -880,15 +1047,15 @@ For us, this recognition isn't just an award — it's a reminder of why we do wh
                     entry.target.style.transform = 'translateY(0)';
                 }
             });
-        }, observerOptions);
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
 
-        // Observe all stat cards and brand cards
         document.querySelectorAll('.stat-card, .brand-card, .timeline-content').forEach(el => {
             el.style.opacity = '0';
             el.style.transform = 'translateY(20px)';
             el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
             observer.observe(el);
         });
+
     });
 </script>
 @endpush

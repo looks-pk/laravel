@@ -24,7 +24,7 @@
         <!-- Hero Content -->
         <div class="container mx-auto px-4 relative z-10 flex items-center" style="min-height: 500px;">
             <div class="max-w-3xl">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Stair Lifts</h1>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Curved Stair Lifts</h1>
                 <p class="text-xl text-white/90 mb-8">
                     The number 1 stairlift brand of 2022, according to Forbes Health. Regain your independence and conquer your stairs safely with our premium stair lift solutions.
                 </p>

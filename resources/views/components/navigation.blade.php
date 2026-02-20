@@ -293,33 +293,33 @@
                         <div class="px-8">
                             <div class="grid grid-cols-4 gap-6">
                                 
-                                <!-- Column 2: Mobility & Lifts -->
+                             <!-- Column 2: Mobility & Lifts -->
                                 <div class="space-y-3">
                                     <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider border-b border-gray-200 pb-2 mb-3">
-                                        Stair Lifts
+                                        Stair Lifts & Porch Lifts
                                     </h3>
 
-                                    <a href="/products/bruno-straight-stair-lift" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                    <a href="/product-categories/straight-stair-lift" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
                                         <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
                                             </svg>
                                         </div>
                                         <div>
-                                            <h4 class="font-medium text-gray-900 text-sm">Bruno Straight Stair Lift</h4>
-                                            <p class="text-xs text-gray-500">Straight staircase solution</p>
+                                            <h4 class="font-medium text-gray-900 text-sm">Straight Stair Lift</h4>
+                                            <p class="text-xs text-gray-500">Smooth. Safe. Simple.</p>
                                         </div>
                                     </a>
 
-                                    <a href="/products/Indoor-stairlift" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                    <a href="/product-categories/curved-stair-lift" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
                                         <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                                             </svg>
                                         </div>
                                         <div>
-                                            <h4 class="font-medium text-gray-900 text-sm">Indoor Stair Lift</h4>
-                                            <p class="text-xs text-gray-500">Interior home use</p>
+                                            <h4 class="font-medium text-gray-900 text-sm">Curved Stair Lift</h4>
+                                            <p class="text-xs text-gray-500">Built for curves.</p>
                                         </div>
                                     </a>
 
@@ -331,36 +331,35 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">Outdoor Stair Lift</h4>
-                                            <p class="text-xs text-gray-500">Weather-resistant mobility</p>
+                                            <p class="text-xs text-gray-500">Rain. Wind. Ready.</p>
                                         </div>
                                     </a>
 
-                                    <a href="/products/flow-x-stairlift" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                    <a href="/products-categories/vertical-porch-lifts-vpl/" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
                                         <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
                                             </svg>
                                         </div>
                                         <div>
-                                            <h4 class="font-medium text-gray-900 text-sm">Flow X Curved Stairlift</h4>
-                                            <p class="text-xs text-gray-500">Custom curved design</p>
+                                            <h4 class="font-medium text-gray-900 text-sm">Porch Lifts</h4>
+                                            <p class="text-xs text-gray-500">In. Out. Independent.</p>
                                         </div>
                                     </a>
 
-                                    <a href="/products/access-home-glide-straight-stairlift" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                    <a href="/products-categories/ramps/" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
                                         <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                                             </svg>
                                         </div>
                                         <div>
-                                            <h4 class="font-medium text-gray-900 text-sm">Access Home Glide Stairlift</h4>
-                                            <p class="text-xs text-gray-500">Smooth glide system</p>
+                                            <h4 class="font-medium text-gray-900 text-sm">Ramping</h4>
+                                            <p class="text-xs text-gray-500">Gentle. Safe. Accessible.</p>
                                         </div>
                                     </a>
 
-                                    </div>
-                                <!-- Column 1: Bathroom & Safety -->
+                                </div>
                                 <div class="space-y-3">
                                     <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider border-b border-gray-200 pb-2 mb-3">
                                         Bathroom & Safety

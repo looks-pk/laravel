@@ -299,7 +299,7 @@
                                         Stair Lifts & Porch Lifts
                                     </h3>
 
-                                    <a href="/product-categories/straight-stair-lift" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                    <a href="/products-categories/straight-stair-lifts/" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
                                         <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
@@ -311,7 +311,7 @@
                                         </div>
                                     </a>
 
-                                    <a href="/product-categories/curved-stair-lift" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                    <a href="/products-categories/curved-stair-lifts" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
                                         <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />

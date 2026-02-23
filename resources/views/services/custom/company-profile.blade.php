@@ -286,7 +286,7 @@ For us, this recognition isn't just an award — it's a reminder of why we do wh
                 </div>
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl overflow-hidden shadow-lg">
-                        <img src="{{ asset('abt-company/CCAYVR012726-71.jpg') }}" alt="Accessible Bathroom"
+                        <img src="{{ asset('abt-company/CCAYVR012726-71.jpeg') }}" alt="Accessible Bathroom"
                             class="w-full h-[600px] object-contain hover:scale-105 transition-transform duration-500" >
                     </div>
                 </div>

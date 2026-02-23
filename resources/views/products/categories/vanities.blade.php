@@ -17,7 +17,7 @@
     <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('{{ asset('al-prod-page-imgs/Ramps.jpg') }}');">
+            style="background-image: url('{{ asset('al-prod-page-imgs/bathroom-vanties-featured.png') }}');">
             <div class="absolute inset-0 bg-black opacity-60"></div>
         </div>
 
@@ -59,7 +59,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('mram/p1.png') }}" alt="Modern Bathroom Vanities"
+                        <img src="{{ asset('/al-prod-page-imgs/home2stay-vanities.png') }}" alt="Modern Bathroom Vanities"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -90,7 +90,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('mram/p1.png') }}" alt="Modern Bathroom Vanities"
+                        <img src="{{ asset('/al-prod-page-imgs/ready-made-vanity (2).png') }}" alt="Modern Bathroom Vanities"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -121,7 +121,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('mram/p1.png') }}" alt="Modern Bathroom Vanities"
+                        <img src="{{ asset('al-prod-page-imgs/Custom Millwork by Home2Stay.png') }}" alt="Modern Bathroom Vanities"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -152,7 +152,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('mram/p1.png') }}" alt="Modern Bathroom Vanities"
+                        <img src="{{ asset('/al-prod-page-imgs/floating-vanities.webp') }}" alt="Modern Bathroom Vanities"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div

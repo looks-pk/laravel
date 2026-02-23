@@ -90,7 +90,7 @@
                 <!-- Product Image Gallery -->
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gray-100 rounded-lg overflow-hidden mb-4">
-                        <img src="{{ asset('bathsafety-cat/2018-mom-boy-vpl_up.jpg') }}"
+                        <img src="{{ asset('/al-prod-page-imgs/flooring-plumbin-modern.png') }}"
                             alt="Flooring & Plumbing Solutions" class="w-full h-auto object-contain p-4">
                     </div>
                     <!-- Request Quote Button -->

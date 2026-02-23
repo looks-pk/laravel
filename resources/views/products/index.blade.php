@@ -56,7 +56,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/Stair-Lifts.jpg') }}" alt="Stair Lifts"
+                        <img src="{{ asset('al-prod-page-imgs/bruno-elite-straight-stair-lift.webp') }}" alt="Stair Lifts"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -88,7 +88,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/141-1200x800-1-1024x683-min.jpg') }}"
+                        <img src="{{ asset('al-prod-page-imgs/5165-Best-Bath-Senior-Facility-11-11-2015-scaled.jpg') }}"
                             alt="Barrier-Free Bathrooms"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
@@ -103,7 +103,7 @@
                         >
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Barrier-Free Bathrooms</h3>
+                            Bathrooms Renovations</h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">Elevate your home's accessibility with our thoughtfully
                             crafted bathrooms, designed to cater to diverse mobility needs and ensure a safe, barrier-free
@@ -123,7 +123,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/Ramps.jpg') }}" alt="Ramps"
+                        <img src="{{ asset('al-prod-page-imgs/ramps-product-img.jpg') }}" alt="Ramps"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -192,7 +192,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/Bathroom-Safety.jpg') }}" alt="Bathroom Safety"
+                        <img src="{{ asset('al-prod-page-imgs/11526-Revision-to-10981-Assisted-Living-1-12-14-2020-scaled.jpg') }}" alt="Bathroom Safety"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -331,7 +331,7 @@
                     <!-- <div class="discontinued-overlay"></div> -->
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/Tub-Cuts.jpg') }}" alt="Tub Cuts"
+                        <img src="{{ asset('al-prod-page-imgs/clean-tub-cut.png') }}" alt="Tub Cuts"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -465,7 +465,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('prom/p1.png') }}" alt="Vertical Platform Lifts"
+                        <img src="{{ asset('al-prod-page-imgs/White_Staircase_Residential-scaled.jpg') }}" alt="Vertical Platform Lifts"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -497,7 +497,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/walkin-tub.png') }}" alt="Walk-In Tub"
+                        <img src="{{ asset('al-prod-page-imgs/walk-in-tub.png') }}" alt="Walk-In Tub"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div

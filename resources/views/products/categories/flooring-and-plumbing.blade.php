@@ -58,7 +58,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('mram/p1.png') }}" alt="Engineered Wood Flooring"
+                        <img src="{{ asset('al-prod-page-imgs/flooring-plumbin-modern.png') }}" alt="Engineered Wood Flooring"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -79,7 +79,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('mram/p1.png') }}" alt="Engineered Wood Flooring"
+                        <img src="{{ asset('/al-prod-page-imgs/home2stay-flooring-plumbin-modern.png') }}" alt="Engineered Wood Flooring"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div

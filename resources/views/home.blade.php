@@ -886,7 +886,7 @@
                 <!-- Product Card 2 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/Stair-Lifts.jpg') }}" alt="Stairlifts"
+                        <img src="{{ asset('/al-prod-page-imgs/Thyssen-Homeglide.webp') }}" alt="Stairlifts"
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
@@ -967,7 +967,7 @@
                 <!-- Product Card 3 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/Safety-Poles-Handrails.jpg') }}" alt="Safety Poles & Handrails"
+                        <img src="{{ asset('/al-prod-page-imgs/railings.png') }}" alt="Safety Poles & Handrails"
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
@@ -1049,7 +1049,7 @@
                 <!-- Product Card 4 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/rolling-folding-ramp.jpeg') }}" alt="Ramps" class="w-full h-full object-cover">
+                        <img src="{{ asset('/al-prod-page-imgs/home-page-ramps-card.png') }}" alt="Ramps" class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
                         <a href="/products-categories/ramps/">
@@ -1208,7 +1208,7 @@
                 <!-- Product Card 6 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/PTA-01-1-1138x667.webp') }}" alt="Grab Bars"
+                        <img src="{{ asset('/al-prod-page-imgs/24-inch-decorative-grab-bar.webp') }}" alt="Grab Bars"
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
@@ -1412,7 +1412,7 @@
                 <div class="flex flex-col lg:flex-row">
                     <!-- Image Side -->
                     <div class="w-full lg:w-1/2 relative overflow-hidden">
-                        <img src="{{ asset('h-banner/Bathroom-Remodeling-Service-min.png') }}" 
+                        <img src="{{ asset('/al-prod-page-imgs/11526-Revision-to-10981-Assisted-Living-1-12-14-2020-scaled.jpg') }}" 
                              alt="Bathroom Remodeling Service"
                              class="w-full h-64 lg:h-full object-cover transform hover:scale-105 transition-transform duration-700">
                         <div class="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent"></div>
@@ -1513,7 +1513,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 ">
                 <!-- Image Side -->
                 <div class="relative rounded-2xl overflow-hidden shadow-xl h-100">
-                    <img src="{{ asset('/al-prod-page-imgs/home-page-professional-installation.png') }}" alt="Home Accessibility Service"
+                    <img src="{{ asset('/al-prod-page-imgs/5165-Best-Bath-Trench-Drain-Pan-11-02-2015b-1-1024x682-2.jpeg') }}" alt="Home Accessibility Service"
                         class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-r from-primary/70 to-primary/40"></div>
                     <div class="absolute inset-0 flex items-center justify-center">

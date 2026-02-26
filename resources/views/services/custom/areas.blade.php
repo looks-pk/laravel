@@ -408,7 +408,7 @@
                     {{-- CARD BODY --}}
                     <div class="card-body">
 
-                        <h3>Home2stay {{ ucwords(str_replace('-', ' ', $area)) }}</h3>
+                        <h3>{{ ucwords(str_replace('-', ' ', $area)) }}</h3>
 
                         <p>
                             Professional accessibility solutions and home safety equipment for

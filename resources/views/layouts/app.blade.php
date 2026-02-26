@@ -416,25 +416,25 @@ span   { font-size: inherit; } /* inherits from parent */
                                 </span>
                             </a>
                         </div>
-                        <p class="text-gray-400 mb-4">Located in Vancouver, British Columbia, Home2stay specializes in
+                        <p class="text-light-800 text-xl mb-4">Located in Vancouver, British Columbia, Home2stay specializes in
                             home accessibility solutions and renovations. With decades of expertise in
                             accessibility and universal design, we aim to build safe and inclusive homes and spaces for
                             people of all ages and abilities.</p>
                         <div class="flex space-x-4">
                             <a href="https://www.facebook.com/home2stayltd" target="_blank" rel="noopener noreferrer"
-                                class="text-gray-400 hover:text-white transition-colors">
+                                class="text-light-800 text-xl hover:text-white transition-colors">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
                             <a href="https://x.com/home2stayltd" target="_blank" rel="noopener noreferrer"
-                                class="text-gray-400 hover:text-white transition-colors">
+                                class="text-light-800 text-xl hover:text-white transition-colors">
                                 <i class="fab fa-twitter"></i>
                             </a>
                             <a href="https://www.linkedin.com/company/home2stay/" target="_blank"
-                                rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors">
+                                rel="noopener noreferrer" class="text-light-800 text-xl hover:text-white transition-colors">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
                             <a href="https://www.instagram.com/home2stayltd/" target="_blank" rel="noopener noreferrer"
-                                class="text-gray-400 hover:text-white transition-colors">
+                                class="text-light-800 text-xl hover:text-white transition-colors">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </div>
@@ -442,18 +442,18 @@ span   { font-size: inherit; } /* inherits from parent */
 
                     <!-- Quick Links -->
                     <div>
-                        <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                        <h2 class="text-xl font-bold mb-4">Quick Links</h2>
                         <ul class="space-y-2">
                             <li><a href="{{ route('home') }}"
-                                    class="text-gray-400 hover:text-white transition-colors">Home</a></li>
+                                    class="text-light-800 text-xl hover:text-white transition-colors">Home</a></li>
                             <li><a href="{{ route('services.index') }}"
-                                    class="text-gray-400 hover:text-white transition-colors">Services</a></li>
+                                    class="text-light-800 text-xl hover:text-white transition-colors">Services</a></li>
                             <li><a href="{{ route('blog.index') }}"
-                                    class="text-gray-400 hover:text-white transition-colors">Blog</a></li>
+                                    class="text-light-800 text-xl hover:text-white transition-colors">Blog</a></li>
                             <li><a href="{{ route('contact') }}"
-                                    class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+                                    class="text-light-800 text-xl hover:text-white transition-colors">Contact</a></li>
                             <li><a href="{{ route('sitemap') }}"
-                                    class="text-gray-400 hover:text-white transition-colors flex items-center gap-1">
+                                    class="text-light-800 text-xl hover:text-white transition-colors flex items-center gap-1">
                                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                             d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7">
@@ -468,40 +468,40 @@ span   { font-size: inherit; } /* inherits from parent */
                     <div>
                         <h3 class="text-xl font-bold mb-4">Products</h3>
                         <ul class="space-y-2">
-                            <li><a href="/all-products/" class="text-gray-400 hover:text-white transition-colors">All
+                            <li><a href="/all-products/" class="text-light-800 text-xl hover:text-white transition-colors">All
                                     Products</a></li>
                             <li><a href="/products-categories/stair-lifts/"
-                                    class="text-gray-400 hover:text-white transition-colors">Stair Lifts</a>
+                                    class="text-light-800 text-xl hover:text-white transition-colors">Stair Lifts</a>
                             </li>
                             <li><a href="/products-categories/barrier-free-bathrooms/"
-                                    class="text-gray-400 hover:text-white transition-colors">Bathrooms Renovations</a>
+                                    class="text-light-800 text-xl hover:text-white transition-colors">Bathrooms Renovations</a>
                             </li>
                             <li><a href="/products-categories/grab-bars/"
-                                    class="text-gray-400 hover:text-white transition-colors">Grab Bars</a></li>
+                                    class="text-light-800 text-xl hover:text-white transition-colors">Grab Bars</a></li>
                             <li><a href="/products-categories/ramps//"
-                                    class="text-gray-400 hover:text-white transition-colors">Ramps</a>
+                                    class="text-light-800 text-xl hover:text-white transition-colors">Ramps</a>
                             </li>
                             <li><a href="/products-categories/vertical-porch-lifts-vpl/"
-                                    class="text-gray-400 hover:text-white transition-colors">Vertical Platform Lifts</a>
+                                    class="text-light-800 text-xl hover:text-white transition-colors">Vertical Platform Lifts</a>
                             </li>
                             
-                            <!-- <li><a href="/products-categories/automotive/" class="text-gray-400 hover:text-white transition-colors">Automotive</a></li> -->
+                            <!-- <li><a href="/products-categories/automotive/" class="text-light-800 text-xl hover:text-white transition-colors">Automotive</a></li> -->
                         </ul>
                     </div>
 
                     <!-- Contact Info -->
                     <div>
                         <h3 class="text-xl font-bold mb-4">Contact Us</h3>
-                        <ul class="space-y-3">
+                        <ul class="space-y-2">
                             <li class="flex items-start">
                                 <i class="fas fa-map-marker-alt mt-1 mr-2 text-primary"></i>
-                                <div class="text-gray-400">
+                                <div class="text-light-800 text-xl">
                                     <div>196 West 6 Ave, Vancouver, BC, V5Y 1K6</div>
                                 </div>
                             </li>
                             <li class="flex items-start">
                                 <i class="fas fa-phone mt-1 mr-2 text-primary"></i>
-                                <div class="text-gray-400">
+                                <div class="text-light-800 text-xl">
                                     <div><a href="tel:+16042591211" class="hover:text-white transition-colors">(604)
                                             259-1211</a></div>
                                 </div>
@@ -509,18 +509,18 @@ span   { font-size: inherit; } /* inherits from parent */
                             <li class="flex items-start">
                                 <i class="fas fa-envelope mt-1 mr-2 text-primary"></i>
                                 <a href="mailto:info@home2stay.com"
-                                    class="text-gray-400 hover:text-white transition-colors">info@home2stay.com</a>
+                                    class="text-light-800 text-xl hover:text-white transition-colors">info@home2stay.com</a>
                             </li>
                             <li class="flex items-start">
                                 <i class="fas fa-clock mt-1 mr-2 text-primary"></i>
-                                <span class="text-gray-400">Mon - Fri: 8:30 - 16:30</span>
+                                <span class="text-light-800 text-xl">Mon - Fri: 8:30 - 16:30</span>
                             </li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="border-t border-gray-800 mt-12 pt-8">
-                    <div class="flex flex-col md:flex-row justify-between items-center text-gray-400">
+                    <div class="flex flex-col md:flex-row justify-between items-center text-light-800 text-xl">
                         <!-- Left Side - Copyright -->
                         <div class="text-center md:text-left mb-4 md:mb-0">
                             <p>&copy; {{ date('Y') }} Home2stay Accessibility Ltd. All rights reserved.</p>

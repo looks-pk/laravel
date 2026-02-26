@@ -148,7 +148,6 @@ class ServiceController extends Controller
         }
         
         Log::info("Rendering view: {$viewPath}");
-        
         // Return the view with the correct view path format and proper name
         return view($viewPath, [
             'service' => $exactServiceName,

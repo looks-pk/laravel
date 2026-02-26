@@ -6,9 +6,9 @@
 @push('styles')
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 <style>
-    .hero-overlay {
+    /* .hero-overlay {
         background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.5) 100%);
-    }
+    } */
     
     .timeline-line {
         background: linear-gradient(90deg, #4f46e5 0%, #7c3aed 100%);

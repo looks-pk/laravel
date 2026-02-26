@@ -94,7 +94,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            object-position: center;
+            object-position: top;
         }
 
         .hero-slide-overlay {
@@ -1513,7 +1513,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 ">
                 <!-- Image Side -->
                 <div class="relative rounded-2xl overflow-hidden shadow-xl h-100">
-                    <img src="{{ asset('h-slider/Carousel-item-2-min.jpg') }}" alt="Home Accessibility Service"
+                    <img src="{{ asset('/al-prod-page-imgs/home-page-professional-installation.png') }}" alt="Home Accessibility Service"
                         class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-r from-primary/70 to-primary/40"></div>
                     <div class="absolute inset-0 flex items-center justify-center">
@@ -1524,7 +1524,7 @@
                                 </svg>
                             </div>
                             <h3 class="text-3xl font-bold mb-4">Professional Installation</h3>
-                            <p class="text-lg opacity-90">Expert technicians with over 40 years of experience</p>
+                            <p class="text-lg opacity-90">Expert technicians with decades of experience</p>
                         </div>
                     </div>
                 </div>

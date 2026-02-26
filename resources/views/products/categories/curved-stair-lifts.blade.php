@@ -261,7 +261,7 @@
                         <!-- Image -->
                         <div class="w-full lg:w-1/2">
                             <img src="{{ asset('bathsafety-cat/stairlift-comparison.jpg') }}" alt="Stair Lift Comparison"
-                                class="w-full h-full py-20" style="min-height: 400px;">
+                                class="w-full py-20 object-fit" style="min-height: 400px;">
                         </div>
                     </div>
                 </div>

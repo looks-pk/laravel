@@ -543,9 +543,9 @@
                         >
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                                home2stay vanities</h3>
+                                Home2stay Vanities</h3>
                         </a>
-                        <p class="text-gray-600 mb-4 flex-grow">Do you want to make your washroom stylish with the Home2Stay Classic Oak Vanity, where practical design meets timeless elegance</p>
+                        <p class="text-gray-600 mb-4 flex-grow">Do you want to make your washroom stylish with the Home2stay Classic Oak Vanity, where practical design meets timeless elegance</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
                             <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm"> Products</span>
                         </p>
@@ -635,31 +635,87 @@
                 <div class="flex flex-col lg:flex-row">
                     <!-- Image -->
                     <div class="w-full lg:w-1/2 bg-primary-dark">
-                        <img src="{{ asset('al-prod-page-imgs/Rectangle-324-min.png') }}" alt="Accessibility Solutions"
-                            class="w-full h-full object-cover" style="min-height: 400px;">
+                        <img src="{{ asset('al-prod-page-imgs/Leading Brands, Lasting Impact Our Certified Accessibility Solutions.png') }}" alt="Accessibility Solutions"
+                            class="w-full h-full object-cover " style="min-height: 400px;">
                     </div>
 
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12" style="margin: auto;">
-                        <h2 class="text-3xl md:text-4xl font-bold mb-6">Leading Brands, Lasting Impact: Our Certified
-                            Accessibility Solutions</h2>
-                        <div class="w-20 h-1 bg-white mb-6 rounded"></div>
-                        <p class="text-lg leading-relaxed mb-8">
-                            We are a certified distributor and installer of the following brands: Bruno, Guldmann, Handicare
-                            / Prism, Arjo, BraunAbility, Best Bath Systems, Roll-A-Ramp, Grabcessories, Clean Cut Tub Cuts,
-                            etc.
-
-                            Our range of accessibility and mobility solutions have helped countless people age-in-place in
-                            the home that they love, and have allowed individuals with disabilities and mobility challenges
-                            to perform everyday tasks more easily and comfortably.
-
-                            Home2stay serves the following areas*: Vancouver, Surrey, Abbotsford, Richmond, Coquitlam,
-                            Tricities, Mission, Delta, Pitt Meadows, Burnaby, Port Moody, Maple Ridge, Langley, Chilli Wack,
-                            White Rock, Aldergrove and other nearby areas.
-
-                            Is your area not listed? Give us a call at (604) 259-1211 or submit a FREE ASSESSMENT FORM to
-                            check.
+                        <h2 class="text-3xl font-bold text-gray-900 mb-6">
+                            Leading Brands, Lasting Impact: Our Certified Accessibility Solutions
+                        </h2>
+                                            <div class="w-20 h-1 bg-white mb-6 rounded"></div>
+                                            
+                        <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                            Home2stay is a <strong>certified distributor and installer</strong> of industry-leading accessibility brands, ensuring quality, safety, and long-term reliability for every installation.
                         </p>
+
+                        <p class="text-gray-700 mb-6">
+                            We proudly work with trusted manufacturers including:
+                        </p>
+
+                        <ul class="grid grid-cols-2 md:grid-cols-3 gap-3 text-gray-700 font-medium mb-8">
+                            <li>✔ Bruno</li>
+                            <li>✔ Guldmann</li>
+                            <li>✔ Handicare / Prism</li>
+                            <li>✔ Arjo</li>
+                            <li>✔ BraunAbility</li>
+                            <li>✔ Best Bath Systems</li>
+                            <li>✔ Roll-A-Ramp</li>
+                            <li>✔ Grabcessories</li>
+                            <li>✔ Clean Cut Tub Cuts</li>
+                        </ul>
+
+                        <p class="text-gray-700 leading-relaxed mb-6">
+                            Our accessibility and mobility solutions have helped countless individuals 
+                            <strong>age safely in place</strong> while maintaining independence and comfort at home. 
+                            We support seniors, individuals with disabilities, and anyone facing mobility challenges 
+                            by making everyday living safer and easier.
+                        </p>
+
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">
+                            Areas We Proudly Serve
+                        </h3>
+
+                        <p class="text-gray-700 mb-6">
+                            Home2stay provides professional accessibility solutions across:
+                        </p>
+
+                        <div class="flex flex-wrap gap-2 mb-8">
+                            <span class="px-3 py-1 bg-gray-100 rounded-full">Vancouver</span>
+                            <span class="px-3 py-1 bg-gray-100 rounded-full">Surrey</span>
+                            <span class="px-3 py-1 bg-gray-100 rounded-full">Abbotsford</span>
+                            <span class="px-3 py-1 bg-gray-100 rounded-full">Richmond</span>
+                            <span class="px-3 py-1 bg-gray-100 rounded-full">Coquitlam</span>
+                            <span class="px-3 py-1 bg-gray-100 rounded-full">Tri-Cities</span>
+                            <span class="px-3 py-1 bg-gray-100 rounded-full">Mission</span>
+                            <span class="px-3 py-1 bg-gray-100 rounded-full">Delta</span>
+                            <span class="px-3 py-1 bg-gray-100 rounded-full">Pitt Meadows</span>
+                            <span class="px-3 py-1 bg-gray-100 rounded-full">Burnaby</span>
+                            <span class="px-3 py-1 bg-gray-100 rounded-full">Port Moody</span>
+                            <span class="px-3 py-1 bg-gray-100 rounded-full">Maple Ridge</span>
+                            <span class="px-3 py-1 bg-gray-100 rounded-full">Langley</span>
+                            <span class="px-3 py-1 bg-gray-100 rounded-full">Chilliwack</span>
+                            <span class="px-3 py-1 bg-gray-100 rounded-full">White Rock</span>
+                            <span class="px-3 py-1 bg-gray-100 rounded-full">Aldergrove</span>
+                        </div>
+
+                        <div class="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg">
+                            <p class="text-gray-800 font-medium mb-3">
+                                Don’t see your area listed?
+                            </p>
+                            <p class="text-gray-700 mb-4">
+                                Give us a call at 
+                                <a href="tel:16042591211" class="text-blue-600 font-semibold hover:underline">
+                                    (604) 259-1211
+                                </a>
+                                or submit a <strong>FREE Assessment Form</strong> to check service availability in your location.
+                            </p>
+
+                            <a href="#quote-form" class="btn-primary">
+                                Request Free Assessment
+                            </a>
+                        </div>
                     </div>
 
 

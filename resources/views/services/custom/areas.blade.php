@@ -212,6 +212,22 @@
             margin-top: 2rem;
         }
     }
+    .area-tab{
+    background:#eee;
+    padding:.6rem 1.4rem;
+    border-radius:40px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+    }
+
+    .area-tab.active{
+    background:#0078bf;
+    color:#fff;
+    }
+
+    .area-tab-content{display:none;}
+    .area-tab-content.active{display:grid;}
 </style>
 @endpush
 
@@ -245,14 +261,8 @@
                         </svg>
                     </a>
                 </div>
-
-                <!-- Areas Grid -->
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    @forelse($areas as $area)
-                        <div class="area-card">
-                            <!-- Map Section -->
-                            <div class="area-map">
-                                @php
+                <!-- Service Tabs -->
+                 @php
                                     $mapEmbeds = [
                                         'stair-lifts-surrey-british-columbia' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83280.02!2d-122.8447552!3d49.1913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d07f8644!2sSurrey%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1640995400000!5m2!1sen!2sus',
                                         'stair-lifts-vancouver' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83326.84!2d-123.27325085!3d49.2608724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3!2sVancouver%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1640995300000!5m2!1sen!2sus',
@@ -292,67 +302,132 @@
                                         'ramps-surrey-british-columbia' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83280.02!2d-122.8447552!3d49.1913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d07f8644!2sSurrey%2C%20BC%2C%20Canada!5e0!3m2!1sen!2s!4v1640995400000!5m2!1sen!2s',
                                         'ramps-burnaby' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83265.23!2d-122.9784776!3d49.2488091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548679fa87d86c1b!2sBurnaby%2C%20BC%2C%20Canada!5e0!3m2!1sen!2s!4v1640995500000!5m2!1sen!2s',
                                         'ramps-port-coquitlam-british-columbia' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83180.12!2d-122.7320587!3d49.2962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548679ab8b2!2sPort%20Coquitlam%2C%20BC%2C%20Canada!5e0!3m2!1sen!2s!4v1640995700000!5m2!1sen!2s',
+                                         'tub-cuts-commercial-in-white-rock' =>
+        'https://www.google.com/maps?q=White+Rock,+BC,+Canada&output=embed',
+
+    'tub-cuts-delta' =>
+        'https://www.google.com/maps?q=Delta,+BC,+Canada&output=embed',
+
+    'tub-cuts-in-delta-bc' =>
+        'https://www.google.com/maps?q=Delta,+British+Columbia,+Canada&output=embed',
+
+    'tub-cuts-langley' =>
+        'https://www.google.com/maps?q=Langley,+BC,+Canada&output=embed',
+
+    'tub-cuts-new-westminster' =>
+        'https://www.google.com/maps?q=New+Westminster,+BC,+Canada&output=embed',
+
+    'tub-cuts-north-vancouver' =>
+        'https://www.google.com/maps?q=North+Vancouver,+BC,+Canada&output=embed',
+
+    'tub-cuts-port-coquitlam' =>
+        'https://www.google.com/maps?q=Port+Coquitlam,+BC,+Canada&output=embed',
+
+    'tub-cuts-professional-in-coquitlam' =>
+        'https://www.google.com/maps?q=Coquitlam,+BC,+Canada&output=embed',
+
+    'tub-cuts-professional-installation-in-burnaby' =>
+        'https://www.google.com/maps?q=Burnaby,+BC,+Canada&output=embed',
+
+    'tub-cuts-trusted-in-west-vancouver' =>
+        'https://www.google.com/maps?q=West+Vancouver,+BC,+Canada&output=embed',
+
+    'tub-cuts-vancouver' =>
+        'https://www.google.com/maps?q=Vancouver,+BC,+Canada&output=embed',
+
+    'tub-cuts-surrey' =>
+        'https://www.google.com/maps?q=Surrey,+BC,+Canada&output=embed',
                                     ];
-                                    $mapUrl = $mapEmbeds[$area] ?? null;
                                 @endphp
+                <div class="mb-10">
 
-                                @if($mapUrl)
-                                    <iframe 
-                                        class="actual-map"
-                                        src="{{ $mapUrl }}"
-                                        allowfullscreen="" 
-                                        loading="lazy" 
-                                        referrerpolicy="no-referrer-when-downgrade">
-                                    </iframe>
-                                @else
-                                    <div class="map-placeholder">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-16 h-16">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                                        </svg>
-                                    </div>
-                                @endif
-                                <!-- Overlay with city name -->
-                                <div class="absolute inset-0 bg-black bg-opacity-30 flex items-end p-4">
-                                    <h3 class="text-white text-xl font-bold">{{ ucfirst(str_replace('-', ' ', $area)) }}</h3>
-                                </div>
-                            </div>
+                    <div class="flex gap-4 flex-wrap mb-8">
+                        <button class="area-tab active" data-tab="stair-lifts">Stair Lifts</button>
+                        <button class="area-tab" data-tab="grab-bars">Grab Bars</button>
+                        <button class="area-tab" data-tab="ramps">Ramps</button>
+                        <button class="area-tab" data-tab="tub-cuts">Tub Cuts</button>
 
-                            <!-- Card Body -->
-                            <div class="card-body">
-                                <h3>Home2stay {{ ucwords(str_replace('-', ' ', $area)) }}</h3>
-                                <p>
-                                    @if($area === 'toronto')
-                                        Serving Toronto and the Greater Toronto Area with comprehensive accessibility solutions including stairlifts, grab bars, ramps, and bathroom modifications. Our local team understands the unique needs of GTA residents.
-                                    @elseif($area === 'vancouver')
-                                        Providing accessibility solutions throughout Vancouver and the Lower Mainland. From downtown Vancouver to the surrounding areas, we help residents create safer, more accessible homes with professional installation services.
-                                    @elseif(str_contains($area, 'surrey'))
-                                        Serving Surrey and the surrounding Fraser Valley region with professional accessibility solutions. Our Surrey team specializes in stairlifts, grab bars, ramps, and comprehensive home modifications for residents throughout the area.
-                                    @else
-                                        Professional accessibility solutions and home safety equipment for {{ ucfirst(str_replace('-', ' ', $area)) }} residents. Our experienced team provides personalized service and expert installation.
-                                    @endif
-                                </p>
-                                
-                                <a href="{{ route('areas.show', $area) }}" class="btn-primary">
-                                    <span>Learn More</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                    </svg>
-                                </a>
-                            </div>
+                    </div>
+
+                @php
+                $services = [
+                    'stair-lifts' => [],
+                    'grab-bars' => [],
+                    'ramps' => [],
+                    'tub-cuts' => []
+                ];
+
+                foreach($areas as $area){
+                    if(str_starts_with($area,'stair-lifts')){
+                        $services['stair-lifts'][] = $area;
+                    }
+                    if(str_starts_with($area,'grab-bars')){
+                        $services['grab-bars'][] = $area;
+                    }
+                    if(str_starts_with($area,'ramps')){
+                        $services['ramps'][] = $area;
+                    }
+                    if(str_starts_with($area,'tub-cuts')){
+                        $services['tub-cuts'][] = $area;
+                    }
+                }
+                @endphp
+
+
+                @foreach($services as $service => $items)
+
+                <div class="area-tab-content grid grid-cols-1 md:grid-cols-2 gap-8 {{ $loop->first ? 'active' : '' }}"
+                    id="tab-{{ $service }}">
+
+                @foreach($items as $area)
+
+                <div class="area-card">
+
+                    {{-- MAP SECTION --}}
+                    <div class="area-map">
+
+                        @php $mapUrl = $mapEmbeds[$area] ?? null; @endphp
+
+                        @if($mapUrl)
+                            <iframe class="actual-map"
+                                src="{{ $mapUrl }}"
+                                loading="lazy"></iframe>
+                        @else
+                            <div class="map-placeholder">📍</div>
+                        @endif
+
+                        <div class="absolute inset-0 bg-black/30 flex items-end p-4">
+                            <h3 class="text-white text-xl font-bold">
+                                {{ ucwords(str_replace('-', ' ', $area)) }}
+                            </h3>
                         </div>
-                    @empty
-                        <div class="col-span-2 text-center py-12">
-                            <div class="bg-white rounded-xl shadow-lg p-8">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-gray-400 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                                </svg>
-                                <h3 class="text-xl font-semibold text-gray-700 mb-2">No Service Areas Available</h3>
-                                <p class="text-gray-500">We're expanding our services. Check back soon for new locations!</p>
-                            </div>
-                        </div>
-                    @endforelse
+
+                    </div>
+
+
+                    {{-- CARD BODY --}}
+                    <div class="card-body">
+
+                        <h3>Home2stay {{ ucwords(str_replace('-', ' ', $area)) }}</h3>
+
+                        <p>
+                            Professional accessibility solutions and home safety equipment for
+                            {{ ucwords(str_replace('-', ' ', $area)) }} residents.
+                        </p>
+
+                        <a href="{{ route('areas.show',$area) }}" class="btn-primary">
+                            Learn More →
+                        </a>
+
+                    </div>
+
+                </div>
+
+                @endforeach
+                </div>
+
+                @endforeach
+
                 </div>
 
                 <!-- Contact Section for Unlisted Areas -->
@@ -491,6 +566,33 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
+});
+
+
+
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+    document.querySelectorAll('.area-tab').forEach(tab => {
+
+        tab.addEventListener('click', () => {
+
+            document.querySelectorAll('.area-tab')
+                .forEach(t => t.classList.remove('active'));
+
+            document.querySelectorAll('.area-tab-content')
+                .forEach(c => c.classList.remove('active'));
+
+            tab.classList.add('active');
+
+            document
+                .getElementById('tab-' + tab.dataset.tab)
+                .classList.add('active');
+        });
+
+    });
+
 });
 </script>
 @endpush 

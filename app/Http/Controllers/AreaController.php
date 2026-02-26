@@ -27,6 +27,8 @@ class AreaController extends Controller
                 }
             }
         }
+        echo 123;
+        die;
         
         return view('areas.index', compact('areas'));
     }

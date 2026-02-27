@@ -84,7 +84,7 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'easy-mount-tub-rail') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Easy Mount Tub-Rail</h3></a>
+                    <a href="{{ route('products.show', 'easy-mount-tub-rail') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3"> Easy Mount Tub-Rail</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">The TubRail provides excellent support in both getting in and out of the tub. The 2-handle grip supp</p>
                         <div class="mt-auto">
                             <a href="/products/easy-mount-tub-rail/"
@@ -103,7 +103,7 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'floor-mounted-advantage-rail') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Floor-Mounted Advantage Rail</h3></a>
+                    <a href="{{ route('products.show', 'floor-mounted-advantage-rail') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3"> Floor-Mounted Advantage Rail</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">The Advantage Rail provides dependable vertical and horizontal support for movements and transitions</p>
                         <div class="mt-auto">
                             <a href="/products/floor-mounted-advantage-rail/"

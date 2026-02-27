@@ -8,7 +8,7 @@
     <section class="relative pt-16 pb-12 md:pt-24 md:pb-16 bg-gradient-to-r from-primary to-primary-dark text-white">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 bg-cover bg-center z-0"
-            style="background-image: url('{{ asset('ser-bath/make safety a priority at home by installing the products for your accessible bathroom in canada.png') }}');">
+            style="background-image: url('{{ asset('/al-prod-page-imgs/grab-bar-cover.png') }}');">
             <div class="absolute inset-0 bg-black opacity-50"></div>
         </div>
         

@@ -62,7 +62,7 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'tub-cut-step') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Tub Cut Step</h3></a>
+                    <a href="{{ route('products.show', 'tub-cut-step') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Tub Cut Step</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Convert your existing tub into a step-in shower! The CleanCut Step tub is the perfect and most affor</p>
                         <div class="mt-auto">
                             <a href="/products/tub-cut-step/"
@@ -82,7 +82,7 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'tub-cut-ultra-low') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Tub Cut Ultra-Low</h3></a>
+                    <a href="{{ route('products.show', 'tub-cut-ultra-low') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Tub Cut Ultra-Low</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Convert your existing tub into a step-in shower! The CleanCut Ultra-Low is ideal for high-profile tu</p>
                         <div class="mt-auto">
                             <a href="/products/tub-cut-ultra-low/"
@@ -102,7 +102,7 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'convertible-tub-cut') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Convertible Tub Cut</h3></a>
+                    <a href="{{ route('products.show', 'convertible-tub-cut') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Convertible Tub Cut</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Enjoy the best of both worlds- Convert your existing tub into a step-in shower or bath! The CleanCut</p>
                         <div class="mt-auto">
                             <a href="/products/convertible-tub-cut/"
@@ -121,7 +121,7 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'full-convertible-tub-cut-kit') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Full Convertible Tub Cut Kit</h3></a>
+                    <a href="{{ route('products.show', 'full-convertible-tub-cut-kit') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3"> Full Convertible Tub Cut Kit</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">The best of both worlds. Our Full Quick Tub Convertible Tub Cut Kit provides you and your loved ones</p>
                         <div class="mt-auto">
                             <a href="/products/full-convertible-tub-cut-kit/"
@@ -144,7 +144,7 @@
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="/products/clean-cut" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Clean Cut</h3></a>
+                    <a href="/products/clean-cut" > <h3 class="text-xl font-bold text-gray-800 mb-3"> Clean Cut</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">The Home2Stay Clean Cut Tub Accessibility Solution is an innovative and practical way to convert a standard bathtub into a safer</p>
                         <div class="mt-auto">
                             <a href="/products/clean-cut"
@@ -166,7 +166,7 @@
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="/products/quick-tub" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay – Accessibility / Tub Cuts: Quick Tub</h3></a>
+                    <a href="/products/quick-tub" > <h3 class="text-xl font-bold text-gray-800 mb-3">Accessibility / Tub Cuts: Quick Tub</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Quick Tub services turns your standard bathtub into a low-threshold step-in shower without the cost, mess or time of a complete renovation.</p>
                         <div class="mt-auto">
                             <a href="/products/quick-tub"
@@ -189,7 +189,7 @@
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'home2stay-tub-cut-w-door') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Tub Cut w/ Door</h3></a>
+                    <a href="{{ route('products.show', 'home2stay-tub-cut-w-door') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3"> Tub Cut w/ Door</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Enjoy the best of both worlds- Convert your existing tub into a step-in shower or bath! The CleanCut</p>
                         <div class="mt-auto">
                             <a href="/products/tub-cut-door/"

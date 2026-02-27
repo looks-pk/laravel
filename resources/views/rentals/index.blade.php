@@ -544,7 +544,7 @@
                     <div class="p-6 flex-1 flex flex-col">
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Home2stay Ceiling Track Lifts Motor</h3>
+                             Ceiling Track Lifts Motor</h3>
                         <p class="text-gray-600 mb-4 flex-grow">Experience seamless and efficient transfers with our advanced Ceiling Track Lifts Motor, ensuring smooth mobility and comfort.</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
                             <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">6 Products</span>
@@ -573,7 +573,7 @@
                     <div class="p-6 flex-1 flex flex-col">
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Home2Stay Folding Ramp</h3>
+                             Folding Ramp</h3>
                         <p class="text-gray-600 mb-4 flex-grow">Effortlessly facilitate wheelchair access in and out of your vehicle with our Folding Ramp, designed for seamless mobility and convenience.</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
                             <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">1 Products</span>
@@ -602,7 +602,7 @@
                     <div class="p-6 flex-1 flex flex-col">
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Home2stay Modular Ramps</h3>
+                             Modular Ramps</h3>
                         <p class="text-gray-600 mb-4 flex-grow">Create a smooth and accessible pathway for wheelchairs with our Modular Ramps, offering customizable solutions to overcome elevation changes with ease.</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
                             <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">2 Products</span>
@@ -631,7 +631,7 @@
                     <div class="p-6 flex-1 flex flex-col">
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Home2stay Portable Shower Unit</h3>
+                             Portable Shower Unit</h3>
                         <p class="text-gray-600 mb-4 flex-grow">Experience the convenience of bathing wherever you need with our Portable Shower Unit, designed for flexibility and accessibility.</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
                             <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">1 Products</span>
@@ -660,7 +660,7 @@
                     <div class="p-6 flex-1 flex flex-col">
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Home2Stay Straight Indoor Stair Lift</h3>
+                             Straight Indoor Stair Lift</h3>
                         <p class="text-gray-600 mb-4 flex-grow">Effortlessly move between levels in your home with our Straight Indoor Stair Lift, providing a secure and comfortable solution for individuals with mobility challenges.</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
                             <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">0 Products</span>
@@ -690,7 +690,7 @@
                     <div class="p-6 flex-1 flex flex-col">
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Home2stay Threshold Ramp</h3>
+                             Threshold Ramp</h3>
                         <p class="text-gray-600 mb-4 flex-grow">Easily navigate doorways and uneven surfaces with our Threshold Ramp, designed to provide a smooth and safe transition for wheelchairs and mobility aids.
                         </p>
                         <p class="font-bold text-primary mb-5 flex items-center">

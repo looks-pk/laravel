@@ -295,7 +295,7 @@
                                 
                              <!-- Column 2: Mobility & Lifts -->
                                 <div class="space-y-3">
-                                    <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider border-b border-gray-200 pb-2 mb-3">
+                                    <h3 class="text-md font-semibold text-gray-500 uppercase tracking-wider border-b border-gray-200 pb-2 mb-3">
                                         Stair Lifts & Porch Lifts
                                     </h3>
 
@@ -307,7 +307,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">Straight Stair Lift</h4>
-                                            <p class="text-xs text-gray-500">Smooth. Safe. Simple.</p>
+                                            <p class="text-sm text-gray-500">Smooth. Safe. Simple.</p>
                                         </div>
                                     </a>
 
@@ -319,7 +319,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">Curved Stair Lift</h4>
-                                            <p class="text-xs text-gray-500">Built for curves.</p>
+                                            <p class="text-sm text-gray-500">Built for curves.</p>
                                         </div>
                                     </a>
 
@@ -331,7 +331,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">Outdoor Stair Lift</h4>
-                                            <p class="text-xs text-gray-500">Rain. Wind. Ready.</p>
+                                            <p class="text-sm text-gray-500">Rain. Wind. Ready.</p>
                                         </div>
                                     </a>
 
@@ -343,7 +343,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">Porch Lifts</h4>
-                                            <p class="text-xs text-gray-500">In. Out. Independent.</p>
+                                            <p class="text-sm text-gray-500">In. Out. Independent.</p>
                                         </div>
                                     </a>
 
@@ -355,7 +355,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">Ramping</h4>
-                                            <p class="text-xs text-gray-500">Gentle. Safe. Accessible.</p>
+                                            <p class="text-sm text-gray-500">Gentle. Safe. Accessible.</p>
                                         </div>
                                     </a>
 
@@ -373,7 +373,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">Stair Lifts</h4>
-                                            <p class="text-xs text-gray-500">Effortless Stair Navigation</p>
+                                            <p class="text-sm text-gray-500">Effortless Stair Navigation</p>
                                         </div>
                                     </a>
                                     <a href="/products-categories/barrier-free-bathrooms/" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
@@ -384,7 +384,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">Barrier-Free Bathrooms</h4>
-                                            <p class="text-xs text-gray-500">Complete accessible solutions</p>
+                                            <p class="text-sm text-gray-500">Complete accessible solutions</p>
                                         </div>
                                     </a>
                                     
@@ -396,7 +396,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">Bathroom Safety</h4>
-                                            <p class="text-xs text-gray-500">Safety equipment & accessories</p>
+                                            <p class="text-sm text-gray-500">Safety equipment & accessories</p>
                                         </div>
                                     </a>
                                     
@@ -408,7 +408,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">Grab Bars</h4>
-                                            <p class="text-xs text-gray-500">Support & stability solutions</p>
+                                            <p class="text-sm text-gray-500">Support & stability solutions</p>
                                         </div>
                                     </a>
                                     
@@ -420,7 +420,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">Tub Cuts</h4>
-                                            <p class="text-xs text-gray-500">Tub modification services</p>
+                                            <p class="text-sm text-gray-500">Tub modification services</p>
                                         </div>
                                     </a>
                                     
@@ -432,7 +432,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">Walk-in Tubs</h4>
-                                            <p class="text-xs text-gray-500">Safe bathing solutions</p>
+                                            <p class="text-sm text-gray-500">Safe bathing solutions</p>
                                         </div>
                                     </a> --}}
                                 </div>
@@ -452,7 +452,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">Safety Poles & Handrails</h4>
-                                            <p class="text-xs text-gray-500">Stability & support systems</p>
+                                            <p class="text-sm text-gray-500">Stability & support systems</p>
                                         </div>
                                     </a>
                                     
@@ -464,7 +464,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-primary text-sm">View All Products</h4>
-                                            <p class="text-xs text-primary/70">Browse complete catalog</p>
+                                            <p class="text-sm text-primary/70">Browse complete catalog</p>
                                         </div>
                                     </a>
                                 </div>
@@ -483,7 +483,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">Accessible Bathroom Services</h4>
-                                            <p class="text-xs text-gray-500">Professional installation & design</p>
+                                            <p class="text-sm text-gray-500">Professional installation & design</p>
                                         </div>
                                     </a>
                                     
@@ -495,7 +495,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">Equipment Rentals</h4>
-                                            <p class="text-xs text-gray-500">Short & long-term rentals</p>
+                                            <p class="text-sm text-gray-500">Short & long-term rentals</p>
                                         </div>
                                     </a>
                                     <!-- Featured Call-to-Action -->
@@ -506,8 +506,8 @@
                                             </svg>
                                             Need Expert Advice?
                                         </h4>
-                                        <p class="text-xs text-gray-600 mb-2">Get personalized recommendations from our specialists</p>
-                                        <a href="{{ route('contact') }}" class="inline-flex items-center text-xs bg-primary text-white px-3 py-1.5 rounded-md hover:bg-primary-dark transition-colors">
+                                        <p class="text-sm text-gray-600 mb-2">Get personalized recommendations from our specialists</p>
+                                        <a href="{{ route('contact') }}" class="inline-flex items-center text-sm bg-primary text-white px-3 py-1.5 rounded-md hover:bg-primary-dark transition-colors">
                                             Contact Us Today
                                         </a>
                                     </div>
@@ -600,7 +600,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">Burnaby</h4>
-                                            <p class="text-xs text-gray-500">Expert installation & support</p>
+                                            <p class="text-sm text-gray-500">Expert installation & support</p>
                                         </div>
                                     </a>
                                     
@@ -613,7 +613,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">North Vancouver</h4>
-                                            <p class="text-xs text-gray-500">Professional stair lift services</p>
+                                            <p class="text-sm text-gray-500">Professional stair lift services</p>
                                         </div>
                                     </a>
                                     
@@ -626,7 +626,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">New Westminster</h4>
-                                            <p class="text-xs text-gray-500">Luxury stair lift solutions</p>
+                                            <p class="text-sm text-gray-500">Luxury stair lift solutions</p>
                                         </div>
                                     </a>
                                     
@@ -639,7 +639,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">Richmond</h4>
-                                            <p class="text-xs text-gray-500">Expert installation & support</p>
+                                            <p class="text-sm text-gray-500">Expert installation & support</p>
                                         </div>
                                     </a>
                                     
@@ -652,7 +652,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">Vancouver</h4>
-                                            <p class="text-xs text-gray-500">Professional stair lift services</p>
+                                            <p class="text-sm text-gray-500">Professional stair lift services</p>
                                         </div>
                                     </a>
                                 </div>
@@ -672,7 +672,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">Coquitlam</h4>
-                                            <p class="text-xs text-gray-500">Trusted stair lift experts</p>
+                                            <p class="text-sm text-gray-500">Trusted stair lift experts</p>
                                         </div>
                                     </a>
                                     
@@ -685,7 +685,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">Port Coquitlam</h4>
-                                            <p class="text-xs text-gray-500">Quality mobility solutions</p>
+                                            <p class="text-sm text-gray-500">Quality mobility solutions</p>
                                         </div>
                                     </a>
                                 </div>
@@ -705,7 +705,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">Delta</h4>
-                                            <p class="text-xs text-gray-500">Reliable stair lift services</p>
+                                            <p class="text-sm text-gray-500">Reliable stair lift services</p>
                                         </div>
                                     </a>
                                     
@@ -718,7 +718,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">Surrey</h4>
-                                            <p class="text-xs text-gray-500">Professional stair lifts</p>
+                                            <p class="text-sm text-gray-500">Professional stair lifts</p>
                                         </div>
                                     </a>
                                     
@@ -731,7 +731,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-gray-900 text-sm">White Rock</h4>
-                                            <p class="text-xs text-gray-500">Custom stair lift solutions</p>
+                                            <p class="text-sm text-gray-500">Custom stair lift solutions</p>
                                         </div>
                                     </a>
 
@@ -744,7 +744,7 @@
                                         </div>
                                         <div>
                                             <h4 class="font-medium text-primary text-sm">View All Areas</h4>
-                                            <p class="text-xs text-primary/70">Complete service map</p>
+                                            <p class="text-sm text-primary/70">Complete service map</p>
                                         </div>
                                     </a>
                                 </div>
@@ -816,7 +816,7 @@
                 <div class="hidden pl-4 mt-2 space-y-1" id="mobile-products-menu">
                     <!-- Bathroom & Safety -->
                     <div class="mb-4">
-                        <h4 class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2 px-4">Bathroom & Safety</h4>
+                        <h4 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2 px-4">Bathroom & Safety</h4>
                         <a href="/products-categories/barrier-free-bathrooms/"
                             class="flex items-center px-4 py-2 text-gray-600 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -856,7 +856,7 @@
 
                     <!-- Mobility & Lifts -->
                     <div class="mb-4">
-                        <h4 class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2 px-4">Mobility & Lifts</h4>
+                        <h4 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2 px-4">Mobility & Lifts</h4>
                         <!-- <a href="/products-categories/automotive/"
                             class="flex items-center px-4 py-2 text-gray-600 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -904,7 +904,7 @@
 
                     <!-- Support & Safety -->
                     <div class="mb-4">
-                        <h4 class="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2 px-4">Support & Safety</h4>
+                        <h4 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2 px-4">Support & Safety</h4>
                         <a href="/products-categories/safety-poles-handrails/"
                             class="flex items-center px-4 py-2 text-gray-600 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">

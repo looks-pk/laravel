@@ -243,13 +243,13 @@
                         Our Service Areas
                     </h1>
                     <div class="prose prose-lg max-w-none">
-                        <p class="text-xl text-gray-700 leading-relaxed mb-6">
+                        <p class="text-xl text-dark-700 leading-relaxed mb-6">
                             Home2stay is proud to serve communities across Canada, bringing accessibility solutions directly to your doorstep. Our experienced local teams understand the unique needs of each region and are committed to helping you create a safer, more accessible home environment.
                         </p>
-                        <p class="text-lg text-gray-600 leading-relaxed mb-6">
+                        <p class="text-xl text-dark-600 leading-relaxed mb-6">
                             Whether you need stairlifts, grab bars, wheelchair ramps, bathroom modifications, or comprehensive home assessments, our certified professionals are ready to provide personalized solutions that enhance your independence and quality of life.
                         </p>
-                        <p class="text-lg text-gray-600 leading-relaxed mb-8">
+                        <p class="text-xl text-dark-600 leading-relaxed mb-8">
                             Each of our service areas is staffed with knowledgeable specialists who are familiar with local building codes, accessibility requirements, and community resources. We're not just a service provider – we're your neighbors, committed to helping you stay safely in the home you love.
                         </p>
                     </div>

@@ -119,8 +119,8 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Home2Stay – Bruno Elan Straight Stairlift</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">he Bruno Elan Straight Stairlift is a premium mobility solution designed to help you or your loved ones navigate staircases with confidence, comfort, and independence. </p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Bruno Elan Straight Stairlift</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">the Bruno Elan Straight Stairlift is a premium mobility solution designed to help you or your loved ones navigate staircases with confidence, comfort, and independence. </p>
                         <div class="mt-auto">
                             <a href="/products/bruno-elan-straight-stairlift"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
@@ -194,7 +194,7 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'straight-stair-lift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Straight Stair Lift</h3></a>
+                    <a href="{{ route('products.show', 'straight-stair-lift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3"> Straight Stair Lift</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Use Bruno stair lifts to go up and down the stairs safely. Bruno's Elan Stair Lift SRE-3050 is a m</p>
                         <div class="mt-auto">
                             <a href="/products/straight-stair-lift/"
@@ -213,7 +213,7 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'custom-curved-stair-lift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Custom Curved Stair Lift</h3></a>
+                    <a href="{{ route('products.show', 'custom-curved-stair-lift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3"> Custom Curved Stair Lift</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Use Bruno stair lifts to go up and down the stairs safely. With an artfully, handcrafted rail made s</p>
                         <div class="mt-auto">
                             <a href="/products/custom-curved-stair-lift/"

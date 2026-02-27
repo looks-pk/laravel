@@ -64,7 +64,8 @@
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'regular-vertical-porch-lift-platform-lift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Regular Vertical Porch Lift / Platform Lift</h3></a>
+                    <a href="{{ route('products.show', 'regular-vertical-porch-lift-platform-lift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">
+                        Regular Vertical Porch Lift / Platform Lift</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Bruno VPL-3100 Vertical Platform Lift provides a rugged, reliable and affordable solution for individuals who use wheelchairs or scooters.</p>
                         <div class="mt-auto">
                             <a href="/products/regular-vertical-porch-lift-platform-lift/"
@@ -83,7 +84,7 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'trus-t-residential-indoor-outdoor-lift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Trus-T Residential Indoor / Outdoor Lift</h3></a>
+                    <a href="{{ route('products.show', 'trus-t-residential-indoor-outdoor-lift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Trus-T Residential Indoor / Outdoor Lift</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Trus-T Lift's legacy of affordable mobility spans over 25 years. Engineered for both indoor and outdoor applications with superior weather resistance.</p>
                         <div class="mt-auto">
                             <a href="/products/trus-t-residential-indoor-outdoor-lift/"

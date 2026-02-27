@@ -354,38 +354,7 @@
     </script>
 
 </head>
-<style>
-    /* Headings */
-h1 { font-size: 48px; font-weight: 900; line-height: 1.1; }
-h2 { font-size: 36px; font-weight: 800; line-height: 1.2; }
-h3 { font-size: 28px; font-weight: 700; line-height: 1.3; }
-h4 { font-size: 24px; font-weight: 700; line-height: 1.4; }
-h5 { font-size: 22px; font-weight: 600; line-height: 1.4; }
-h6 { font-size: 20px; font-weight: 600; line-height: 1.5; }
 
-/* Body */
-p  { font-size: 19px; font-weight: 400; line-height: 1.8; }
-
-/* Emphasis */
-b,
-strong { font-size: 19px; font-weight: 700; }
-i,
-em     { font-size: 19px; font-style: italic; }
-u      { font-size: 19px; text-decoration: underline; }
-small  { font-size: 15px; }
-mark   { font-size: 19px; background: yellow; color: #000; }
-
-/* Blockquote */
-blockquote { font-size: 22px; font-weight: 400; line-height: 1.7; font-style: italic; }
-
-/* Buttons — big and easy to click */
-button,
-a.btn  { font-size: 18px; font-weight: 700; padding: 16px 32px; }
-
-/* Labels / small print */
-label  { font-size: 17px; font-weight: 600; }
-span   { font-size: inherit; } /* inherits from parent */
-</style>
 <body class="font-sans antialiased">
     <div class="min-h-screen bg-gray-50">
         <!-- Navigation -->

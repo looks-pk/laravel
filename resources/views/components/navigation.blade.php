@@ -295,7 +295,7 @@
                                 
                              <!-- Column 2: Mobility & Lifts -->
                                 <div class="space-y-3">
-                                    <h3 class="text-md font-semibold text-gray-500 uppercase tracking-wider border-b border-gray-200 pb-2 mb-3">
+                                    <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider border-b border-gray-200 pb-2 mb-3">
                                         Stair Lifts & Porch Lifts
                                     </h3>
 
@@ -362,18 +362,19 @@
                                 </div>
                                 <div class="space-y-3">
                                     <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider border-b border-gray-200 pb-2 mb-3">
-                                        Bathroom & Safety
+                                        Bathroom Renovations
                                     </h3>
                                     
-                                    <a href="/products-categories/stair-lifts/" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
+                                    <a href="/products-categories/bathroom-renovations/" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">
                                         <div class="flex-shrink-0 w-8 h-8 bg-primary/10 rounded-lg flex items-center justify-center mr-3 group-hover/item:bg-primary/20 transition-colors">
+                                            <!-- Bathroom SVG Icon -->
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21h4v-4h4v-4h4v-4h4V5h2" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 10h10a4 4 0 014 4v2a2 2 0 01-2 2H5a2 2 0 01-2-2v-2a4 4 0 014-4zm0 0V6a2 2 0 012-2h2" />
                                             </svg>
                                         </div>
                                         <div>
-                                            <h4 class="font-medium text-gray-900 text-sm">Stair Lifts</h4>
-                                            <p class="text-sm text-gray-500">Effortless Stair Navigation</p>
+                                            <h4 class="font-medium text-gray-900 text-sm">Bathroom Renovations</h4>
+                                            <p class="text-sm text-gray-500">Modern. Safe. Accessible.</p>
                                         </div>
                                     </a>
                                     <a href="/products-categories/barrier-free-bathrooms/" class="flex items-center p-2 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors group/item">

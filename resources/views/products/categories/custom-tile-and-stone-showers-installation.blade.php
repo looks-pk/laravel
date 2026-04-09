@@ -14,10 +14,10 @@
 
 @section('content')
     <!-- Hero Banner -->
-    <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
+    <section class="relative bg-gray-900 overflow-hidden" style="height: 100vh;">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}');">
+            style="background-image: url('{{ asset('/bestbath/6.jpeg') }}');">
             <div class="absolute inset-0 bg-black opacity-60"></div>
         </div>
 
@@ -64,7 +64,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Long-Lasting Quality"
+                        <img src="{{ asset('/bestbath/1.jpeg') }}" alt="Long-Lasting Quality"
                             class="w-full object-cover" style="height: 250px;">
                         <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Popular
@@ -80,7 +80,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Personalized Design"
+                        <img src="{{ asset('/bestbath/3.jpeg') }}" alt="Personalized Design"
                             class="w-full object-cover" style="height: 250px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -93,7 +93,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Better for Vancouver Homes"
+                        <img src="{{ asset('/bestbath/7.jpeg') }}" alt="Better for Vancouver Homes"
                             class="w-full object-cover" style="height: 250px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -106,7 +106,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Increases Home Value"
+                        <img src="{{ asset('/bestbath/10.jpeg') }}" alt="Increases Home Value"
                             class="w-full object-cover" style="height: 250px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -210,7 +210,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Tile Options"
+                        <img src="{{ asset('/bestbath/17.png') }}" alt="Tile Options"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -341,7 +341,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('/bathsafety-cat/walk-in-tubs-1.jpg') }}" alt="Tiled Shower Maintenance"
+                        <img src="{{ asset('/bestbath/18.png') }}" alt="Tiled Shower Maintenance"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

@@ -57,7 +57,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/bruno-elite-straight-stair-lift.webp') }}" alt="Home2stay Freecurve Curved Stair Lift"
+                        <img src="{{ asset('stairlifts/bruno-elan-straight-stairlift.jpg') }}" alt="Home2stay Freecurve Curved Stair Lift"
                             class="w-full object-cover" style="height: 400px;">
                         <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Popular
@@ -97,7 +97,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/bruno-elan-outdoor-straight-stairlift.jpg') }}" alt="Home2stay Straight Stair Lift 1100"
+                        <img src="{{ asset('stairlifts/bruno-elite-straight-outdoor-stair-lift-540x540.webp') }}" alt="Home2stay Straight Stair Lift 1100"
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -112,7 +112,7 @@
                     </div>
                 </div>
                 <!-- Product 4 -->
-                <div
+                {{-- <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
                         <img src="{{ asset('al-prod-page-imgs/elan-straight-indoor-stair-lift.webp') }}" alt="Home2stay Straight Stair Lift 1100"
@@ -128,7 +128,7 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <!-- Product 5 -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
@@ -187,7 +187,7 @@
                 </div>
 
                 <!-- Product 3 -->
-                <div
+                {{-- <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
                         <img src="{{ asset('bathsafety-cat/Stair-Lifts-cat-image-min.jpg') }}" alt="Home2stay Straight Stair Lift"
@@ -203,7 +203,7 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 <!-- Product 4 -->
                 <div

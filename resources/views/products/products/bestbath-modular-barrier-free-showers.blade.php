@@ -63,7 +63,7 @@
                 <!-- Product Image Gallery -->
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gray-100 rounded-lg overflow-hidden mb-4">
-                        <img src="{{ asset('al-prod-page-imgs/141-1200x800-1-1024x683-min.jpg') }}"
+                        <img src="{{ asset('np-img/best-bath.jpg') }}"
                             alt="Best Bath Modular Barrier-Free Shower - Home2Stay BC" class="w-full h-auto object-cover">
                     </div>
                     <!-- Request Quote Button -->
@@ -247,7 +247,7 @@
                             <div class="tab-pane" data-tab="images-tab" style="display: none !important;">
                                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('al-prod-page-imgs/141-1200x800-1-1024x683-min.jpg') }}"
+                                        <img src="{{ asset('np-img/best-bath.jpg') }}"
                                             alt="Best Bath Barrier-Free Shower - Home2Stay"
                                             class="w-full h-32 object-cover rounded-lg hover:opacity-90 transition duration-200">
                                     </div>
@@ -552,7 +552,7 @@
                         <p class="mb-5">Give us a call at <a href="tel:+16042591211" style="font-weight: bold; color:red;">604-259-1211</a> or submit a FREE <a href="#assessment" style="font-weight: bold; color:red;">ASSESSMENT FORM</a> to get started.</p>
                     </div>
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Rectangle 320-min.png') }}" alt="Best Bath Barrier-Free Shower - Home2Stay BC"
+                        <img src="{{ asset('np-img/mdas.jpg') }}" alt="Best Bath Barrier-Free Shower - Home2Stay BC"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

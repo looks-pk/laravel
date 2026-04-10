@@ -460,7 +460,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Rectangle 320-min.png') }}" alt="European Wet Room Solutions"
+                        <img src="{{ asset('np-img/mdas.jpg') }}" alt="European Wet Room Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

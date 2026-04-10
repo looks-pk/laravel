@@ -90,7 +90,7 @@
                 <!-- Product Image Gallery -->
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gray-100 rounded-lg overflow-hidden mb-4">
-                        <img src="{{ asset('bathsafety-cat/Stair-Lifts-cat-image-min.jpg') }}"
+                        <img src="{{ asset('stairlifts/bruno-elite-straight-outdoor-stair-lift-540x540.webp') }}"
                             alt="Home2Stay Outdoor Stairlifts" class="w-full h-auto object-contain p-4">
                     </div>
                     <!-- Request Quote Button -->
@@ -218,22 +218,27 @@
                             <div class="tab-pane" data-tab="images-tab" style="display: none !important;">
                                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('bathsafety-cat/Stair-Lifts-cat-image-min.jpg') }}"
+                                        <img src="{{ asset('stairlifts/bruno-elan-outdoor-stairlift.jpg') }}"
                                             alt="Home2Stay Outdoor Stairlifts"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('bathsafety-cat/1100stairlift9.jpg') }}"
+                                        <img src="{{ asset('stairlifts/elite-outdoor-straight-stairlift-options-2.webp') }}"
                                             alt="Outdoor stairlift detail"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('bathsafety-cat/elan-image-3.jpg') }}"
+                                        <img src="{{ asset('stairlifts/elite-outdoor-straight-stairlift-options.webp') }}"
                                             alt="Outdoor stairlift closeup"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('bathsafety-cat/elan-image-4.jpg') }}"
+                                        <img src="{{ asset('stairlifts/elite-straight-outdoor-stair-lift-300x350-4.webp') }}"
+                                            alt="Outdoor stairlift seating"
+                                            class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
+                                    </div>
+                                    <div class="image-thumbnail cursor-pointer">
+                                        <img src="{{ asset('stairlifts/elite-straight-outdoor-stair-lift-.webp') }}"
                                             alt="Outdoor stairlift seating"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
@@ -369,7 +374,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('bathsafety-cat/Stair-Lifts-cat-image-min.jpg') }}" alt="Bathroom Safety Solutions"
+                        <img src="{{ asset('stairlifts/bruno-elite-straight-outdoor-stair-lift-540x540.webp') }}" alt="Bathroom Safety Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

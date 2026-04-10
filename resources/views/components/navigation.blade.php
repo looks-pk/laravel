@@ -817,7 +817,15 @@
                 <div class="hidden pl-4 mt-2 space-y-1" id="mobile-products-menu">
                     <!-- Bathroom & Safety -->
                     <div class="mb-4">
-                        <h4 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2 px-4">Bathroom & Safety</h4>
+                        <h4 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2 px-4">Bathroom Renovations</h4>
+                         <a href="/products-categories/bathroom-renovations/"                            
+                         class="flex items-center px-4 py-2 text-gray-600 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 10h10a4 4 0 014 4v2a2 2 0 01-2 2H5a2 2 0 01-2-2v-2a4 4 0 014-4zm0 0V6a2 2 0 012-2h2" />
+                            </svg>
+                            Bathroom Renovations
+                        </a>
                         <a href="/products-categories/barrier-free-bathrooms/"
                             class="flex items-center px-4 py-2 text-gray-600 hover:text-primary hover:bg-primary/5 rounded-lg transition-colors">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-3 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">

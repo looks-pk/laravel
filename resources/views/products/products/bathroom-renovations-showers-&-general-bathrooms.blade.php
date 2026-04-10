@@ -90,7 +90,7 @@
                 <!-- Product Image Gallery -->
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gray-100 rounded-lg overflow-hidden mb-4">
-                        <img src="{{ asset('al-prod-page-imgs/141-1200x800-1-1024x683-min.jpg') }}"
+                        <img src="{{ asset('bestbath/16.jpeg') }}"
                             alt="Home2stay European Wet Room Conversion Kits" class="w-full h-auto object-cover">
                     </div>
                     <!-- Request Quote Button -->
@@ -267,7 +267,52 @@
                             <div class="tab-pane" data-tab="images-tab" style="display: none !important;">
                                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('al-prod-page-imgs/141-1200x800-1-1024x683-min.jpg') }}"
+                                        <img src="{{ asset('bestbath/16.jpeg') }}"
+                                            alt="European Wet Room Conversion Kit"
+                                            class="w-full h-32 object-cover rounded-lg hover:opacity-90 transition duration-200">
+                                    </div>
+                                    <div class="image-thumbnail cursor-pointer">
+                                        <img src="{{ asset('bestbath/3.jpeg') }}"
+                                            alt="European Wet Room Conversion Kit"
+                                            class="w-full h-32 object-cover rounded-lg hover:opacity-90 transition duration-200">
+                                    </div>
+                                    <div class="image-thumbnail cursor-pointer">
+                                        <img src="{{ asset('bestbath/6.jpeg') }}"
+                                            alt="European Wet Room Conversion Kit"
+                                            class="w-full h-32 object-cover rounded-lg hover:opacity-90 transition duration-200">
+                                    </div>
+                                    <div class="image-thumbnail cursor-pointer">
+                                        <img src="{{ asset('bestbath/7.jpeg') }}"
+                                            alt="European Wet Room Conversion Kit"
+                                            class="w-full h-32 object-cover rounded-lg hover:opacity-90 transition duration-200">
+                                    </div>
+                                    <div class="image-thumbnail cursor-pointer">
+                                        <img src="{{ asset('bestbath/8.jpeg') }}"
+                                            alt="European Wet Room Conversion Kit"
+                                            class="w-full h-32 object-cover rounded-lg hover:opacity-90 transition duration-200">
+                                    </div>
+                                    <div class="image-thumbnail cursor-pointer">
+                                        <img src="{{ asset('bestbath/9.jpeg') }}"
+                                            alt="European Wet Room Conversion Kit"
+                                            class="w-full h-32 object-cover rounded-lg hover:opacity-90 transition duration-200">
+                                    </div>
+                                    <div class="image-thumbnail cursor-pointer">
+                                        <img src="{{ asset('bestbath/10.jpeg') }}"
+                                            alt="European Wet Room Conversion Kit"
+                                            class="w-full h-32 object-cover rounded-lg hover:opacity-90 transition duration-200">
+                                    </div>
+                                    <div class="image-thumbnail cursor-pointer">
+                                        <img src="{{ asset('bestbath/11.jpeg') }}"
+                                            alt="European Wet Room Conversion Kit"
+                                            class="w-full h-32 object-cover rounded-lg hover:opacity-90 transition duration-200">
+                                    </div>
+                                    <div class="image-thumbnail cursor-pointer">
+                                        <img src="{{ asset('bestbath/14.jpeg') }}"
+                                            alt="European Wet Room Conversion Kit"
+                                            class="w-full h-32 object-cover rounded-lg hover:opacity-90 transition duration-200">
+                                    </div>
+                                    <div class="image-thumbnail cursor-pointer">
+                                        <img src="{{ asset('bestbath/15.jpeg') }}"
                                             alt="European Wet Room Conversion Kit"
                                             class="w-full h-32 object-cover rounded-lg hover:opacity-90 transition duration-200">
                                     </div>
@@ -422,7 +467,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Rectangle 320-min.png') }}" alt="European Wet Room Solutions"
+                        <img src="{{ asset('bestbath/1.jpeg') }}" alt="European Wet Room Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

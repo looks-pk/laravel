@@ -90,7 +90,7 @@
                 <!-- Product Image Gallery -->
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gray-100 rounded-lg overflow-hidden mb-4">
-                        <img src="{{ asset('np-img/mdas.jpg') }}"
+                        <img src="{{ asset('bathrooms-images/Shower Bay - Portable Accessible Shower.webp') }}"
                             alt="Home2stay Portable Accessible Showers" class="w-full h-auto object-contain p-10">
                     </div>
                     <!-- Request Quote Button -->
@@ -263,7 +263,7 @@
                             <div class="tab-pane" data-tab="images-tab" style="display: none !important;">
                                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('np-img/mdas.jpg') }}"
+                                        <img src="{{ asset('bathrooms-images/Shower Bay - Portable Accessible Shower.webp') }}"
                                             alt="Home2stay Portable Accessible Showers"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-4 bg-gray-50">
                                     </div>

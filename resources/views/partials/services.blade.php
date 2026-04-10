@@ -57,7 +57,7 @@
                         </ul>
                     </div>
                     <div class="card-footer flex justify-between">
-                        <a href="/products-categories/barrier-free-bathrooms/"
+                        <a href="/products-categories/bathroom-renovations/"
                             class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>See More</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"

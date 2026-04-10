@@ -620,7 +620,7 @@
 
                     <!-- Image -->
                     <div class="w-full lg:w-1/2 bg-primary-dark">
-                        <img src="{{ asset('al-prod-page-imgs/Rectangle 320-min.png') }}" alt="Accessibility Solutions"
+                        <img src="{{ asset('np-img/mdas.jpg') }}" alt="Accessibility Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

@@ -64,7 +64,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img class="w-full object-cover" src="{{ asset('/rentals-main/Home2stay-Portable-Shower-Unit-remtals-category-min.jpg') }}" alt="Shower Bay Portable Accessible Shower"
+                        <img class="w-full object-cover" src="{{ asset('/bathrooms-images/Shower Bay - Portable Accessible Shower.webp') }}" alt="Shower Bay Portable Accessible Shower"
                             style="height: 300px;">
                         <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Popular
@@ -190,7 +190,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/bathtub-to-shower.jpeg') }}" alt="Sentrel Systems Showers"
+                        <img src="{{ asset('bathrooms-images/Tub-to-Shower Conversion.webp') }}" alt="Sentrel Systems Showers"
                             class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
                         <div class="absolute top-0 right-0 bg-blue-500 text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             
@@ -211,7 +211,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/141-1200x800-1-1024x683-min.jpg') }}" alt="Sentrel Systems Showers"
+                        <img src="{{ asset('bestbath/6.jpeg') }}" alt="Sentrel Systems Showers"
                             class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
                         <div class="absolute top-0 right-0 bg-blue-500 text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             

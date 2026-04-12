@@ -58,7 +58,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('bathsafety-cat/CleanCut-Step-V1-e1503607014281.jpg') }}" alt="Home2stay Tub Cut Step"
+                        <img src="{{ asset('tubcuts/tubcut-step.jpeg') }}" alt="Home2stay Tub Cut Step"
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">

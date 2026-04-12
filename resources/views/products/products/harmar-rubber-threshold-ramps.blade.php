@@ -90,7 +90,7 @@
                 <!-- Product Image Gallery -->
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gray-100 rounded-lg overflow-hidden mb-4">
-                        <img src="{{ asset('bathsafety-cat/Home2stay-Self-Supporting-Threshold-Ramps-min.jpg') }}"
+                        <img src="{{ asset('ramps/harmar-rubber-ramps.jpeg') }}"
                             alt="Home2stay Self Supporting Threshold Ramps" class="w-full h-auto object-contain p-4">
                     </div>
                     <!-- Request Quote Button -->
@@ -306,17 +306,22 @@
                             <div class="tab-pane" data-tab="images-tab" style="display: none !important;">
                                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('bathsafety-cat/Home2stay-Self-Supporting-Threshold-Ramps-min.jpg') }}"
+                                        <img src="{{ asset('ramps/harmar-rubber-ramps-1.jpeg') }}"
                                             alt="Self Supporting Threshold Ramps"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('bathsafety-cat/Copy-of-SSTH1636-1.5_03-scaled-min.jpg') }}"
+                                        <img src="{{ asset('ramps/harmar-rubber-ramps-2.jpeg') }}"
                                             alt="Self Supporting Threshold Ramps"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('bathsafety-cat/Copy-of-SSTH1636-1.5_02-min.jpg') }}"
+                                        <img src="{{ asset('ramps/harmar-rubber-ramps-3.jpeg') }}"
+                                            alt="Self Supporting Threshold Ramps"
+                                            class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
+                                    </div>
+                                    <div class="image-thumbnail cursor-pointer">
+                                        <img src="{{ asset('ramps/harmar-rubber-ramps-4.jpeg') }}"
                                             alt="Self Supporting Threshold Ramps"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>

@@ -17,7 +17,7 @@
     <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('{{ asset('/mram/p3.png') }}');">
+            style="background-image: url('{{ asset('ramps/modular-ramps.jpeg') }}');">
             <div class="absolute inset-0 bg-black opacity-60"></div>
         </div>
 
@@ -60,7 +60,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/mram/p2.png') }}" alt="Simple and Quick Installation"
+                        <img src="{{ asset('ramps/modular-ramps-1.jpg') }}" alt="Simple and Quick Installation"
                             class="w-full object-cover" style="height: 250px;">
                         <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Popular
@@ -76,7 +76,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/mram/p3.png') }}" alt="Strong and Weather-Resistant"
+                        <img src="{{ asset('ramps/modular-ramps-2.jpg') }}" alt="Strong and Weather-Resistant"
                             class="w-full object-cover" style="height: 250px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -89,8 +89,8 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/mram/p4.png') }}" alt="Safe for Daily Use"
-                            class="w-full object-cover" style="height: 250px;">
+                        <img src="{{ asset('ramps/modular-ramps-3.jpg') }}" alt="Safe for Daily Use"
+                            class="w-full object-cover object-bottom" style="height: 250px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Safe for Daily Use:</h3>
@@ -102,7 +102,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/mram/p5.png') }}" alt="Fits Any Property"
+                        <img src="{{ asset('ramps/modular-ramps.jpg') }}" alt="Fits Any Property"
                             class="w-full object-cover" style="height: 250px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -186,7 +186,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('/mram/p6.png') }}" alt="Types of Modular Ramps"
+                        <img src="{{ asset('ramps/modular-ramps.jpeg') }}" alt="Types of Modular Ramps"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -333,7 +333,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('/mram/p5.png') }}" alt="Modular Ramp Maintenance"
+                        <img src="{{ asset('ramps/modular-ramps-1.jpg') }}" alt="Modular Ramp Maintenance"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

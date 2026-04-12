@@ -223,12 +223,12 @@
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('stairlifts/elite-outdoor-straight-stairlift-options-2.webp') }}"
+                                        <img src="{{ asset('stairlifts/elite-straight-outdoor-stair-lift-300x350-2.webp') }}"
                                             alt="Outdoor stairlift detail"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('stairlifts/elite-outdoor-straight-stairlift-options.webp') }}"
+                                        <img src="{{ asset('stairlifts/elite-straight-outdoor-stair-lift-300x350-3.webp') }}"
                                             alt="Outdoor stairlift closeup"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>

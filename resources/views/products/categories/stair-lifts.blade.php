@@ -64,7 +64,7 @@
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Bruno Straight Stair Lift</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Straight Stair Lift</h3>
                         <p class="text-gray-600 mb-4 flex-grow">Bring effortless independence to every level of your home. The Bruno Straight Stair Lift from Home2Stay provides smooth, reliable mobility for straight staircases</p>
                         <div class="mt-auto">
                             <a href="/products/bruno-straight-stair-lift"
@@ -75,11 +75,30 @@
                     </div>
                 </div>
 
+                
+                <!-- flow x new added product -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('flowx/Flow%20X_Detail%2040.jpg') }}" alt="Home2stay Straight Stair Lift 1100"
+                            class="w-full object-cover" style="height: 400px;">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                    <a href="{{ route('products.show', 'flow-x-stairlift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Curved Stairlift</h3></a>
+                        <p class="text-gray-600 mb-4 flex-grow">Experience Effortless Mobility with Custom-Made Curved Stairlifts</p>
+                        <div class="mt-auto">
+                            <a href="/products/flow-x-stairlift/"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <!-- Product 2 -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/Ready-to-book-aschedule-min.png') }}" alt="Home2stay Straight Stair Lift 1100"
+                        <img src="{{ asset('stairlifts/elite-straight-indoor-stair-lift-1200x525-3.png') }}" alt="Home2stay Straight Stair Lift 1100"
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -130,7 +149,7 @@
                     </div>
                 </div> --}}
                 <!-- Product 5 -->
-                <div
+                {{-- <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
                         <img src="{{ asset('al-prod-page-imgs/Thyssen-Homeglide.webp') }}" alt="Home2stay Straight Stair Lift 1100"
@@ -146,9 +165,9 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <!-- Product 6 -->
-                <div
+                {{-- <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
                         <img src="{{ asset('bathsafety-cat/1100stairlift-min.jpg') }}" alt="Home2stay Straight Stair Lift 1100"
@@ -164,27 +183,8 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
-                
-                <!-- flow x new added product -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('flowx/Flow%20X_Detail%2040.jpg') }}" alt="Home2stay Straight Stair Lift 1100"
-                            class="w-full object-cover" style="height: 400px;">
-                    </div>
-                    <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'flow-x-stairlift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Flow X Curved Stairlift Vancouver</h3></a>
-                        <p class="text-gray-600 mb-4 flex-grow">Experience Effortless Mobility with Custom-Made Curved Stairlifts</p>
-                        <div class="mt-auto">
-                            <a href="/products/flow-x-stairlift/"
-                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
-                                View Product
-                            </a>
-                        </div>
-                    </div>
-                </div>
 
                 <!-- Product 3 -->
                 {{-- <div
@@ -296,7 +296,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Stair-Lifts.jpg') }}" alt="Stair Lifts"
+                        <img src="{{ asset('stairlifts/bruno-elan-straight-stairlift.jpg') }}" alt="Stair Lifts"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -307,7 +307,7 @@
     <!-- Stair Lift Details -->
     <section class="py-16 bg-gray-50">
         <div class="container mx-auto px-4">
-            <div class="max-w-6xl mx-auto">
+            <div class="mx-auto">
                 <div class="bg-white rounded-xl shadow-md overflow-hidden">
                     <div class="flex flex-col lg:flex-row">
                         <!-- Text Content -->
@@ -391,7 +391,7 @@
                         <!-- Image -->
                         <div class="w-full lg:w-1/2">
                             <img src="{{ asset('bathsafety-cat/stairlift-comparison.jpg') }}" alt="Stair Lift Comparison"
-                                class="w-full h-full py-20" style="min-height: 400px;">
+                                class="w-full h-full py-20" style="min-height: 400px;object-fit:scale-down;">
                         </div>
                     </div>
                 </div>

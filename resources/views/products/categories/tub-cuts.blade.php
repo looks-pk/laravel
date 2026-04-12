@@ -78,7 +78,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/tub-cut-steps-ultra-low.png') }}" alt="Home2stay Tub Cut Ultra-Low"
+                        <img src="{{ asset('tubcuts/ultra-low-tubcut.jpeg') }}" alt="Home2stay Tub Cut Ultra-Low"
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -98,7 +98,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('bathsafety-cat/CleanCut-Convertible-wPlug-V3-e1503607459913.jpg') }}" alt="Home2stay Convertible Tub Cut"
+                        <img src="{{ asset('tubcuts/convertible-tubcut.jpeg') }}" alt="Home2stay Convertible Tub Cut"
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -137,7 +137,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/al-prod-page-imgs/clean-tub-cut.png') }}" alt="Home2stay Tub Cut w/ Door"
+                        <img src="{{ asset('tubcuts/cleancut-tubcuts.jpeg') }}" alt="Home2stay Tub Cut w/ Door"
                             class="w-full object-cover" style="height: 400px;">
                         <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Popular
@@ -170,29 +170,6 @@
                         <p class="text-gray-600 mb-4 flex-grow">Quick Tub services turns your standard bathtub into a low-threshold step-in shower without the cost, mess or time of a complete renovation.</p>
                         <div class="mt-auto">
                             <a href="/products/quick-tub"
-                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
-                                View Product
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 6 discontinued one -->
-
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('bathsafety-cat/Group-137-2.jpg') }}" alt="Home2stay Tub Cut w/ Door"
-                            class="w-full object-cover" style="height: 400px;">
-                        <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
-                            Popular
-                        </div>
-                    </div>
-                    <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'home2stay-tub-cut-w-door') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3"> Tub Cut w/ Door</h3></a>
-                        <p class="text-gray-600 mb-4 flex-grow">Enjoy the best of both worlds- Convert your existing tub into a step-in shower or bath! The CleanCut</p>
-                        <div class="mt-auto">
-                            <a href="/products/tub-cut-door/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>

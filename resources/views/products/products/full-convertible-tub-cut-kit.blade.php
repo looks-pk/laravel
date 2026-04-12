@@ -504,7 +504,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('bathsafety-cat/Group-137-2.jpg') }}" alt="Bathroom Safety Solutions"
+                        <img src="{{ asset('bathsafety-cat/quicktub.jpg') }}" alt="Bathroom Safety Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

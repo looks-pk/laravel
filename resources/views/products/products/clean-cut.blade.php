@@ -90,7 +90,7 @@
                 <!-- Product Image Gallery -->
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gray-100 rounded-lg overflow-hidden mb-4">
-                        <img src="{{ asset('bathsafety-cat/CleanCut-Step-V1-e1503607014281-1.jpg') }}"
+                        <img src="{{ asset('tubcuts/cleancut-tubcuts.jpeg') }}"
                             alt="Home2Stay Clean Cut" class="w-full h-auto object-contain p-4">
                     </div>
                     <!-- Request Quote Button -->
@@ -481,7 +481,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('/bathsafety-cat/CleanCut-Convertible-wPlug-V3-e1503607459913.jpg') }}" alt="Bathroom Safety Solutions"
+                        <img src="{{ asset('tubcuts/cleancut-tubcuts.jpeg') }}" alt="Bathroom Safety Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

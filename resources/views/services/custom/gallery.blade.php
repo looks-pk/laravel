@@ -592,7 +592,7 @@
                         </div>
                     </div>
                     
-                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('/gallery-imgs/all-bathroom-images/2.jpg') }}', '')">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('/gallery-imgs/all-bathroom-images/2.jpeg') }}', '')">
                         <div class="image-container">
                             <div class="image-placeholder">
                                 <div class="loading-spinner"></div>

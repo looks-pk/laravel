@@ -597,7 +597,7 @@
                             <div class="image-placeholder">
                                 <div class="loading-spinner"></div>
                             </div>
-                            <img data-lazy="{{ asset('/gallery-imgs/all-bathroom-images/2.jpg') }}" 
+                            <img data-lazy="{{ asset('/gallery-imgs/all-bathroom-images/2.jpeg') }}" 
                                  alt="Modern Barrier-Free Design"
                                  class="lazy-image"
                                  loading="lazy">

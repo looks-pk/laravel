@@ -86,7 +86,7 @@
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Elan Straight Stair Lift by Bruno (SRE-3050)</h3>
                         <p class="text-gray-600 mb-4 flex-grow"> Get the most popular American-made straight stairlift. Bruno's Elan is a mix of stylish design, high-quality functionality and ease-of-use operation. With a narrow vertical rail design, Bruno's Elan stairlift leaves plenty of open space on the steps.</p>
                         <div class="mt-auto">
-                            <a href="/products/bruno-straight-stair-lift"
+                            <a href="/products/bruno-elan-straight-stairlift"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Details
                             </a>
@@ -104,7 +104,7 @@
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Elite Straight Indoor Stair Lift</h3>
                         <p class="text-gray-600 mb-4 flex-grow">Rediscover freedom and independence with Home2Stay Outdoor Stairlifts. Designed to handle the elements while providing unmatched comfort and safety, our stairlifts allow you to move between levels with ease, no matter the weather.</p>
                         <div class="mt-auto">
-                            <a href="/products/bruno-straight-stair-lift"
+                            <a href="/products/bruno-elite-straight-indoor-stairlift"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Details
                             </a>
@@ -112,7 +112,7 @@
                     </div>
                 </div>
                 <!-- Product 4 -->
-                <div
+                {{-- <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
                         <img src="{{ asset('al-prod-page-imgs/1._30fc16ef-f1af-42ae-ae45-51a202d065b7.jpg') }}" alt="Home2stay Straight Stair Lift 1100"
@@ -128,7 +128,7 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>

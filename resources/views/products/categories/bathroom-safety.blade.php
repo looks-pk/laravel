@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Bath Benches, Shower Seats &amp; Accessories for a Safe Bathroom - Home2stay')
-@section('meta_description', 'We stock a full range of products to help seniors and people with disabilities to bathe in safety, comfort and independence. These include bath seats, bath benches, bath stools, transfer benches, bathroom mats, bath lifts and raised toilet seats.')
+@section('title', 'Bathroom Safety Accessories Vancouver | Shower Seats, Bath Benches & Grab Bars - Home2stay')
+@section('meta_description', 'Home2Stay stocks a full range of bathroom safety accessories for Vancouver seniors and people with disabilities — shower seats, bath benches, transfer benches, bath mats, and more. Professional installation available.')
 
 @push('styles')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'A Barrier-Free Bathroom | Safe Bath For Seniors - Home2stay')
-@section('meta_description', 'Our barrier-free bathrooms are perfect for seniors and those with mobility issues. Shower in the safety of your own home, regardless of your age or ability. Installation available.')
+@section('title', 'Bathroom Renovations Vancouver | Barrier-Free Showers & Complete Bathroom Remodels - Home2stay')
+@section('meta_description', 'Creating beautiful bathroom spaces in Vancouver. Home2Stay specializes in barrier-free bathroom renovations, but we do all bathroom types — tub-to-shower conversions, custom tile showers, and complete bathroom remodels.')
 
 @push('styles')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -31,9 +31,9 @@
         <!-- Hero Content -->
         <div class="container mx-auto px-4 relative z-10 flex items-center" style="min-height: 500px;">
             <div class="max-w-3xl">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Barrier-Free Bathrooms</h1>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Bathroom Renovations</h1>
                 <p class="text-xl text-white/90 mb-8">
-                    Creating safe, accessible, and beautiful bathroom spaces that promote independence and dignity for all users.
+                    Creating beautiful spaces — our specialty is barrier-free bathroom renovation, but we do all bathroom types. From tub-to-shower conversions to custom tile showers and complete bathroom remodels in Vancouver.
                 </p>
                 <div class="flex flex-wrap gap-4">
                     <a href="#products"
@@ -53,48 +53,27 @@
     <section id="products" class="py-16 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Barrier-Free Bathroom Solutions</h2>
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Bathroom Renovation Solutions</h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto">
-                    Discover our range of innovative solutions designed to make bathrooms safer, more accessible, and more comfortable for individuals with mobility challenges.
+                    From full bathroom remodels to barrier-free shower installations, we create beautiful, functional spaces for every lifestyle. Our specialty is accessibility — but we do all bathroom types.
                 </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Product 1 - Shower Bay -->
-                <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
-                    <div class="overflow-hidden relative">
-                        <img class="w-full object-cover" src="{{ asset('/bathrooms-images/Shower Bay - Portable Accessible Shower.webp') }}" alt="Shower Bay Portable Accessible Shower"
-                            style="height: 300px;">
-                        <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
-                            Popular
-                        </div>
-                    </div>
-                    <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'modular-accessible-showers') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Shower Bay - Portable Accessible Shower</h3></a>
-                        <p class="text-gray-600 mb-4 flex-grow">The Shower Bay is a revolutionary portable shower designed specifically for wheelchair users. It provides a true shower experience with easy installation in any room, offering independence and dignity for users with mobility challenges.</p>
-                        <div class="mt-auto">
-                            <a href="/products/modular-accessible-showers/"
-                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
-                                View Product
-                            </a>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Product 2 - Best Bath -->
+                <!-- Best Bath - Featured first (flagship product) -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('np-img/best-bath.jpg') }}" alt="Best Bath Modular Showers"
+                        <img src="{{ asset(‘np-img/best-bath.jpg’) }}" alt="Best Bath Modular Barrier-Free Shower Installation Vancouver"
                             class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
                         <div class="absolute top-0 right-0 bg-green-500 text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             ADA Compliant
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'bestbath-modular-barrier-free-showers') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Best Bath Modular Barrier-Free Showers</h3></a>
-                        <p class="text-gray-600 mb-4 flex-grow">Best Bath Intelligent Designs offers premium modular barrier-free showers that set the standard for safety, durability, and accessibility. Manufactured in the USA with a 30-year limited warranty.</p>
+                    <a href="{{ route(‘products.show’, ‘bestbath-modular-barrier-free-showers’) }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Best Bath Modular Barrier-Free Showers</h3></a>
+                        <p class="text-gray-600 mb-4 flex-grow">Best Bath Intelligent Designs offers premium modular barrier-free showers that set the standard for safety, durability, and accessibility. Manufactured in the USA with a 30-year limited warranty. Choose from a wide selection of sizes, colors, and finishes.</p>
                         <div class="mt-auto">
                             <a href="/products/bestbath-modular-barrier-free-showers/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
@@ -104,38 +83,19 @@
                     </div>
                 </div>
 
-                <!-- Product 3 - Custom Tile Showers -->
-                {{-- <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
-                    <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/141-1200x800-1-1024x683-min.jpg') }}" alt="Custom Tile Shower Conversion Kits"
-                            class="w-full object-cover" style="height: 300px;">
-                    </div>
-                    <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'european-wet-room-conversion-kits') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Custom Tile Shower Conversion Kits</h3></a>
-                        <p class="text-gray-600 mb-4 flex-grow">Transform your bathroom with our custom tile shower conversion kits. Create beautiful, accessible, and functional spaces with curbless shower design that combines style with universal accessibility.</p>
-                        <div class="mt-auto">
-                            <a href="/products/european-wet-room-conversion-kits/"
-                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
-                                View Product
-                            </a>
-                        </div>
-                    </div>
-                </div> --}}
-
-                <!-- Product 4 - Sentrel Systems -->
+                <!-- Sentrel Systems -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/Sentrel-hospitality.webp') }}" alt="Sentrel Systems Showers"
+                        <img src="{{ asset(‘al-prod-page-imgs/Sentrel-hospitality.webp’) }}" alt="Sentrel Systems Accessible Shower Installation Vancouver"
                             class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
                         <div class="absolute top-0 right-0 bg-blue-500 text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Premium
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'sentrel-systems-showers') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Sentrel Systems Showers</h3></a>
-                        <p class="text-gray-600 mb-4 flex-grow">Sentrel Systems provides innovative shower solutions designed for accessibility and comfort. Their advanced systems offer superior durability and modern design for barrier-free bathroom environments.</p>
+                    <a href="{{ route(‘products.show’, ‘sentrel-systems-showers’) }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Sentrel Systems Showers</h3></a>
+                        <p class="text-gray-600 mb-4 flex-grow">Sentrel Systems provides innovative shower solutions designed for accessibility and comfort. Superior durability and modern design for barrier-free bathroom environments in Vancouver.</p>
                         <div class="mt-auto">
                             <a href="/products/sentrel-systems-showers/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
@@ -144,19 +104,17 @@
                         </div>
                     </div>
                 </div>
-                <!-- Product 5 -->
+
+                <!-- Bathroom Renovations & Showers -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('np-img/central-system.jpg') }}" alt="Sentrel Systems Showers"
+                        <img src="{{ asset(‘np-img/central-system.jpg’) }}" alt="Bathroom Renovation Vancouver - Custom Shower Installation"
                             class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
-                        <div class="absolute top-0 right-0 bg-blue-500 text-white text-sm font-bold px-3 py-1 m-4 rounded">
-                            
-                        </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="/products/bathroom-renovations-&-showers" > <h3 class="text-xl font-bold text-gray-800 mb-3">Bathroom renovations & showers</h3></a>
-                        <p class="text-gray-600 mb-4 flex-grow">We’re experts in transforming ordinary bathrooms into elegant, functional, and modern living spaces. Our Bathroom Renovations & Showers service is designed for homeowners who value quality expertise</p>
+                    <a href="/products/bathroom-renovations-&-showers" > <h3 class="text-xl font-bold text-gray-800 mb-3">Bathroom Renovations & Showers</h3></a>
+                        <p class="text-gray-600 mb-4 flex-grow">We’re experts in transforming ordinary bathrooms into elegant, functional, and modern living spaces. Our Bathroom Renovations & Showers service is designed for homeowners who value quality craftsmanship.</p>
                         <div class="mt-auto">
                             <a href="/products/bathroom-renovations-&-showers"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
@@ -165,19 +123,17 @@
                         </div>
                     </div>
                 </div>
-                <!-- Product 6 -->
+
+                <!-- Remodeling an Acrylic Shower -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/remodeling-bellastone.jpeg') }}" alt="Sentrel Systems Showers"
+                        <img src="{{ asset(‘al-prod-page-imgs/remodeling-bellastone.jpeg’) }}" alt="Acrylic Shower Remodel Vancouver - Bellastone Style"
                             class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
-                        <div class="absolute top-0 right-0 bg-blue-500 text-white text-sm font-bold px-3 py-1 m-4 rounded">
-                            
-                        </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
                     <a href="/products/remodeling-an-acrylic-shower" > <h3 class="text-xl font-bold text-gray-800 mb-3">Remodeling an Acrylic Shower (Bellastone Style)</h3></a>
-                        <p class="text-gray-600 mb-4 flex-grow">Our premium Acrylic Shower renovation solutions will change your bathroom into an oasis of luxury and low maintenance.</p>
+                        <p class="text-gray-600 mb-4 flex-grow">Our premium Acrylic Shower renovation solutions will transform your bathroom into an oasis of luxury and low maintenance. Beautiful finishes that complement any home.</p>
                         <div class="mt-auto">
                             <a href="/products/remodeling-an-acrylic-shower"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
@@ -186,19 +142,17 @@
                         </div>
                     </div>
                 </div>
-                <!-- Product 7 -->
+
+                <!-- Tub-to-Shower Conversion -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('bathrooms-images/Tub-to-Shower Conversion.webp') }}" alt="Sentrel Systems Showers"
+                        <img src="{{ asset(‘bathrooms-images/Tub-to-Shower Conversion.webp’) }}" alt="Tub-to-Shower Conversion Vancouver - Home2Stay Barrier-Free Bathrooms"
                             class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
-                        <div class="absolute top-0 right-0 bg-blue-500 text-white text-sm font-bold px-3 py-1 m-4 rounded">
-                            
-                        </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
                     <a href="/products/tub-to-shower-conversion" > <h3 class="text-xl font-bold text-gray-800 mb-3">Tub-to-Shower Conversion</h3></a>
-                        <p class="text-gray-600 mb-4 flex-grow">Bathroom Renovations and Shower services are our specialty. A special focus is on Tub-to-Shower Converters</p>
+                        <p class="text-gray-600 mb-4 flex-grow">Transform your bathtub into a beautiful walk-in shower. Our Tub-to-Shower Conversions create safe, accessible, curbless shower spaces that modernize your bathroom.</p>
                         <div class="mt-auto">
                             <a href="/products/tub-to-shower-conversion"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
@@ -207,19 +161,17 @@
                         </div>
                     </div>
                 </div>
-                <!-- Product 8 -->
+
+                <!-- Bathroom Renovations, Showers & General Bathrooms -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('bestbath/6.jpeg') }}" alt="Sentrel Systems Showers"
+                        <img src="{{ asset(‘bestbath/6.jpeg’) }}" alt="Home2Stay Barrier-Free Bathroom Renovation Vancouver"
                             class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
-                        <div class="absolute top-0 right-0 bg-blue-500 text-white text-sm font-bold px-3 py-1 m-4 rounded">
-                            
-                        </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
                     <a href="/products/bathroom-renovations-showers-&-general-bathrooms" > <h3 class="text-xl font-bold text-gray-800 mb-3">Bathroom Renovations, Showers & General Bathrooms</h3></a>
-                        <p class="text-gray-600 mb-4 flex-grow">Bathroom Renovations & Shower installations are what we get the knack of. We aim to improve comfort and property value while exalting everyday living.</p>
+                        <p class="text-gray-600 mb-4 flex-grow">Bathroom Renovations & Shower installations are our specialty. We improve comfort and property value while creating beautiful, functional spaces for everyday living.</p>
                         <div class="mt-auto">
                             <a href="/products/bathroom-renovations-showers-&-general-bathrooms"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
@@ -228,6 +180,26 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Shower Bay - Portable Accessible Shower (moved down per client request) -->
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
+                    <div class="overflow-hidden relative">
+                        <img class="w-full object-cover" src="{{ asset(‘/bathrooms-images/Shower Bay - Portable Accessible Shower.webp’) }}" alt="Shower Bay Portable Accessible Shower - Barrier-Free Bathroom Vancouver"
+                            style="height: 300px;">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                    <a href="{{ route(‘products.show’, ‘modular-accessible-showers’) }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Shower Bay - Portable Accessible Shower</h3></a>
+                        <p class="text-gray-600 mb-4 flex-grow">The Shower Bay is a revolutionary portable shower designed specifically for wheelchair users. Easy installation in any room with no major remodeling required, providing true independence and dignity.</p>
+                        <div class="mt-auto">
+                            <a href="/products/modular-accessible-showers/"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -237,9 +209,9 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Creating Safe & Accessible Bathroom Spaces</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Professional Bathroom Remodels in Vancouver</h2>
                     <p class="text-lg text-gray-600">
-                        Our barrier-free bathroom solutions are designed to help individuals with mobility challenges maintain independence and dignity in their daily routines. No need to sacrifice style for safety and comfort.
+                        Home2Stay creates beautiful, high-quality bathroom spaces that work for everyone. Our specialty is barrier-free design, but we handle all bathroom types — and we never sacrifice style for function.
                     </p>
                 </div>
 
@@ -312,7 +284,7 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="bg-white rounded-xl shadow-md p-8 md:p-12">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Barrier-Free Bathroom Solutions</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Our Bathroom Renovation Approach</h2>
 
                     <div class="prose prose-lg max-w-none">
                         <p class="text-gray-700 mb-4">
@@ -456,8 +428,8 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Request Your Barrier-Free Bathroom Assessment</h2>
-                    <p class="text-gray-600">Our accessibility specialists will evaluate your bathroom space and recommend the best barrier-free solutions for your needs.</p>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Request Your Free Bathroom Renovation Assessment</h2>
+                    <p class="text-gray-600">Our bathroom renovation specialists will evaluate your space and recommend the best solutions — whether barrier-free, a full remodel, or anything in between.</p>
                 </div>
 
                 <form action="/submit-quote" method="POST">
@@ -554,8 +526,8 @@
     <section class="py-16 bg-primary">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto text-center text-white">
-                <h2 class="text-3xl font-bold mb-6">Ready to Transform Your Bathroom?</h2>
-                <p class="text-xl mb-8">Contact us today to explore how our barrier-free bathroom solutions can enhance your independence and safety.</p>
+                <h2 class="text-3xl font-bold mb-6">Ready to Renovate Your Bathroom?</h2>
+                <p class="text-xl mb-8">Contact us today to explore how Home2Stay can create a beautiful, functional bathroom — barrier-free or any style you choose.</p>
                 <div class="flex flex-wrap justify-center gap-4">
                     <a href="{{ route('contact') }}"
                         class="px-8 py-3 bg-white text-primary hover:bg-gray-100 rounded-lg font-medium transition duration-300">

@@ -17,7 +17,7 @@
     <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('{{ asset('al-prod-page-imgs/Gemini_Generated_Image_kmaur5kmaur5kmau.png') }}');">
+            style="background-image: url('{{ asset('ramps/modular-ramps-1.jpg') }}');">
             <div class="absolute inset-0 bg-black opacity-60"></div>
         </div>
 
@@ -58,7 +58,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('al-prod-page-imgs/RubberRamps-13_resized.webp') }}" alt="Self Supporting Threshold Ramps"
+                        <img src="{{ asset('al-prod-page-imgs/RubberRamps-13_resized.webp') }}" alt="Harmar Rubber Threshold Ramp Installation Vancouver - Home2Stay"
                             class="w-full object-cover" style="height: 300px;">
                         <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Popular
@@ -79,7 +79,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('bathsafety-cat/Home2stay-Self-Supporting-Threshold-Ramps-min.jpg') }}" alt="Self Supporting Threshold Ramps"
+                        <img src="{{ asset('bathsafety-cat/Home2stay-Self-Supporting-Threshold-Ramps-min.jpg') }}" alt="Self Supporting Threshold Ramp Vancouver - Home2Stay Wheelchair Ramp"
                             class="w-full object-cover" style="height: 300px;">
                         <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Popular
@@ -102,7 +102,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('ramps/modular-ramps.jpeg') }}" alt="Self Supporting Threshold Ramps"
+                        <img src="{{ asset('ramps/modular-ramps.jpeg') }}" alt="Modular Wheelchair Ramp Installation Vancouver - Home2Stay"
                             class="w-full object-cover" style="height: 300px;">
                         <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Popular
@@ -154,7 +154,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('ramps/metal-threshold-ramp.jpeg') }}" alt="Vertical Platform Lifts"
+                        <img src="{{ asset('ramps/metal-threshold-ramp.jpeg') }}" alt="Metal Threshold Ramp Vancouver - Home2Stay Accessibility Ramp"
                             class="w-full object-contain transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -186,7 +186,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('ramps/pvi-multifold-ramp.jpeg') }}" alt="Vertical Platform Lifts"
+                        <img src="{{ asset('ramps/pvi-multifold-ramp.jpeg') }}" alt="PVI Multi-Fold Portable Ramp Vancouver - Home2Stay Wheelchair Ramp"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -218,7 +218,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('ramps/custom-wood-ramp.jpeg') }}" alt="Vertical Platform Lifts"
+                        <img src="{{ asset('ramps/custom-wood-ramp.jpeg') }}" alt="Custom Wood Ramp Installation Vancouver - Home2Stay"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -250,7 +250,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('ramps/folding-rolling-ramp.jpeg') }}" alt="Vertical Platform Lifts"
+                        <img src="{{ asset('ramps/folding-rolling-ramp.jpeg') }}" alt="Folding Rolling Ramp Vancouver - Home2Stay Portable Accessibility Ramp"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -282,7 +282,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('ramps/dunlop-slope.jpeg') }}" alt="Vertical Platform Lifts"
+                        <img src="{{ asset('ramps/dunlop-slope.jpeg') }}" alt="Dunlop Slope Threshold Ramp Vancouver - Home2Stay"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -314,7 +314,7 @@
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full group">
                     <!-- Product Image -->
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('ramps/roll-a-ramp.jpeg') }}" alt="Vertical Platform Lifts"
+                        <img src="{{ asset('ramps/roll-a-ramp.jpeg') }}" alt="Roll-A-Ramp Portable Accessibility Ramp Vancouver - Home2Stay"
                             class="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                             style="height: 400px;">
                         <div
@@ -415,7 +415,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Ramps.jpg') }}" alt="Accessibility Ramps"
+                        <img src="{{ asset('ramps/modular-ramps-2.jpg') }}" alt="Modular Ramp Installation Vancouver - Home2Stay"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -506,7 +506,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Ramps.jpg') }}" alt="Accessibility Ramps"
+                        <img src="{{ asset('ramps/custom-wood-ramp-1.jpeg') }}" alt="Custom Wood Ramp Installation Vancouver - Home2Stay"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

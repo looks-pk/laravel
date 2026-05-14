@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Safety Poles & Handrails For Seniors &amp; People with Disabilities - Home2stay')
-@section('meta_description', 'Enhance safety and mobility with Home2Stay\'s range of safety poles and handrails including bed rails, tub rails, and floor-mounted advantage rails. Professional installation and support available.')
+@section('title', 'Promenaid Handrails Vancouver | Home Safety Rails & Professional Installation - Home2stay')
+@section('meta_description', 'Expert Promenaid Handrail installation in Vancouver. Home2Stay features Promenaid — the premium handrail system for every home — plus professional floor-mounted safety rails and home safety solutions.')
 
 @push('styles')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -24,9 +24,9 @@
         <!-- Hero Content -->
         <div class="container mx-auto px-4 relative z-10 flex items-center" style="min-height: 500px;">
             <div class="max-w-3xl">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Safety Poles & Handrails</h1>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Promenaid Handrails & Home Safety</h1>
                 <p class="text-xl text-white/90 mb-8">
-                    Providing reliable support and stability with professional-grade safety poles and handrails designed for enhanced mobility and independence.
+                    Featuring Promenaid — the premium handrail system trusted by homeowners across Vancouver. Safe, stylish, and built for every home. We specialize in professional handrail and home safety installations throughout the Lower Mainland.
                 </p>
                 <div class="flex flex-wrap gap-4">
                     <a href="#products"
@@ -46,29 +46,29 @@
     <section id="products" class="py-16 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Safety Poles & Handrails Products</h2>
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Featured Home Safety Products</h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto">
-                    Discover our range of innovative safety support solutions designed to provide stability and confidence for
-                    individuals with mobility challenges.
+                    Featuring Promenaid — the premium handrail system for every Vancouver home. We also offer professional-grade floor-mounted safety rails for lasting independence and stability.
                 </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Product 1 -->
+
+                <!-- Promenaid Handrails - Featured -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('bathsafety-cat/Healthcraft-Smart-Rail-Bed-Rail-1024x1024-min-2.jpg') }}" alt="Home2stay Bed Rail"
+                        <img src="{{ asset('prom/prom-hand-5.jpg') }}" alt="Promenaid Handrail Installation Vancouver - Home2Stay"
                             class="w-full object-cover" style="height: 400px;">
                         <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
-                            Popular
+                            Featured
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'bruno-elan-straight-stairlift') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Home2stay Bed Rail</h3></a>
-                        <p class="text-gray-600 mb-4 flex-grow">The Smart-Rail locks against the side of the bed to help laying down and moving in bed. Unlike fixed</p>
+                        <a href="{{ route('products.category', 'promenaid-handrail') }}"><h3 class="text-xl font-bold text-gray-800 mb-3">Promenaid Handrails</h3></a>
+                        <p class="text-gray-600 mb-4 flex-grow">Beautiful, durable, and elegantly designed for Vancouver homes. Promenaid offers indoor and outdoor handrail systems in a range of colors and finishes — enhancing safety without compromising style.</p>
                         <div class="mt-auto">
-                            <a href="/products/bruno-elan-straight-stairlift/"
+                            <a href="/products-categories/promenaid-handrail"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -76,35 +76,35 @@
                     </div>
                 </div>
 
-                <!-- Product 2 -->
+                {{-- <!-- Promenaid - Second Image -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('bathsafety-cat/2020-TBR-02-2-1024x1024-1.jpg') }}" alt="Home2stay Easy Mount Tub-Rail"
+                        <img src="{{ asset('prom/prom-inout-4.jpeg') }}" alt="Promenaid Outdoor Handrail Vancouver - Home2Stay"
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'easy-mount-tub-rail') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3"> Easy Mount Tub-Rail</h3></a>
-                        <p class="text-gray-600 mb-4 flex-grow">The TubRail provides excellent support in both getting in and out of the tub. The 2-handle grip supp</p>
+                        <a href="{{ route('products.category', 'promenaid-handrail') }}"><h3 class="text-xl font-bold text-gray-800 mb-3">Promenaid Outdoor & Indoor Handrails</h3></a>
+                        <p class="text-gray-600 mb-4 flex-grow">Promenaid's high-grade aluminum construction resists rust, cracking, and fading — standing up to Vancouver's rain and temperature changes year after year. Available for stairs, ramps, decks, and hallways.</p>
                         <div class="mt-auto">
-                            <a href="/products/easy-mount-tub-rail/"
+                            <a href="/products-categories/promenaid-handrail"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
-                <!-- Product 3 -->
+                <!-- Floor-Mounted Advantage Rail -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('bathsafety-cat/Rendering-Advantage-Rail-1024x1024-min.jpg') }}" alt="Home2stay Floor-Mounted Advantage Rail"
+                        <img src="{{ asset('bathsafety-cat/Rendering-Advantage-Rail-1024x1024-min.jpg') }}" alt="Floor-Mounted Advantage Rail Installation Vancouver - Home2Stay"
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route('products.show', 'floor-mounted-advantage-rail') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3"> Floor-Mounted Advantage Rail</h3></a>
-                        <p class="text-gray-600 mb-4 flex-grow">The Advantage Rail provides dependable vertical and horizontal support for movements and transitions</p>
+                        <a href="{{ route('products.show', 'floor-mounted-advantage-rail') }}"><h3 class="text-xl font-bold text-gray-800 mb-3">Floor-Mounted Advantage Rail</h3></a>
+                        <p class="text-gray-600 mb-4 flex-grow">The Advantage Rail provides dependable vertical and horizontal support for movements and transitions throughout your home — professionally installed for maximum strength and safety.</p>
                         <div class="mt-auto">
                             <a href="/products/floor-mounted-advantage-rail/"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
@@ -122,9 +122,9 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Enhanced Safety & Support</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Professional Handrail & Home Safety Installations</h2>
                     <p class="text-lg text-gray-600">
-                        Discover how our safety poles and handrails can provide reliable support and enhance confidence in daily activities throughout your home.
+                        Discover how Promenaid handrails and our professional safety rail installations can transform your home — adding lasting stability and confidence for you and your family.
                     </p>
                 </div>
 
@@ -187,7 +187,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Safety-Poles-Handrails.jpg') }}" alt="Safety Poles & Handrails"
+                        <img src="{{ asset('prom/prom-inout-5.jpeg') }}" alt="Safety Poles & Handrails"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -200,25 +200,25 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="bg-white rounded-xl shadow-md p-8 md:p-12">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Safety Poles & Handrails Solutions</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Promenaid Handrails & Home Safety Solutions</h2>
 
                     <div class="prose prose-lg max-w-none">
                         <p class="text-gray-700 mb-4">
-                            Home2stay has been providing accessibility solutions for almost a decade in the British Columbia region, offering professional-grade safety poles and handrails designed to enhance mobility and independence throughout your home.
+                            Home2Stay is a proud installer of Promenaid — the premium handrail system trusted by homeowners across Vancouver and the Lower Mainland. Promenaid's high-grade aluminum construction is built to last, resisting rust, cracking, and fading through every season.
                         </p>
 
                         <p class="text-gray-700 mb-4">
-                            Our safety support systems are engineered for reliability and ease of use, providing the stability and confidence you need for daily activities. From bed rails to tub rails and floor-mounted advantage rails, we have solutions for every area of your home.
+                            Style should never be sacrificed for safety. Promenaid offers smooth lines, elegant colors, and solid construction that fits beautifully in any home — old or new. These handrails add safety, value, and a clean, finished look to stairs, ramps, hallways, and decks.
                         </p>
 
                         <div class="my-8 p-6 bg-primary/5 border-l-4 border-primary rounded-r-lg">
                             <p class="text-gray-800 font-medium">
-                                All our safety poles and handrails are professionally installed and meet the highest safety standards. Our experienced team ensures proper mounting and provides comprehensive training on proper use and maintenance.
+                                All our handrail and safety rail installations are carried out by our professional team and meet the highest safety standards. We ensure proper mounting and provide comprehensive training on use and maintenance.
                             </p>
                         </div>
 
                         <p class="text-gray-700 mb-4">
-                            Whether you need support getting in and out of bed, assistance in the bathroom, or stability for general mobility, our range of safety solutions can be customized to meet your specific needs and home configuration.
+                            Whether you need stair handrails, ramp rails, outdoor railings, or floor-mounted support rails, our team can design and install the right solution for your home and lifestyle.
                         </p>
 
                         <h3 class="text-2xl font-bold text-gray-800 mt-8 mb-4">Expert Installation & Support</h3>
@@ -278,7 +278,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('bathsafety-cat/2020-TBR-02-2-1024x1024-1.jpg') }}" alt="Safety Poles & Handrails"
+                        <img src="{{ asset('prom/prom-inout-1.jpg') }}" alt="Promenaid Handrail Installation Vancouver - Home2Stay"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -344,9 +344,8 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Request Your Safety Assessment</h2>
-                    <p class="text-gray-600">Our safety specialists will evaluate your specific needs and recommend the
-                        best safety poles and handrails solutions for your home.</p>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Request Your Free Handrail & Home Safety Assessment</h2>
+                    <p class="text-gray-600">Our specialists will evaluate your home and recommend the best Promenaid or safety rail solution for your specific needs.</p>
                 </div>
 
                 <form action="/submit-assessment" method="POST">
@@ -379,31 +378,31 @@
 
                     <!-- Product Interest -->
                     <div>
-                        <label class="block text-gray-700 font-medium mb-2">Which safety products are you interested in? *</label>
+                        <label class="block text-gray-700 font-medium mb-2">Which products are you interested in? *</label>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="products[]" value="bed_rails"
+                                <input type="checkbox" name="products[]" value="promenaid_handrails"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Bed Rails</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Promenaid Handrails</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="products[]" value="tub_rails"
+                                <input type="checkbox" name="products[]" value="promenaid_outdoor"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Tub Rails</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Promenaid Outdoor Handrails</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="checkbox" name="products[]" value="floor_mounted_rails"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Floor-Mounted Rails</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Floor-Mounted Advantage Rails</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="products[]" value="safety_poles"
+                                <input type="checkbox" name="products[]" value="stair_handrails"
                                     class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Safety Poles</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Stair Handrails</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="products[]" value="handrails" class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Handrails</span>
+                                <input type="checkbox" name="products[]" value="deck_ramp_rails" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Deck / Ramp Handrails</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="checkbox" name="products[]" value="other" class="form-checkbox text-primary">
@@ -442,8 +441,8 @@
     <section class="py-16 bg-primary">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto text-center text-white">
-                <h2 class="text-3xl font-bold mb-6">Ready to Enhance Your Safety?</h2>
-                <p class="text-xl mb-8">Contact us today to explore how our safety poles and handrails can improve stability and confidence in your home.</p>
+                <h2 class="text-3xl font-bold mb-6">Ready to Install Promenaid in Your Home?</h2>
+                <p class="text-xl mb-8">Contact us today to explore how Promenaid handrails and our home safety solutions can improve stability, safety, and style in your Vancouver home.</p>
                 <div class="flex flex-wrap justify-center gap-4">
                     <a href="{{ route('contact') }}"
                         class="px-8 py-3 bg-white text-primary hover:bg-gray-100 rounded-lg font-medium transition duration-300">

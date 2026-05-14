@@ -57,7 +57,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('stairlifts/bruno-elan-straight-stairlift.jpg') }}" alt="Home2stay Freecurve Curved Stair Lift"
+                        <img src="{{ asset('stairlifts/bruno-elan-straight-stairlift.jpg') }}" alt="Home2stay Bruno Elan Straight Stairlift Installation Vancouver"
                             class="w-full object-cover" style="height: 400px;">
                         <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Popular
@@ -80,7 +80,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('flowx/Flow%20X_Detail%2040.jpg') }}" alt="Home2stay Straight Stair Lift 1100"
+                        <img src="{{ asset('flowx/Flow%20X_Detail%2040.jpg') }}" alt="Home2stay Flow X Curved Stairlift Installation Vancouver"
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -98,14 +98,14 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('stairlifts/elite-straight-indoor-stair-lift-1200x525-3.png') }}" alt="Home2stay Straight Stair Lift 1100"
+                        <img src="{{ asset('stairlifts/elite-straight-indoor-stair-lift-1200x525-3.png') }}" alt="Home2stay Bruno Elite Straight Stairlift Installation Vancouver"
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Indoor Stairlift</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">Change your home into a place of freedom, comfort, and independence with our premium Indoor Stairlifts from Home2Stay.</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Bruno Elite Straight Stairlift</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">The Bruno Elite sets the gold standard for residential stairlifts, blending exceptional performance, superior comfort, and sleek design that integrates flawlessly with your home.</p>
                         <div class="mt-auto">
-                            <a href="/products/Indoor-stairlift"
+                            <a href="/products/bruno-elite-straight-indoor-stairlift"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -116,12 +116,12 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('stairlifts/bruno-elite-straight-outdoor-stair-lift-540x540.webp') }}" alt="Home2stay Straight Stair Lift 1100"
+                        <img src="{{ asset('stairlifts/bruno-elan-outdoor-stairlift.jpg') }}" alt="Home2stay Outdoor Stairlift Installation Vancouver"
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Outdoor Stairlifts</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">Rediscover freedom and independence with Home2Stay Outdoor Stairlifts. Designed to handle the elements while providing unmatched comfort and safety, our stairlifts allow you to move between levels with ease, no matter the weather.</p>
+                        <p class="text-gray-600 mb-4 flex-grow">Rediscover freedom and independence with Home2Stay Outdoor Stairlifts. Designed to handle Vancouver's weather while providing unmatched comfort and safety — move between levels with ease year-round.</p>
                         <div class="mt-auto">
                             <a href="/products/outdoor-stairlifts"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
@@ -209,7 +209,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('bathsafety-cat/Elite-Curve-min.jpg') }}" alt="Home2stay Custom Curved Stair Lift"
+                        <img src="{{ asset('bathsafety-cat/Elite-Curve-min.jpg') }}" alt="Home2stay Custom Curved Stairlift Vancouver - Bruno Curved Rail"
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -296,7 +296,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('stairlifts/bruno-elan-straight-stairlift.jpg') }}" alt="Stair Lifts"
+                        <img src="{{ asset('stairlifts/bruno-elan-straight-stairlift.jpg') }}" alt="Bruno Stairlift Installation Vancouver - Home2Stay"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -424,7 +424,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('bathsafety-cat/Elite-Curve-min.jpg') }}" alt="Stair Lifts"
+                        <img src="{{ asset('stairlifts/elite-straight-indoor-stair-lift-1200x525-3.webp') }}" alt="Bruno Elite Stairlift Installation Vancouver - Home2Stay"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

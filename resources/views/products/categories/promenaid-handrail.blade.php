@@ -17,7 +17,7 @@
     <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('{{ asset('/al-prod-page-imgs/railings.png') }}');">
+            style="background-image: url('{{ asset('prom/prom-hand-5.jpg') }}');">
             <div class="absolute inset-0 bg-black opacity-60"></div>
         </div>
 
@@ -63,7 +63,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/prom/p1.png') }}" alt="Strong and Durable"
+                        <img src="{{ asset('prom/prom-hand-3.jpeg') }}" alt="Strong and Durable"
                             class="w-full object-cover" style="height: 250px;">
                         <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Popular
@@ -79,7 +79,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/prom/p2.png') }}" alt="Safe for Everyone"
+                        <img src="{{ asset('prom/prom-hand-5.jpg') }}" alt="Safe for Everyone"
                             class="w-full object-cover" style="height: 250px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -92,7 +92,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/prom/p4.png') }}" alt="Modern Look"
+                        <img src="{{ asset('prom/prom-hand-6.jpg') }}" alt="Modern Look"
                             class="w-full object-cover" style="height: 250px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -105,7 +105,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('/prom/p5.png') }}" alt="Fits Any Space"
+                        <img src="{{ asset('prom/prom-hand-4.jpg') }}" alt="Fits Any Space"
                             class="w-full object-cover" style="height: 250px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -173,7 +173,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('/prom/p6.png') }}" alt="Promenaid Handrails Installation"
+                        <img src="{{ asset('prom/prom-hand-5.jpg') }}" alt="Promenaid Handrails Installation"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -301,7 +301,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('/prom/p6.png') }}" alt="Promenaid Handrails Benefits"
+                        <img src="{{ asset('prom/prom-hand-6.jpg') }}" alt="Promenaid Handrails Benefits"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

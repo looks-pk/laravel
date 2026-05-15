@@ -90,7 +90,7 @@
                 <!-- Product Image Gallery -->
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gray-100 rounded-lg overflow-hidden mb-4">
-                        <img src="{{ asset('bathsafety-cat/Stair-Lifts-cat-image-min.jpg') }}"
+                        <img src="{{ asset('al-prod-page-imgs/elanimage6resized_1080x.webp') }}"
                             alt="Home2Stay Bruno Elan Straight Stairlift" class="w-full h-auto object-contain p-4">
                     </div>
                     <!-- Request Quote Button -->
@@ -238,23 +238,18 @@
                             <div class="tab-pane" data-tab="images-tab" style="display: none !important;">
                                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('bathsafety-cat/Stair-Lifts-cat-image-min.jpg') }}"
+                                        <img src="{{ asset('stairlifts/Elan Straight Stair Lift by Bruno (SRE-3050)-1.webp') }}"
                                             alt="Home2Stay Bruno Elan Straight Stairlift"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('bathsafety-cat/1100stairlift9.jpg') }}"
+                                        <img src="{{ asset('stairlifts/Elan Straight Stair Lift by Bruno (SRE-3050)-2.png') }}"
                                             alt="Bruno Elan Stairlift detail"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('bathsafety-cat/elan-image-3.jpg') }}"
+                                        <img src="{{ asset('stairlifts/Elan Straight Stair Lift by Bruno (SRE-3050)-3.jpg') }}"
                                             alt="Bruno Elan Stairlift closeup"
-                                            class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
-                                    </div>
-                                    <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('bathsafety-cat/elan-image-4.jpg') }}"
-                                            alt="Bruno Elan Stairlift seating"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
                                 </div>
@@ -385,7 +380,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('bathsafety-cat/Stair-Lifts-cat-image-min.jpg') }}" alt="Bathroom Safety Solutions"
+                        <img src="{{ asset('stairlifts/Elan Straight Stair Lift by Bruno (SRE-3050)-2.png') }}" alt="Bathroom Safety Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

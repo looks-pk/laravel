@@ -65,14 +65,14 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset(‘np-img/best-bath.jpg’) }}" alt="Best Bath Modular Barrier-Free Shower Installation Vancouver"
+                        <img src="{{ asset('np-img/best-bath.jpg') }}" alt="Best Bath Modular Barrier-Free Shower Installation Vancouver"
                             class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
                         <div class="absolute top-0 right-0 bg-green-500 text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             ADA Compliant
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route(‘products.show’, ‘bestbath-modular-barrier-free-showers’) }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Best Bath Modular Barrier-Free Showers</h3></a>
+                    <a href="{{ route('products.show', 'bestbath-modular-barrier-free-showers') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Best Bath Modular Barrier-Free Showers</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Best Bath Intelligent Designs offers premium modular barrier-free showers that set the standard for safety, durability, and accessibility. Manufactured in the USA with a 30-year limited warranty. Choose from a wide selection of sizes, colors, and finishes.</p>
                         <div class="mt-auto">
                             <a href="/products/bestbath-modular-barrier-free-showers/"
@@ -87,14 +87,14 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset(‘al-prod-page-imgs/Sentrel-hospitality.webp’) }}" alt="Sentrel Systems Accessible Shower Installation Vancouver"
+                        <img src="{{ asset('al-prod-page-imgs/Sentrel-hospitality.webp') }}" alt="Sentrel Systems Accessible Shower Installation Vancouver"
                             class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
                         <div class="absolute top-0 right-0 bg-blue-500 text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Premium
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route(‘products.show’, ‘sentrel-systems-showers’) }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Sentrel Systems Showers</h3></a>
+                    <a href="{{ route('products.show', 'sentrel-systems-showers') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Sentrel Systems Showers</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Sentrel Systems provides innovative shower solutions designed for accessibility and comfort. Superior durability and modern design for barrier-free bathroom environments in Vancouver.</p>
                         <div class="mt-auto">
                             <a href="/products/sentrel-systems-showers/"
@@ -109,12 +109,12 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset(‘np-img/central-system.jpg’) }}" alt="Bathroom Renovation Vancouver - Custom Shower Installation"
+                        <img src="{{ asset('np-img/central-system.jpg') }}" alt="Bathroom Renovation Vancouver - Custom Shower Installation"
                             class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
                     <a href="/products/bathroom-renovations-&-showers" > <h3 class="text-xl font-bold text-gray-800 mb-3">Bathroom Renovations & Showers</h3></a>
-                        <p class="text-gray-600 mb-4 flex-grow">We’re experts in transforming ordinary bathrooms into elegant, functional, and modern living spaces. Our Bathroom Renovations & Showers service is designed for homeowners who value quality craftsmanship.</p>
+                        <p class="text-gray-600 mb-4 flex-grow">We're experts in transforming ordinary bathrooms into elegant, functional, and modern living spaces. Our Bathroom Renovations & Showers service is designed for homeowners who value quality craftsmanship.</p>
                         <div class="mt-auto">
                             <a href="/products/bathroom-renovations-&-showers"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
@@ -128,7 +128,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset(‘al-prod-page-imgs/remodeling-bellastone.jpeg’) }}" alt="Acrylic Shower Remodel Vancouver - Bellastone Style"
+                        <img src="{{ asset('al-prod-page-imgs/remodeling-bellastone.jpeg') }}" alt="Acrylic Shower Remodel Vancouver - Bellastone Style"
                             class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -147,7 +147,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset(‘bathrooms-images/Tub-to-Shower Conversion.webp’) }}" alt="Tub-to-Shower Conversion Vancouver - Home2Stay Barrier-Free Bathrooms"
+                        <img src="{{ asset('bathrooms-images/Tub-to-Shower Conversion.webp') }}" alt="Tub-to-Shower Conversion Vancouver - Home2Stay Barrier-Free Bathrooms"
                             class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -166,7 +166,7 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset(‘bestbath/6.jpeg’) }}" alt="Home2Stay Barrier-Free Bathroom Renovation Vancouver"
+                        <img src="{{ asset('bestbath/6.jpeg') }}" alt="Home2Stay Barrier-Free Bathroom Renovation Vancouver"
                             class="w-full object-contain" style="height: 300px; background-color: #f8f9fa;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
@@ -185,11 +185,11 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img class="w-full object-cover" src="{{ asset(‘/bathrooms-images/Shower Bay - Portable Accessible Shower.webp’) }}" alt="Shower Bay Portable Accessible Shower - Barrier-Free Bathroom Vancouver"
+                        <img class="w-full object-cover" src="{{ asset('/bathrooms-images/Shower Bay - Portable Accessible Shower.webp') }}" alt="Shower Bay Portable Accessible Shower - Barrier-Free Bathroom Vancouver"
                             style="height: 300px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                    <a href="{{ route(‘products.show’, ‘modular-accessible-showers’) }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Shower Bay - Portable Accessible Shower</h3></a>
+                    <a href="{{ route('products.show', 'modular-accessible-showers') }}" > <h3 class="text-xl font-bold text-gray-800 mb-3">Shower Bay - Portable Accessible Shower</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">The Shower Bay is a revolutionary portable shower designed specifically for wheelchair users. Easy installation in any room with no major remodeling required, providing true independence and dignity.</p>
                         <div class="mt-auto">
                             <a href="/products/modular-accessible-showers/"
@@ -362,7 +362,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Ready-to-book-aschedule-min.png') }}" alt="Barrier-Free Bathroom Solutions"
+                        <img src="{{ asset('al-prod-page-imgs/sentrel-installation.png') }}" alt="Barrier-Free Bathroom Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

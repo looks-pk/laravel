@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Quality Shower &amp; Toilet Grab Bars for Bathroom Safety - Home2stay')
+@section('title', 'Quality Shower And Toilet Grab Bars for Bathroom Safety - Home2stay')
 @section('meta_description', 'A grab bar is a simple way to prevent falls and accidents. Affordable and can be installed quickly. Browse Home2stay&#039;s range of grab bars in a variety of shapes, sizes, colors, and features.')
 
 @push('styles')
@@ -79,7 +79,7 @@
                 <div class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full product-item"
                     data-page="1" style="display: none;">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('bathsafety-cat/Home2stay-Easy-Mount-Grab-Bars-Stainless-Steel.jpg') }}"
+                        <img src="{{ asset('grabbars/Easy Mount Grab Bars(Stainless Steel).jpg') }}"
                             alt="Home2stay Easy Mount Grab Bars(Stainless Steel)" class=" object-cover p-2"
                             style="height: 400px;">
                     </div>
@@ -102,7 +102,7 @@
                 <div class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full product-item"
                     data-page="1" style="display: none;">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('bathsafety-cat/Home2stay-Easy-Mount-Grab-Bars-Stainless-Steel.jpg') }}"
+                        <img src="{{ asset('grabbars/healthcraft.webp') }}"
                             alt="Home2stay Easy Mount Grab Bars(Stainless Steel)" class=" object-cover p-2"
                             style="height: 400px;">
                     </div>
@@ -124,7 +124,7 @@
                 <div class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full product-item"
                     data-page="1" style="display: none;">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('bathsafety-cat/Home2stay-Easy-Mount-Grab-Bars-Stainless-Steel.jpg') }}"
+                        <img src="{{ asset('grabbars/Grabcessories Premium Grab Bars – Safety Meets Style.webp') }}"
                             alt="Home2stay Easy Mount Grab Bars(Stainless Steel)" class=" object-cover p-2"
                             style="height: 400px;">
                     </div>
@@ -146,7 +146,7 @@
                 <div class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full product-item"
                     data-page="1" style="display: none;">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('bathsafety-cat/Home2stay-Easy-Mount-Grab-Bars-Stainless-Steel.jpg') }}"
+                        <img src="{{ asset('grabbars/Grab Bars by Ponte Giulio-1.webp') }}"
                             alt="Home2stay Easy Mount Grab Bars(Stainless Steel)" class=" object-cover p-2"
                             style="height: 400px;">
                     </div>
@@ -168,7 +168,7 @@
                 <div class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full product-item"
                     data-page="1" style="display: none;">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('bathsafety-cat/Home2stay-Easy-Mount-Grab-Bars-Stainless-Steel.jpg') }}"
+                        <img src="{{ asset('grabbars/handrails-1.avif') }}"
                             alt="Home2stay Easy Mount Grab Bars(Stainless Steel)" class=" object-cover p-2"
                             style="height: 400px;">
                     </div>

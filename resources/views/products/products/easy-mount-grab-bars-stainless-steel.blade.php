@@ -90,7 +90,7 @@
                 <!-- Product Image Gallery -->
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gray-100 rounded-lg overflow-hidden mb-4">
-                        <img src="{{ asset('bathsafety-cat/Home2stay-Easy-Mount-Grab-Bars-Stainless-Steel.jpg') }}"
+                        <img src="{{ asset('grabbars/Easy Mount Grab Bars(Stainless Steel).jpg') }}"
                             alt="Home2stay Easy Mount Grab Bars (Stainless Steel)" class="w-full h-auto object-contain p-4">
                     </div>
                     <!-- Request Quote Button -->
@@ -401,7 +401,12 @@
                             <div class="tab-pane" data-tab="images-tab" style="display: none !important;">
                                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('bathsafety-cat/Home2stay-Easy-Mount-Grab-Bars-Stainless-Steel.jpg') }}"
+                                        <img src="{{ asset('grabbars/Easy Mount Grab Bars(Stainless Steel)-2.jpg') }}"
+                                            alt="Easy Mount Grab Bars (Stainless Steel)"
+                                            class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
+                                    </div>
+                                    <div class="image-thumbnail cursor-pointer">
+                                        <img src="{{ asset('grabbars/Easy Mount Grab Bars(Stainless Steel)-1.avif') }}"
                                             alt="Easy Mount Grab Bars (Stainless Steel)"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>

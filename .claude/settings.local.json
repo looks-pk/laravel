@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"c:\\\\xampp\\\\htdocs\\\\laravel\\\\public\\\\al-prod-page-imgs\" | Where-Object {$_.Name -match 'tub|ramp|stair|bathroom|grab|Grab|Tub|Ramp|Stair'} | Select-Object -ExpandProperty Name | Sort-Object)"
+    ]
+  }
+}

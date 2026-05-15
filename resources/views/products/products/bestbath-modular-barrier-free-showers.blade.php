@@ -552,7 +552,7 @@
                         <p class="mb-5">Give us a call at <a href="tel:+16042591211" style="font-weight: bold; color:red;">604-259-1211</a> or submit a FREE <a href="#assessment" style="font-weight: bold; color:red;">ASSESSMENT FORM</a> to get started.</p>
                     </div>
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('np-img/mdas.jpg') }}" alt="Best Bath Barrier-Free Shower - Home2Stay BC"
+                        <img src="{{ asset('bathrooms-images/pic1.webp') }}" alt="Best Bath Barrier-Free Shower - Home2Stay BC"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

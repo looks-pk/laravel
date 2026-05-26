@@ -168,7 +168,7 @@
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
-                        <a href="/products-categories/promenade-safety-poles/">
+                        <a href="/products-categories/safety-poles-handrails/">
                         <h3>Promenaid and Safety Poles</h3>
                         </a>
                         <p class="mb-3">Improve mobility and confidence with our Promenaid poles and safety supports, designed to assist movement in hallways, staircases, and outdoor walkways.</p>
@@ -217,7 +217,7 @@
                         </ul>
                     </div>
                     <div class="card-footer flex justify-between">
-                        <a href="/products-categories/promenade-safety-poles/"
+                        <a href="/products-categories/safety-poles-handrails/"
                             class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>See More</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
@@ -227,7 +227,7 @@
                                     clip-rule="evenodd" />
                             </svg>
                         </a>
-                        <button type="button" data-product="Promenaid and Safety Poles"
+                        <button type="button" data-product="Safety Poles and Handrails"
                             class="get-info-btn inline-flex items-center px-4 py-2 border border-black text-black rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>Get Info</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"

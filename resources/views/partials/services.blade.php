@@ -164,14 +164,14 @@
                 <!-- Product Card 3 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/railings.png') }}" alt="Promenade and Safety Poles"
+                        <img src="{{ asset('/al-prod-page-imgs/railings.png') }}" alt="Promenaid and Safety Poles"
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
                         <a href="/products-categories/promenade-safety-poles/">
-                        <h3>Promenade and Safety Poles</h3>
+                        <h3>Promenaid and Safety Poles</h3>
                         </a>
-                        <p class="mb-3">Improve mobility and confidence with our promenade poles and safety supports, designed to assist movement in hallways, staircases, and outdoor walkways.</p>
+                        <p class="mb-3">Improve mobility and confidence with our Promenaid poles and safety supports, designed to assist movement in hallways, staircases, and outdoor walkways.</p>
 
                         <!-- Price Ranges -->
                         <div class="mb-4 text-sm">
@@ -227,7 +227,7 @@
                                     clip-rule="evenodd" />
                             </svg>
                         </a>
-                        <button type="button" data-product="Promenade and Safety Poles"
+                        <button type="button" data-product="Promenaid and Safety Poles"
                             class="get-info-btn inline-flex items-center px-4 py-2 border border-black text-black rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>Get Info</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"

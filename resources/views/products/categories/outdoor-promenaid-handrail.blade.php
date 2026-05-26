@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Promenaid Handrails Vancouver | Expert Handrail Installation | Home2Stay')
-@section('meta_description', 'Professional Promenaid Handrails Vancouver and Promenaid Handrails Installtion Vancouver services. Safe, stylish, and built for every home by Home2Stay.')
+@section('title', 'Outdoor Promenaid Handrail Vancouver | Exterior Handrail Installation | Home2Stay')
+@section('meta_description', 'Expert Outdoor Promenaid Handrail installation in Vancouver. Home2Stay installs weather-resistant exterior handrails for front steps, decks, ramps, and porches — built to handle Vancouver\'s climate.')
 
 @push('styles')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -17,22 +17,22 @@
     <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('{{ asset('prom/prom-hand-5.jpg') }}');">
+            style="background-image: url('{{ asset('prom/81761d38-90db-4ea6-8623-7e10a0ff4c57.jpg') }}');">
             <div class="absolute inset-0 bg-black opacity-60"></div>
         </div>
 
         <!-- Hero Content -->
         <div class="container mx-auto px-4 relative z-10 flex items-center mb-4 mt-4" style="min-height: 500px;">
             <div class="max-w-3xl">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Promenaid Handrails Vancouver – Safe, Stylish, and Built for Every Home</h1>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Outdoor Promenaid Handrail Vancouver – Built for Safety in Any Weather</h1>
                 <p class="text-xl text-white/90 mb-8">
-                    Home2Stay assists families, older adults, and homeowners in making their homes safer without altering the appearance of their houses. Promenaid Handrails Vancouver is one of the safest upgrades that we offer and is a modern and robust system of railings designed to be used in buildings as well as outdoors. These handrails are friendly to the entire population and provide a stable support on the stairs, ramp, hallway, deck, and any other place where additional stability is required. Many homeowners searching for Promenaid Handrails Vancouver choose Home2Stay because of our quality and reliability.
+                    Home2Stay helps Vancouver homeowners make the outside of their homes safer without compromising on looks. Our Outdoor Promenaid Handrail installations bring the trusted strength of the Promenaid system to your front steps, deck, porch, ramp, and pathways — delivering a firm, reliable grip in the wet, cold, and uneven conditions that Vancouver's climate demands. If someone in your household struggles with outdoor steps or slippery surfaces, an Outdoor Promenaid Handrail is one of the most impactful safety upgrades you can make.
                 </p>
                 <p class="text-xl text-white/90 mb-8">
-                    A style should never be sacrificed for the sake of safety, and Promenaid demonstrates it. They contain smooth lines, elegant colors, and sound construction, which makes them fit well in any house, old or new. Many homeowners in Vancouver also prefer the system since it enhances the safety, in addition to value addition and a clean, finished appearance to the space. This is why people looking for Promenaid Handrails Vancouver trust us for professional support.
+                    Promenaid's exterior rail is built from anodized aluminum that resists rust, UV fading, and corrosion — year after year, through rain, frost, and summer heat. Unlike painted steel or wood rails that deteriorate outdoors over time, the Outdoor Promenaid Handrail holds its finish and structural integrity without regular maintenance. It's available in finishes that complement any home exterior, from heritage to modern — so your safety upgrade also improves your curb appeal.
                 </p>
                 <p class="text-xl text-white/90 mb-8">
-                    We have a purpose to make homes safe, comfortable, and easier to move around in. Our team has assisted hundreds of families around Vancouver in installing handrails that are durable over a long period. Be it that you want assistance with the stairs, greater ease of access, or a place that is safer for the seniors, Promenaid Handrails Vancouver is a really nice place to be.
+                    Home2Stay's certified installation team handles every step — from assessing your outdoor surfaces and anchoring conditions to fitting the rail precisely and testing it to BC building code standards. We've helped hundreds of Vancouver families make their outdoor spaces safer, and we bring that experience to every job we take on.
                 </p>
                 <div class="flex flex-wrap gap-4">
                     <a href="#products"
@@ -52,9 +52,9 @@
     <section id="products" class="py-16 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Promenaid Handrails?</h2>
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose an Outdoor Promenaid Handrail?</h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto">
-                    Promenaid has a global reputation for quality. The handrails are smooth, comfortable to touch, and remain solid despite the day-to-day usage. That is why the number of Vancouver homeowners who put their trust in this brand is so high:
+                    Not every handrail is built to survive Vancouver's wet winters and year-round outdoor exposure. The Outdoor Promenaid Handrail is — and here's why Vancouver homeowners choose it over alternatives:
                 </p>
             </div>
 
@@ -63,15 +63,15 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('prom/prom-hand-3.jpeg') }}" alt="Strong and Durable"
+                        <img src="{{ asset('prom/prom-inout-2.jpg') }}" alt="Outdoor Promenaid Handrail - Weather Resistant"
                             class="w-full object-cover" style="height: 250px;">
                         <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Popular
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Strong and Durable:</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">Promenaid handrails are made from high-grade aluminum. They do not rust, crack, or fade. They can handle Vancouver's rain, moisture, and temperature changes without any wear out.</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Fully Weather-Resistant:</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">The anodized aluminum construction resists rust, corrosion, UV fading, and moisture damage. It handles Vancouver's heavy rainfall, coastal air, freezing temperatures, and summer heat without cracking, warping, or peeling — no annual repainting or sealing required.</p>
                     </div>
                 </div>
 
@@ -79,12 +79,12 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('prom/prom-hand-5.jpg') }}" alt="Safe for Everyone"
+                        <img src="{{ asset('prom/prom-inout-4.jpeg') }}" alt="Outdoor Promenaid Handrail - Secure Grip in Wet Conditions"
                             class="w-full object-cover" style="height: 250px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Safe for Everyone:</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">These rails are safety compatible and accessible. They securely hold on very comfortably, and these are good inasmuch as they are used by the seniors, children, and anybody who requires additional support. The surface is smooth and not slippery.</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Secure Grip on Wet Surfaces:</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">The smooth, round aluminum profile provides a consistent, easy-to-grip surface even with wet hands or gloves. For seniors and anyone with reduced grip strength, a solid handrail on wet outdoor steps can be the difference between a safe trip and a serious fall.</p>
                     </div>
                 </div>
 
@@ -92,12 +92,12 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('prom/prom-hand-6.jpg') }}" alt="Modern Look"
+                        <img src="{{ asset('prom/IMG_20231101_133236787-scaled.jpeg') }}" alt="Outdoor Promenaid Handrail - Curb Appeal"
                             class="w-full object-cover" style="height: 250px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Modern Look:</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">The handrails are modern in design. It is available in numerous colors and finishes. They also match any interior or exterior design, wood, tile, concrete, or carpet.</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Improves Curb Appeal:</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Available in matte black, dark bronze, and brushed aluminum, the Outdoor Promenaid Handrail looks intentional and well-designed — not clinical or industrial. It complements brick, wood siding, concrete, and painted exteriors, adding to your home's appearance rather than detracting from it.</p>
                     </div>
                 </div>
 
@@ -105,12 +105,12 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('prom/prom-hand-4.jpg') }}" alt="Fits Any Space"
+                        <img src="{{ asset('prom/outdoor.png') }}" alt="Outdoor Promenaid Handrail - Any Exterior Surface"
                             class="w-full object-cover" style="height: 250px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Fits Any Space:</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">Promenaid handrails are flexible. They are able to move in curves, hills, and turns. They are modular in nature and thus suitable for staircases, hallways, bathrooms, decks, and ramps.</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Mounts to Any Exterior Surface:</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">The Promenaid system uses purpose-built exterior brackets that anchor securely into concrete, masonry, wood posts, and composite decking. Our installers select the right hardware for your specific surface so the rail stays firm through years of outdoor use and load-bearing.</p>
                     </div>
                 </div>
 
@@ -118,62 +118,62 @@
         </div>
     </section>
 
-    <!-- Where Promenaid Handrails Work Best -->
+    <!-- Where Outdoor Promenaid Handrails Work Best -->
     <section class="py-16 bg-white">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Where Promenaid Handrails Work Best:</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Where Outdoor Promenaid Handrails Are Installed:</h2>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                     <div class="bg-gray-50 p-8 rounded-lg">
-                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Indoor Spaces:</h3>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Entry & Step Areas:</h3>
                         <ul class="text-gray-600 space-y-2">
-                            <li>• Staircases</li>
-                            <li>• Hallways</li>
-                            <li>• Bathrooms</li>
-                            <li>• Entrance areas</li>
-                            <li>• Around beds or high-risk zones</li>
+                            <li>• Front door steps and entry landings</li>
+                            <li>• Side and rear exterior stairs</li>
+                            <li>• Garage steps and doorways</li>
+                            <li>• Sloped driveways and pathways</li>
+                            <li>• Accessibility ramps</li>
                         </ul>
-                        <p class="text-gray-600 mt-4">Indoor rails give steady support without making your home look "clinical." They blend in with your existing decor.</p>
+                        <p class="text-gray-600 mt-4">Entry areas are where outdoor falls most commonly happen — especially on wet or frost-covered steps. A properly anchored Outdoor Promenaid Handrail gives every family member a safe, confident grip at the main points of arrival and departure.</p>
                     </div>
 
                     <div class="bg-gray-50 p-8 rounded-lg">
-                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Outdoor Spaces:</h3>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Decks, Porches & Outdoor Living:</h3>
                         <ul class="text-gray-600 space-y-2">
-                            <li>• Front steps</li>
-                            <li>• Porches</li>
-                            <li>• Ramps</li>
-                            <li>• Decks</li>
-                            <li>• Pathways</li>
+                            <li>• Wood and composite decks</li>
+                            <li>• Covered and open porches</li>
+                            <li>• Patio step transitions</li>
+                            <li>• Pool surrounds and hot tub steps</li>
+                            <li>• Garden terraces and retaining wall steps</li>
                         </ul>
-                        <p class="text-gray-600 mt-4">Outdoor rails stay strong in any weather and help prevent slips and falls on wet or uneven surfaces.</p>
+                        <p class="text-gray-600 mt-4">On decks and outdoor living spaces, elevated surfaces and wet boards create real fall hazards. The Outdoor Promenaid Handrail provides a continuous support line that keeps outdoor spaces usable and safe for everyone, at any age.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Our Promenaid Handrails Installation Service -->
+    <!-- Our Outdoor Promenaid Handrail Installation Service -->
     <section class="py-16 bg-primary">
         <div class="container mx-auto px-4">
             <div class="bg-gray-50 rounded-xl overflow-hidden shadow-lg">
                 <div class="flex flex-col lg:flex-row">
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Promenaid Handrails Installation Service:</h2>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Outdoor Promenaid Handrail Installation Service:</h2>
                         <p class="text-lg text-gray-600 mb-4">
-                            Home2Stay offers expert, full-service support from start to finish. Our team handles everything, planning, measuring, design, installation, and after-care. We make the process easy so you can enjoy a safer home right away.
+                            Installing an outdoor handrail requires more than just mounting a rail — the anchoring must hold against load, weather movement, and years of outdoor use. Home2Stay assesses your specific outdoor surface, selects the correct bracket type and fasteners for concrete, wood, or masonry, and installs the Promenaid rail to meet BC building code requirements for exterior handrails.
                         </p>
                         <p class="text-lg text-gray-600 mb-6">
-                            The system we use is known for its fast, clean, and secure setup. With Promenaid Handrails Installtion Vancouver, our trained team ensures that every rail is aligned properly and anchored firmly. Each installation is done with precision to make sure your handrails look great and stay strong for years. Many clients specifically request Promenaid Handrails Installtion Vancouver because of our trusted expertise.
+                            We work efficiently and leave your outdoor space clean and ready to use. Every installation includes a load test on each bracket and a final alignment check before we sign off. Vancouver homeowners choose Home2Stay for outdoor Promenaid Handrail installation because we get the anchoring right — and it shows in how the rail performs over time.
                         </p>
-                        <p class="mb-5">Give us a call at <b><a href="tel:+16042591211" style="color: red;">(604) 259-1211</a></b> or submit a <b> <a href="#assessment" style="color: red;">FREE ASSESSMENT FORM</a></b> to check.</p>
+                        <p class="mb-5">Give us a call at <b><a href="tel:+16042591211" style="color: red;">(604) 259-1211</a></b> or submit a <b> <a href="#assessment" style="color: red;">FREE ASSESSMENT FORM</a></b> to get started.</p>
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('prom/prom-hand-5.jpg') }}" alt="Promenaid Handrails Installation"
+                        <img src="{{ asset('prom/IMG_20231101_133236787-scaled.jpeg') }}" alt="Outdoor Promenaid Handrail Installation Vancouver"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -187,34 +187,34 @@
             <div class="max-w-4xl mx-auto">
                 <div class="bg-white rounded-xl shadow-md overflow-hidden">
                     <div class="p-8 md:p-12">
-                        <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">How Our Installation Process Works:</h2>
-                        <p class="text-lg text-gray-600 text-center mb-8">Our team and skilled technicians install your handrails quickly, and now we'll guide you throughout the installation process.</p>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">How Our Outdoor Handrail Installation Works:</h2>
+                        <p class="text-lg text-gray-600 text-center mb-8">Our certified installers follow a thorough process to ensure your Outdoor Promenaid Handrail is safe, level, and built to last through Vancouver's weather.</p>
 
                         <div class="prose prose-lg max-w-none">
                             <div class="space-y-6 mb-8">
                                 <div class="bg-gray-50 p-6 rounded-lg">
-                                    <h3 class="text-xl font-bold text-gray-800 mb-3">Step 1: Free Home Assessment</h3>
-                                    <p class="text-gray-600">We visit your home to look at the areas where support is needed. We understand your needs, mobility concerns, and design preferences.</p>
+                                    <h3 class="text-xl font-bold text-gray-800 mb-3">Step 1: Free Outdoor Assessment</h3>
+                                    <p class="text-gray-600">We visit your property and inspect each outdoor area where a handrail is needed. We assess the surface material — concrete, wood, masonry, or composite — the step pitch, run length, and any drainage or moisture conditions that affect anchoring decisions.</p>
                                 </div>
 
                                 <div class="bg-gray-50 p-6 rounded-lg">
-                                    <h3 class="text-xl font-bold text-gray-800 mb-3">Step 2: Customized Plan</h3>
-                                    <p class="text-gray-600">After measuring your staircase, hallway, or outdoor area, we suggest the best handrail placement. We help you choose styles, colors, and finishes that match your home. This is where our Promenaid Handrails Installtion Vancouver service stands out, offering guidance tailored to your home layout.</p>
+                                    <h3 class="text-xl font-bold text-gray-800 mb-3">Step 2: Surface & Anchoring Plan</h3>
+                                    <p class="text-gray-600">We measure your outdoor area and design the handrail run. We select the correct exterior bracket type, anchor hardware, and waterproof sealant for your specific surface — ensuring the installation is weatherproof and will hold its load rating long-term.</p>
                                 </div>
 
                                 <div class="bg-gray-50 p-6 rounded-lg">
-                                    <h3 class="text-xl font-bold text-gray-800 mb-3">Step 3: Professional Installation</h3>
-                                    <p class="text-gray-600">Our technicians install the handrails using top-quality brackets and fasteners. Every rail is leveled, secure, and comfortable to hold.</p>
+                                    <h3 class="text-xl font-bold text-gray-800 mb-3">Step 3: Exterior Installation</h3>
+                                    <p class="text-gray-600">Our technicians drill and anchor the brackets into your chosen surface using the appropriate hardware — concrete anchors, lag bolts into structural posts, or stainless deck screws. The Promenaid rail is fitted, leveled, and all connection points are sealed against moisture ingress.</p>
                                 </div>
 
                                 <div class="bg-gray-50 p-6 rounded-lg">
-                                    <h3 class="text-xl font-bold text-gray-800 mb-3">Step 4: Testing & Final Check</h3>
-                                    <p class="text-gray-600">We test stability, alignment, and overall safety. Before leaving, we make sure everything meets our quality standards.</p>
+                                    <h3 class="text-xl font-bold text-gray-800 mb-3">Step 4: Load Testing & Code Check</h3>
+                                    <p class="text-gray-600">We apply full load tests to every bracket point and verify the rail height and extension meet BC building code requirements for exterior handrails. Nothing is signed off until the installation passes our safety standards.</p>
                                 </div>
 
                                 <div class="bg-gray-50 p-6 rounded-lg">
-                                    <h3 class="text-xl font-bold text-gray-800 mb-3">Step 5: Simple Care Instructions</h3>
-                                    <p class="text-gray-600">Promenaid handrails are easy to maintain. We guide you on how to keep them clean and long-lasting.</p>
+                                    <h3 class="text-xl font-bold text-gray-800 mb-3">Step 5: Outdoor Maintenance Handover</h3>
+                                    <p class="text-gray-600">We walk you through what little maintenance your Outdoor Promenaid Handrail needs — primarily a periodic wipe-down and an annual check of the bracket anchor points. The anodized aluminum requires no painting, sealing, or rust treatment.</p>
                                 </div>
                             </div>
 
@@ -242,36 +242,36 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Home2Stay?</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Home2Stay for Outdoor Handrail Installation?</h2>
                     <p class="text-lg text-gray-600">
-                        Home2Stay has become one of Vancouver's most trusted mobility and safety companies because we care about our clients' quality of life. Our service is built on respect, honesty, and reliable craftsmanship. Here's what you can expect from us:
+                        Home2Stay is one of Vancouver's most trusted home safety companies. Our outdoor handrail service is built on solid workmanship, honest communication, and a genuine understanding of what it takes to install a handrail that holds up outdoors. Here's what sets us apart:
                     </p>
                 </div>
 
                 <div class="space-y-6 mb-12">
                     <div class="bg-gray-50 p-6 rounded-lg">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Certified and Experienced Team</h3>
-                        <p class="text-gray-600">Our installers are trained in mobility equipment and home safety solutions. We understand both construction standards and accessibility needs.</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Experienced Outdoor Installers</h3>
+                        <p class="text-gray-600">Our team is trained in exterior anchoring across all common Vancouver surface types — concrete steps, wood-framed decks, brick and masonry, and composite decking. We know which hardware to use and how to install it correctly the first time.</p>
                     </div>
 
                     <div class="bg-gray-50 p-6 rounded-lg">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Fast and Clean Installation</h3>
-                        <p class="text-gray-600">We value your time. Most handrail installations are completed within a few hours, with no mess or damage to your walls. Homeowners looking for Promenaid Handrails Installtion Vancouver also appreciate our fast service.</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Built for Vancouver's Climate</h3>
+                        <p class="text-gray-600">Every outdoor installation we do is designed with Vancouver's wet winters and seasonal temperature swings in mind. We use exterior-rated hardware, weatherproof sealants, and finishes that won't degrade in coastal conditions.</p>
                     </div>
 
                     <div class="bg-gray-50 p-6 rounded-lg">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Personalized Safety Solutions</h3>
-                        <p class="text-gray-600">Every home is different. We design a handrail setup that fits your exact needs—whether it's for aging parents, young children, or improving accessibility.</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Custom-Fit to Your Outdoor Space</h3>
+                        <p class="text-gray-600">Every outdoor handrail plan is designed around your actual steps, surface, and household needs — not a generic template. We size the rail run correctly, position brackets for maximum strength, and choose a finish that suits your home's exterior.</p>
                     </div>
 
                     <div class="bg-gray-50 p-6 rounded-lg">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Clear Pricing</h3>
-                        <p class="text-gray-600">No hidden fees. We explain costs up front and provide a detailed plan before starting any work.</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Transparent, Upfront Pricing</h3>
+                        <p class="text-gray-600">We provide a clear quote before any work begins — no hidden costs for hardware, anchoring, or sealing. You know exactly what you're paying for before we start.</p>
                     </div>
 
                     <div class="bg-gray-50 p-6 rounded-lg">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Trusted by Families Across Vancouver</h3>
-                        <p class="text-gray-600">Home2Stay is known for quality work, friendly service, and a commitment to making homes safer for everyone.</p>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Trusted by Hundreds of Vancouver Homeowners</h3>
+                        <p class="text-gray-600">Home2Stay has built a strong reputation across Vancouver for outdoor safety installations that hold up and look great. Our clients come back to us — and refer their neighbours — because the work speaks for itself.</p>
                     </div>
                 </div>
             </div>
@@ -285,23 +285,23 @@
                 <div class="flex flex-col lg:flex-row">
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Who Benefits from Promenaid Handrails?</h2>
-                        <p class="text-lg text-gray-600 mb-4">We're going to share with you who can get the benefits from Promenaid handrails. Keep reading!</p>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Who Benefits from an Outdoor Promenaid Handrail?</h2>
+                        <p class="text-lg text-gray-600 mb-4">Outdoor handrails make a meaningful difference for a wide range of Vancouver homeowners and their families:</p>
                         <ul class="text-lg text-gray-600 space-y-2 mb-6">
-                            <li>• <strong>Seniors:</strong> Helps eliminate falls and enable movement with greater safety.</li>
-                            <li>• <strong>Mobility Challenged People:</strong> Makes stairs or ramps stable, safe, and sure.</li>
-                            <li>• <strong>Families with Kids:</strong> Increases the safety of stairs and external steps.</li>
-                            <li>• <strong>Homeowners Renovating:</strong> Improves the appearance of the house as well as making it safer.</li>
-                            <li>• <strong>Caregivers:</strong> Helps take the effort out of loving loved ones and alleviates the burden.</li>
+                            <li>• <strong>Seniors Aging in Place:</strong> Provides the grip and confidence needed to safely navigate wet front steps, exterior ramps, and deck access every day.</li>
+                            <li>• <strong>People with Mobility Challenges:</strong> Makes outdoor stairs and ramps manageable and safe — supporting independent access to and from the home.</li>
+                            <li>• <strong>Families with Young Children:</strong> Reduces the risk of children slipping on exterior steps, especially in wet or icy conditions.</li>
+                            <li>• <strong>Homeowners Improving Accessibility:</strong> A code-compliant outdoor handrail is often a requirement for aging-in-place renovations and can support grant eligibility.</li>
+                            <li>• <strong>Anyone in a Multi-Level Home:</strong> External level changes — decks, terraced gardens, side entries — become safer and more accessible for all household members.</li>
                         </ul>
-                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Safety Matters, And It Starts at Home:</h3>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Outdoor Falls Are Preventable:</h3>
                         <p class="text-lg text-gray-600 mb-4">
-                            Among household accidents, falls are very frequent. An easy handrail will eliminate serious injuries. Promenaid handrails provide a powerful, stable hold where it is required. All installed with the professional installations of Home2Stay, you are assured of peace of mind that your home is secure for everyone. The process of safety should be simple, cheap, and tension-free. That is why our team is listening, working with respect, and providing results to bring a real change in your daily life.
+                            Wet steps, moss-covered concrete, and frosty decks are among the most common causes of serious falls in Canadian homes. A properly installed Outdoor Promenaid Handrail — anchored firmly and positioned at the correct height — gives every person in your household a reliable support at exactly the points where outdoor falls are most likely to happen. Home2Stay makes that installation straightforward and stress-free.
                         </p>
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('prom/prom-hand-6.jpg') }}" alt="Promenaid Handrails Benefits"
+                        <img src="{{ asset('prom/81761d38-90db-4ea6-8623-7e10a0ff4c57.jpg') }}" alt="Outdoor Promenaid Handrail Benefits Vancouver"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -325,7 +325,7 @@
                                 <span class="text-gray-400 text-2xl"><i class="fas fa-image"></i></span>
                             </div>
                         @endif
-                        
+
                         <div class="p-6">
                             <div class="flex items-center text-sm text-gray-500 mb-2">
                                 <span class="mr-4">
@@ -348,7 +348,7 @@
                     </div>
                 @endforelse
             </div>
-            
+
             @if($latestPosts->count() > 0)
                 <div class="text-center mt-10">
                     <a href="{{ route('blog.index') }}" class="inline-flex items-center px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition duration-300">
@@ -367,15 +367,15 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready to Make Your Home Safer?</h2>
-                    <p class="text-gray-600 mb-4">In case you desire powerful, fashionable, and durable handrails, Promenaid is what you need. And Home2Stay is there to fit them carefully and neatly. Many residents who searched for Promenaid Handrails Vancouver and Promenaid Handrails Installtion Vancouver have already upgraded their homes with us.</p>
-                    <p class="text-gray-600">We are ready to talk to you now and how we can make your home a safer, more conducive place to live with your loved ones.</p>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready to Make the Outside of Your Home Safer?</h2>
+                    <p class="text-gray-600 mb-4">If you need a professionally installed Outdoor Promenaid Handrail in Vancouver, Home2Stay is ready to help. We'll assess your outdoor space, recommend the right setup for your surfaces and budget, and install everything to last.</p>
+                    <p class="text-gray-600">Fill out the form below and our team will be in touch to arrange your free outdoor assessment.</p>
                 </div>
 
                 <form action="/submit-assessment" method="POST">
                     @csrf
                     <input type="hidden" name="form_type" value="quote">
-                    <input type="hidden" name="form_source" value="Promenaid_Handrails_quote_form">
+                    <input type="hidden" name="form_source" value="Outdoor_Promenaid_Handrail_quote_form">
                     <!-- Personal Information -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
@@ -395,45 +395,45 @@
                         </div>
                         <div>
                             <label class="block text-gray-700 font-medium mb-2" for="location">Installation Location</label>
-                            <input type="text" id="location" name="location" placeholder="e.g., Staircase, Hallway, Bathroom, etc."
+                            <input type="text" id="location" name="location" placeholder="e.g., Front Steps, Deck, Ramp, Side Entry, etc."
                                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent">
                         </div>
                     </div>
 
                     <!-- Installation Area -->
                     <div>
-                        <label class="block text-gray-700 font-medium mb-2">Where do you need handrails installed? *</label>
+                        <label class="block text-gray-700 font-medium mb-2">Where do you need the outdoor handrail installed? *</label>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="installation_areas[]" value="indoor_stairs" class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Indoor Stairs</span>
+                                <input type="checkbox" name="installation_areas[]" value="front_steps" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Front Entry Steps</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="installation_areas[]" value="hallways" class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Hallways</span>
+                                <input type="checkbox" name="installation_areas[]" value="deck" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Deck</span>
                             </label>
                             <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="installation_areas[]" value="bathroom" class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Bathroom</span>
-                            </label>
-                            <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="installation_areas[]" value="outdoor_steps" class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Outdoor Steps</span>
-                            </label>
-                            <label class="flex items-center space-x-3">
-                                <input type="checkbox" name="installation_areas[]" value="deck_porch" class="form-checkbox text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Deck/Porch</span>
+                                <input type="checkbox" name="installation_areas[]" value="porch" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Porch</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="checkbox" name="installation_areas[]" value="ramp" class="form-checkbox text-primary">
                                 <span class="text-gray-700" style="margin-left: 5px;">Ramp</span>
+                            </label>
+                            <label class="flex items-center space-x-3">
+                                <input type="checkbox" name="installation_areas[]" value="side_rear_entry" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Side / Rear Entry</span>
+                            </label>
+                            <label class="flex items-center space-x-3">
+                                <input type="checkbox" name="installation_areas[]" value="pathway_garden" class="form-checkbox text-primary">
+                                <span class="text-gray-700" style="margin-left: 5px;">Pathway / Garden Steps</span>
                             </label>
                         </div>
                     </div>
 
                     <!-- Safety & Mobility Requirements -->
                     <div>
-                        <label class="block text-gray-700 font-medium mb-2">Who will be using the handrails?</label>
+                        <label class="block text-gray-700 font-medium mb-2">Who will be using the handrail?</label>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                             <label class="flex items-center space-x-3">
                                 <input type="checkbox" name="users[]" value="seniors"
@@ -463,7 +463,7 @@
                         <label class="block text-gray-700 font-medium mb-2" for="message">Additional Information</label>
                         <textarea id="message" name="message" rows="4"
                             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-                            placeholder="Please describe your home layout, specific mobility concerns, preferred handrail colors or finishes, or any questions about Promenaid handrails..."></textarea>
+                            placeholder="Please describe your outdoor area, surface type (concrete, wood, brick), number of steps, mobility concerns, or any questions about outdoor Promenaid handrails..."></textarea>
                     </div>
 
                     <!-- Submit Button -->
@@ -489,56 +489,56 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">FAQs:</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">FAQs: Outdoor Promenaid Handrail</h2>
                 </div>
 
                 <div class="space-y-6">
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">What is the duration of the installation?</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Will the outdoor handrail rust or corrode over time?</h3>
                         <p class="text-gray-600">
-                            The installations of Promenaid handrail require between two and four hours, depending on the area size.
+                            No. The Promenaid rail is made from anodized aluminum, which is naturally corrosion-resistant. It won't rust, peel, or degrade in Vancouver's wet coastal climate. The anodized finish also resists UV fading so the colour stays consistent year after year.
                         </p>
                     </div>
 
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Are the handrails used outdoors?</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Can it be installed into concrete steps?</h3>
                         <p class="text-gray-600">
-                            Yes. Promenaid handrails are made of weather-resistant material and can be used on outdoors steps, ramps, and decks.
+                            Yes. We use heavy-duty concrete anchors rated for outdoor load-bearing applications. The installation is drilled and set precisely to ensure the bracket is flush, secure, and sealed against moisture getting into the anchor hole.
                         </p>
                     </div>
 
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Does it have a color or design choice?</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">What finishes are available for outdoor use?</h3>
                         <p class="text-gray-600">
-                            Yes. There are a number of finishes available, such as black, bronze, brushed aluminum, etc.
+                            The outdoor Promenaid rail is available in matte black, dark bronze, and brushed aluminum. All three finishes are anodized for exterior durability and suit a wide range of home exterior styles — from heritage character homes to modern builds.
                         </p>
                     </div>
 
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Are the rails beneficial to the seniors in terms of balance?</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Does the outdoor installation meet BC building code?</h3>
                         <p class="text-gray-600">
-                            They are comfortable to hold and well supported, such that even the seniors and persons requiring some assistance in terms of stability will find them to be convenient.
+                            Yes. Our installations comply with BC building code requirements for exterior handrails, including height (865mm–965mm from stair nosing), structural load capacity, and required extensions at the top and bottom of stairs. This matters for insurance purposes and resale value.
                         </p>
                     </div>
 
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">How do I clean the handrails?</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">How long does an outdoor handrail installation take?</h3>
                         <p class="text-gray-600">
-                            All that is required is a wipe with an easy cleaner. The substance is not rusted or faded.
+                            Most outdoor Promenaid Handrail installations are completed in two to four hours. Larger projects covering front steps, a ramp, and a deck may take longer. We'll give you a clear time estimate during the free assessment.
                         </p>
                     </div>
 
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Do you offer a warranty?</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">How much maintenance does an outdoor handrail need?</h3>
                         <p class="text-gray-600">
-                            Yes. Promenaid products have the warranty of the manufacturer, and Home2Stay also offers assistance with installation.
+                            Very little. We recommend wiping the rail down periodically and doing an annual check of the bracket anchor points to ensure nothing has shifted. No painting, sealing, or rust treatment is needed — the anodized aluminum takes care of itself.
                         </p>
                     </div>
 
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-3">Are the rails able to take curved or steep stairs?</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Can it handle curved or angled outdoor staircases?</h3>
                         <p class="text-gray-600">
-                            Yes. The modular form can be fitted around slopes, corners, and turns without difficulty.
+                            Yes. The Promenaid modular system adapts to angled runs, curved pathways, and mixed-pitch staircases. Our installers configure the bracket spacing and rail sections to follow the exact slope and turn of your outdoor steps.
                         </p>
                     </div>
                 </div>
@@ -549,9 +549,9 @@
     <!-- Call to Action -->
     <section class="py-16 bg-primary">
         <div class="container mx-auto px-4">
-                <div class="max-w-4xl mx-auto text-center text-white">
-                <h2 class="text-3xl font-bold mb-6">Ready to Make Your Home Safer?</h2>
-                <p class="text-xl mb-8">Contact us today to explore how Promenaid Handrails Vancouver can make your home safer and more accessible for everyone.</p>
+            <div class="max-w-4xl mx-auto text-center text-white">
+                <h2 class="text-3xl font-bold mb-6">Ready to Install an Outdoor Promenaid Handrail at Your Vancouver Home?</h2>
+                <p class="text-xl mb-8">Contact Home2Stay today and let our team design and install an Outdoor Promenaid Handrail that stands up to Vancouver's weather and keeps your family safe every time they step outside.</p>
                 <div class="flex flex-wrap justify-center gap-4">
                     <a href="{{ route('contact') }}"
                         class="px-8 py-3 bg-white text-primary hover:bg-gray-100 rounded-lg font-medium transition duration-300">

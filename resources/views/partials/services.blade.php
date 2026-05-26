@@ -164,15 +164,14 @@
                 <!-- Product Card 3 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/railings.png') }}" alt="Safety Poles & Handrails"
+                        <img src="{{ asset('/al-prod-page-imgs/railings.png') }}" alt="Promenade and Safety Poles"
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
-                        <a href="/products-categories/safety-poles-handrails/">
-                        <h3>Handrails & Home Safety</h3>
+                        <a href="/products-categories/promenade-safety-poles/">
+                        <h3>Promenade and Safety Poles</h3>
                         </a>
-                        <p class="mb-3">Enhance safety and stability with our safety poles and handrails, providing crucial
-                            support in various home areas.</p>
+                        <p class="mb-3">Improve mobility and confidence with our promenade poles and safety supports, designed to assist movement in hallways, staircases, and outdoor walkways.</p>
 
                         <!-- Price Ranges -->
                         <div class="mb-4 text-sm">
@@ -195,7 +194,7 @@
                                         d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                         clip-rule="evenodd"></path>
                                 </svg>
-                                <span class="text-sm">Tension-mounted options</span>
+                                <span class="text-sm">Sturdy floor-to-ceiling support</span>
                             </li>
                             <li class="flex items-start mb-1">
                                 <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
@@ -204,7 +203,7 @@
                                         d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                         clip-rule="evenodd"></path>
                                 </svg>
-                                <span class="text-sm">No wall damage installation</span>
+                                <span class="text-sm">No permanent installation required</span>
                             </li>
                             <li class="flex items-start">
                                 <svg class="w-4 h-4 text-green-500 mr-2 mt-1 flex-shrink-0" fill="currentColor"
@@ -213,12 +212,12 @@
                                         d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                         clip-rule="evenodd"></path>
                                 </svg>
-                                <span class="text-sm">Adjustable to your height</span>
+                                <span class="text-sm">Height-adjustable for all users</span>
                             </li>
                         </ul>
                     </div>
                     <div class="card-footer flex justify-between">
-                        <a href="/products-categories/safety-poles-handrails/"
+                        <a href="/products-categories/promenade-safety-poles/"
                             class="inline-flex items-center px-4 py-2 border border-primary text-primary rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>See More</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"
@@ -228,7 +227,7 @@
                                     clip-rule="evenodd" />
                             </svg>
                         </a>
-                        <button type="button" data-product="Safety Poles & Handrails"
+                        <button type="button" data-product="Promenade and Safety Poles"
                             class="get-info-btn inline-flex items-center px-4 py-2 border border-black text-black rounded-md hover:bg-primary hover:text-white transition-colors">
                             <span>Get Info</span>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20"

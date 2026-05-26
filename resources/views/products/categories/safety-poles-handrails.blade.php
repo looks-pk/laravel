@@ -58,17 +58,17 @@
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
-                        <img src="{{ asset('prom/prom-hand-5.jpg') }}" alt="Promenaid Handrail Installation Vancouver - Home2Stay"
+                        <img src="{{ asset('prom/prom-hand-3.jpeg') }}" alt="Promenaid Handrail Installation Vancouver - Home2Stay"
                             class="w-full object-cover" style="height: 400px;">
                         <div class="absolute top-0 right-0 bg-primary text-white text-sm font-bold px-3 py-1 m-4 rounded">
                             Featured
                         </div>
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="{{ route('products.category', 'promenaid-handrail') }}"><h3 class="text-xl font-bold text-gray-800 mb-3">Promenaid Handrails</h3></a>
+                        <a href="{{ route('products.category', 'indoor-promenaid-handrail') }}"><h3 class="text-xl font-bold text-gray-800 mb-3">Indoor Promenaid Handrails</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Beautiful, durable, and elegantly designed for Vancouver homes. Promenaid offers indoor and outdoor handrail systems in a range of colors and finishes — enhancing safety without compromising style.</p>
                         <div class="mt-auto">
-                            <a href="/products-categories/promenaid-handrail"
+                            <a href="/products-categories/indoor-promenaid-handrail"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
@@ -76,7 +76,7 @@
                     </div>
                 </div>
 
-                {{-- <!-- Promenaid - Second Image -->
+                <!-- Promenaid - Second Image -->
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
@@ -84,16 +84,34 @@
                             class="w-full object-cover" style="height: 400px;">
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="{{ route('products.category', 'promenaid-handrail') }}"><h3 class="text-xl font-bold text-gray-800 mb-3">Promenaid Outdoor & Indoor Handrails</h3></a>
+                        <a href="{{ route('products.category', 'outdoor-promenaid-handrail') }}"><h3 class="text-xl font-bold text-gray-800 mb-3">Promenaid Outdoor & Indoor Handrails</h3></a>
                         <p class="text-gray-600 mb-4 flex-grow">Promenaid's high-grade aluminum construction resists rust, cracking, and fading — standing up to Vancouver's rain and temperature changes year after year. Available for stairs, ramps, decks, and hallways.</p>
                         <div class="mt-auto">
-                            <a href="/products-categories/promenaid-handrail"
+                            <a href="/products-categories/outdoor-promenaid-handrail"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
                                 View Product
                             </a>
                         </div>
                     </div>
-                </div> --}}
+                </div>
+                
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
+                    <div class="overflow-hidden relative">
+                        <img src="{{ asset('prom/glass-mounted-prominad.jpg') }}" alt="Promenaid Outdoor Handrail Vancouver - Home2Stay"
+                            class="w-full object-cover" style="height: 400px;">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col">
+                        <a href="{{ route('products.category', 'glass-mounted-promenaid-handrail') }}"><h3 class="text-xl font-bold text-gray-800 mb-3">Glass Mounted Promenaid</h3></a>
+                        <p class="text-gray-600 mb-4 flex-grow">Promenaid's high-grade aluminum construction resists rust, cracking, and fading — standing up to Vancouver's rain and temperature changes year after year. Available for stairs, ramps, decks, and hallways.</p>
+                        <div class="mt-auto">
+                            <a href="/products-categories/glass-mounted-promenaid-handrail"
+                                class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
+                                View Product
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
                 <!-- Floor-Mounted Advantage Rail -->
                 <div

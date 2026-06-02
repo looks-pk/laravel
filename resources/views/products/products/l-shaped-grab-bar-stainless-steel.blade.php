@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Home2stay L-Shaped Grab Bar (Stainless Steel) - Home2stay')
 @section('meta_description', 'Our L-shaped 30 inch x 30 inch Grab Bar is the easiest to install in the industry due to the [&hellip;]')
@@ -121,7 +121,7 @@
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Diameter of 1.25″ for a comfortable grip.
+                            Diameter of 1.25â€³ for a comfortable grip.
                         </p>
                     </div>
                     <div class="mb-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
@@ -233,7 +233,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Comfortable Grip</h3>
-                                            <p class="text-gray-600">1.25″ diameter provides a comfortable and secure grip for users of all ages and abilities.</p>
+                                            <p class="text-gray-600">1.25â€³ diameter provides a comfortable and secure grip for users of all ages and abilities.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -459,10 +459,10 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Home2stay L-Shaped Grab Bar (Stainless Steel)">
                     
@@ -594,7 +594,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name"
                         value="Home2stay L-Shaped Grab Bar (Stainless Steel)">
@@ -865,21 +865,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

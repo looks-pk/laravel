@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Trusted Tub Cuts in West Vancouver, BC | Home2Stay')
 @section('meta_description', 'Professional tub cuts in West Vancouver, BC. Trusted tub cut services for homeowners, landlords & commercial properties. Clean, fast & cost-effective bath access upgrades.')
@@ -17,7 +17,7 @@
                 Trusted Tub Cuts in West Vancouver, BC
             </h1>
             <p class="text-xl md:text-1xl mb-8 opacity-90 max-w-xl mx-auto">
-                Looking for professional Tub Cuts in West Vancouver? We provide easier and safer bathtub access at a lower cost and without the inconvenience of a complete renovation. We serve homeowners, landlords, and commercial properties alike. From the initial visit to the last waterproof seal, we handle everything — so you need not worry about a thing. Your West Vancouver home will have a clean, convenient bathroom with our trusted tub cut service.
+                Looking for professional Tub Cuts in West Vancouver? We provide easier and safer bathtub access at a lower cost and without the inconvenience of a complete renovation. We serve homeowners, landlords, and commercial properties alike. From the initial visit to the last waterproof seal, we handle everything â€” so you need not worry about a thing. Your West Vancouver home will have a clean, convenient bathroom with our trusted tub cut service.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="#contact" class="btn-secondary text-lg px-8 py-4">
@@ -51,28 +51,28 @@
                     </p>
                     <ul class="space-y-3 mb-6">
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                             We know West Vancouver homes and local code requirements inside and out.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
-                            Free consultation and transparent quote — no surprise fees.
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                            Free consultation and transparent quote â€” no surprise fees.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                             Minimal disorder, with many jobs completed in a single day.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                             High-quality materials built for BC's moisture and weather conditions.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                             A team that values cleanliness, respect for your home, and fast response.
                         </li>
                     </ul>
                     <p class="text-lg text-gray-700 leading-relaxed">
-                        Choosing Home2stay means choosing peace of mind and accessibility done right — whether it is for your home, rental property, or business.
+                        Choosing Home2stay means choosing peace of mind and accessibility done right â€” whether it is for your home, rental property, or business.
                     </p>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                 What Our Tub Cut Service Looks Like
             </h2>
             <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                We believe in a simple, clear process for your tub cut modification — from first visit to final inspection.
+                We believe in a simple, clear process for your tub cut modification â€” from first visit to final inspection.
             </p>
         </div>
 
@@ -116,7 +116,7 @@
                 <div class="step-number">3</div>
                 <h3 class="text-xl font-bold text-gray-900 mb-3">Swift Installation</h3>
                 <p class="text-gray-600">
-                    Our technicians perform the cut, install the low-threshold insert, seal the area, apply non-slip treatment, and clean up — all efficiently and with care.
+                    Our technicians perform the cut, install the low-threshold insert, seal the area, apply non-slip treatment, and clean up â€” all efficiently and with care.
                 </p>
             </div>
 
@@ -144,23 +144,23 @@
                 </p>
                 <ul class="space-y-4">
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                         <span>Seniors who struggle stepping over a high tub wall.</span>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                         <span>Care homes or assisted living residences seeking safe bathing solutions.</span>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                         <span>Rental or strata managers wanting to upgrade units for accessibility.</span>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                         <span>Commercial properties such as clinics, physiotherapy offices, and wellness centres.</span>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                         <span>Homeowners planning to age in place and needing practical safety enhancements.</span>
                     </li>
                 </ul>
@@ -182,7 +182,7 @@
                     </div>
                     <div class="contact-card">
                         <h3 class="text-lg font-bold text-gray-900 mb-2">Rental Property & Multi-Unit Upgrades</h3>
-                        <p class="text-gray-600">For property owners and managers who want to improve accessibility quickly and cost-effectively — a smart alternative to full renovation.</p>
+                        <p class="text-gray-600">For property owners and managers who want to improve accessibility quickly and cost-effectively â€” a smart alternative to full renovation.</p>
                     </div>
                     <div class="contact-card">
                         <h3 class="text-lg font-bold text-gray-900 mb-2">Luxury & Custom Finishes</h3>
@@ -204,27 +204,27 @@
                     Advantages of a Tub Cut vs Full Tub Replacement
                 </h2>
                 <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                    A tub cut delivers significant advantages over a full replacement — saving you time, money, and disruption.
+                    A tub cut delivers significant advantages over a full replacement â€” saving you time, money, and disruption.
                 </p>
                 <ul class="space-y-4">
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Lower cost:</strong> You keep the existing tub and plumbing, saving significantly on materials and labour.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Shorter timeline:</strong> Often completed in just one day, with no lengthy renovation period.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Limited interruption:</strong> No major demolition, little dust, and no bathroom out of service for long.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Value preservation:</strong> Keeps your existing design intact while improving access.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Enhanced safety:</strong> Lower entry wall, non-slip finish, and strong seals for peace of mind.</div>
                     </li>
                 </ul>
@@ -338,7 +338,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">High-End Finishes</h3>
-                <p class="text-gray-600">Premium solutions that look smooth and polished — matching the luxury aesthetic expected in West Vancouver properties.</p>
+                <p class="text-gray-600">Premium solutions that look smooth and polished â€” matching the luxury aesthetic expected in West Vancouver properties.</p>
             </div>
 
             <div class="service-card p-8 text-center">
@@ -348,7 +348,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Coastal Conditions</h3>
-                <p class="text-gray-600">Coastal moisture and temperature changes influence bathroom design — our materials and methods are built to handle BC's coastal environment.</p>
+                <p class="text-gray-600">Coastal moisture and temperature changes influence bathroom design â€” our materials and methods are built to handle BC's coastal environment.</p>
             </div>
         </div>
     </div>
@@ -498,12 +498,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>• West Vancouver (All Areas)</li>
-                                <li>• North Vancouver & Deep Cove</li>
-                                <li>• Vancouver & Burnaby</li>
-                                <li>• Coquitlam & Port Moody</li>
-                                <li>• Richmond & New Westminster</li>
-                                <li>• Greater Vancouver & Lower Mainland</li>
+                                <li>â€¢ West Vancouver (All Areas)</li>
+                                <li>â€¢ North Vancouver & Deep Cove</li>
+                                <li>â€¢ Vancouver & Burnaby</li>
+                                <li>â€¢ Coquitlam & Port Moody</li>
+                                <li>â€¢ Richmond & New Westminster</li>
+                                <li>â€¢ Greater Vancouver & Lower Mainland</li>
                             </ul>
                         </div>
                     </div>
@@ -513,7 +513,7 @@
             <!-- Quick Quote Form -->
             <div class="contact-card">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Get Your Free Quote</h3>
-                <form action="/submit-assessment" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="form_type" value="assessment">
                     <input type="hidden" name="form_source" value="area-west-vancouver_tub-cuts_page_assessment_form">
@@ -588,7 +588,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        Most standard installations finish in 4–6 hours. Larger or custom jobs may span a full day.
+                        Most standard installations finish in 4â€“6 hours. Larger or custom jobs may span a full day.
                     </div>
                 </div>
             </div>
@@ -616,7 +616,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        Yes. We offer finish options and trim styles to integrate with your bathroom's design aesthetic — including premium options for West Vancouver's luxury homes.
+                        Yes. We offer finish options and trim styles to integrate with your bathroom's design aesthetic â€” including premium options for West Vancouver's luxury homes.
                     </div>
                 </div>
             </div>
@@ -690,11 +690,21 @@ document.addEventListener('DOMContentLoaded', function() {
             const formData = new FormData(this);
             const data = Object.fromEntries(formData);
             if (!data.first_name || !data.last_name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
-            alert('Thank you for your quote request! Our West Vancouver team will contact you within 24 hours.');
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 
@@ -860,15 +870,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 .then(data => {
                     if (typeof data === 'object' && data.success !== undefined) {
                         if (data.success) {
-                            alert(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                            showFlash(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                             this.reset();
                             modal.classList.add('hidden');
                             document.body.style.overflow = 'auto';
                         } else {
-                            alert('Error: ' + (data.message || 'There was an error submitting your request.'));
+                            showFlash('Error: ' + (data.message || 'There was an error submitting your request.'), 'error');
                         }
                     } else {
-                        alert('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                        showFlash('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                         this.reset();
                         modal.classList.add('hidden');
                         document.body.style.overflow = 'auto';
@@ -876,10 +886,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 })
                 .catch(error => {
                     console.error('Error submitting form:', error);
-                    alert('There was an error submitting your request. Please try again or contact us directly.');
+                    showFlash('There was an error submitting your request. Please try again or contact us directly.', 'error');
                 });
             });
         }
     });
 </script>
 @endpush
+
+
+

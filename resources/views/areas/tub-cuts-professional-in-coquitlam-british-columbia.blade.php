@@ -1,7 +1,7 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Professional Tub Cuts in Coquitlam, BC | Home2Stay')
-@section('meta_description', 'Professional tub cuts in Coquitlam, BC. Upgrade bath access with a safe step-in tub cut solution without a full remodel. Fast, clean, reliable installation — book your free on-site evaluation today.')
+@section('meta_description', 'Professional tub cuts in Coquitlam, BC. Upgrade bath access with a safe step-in tub cut solution without a full remodel. Fast, clean, reliable installation â€” book your free on-site evaluation today.')
 
 @push('styles')
 <link rel="stylesheet" href="{{ asset('css/area-page.css') }}">
@@ -51,23 +51,23 @@
                     </p>
                     <ul class="space-y-3 mb-6">
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                             Free on-site evaluations in Coquitlam with detailed measurements and custom recommendations.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
-                            Durable materials selected for Coquitlam’s climate and the specific property type.
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                            Durable materials selected for Coquitlamâ€™s climate and the specific property type.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                             Quick turnaround with many tub-cut installations completed within a single day.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                             Clean, respectful work that protects your home, condo, or rental throughout the project.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                             Full supply and installation service from a reputable tub-cuts dealer and installer.
                         </li>
                     </ul>
@@ -206,23 +206,23 @@
                 </p>
                 <ul class="space-y-4">
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Less expensive:</strong> Keep your existing tub and plumbing without major demolition.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Faster turnaround:</strong> Many installations can be completed within a single day.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Less disruption:</strong> Fewer trades, less dust, and a shorter construction period.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Maintains design:</strong> Retain your tile, decor, and layout while improving entry access.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Better safety:</strong> Step-in access plus non-slip protection for all ages and mobility levels.</div>
                     </li>
                 </ul>
@@ -443,12 +443,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>• Coquitlam (All Areas)</li>
-                                <li>• Port Coquitlam & Port Moody</li>
-                                <li>• Burke Mountain & Westwood Plateau</li>
-                                <li>• Maillardville & Central Coquitlam</li>
-                                <li>• New Westminster & Burnaby</li>
-                                <li>• Greater Vancouver & Lower Mainland</li>
+                                <li>â€¢ Coquitlam (All Areas)</li>
+                                <li>â€¢ Port Coquitlam & Port Moody</li>
+                                <li>â€¢ Burke Mountain & Westwood Plateau</li>
+                                <li>â€¢ Maillardville & Central Coquitlam</li>
+                                <li>â€¢ New Westminster & Burnaby</li>
+                                <li>â€¢ Greater Vancouver & Lower Mainland</li>
                             </ul>
                         </div>
                     </div>
@@ -458,7 +458,7 @@
             <!-- Quick Quote Form -->
             <div class="contact-card">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Book Your Free Evaluation</h3>
-                <form action="/submit-assessment" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="form_type" value="assessment">
                     <input type="hidden" name="form_source" value="area-coquitlam_tub-cuts_page_assessment_form">
@@ -635,11 +635,21 @@ document.addEventListener('DOMContentLoaded', function() {
             const formData = new FormData(this);
             const data = Object.fromEntries(formData);
             if (!data.first_name || !data.last_name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
-            alert('Thank you for your request! Our Coquitlam team will contact you within 24 hours.');
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 
@@ -805,15 +815,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 .then(data => {
                     if (typeof data === 'object' && data.success !== undefined) {
                         if (data.success) {
-                            alert(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                            showFlash(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                             this.reset();
                             modal.classList.add('hidden');
                             document.body.style.overflow = 'auto';
                         } else {
-                            alert('Error: ' + (data.message || 'There was an error submitting your request.'));
+                            showFlash('Error: ' + (data.message || 'There was an error submitting your request.'), 'error');
                         }
                     } else {
-                        alert('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                        showFlash('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                         this.reset();
                         modal.classList.add('hidden');
                         document.body.style.overflow = 'auto';
@@ -821,10 +831,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 })
                 .catch(error => {
                     console.error('Error submitting form:', error);
-                    alert('There was an error submitting your request. Please try again or contact us directly.');
+                    showFlash('There was an error submitting your request. Please try again or contact us directly.', 'error');
                 });
             });
         }
     });
 </script>
 @endpush
+
+
+

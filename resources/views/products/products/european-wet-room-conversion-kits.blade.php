@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Home2stay European Wet Room Conversion Kits - Home2stay')
 @section('meta_description', 'Achieve your dream bathroom that is not only beautiful, but also accessible, safe and functional. A curbless shower, also known [&hellip;]')
@@ -234,16 +234,16 @@
                                             <div class="space-y-3">
                                                 <h4 class="font-medium text-gray-700">Construction Types:</h4>
                                                 <ul class="space-y-1 text-gray-600">
-                                                    <li>• Remodeling projects</li>
-                                                    <li>• New construction</li>
+                                                    <li>â€¢ Remodeling projects</li>
+                                                    <li>â€¢ New construction</li>
                                                 </ul>
                                             </div>
                                             <div class="space-y-3">
                                                 <h4 class="font-medium text-gray-700">Building Types:</h4>
                                                 <ul class="space-y-1 text-gray-600">
-                                                    <li>• Residential homes</li>
-                                                    <li>• Commercial buildings</li>
-                                                    <li>• Institutional facilities</li>
+                                                    <li>â€¢ Residential homes</li>
+                                                    <li>â€¢ Commercial buildings</li>
+                                                    <li>â€¢ Institutional facilities</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -290,7 +290,7 @@
                                         </div>
                                         <div class="border-l-4 border-primary pl-4">
                                             <h4 class="font-semibold text-gray-800">Flexible Orientation</h4>
-                                            <p class="text-gray-600">Can be rotated 180° to avoid a joist or align closer to existing plumbing.</p>
+                                            <p class="text-gray-600">Can be rotated 180Â° to avoid a joist or align closer to existing plumbing.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -344,7 +344,7 @@
                                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                                     clip-rule="evenodd" />
                                             </svg>
-                                            <span>7/8″ thick (at the perimeter) with four pitch planes and built-in gradients</span>
+                                            <span>7/8â€³ thick (at the perimeter) with four pitch planes and built-in gradients</span>
                                         </li>
                                         <li class="flex items-start">
                                             <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
@@ -481,10 +481,10 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Home2stay European Wet Room Conversion Kits">
                     
@@ -597,7 +597,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name"
                         value="Home2stay European Wet Room Conversion Kits">
@@ -848,21 +848,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

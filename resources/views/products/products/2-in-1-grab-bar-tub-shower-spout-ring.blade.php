@@ -1,7 +1,7 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Home2stay 2-in-1 Grab Bar Tub/ Shower Spout Ring - Home2stay')
-@section('meta_description', 'Grabcessories 2-in-1 Tub &amp; Shower Grab Bar Ring prevents falls in two key “fall risk” zones of the bathroom. This [&hellip;]')
+@section('meta_description', 'Grabcessories 2-in-1 Tub &amp; Shower Grab Bar Ring prevents falls in two key â€œfall riskâ€ zones of the bathroom. This [&hellip;]')
 
 @section('content')
     <!-- Hero Section -->
@@ -246,17 +246,17 @@
                                             <div class="space-y-3">
                                                 <h4 class="font-medium text-gray-700">Shower Applications:</h4>
                                                 <ul class="space-y-1 text-gray-600">
-                                                    <li>• Around hot/cold shower valve plate</li>
-                                                    <li>• Support while standing under shower</li>
-                                                    <li>• Assistance entering/exiting shower</li>
+                                                    <li>â€¢ Around hot/cold shower valve plate</li>
+                                                    <li>â€¢ Support while standing under shower</li>
+                                                    <li>â€¢ Assistance entering/exiting shower</li>
                                                 </ul>
                                             </div>
                                             <div class="space-y-3">
                                                 <h4 class="font-medium text-gray-700">Tub Applications:</h4>
                                                 <ul class="space-y-1 text-gray-600">
-                                                    <li>• Around tub spout for support</li>
-                                                    <li>• Assistance rising from seated position</li>
-                                                    <li>• Support when declining to seated position</li>
+                                                    <li>â€¢ Around tub spout for support</li>
+                                                    <li>â€¢ Assistance rising from seated position</li>
+                                                    <li>â€¢ Support when declining to seated position</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -377,7 +377,7 @@
                                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                                     clip-rule="evenodd" />
                                             </svg>
-                                            <span>Stainless steel – no rust</span>
+                                            <span>Stainless steel â€“ no rust</span>
                                         </li>
                                         <li class="flex items-start">
                                             <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
@@ -527,10 +527,10 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Home2stay 2-in-1 Grab Bar Tub/Shower Spout Ring">
                     
@@ -643,7 +643,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name"
                         value="Home2stay 2-in-1 Grab Bar Tub/Shower Spout Ring">
@@ -894,21 +894,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

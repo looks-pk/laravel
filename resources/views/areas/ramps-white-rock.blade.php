@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Commercial Ramps in White Rock | Safe, Strong, and Built for Business')
 @section('meta_description', 'Professional commercial ramp installation in White Rock. Safe, strong ramps for businesses. ADA & BC Building Code compliant. Fast expert installation.')
@@ -273,7 +273,7 @@
 <!-- CTA Before Products -->
 <section class="py-16 bg-blue-50">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl text-center">
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Call Home2stay Today – Let's Build Your Ramp</h2>
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Call Home2stay Today â€“ Let's Build Your Ramp</h2>
         <p class="text-lg text-gray-700 leading-relaxed mb-8 max-w-2xl mx-auto">
         If you're ready to upgrade your building with Trusted Ramps in White Rock, give us a call. We'll visit your property, create a plan, and build your ramp fast. Don't wait until someone trips or a complaint comes in. Let's make your building safer, more welcoming, and fully accessible today.
         </p>
@@ -386,12 +386,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>• White Rock (All Areas)</li>
-                                <li>• Crescent Beach & Peace Arch</li>
-                                <li>• Ocean Park & South Surrey</li>
-                                <li>• Blaine, WA (Cross-Border)</li>
-                                <li>• Surrey & Langley</li>
-                                <li>• Throughout Metro Vancouver</li>
+                                <li>â€¢ White Rock (All Areas)</li>
+                                <li>â€¢ Crescent Beach & Peace Arch</li>
+                                <li>â€¢ Ocean Park & South Surrey</li>
+                                <li>â€¢ Blaine, WA (Cross-Border)</li>
+                                <li>â€¢ Surrey & Langley</li>
+                                <li>â€¢ Throughout Metro Vancouver</li>
                             </ul>
                         </div>
                     </div>
@@ -401,7 +401,7 @@
             <!-- Quick Quote Form -->
             <div class="contact-card">
                 <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center">Get Your Free Quote</h2>
-                <form action="/submit-assessment" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                 @csrf
                     <input type="hidden" name="form_type" value="assessment">
                     <input type="hidden" name="form_source" value="area-white-rock_page_assessment_form">
@@ -618,15 +618,22 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Basic validation
             if (!data.first_name || !data.last_name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
             
-            // Here you would typically send the data to your server
-            alert('Thank you for your quote request! Our Richmond team will contact you within 24 hours.');
-            
-            // Reset form
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 
@@ -835,7 +842,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 productInfoForm.addEventListener('submit', function(e) {
                     e.preventDefault(); // Prevent normal form submission to avoid quick refresh
                     
-                    console.log('🚀 Product form submission detected!');
+                    console.log('ðŸš€ Product form submission detected!');
                     console.log('Form action:', this.action);
                     console.log('Form method:', this.method);
                     
@@ -853,18 +860,18 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                     
                     if (!allValid) {
-                        console.log('❌ Form validation failed');
+                        console.log('âŒ Form validation failed');
                         alert('Please fill in all required fields (First Name, Last Name, Email, Phone)');
                         return false;
                     }
                     
-                    console.log('✅ Form validation passed, submitting via AJAX...');
+                    console.log('âœ… Form validation passed, submitting via AJAX...');
                     
                     // Submit form via AJAX
                     const formData = new FormData(this);
                     
                     // Debug: Log all form data
-                    console.log('📋 Form data being sent:');
+                    console.log('ðŸ“‹ Form data being sent:');
                     for (let [key, value] of formData.entries()) {
                         console.log(`  ${key}: ${value}`);
                     }
@@ -878,39 +885,41 @@ document.addEventListener('DOMContentLoaded', function() {
                         }
                     })
                     .then(response => {
-                        console.log('📡 Server response status:', response.status);
+                        console.log('ðŸ“¡ Server response status:', response.status);
                         return response.json().catch(() => response.text());
                     })
                     .then(data => {
-                        console.log('✅ Server response received');
-                        console.log('📄 Response data:', data);
+                        console.log('âœ… Server response received');
+                        console.log('ðŸ“„ Response data:', data);
                         
                         // Check if it's JSON response
                         if (typeof data === 'object' && data.success !== undefined) {
                             if (data.success) {
-                                alert(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                                showFlash(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                                 
                                 // Reset form and close modal
                                 this.reset();
                                 modal.classList.add('hidden');
                                 document.body.style.overflow = 'auto';
                             } else {
-                                alert('Error: ' + (data.message || 'There was an error submitting your request.'));
+                                showFlash('Error: ' + (data.message || 'There was an error submitting your request.'), 'error');
                             }
                         } else {
                             // Fallback for HTML response (shouldn't happen now)
-                            alert('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                            showFlash('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                             this.reset();
                             modal.classList.add('hidden');
                             document.body.style.overflow = 'auto';
                         }
                     })
                     .catch(error => {
-                        console.error('❌ Error submitting form:', error);
-                        alert('There was an error submitting your request. Please try again or contact us directly.');
+                        console.error('âŒ Error submitting form:', error);
+                        showFlash('There was an error submitting your request. Please try again or contact us directly.', 'error');
                     });
                 });
             }
         });
     </script>
 @endpush
+
+

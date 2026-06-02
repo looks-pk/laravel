@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Acrylic Shower Remodeling (Bellastone) - Home2Stay')
 @section('meta_description', 'Acrylic shower renovations by Home2Stay featuring Bellastone premium panels. Fast installation, low maintenance, elegant design that looks like marble. Durable, waterproof, and affordable.')
@@ -258,18 +258,18 @@
                                             <div class="space-y-3">
                                                 <h4 class="font-medium text-gray-700">Marble Finishes:</h4>
                                                 <ul class="space-y-1 text-gray-600">
-                                                    <li>• Carrara</li>
-                                                    <li>• Calcutta</li>
-                                                    <li>• Venatino</li>
+                                                    <li>â€¢ Carrara</li>
+                                                    <li>â€¢ Calcutta</li>
+                                                    <li>â€¢ Venatino</li>
                                                 </ul>
                                             </div>
                                             <div class="space-y-3">
                                                 <h4 class="font-medium text-gray-700">Tile Pattern Options:</h4>
                                                 <ul class="space-y-1 text-gray-600">
-                                                    <li>• Subway</li>
-                                                    <li>• Herringbone</li>
-                                                    <li>• Hexagon</li>
-                                                    <li>• Trendz & More</li>
+                                                    <li>â€¢ Subway</li>
+                                                    <li>â€¢ Herringbone</li>
+                                                    <li>â€¢ Hexagon</li>
+                                                    <li>â€¢ Trendz & More</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -330,19 +330,19 @@
                                         <div class="bg-gray-50 rounded-lg p-4">
                                             <h4 class="font-medium text-gray-700 mb-3">Material & Durability:</h4>
                                             <ul class="space-y-2 text-gray-600">
-                                                <li>• Premium acrylic construction</li>
-                                                <li>• Waterproof and leakproof design</li>
-                                                <li>• Durable marble and tile finishes</li>
-                                                <li>• Long-lasting with minimal maintenance</li>
+                                                <li>â€¢ Premium acrylic construction</li>
+                                                <li>â€¢ Waterproof and leakproof design</li>
+                                                <li>â€¢ Durable marble and tile finishes</li>
+                                                <li>â€¢ Long-lasting with minimal maintenance</li>
                                             </ul>
                                         </div>
                                         <div class="bg-gray-50 rounded-lg p-4">
                                             <h4 class="font-medium text-gray-700 mb-3">Included Features:</h4>
                                             <ul class="space-y-2 text-gray-600">
-                                                <li>• Corner shelves</li>
-                                                <li>• Trim matching options</li>
-                                                <li>• Custom sizing capability</li>
-                                                <li>• Full height caddies available</li>
+                                                <li>â€¢ Corner shelves</li>
+                                                <li>â€¢ Trim matching options</li>
+                                                <li>â€¢ Custom sizing capability</li>
+                                                <li>â€¢ Full height caddies available</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -475,10 +475,10 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Acrylic Shower Remodeling (Bellastone)">
                     
@@ -591,7 +591,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name"
                         value="Acrylic Shower Remodeling (Bellastone)">
@@ -842,21 +842,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

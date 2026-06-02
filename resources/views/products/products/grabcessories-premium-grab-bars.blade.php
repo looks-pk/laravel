@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Grabcessories Premium Grab Bars by Home2Stay - Safety Meets Style')
 @section('meta_description', 'Grabcessories Premium Grab Bars by Home2Stay. Durable, rust-resistant, stylish grab bars. Easy installation, ergonomic design, up to 250 lbs weight capacity.')
@@ -52,7 +52,7 @@
                         </li>
                     </ol>
                 </nav>
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Grabcessories Premium Grab Bars – Safety Meets Style</h1>
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Grabcessories Premium Grab Bars â€“ Safety Meets Style</h1>
                 <div class="flex items-center mb-4">
                     <div class="flex text-yellow-400">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -90,7 +90,7 @@
                 <!-- Product Image Gallery -->
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gray-100 rounded-lg overflow-hidden mb-4">
-                        <img src="{{ asset('grabbars/Grabcessories Premium Grab Bars – Safety Meets Style-1.webp') }}"
+                        <img src="{{ asset('grabbars/Grabcessories Premium Grab Bars â€“ Safety Meets Style-1.webp') }}"
                             alt="Home2Stay Grab Bars" class="w-full h-auto object-contain p-4">
                     </div>
                     <!-- Request Quote Button -->
@@ -336,22 +336,22 @@
                             <div class="tab-pane" data-tab="images-tab" style="display: none !important;">
                                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('grabbars/Grabcessories Premium Grab Bars – Safety Meets Style-1.webp') }}"
+                                        <img src="{{ asset('grabbars/Grabcessories Premium Grab Bars â€“ Safety Meets Style-1.webp') }}"
                                             alt="Home2stay Tub Cut Ultra-Low"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('grabbars/Grabcessories Premium Grab Bars – Safety Meets Style-2.jpg') }}"
+                                        <img src="{{ asset('grabbars/Grabcessories Premium Grab Bars â€“ Safety Meets Style-2.jpg') }}"
                                             alt="Home2stay Tub Cut Ultra-Low"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('grabbars/Grabcessories Premium Grab Bars – Safety Meets Style-3.jpg') }}"
+                                        <img src="{{ asset('grabbars/Grabcessories Premium Grab Bars â€“ Safety Meets Style-3.jpg') }}"
                                             alt="Home2stay Tub Cut Ultra-Low"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('grabbars/Grabcessories Premium Grab Bars – Safety Meets Style.webp') }}"
+                                        <img src="{{ asset('grabbars/Grabcessories Premium Grab Bars â€“ Safety Meets Style.webp') }}"
                                             alt="Home2stay Tub Cut Ultra-Low"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
@@ -422,17 +422,17 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>• Step-in shower conversion for high-profile tubs</li>
-                                            <li>• Ultra-low design ideal for tubs at least 14.75" tall</li>
-                                            <li>• Non-skid step pad to reduce slips and falls</li>
-                                            <li>• Quick installation in less than one day</li>
-                                            <li>• Compatible with acrylic, fiberglass, steel, and cast iron tubs</li>
-                                            <li>• Available in 1 width</li>
-                                            <li>• Two color options: white and beige</li>
-                                            <li>• Greatly reduces possibility of falls</li>
-                                            <li>• Enables easy step-in access</li>
-                                            <li>• Our most affordable tub cut solution</li>
-                                            <li>• Next-day delivery and installation available</li>
+                                            <li>â€¢ Step-in shower conversion for high-profile tubs</li>
+                                            <li>â€¢ Ultra-low design ideal for tubs at least 14.75" tall</li>
+                                            <li>â€¢ Non-skid step pad to reduce slips and falls</li>
+                                            <li>â€¢ Quick installation in less than one day</li>
+                                            <li>â€¢ Compatible with acrylic, fiberglass, steel, and cast iron tubs</li>
+                                            <li>â€¢ Available in 1 width</li>
+                                            <li>â€¢ Two color options: white and beige</li>
+                                            <li>â€¢ Greatly reduces possibility of falls</li>
+                                            <li>â€¢ Enables easy step-in access</li>
+                                            <li>â€¢ Our most affordable tub cut solution</li>
+                                            <li>â€¢ Next-day delivery and installation available</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -441,13 +441,13 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Installation Details</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>• Installation completed on existing tub</li>
-                                            <li>• Installed in less than one day</li>
-                                            <li>• Greatly reduces the possibility of falls</li>
-                                            <li>• Enables easy step-in access</li>
-                                            <li>• Our most affordable product</li>
-                                            <li>• Professional installation by CleanCut specialists</li>
-                                            <li>• Ideal for high-profile tubs (14.75" + tall)</li>
+                                            <li>â€¢ Installation completed on existing tub</li>
+                                            <li>â€¢ Installed in less than one day</li>
+                                            <li>â€¢ Greatly reduces the possibility of falls</li>
+                                            <li>â€¢ Enables easy step-in access</li>
+                                            <li>â€¢ Our most affordable product</li>
+                                            <li>â€¢ Professional installation by CleanCut specialists</li>
+                                            <li>â€¢ Ideal for high-profile tubs (14.75" + tall)</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -507,7 +507,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('grabbars/Grabcessories Premium Grab Bars – Safety Meets Style-3.jpg') }}" alt="Bathroom Safety Solutions"
+                        <img src="{{ asset('grabbars/Grabcessories Premium Grab Bars â€“ Safety Meets Style-3.jpg') }}" alt="Bathroom Safety Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -582,11 +582,11 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
                         would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Home2stay Tub Cut Ultra-Low">
 
@@ -774,7 +774,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name" value="Home2stay Tub Cut Ultra-Low">
 
@@ -1045,21 +1045,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

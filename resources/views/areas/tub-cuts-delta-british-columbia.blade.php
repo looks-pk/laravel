@@ -1,7 +1,7 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Professional Tub Cuts in Delta, BC | Home2Stay')
-@section('meta_description', 'Professional tub cuts in Delta, BC. Trusted tub cut dealers for homes, rentals, strata, care facilities & commercial properties. Fast, clean & reliable bath access upgrades — book your free site assessment today.')
+@section('meta_description', 'Professional tub cuts in Delta, BC. Trusted tub cut dealers for homes, rentals, strata, care facilities & commercial properties. Fast, clean & reliable bath access upgrades â€” book your free site assessment today.')
 
 @push('styles')
 <link rel="stylesheet" href="{{ asset('css/area-page.css') }}">
@@ -18,7 +18,7 @@
                 Professional Tub Cuts in Delta, BC
             </h1>
             <p class="text-xl md:text-1xl mb-8 opacity-90 max-w-xl mx-auto">
-                Looking for a company that is fast, caring, and quality-focused for Tub Cuts in Delta, BC? Home2stay is one of the most reputed Tub Cuts Dealers in Delta — providing secure, stylish bath access upgrades without complete bathroom destruction. Whether you are renovating a home, enhancing a rental, or upgrading a commercial space, we handle everything from assessment to installation so you do not have to manage multiple contractors.
+                Looking for a company that is fast, caring, and quality-focused for Tub Cuts in Delta, BC? Home2stay is one of the most reputed Tub Cuts Dealers in Delta â€” providing secure, stylish bath access upgrades without complete bathroom destruction. Whether you are renovating a home, enhancing a rental, or upgrading a commercial space, we handle everything from assessment to installation so you do not have to manage multiple contractors.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="#contact" class="btn-secondary text-lg px-8 py-4">
@@ -47,28 +47,28 @@
                     Why Home2stay is Your Trusted Choice in Delta
                 </h2>
                 <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                    When you choose Home2stay, you are choosing experience, transparency, and results. You should enjoy a smooth experience with your investment — and that is exactly what we offer.
+                    When you choose Home2stay, you are choosing experience, transparency, and results. You should enjoy a smooth experience with your investment â€” and that is exactly what we offer.
                 </p>
                 <ul class="space-y-3">
                     <li class="flex items-start text-gray-700">
-                        <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                        <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                         We offer free site assessments here in Delta.
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                        <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                         Every tub-cut solution is custom-made to suit your bath, style, and purpose.
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                        <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                         Our installers keep your space tidy, respect your time, and complete work quickly.
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                        <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                         High-quality materials built to resist Delta's weather and multitasking households.
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
-                        One smooth process — we are both dealer and installer, so you only deal with us.
+                        <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                        One smooth process â€” we are both dealer and installer, so you only deal with us.
                     </li>
                 </ul>
             </div>
@@ -95,12 +95,12 @@
             <div class="step-card">
                 <div class="step-number">1</div>
                 <h3 class="text-xl font-bold text-gray-900 mb-3">Site Visit & Assessment</h3>
-                <p class="text-gray-600">We come to your Delta property, assess the existing tub, wall height, entry space, tile layout, and discuss your goals — safer entry, ageing in place, rental turnover, or commercial access.</p>
+                <p class="text-gray-600">We come to your Delta property, assess the existing tub, wall height, entry space, tile layout, and discuss your goals â€” safer entry, ageing in place, rental turnover, or commercial access.</p>
             </div>
             <div class="step-card">
                 <div class="step-number">2</div>
                 <h3 class="text-xl font-bold text-gray-900 mb-3">Custom Plan & Transparent Quote</h3>
-                <p class="text-gray-600">We give you a detailed proposal — how much wall to cut, the threshold or insert to install, finish options, the full cost, and the timeline. You approve everything before work begins.</p>
+                <p class="text-gray-600">We give you a detailed proposal â€” how much wall to cut, the threshold or insert to install, finish options, the full cost, and the timeline. You approve everything before work begins.</p>
             </div>
             <div class="step-card">
                 <div class="step-number">3</div>
@@ -130,23 +130,23 @@
                 </p>
                 <ul class="space-y-4">
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                         <span>Homeowners wanting safer bath access for themselves or their loved ones.</span>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                         <span>Rental property owners and managers preparing units for accessible and efficient tenant turnover.</span>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                         <span>Commercial spaces like clinics, spas, or care homes requiring improved access without closures.</span>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                         <span>Strata and multi-unit buildings needing a consistent finish across units with minimal disruption.</span>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                         <span>Clients planning to age in place or recover who need safer, easier bathtub access.</span>
                     </li>
                 </ul>
@@ -160,11 +160,11 @@
                 <div class="space-y-5">
                     <div class="contact-card">
                         <h3 class="text-lg font-bold text-gray-900 mb-2">Residential Tub Cut Projects</h3>
-                        <p class="text-gray-600">In homes throughout Delta, our tub cut service blends function and design. You get safer access without sacrificing aesthetics — we match finishes, protect surrounding decor, and finish quickly.</p>
+                        <p class="text-gray-600">In homes throughout Delta, our tub cut service blends function and design. You get safer access without sacrificing aesthetics â€” we match finishes, protect surrounding decor, and finish quickly.</p>
                     </div>
                     <div class="contact-card">
                         <h3 class="text-lg font-bold text-gray-900 mb-2">Commercial & Rental Upgrades</h3>
-                        <p class="text-gray-600">In higher-use settings, we provide commercial-grade tub cuts that handle traffic, frequent use, and tighter scheduling — coordinating with building managers and business hours to minimise downtime.</p>
+                        <p class="text-gray-600">In higher-use settings, we provide commercial-grade tub cuts that handle traffic, frequent use, and tighter scheduling â€” coordinating with building managers and business hours to minimise downtime.</p>
                     </div>
                     <div class="contact-card">
                         <h3 class="text-lg font-bold text-gray-900 mb-2">Strata & Multi-Unit Buildings</h3>
@@ -172,7 +172,7 @@
                     </div>
                     <div class="contact-card">
                         <h3 class="text-lg font-bold text-gray-900 mb-2">Accessibility & Ageing-in-Place Solutions</h3>
-                        <p class="text-gray-600">Step-in thresholds, low entry walls, non-slip surfaces, and optional handrails — all without a full bath remodel. Ideal for mobility, recovery, or long-term ageing-in-place needs.</p>
+                        <p class="text-gray-600">Step-in thresholds, low entry walls, non-slip surfaces, and optional handrails â€” all without a full bath remodel. Ideal for mobility, recovery, or long-term ageing-in-place needs.</p>
                     </div>
                 </div>
             </div>
@@ -194,23 +194,23 @@
                 </p>
                 <ul class="space-y-4">
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
-                        <div><strong>Reduced cost:</strong> You retain your current tub and plumbing — no total replacement needed.</div>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <div><strong>Reduced cost:</strong> You retain your current tub and plumbing â€” no total replacement needed.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Reduced turnaround time:</strong> Many tub cuts finish in hours rather than the weeks a full remodel takes.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
-                        <div><strong>Less disturbance:</strong> Fewer trades, less mess, and reduced downtime — important for homes and rentals in Delta.</div>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <div><strong>Less disturbance:</strong> Fewer trades, less mess, and reduced downtime â€” important for homes and rentals in Delta.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Keep design integrity:</strong> You preserve tile, fixtures, and layout while gaining better access.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Safety and value addition:</strong> A safer bath is easier to maintain, less risky, and adds to rental or resale attractiveness.</div>
                     </li>
                 </ul>
@@ -299,7 +299,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Older Homes</h3>
-                <p class="text-gray-600">We bring modern access upgrades to Delta's older homes — updating classic bathrooms without disrupting the character of the space.</p>
+                <p class="text-gray-600">We bring modern access upgrades to Delta's older homes â€” updating classic bathrooms without disrupting the character of the space.</p>
             </div>
 
             <div class="service-card p-8 text-center">
@@ -309,7 +309,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Rental Unit Turnovers</h3>
-                <p class="text-gray-600">Fast, clean installations scheduled around tenant changeovers — helping Delta landlords maintain occupancy and meet accessibility needs efficiently.</p>
+                <p class="text-gray-600">Fast, clean installations scheduled around tenant changeovers â€” helping Delta landlords maintain occupancy and meet accessibility needs efficiently.</p>
             </div>
 
             <div class="service-card p-8 text-center">
@@ -319,7 +319,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Commercial Spaces</h3>
-                <p class="text-gray-600">Minimal disruption to operations for Delta clinics, care homes, and hospitality businesses — we schedule around your hours and deliver high-traffic-ready results.</p>
+                <p class="text-gray-600">Minimal disruption to operations for Delta clinics, care homes, and hospitality businesses â€” we schedule around your hours and deliver high-traffic-ready results.</p>
             </div>
 
             <div class="service-card p-8 text-center">
@@ -329,7 +329,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Delta Building Standards</h3>
-                <p class="text-gray-600">We know Delta's building codes, moisture conditions, and finish expectations — ensuring every installation is compliant, durable, and suited to the local environment.</p>
+                <p class="text-gray-600">We know Delta's building codes, moisture conditions, and finish expectations â€” ensuring every installation is compliant, durable, and suited to the local environment.</p>
             </div>
         </div>
     </div>
@@ -413,12 +413,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>• Delta — Ladner, Tsawwassen & North Delta</li>
-                                <li>• Surrey & White Rock</li>
-                                <li>• Richmond & Burnaby</li>
-                                <li>• Langley & Cloverdale</li>
-                                <li>• New Westminster & Vancouver</li>
-                                <li>• Greater Vancouver & Lower Mainland</li>
+                                <li>â€¢ Delta â€” Ladner, Tsawwassen & North Delta</li>
+                                <li>â€¢ Surrey & White Rock</li>
+                                <li>â€¢ Richmond & Burnaby</li>
+                                <li>â€¢ Langley & Cloverdale</li>
+                                <li>â€¢ New Westminster & Vancouver</li>
+                                <li>â€¢ Greater Vancouver & Lower Mainland</li>
                             </ul>
                         </div>
                     </div>
@@ -427,7 +427,7 @@
 
             <div class="contact-card">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Schedule Your Free Site Assessment</h3>
-                <form action="/submit-assessment" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="form_type" value="assessment">
                     <input type="hidden" name="form_source" value="area-delta_tub-cuts_page_assessment_form">
@@ -494,7 +494,7 @@
                     <svg class="faq-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div class="faq-answer">
-                    <div class="faq-answer-content">For most standard bathtub layouts, our tub cuts in Delta finish in 4–6 hours or one working day, depending on complexity.</div>
+                    <div class="faq-answer-content">For most standard bathtub layouts, our tub cuts in Delta finish in 4â€“6 hours or one working day, depending on complexity.</div>
                 </div>
             </div>
 
@@ -546,7 +546,7 @@
     <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Upgrade Your Bath Access in Delta?</h2>
         <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-            If you are ready to make your bathroom safer, more functional, and accessible, call Home2stay today. We will schedule your free site assessment, guide you through your options, and get your project started. You deserve better access — and we offer it.
+            If you are ready to make your bathroom safer, more functional, and accessible, call Home2stay today. We will schedule your free site assessment, guide you through your options, and get your project started. You deserve better access â€” and we offer it.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:604-259-1211" class="btn-secondary text-lg px-8 py-4">
@@ -573,11 +573,21 @@ document.addEventListener('DOMContentLoaded', function() {
             const formData = new FormData(this);
             const data = Object.fromEntries(formData);
             if (!data.first_name || !data.last_name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
-            alert('Thank you for your request! Our Delta team will contact you within 24 hours.');
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 
@@ -734,3 +744,5 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 @endpush
+
+

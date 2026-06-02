@@ -537,18 +537,22 @@ document.addEventListener('DOMContentLoaded', function() {
             const formData = new FormData(this);
             const data = Object.fromEntries(formData);
             
-            // Simple validation
             if (!data.name || !data.email || !data.phone || !data.city) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
-            
-            // Here you would typically send the data to your server
-            // For now, we'll show a success message
-            alert('Thank you for your quote request! We will contact you within 24 hours.');
-            
-            // Reset form
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 

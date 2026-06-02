@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Home2Stay Outdoor Stairlifts - Home2Stay')
 @section('meta_description', 'Home2Stay Outdoor Stairlifts deliver weather-ready comfort, safety, and independence for every outdoor staircase.')
@@ -174,11 +174,11 @@
                                     </div>
                                     <div class="space-y-3">
                                         <h3 class="text-xl font-semibold text-gray-800">Why Choose Home2Stay Outdoor Stairlifts?</h3>
-                                        <p>Stairs shouldn’t limit your independence. With Home2Stay, you get a reliable, stylish, and safe solution that blends flawlessly with your home’s exterior. Best for seniors, individuals with mobility challenges, or anyone seeking convenience without compromising safety.</p>
+                                        <p>Stairs shouldnâ€™t limit your independence. With Home2Stay, you get a reliable, stylish, and safe solution that blends flawlessly with your homeâ€™s exterior. Best for seniors, individuals with mobility challenges, or anyone seeking convenience without compromising safety.</p>
                                     </div>
                                     <div class="space-y-3">
                                         <h3 class="text-xl font-semibold text-gray-800">Enjoy Life, One Step at a Time</h3>
-                                        <p>With a Home2Stay Outdoor Stairlift, every step is stress-free. Whether you’re entering your home, reaching the garden, or enjoying the deck, our stairlifts give you freedom without compromise.</p>
+                                        <p>With a Home2Stay Outdoor Stairlift, every step is stress-free. Whether youâ€™re entering your home, reaching the garden, or enjoying the deck, our stairlifts give you freedom without compromise.</p>
                                     </div>
                                     <div class="space-y-3">
                                         <h3 class="text-xl font-semibold text-gray-800">Contact Us Today!</h3>
@@ -305,16 +305,16 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>• Weather-ready construction handles rain, snow, and UV</li>
-                                            <li>• Smooth, quiet motors for outdoor transitions</li>
-                                            <li>• Fits straight or curved exterior staircases</li>
-                                            <li>• Built-in seat belts, sensors, and emergency stop</li>
-                                            <li>• Corrosion-resistant metals and finishes</li>
-                                            <li>• Simple joystick or button controls</li>
-                                            <li>• Custom installation for decks, porches, and paths</li>
-                                            <li>• Professional setup with local Home2Stay support</li>
-                                            <li>• Free consultation and quote available</li>
-                                            <li>• Ideal for seniors and anyone needing safe outdoor access</li>
+                                            <li>â€¢ Weather-ready construction handles rain, snow, and UV</li>
+                                            <li>â€¢ Smooth, quiet motors for outdoor transitions</li>
+                                            <li>â€¢ Fits straight or curved exterior staircases</li>
+                                            <li>â€¢ Built-in seat belts, sensors, and emergency stop</li>
+                                            <li>â€¢ Corrosion-resistant metals and finishes</li>
+                                            <li>â€¢ Simple joystick or button controls</li>
+                                            <li>â€¢ Custom installation for decks, porches, and paths</li>
+                                            <li>â€¢ Professional setup with local Home2Stay support</li>
+                                            <li>â€¢ Free consultation and quote available</li>
+                                            <li>â€¢ Ideal for seniors and anyone needing safe outdoor access</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -449,11 +449,11 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
                         would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Home2Stay Outdoor Stairlifts">
 
@@ -583,7 +583,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name" value="Home2Stay Outdoor Stairlifts">
 
@@ -824,21 +824,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

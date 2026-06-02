@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Home2stay VSL Curb-Sider Interior Lift - Home2stay')
 @section('meta_description', 'Bruno\'s dependable hoist-style lift for scooters and powerchairs, the Curb-Sider\'s space-efficient design lets you keep your third-row seating when a mobility device isn\'t present.')
@@ -513,7 +513,7 @@
                 <p class="text-lg text-center text-gray-600 mb-8">Fill out the form below and our team will get back to you
                     with detailed information and pricing.</p>
 
-                <form action="#" method="POST" class="bg-white rounded-xl p-6 md:p-8 shadow-md">
+                <form action="/submit-product-inquiry" method="POST" class="bg-white rounded-xl p-6 md:p-8 shadow-md">
                     @csrf
                     <input type="hidden" name="product" value="VSL Curb Sider Interior Lift 2">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
@@ -599,7 +599,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name"
                         value="Home2stay VSL Curb-Sider Interior Lift">
@@ -853,21 +853,25 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+
+

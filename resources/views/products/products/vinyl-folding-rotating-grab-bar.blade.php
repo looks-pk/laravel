@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Home2stay Vinyl Folding &amp; Rotating Grab Bar - Home2stay')
 @section('meta_description', 'Vinyl coating provides anti-microbial protection, superior grip, and feels warmer to the hands. Anti-microbial properties will reduce 99.9% of bacteria, [&hellip;]')
@@ -121,12 +121,12 @@
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Designed not to break and are backed up with the Ponte Giulio lifetime warranty – if it breaks, it will be replaced.
+                            Designed not to break and are backed up with the Ponte Giulio lifetime warranty â€“ if it breaks, it will be replaced.
                         </p>
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Comes in 3 lengths: 24″, 28″, 32″
+                            Comes in 3 lengths: 24â€³, 28â€³, 32â€³
                         </p>
                     </div>
                     <div class="mb-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
@@ -226,7 +226,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Lifetime Warranty</h3>
-                                            <p class="text-gray-600">Designed not to break and backed by the Ponte Giulio lifetime warranty – if it breaks, it will be replaced.</p>
+                                            <p class="text-gray-600">Designed not to break and backed by the Ponte Giulio lifetime warranty â€“ if it breaks, it will be replaced.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -238,7 +238,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Child Safety</h3>
-                                            <p class="text-gray-600">Safety first! Less than 4″ space between the bars, so a child's head cannot get stuck between them.</p>
+                                            <p class="text-gray-600">Safety first! Less than 4â€³ space between the bars, so a child's head cannot get stuck between them.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -250,7 +250,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Multiple Length Options</h3>
-                                            <p class="text-gray-600">Available in 3 convenient lengths: 24″, 28″, and 32″ to fit various bathroom configurations and needs.</p>
+                                            <p class="text-gray-600">Available in 3 convenient lengths: 24â€³, 28â€³, and 32â€³ to fit various bathroom configurations and needs.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -262,7 +262,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">High Load Capacity</h3>
-                                            <p class="text-gray-600">Strong weight capacity: 24″ and 28″ models support up to 330 lbs, while the 32″ model supports up to 220 lbs.</p>
+                                            <p class="text-gray-600">Strong weight capacity: 24â€³ and 28â€³ models support up to 330 lbs, while the 32â€³ model supports up to 220 lbs.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -277,15 +277,15 @@
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <div class="space-y-3">
                                             <div class="flex justify-between items-center border-b pb-2">
-                                                <span class="text-gray-700 font-medium">24″ Length (330 lbs capacity):</span>
+                                                <span class="text-gray-700 font-medium">24â€³ Length (330 lbs capacity):</span>
                                                 <span class="font-semibold text-primary">Contact for pricing</span>
                                             </div>
                                             <div class="flex justify-between items-center border-b pb-2">
-                                                <span class="text-gray-700 font-medium">28″ Length (330 lbs capacity):</span>
+                                                <span class="text-gray-700 font-medium">28â€³ Length (330 lbs capacity):</span>
                                                 <span class="font-semibold text-primary">Contact for pricing</span>
                                             </div>
                                             <div class="flex justify-between items-center border-b pb-2">
-                                                <span class="text-gray-700 font-medium">32″ Length (220 lbs capacity):</span>
+                                                <span class="text-gray-700 font-medium">32â€³ Length (220 lbs capacity):</span>
                                                 <span class="font-semibold text-primary">Contact for pricing</span>
                                             </div>
                                         </div>
@@ -330,15 +330,15 @@
                                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">24″ Weight Capacity:</span>
+                                                <span class="font-medium text-gray-700">24â€³ Weight Capacity:</span>
                                                 <span class="text-gray-600">330 lbs</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">28″ Weight Capacity:</span>
+                                                <span class="font-medium text-gray-700">28â€³ Weight Capacity:</span>
                                                 <span class="text-gray-600">330 lbs</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">32″ Weight Capacity:</span>
+                                                <span class="font-medium text-gray-700">32â€³ Weight Capacity:</span>
                                                 <span class="text-gray-600">220 lbs</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
@@ -353,7 +353,7 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Bar Spacing:</span>
-                                                <span class="text-gray-600">Less than 4″</span>
+                                                <span class="text-gray-600">Less than 4â€³</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Functionality:</span>
@@ -497,11 +497,11 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
                         would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Home2stay Vinyl Folding & Rotating Grab Bar">
 
@@ -535,15 +535,15 @@
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="length_preference" value="24_inch" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">24″ (330 lbs capacity)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">24â€³ (330 lbs capacity)</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="length_preference" value="28_inch" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">28″ (330 lbs capacity)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">28â€³ (330 lbs capacity)</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="length_preference" value="32_inch" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">32″ (220 lbs capacity)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">32â€³ (220 lbs capacity)</span>
                             </label>
                         </div>
                     </div>
@@ -635,7 +635,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name" value="Home2stay Vinyl Folding & Rotating Grab Bar">
 
@@ -657,15 +657,15 @@
                                     <label class="flex items-center">
                                         <input type="radio" name="length_preference" value="24_inch" class="mr-2"
                                             checked>
-                                        <span>24″ (330 lbs capacity)</span>
+                                        <span>24â€³ (330 lbs capacity)</span>
                                     </label>
                                     <label class="flex items-center">
                                         <input type="radio" name="length_preference" value="28_inch" class="mr-2">
-                                        <span>28″ (330 lbs capacity)</span>
+                                        <span>28â€³ (330 lbs capacity)</span>
                                     </label>
                                     <label class="flex items-center">
                                         <input type="radio" name="length_preference" value="32_inch" class="mr-2">
-                                        <span>32″ (220 lbs capacity)</span>
+                                        <span>32â€³ (220 lbs capacity)</span>
                                     </label>
                                 </div>
                             </div>
@@ -910,21 +910,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

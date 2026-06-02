@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Home2stay Stainless Steel Locking Support Grab Bar - Home2stay')
 @section('meta_description', 'Mount across the toilet for when someone needs help pulling themselves up from a seated position or lowering themselves onto [&hellip;]')
@@ -265,19 +265,19 @@
                                             <div class="space-y-3">
                                                 <h4 class="font-medium text-gray-700">Toilet Support:</h4>
                                                 <ul class="space-y-1 text-gray-600">
-                                                    <li>• Mount across toilet for transfer support</li>
-                                                    <li>• Help pulling up from seated position</li>
-                                                    <li>• Assistance lowering onto toilet</li>
-                                                    <li>• Support for users with mobility challenges</li>
+                                                    <li>â€¢ Mount across toilet for transfer support</li>
+                                                    <li>â€¢ Help pulling up from seated position</li>
+                                                    <li>â€¢ Assistance lowering onto toilet</li>
+                                                    <li>â€¢ Support for users with mobility challenges</li>
                                                 </ul>
                                             </div>
                                             <div class="space-y-3">
                                                 <h4 class="font-medium text-gray-700">Shower Support:</h4>
                                                 <ul class="space-y-1 text-gray-600">
-                                                    <li>• Balance and support in shower</li>
-                                                    <li>• Rust-resistant for wet environments</li>
-                                                    <li>• Folds away when not needed</li>
-                                                    <li>• Caregiver assistance support</li>
+                                                    <li>â€¢ Balance and support in shower</li>
+                                                    <li>â€¢ Rust-resistant for wet environments</li>
+                                                    <li>â€¢ Folds away when not needed</li>
+                                                    <li>â€¢ Caregiver assistance support</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -360,7 +360,7 @@
                                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                                     clip-rule="evenodd" />
                                             </svg>
-                                            <span>17.5″ wide and 12″ deep</span>
+                                            <span>17.5â€³ wide and 12â€³ deep</span>
                                         </li>
                                         <li class="flex items-start">
                                             <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
@@ -526,10 +526,10 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Home2stay Stainless Steel Locking Support Grab Bar">
                     
@@ -657,7 +657,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name"
                         value="Home2stay Stainless Steel Locking Support Grab Bar">
@@ -923,21 +923,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

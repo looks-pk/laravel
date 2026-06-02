@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Stair Lifts in Richmond, BC - Home2stay')
 @section('meta_description', 'Professional stair lifts in Richmond, BC. Custom-fitted stairlifts for home and business. Free consultation and expert installation. Call our dedicated team today!')
@@ -70,7 +70,7 @@
 <section class="py-16">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
-            Richmond Stair Lifts – Helping You Stay Comfortable at Home
+            Richmond Stair Lifts â€“ Helping You Stay Comfortable at Home
         </h2>
         <div class="max-w-4xl mx-auto prose prose-lg">
             <p class="text-lg text-gray-700 leading-relaxed mb-6">
@@ -264,15 +264,15 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>• Richmond (All Areas)</li>
-                                <li>• Lower Mainland</li>
-                                <li>• Vancouver & Surrey</li>
-                                <li>• Abbotsford & Coquitlam</li>
-                                <li>• Port Moody & Tri-Cities</li>
-                                <li>• Mission & Delta</li>
-                                <li>• Pitt Meadows & Burnaby</li>
-                                <li>• Chilliwack, White Rock, Aldergrove</li>
-                                <li>• Maple Ridge & Langley</li>
+                                <li>â€¢ Richmond (All Areas)</li>
+                                <li>â€¢ Lower Mainland</li>
+                                <li>â€¢ Vancouver & Surrey</li>
+                                <li>â€¢ Abbotsford & Coquitlam</li>
+                                <li>â€¢ Port Moody & Tri-Cities</li>
+                                <li>â€¢ Mission & Delta</li>
+                                <li>â€¢ Pitt Meadows & Burnaby</li>
+                                <li>â€¢ Chilliwack, White Rock, Aldergrove</li>
+                                <li>â€¢ Maple Ridge & Langley</li>
                             </ul>
                         </div>
                     </div>
@@ -282,7 +282,7 @@
             <!-- Quick Quote Form -->
             <div class="contact-card">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Get Your Free Quote</h3>
-                <form action="/submit-assessment" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                 @csrf
                 <input type="hidden" name="form_type" value="assessment">
                     <input type="hidden" name="form_source" value="area-richmond_page_assessment_form">
@@ -795,15 +795,22 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Basic validation
             if (!data.first_name || !data.last_name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
             
-            // Here you would typically send the data to your server
-            alert('Thank you for your quote request! Our Richmond team will contact you within 24 hours.');
-            
-            // Reset form
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 
@@ -844,3 +851,4 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 @endpush
+

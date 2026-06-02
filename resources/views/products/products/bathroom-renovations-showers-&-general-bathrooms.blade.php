@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Bathroom Renovations & Showers - Home2Stay')
 @section('meta_description', 'Professional bathroom renovations and shower installations by Home2Stay. Expert design, premium materials, and skilled installation. Transform your bathroom into a beautiful, functional space.')
@@ -239,19 +239,19 @@
                                             <div class="space-y-3">
                                                 <h4 class="font-medium text-gray-700">Bathroom Types:</h4>
                                                 <ul class="space-y-1 text-gray-600">
-                                                    <li>• Master ensuites</li>
-                                                    <li>• Guest bathrooms</li>
-                                                    <li>• Powder rooms</li>
-                                                    <li>• Compact or small bathrooms</li>
+                                                    <li>â€¢ Master ensuites</li>
+                                                    <li>â€¢ Guest bathrooms</li>
+                                                    <li>â€¢ Powder rooms</li>
+                                                    <li>â€¢ Compact or small bathrooms</li>
                                                 </ul>
                                             </div>
                                             <div class="space-y-3">
                                                 <h4 class="font-medium text-gray-700">Services Available:</h4>
                                                 <ul class="space-y-1 text-gray-600">
-                                                    <li>• Accessible showers</li>
-                                                    <li>• Shower upgrades & renovations</li>
-                                                    <li>• Tub to shower conversions</li>
-                                                    <li>• General bathroom renovations</li>
+                                                    <li>â€¢ Accessible showers</li>
+                                                    <li>â€¢ Shower upgrades & renovations</li>
+                                                    <li>â€¢ Tub to shower conversions</li>
+                                                    <li>â€¢ General bathroom renovations</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -534,10 +534,10 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Bathroom Renovations & Showers">
                     
@@ -650,7 +650,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name"
                         value="Bathroom Renovations & Showers - General Bathrooms">
@@ -901,21 +901,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

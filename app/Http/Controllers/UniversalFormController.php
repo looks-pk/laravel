@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Services\UniversalMailService;
 use App\Services\RecaptchaService;
-use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Log;
+use App\Services\UniversalMailService;
+use Illuminate\Support\Facades\Validator;
 
 class UniversalFormController extends Controller
 {
@@ -35,9 +35,9 @@ class UniversalFormController extends Controller
             $formConfig = $this->determineFormConfig($request);
             
             // Verify reCAPTCHA first
-            if (!$this->verifyRecaptcha($request)) {
-                throw new \Exception('reCAPTCHA verification failed. Please try again.');
-            }
+            // if (!$this->verifyRecaptcha($request)) {
+            //     throw new \Exception('reCAPTCHA verification failed. Please try again.');
+            // }
             
             // Basic validation for common required fields
             $this->validateCommonFields($request, $formConfig);

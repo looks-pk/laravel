@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Grab Bar Installation North Vancouver | Home2Stay Experts')
 @section('meta_description', 'Professional grab bar installation & replacement in North Vancouver. Our licensed experts install bathtub, vertical, horizontal & folding bars for safety & independence. Free consultation.')
@@ -48,7 +48,7 @@
                 </h2>
                 <div class="prose prose-lg max-w-none">
                     <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                    We’re providing expert services for grab bar installation in North Vancouver. Our crew has vast experience in grab bar installation. </p>
+                    Weâ€™re providing expert services for grab bar installation in North Vancouver. Our crew has vast experience in grab bar installation. </p>
                     
                 </div>
             </div>
@@ -67,7 +67,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Bathtub Mounted</h3>
                 <p class="text-gray-600">
-                Our bathtub-mounted grab bars in North Vancouver are designed for everyone who finds getting in and out of the tub challenging. If you call our experts, we’ll install the grab bars for better and reliable support. Our expert crew members set them in the right and accurate place, so you don’t need to stretch or twist. We take all these steps for your safety and comfort without changing your bathroom design. 
+                Our bathtub-mounted grab bars in North Vancouver are designed for everyone who finds getting in and out of the tub challenging. If you call our experts, weâ€™ll install the grab bars for better and reliable support. Our expert crew members set them in the right and accurate place, so you donâ€™t need to stretch or twist. We take all these steps for your safety and comfort without changing your bathroom design. 
                 </p>
             </div>
 
@@ -80,7 +80,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Free Standing</h3>
                 <p class="text-gray-600">
-                For those who want mobility without drilling, the Home2 Stay Free-Standing Grab Bars North Vancouver are the best solution. If you’re staying in a rented home, or when walls can’t be drilled. We’ll guide you to choose a rigid, stylish model that fits your space and your needs. If you don’t need these bars, you can remove them easily.</p>
+                For those who want mobility without drilling, the Home2 Stay Free-Standing Grab Bars North Vancouver are the best solution. If youâ€™re staying in a rented home, or when walls canâ€™t be drilled. Weâ€™ll guide you to choose a rigid, stylish model that fits your space and your needs. If you donâ€™t need these bars, you can remove them easily.</p>
             </div>
 
             <div class="service-card p-8 text-center">
@@ -117,7 +117,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Suction</h3>
                 <p class="text-gray-600">
-                For those who want mobility without drilling, the Home2 Stay Free-Standing Grab Bars North Vancouver are the best solution. If you’re staying in a rented home, or when walls can’t be drilled. We’ll guide you to choose a rigid, stylish model that fits your space and your needs. If you don’t need these bars, you can remove them easily.Why are you looking for a temporary solution? Our suction grab bars in North Vancouver are perfect for short-term support, ideal for recovery after surgery or for visitors. These are easy to reposition and remove, and we only use high-quality models for safety.
+                For those who want mobility without drilling, the Home2 Stay Free-Standing Grab Bars North Vancouver are the best solution. If youâ€™re staying in a rented home, or when walls canâ€™t be drilled. Weâ€™ll guide you to choose a rigid, stylish model that fits your space and your needs. If you donâ€™t need these bars, you can remove them easily.Why are you looking for a temporary solution? Our suction grab bars in North Vancouver are perfect for short-term support, ideal for recovery after surgery or for visitors. These are easy to reposition and remove, and we only use high-quality models for safety.
                 </p>
             </div>
 
@@ -129,7 +129,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Diagonal</h3>
                 <p class="text-gray-600">
-                Our diagonal grab bars in North Vancouver offer both vertical and horizontal support in one. Great for users with arthritis or limited hand strength, this type follows your natural hand movement. We make sure it’s angled just right, for balance, ease, and less strain on the wrist.
+                Our diagonal grab bars in North Vancouver offer both vertical and horizontal support in one. Great for users with arthritis or limited hand strength, this type follows your natural hand movement. We make sure itâ€™s angled just right, for balance, ease, and less strain on the wrist.
                 </p>
             </div>
             <div class="service-card p-8 text-center">
@@ -140,7 +140,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Folding</h3>
                 <p class="text-gray-600">
-                Need a support bar that tucks away when not in use? Our folding grab bars in North Vancouver are smart, space-saving, and strong. These are perfect in tight bathrooms or multi-user spaces where others don’t need a grab bar. We’ll install one that folds smoothly, quietly, and stays locked when in use.
+                Need a support bar that tucks away when not in use? Our folding grab bars in North Vancouver are smart, space-saving, and strong. These are perfect in tight bathrooms or multi-user spaces where others donâ€™t need a grab bar. Weâ€™ll install one that folds smoothly, quietly, and stays locked when in use.
 
                 </p>
             </div>
@@ -160,7 +160,7 @@
             We care about your safety. Our team is trained, licensed, and experienced. We know how important it is to feel secure at home, and we treat every home as if it were our own. We only use top-quality bars, tested for strength and style.
             </p>
             <p class="text-gray-600 leading-relaxed mb-6">
-            We install them in the best places, not just where they fit. We don’t cut corners. From the first phone call to final inspection, you get personalised service, real support, and peace of mind.
+            We install them in the best places, not just where they fit. We donâ€™t cut corners. From the first phone call to final inspection, you get personalised service, real support, and peace of mind.
             </p>
         </div>
       </div>
@@ -171,11 +171,11 @@
           </h2>
           <div class="max-w-4xl mx-auto prose prose-lg">
               <p class="text-lg text-gray-700 leading-relaxed mb-6">
-              We’ve worked in hundreds of homes across North Vancouver. Families call us back because they trust our work. We show up on time, explain everything, and never leave a mess. Our pricing is clear, our materials are strong, and our work is guaranteed.
+              Weâ€™ve worked in hundreds of homes across North Vancouver. Families call us back because they trust our work. We show up on time, explain everything, and never leave a mess. Our pricing is clear, our materials are strong, and our work is guaranteed.
   
               </p>
               <p class="text-lg text-gray-700 leading-relaxed mb-6">
-              When it comes to grab bar installation in North Vancouver, we’re your go-to team for a reason. Our goal is simple: help you or your loved ones stay safe, independent, and confident in your home.
+              When it comes to grab bar installation in North Vancouver, weâ€™re your go-to team for a reason. Our goal is simple: help you or your loved ones stay safe, independent, and confident in your home.
   
               </p>
           </div>
@@ -292,12 +292,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>• Burnaby (All Areas)</li>
-                                <li>• Vancouver & New Westminster</li>
-                                <li>• Coquitlam & Port Moody</li>
-                                <li>• Richmond & Surrey</li>
-                                <li>• North Vancouver & West Vancouver</li>
-                                <li>• Tri-Cities & Langley</li>
+                                <li>â€¢ Burnaby (All Areas)</li>
+                                <li>â€¢ Vancouver & New Westminster</li>
+                                <li>â€¢ Coquitlam & Port Moody</li>
+                                <li>â€¢ Richmond & Surrey</li>
+                                <li>â€¢ North Vancouver & West Vancouver</li>
+                                <li>â€¢ Tri-Cities & Langley</li>
                             </ul>
                         </div>
                     </div>
@@ -307,7 +307,7 @@
             <!-- Quick Quote Form -->
             <div class="contact-card">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Get Your Free Quote</h3>
-                <form action="/submit-assessment" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                 @csrf
                     <input type="hidden" name="form_type" value="assessment">
                     <input type="hidden" name="form_source" value="area-burnaby_page_assessment_form">
@@ -386,7 +386,7 @@
             Seniors deserve to feel safe in every part of their home. Our grab bar installation for seniors in North Vancouver is one of the most requested services we offer. Bathrooms can be risky, especially with wet floors and high tubs. A small slip can cause big problems.
             </p>
             <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">
-            That’s why we work closely with seniors and their families to find the perfect grab bar. We look at routine, mobility, and bathroom layout before recommending anything. You don’t need to worry about what to choose or how to install it; we handle everything with care and patience. We also help with other safety features, including shower grab bars, toilet grab bars, and custom placements to suit personal needs.
+            Thatâ€™s why we work closely with seniors and their families to find the perfect grab bar. We look at routine, mobility, and bathroom layout before recommending anything. You donâ€™t need to worry about what to choose or how to install it; we handle everything with care and patience. We also help with other safety features, including shower grab bars, toilet grab bars, and custom placements to suit personal needs.
         </p>
         </div>
 
@@ -425,7 +425,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                    If your grab bar feels loose, rusty, or outdated, it’s time for a replacement. We offer full grab bar replacement in North Vancouver, from removal to installation of new, stronger bars.
+                    If your grab bar feels loose, rusty, or outdated, itâ€™s time for a replacement. We offer full grab bar replacement in North Vancouver, from removal to installation of new, stronger bars.
 
                     </div>
                 </div>
@@ -456,7 +456,7 @@
             Get In Touch
         </h2>
         <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-        Ready to make your home safer? Don’t wait until there’s an accident. Call Home2stay today for expert grab bar installation that North Vancouver residents trust.</p>
+        Ready to make your home safer? Donâ€™t wait until thereâ€™s an accident. Call Home2stay today for expert grab bar installation that North Vancouver residents trust.</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:604-259-1211" class="btn-secondary text-lg px-8 py-4">
                 Call (604) 259-1211
@@ -492,15 +492,22 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Basic validation
             if (!data.first_name || !data.last_name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
             
-            // Here you would typically send the data to your server
-            alert('Thank you for your quote request! Our Burnaby team will contact you within 24 hours.');
-            
-            // Reset form
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 
@@ -709,7 +716,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 productInfoForm.addEventListener('submit', function(e) {
                     e.preventDefault(); // Prevent normal form submission to avoid quick refresh
                     
-                    console.log('🚀 Product form submission detected!');
+                    console.log('ðŸš€ Product form submission detected!');
                     console.log('Form action:', this.action);
                     console.log('Form method:', this.method);
                     
@@ -727,18 +734,18 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                     
                     if (!allValid) {
-                        console.log('❌ Form validation failed');
+                        console.log('âŒ Form validation failed');
                         alert('Please fill in all required fields (First Name, Last Name, Email, Phone)');
                         return false;
                     }
                     
-                    console.log('✅ Form validation passed, submitting via AJAX...');
+                    console.log('âœ… Form validation passed, submitting via AJAX...');
                     
                     // Submit form via AJAX
                     const formData = new FormData(this);
                     
                     // Debug: Log all form data
-                    console.log('📋 Form data being sent:');
+                    console.log('ðŸ“‹ Form data being sent:');
                     for (let [key, value] of formData.entries()) {
                         console.log(`  ${key}: ${value}`);
                     }
@@ -752,39 +759,41 @@ document.addEventListener('DOMContentLoaded', function() {
                         }
                     })
                     .then(response => {
-                        console.log('📡 Server response status:', response.status);
+                        console.log('ðŸ“¡ Server response status:', response.status);
                         return response.json().catch(() => response.text());
                     })
                     .then(data => {
-                        console.log('✅ Server response received');
-                        console.log('📄 Response data:', data);
+                        console.log('âœ… Server response received');
+                        console.log('ðŸ“„ Response data:', data);
                         
                         // Check if it's JSON response
                         if (typeof data === 'object' && data.success !== undefined) {
                             if (data.success) {
-                                alert(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                                showFlash(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                                 
                                 // Reset form and close modal
                                 this.reset();
                                 modal.classList.add('hidden');
                                 document.body.style.overflow = 'auto';
                             } else {
-                                alert('Error: ' + (data.message || 'There was an error submitting your request.'));
+                                showFlash('Error: ' + (data.message || 'There was an error submitting your request.'), 'error');
                             }
                         } else {
                             // Fallback for HTML response (shouldn't happen now)
-                            alert('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                            showFlash('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                             this.reset();
                             modal.classList.add('hidden');
                             document.body.style.overflow = 'auto';
                         }
                     })
                     .catch(error => {
-                        console.error('❌ Error submitting form:', error);
-                        alert('There was an error submitting your request. Please try again or contact us directly.');
+                        console.error('âŒ Error submitting form:', error);
+                        showFlash('There was an error submitting your request. Please try again or contact us directly.', 'error');
                     });
                 });
             }
         });
     </script>
 @endpush
+
+

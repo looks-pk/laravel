@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Professional Ramps in Coquitlam | Home2stay')
 @section('meta_description', 'Professional ramps in Coquitlam, BC. Home2stay offers custom wheelchair ramps, installation, and accessibility solutions. Free consultation available.')
@@ -47,7 +47,7 @@
                 </h2>
                 <div class="prose prose-lg max-w-none">
                     <ul style="list-style-type: disc; padding-left: 20px;" class="text-gray-700">
-                        <li>We are a local company servicing Coquitlam and the surrounding Tri‑Cities area, so you get quick, friendly service.</li>
+                        <li>We are a local company servicing Coquitlam and the surrounding Triâ€‘Cities area, so you get quick, friendly service.</li>
                         <li>We offer full service: ramps dealers in Coquitlam, BC AND installation, customization, and support.</li>
                         <li>Our team works with you to assess, design, and deliver the exact ramp you need, with minimum interruption.</li>
                         <li>You won't just get a product; you get a fully installed solution that's sturdy, safe and built to last.</li>
@@ -114,7 +114,7 @@
             <ul style="list-style-type: disc; padding-left: 20px;" class="text-gray-700">
                 <li>You increase accessibility for everyone: guests, family members, friends, or customers with mobility needs.</li>
                 <li>A ramp improves safety: less risk of trips or falls compared to stairs, especially in wet weather.</li>
-                <li>You enhance your property value: A well‑installed ramp is a sign of smart design and inclusive living.</li>
+                <li>You enhance your property value: A wellâ€‘installed ramp is a sign of smart design and inclusive living.</li>
                 <li>You comply with potential local accessibility regulations if your building supports public use.</li>
                 <li>With us, you get a fully professional ramp solution in Coquitlam, not a DIY compromise.</li>
             </ul>
@@ -131,7 +131,7 @@
         <div class="max-w-4xl mx-auto prose prose-lg">
             <ul style="list-style-type: disc; padding-left: 20px;" class="text-gray-700">
                 <li><strong>Focused On:</strong> We focus on Professional Ramps in Coquitlam, not just random accessibility gear.</li>
-                <li><strong>We're local:</strong> you deal with a Coquitlam‑based team who knows the terrain, weather, and community.</li>
+                <li><strong>We're local:</strong> you deal with a Coquitlamâ€‘based team who knows the terrain, weather, and community.</li>
                 <li><strong>Delivery:</strong> We deliver full service from selection through installation and beyond.</li>
                 <li><strong>We back our work:</strong> you get peace of mind that your ramp is done the right way.</li>
                 <li><strong>We customise:</strong> we don't force you into one size fits all. We plan for your specific steps, doorways and usage.</li>
@@ -716,9 +716,9 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>• Coquitlam (All Areas)</li>
-                                <li>• Surrounding Tri-Cities Area</li>
-                                <li>• Throughout Metro Vancouver</li>
+                                <li>â€¢ Coquitlam (All Areas)</li>
+                                <li>â€¢ Surrounding Tri-Cities Area</li>
+                                <li>â€¢ Throughout Metro Vancouver</li>
                             </ul>
                         </div>
                     </div>
@@ -728,7 +728,7 @@
             <!-- Quick Quote Form -->
             <div class="contact-card">
                 <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center">Get Your Free Quote</h2>
-                <form action="/submit-assessment" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                 @csrf
                     <input type="hidden" name="form_type" value="assessment">
                     <input type="hidden" name="form_source" value="area-coquitlam_page_assessment_form">
@@ -854,7 +854,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        We use quality materials like aluminium framing, anti‑slip surfaces, guard‑rails, and weather‑proof hardware suitable for Coquitlam's climate.
+                        We use quality materials like aluminium framing, antiâ€‘slip surfaces, guardâ€‘rails, and weatherâ€‘proof hardware suitable for Coquitlam's climate.
                     </div>
                 </div>
             </div>
@@ -869,7 +869,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        We serve both residential and commercial clients as ramp dealers in Coquitlam, BC. We handle heavy‑duty uses, wider ramps, high‑traffic entrances, and compliance requirements.
+                        We serve both residential and commercial clients as ramp dealers in Coquitlam, BC. We handle heavyâ€‘duty uses, wider ramps, highâ€‘traffic entrances, and compliance requirements.
                     </div>
                 </div>
             </div>
@@ -884,7 +884,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        Yes. We provide a free on‑site assessment and quotation so you know the cost upfront, no hidden surprises.
+                        Yes. We provide a free onâ€‘site assessment and quotation so you know the cost upfront, no hidden surprises.
                     </div>
                 </div>
             </div>
@@ -951,15 +951,22 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Basic validation
             if (!data.first_name || !data.last_name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
             
-            // Here you would typically send the data to your server
-            alert('Thank you for your quote request! Our Coquitlam team will contact you within 24 hours.');
-            
-            // Reset form
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 
@@ -1168,7 +1175,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 productInfoForm.addEventListener('submit', function(e) {
                     e.preventDefault(); // Prevent normal form submission to avoid quick refresh
                     
-                    console.log('🚀 Product form submission detected!');
+                    console.log('ðŸš€ Product form submission detected!');
                     console.log('Form action:', this.action);
                     console.log('Form method:', this.method);
                     
@@ -1186,18 +1193,18 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                     
                     if (!allValid) {
-                        console.log('❌ Form validation failed');
+                        console.log('âŒ Form validation failed');
                         alert('Please fill in all required fields (First Name, Last Name, Email, Phone)');
                         return false;
                     }
                     
-                    console.log('✅ Form validation passed, submitting via AJAX...');
+                    console.log('âœ… Form validation passed, submitting via AJAX...');
                     
                     // Submit form via AJAX
                     const formData = new FormData(this);
                     
                     // Debug: Log all form data
-                    console.log('📋 Form data being sent:');
+                    console.log('ðŸ“‹ Form data being sent:');
                     for (let [key, value] of formData.entries()) {
                         console.log(`  ${key}: ${value}`);
                     }
@@ -1211,39 +1218,41 @@ document.addEventListener('DOMContentLoaded', function() {
                         }
                     })
                     .then(response => {
-                        console.log('📡 Server response status:', response.status);
+                        console.log('ðŸ“¡ Server response status:', response.status);
                         return response.json().catch(() => response.text());
                     })
                     .then(data => {
-                        console.log('✅ Server response received');
-                        console.log('📄 Response data:', data);
+                        console.log('âœ… Server response received');
+                        console.log('ðŸ“„ Response data:', data);
                         
                         // Check if it's JSON response
                         if (typeof data === 'object' && data.success !== undefined) {
                             if (data.success) {
-                                alert(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                                showFlash(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                                 
                                 // Reset form and close modal
                                 this.reset();
                                 modal.classList.add('hidden');
                                 document.body.style.overflow = 'auto';
                             } else {
-                                alert('Error: ' + (data.message || 'There was an error submitting your request.'));
+                                showFlash('Error: ' + (data.message || 'There was an error submitting your request.'), 'error');
                             }
                         } else {
                             // Fallback for HTML response (shouldn't happen now)
-                            alert('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                            showFlash('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                             this.reset();
                             modal.classList.add('hidden');
                             document.body.style.overflow = 'auto';
                         }
                     })
                     .catch(error => {
-                        console.error('❌ Error submitting form:', error);
-                        alert('There was an error submitting your request. Please try again or contact us directly.');
+                        console.error('âŒ Error submitting form:', error);
+                        showFlash('There was an error submitting your request. Please try again or contact us directly.', 'error');
                     });
                 });
             }
         });
     </script>
 @endpush
+
+

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Grab Bar Installation Richmond, BC | Home2Stay')
 @section('meta_description', 'Professional grab bar installation & replacement in Richmond, BC. Trusted grab bar services with expert installation, safety solutions & accessible designs for homes and facilities.')
@@ -81,7 +81,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Free Standing</h3>
                 <p class="text-gray-600">
-                When drilling into walls isn't possible or preferred, free-standing grab bars offer strong support. These may include vertical poles or floor‑to‑ceiling poles. Ideal for showers, tubs, or beside beds. We ensure base plates are secure, and floor penetration is sealed.
+                When drilling into walls isn't possible or preferred, free-standing grab bars offer strong support. These may include vertical poles or floorâ€‘toâ€‘ceiling poles. Ideal for showers, tubs, or beside beds. We ensure base plates are secure, and floor penetration is sealed.
 
                 </p>
             </div>
@@ -105,7 +105,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Vertical</h3>
-                <p class="text-gray-600">Use a vertical grab bar for pull‑up support or stabilising when standing. These go near entrances to showers or beside toilets. Helps reduce slips and fall risk.
+                <p class="text-gray-600">Use a vertical grab bar for pullâ€‘up support or stabilising when standing. These go near entrances to showers or beside toilets. Helps reduce slips and fall risk.
 
                 </p>
             </div>
@@ -130,7 +130,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Diagonal</h3>
-                <p class="text-gray-600">A diagonal bar gives more options. Great for people who shift between seated and standing. Helps with leverage. We custom‑measure and install at precise angles to balance strength and comfort.
+                <p class="text-gray-600">A diagonal bar gives more options. Great for people who shift between seated and standing. Helps with leverage. We customâ€‘measure and install at precise angles to balance strength and comfort.
 
                 </p>
             </div>
@@ -156,7 +156,7 @@
         </h2>
         <div class="max-w-4xl mx-auto prose prose-lg">
             <p class="text-lg text-gray-700 leading-relaxed mb-6">
-            Already have grab bars? Maybe they are loose, rusted, failing, or don't meet current load-bearing requirements. We offer grab bar replacement service. We remove old fixtures. We inspect the wall structure. If the backing is weak, we reinforce. Then install upgraded bars with improved grip, rust‑proof bolts, and finishes.
+            Already have grab bars? Maybe they are loose, rusted, failing, or don't meet current load-bearing requirements. We offer grab bar replacement service. We remove old fixtures. We inspect the wall structure. If the backing is weak, we reinforce. Then install upgraded bars with improved grip, rustâ€‘proof bolts, and finishes.
 
 
             </p>
@@ -282,12 +282,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>• Richmond (All Areas)</li>
-                                <li>• Vancouver & Burnaby</li>
-                                <li>• Surrey & New Westminster</li>
-                                <li>• North Vancouver & West Vancouver</li>
-                                <li>• Coquitlam & Port Moody</li>
-                                <li>• Langley & Delta</li>
+                                <li>â€¢ Richmond (All Areas)</li>
+                                <li>â€¢ Vancouver & Burnaby</li>
+                                <li>â€¢ Surrey & New Westminster</li>
+                                <li>â€¢ North Vancouver & West Vancouver</li>
+                                <li>â€¢ Coquitlam & Port Moody</li>
+                                <li>â€¢ Langley & Delta</li>
                             </ul>
                         </div>
                     </div>
@@ -297,7 +297,7 @@
             <!-- Quick Quote Form -->
             <div class="contact-card">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Get Your Free Quote</h3>
-                <form action="/submit-assessment" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                 @csrf
                     <input type="hidden" name="form_type" value="assessment">
                     <input type="hidden" name="form_source" value="area-richmond_page_assessment_form">
@@ -374,29 +374,29 @@
         <div class="max-w-4xl mx-auto mb-12">
             <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 pl-5 md:pl-10">
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>Skilled, Local Experts: We know Richmond homes. We know tile, drywall, concrete, and stucco.</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>Compliant with Building Codes: We follow the BC Building Code and accessibility rules.
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
-                    <span>Premium Materials: We use bars that are rust‑resistant, durable. Steel, stainless steel, corrosion-resistant coatings.</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span>Premium Materials: We use bars that are rustâ€‘resistant, durable. Steel, stainless steel, corrosion-resistant coatings.</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>Clear Pricing: We give you a quote that includes labour, bar cost, any reinforcement and finishing.
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>Fast Response and Reliable: We schedule free assessments, get work done quickly.</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>Warranty & Guarantee: We stand behind our work. If the bar loosens or fails under normal use, we fix it.
                     </span>
                 </li>
@@ -442,7 +442,7 @@
         </h3>
         <div class="max-w-4xl mx-auto mb-12">
             <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center mt-4">
-            That spot needs precision. We take these steps: Measure from floor to where hand needs it. usually, 750‑850 mm (≈ 30‑34 in) for horizontal bars. Vertical or L‑shaped bars get placed 150 mm (≈ 6 in) in front of the toilet wall for grip. Reinforce behind the wall or use appropriate anchors.</p>
+            That spot needs precision. We take these steps: Measure from floor to where hand needs it. usually, 750â€‘850 mm (â‰ˆ 30â€‘34 in) for horizontal bars. Vertical or Lâ€‘shaped bars get placed 150 mm (â‰ˆ 6 in) in front of the toilet wall for grip. Reinforce behind the wall or use appropriate anchors.</p>
         </div>
 
     </div>
@@ -486,7 +486,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        For one simple grab bar in drywall or tile, usually 1‑2 hours. If there are multiple bars or tough surfaces, a few more hours.
+                        For one simple grab bar in drywall or tile, usually 1â€‘2 hours. If there are multiple bars or tough surfaces, a few more hours.
                     </div>
                 </div>
             </div>
@@ -531,7 +531,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        Yes. Style affects comfort, grip, and aesthetics. Finishes like stainless steel, satin, matte black. Grip‑friendly texture. Also, bar diameter, clearance from the wall affect comfort.
+                        Yes. Style affects comfort, grip, and aesthetics. Finishes like stainless steel, satin, matte black. Gripâ€‘friendly texture. Also, bar diameter, clearance from the wall affect comfort.
                     </div>
                 </div>
             </div>
@@ -583,15 +583,22 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Basic validation
             if (!data.first_name || !data.last_name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
             
-            // Here you would typically send the data to your server
-            alert('Thank you for your quote request! Our Richmond team will contact you within 24 hours.');
-            
-            // Reset form
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 
@@ -800,7 +807,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 productInfoForm.addEventListener('submit', function(e) {
                     e.preventDefault(); // Prevent normal form submission to avoid quick refresh
                     
-                    console.log('🚀 Product form submission detected!');
+                    console.log('ðŸš€ Product form submission detected!');
                     console.log('Form action:', this.action);
                     console.log('Form method:', this.method);
                     
@@ -818,18 +825,18 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                     
                     if (!allValid) {
-                        console.log('❌ Form validation failed');
+                        console.log('âŒ Form validation failed');
                         alert('Please fill in all required fields (First Name, Last Name, Email, Phone)');
                         return false;
                     }
                     
-                    console.log('✅ Form validation passed, submitting via AJAX...');
+                    console.log('âœ… Form validation passed, submitting via AJAX...');
                     
                     // Submit form via AJAX
                     const formData = new FormData(this);
                     
                     // Debug: Log all form data
-                    console.log('📋 Form data being sent:');
+                    console.log('ðŸ“‹ Form data being sent:');
                     for (let [key, value] of formData.entries()) {
                         console.log(`  ${key}: ${value}`);
                     }
@@ -843,39 +850,41 @@ document.addEventListener('DOMContentLoaded', function() {
                         }
                     })
                     .then(response => {
-                        console.log('📡 Server response status:', response.status);
+                        console.log('ðŸ“¡ Server response status:', response.status);
                         return response.json().catch(() => response.text());
                     })
                     .then(data => {
-                        console.log('✅ Server response received');
-                        console.log('📄 Response data:', data);
+                        console.log('âœ… Server response received');
+                        console.log('ðŸ“„ Response data:', data);
                         
                         // Check if it's JSON response
                         if (typeof data === 'object' && data.success !== undefined) {
                             if (data.success) {
-                                alert(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                                showFlash(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                                 
                                 // Reset form and close modal
                                 this.reset();
                                 modal.classList.add('hidden');
                                 document.body.style.overflow = 'auto';
                             } else {
-                                alert('Error: ' + (data.message || 'There was an error submitting your request.'));
+                                showFlash('Error: ' + (data.message || 'There was an error submitting your request.'), 'error');
                             }
                         } else {
                             // Fallback for HTML response (shouldn't happen now)
-                            alert('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                            showFlash('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                             this.reset();
                             modal.classList.add('hidden');
                             document.body.style.overflow = 'auto';
                         }
                     })
                     .catch(error => {
-                        console.error('❌ Error submitting form:', error);
-                        alert('There was an error submitting your request. Please try again or contact us directly.');
+                        console.error('âŒ Error submitting form:', error);
+                        showFlash('There was an error submitting your request. Please try again or contact us directly.', 'error');
                     });
                 });
             }
         });
     </script>
 @endpush
+
+

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Folding & Rolling Ramps - Home2Stay')
 @section('meta_description', 'Folding & Rolling Ramps by Home2Stay - lightweight, portable, compact ramps for easy accessibility. Premium construction with anti-slip surface. Perfect for home, travel, and mobility support.')
@@ -335,12 +335,12 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Perfect For</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>• Home access over steps or restraints</li>
-                                            <li>• Vehicle entry and exit</li>
-                                            <li>• Temporary setups for events or travel</li>
-                                            <li>• Rentals, caregivers, and mobility support</li>
-                                            <li>• Wheelchairs, scooters, walkers, and more</li>
-                                            <li>• Anyone seeking independence & accessibility</li>
+                                            <li>â€¢ Home access over steps or restraints</li>
+                                            <li>â€¢ Vehicle entry and exit</li>
+                                            <li>â€¢ Temporary setups for events or travel</li>
+                                            <li>â€¢ Rentals, caregivers, and mobility support</li>
+                                            <li>â€¢ Wheelchairs, scooters, walkers, and more</li>
+                                            <li>â€¢ Anyone seeking independence & accessibility</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -472,11 +472,11 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
                         would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Folding & Rolling Ramps">
 
@@ -606,7 +606,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name" value="Folding & Rolling Ramps">
 
@@ -847,21 +847,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

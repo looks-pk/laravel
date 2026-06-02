@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Grab Bar Installation Delta, BC | Home2Stay')
 @section('meta_description', 'Professional grab bar installation & replacement in Delta, BC. Certified experts install secure bathtub, shower & toilet bars for senior safety & mobility. Free in-home assessment.')
@@ -15,7 +15,7 @@
             <h1 class="text-4xl md:text-6xl font-bold mb-6">
             Grab Bars in Delta, BC
             </h1>
-            <p class="text-xl md:text-1xl mb-8 opacity-90 max-w-xl mx-auto">Are you looking for a professional grab bar installation in Delta, BC? No matter who you are, you’re in the right place, whether it’s for a loved one aging at home, someone recovering from surgery, or to boost bathroom safety. Home2stay provides trusted, affordable, and expertly installed grab bars. We‘re experts in helping homeowners and caregivers feel confident about mobility support, right where it’s needed most. Check out our service offerings to find the right solution for your space. 
+            <p class="text-xl md:text-1xl mb-8 opacity-90 max-w-xl mx-auto">Are you looking for a professional grab bar installation in Delta, BC? No matter who you are, youâ€™re in the right place, whether itâ€™s for a loved one aging at home, someone recovering from surgery, or to boost bathroom safety. Home2stay provides trusted, affordable, and expertly installed grab bars. Weâ€˜re experts in helping homeowners and caregivers feel confident about mobility support, right where itâ€™s needed most. Check out our service offerings to find the right solution for your space. 
 
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
@@ -46,7 +46,7 @@
                 </h2>
                 <div class="prose prose-lg max-w-none">
                     <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                    We’re not just installers, we’re certified safety professionals. Home2stay knows that every household is unique. That’s why we offer an extensive variety of grab bar types, finishes, and placements customized to meet your specific needs. From modern aesthetic to heavy-duty performance, we provide grab bars that blend smoothly with your home, without compromising safety. 
+                    Weâ€™re not just installers, weâ€™re certified safety professionals. Home2stay knows that every household is unique. Thatâ€™s why we offer an extensive variety of grab bar types, finishes, and placements customized to meet your specific needs. From modern aesthetic to heavy-duty performance, we provide grab bars that blend smoothly with your home, without compromising safety. 
 
                 </p>
                     
@@ -81,7 +81,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Free Standing</h3>
                 <p class="text-gray-600">
-                Free-standing grab bars are great for portable use, especially in rental units or for temporary needs. Our expert team ensures these units are properly positioned for daily use while minimising obstruction. They’re stable, discreet, and require no permanent drilling. 
+                Free-standing grab bars are great for portable use, especially in rental units or for temporary needs. Our expert team ensures these units are properly positioned for daily use while minimising obstruction. Theyâ€™re stable, discreet, and require no permanent drilling. 
 
                 </p>
             </div>
@@ -156,7 +156,7 @@
         </h2>
         <div class="max-w-4xl mx-auto prose prose-lg">
             <p class="text-lg text-gray-700 leading-relaxed mb-6">
-            Already have outdated grab bars or no longer meet your safety needs? We manage grab bar replacements in Delta with precision and care. Whether it’s a rusted bar, a loose fitting,  or simply a style upgrade. Our team ensures your replacement is not just functional but reliable for long-term use. We’ll also inspect your walls and mounting surfaces to make sure they’re ready for secure installation.
+            Already have outdated grab bars or no longer meet your safety needs? We manage grab bar replacements in Delta with precision and care. Whether itâ€™s a rusted bar, a loose fitting,  or simply a style upgrade. Our team ensures your replacement is not just functional but reliable for long-term use. Weâ€™ll also inspect your walls and mounting surfaces to make sure theyâ€™re ready for secure installation.
 
 
             </p>
@@ -170,7 +170,7 @@
           </h2>
           <div class="max-w-4xl mx-auto prose prose-lg">
               <p class="text-lg text-gray-700 leading-relaxed mb-6">
-              We work with homeowners across the Delta, BC, to install residential grab bars customized to everyday needs. If you're retrofitting an existing home or building new, our team will assess your space, listen to your needs, and suggest grab bars that improve safety without compromising aesthetics. From single family home to condos to townhomes, we’re here with our experts. 
+              We work with homeowners across the Delta, BC, to install residential grab bars customized to everyday needs. If you're retrofitting an existing home or building new, our team will assess your space, listen to your needs, and suggest grab bars that improve safety without compromising aesthetics. From single family home to condos to townhomes, weâ€™re here with our experts. 
 
               </p>
           </div>
@@ -282,12 +282,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>• Burnaby (All Areas)</li>
-                                <li>• Vancouver & New Westminster</li>
-                                <li>• Coquitlam & Port Moody</li>
-                                <li>• Richmond & Surrey</li>
-                                <li>• North Vancouver & West Vancouver</li>
-                                <li>• Tri-Cities & Langley</li>
+                                <li>â€¢ Burnaby (All Areas)</li>
+                                <li>â€¢ Vancouver & New Westminster</li>
+                                <li>â€¢ Coquitlam & Port Moody</li>
+                                <li>â€¢ Richmond & Surrey</li>
+                                <li>â€¢ North Vancouver & West Vancouver</li>
+                                <li>â€¢ Tri-Cities & Langley</li>
                             </ul>
                         </div>
                     </div>
@@ -297,7 +297,7 @@
             <!-- Quick Quote Form -->
             <div class="contact-card">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Get Your Free Quote</h3>
-                <form action="/submit-assessment" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                 @csrf
                     <input type="hidden" name="form_type" value="assessment">
                     <input type="hidden" name="form_source" value="area-burnaby_page_assessment_form">
@@ -373,34 +373,34 @@
         </h2>
         <div class="max-w-4xl mx-auto mb-12">
             <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">
-            Your safety is our priority, and we treat every installation like we’re working in our own home. Here's why Home2stay is Delta’s trusted grab bar specialist</p>
+            Your safety is our priority, and we treat every installation like weâ€™re working in our own home. Here's why Home2stay is Deltaâ€™s trusted grab bar specialist</p>
             <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 pl-5 md:pl-10">
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>Certified installers with mobility and accessibility expertise</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>Premium-quality materials and safety-tested products
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>Custom placements for every type of wall, room, or user need</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>Fast, clean, and professional installations
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>Free in-home assessments and honest recommendations
 
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>Competitive pricing with no surprise fees
 
                     </span>
@@ -420,7 +420,7 @@
         </h2>
         <div class="max-w-4xl mx-auto prose prose-lg">
             <p class="text-lg text-gray-700 leading-relaxed mb-6">
-            We’re experts in grab bar installation services in Delta, BC. Our services are more reliable for all our clients, no matter whether you’re in Delta or the nearby area. Homestay experts continue to be a leader in home accessibility services.  Our main priority is to provide the best services, and we believe in building trust, one home at a time. Our reliable services make your life easier and smooth.
+            Weâ€™re experts in grab bar installation services in Delta, BC. Our services are more reliable for all our clients, no matter whether youâ€™re in Delta or the nearby area. Homestay experts continue to be a leader in home accessibility services.  Our main priority is to provide the best services, and we believe in building trust, one home at a time. Our reliable services make your life easier and smooth.
 
             </p>
             
@@ -433,7 +433,7 @@
           </h3>
           <div class="max-w-4xl mx-auto prose prose-lg">
               <p class="text-lg text-gray-700 leading-relaxed mb-6">
-              Not every wall has conveniently placed studs, but that doesn’t stop us. We use wall anchors and specialized fasteners designed specifically for grab bars. Our team ensures the bars are rated to hold significant weight, even without stud backing. We follow all manufacturer guidelines and safety codes, so you never have to worry.
+              Not every wall has conveniently placed studs, but that doesnâ€™t stop us. We use wall anchors and specialized fasteners designed specifically for grab bars. Our team ensures the bars are rated to hold significant weight, even without stud backing. We follow all manufacturer guidelines and safety codes, so you never have to worry.
               </p>
           </div>
       </div>
@@ -448,7 +448,7 @@
         </h3>
         <div class="max-w-4xl mx-auto mb-12">
             <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center mt-4">
-            Toilet areas are one of the most common spots for grab bar installations. We usually install vertical or diagonal bars just in front of or beside the toilet. These placements allow users to sit and stand with ease. We always customise the height and angle based on the user’s mobility and comfort.</p>
+            Toilet areas are one of the most common spots for grab bar installations. We usually install vertical or diagonal bars just in front of or beside the toilet. These placements allow users to sit and stand with ease. We always customise the height and angle based on the userâ€™s mobility and comfort.</p>
         </div>
 
     </div>
@@ -486,7 +486,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                    Grab bars range from 12 to 48 inches. The length depends on the space and the purpose. Our team will recommend the right size based on your needs, whether it’s for a small toilet corner or across a long shower wall.
+                    Grab bars range from 12 to 48 inches. The length depends on the space and the purpose. Our team will recommend the right size based on your needs, whether itâ€™s for a small toilet corner or across a long shower wall.
 
 
                     </div>
@@ -571,15 +571,22 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Basic validation
             if (!data.first_name || !data.last_name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
             
-            // Here you would typically send the data to your server
-            alert('Thank you for your quote request! Our Burnaby team will contact you within 24 hours.');
-            
-            // Reset form
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 
@@ -788,7 +795,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 productInfoForm.addEventListener('submit', function(e) {
                     e.preventDefault(); // Prevent normal form submission to avoid quick refresh
                     
-                    console.log('🚀 Product form submission detected!');
+                    console.log('ðŸš€ Product form submission detected!');
                     console.log('Form action:', this.action);
                     console.log('Form method:', this.method);
                     
@@ -806,18 +813,18 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                     
                     if (!allValid) {
-                        console.log('❌ Form validation failed');
+                        console.log('âŒ Form validation failed');
                         alert('Please fill in all required fields (First Name, Last Name, Email, Phone)');
                         return false;
                     }
                     
-                    console.log('✅ Form validation passed, submitting via AJAX...');
+                    console.log('âœ… Form validation passed, submitting via AJAX...');
                     
                     // Submit form via AJAX
                     const formData = new FormData(this);
                     
                     // Debug: Log all form data
-                    console.log('📋 Form data being sent:');
+                    console.log('ðŸ“‹ Form data being sent:');
                     for (let [key, value] of formData.entries()) {
                         console.log(`  ${key}: ${value}`);
                     }
@@ -831,39 +838,41 @@ document.addEventListener('DOMContentLoaded', function() {
                         }
                     })
                     .then(response => {
-                        console.log('📡 Server response status:', response.status);
+                        console.log('ðŸ“¡ Server response status:', response.status);
                         return response.json().catch(() => response.text());
                     })
                     .then(data => {
-                        console.log('✅ Server response received');
-                        console.log('📄 Response data:', data);
+                        console.log('âœ… Server response received');
+                        console.log('ðŸ“„ Response data:', data);
                         
                         // Check if it's JSON response
                         if (typeof data === 'object' && data.success !== undefined) {
                             if (data.success) {
-                                alert(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                                showFlash(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                                 
                                 // Reset form and close modal
                                 this.reset();
                                 modal.classList.add('hidden');
                                 document.body.style.overflow = 'auto';
                             } else {
-                                alert('Error: ' + (data.message || 'There was an error submitting your request.'));
+                                showFlash('Error: ' + (data.message || 'There was an error submitting your request.'), 'error');
                             }
                         } else {
                             // Fallback for HTML response (shouldn't happen now)
-                            alert('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                            showFlash('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                             this.reset();
                             modal.classList.add('hidden');
                             document.body.style.overflow = 'auto';
                         }
                     })
                     .catch(error => {
-                        console.error('❌ Error submitting form:', error);
-                        alert('There was an error submitting your request. Please try again or contact us directly.');
+                        console.error('âŒ Error submitting form:', error);
+                        showFlash('There was an error submitting your request. Please try again or contact us directly.', 'error');
                     });
                 });
             }
         });
     </script>
 @endpush
+
+

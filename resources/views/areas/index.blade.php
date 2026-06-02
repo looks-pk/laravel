@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Service Areas - Home2stay Accessibility Solutions')
 @section('meta_description', 'Home2stay provides accessibility solutions across multiple cities. Find your local Home2stay team for stairlifts, grab bars, ramps, and home safety equipment.')
@@ -205,7 +205,7 @@
                             Whether you need stairlifts, grab bars, wheelchair ramps, bathroom modifications, or comprehensive home assessments, our certified professionals are ready to provide personalized solutions that enhance your independence and quality of life.
                         </p>
                         <p class="text-lg text-gray-600 leading-relaxed mb-8">
-                            Each of our service areas is staffed with knowledgeable specialists who are familiar with local building codes, accessibility requirements, and community resources. We're not just a service provider – we're your neighbors, committed to helping you stay safely in the home you love.
+                            Each of our service areas is staffed with knowledgeable specialists who are familiar with local building codes, accessibility requirements, and community resources. We're not just a service provider â€“ we're your neighbors, committed to helping you stay safely in the home you love.
                         </p>
                     </div>
                     
@@ -299,7 +299,9 @@
                             <p class="text-gray-600 text-sm">Quick and easy - no obligation</p>
                         </div>
 
-                        <form id="quote-form-submit" class="space-y-4">
+                        <form id="quote-form-submit" action="/submit-assessment" method="POST" class="space-y-4">
+                            @csrf
+                            <input type="hidden" name="form_type" value="assessment">
                             <div>
                                 <label for="name" class="form-label">Full Name *</label>
                                 <input type="text" id="name" name="name" class="form-input" required placeholder="Enter your full name">
@@ -386,16 +388,22 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Simple validation
             if (!data.name || !data.email || !data.phone || !data.city) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
             
-            // Here you would typically send the data to your server
-            // For now, we'll show a success message
-            alert('Thank you for your quote request! We will contact you within 24 hours.');
-            
-            // Reset form
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 

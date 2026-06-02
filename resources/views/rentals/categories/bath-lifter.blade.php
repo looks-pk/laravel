@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Bath Lifter Rentals - Home2stay')
 @section('meta_description', 'Rent bath lifters and other bathroom safety products for improved accessibility and mobility at home.')
@@ -174,8 +174,9 @@
                         best automotive solutions for you.</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                     @csrf
+                    <input type="hidden" name="form_type" value="assessment">
                     <!-- Personal Information -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>

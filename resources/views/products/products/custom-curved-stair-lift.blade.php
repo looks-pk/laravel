@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Home2stay Custom Curved Stair Lift - Home2stay')
 @section('meta_description', 'Use Bruno stair lifts to go up and down the stairs safely. With an artfully, handcrafted rail made specifically for [&hellip;]')
@@ -411,16 +411,16 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>• Top-selling curved stairlift in North America</li>
-                                            <li>• Artfully handcrafted rail made specifically for your stairs</li>
-                                            <li>• Bruno's Elite Curved Stair Lift with smooth, quiet operation</li>
-                                            <li>• Multiple options for individual needs and tastes</li>
-                                            <li>• Luxurious quality and stylish chair design</li>
-                                            <li>• Custom-crafted to maximize stairway space</li>
-                                            <li>• Offset swivel seat, flip-up arms & folding foot rest</li>
-                                            <li>• Dependable power even in electrical outages</li>
-                                            <li>• Wireless call/send controls for convenience</li>
-                                            <li>• Bruno's signature quality and comfort second to none</li>
+                                            <li>â€¢ Top-selling curved stairlift in North America</li>
+                                            <li>â€¢ Artfully handcrafted rail made specifically for your stairs</li>
+                                            <li>â€¢ Bruno's Elite Curved Stair Lift with smooth, quiet operation</li>
+                                            <li>â€¢ Multiple options for individual needs and tastes</li>
+                                            <li>â€¢ Luxurious quality and stylish chair design</li>
+                                            <li>â€¢ Custom-crafted to maximize stairway space</li>
+                                            <li>â€¢ Offset swivel seat, flip-up arms & folding foot rest</li>
+                                            <li>â€¢ Dependable power even in electrical outages</li>
+                                            <li>â€¢ Wireless call/send controls for convenience</li>
+                                            <li>â€¢ Bruno's signature quality and comfort second to none</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -555,11 +555,11 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
                         would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Home2stay Custom Curved Stair Lift">
 
@@ -689,7 +689,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name" value="Home2stay Custom Curved Stair Lift">
 
@@ -930,21 +930,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

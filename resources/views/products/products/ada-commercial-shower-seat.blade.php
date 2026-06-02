@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Home2stay ADA Commercial Shower Seat - Home2stay')
 @section('meta_description', 'Excellent quality and commercial grade- designed to hold up to countless years of tough commercial use. Stainless steel legs, frame [&hellip;]')
@@ -262,15 +262,15 @@
                                         <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
                                             <div class="text-sm">
                                                 <span class="font-medium text-gray-700">Width:</span>
-                                                <span class="text-gray-600">22″</span>
+                                                <span class="text-gray-600">22â€³</span>
                                             </div>
                                             <div class="text-sm">
                                                 <span class="font-medium text-gray-700">Depth:</span>
-                                                <span class="text-gray-600">14.25″</span>
+                                                <span class="text-gray-600">14.25â€³</span>
                                             </div>
                                             <div class="text-sm">
                                                 <span class="font-medium text-gray-700">Height:</span>
-                                                <span class="text-gray-600">17-19″</span>
+                                                <span class="text-gray-600">17-19â€³</span>
                                             </div>
                                         </div>
                                     </div>
@@ -281,15 +281,15 @@
                                         <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
                                             <div class="text-sm">
                                                 <span class="font-medium text-gray-700">Width:</span>
-                                                <span class="text-gray-600">31½″</span>
+                                                <span class="text-gray-600">31Â½â€³</span>
                                             </div>
                                             <div class="text-sm">
                                                 <span class="font-medium text-gray-700">Depth:</span>
-                                                <span class="text-gray-600">14.25″</span>
+                                                <span class="text-gray-600">14.25â€³</span>
                                             </div>
                                             <div class="text-sm">
                                                 <span class="font-medium text-gray-700">Height:</span>
-                                                <span class="text-gray-600">17-19″</span>
+                                                <span class="text-gray-600">17-19â€³</span>
                                             </div>
                                         </div>
                                     </div>
@@ -301,15 +301,15 @@
                                         <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
                                             <div class="text-sm">
                                                 <span class="font-medium text-gray-700">Width:</span>
-                                                <span class="text-gray-600">31.5″</span>
+                                                <span class="text-gray-600">31.5â€³</span>
                                             </div>
                                             <div class="text-sm">
                                                 <span class="font-medium text-gray-700">Depth:</span>
-                                                <span class="text-gray-600">15.75-22.75″</span>
+                                                <span class="text-gray-600">15.75-22.75â€³</span>
                                             </div>
                                             <div class="text-sm">
                                                 <span class="font-medium text-gray-700">Height:</span>
-                                                <span class="text-gray-600">17-19″</span>
+                                                <span class="text-gray-600">17-19â€³</span>
                                             </div>
                                         </div>
                                     </div>
@@ -349,7 +349,7 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Leg Adjustment:</span>
-                                                <span class="text-gray-600">17″ to 19″</span>
+                                                <span class="text-gray-600">17â€³ to 19â€³</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Installation:</span>
@@ -492,10 +492,10 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Home2stay ADA Commercial Shower Seat">
                     
@@ -529,11 +529,11 @@
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="seat_style" value="small" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Small (22″ x 14.25″)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Small (22â€³ x 14.25â€³)</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="seat_style" value="large" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Large (31½″ x 14.25″)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Large (31Â½â€³ x 14.25â€³)</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="seat_style" value="l_shaped" class="text-primary">
@@ -627,7 +627,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name"
                         value="Home2stay ADA Commercial Shower Seat">
@@ -648,11 +648,11 @@
                             <div class="space-y-2">
                                 <label class="flex items-center">
                                     <input type="radio" name="seat_style" value="small" class="mr-2" checked>
-                                    <span>Small (22″ x 14.25″)</span>
+                                    <span>Small (22â€³ x 14.25â€³)</span>
                                 </label>
                                 <label class="flex items-center">
                                     <input type="radio" name="seat_style" value="large" class="mr-2">
-                                    <span>Large (31½″ x 14.25″)</span>
+                                    <span>Large (31Â½â€³ x 14.25â€³)</span>
                                 </label>
                                 <label class="flex items-center">
                                     <input type="radio" name="seat_style" value="l_shaped" class="mr-2">
@@ -896,21 +896,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

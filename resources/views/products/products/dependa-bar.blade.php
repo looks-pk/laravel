@@ -1,7 +1,7 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Home2stay Dependa-Bar - Home2stay')
-@section('meta_description', 'This award-winning grab bar provides assistance exactly where it’s needed- no reaching, leaning or twisting required. With 5 locking positions, [&hellip;]')
+@section('meta_description', 'This award-winning grab bar provides assistance exactly where itâ€™s needed- no reaching, leaning or twisting required. With 5 locking positions, [&hellip;]')
 
 @section('content')
     <!-- Hero Section -->
@@ -122,8 +122,8 @@
                     <div class="mb-6 p-4 bg-green-50 border-l-4 border-green-400 rounded-r-lg">
                         <h3 class="font-semibold text-green-800 mb-2">Pricing:</h3>
                         <div class="space-y-1 text-green-700">
-                            <p>18″ White - $449 + installation</p>
-                            <p>18″ Stainless Knurling - $549 + installation</p>
+                            <p>18â€³ White - $449 + installation</p>
+                            <p>18â€³ Stainless Knurling - $549 + installation</p>
                         </div>
                     </div>
                     <div class="mb-6 p-4 bg-blue-50 border-l-4 border-blue-400 rounded-r-lg">
@@ -230,7 +230,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Two Color Options</h3>
-                                            <p class="text-gray-600">Available in two attractive finishes: white or stainless knurling to match your bathroom décor preferences.</p>
+                                            <p class="text-gray-600">Available in two attractive finishes: white or stainless knurling to match your bathroom dÃ©cor preferences.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -269,11 +269,11 @@
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <div class="space-y-3">
                                             <div class="flex justify-between items-center border-b pb-2">
-                                                <span class="text-gray-700 font-medium">18″ White:</span>
+                                                <span class="text-gray-700 font-medium">18â€³ White:</span>
                                                 <span class="font-semibold text-primary">$449 + installation</span>
                                             </div>
                                             <div class="flex justify-between items-center border-b pb-2">
-                                                <span class="text-gray-700 font-medium">18″ Stainless Knurling:</span>
+                                                <span class="text-gray-700 font-medium">18â€³ Stainless Knurling:</span>
                                                 <span class="font-semibold text-primary">$549 + installation</span>
                                             </div>
                                         </div>
@@ -328,7 +328,7 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Length:</span>
-                                                <span class="text-gray-600">18″</span>
+                                                <span class="text-gray-600">18â€³</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Locking Positions:</span>
@@ -490,11 +490,11 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
                         would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Home2stay Dependa-Bar">
 
@@ -528,11 +528,11 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="finish_preference" value="white" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">18″ White ($449 + installation)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">18â€³ White ($449 + installation)</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="finish_preference" value="stainless_knurling" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">18″ Stainless Knurling ($549 + installation)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">18â€³ Stainless Knurling ($549 + installation)</span>
                             </label>
                         </div>
                     </div>
@@ -639,7 +639,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name" value="Home2stay Dependa-Bar">
 
@@ -661,11 +661,11 @@
                                     <label class="flex items-center">
                                         <input type="radio" name="finish_preference" value="white" class="mr-2"
                                             checked>
-                                        <span>18″ White ($449 + installation)</span>
+                                        <span>18â€³ White ($449 + installation)</span>
                                     </label>
                                     <label class="flex items-center">
                                         <input type="radio" name="finish_preference" value="stainless_knurling" class="mr-2">
-                                        <span>18″ Stainless Knurling ($549 + installation)</span>
+                                        <span>18â€³ Stainless Knurling ($549 + installation)</span>
                                     </label>
                                 </div>
                             </div>
@@ -901,21 +901,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Stair Lifts in Burnaby, BC - Home2stay')
 @section('meta_description', 'Professional stair lifts in Burnaby, BC. Custom-fitted stairlifts for home and business. Free consultation and expert installation. Call our dedicated team today!')
@@ -200,12 +200,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>• Burnaby (All Areas)</li>
-                                <li>• Vancouver & New Westminster</li>
-                                <li>• Coquitlam & Port Moody</li>
-                                <li>• Richmond & Surrey</li>
-                                <li>• North Vancouver & West Vancouver</li>
-                                <li>• Tri-Cities & Langley</li>
+                                <li>â€¢ Burnaby (All Areas)</li>
+                                <li>â€¢ Vancouver & New Westminster</li>
+                                <li>â€¢ Coquitlam & Port Moody</li>
+                                <li>â€¢ Richmond & Surrey</li>
+                                <li>â€¢ North Vancouver & West Vancouver</li>
+                                <li>â€¢ Tri-Cities & Langley</li>
                             </ul>
                         </div>
                     </div>
@@ -215,7 +215,7 @@
             <!-- Quick Quote Form -->
             <div class="contact-card">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Get Your Free Quote</h3>
-                <form action="/submit-assessment" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                 @csrf
                     <input type="hidden" name="form_type" value="assessment">
                     <input type="hidden" name="form_source" value="area-burnaby_page_assessment_form">
@@ -635,15 +635,22 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Basic validation
             if (!data.first_name || !data.last_name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
             
-            // Here you would typically send the data to your server
-            alert('Thank you for your quote request! Our Burnaby team will contact you within 24 hours.');
-            
-            // Reset form
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 
@@ -684,3 +691,4 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 @endpush
+

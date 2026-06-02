@@ -365,6 +365,86 @@
 
         <!-- Page Content -->
         <main>
+            {{-- Universal Flash Messages --}}
+            <div id="flash-messages" class="fixed top-4 right-4 z-[9999] flex flex-col gap-3 w-full max-w-sm pointer-events-none">
+
+                @if(session('success'))
+                <div class="flash-msg pointer-events-auto flex items-start gap-3 bg-green-50 border border-green-200 text-green-800 rounded-xl p-4 shadow-lg animate-fade-in">
+                    <svg class="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                    </svg>
+                    <p class="flex-1 text-sm font-medium">{{ session('success') }}</p>
+                    <button onclick="this.closest('.flash-msg').remove()" class="text-green-400 hover:text-green-600 flex-shrink-0">&times;</button>
+                </div>
+                @endif
+
+                @if(session('error'))
+                <div class="flash-msg pointer-events-auto flex items-start gap-3 bg-red-50 border border-red-200 text-red-800 rounded-xl p-4 shadow-lg animate-fade-in">
+                    <svg class="w-5 h-5 text-red-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-9v4a1 1 0 102 0V9a1 1 0 10-2 0zm1-4a1 1 0 100 2 1 1 0 000-2z" clip-rule="evenodd"/>
+                    </svg>
+                    <p class="flex-1 text-sm font-medium">{{ session('error') }}</p>
+                    <button onclick="this.closest('.flash-msg').remove()" class="text-red-400 hover:text-red-600 flex-shrink-0">&times;</button>
+                </div>
+                @endif
+
+                @if($errors->any())
+                <div class="flash-msg pointer-events-auto flex items-start gap-3 bg-red-50 border border-red-200 text-red-800 rounded-xl p-4 shadow-lg animate-fade-in">
+                    <svg class="w-5 h-5 text-red-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-9v4a1 1 0 102 0V9a1 1 0 10-2 0zm1-4a1 1 0 100 2 1 1 0 000-2z" clip-rule="evenodd"/>
+                    </svg>
+                    <div class="flex-1 text-sm">
+                        <p class="font-semibold mb-1">Please fix the following:</p>
+                        <ul class="list-disc list-inside space-y-0.5">
+                            @foreach($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                    <button onclick="this.closest('.flash-msg').remove()" class="text-red-400 hover:text-red-600 flex-shrink-0">&times;</button>
+                </div>
+                @endif
+
+            </div>
+
+            <style>
+                @keyframes fadeInRight {
+                    from { opacity: 0; transform: translateX(1rem); }
+                    to   { opacity: 1; transform: translateX(0); }
+                }
+                .animate-fade-in { animation: fadeInRight 0.3s ease-out; }
+            </style>
+
+            <script>
+                // Call showFlash() from any AJAX form to show a toast
+                function showFlash(message, type) {
+                    var isSuccess = (type || 'success') === 'success';
+                    var colors = isSuccess
+                        ? { bg:'bg-green-50', border:'border-green-200', text:'text-green-800', btn:'text-green-400 hover:text-green-600', iconColor:'text-green-500', iconPath:'M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z' }
+                        : { bg:'bg-red-50',   border:'border-red-200',   text:'text-red-800',   btn:'text-red-400 hover:text-red-600',   iconColor:'text-red-500',   iconPath:'M10 18a8 8 0 100-16 8 8 0 000 16zm-1-9v4a1 1 0 102 0V9a1 1 0 10-2 0zm1-4a1 1 0 100 2 1 1 0 000-2z' };
+
+                    var el = document.createElement('div');
+                    el.className = 'flash-msg pointer-events-auto flex items-start gap-3 ' + colors.bg + ' border ' + colors.border + ' ' + colors.text + ' rounded-xl p-4 shadow-lg animate-fade-in';
+                    el.setAttribute('role', 'alert');
+                    el.innerHTML =
+                        '<svg class="w-5 h-5 ' + colors.iconColor + ' mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">' +
+                            '<path fill-rule="evenodd" d="' + colors.iconPath + '" clip-rule="evenodd"/>' +
+                        '</svg>' +
+                        '<p class="flex-1 text-sm font-medium">' + message + '</p>' +
+                        '<button onclick="this.closest(\'.flash-msg\').remove()" class="' + colors.btn + ' flex-shrink-0">&times;</button>';
+
+                    document.getElementById('flash-messages').appendChild(el);
+                    setTimeout(function() { el.remove(); }, 6000);
+                }
+
+                document.addEventListener('DOMContentLoaded', function() {
+                    // Auto-dismiss server-rendered flash messages after 6 s
+                    document.querySelectorAll('.flash-msg').forEach(function(el) {
+                        setTimeout(function() { el.remove(); }, 6000);
+                    });
+                });
+            </script>
+
             @yield('content')
             @include('components.cookie-popup')
         </main>

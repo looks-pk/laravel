@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Home2stay Padded Transfer Bench - Home2stay')
 @section('meta_description', 'Designed for easy and safe transfers in the bathroom. With comfortable cushioned seat and backrest. Pinch-free cover allows for push [&hellip;]')
@@ -116,7 +116,7 @@
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Height adjusts in 1⁄2″ increments with unique "Dual Column" extension legs.
+                            Height adjusts in 1â„2â€³ increments with unique "Dual Column" extension legs.
                         </p>
                     </div>
                     <div class="mb-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
@@ -209,7 +209,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Adjustable Height</h3>
-                                            <p class="text-gray-600">Height adjusts in 1⁄2″ increments with unique "Dual Column" extension legs for perfect fit.</p>
+                                            <p class="text-gray-600">Height adjusts in 1â„2â€³ increments with unique "Dual Column" extension legs for perfect fit.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -244,11 +244,11 @@
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Seat Dimensions:</span>
-                                                <span class="text-gray-600">24″ (W) x 16″ (D)</span>
+                                                <span class="text-gray-600">24â€³ (W) x 16â€³ (D)</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Seat Height:</span>
-                                                <span class="text-gray-600">17.75″ (L) x 21.75″ (H)</span>
+                                                <span class="text-gray-600">17.75â€³ (L) x 21.75â€³ (H)</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Weight:</span>
@@ -391,10 +391,10 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Home2stay Padded Transfer Bench">
                     
@@ -507,7 +507,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name"
                         value="Home2stay Padded Transfer Bench">
@@ -754,21 +754,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

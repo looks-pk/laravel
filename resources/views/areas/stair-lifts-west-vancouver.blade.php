@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Stair Lifts in West Vancouver, BC - Home2stay')
 @section('meta_description', 'Professional stair lifts in West Vancouver, BC. Expert stairlift installation and accessibility solutions with 24/7 support. Call 604-259-1211 for quick service.')
@@ -169,12 +169,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>• West Vancouver (All Areas)</li>
-                                <li>• North Vancouver</li>
-                                <li>• Vancouver</li>
-                                <li>• Burnaby</li>
-                                <li>• Richmond</li>
-                                <li>• Surrey & White Rock</li>
+                                <li>â€¢ West Vancouver (All Areas)</li>
+                                <li>â€¢ North Vancouver</li>
+                                <li>â€¢ Vancouver</li>
+                                <li>â€¢ Burnaby</li>
+                                <li>â€¢ Richmond</li>
+                                <li>â€¢ Surrey & White Rock</li>
                             </ul>
                         </div>
                     </div>
@@ -184,7 +184,7 @@
             <!-- Quick Quote Form -->
             <div class="contact-card">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Get Your Free Quote</h3>
-                <form action="/submit-assessment" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                 @csrf
                 <input type="hidden" name="form_type" value="assessment">
                     <input type="hidden" name="form_source" value="area-west-vancouver_page_assessment_form">
@@ -669,15 +669,22 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Basic validation
             if (!data.first_name || !data.last_name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
             
-            // Here you would typically send the data to your server
-            alert('Thank you for your quote request! Our West Vancouver team will contact you within 24 hours.');
-            
-            // Reset form
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 
@@ -718,3 +725,4 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 @endpush 
+

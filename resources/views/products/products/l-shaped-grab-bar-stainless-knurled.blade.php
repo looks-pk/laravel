@@ -1,7 +1,7 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Home2stay L-Shaped Grab Bar (Stainless Knurled) - Home2stay')
-@section('meta_description', 'HealthCraft’s L-shaped grab bar is perfect for those tricky spots in your bathroom. Other L-shaped grab bars don’t always line [&hellip;]')
+@section('meta_description', 'HealthCraftâ€™s L-shaped grab bar is perfect for those tricky spots in your bathroom. Other L-shaped grab bars donâ€™t always line [&hellip;]')
 
 @section('content')
     <!-- Hero Section -->
@@ -111,17 +111,17 @@
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Other L-shaped grab bars don't always line up with the 16″ on centre studs — which creates a mess when installing.
+                            Other L-shaped grab bars don't always line up with the 16â€³ on centre studs â€” which creates a mess when installing.
                         </p>
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Our nine-hole flange offers greater versatility and makes installation easy — and our bar is made specifically to stand up to the moisture of bathrooms, ensuring an enduring finish for years.
+                            Our nine-hole flange offers greater versatility and makes installation easy â€” and our bar is made specifically to stand up to the moisture of bathrooms, ensuring an enduring finish for years.
                         </p>
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Comes with 9-hole flanges and with flange covers to hide the mounting screws – a simple and modern finish.
+                            Comes with 9-hole flanges and with flange covers to hide the mounting screws â€“ a simple and modern finish.
                         </p>
                     </div>
                     <div class="mb-6">
@@ -202,7 +202,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Superior Stud Alignment</h3>
-                                            <p class="text-gray-600">Unlike other L-shaped grab bars that don't align with 16″ on centre studs, our design prevents installation mess and ensures secure mounting.</p>
+                                            <p class="text-gray-600">Unlike other L-shaped grab bars that don't align with 16â€³ on centre studs, our design prevents installation mess and ensures secure mounting.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -327,17 +327,17 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Rail Diameter:</span>
-                                                <span class="text-gray-600">1.25″ (32mm)</span>
+                                                <span class="text-gray-600">1.25â€³ (32mm)</span>
                                             </div>
                                         </div>
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Wall Clearance:</span>
-                                                <span class="text-gray-600">1.50″ (38mm)</span>
+                                                <span class="text-gray-600">1.50â€³ (38mm)</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Rail Length:</span>
-                                                <span class="text-gray-600">30×30″ (762x762mm)</span>
+                                                <span class="text-gray-600">30Ã—30â€³ (762x762mm)</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Warranty:</span>
@@ -470,10 +470,10 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Home2stay L-Shaped Grab Bar (Stainless Knurled)">
                     
@@ -605,7 +605,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name"
                         value="Home2stay L-Shaped Grab Bar (Stainless Knurled)">
@@ -876,21 +876,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

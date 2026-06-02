@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Affordable Services of Stairlifts in White Rock - Home2stay')
 @section('meta_description', 'Affordable stairlifts in White Rock, BC. Professional installation with trusted Acorn models. Residential and commercial stairlift services. Call us today!')
@@ -172,12 +172,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>• White Rock (All Areas)</li>
-                                <li>• Surrey & South Surrey</li>
-                                <li>• Vancouver & Richmond</li>
-                                <li>• Langley & Aldergrove</li>
-                                <li>• Delta & Tsawwassen</li>
-                                <li>• Burnaby & New Westminster</li>
+                                <li>â€¢ White Rock (All Areas)</li>
+                                <li>â€¢ Surrey & South Surrey</li>
+                                <li>â€¢ Vancouver & Richmond</li>
+                                <li>â€¢ Langley & Aldergrove</li>
+                                <li>â€¢ Delta & Tsawwassen</li>
+                                <li>â€¢ Burnaby & New Westminster</li>
                             </ul>
                         </div>
                     </div>
@@ -187,7 +187,7 @@
             <!-- Quick Quote Form -->
             <div class="contact-card">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Get Your Free Quote</h3>
-                <form action="/submit-assessment" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                 @csrf
                 <input type="hidden" name="form_type" value="assessment">
                     <input type="hidden" name="form_source" value="area-white-rock_page_assessment_form">
@@ -416,7 +416,7 @@
                 <div class="flex items-start">
                     <span class="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-1">1</span>
                     <div>
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">Stannah 260 – Commercial (Indoor):</h3>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Stannah 260 â€“ Commercial (Indoor):</h3>
                         <p class="text-gray-600">A top choice for curved indoor staircases in public settings.</p>
                     </div>
                 </div>
@@ -424,7 +424,7 @@
                 <div class="flex items-start">
                     <span class="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-1">2</span>
                     <div>
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">K2 Plus – Commercial:</h3>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">K2 Plus â€“ Commercial:</h3>
                         <p class="text-gray-600">Built tough for high-traffic areas and commercial durability.</p>
                     </div>
                 </div>
@@ -432,7 +432,7 @@
                 <div class="flex items-start">
                     <span class="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-1">3</span>
                     <div>
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">Stairfriend – Commercial:</h3>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Stairfriend â€“ Commercial:</h3>
                         <p class="text-gray-600">Custom-made for complex or uniquely shaped stairs, including multiple levels or landings.</p>
                     </div>
                 </div>
@@ -678,15 +678,22 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Basic validation
             if (!data.first_name || !data.last_name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
             
-            // Here you would typically send the data to your server
-            alert('Thank you for your quote request! Our White Rock team will contact you within 24 hours.');
-            
-            // Reset form
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 
@@ -727,3 +734,4 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 @endpush 
+

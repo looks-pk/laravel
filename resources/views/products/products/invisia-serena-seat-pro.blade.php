@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Home2stay Invisia Serena Seat PRO - Home2stay')
 @section('meta_description', 'Discreet comfort for your bathroom! Invisia Serena Seat PRO offers a supportive, hidden shower seat that folds away for a seamless look. Ideal for added safety and relaxation. Shop online!')
@@ -111,7 +111,7 @@
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Comes in 2 seat width options: 18″ or 26″(ADA-compliant)
+                            Comes in 2 seat width options: 18â€³ or 26â€³(ADA-compliant)
                         </p>
                     </div>
                     <div class="mb-6">
@@ -197,7 +197,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">ADA-Compliant Options</h3>
-                                            <p class="text-gray-600">Available in 18″ or 26″ seat width options, with 26″ being ADA-compliant.</p>
+                                            <p class="text-gray-600">Available in 18â€³ or 26â€³ seat width options, with 26â€³ being ADA-compliant.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -246,7 +246,7 @@
                                     
                                     <!-- 18" Seat Options -->
                                     <div class="bg-gray-50 rounded-lg p-4">
-                                        <h4 class="text-lg font-semibold text-gray-800 mb-3">18″ Seat Width</h4>
+                                        <h4 class="text-lg font-semibold text-gray-800 mb-3">18â€³ Seat Width</h4>
                                         <div class="space-y-2">
                                             <div class="flex justify-between items-center">
                                                 <span class="text-gray-700">Chrome Frame Finish:</span>
@@ -273,7 +273,7 @@
 
                                     <!-- 26" Seat Options -->
                                     <div class="bg-gray-50 rounded-lg p-4">
-                                        <h4 class="text-lg font-semibold text-gray-800 mb-3">26″ Seat Width (ADA-Compliant)</h4>
+                                        <h4 class="text-lg font-semibold text-gray-800 mb-3">26â€³ Seat Width (ADA-Compliant)</h4>
                                         <div class="space-y-2">
                                             <div class="flex justify-between items-center">
                                                 <span class="text-gray-700">Chrome Frame Finish:</span>
@@ -339,7 +339,7 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Seat Width Options:</span>
-                                                <span class="text-gray-600">18″ (457mm) or 26″ (660mm)</span>
+                                                <span class="text-gray-600">18â€³ (457mm) or 26â€³ (660mm)</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Frame Material:</span>
@@ -347,7 +347,7 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Wood Thickness:</span>
-                                                <span class="text-gray-600">1″ thick</span>
+                                                <span class="text-gray-600">1â€³ thick</span>
                                             </div>
                                         </div>
                                         <div class="space-y-3">
@@ -490,10 +490,10 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Home2stay Invisia Serena Seat PRO">
                     
@@ -527,11 +527,11 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="seat_width" value="18_inch" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">18″ Seat Width</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">18â€³ Seat Width</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="seat_width" value="26_inch" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">26″ Seat Width (ADA-Compliant)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">26â€³ Seat Width (ADA-Compliant)</span>
                             </label>
                         </div>
                     </div>
@@ -652,7 +652,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name"
                         value="Home2stay Invisia Serena Seat PRO">
@@ -674,11 +674,11 @@
                                 <div class="space-y-2">
                                     <label class="flex items-center">
                                         <input type="radio" name="seat_width" value="18_inch" class="mr-2" checked>
-                                        <span>18″ Seat Width</span>
+                                        <span>18â€³ Seat Width</span>
                                     </label>
                                     <label class="flex items-center">
                                         <input type="radio" name="seat_width" value="26_inch" class="mr-2">
-                                        <span>26″ Seat Width (ADA-Compliant)</span>
+                                        <span>26â€³ Seat Width (ADA-Compliant)</span>
                                     </label>
                                 </div>
                             </div>
@@ -948,21 +948,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Grab Bar Installation West Vancouver, BC | Home2Stay')
 @section('meta_description', 'Professional grab bar installation & replacement in West Vancouver, BC. Commercial & residential grab bars with trusted service, clear pricing & expert installation for safety & accessibility.')
@@ -105,7 +105,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Vertical</h3>
-                <p class="text-gray-600">Stand‑up aid beside exits or tubs. Helps you rise smoothly. Great for small or tight spaces. Our fit keeps you balanced. You move steadily. You feel secure. That everyday safety boost is within reach.
+                <p class="text-gray-600">Standâ€‘up aid beside exits or tubs. Helps you rise smoothly. Great for small or tight spaces. Our fit keeps you balanced. You move steadily. You feel secure. That everyday safety boost is within reach.
 
                 </p>
             </div>
@@ -130,7 +130,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Diagonal</h3>
-                <p class="text-gray-600">At an angle to match your reach. Stylish and ergonomic. Fits corners with grace. Supports you in flow. You move, it supports. Every motion feels easier. This is modern non‑slip support made to your form.
+                <p class="text-gray-600">At an angle to match your reach. Stylish and ergonomic. Fits corners with grace. Supports you in flow. You move, it supports. Every motion feels easier. This is modern nonâ€‘slip support made to your form.
 
                 </p>
             </div>
@@ -282,12 +282,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>• West Vancouver (All Areas)</li>
-                                <li>• North Vancouver & Vancouver</li>
-                                <li>• Burnaby & New Westminster</li>
-                                <li>• Richmond & Surrey</li>
-                                <li>• Coquitlam & Port Moody</li>
-                                <li>• Tri-Cities & Langley</li>
+                                <li>â€¢ West Vancouver (All Areas)</li>
+                                <li>â€¢ North Vancouver & Vancouver</li>
+                                <li>â€¢ Burnaby & New Westminster</li>
+                                <li>â€¢ Richmond & Surrey</li>
+                                <li>â€¢ Coquitlam & Port Moody</li>
+                                <li>â€¢ Tri-Cities & Langley</li>
                             </ul>
                         </div>
                     </div>
@@ -297,7 +297,7 @@
             <!-- Quick Quote Form -->
             <div class="contact-card">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Get Your Free Quote</h3>
-                <form action="/submit-assessment" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                 @csrf
                     <input type="hidden" name="form_type" value="assessment">
                     <input type="hidden" name="form_source" value="area-west_vancouver_page_assessment_form">
@@ -376,32 +376,32 @@
             You want a team that answers quickly, works cleanly, and charges fairly. We check all boxes.</p>
             <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 pl-5 md:pl-10">
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>We respond fast and listen closely.</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>We use strong anchors and top materials.
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>We match your style, modern, classic, or minimalist.</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>We respect your home, work clean, tidy, and respectful.
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>We offer clear pricing, no surprises, no hidden fees.
 
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
-                    <span>We help you choose between bath safety bars, assist handle installation, or non‑slip support based on your need, not upsells.
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span>We help you choose between bath safety bars, assist handle installation, or nonâ€‘slip support based on your need, not upsells.
 
                     </span>
                 </li>
@@ -460,7 +460,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                    We follow BC building codes. We mount to wall studs or reinforced backing. We space them 33–36 inches above the floor for toilets. We angle vertical bars near tubs for lean support. We test the weight capacity to at least 250 lbs. Safety and code both get priority here.</div>
+                    We follow BC building codes. We mount to wall studs or reinforced backing. We space them 33â€“36 inches above the floor for toilets. We angle vertical bars near tubs for lean support. We test the weight capacity to at least 250 lbs. Safety and code both get priority here.</div>
                 </div>
             </div>
 
@@ -474,7 +474,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                    Most take 30 to 45 minutes. Bathtub‑mounted and suction bars take up less space. Folding or diagonal styles take an hour or so. We clean up after ourselves. You get safety fast.
+                    Most take 30 to 45 minutes. Bathtubâ€‘mounted and suction bars take up less space. Folding or diagonal styles take an hour or so. We clean up after ourselves. You get safety fast.
 
 
                     </div>
@@ -490,7 +490,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                    Cheap suction‑only bars can slip. Bars not mounted to studs may loosen. We avoid these issues. We secure all bars firmly and check daily use before we leave. You get nothing but secure stability.
+                    Cheap suctionâ€‘only bars can slip. Bars not mounted to studs may loosen. We avoid these issues. We secure all bars firmly and check daily use before we leave. You get nothing but secure stability.
 
 
 
@@ -506,7 +506,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                    Prices vary. Basic horizontal bar starts around $200–$300—materials and labor included. Special styles cost more. We give clear quotes: we list parts, labor, and any extras. No hidden fees.
+                    Prices vary. Basic horizontal bar starts around $200â€“$300â€”materials and labor included. Special styles cost more. We give clear quotes: we list parts, labor, and any extras. No hidden fees.
 
                     </div>
                 </div>
@@ -520,7 +520,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                    The standard is horizontal or vertical. But diagonal works best when you lift yourself from seated to standing. We place at about 45°. It matches your reach. It feels natural. You grab, you rise. That's our goal.
+                    The standard is horizontal or vertical. But diagonal works best when you lift yourself from seated to standing. We place at about 45Â°. It matches your reach. It feels natural. You grab, you rise. That's our goal.
 
                     </div>
                 </div>
@@ -536,7 +536,7 @@
             Get In Touch
         </h2>
         <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-        Is your bathroom safe every time you step in? Let us install a non‑slip support, an elderly bathroom safety, or disability access bar in your West Vancouver home. Call us now for fast, friendly service and clear pricing. Let's make your space safer today.
+        Is your bathroom safe every time you step in? Let us install a nonâ€‘slip support, an elderly bathroom safety, or disability access bar in your West Vancouver home. Call us now for fast, friendly service and clear pricing. Let's make your space safer today.
 </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:604-259-1211" class="btn-secondary text-lg px-8 py-4">
@@ -573,15 +573,22 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Basic validation
             if (!data.first_name || !data.last_name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
             
-            // Here you would typically send the data to your server
-            alert('Thank you for your quote request! Our West Vancouver team will contact you within 24 hours.');
-            
-            // Reset form
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 
@@ -790,7 +797,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 productInfoForm.addEventListener('submit', function(e) {
                     e.preventDefault(); // Prevent normal form submission to avoid quick refresh
                     
-                    console.log('🚀 Product form submission detected!');
+                    console.log('ðŸš€ Product form submission detected!');
                     console.log('Form action:', this.action);
                     console.log('Form method:', this.method);
                     
@@ -808,18 +815,18 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                     
                     if (!allValid) {
-                        console.log('❌ Form validation failed');
+                        console.log('âŒ Form validation failed');
                         alert('Please fill in all required fields (First Name, Last Name, Email, Phone)');
                         return false;
                     }
                     
-                    console.log('✅ Form validation passed, submitting via AJAX...');
+                    console.log('âœ… Form validation passed, submitting via AJAX...');
                     
                     // Submit form via AJAX
                     const formData = new FormData(this);
                     
                     // Debug: Log all form data
-                    console.log('📋 Form data being sent:');
+                    console.log('ðŸ“‹ Form data being sent:');
                     for (let [key, value] of formData.entries()) {
                         console.log(`  ${key}: ${value}`);
                     }
@@ -833,39 +840,41 @@ document.addEventListener('DOMContentLoaded', function() {
                         }
                     })
                     .then(response => {
-                        console.log('📡 Server response status:', response.status);
+                        console.log('ðŸ“¡ Server response status:', response.status);
                         return response.json().catch(() => response.text());
                     })
                     .then(data => {
-                        console.log('✅ Server response received');
-                        console.log('📄 Response data:', data);
+                        console.log('âœ… Server response received');
+                        console.log('ðŸ“„ Response data:', data);
                         
                         // Check if it's JSON response
                         if (typeof data === 'object' && data.success !== undefined) {
                             if (data.success) {
-                                alert(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                                showFlash(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                                 
                                 // Reset form and close modal
                                 this.reset();
                                 modal.classList.add('hidden');
                                 document.body.style.overflow = 'auto';
                             } else {
-                                alert('Error: ' + (data.message || 'There was an error submitting your request.'));
+                                showFlash('Error: ' + (data.message || 'There was an error submitting your request.'), 'error');
                             }
                         } else {
                             // Fallback for HTML response (shouldn't happen now)
-                            alert('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                            showFlash('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                             this.reset();
                             modal.classList.add('hidden');
                             document.body.style.overflow = 'auto';
                         }
                     })
                     .catch(error => {
-                        console.error('❌ Error submitting form:', error);
-                        alert('There was an error submitting your request. Please try again or contact us directly.');
+                        console.error('âŒ Error submitting form:', error);
+                        showFlash('There was an error submitting your request. Please try again or contact us directly.', 'error');
                     });
                 });
             }
         });
     </script>
 @endpush
+
+

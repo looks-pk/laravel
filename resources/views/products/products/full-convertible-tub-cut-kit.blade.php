@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Home2stay Full Convertible Tub Cut Kit - Home2stay')
 @section('meta_description', 'The best of both worlds. Our Full Quick Tub Convertible Tub Cut Kit provides you and your loved ones with [&hellip;]')
@@ -381,19 +381,19 @@
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Narrow Insert Dimensions:</span>
-                                                <span class="text-gray-600">L 27¾" x W 6¼" x H 10⅝"</span>
+                                                <span class="text-gray-600">L 27Â¾" x W 6Â¼" x H 10â…"</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Wide Insert Dimensions:</span>
-                                                <span class="text-gray-600">L 27¾" x W 7½" x H 10¾"</span>
+                                                <span class="text-gray-600">L 27Â¾" x W 7Â½" x H 10Â¾"</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Extra Deep Insert Dimensions:</span>
-                                                <span class="text-gray-600">L 33⅝" x W 9⅝" x H 15½"</span>
+                                                <span class="text-gray-600">L 33â…" x W 9â…" x H 15Â½"</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Quick Tub Cap Dimensions:</span>
-                                                <span class="text-gray-600">L 29¼" x W varies x H 11½"</span>
+                                                <span class="text-gray-600">L 29Â¼" x W varies x H 11Â½"</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Function:</span>
@@ -411,16 +411,16 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>• Complete convertible system for shower and bathtub functionality</li>
-                                            <li>• Converting between modes takes only seconds</li>
-                                            <li>• Enhanced slip and fall protection</li>
-                                            <li>• 100% North American made quality</li>
-                                            <li>• Available in 3 sizes: narrow, wide, and extra deep</li>
-                                            <li>• Lightweight 8lb construction for easy handling</li>
-                                            <li>• Walk-Thru Insert with precise dimensions</li>
-                                            <li>• Quick Tub Cap system included</li>
-                                            <li>• Family-friendly design for complete flexibility</li>
-                                            <li>• Custom quotes available for specific needs</li>
+                                            <li>â€¢ Complete convertible system for shower and bathtub functionality</li>
+                                            <li>â€¢ Converting between modes takes only seconds</li>
+                                            <li>â€¢ Enhanced slip and fall protection</li>
+                                            <li>â€¢ 100% North American made quality</li>
+                                            <li>â€¢ Available in 3 sizes: narrow, wide, and extra deep</li>
+                                            <li>â€¢ Lightweight 8lb construction for easy handling</li>
+                                            <li>â€¢ Walk-Thru Insert with precise dimensions</li>
+                                            <li>â€¢ Quick Tub Cap system included</li>
+                                            <li>â€¢ Family-friendly design for complete flexibility</li>
+                                            <li>â€¢ Custom quotes available for specific needs</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -432,17 +432,17 @@
                                             <div>
                                                 <h5 class="font-semibold text-gray-700 mb-2">Walk-Thru Insert Dimensions (outside):</h5>
                                                 <ul class="text-sm text-gray-600 space-y-1">
-                                                    <li><strong>NARROW:</strong> L 27¾" x W 6¼" x H 10⅝"</li>
-                                                    <li><strong>WIDE:</strong> L 27¾" x W 7½" x H 10¾"</li>
-                                                    <li><strong>XTRA DEEP:</strong> L 33⅝" x W 9⅝" x H 15½"</li>
+                                                    <li><strong>NARROW:</strong> L 27Â¾" x W 6Â¼" x H 10â…"</li>
+                                                    <li><strong>WIDE:</strong> L 27Â¾" x W 7Â½" x H 10Â¾"</li>
+                                                    <li><strong>XTRA DEEP:</strong> L 33â…" x W 9â…" x H 15Â½"</li>
                                                 </ul>
                                             </div>
                                             <div>
                                                 <h5 class="font-semibold text-gray-700 mb-2">Quick Tub Cap Dimensions (outside):</h5>
                                                 <ul class="text-sm text-gray-600 space-y-1">
-                                                    <li><strong>NARROW:</strong> L 29¼" x W 6¾" x H 11½"</li>
-                                                    <li><strong>WIDE:</strong> L 29¼" x W 8" x H 11½"</li>
-                                                    <li><strong>XTRA DEEP:</strong> L 29¼" x W 8" x H 11½"</li>
+                                                    <li><strong>NARROW:</strong> L 29Â¼" x W 6Â¾" x H 11Â½"</li>
+                                                    <li><strong>WIDE:</strong> L 29Â¼" x W 8" x H 11Â½"</li>
+                                                    <li><strong>XTRA DEEP:</strong> L 29Â¼" x W 8" x H 11Â½"</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -579,11 +579,11 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
                         would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Home2stay Full Convertible Tub Cut Kit">
 
@@ -732,7 +732,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name" value="Home2stay Full Convertible Tub Cut Kit">
 
@@ -751,15 +751,15 @@
                         <div class="grid grid-cols-1 gap-2">
                             <label class="flex items-center">
                                 <input type="radio" name="kit_size" value="narrow" class="mr-2">
-                                <span>Narrow - L 27¾" x W 6¼" x H 10⅝"</span>
+                                <span>Narrow - L 27Â¾" x W 6Â¼" x H 10â…"</span>
                             </label>
                             <label class="flex items-center">
                                 <input type="radio" name="kit_size" value="wide" class="mr-2">
-                                <span>Wide - L 27¾" x W 7½" x H 10¾" (Starting at $950)</span>
+                                <span>Wide - L 27Â¾" x W 7Â½" x H 10Â¾" (Starting at $950)</span>
                             </label>
                             <label class="flex items-center">
                                 <input type="radio" name="kit_size" value="extra_deep" class="mr-2">
-                                <span>Extra Deep - L 33⅝" x W 9⅝" x H 15½" (Starting at $1,150)</span>
+                                <span>Extra Deep - L 33â…" x W 9â…" x H 15Â½" (Starting at $1,150)</span>
                             </label>
                         </div>
                     </div>
@@ -974,21 +974,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

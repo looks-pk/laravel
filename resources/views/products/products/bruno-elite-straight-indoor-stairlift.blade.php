@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Bruno Elite Straight Indoor Stairlift - Home2Stay')
 @section('meta_description', 'Home2Stay Presents the Bruno Elite Straight Indoor Stairlift: premium comfort, 400 lb capacity, and smooth soft-start performance for straight staircases.')
@@ -167,7 +167,7 @@
                                 <div class="space-y-8 text-gray-700 leading-relaxed">
                                     <div class="space-y-3">
                                         <h3 class="text-xl font-semibold text-gray-800">Key Features &amp; Benefits</h3>
-                                        <p>Its customizable features, including adjustable seat height and armrests, ensure a customized fit for every user. The stairlift also boasts advanced safety mechanisms, such as obstruction sensors and a secure seatbelt, providing composure. With its quiet operation and energy-efficient design, it’s an ideal choice for enhancing accessibility and independence at home.</p>
+                                        <p>Its customizable features, including adjustable seat height and armrests, ensure a customized fit for every user. The stairlift also boasts advanced safety mechanisms, such as obstruction sensors and a secure seatbelt, providing composure. With its quiet operation and energy-efficient design, itâ€™s an ideal choice for enhancing accessibility and independence at home.</p>
                                     </div>
 
                                     <div class="space-y-3">
@@ -220,13 +220,13 @@
                                             <li>Power Swivel Seat: effortless rotation for easy exits.</li>
                                             <li>Power Folding Footrest: more convenience, less bending.</li>
                                             <li>Larger Seat &amp; Footrest Options: extra width and depth for added comfort.</li>
-                                            <li>Custom upholstery options to match your home’s décor.</li>
+                                            <li>Custom upholstery options to match your homeâ€™s dÃ©cor.</li>
                                         </ul>
                                     </div>
 
                                     <div class="space-y-3">
                                         <h3 class="text-xl font-semibold text-gray-800">Get Started Today!</h3>
-                                        <p>Whether you’re helping an aging parent maintain independence or searching greater accessibility for yourself, the Elite delivers premium comfort with industry-leading engineering. Transform your home with effortless stair mobility. Contact Home2Stay for a free consultation and quote, and take the first step toward total comfort.</p>
+                                        <p>Whether youâ€™re helping an aging parent maintain independence or searching greater accessibility for yourself, the Elite delivers premium comfort with industry-leading engineering. Transform your home with effortless stair mobility. Contact Home2Stay for a free consultation and quote, and take the first step toward total comfort.</p>
                                     </div>
                                 </div>
                             </div>
@@ -249,7 +249,7 @@
 
                                     <div class="p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
                                         <p class="text-yellow-800 font-medium">
-                                            Experience the Bruno Elite Straight Indoor Stairlift—premium comfort, quiet performance, and Home2Stay guidance at every step.
+                                            Experience the Bruno Elite Straight Indoor Stairliftâ€”premium comfort, quiet performance, and Home2Stay guidance at every step.
                                         </p>
                                     </div>
                                 </div>
@@ -332,16 +332,16 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>• Adjustable seat height, armrests, and footrest for a tailored fit</li>
-                                            <li>• Offset swivel seat simplifies safe dismounts at the top landing</li>
-                                            <li>• Clean vertical rail and covered gear rack maintain tidy aesthetics</li>
-                                            <li>• Soft-start / soft-stop drive paired with whisper-quiet performance</li>
-                                            <li>• Single-button control and dual wireless remotes for flexible operation</li>
-                                            <li>• Built-in obstruction sensors and retractable seat belt protection</li>
-                                            <li>• Flip-up seat, arms, and footrest preserve staircase space</li>
-                                            <li>• Power swivel seat and folding footrest upgrades available</li>
-                                            <li>• Custom upholstery options help the stairlift blend with décor</li>
-                                            <li>• Backed by Home2Stay installation guidance and ongoing support</li>
+                                            <li>â€¢ Adjustable seat height, armrests, and footrest for a tailored fit</li>
+                                            <li>â€¢ Offset swivel seat simplifies safe dismounts at the top landing</li>
+                                            <li>â€¢ Clean vertical rail and covered gear rack maintain tidy aesthetics</li>
+                                            <li>â€¢ Soft-start / soft-stop drive paired with whisper-quiet performance</li>
+                                            <li>â€¢ Single-button control and dual wireless remotes for flexible operation</li>
+                                            <li>â€¢ Built-in obstruction sensors and retractable seat belt protection</li>
+                                            <li>â€¢ Flip-up seat, arms, and footrest preserve staircase space</li>
+                                            <li>â€¢ Power swivel seat and folding footrest upgrades available</li>
+                                            <li>â€¢ Custom upholstery options help the stairlift blend with dÃ©cor</li>
+                                            <li>â€¢ Backed by Home2Stay installation guidance and ongoing support</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -476,11 +476,11 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
                         would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Bruno Elite Straight Indoor Stairlift">
 
@@ -610,7 +610,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name" value="Bruno Elite Straight Indoor Stairlift">
 
@@ -851,21 +851,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

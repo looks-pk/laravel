@@ -1,7 +1,7 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Professional Tub Cuts in North Vancouver, BC | Home2Stay')
-@section('meta_description', 'Professional tub cuts in North Vancouver, BC. Safe, clean & fast bathtub access upgrades for homes, rentals, condos & care facilities. No full remodel needed — book your free consultation today.')
+@section('meta_description', 'Professional tub cuts in North Vancouver, BC. Safe, clean & fast bathtub access upgrades for homes, rentals, condos & care facilities. No full remodel needed â€” book your free consultation today.')
 
 @push('styles')
 <link rel="stylesheet" href="{{ asset('css/area-page.css') }}">
@@ -17,7 +17,7 @@
                 Professional Tub Cuts in North Vancouver, BC
             </h1>
             <p class="text-xl md:text-1xl mb-8 opacity-90 max-w-xl mx-auto">
-                Want to improve your bathtub access without a complete remodel? That is precisely what our Tub Cuts in North Vancouver provide. We enable safe, clean, and fast bath entry — no clutter, no big disturbance, no compromise on quality. We are the company of trust, speed, and reliability. From consultation to installation, we handle every detail of your North Vancouver tub cut project with total professionalism.
+                Want to improve your bathtub access without a complete remodel? That is precisely what our Tub Cuts in North Vancouver provide. We enable safe, clean, and fast bath entry â€” no clutter, no big disturbance, no compromise on quality. We are the company of trust, speed, and reliability. From consultation to installation, we handle every detail of your North Vancouver tub cut project with total professionalism.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="#contact" class="btn-secondary text-lg px-8 py-4">
@@ -51,23 +51,23 @@
                     </p>
                     <ul class="space-y-3 mb-6">
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                             We provide free on-site consultations for every project.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                             We design each tub cut to fit your bathroom layout perfectly.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                             We use high-grade materials made for Vancouver's conditions.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                             We work efficiently, so you are back to using your bath quickly.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                             We are fully insured and experienced in tub-modification work.
                         </li>
                     </ul>
@@ -92,7 +92,7 @@
                     What Is a Tub Cut and How Does It Work?
                 </h2>
                 <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                    A tub cut means modifying your existing tub so the wall is partially removed, allowing easier step-in access. We manage the full process — you do not need to coordinate multiple trades. We take everything to complete the job smoothly.
+                    A tub cut means modifying your existing tub so the wall is partially removed, allowing easier step-in access. We manage the full process â€” you do not need to coordinate multiple trades. We take everything to complete the job smoothly.
                 </p>
                 <ul class="space-y-4">
                     <li class="flex items-start text-gray-700">
@@ -126,7 +126,7 @@
                     </div>
                     <div class="contact-card">
                         <h3 class="text-lg font-bold text-gray-900 mb-2">Rental or Strata Properties</h3>
-                        <p class="text-gray-600">If you are a landlord or strata manager, our efficient service keeps tenants happy and meets safety standards — upgrading bathrooms without major shutdowns.</p>
+                        <p class="text-gray-600">If you are a landlord or strata manager, our efficient service keeps tenants happy and meets safety standards â€” upgrading bathrooms without major shutdowns.</p>
                     </div>
                     <div class="contact-card">
                         <h3 class="text-lg font-bold text-gray-900 mb-2">Commercial and Care Facilities</h3>
@@ -200,27 +200,27 @@
                     Benefits of Choosing Tub Cuts Over Full Bathroom Remodels
                 </h2>
                 <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                    With Home2stay, your upgrade becomes a smart investment in comfort and accessibility — at a fraction of the cost and disruption of a full renovation.
+                    With Home2stay, your upgrade becomes a smart investment in comfort and accessibility â€” at a fraction of the cost and disruption of a full renovation.
                 </p>
                 <ul class="space-y-4">
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Reduced cost</strong> compared to full bathroom removal and rebuild.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Shorter installation time:</strong> get your bath back faster with minimal wait.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Minimal disruption:</strong> less mess, less downtime, less stress.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Maintains existing design:</strong> keeps your tiling, fixtures, and layout in many cases.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Improves bathroom safety:</strong> aids mobility and reduces fall risk for all users.</div>
                     </li>
                 </ul>
@@ -238,7 +238,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
                         </div>
-                        <p>Low-threshold entrances — easier step-in, less height to climb.</p>
+                        <p>Low-threshold entrances â€” easier step-in, less height to climb.</p>
                     </div>
                     <div class="flex items-start text-gray-700">
                         <div class="service-icon w-10 h-10 mr-4 flex-shrink-0" style="margin-bottom: 0;">
@@ -246,7 +246,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
                         </div>
-                        <p>Non-slip surface treatments — safety first, always.</p>
+                        <p>Non-slip surface treatments â€” safety first, always.</p>
                     </div>
                     <div class="flex items-start text-gray-700">
                         <div class="service-icon w-10 h-10 mr-4 flex-shrink-0" style="margin-bottom: 0;">
@@ -254,7 +254,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
                         </div>
-                        <p>Matching finish options — white, beige, or custom as needed.</p>
+                        <p>Matching finish options â€” white, beige, or custom as needed.</p>
                     </div>
                     <div class="flex items-start text-gray-700">
                         <div class="service-icon w-10 h-10 mr-4 flex-shrink-0" style="margin-bottom: 0;">
@@ -278,7 +278,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
                         </div>
-                        <p>Warranty and support — we commit to durability and stand behind our work.</p>
+                        <p>Warranty and support â€” we commit to durability and stand behind our work.</p>
                     </div>
                 </div>
                 <p class="text-gray-600 mt-6 italic">Our combination of materials and expertise is ideal for North Vancouver's homes, condos, and multi-unit buildings.</p>
@@ -317,7 +317,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Condos</h3>
-                <p class="text-gray-600">Where space matters and minimal disruption is a must — we complete condo tub cuts efficiently and cleanly.</p>
+                <p class="text-gray-600">Where space matters and minimal disruption is a must â€” we complete condo tub cuts efficiently and cleanly.</p>
             </div>
 
             <div class="service-card p-8 text-center">
@@ -327,7 +327,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">High Value Expectations</h3>
-                <p class="text-gray-600">You want a finish that looks good and works well — we deliver a result that meets North Vancouver's quality standards.</p>
+                <p class="text-gray-600">You want a finish that looks good and works well â€” we deliver a result that meets North Vancouver's quality standards.</p>
             </div>
 
             <div class="service-card p-8 text-center">
@@ -337,7 +337,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Weather-Resistive Design</h3>
-                <p class="text-gray-600">Our materials handle North Vancouver's humidity and spill zones — built for BC's moisture-heavy indoor environments.</p>
+                <p class="text-gray-600">Our materials handle North Vancouver's humidity and spill zones â€” built for BC's moisture-heavy indoor environments.</p>
             </div>
         </div>
     </div>
@@ -439,12 +439,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>• North Vancouver (All Areas)</li>
-                                <li>• West Vancouver & Deep Cove</li>
-                                <li>• Vancouver & Burnaby</li>
-                                <li>• Coquitlam & Port Moody</li>
-                                <li>• New Westminster & Richmond</li>
-                                <li>• Greater Vancouver & Lower Mainland</li>
+                                <li>â€¢ North Vancouver (All Areas)</li>
+                                <li>â€¢ West Vancouver & Deep Cove</li>
+                                <li>â€¢ Vancouver & Burnaby</li>
+                                <li>â€¢ Coquitlam & Port Moody</li>
+                                <li>â€¢ New Westminster & Richmond</li>
+                                <li>â€¢ Greater Vancouver & Lower Mainland</li>
                             </ul>
                         </div>
                     </div>
@@ -454,7 +454,7 @@
             <!-- Quick Quote Form -->
             <div class="contact-card">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Get Your Free Quote</h3>
-                <form action="/submit-assessment" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="form_type" value="assessment">
                     <input type="hidden" name="form_source" value="area-north-vancouver_tub-cuts_page_assessment_form">
@@ -529,7 +529,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        Most standard modifications can be completed in 3–6 hours, depending on tub type and bathroom layout.
+                        Most standard modifications can be completed in 3â€“6 hours, depending on tub type and bathroom layout.
                     </div>
                 </div>
             </div>
@@ -600,7 +600,7 @@
             Ready to Book Your Professional Tub Cut?
         </h2>
         <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-            If you are ready to make your bath safer, more accessible, and stylish without a full remodel, Home2stay is ready to assist. Schedule your free consultation now and discover how simple the process can be. We handle everything — design, install, and finish — so you can focus on enjoying your home and your improved bathroom access.
+            If you are ready to make your bath safer, more accessible, and stylish without a full remodel, Home2stay is ready to assist. Schedule your free consultation now and discover how simple the process can be. We handle everything â€” design, install, and finish â€” so you can focus on enjoying your home and your improved bathroom access.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:604-259-1211" class="btn-secondary text-lg px-8 py-4">
@@ -631,11 +631,21 @@ document.addEventListener('DOMContentLoaded', function() {
             const formData = new FormData(this);
             const data = Object.fromEntries(formData);
             if (!data.first_name || !data.last_name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
-            alert('Thank you for your quote request! Our North Vancouver team will contact you within 24 hours.');
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 
@@ -801,15 +811,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 .then(data => {
                     if (typeof data === 'object' && data.success !== undefined) {
                         if (data.success) {
-                            alert(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                            showFlash(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                             this.reset();
                             modal.classList.add('hidden');
                             document.body.style.overflow = 'auto';
                         } else {
-                            alert('Error: ' + (data.message || 'There was an error submitting your request.'));
+                            showFlash('Error: ' + (data.message || 'There was an error submitting your request.'), 'error');
                         }
                     } else {
-                        alert('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                        showFlash('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                         this.reset();
                         modal.classList.add('hidden');
                         document.body.style.overflow = 'auto';
@@ -817,10 +827,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 })
                 .catch(error => {
                     console.error('Error submitting form:', error);
-                    alert('There was an error submitting your request. Please try again or contact us directly.');
+                    showFlash('There was an error submitting your request. Please try again or contact us directly.', 'error');
                 });
             });
         }
     });
 </script>
 @endpush
+
+
+

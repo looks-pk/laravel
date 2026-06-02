@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Flow X Curved Stairlift Vancouver | Custom Mobility Solutions by Home2Stay')
 @section('meta_description', 'Experience effortless mobility with custom-made Flow X Curved Stairlifts in Vancouver. Professional installation by Home2Stay for multi-level and curved staircases.')
@@ -447,18 +447,18 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Key Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>• Custom rail design for every curve and twist</li>
-                                            <li>• Handles complex angles and steep landings</li>
-                                            <li>• Compact design ideal for tight spaces</li>
-                                            <li>• Folding seat and footrest minimize obstruction</li>
-                                            <li>• Energy-efficient motor for quiet operation</li>
-                                            <li>• No jerks or vibrations during movement</li>
-                                            <li>• Modern upholstery colors and finishes</li>
-                                            <li>• Premium materials complement any decor</li>
-                                            <li>• Integrated safety sensors detect obstacles</li>
-                                            <li>• Ergonomic seatbelt for security</li>
-                                            <li>• Automatic swivel technology for easy entry/exit</li>
-                                            <li>• Low energy consumption for cost efficiency</li>
+                                            <li>â€¢ Custom rail design for every curve and twist</li>
+                                            <li>â€¢ Handles complex angles and steep landings</li>
+                                            <li>â€¢ Compact design ideal for tight spaces</li>
+                                            <li>â€¢ Folding seat and footrest minimize obstruction</li>
+                                            <li>â€¢ Energy-efficient motor for quiet operation</li>
+                                            <li>â€¢ No jerks or vibrations during movement</li>
+                                            <li>â€¢ Modern upholstery colors and finishes</li>
+                                            <li>â€¢ Premium materials complement any decor</li>
+                                            <li>â€¢ Integrated safety sensors detect obstacles</li>
+                                            <li>â€¢ Ergonomic seatbelt for security</li>
+                                            <li>â€¢ Automatic swivel technology for easy entry/exit</li>
+                                            <li>â€¢ Low energy consumption for cost efficiency</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -467,16 +467,16 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Professional Installation by Home2Stay</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>• Factory-trained and fully certified installers</li>
-                                            <li>• Compliance with manufacturer standards</li>
-                                            <li>• Meets Canadian accessibility codes</li>
-                                            <li>• Fast on-site assessment and measurement</li>
-                                            <li>• Custom rail fabrication for your staircase</li>
-                                            <li>• Typical installation completed in half a day</li>
-                                            <li>• Comprehensive warranty (parts and labor)</li>
-                                            <li>• Ongoing maintenance services available</li>
-                                            <li>• Quick repair services when needed</li>
-                                            <li>• Annual safety inspections recommended</li>
+                                            <li>â€¢ Factory-trained and fully certified installers</li>
+                                            <li>â€¢ Compliance with manufacturer standards</li>
+                                            <li>â€¢ Meets Canadian accessibility codes</li>
+                                            <li>â€¢ Fast on-site assessment and measurement</li>
+                                            <li>â€¢ Custom rail fabrication for your staircase</li>
+                                            <li>â€¢ Typical installation completed in half a day</li>
+                                            <li>â€¢ Comprehensive warranty (parts and labor)</li>
+                                            <li>â€¢ Ongoing maintenance services available</li>
+                                            <li>â€¢ Quick repair services when needed</li>
+                                            <li>â€¢ Annual safety inspections recommended</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -712,11 +712,11 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
                         would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Flow X Curved Stairlift">
 
@@ -955,7 +955,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name" value="Flow X Curved Stairlift">
 
@@ -1266,21 +1266,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

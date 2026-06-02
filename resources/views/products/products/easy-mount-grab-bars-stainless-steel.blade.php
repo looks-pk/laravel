@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Home2stay Easy Mount Grab Bars(Stainless Steel) - Home2stay')
 @section('meta_description', 'Easy Mount Grab Bars provide safety and security in the bathroom, shower and any room in your house. With nine-hole [&hellip;]')
@@ -210,7 +210,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Six Length Sizes</h3>
-                                            <p class="text-gray-600">Available in six different length sizes (12″, 18″, 24″, 32″, 36″, 42″) to fit any installation space and requirement.</p>
+                                            <p class="text-gray-600">Available in six different length sizes (12â€³, 18â€³, 24â€³, 32â€³, 36â€³, 42â€³) to fit any installation space and requirement.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -222,7 +222,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Three Finish Options</h3>
-                                            <p class="text-gray-600">Choose from three finish/colour options: Knurled Stainless Steel, Chrome Polish, or Smooth White to match your décor.</p>
+                                            <p class="text-gray-600">Choose from three finish/colour options: Knurled Stainless Steel, Chrome Polish, or Smooth White to match your dÃ©cor.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -258,7 +258,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">ADA Compliant Design</h3>
-                                            <p class="text-gray-600">Features 1.25″ rail diameter and 1.50″ wall clearance that meets ADA compliance standards for accessibility.</p>
+                                            <p class="text-gray-600">Features 1.25â€³ rail diameter and 1.50â€³ wall clearance that meets ADA compliance standards for accessibility.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -270,7 +270,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">500 lbs Weight Capacity</h3>
-                                            <p class="text-gray-600">Supports up to 500 lbs for lengths 12″, 18″, and 24″, providing reliable assistance for users of all sizes.</p>
+                                            <p class="text-gray-600">Supports up to 500 lbs for lengths 12â€³, 18â€³, and 24â€³, providing reliable assistance for users of all sizes.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -310,23 +310,23 @@
                                         <h4 class="font-semibold text-gray-800 mb-3">Smooth White Finish</h4>
                                         <div class="space-y-2">
                                             <div class="flex justify-between items-center border-b pb-1">
-                                                <span class="text-gray-700">12″ Grab Bar:</span>
+                                                <span class="text-gray-700">12â€³ Grab Bar:</span>
                                                 <span class="font-semibold text-primary">$44 + installation</span>
                                             </div>
                                             <div class="flex justify-between items-center border-b pb-1">
-                                                <span class="text-gray-700">18″ Grab Bar:</span>
+                                                <span class="text-gray-700">18â€³ Grab Bar:</span>
                                                 <span class="font-semibold text-primary">$48 + installation</span>
                                             </div>
                                             <div class="flex justify-between items-center border-b pb-1">
-                                                <span class="text-gray-700">24″ Grab Bar:</span>
+                                                <span class="text-gray-700">24â€³ Grab Bar:</span>
                                                 <span class="font-semibold text-primary">$52 + installation</span>
                                             </div>
                                             <div class="flex justify-between items-center border-b pb-1">
-                                                <span class="text-gray-700">32″ Grab Bar:</span>
+                                                <span class="text-gray-700">32â€³ Grab Bar:</span>
                                                 <span class="font-semibold text-primary">$62 + installation</span>
                                             </div>
                                             <div class="flex justify-between items-center">
-                                                <span class="text-gray-700">36″ Grab Bar:</span>
+                                                <span class="text-gray-700">36â€³ Grab Bar:</span>
                                                 <span class="font-semibold text-primary">$68 + installation</span>
                                             </div>
                                         </div>
@@ -337,15 +337,15 @@
                                         <h4 class="font-semibold text-gray-800 mb-3">Chrome Polish Finish</h4>
                                         <div class="space-y-2">
                                             <div class="flex justify-between items-center border-b pb-1">
-                                                <span class="text-gray-700">12″ Grab Bar:</span>
+                                                <span class="text-gray-700">12â€³ Grab Bar:</span>
                                                 <span class="font-semibold text-primary">$46 + installation</span>
                                             </div>
                                             <div class="flex justify-between items-center border-b pb-1">
-                                                <span class="text-gray-700">18″ Grab Bar:</span>
+                                                <span class="text-gray-700">18â€³ Grab Bar:</span>
                                                 <span class="font-semibold text-primary">$49 + installation</span>
                                             </div>
                                             <div class="flex justify-between items-center">
-                                                <span class="text-gray-700">24″ Grab Bar:</span>
+                                                <span class="text-gray-700">24â€³ Grab Bar:</span>
                                                 <span class="font-semibold text-primary">$51 + installation</span>
                                             </div>
                                         </div>
@@ -356,27 +356,27 @@
                                         <h4 class="font-semibold text-gray-800 mb-3">Knurled Stainless Steel</h4>
                                         <div class="space-y-2">
                                             <div class="flex justify-between items-center border-b pb-1">
-                                                <span class="text-gray-700">12″ Knurled Grab Bar:</span>
+                                                <span class="text-gray-700">12â€³ Knurled Grab Bar:</span>
                                                 <span class="font-semibold text-primary">$43 + installation</span>
                                             </div>
                                             <div class="flex justify-between items-center border-b pb-1">
-                                                <span class="text-gray-700">18″ Knurled Grab Bar:</span>
+                                                <span class="text-gray-700">18â€³ Knurled Grab Bar:</span>
                                                 <span class="font-semibold text-primary">$49 + installation</span>
                                             </div>
                                             <div class="flex justify-between items-center border-b pb-1">
-                                                <span class="text-gray-700">24″ Knurled Grab Bar:</span>
+                                                <span class="text-gray-700">24â€³ Knurled Grab Bar:</span>
                                                 <span class="font-semibold text-primary">$54 + installation</span>
                                             </div>
                                             <div class="flex justify-between items-center border-b pb-1">
-                                                <span class="text-gray-700">32″ Knurled Grab Bar:</span>
+                                                <span class="text-gray-700">32â€³ Knurled Grab Bar:</span>
                                                 <span class="font-semibold text-primary">$62 + installation</span>
                                             </div>
                                             <div class="flex justify-between items-center border-b pb-1">
-                                                <span class="text-gray-700">36″ Knurled Grab Bar:</span>
+                                                <span class="text-gray-700">36â€³ Knurled Grab Bar:</span>
                                                 <span class="font-semibold text-primary">$74 + installation</span>
                                             </div>
                                             <div class="flex justify-between items-center">
-                                                <span class="text-gray-700">42″ Knurled Grab Bar:</span>
+                                                <span class="text-gray-700">42â€³ Knurled Grab Bar:</span>
                                                 <span class="font-semibold text-primary">$79 + installation</span>
                                             </div>
                                         </div>
@@ -429,19 +429,19 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Weight Capacity:</span>
-                                                <span class="text-gray-600">500 lbs (12″, 18″, 24″)</span>
+                                                <span class="text-gray-600">500 lbs (12â€³, 18â€³, 24â€³)</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Rail Diameter:</span>
-                                                <span class="text-gray-600">1.25″ (ADA Compliant)</span>
+                                                <span class="text-gray-600">1.25â€³ (ADA Compliant)</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Wall Clearance:</span>
-                                                <span class="text-gray-600">1.50″ (ADA Compliant)</span>
+                                                <span class="text-gray-600">1.50â€³ (ADA Compliant)</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Grab Bar Lengths:</span>
-                                                <span class="text-gray-600">12″, 18″, 24″, 32″, 36″, 42″</span>
+                                                <span class="text-gray-600">12â€³, 18â€³, 24â€³, 32â€³, 36â€³, 42â€³</span>
                                             </div>
                                         </div>
                                         <div class="space-y-3">
@@ -459,7 +459,7 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Hardware:</span>
-                                                <span class="text-gray-600">#10×2″ S/S screws (x6)</span>
+                                                <span class="text-gray-600">#10Ã—2â€³ S/S screws (x6)</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Fasteners:</span>
@@ -615,11 +615,11 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
                         would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Home2stay Easy Mount Grab Bars (Stainless Steel)">
 
@@ -653,59 +653,59 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="product_option" value="12_smooth_white" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">12″ Smooth White ($44)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">12â€³ Smooth White ($44)</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="product_option" value="12_chrome_polish" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">12″ Chrome Polish ($46)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">12â€³ Chrome Polish ($46)</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="product_option" value="12_knurled_steel" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">12″ Knurled Steel ($43)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">12â€³ Knurled Steel ($43)</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="product_option" value="18_smooth_white" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">18″ Smooth White ($48)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">18â€³ Smooth White ($48)</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="product_option" value="18_chrome_polish" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">18″ Chrome Polish ($49)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">18â€³ Chrome Polish ($49)</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="product_option" value="18_knurled_steel" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">18″ Knurled Steel ($49)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">18â€³ Knurled Steel ($49)</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="product_option" value="24_smooth_white" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">24″ Smooth White ($52)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">24â€³ Smooth White ($52)</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="product_option" value="24_chrome_polish" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">24″ Chrome Polish ($51)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">24â€³ Chrome Polish ($51)</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="product_option" value="24_knurled_steel" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">24″ Knurled Steel ($54)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">24â€³ Knurled Steel ($54)</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="product_option" value="32_smooth_white" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">32″ Smooth White ($62)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">32â€³ Smooth White ($62)</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="product_option" value="32_knurled_steel" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">32″ Knurled Steel ($62)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">32â€³ Knurled Steel ($62)</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="product_option" value="36_smooth_white" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">36″ Smooth White ($68)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">36â€³ Smooth White ($68)</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="product_option" value="36_knurled_steel" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">36″ Knurled Steel ($74)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">36â€³ Knurled Steel ($74)</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="product_option" value="42_knurled_steel" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">42″ Knurled Steel ($79)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">42â€³ Knurled Steel ($79)</span>
                             </label>
                         </div>
                     </div>
@@ -812,7 +812,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name" value="Home2stay Easy Mount Grab Bars (Stainless Steel)">
 
@@ -830,59 +830,59 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                             <label class="flex items-center">
                                 <input type="radio" name="product_option" value="12_smooth_white" class="mr-2">
-                                <span>12″ Smooth White ($44)</span>
+                                <span>12â€³ Smooth White ($44)</span>
                             </label>
                             <label class="flex items-center">
                                 <input type="radio" name="product_option" value="12_chrome_polish" class="mr-2">
-                                <span>12″ Chrome Polish ($46)</span>
+                                <span>12â€³ Chrome Polish ($46)</span>
                             </label>
                             <label class="flex items-center">
                                 <input type="radio" name="product_option" value="12_knurled_steel" class="mr-2">
-                                <span>12″ Knurled Steel ($43)</span>
+                                <span>12â€³ Knurled Steel ($43)</span>
                             </label>
                             <label class="flex items-center">
                                 <input type="radio" name="product_option" value="18_smooth_white" class="mr-2">
-                                <span>18″ Smooth White ($48)</span>
+                                <span>18â€³ Smooth White ($48)</span>
                             </label>
                             <label class="flex items-center">
                                 <input type="radio" name="product_option" value="18_chrome_polish" class="mr-2">
-                                <span>18″ Chrome Polish ($49)</span>
+                                <span>18â€³ Chrome Polish ($49)</span>
                             </label>
                             <label class="flex items-center">
                                 <input type="radio" name="product_option" value="18_knurled_steel" class="mr-2">
-                                <span>18″ Knurled Steel ($49)</span>
+                                <span>18â€³ Knurled Steel ($49)</span>
                             </label>
                             <label class="flex items-center">
                                 <input type="radio" name="product_option" value="24_smooth_white" class="mr-2">
-                                <span>24″ Smooth White ($52)</span>
+                                <span>24â€³ Smooth White ($52)</span>
                             </label>
                             <label class="flex items-center">
                                 <input type="radio" name="product_option" value="24_chrome_polish" class="mr-2">
-                                <span>24″ Chrome Polish ($51)</span>
+                                <span>24â€³ Chrome Polish ($51)</span>
                             </label>
                             <label class="flex items-center">
                                 <input type="radio" name="product_option" value="24_knurled_steel" class="mr-2">
-                                <span>24″ Knurled Steel ($54)</span>
+                                <span>24â€³ Knurled Steel ($54)</span>
                             </label>
                             <label class="flex items-center">
                                 <input type="radio" name="product_option" value="32_smooth_white" class="mr-2">
-                                <span>32″ Smooth White ($62)</span>
+                                <span>32â€³ Smooth White ($62)</span>
                             </label>
                             <label class="flex items-center">
                                 <input type="radio" name="product_option" value="32_knurled_steel" class="mr-2">
-                                <span>32″ Knurled Steel ($62)</span>
+                                <span>32â€³ Knurled Steel ($62)</span>
                             </label>
                             <label class="flex items-center">
                                 <input type="radio" name="product_option" value="36_smooth_white" class="mr-2">
-                                <span>36″ Smooth White ($68)</span>
+                                <span>36â€³ Smooth White ($68)</span>
                             </label>
                             <label class="flex items-center">
                                 <input type="radio" name="product_option" value="36_knurled_steel" class="mr-2">
-                                <span>36″ Knurled Steel ($74)</span>
+                                <span>36â€³ Knurled Steel ($74)</span>
                             </label>
                             <label class="flex items-center">
                                 <input type="radio" name="product_option" value="42_knurled_steel" class="mr-2">
-                                <span>42″ Knurled Steel ($79)</span>
+                                <span>42â€³ Knurled Steel ($79)</span>
                             </label>
                         </div>
                     </div>
@@ -1085,21 +1085,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

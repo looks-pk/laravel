@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Professional Stair Lifts in Surrey, BC - Home2stay')
 @section('meta_description', 'Professional stair lifts in Surrey, BC. Ready to enhance your mobility and independence? Contact us today to schedule your free in-home assessment.')
@@ -172,12 +172,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>• Surrey (All Areas)</li>
-                                <li>• White Rock & Delta</li>
-                                <li>• Vancouver & Burnaby</li>
-                                <li>• Langley & Abbotsford</li>
-                                <li>• Richmond & Coquitlam</li>
-                                <li>• Port Coquitlam & Mission</li>
+                                <li>â€¢ Surrey (All Areas)</li>
+                                <li>â€¢ White Rock & Delta</li>
+                                <li>â€¢ Vancouver & Burnaby</li>
+                                <li>â€¢ Langley & Abbotsford</li>
+                                <li>â€¢ Richmond & Coquitlam</li>
+                                <li>â€¢ Port Coquitlam & Mission</li>
                             </ul>
                         </div>
                     </div>
@@ -187,7 +187,7 @@
             <!-- Quick Quote Form -->
             <div class="contact-card">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Get Your Free Quote</h3>
-                <form action="/submit-assessment" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                 @csrf
                 <input type="hidden" name="form_type" value="assessment">
                     <input type="hidden" name="form_source" value="area-surrey_page_assessment_form">
@@ -369,9 +369,9 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Commercial Models Available</h3>
                 <div class="text-gray-600 space-y-3">
-                    <p><strong>Stannah 260 – Commercial (Indoor):</strong> Designed for high-traffic areas, this model withstands repetitive use, ensuring longevity and performance.</p>
-                    <p><strong>K2 Plus – Commercial:</strong> A cost-effective solution for straight staircases, balancing quality and affordability.</p>
-                    <p><strong>Stairfriend – Commercial:</strong> A versatile option suitable for various commercial settings, providing reliable service.</p>
+                    <p><strong>Stannah 260 â€“ Commercial (Indoor):</strong> Designed for high-traffic areas, this model withstands repetitive use, ensuring longevity and performance.</p>
+                    <p><strong>K2 Plus â€“ Commercial:</strong> A cost-effective solution for straight staircases, balancing quality and affordability.</p>
+                    <p><strong>Stairfriend â€“ Commercial:</strong> A versatile option suitable for various commercial settings, providing reliable service.</p>
                 </div>
             </div>
         </div>
@@ -585,15 +585,22 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Basic validation
             if (!data.first_name || !data.last_name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
             
-            // Here you would typically send the data to your server
-            alert('Thank you for your quote request! Our Surrey team will contact you within 24 hours.');
-            
-            // Reset form
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 
@@ -634,3 +641,4 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 @endpush
+

@@ -1,6 +1,6 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
-@section('title', 'Home2Stay – Bruno Elan Straight Stairlift - Home2Stay')
+@section('title', 'Home2Stay â€“ Bruno Elan Straight Stairlift - Home2Stay')
 @section('meta_description', 'Discover the Home2Stay Bruno Elan Straight Stairlift: effortless access, safety, and everyday freedom for straight indoor staircases.')
 
 @section('content')
@@ -109,7 +109,7 @@
                         <p>The Bruno Elan Straight Stairlift is a premium mobility solution designed to help you or your loved ones navigate staircases with confidence, comfort, and independence. Engineered with precision and a focus on intuitive usability, this stairlift blends sleek design with reliable performance, making it one of the most sought-after straight stairlift models on the market.</p>
                         <div class="space-y-3">
                             <h3 class="text-xl font-semibold text-gray-800">Why Choose the Bruno Elan Stairlift?</h3>
-                            <p>Crafted for straight indoor staircases, the Bruno Elan redefines what a residential stairlift should be, offering a perfect balance of style, safety, and functionality. It’s best for homes with limited stair space and delivers a seamless experience every time.</p>
+                            <p>Crafted for straight indoor staircases, the Bruno Elan redefines what a residential stairlift should be, offering a perfect balance of style, safety, and functionality. Itâ€™s best for homes with limited stair space and delivers a seamless experience every time.</p>
                         </div>
                     </div>
                     <div class="mb-6 p-4 bg-green-50 border-l-4 border-green-400 rounded-r-lg">
@@ -171,7 +171,7 @@
                                             <li><strong>Simple, Smooth Operation:</strong> Control the stairlift effortlessly from the armrest or with the included wireless remotes, perfect for users of all abilities. The Elan ensures quiet, fluid travel up and down the staircase.</li>
                                             <li><strong>Space-Saving Masterpiece:</strong> Thanks to its narrow, vertical rail design, this stairlift installs close to the wall, preserving valuable stairway space so family members can walk freely alongside it.</li>
                                             <li><strong>Designed for Everyday Comfort:</strong> The foldable seat, armrests, and footrest allow the stairlift to remain compact when not in use, maximising accessibility for everyone.</li>
-                                            <li><strong>Safe, Secure, Dependable:</strong> Safety features like a retractable seat belt, obstruction sensors, and a swivel seat, which turns up to 90° at the top landing, make exiting the lift effortless and risk-free.</li>
+                                            <li><strong>Safe, Secure, Dependable:</strong> Safety features like a retractable seat belt, obstruction sensors, and a swivel seat, which turns up to 90Â° at the top landing, make exiting the lift effortless and risk-free.</li>
                                             <li><strong>Reliable Power, Even During Outages:</strong> Equipped with two 12-volt batteries that continuously charge along the rail, the Elan stairlift continues to operate even if the power goes out.</li>
                                         </ul>
                                     </div>
@@ -180,8 +180,8 @@
                                         <ul class="space-y-2 list-disc list-inside">
                                             <li>Model: SRE-3050</li>
                                             <li>Compact Rail: Installs within 5 in (127 mm) of the wall</li>
-                                            <li>Seat Pad Size: ~15.75″ wide × 16.75″ deep</li>
-                                            <li>Footrest Dimensions: ~10.5″ long × 11″ wide</li>
+                                            <li>Seat Pad Size: ~15.75â€³ wide Ã— 16.75â€³ deep</li>
+                                            <li>Footrest Dimensions: ~10.5â€³ long Ã— 11â€³ wide</li>
                                             <li>Lift Capacity: Up to 300 lbs (136 kg)</li>
                                         </ul>
                                     </div>
@@ -196,7 +196,7 @@
                                     </div>
                                     <div class="space-y-3">
                                         <h3 class="text-xl font-semibold text-gray-800">Who Is This For?</h3>
-                                        <p>Whether mobility challenges limit stair use or you’re planning for the future, the Bruno Elan Stairlift offers:</p>
+                                        <p>Whether mobility challenges limit stair use or youâ€™re planning for the future, the Bruno Elan Stairlift offers:</p>
                                         <ul class="space-y-2 list-disc list-inside">
                                             <li>Safe, dignified stair access for seniors</li>
                                             <li>Reliable support for users with limited mobility</li>
@@ -271,11 +271,11 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Seat Pad Size:</span>
-                                                <span class="text-gray-600">~15.75″ W × 16.75″ D</span>
+                                                <span class="text-gray-600">~15.75â€³ W Ã— 16.75â€³ D</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Footrest Dimensions:</span>
-                                                <span class="text-gray-600">~10.5″ L × 11″ W</span>
+                                                <span class="text-gray-600">~10.5â€³ L Ã— 11â€³ W</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Lift Capacity:</span>
@@ -293,7 +293,7 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Safety:</span>
-                                                <span class="text-gray-600">Retractable belt, obstruction sensors, 90° swivel seat</span>
+                                                <span class="text-gray-600">Retractable belt, obstruction sensors, 90Â° swivel seat</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Controls:</span>
@@ -311,16 +311,16 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>• Simple, smooth armrest controls plus wireless remotes</li>
-                                            <li>• Space-saving rail installs within inches of the wall</li>
-                                            <li>• Foldable seat, armrests, and footrest keep stairs clear</li>
-                                            <li>• Retractable seat belt, obstruction sensors, and 90° swivel seat</li>
-                                            <li>• Dual 12-volt batteries maintain operation during outages</li>
-                                            <li>• Seat pad ~15.75″ × 16.75″ for everyday comfort</li>
-                                            <li>• Footrest ~10.5″ × 11″ for stable boarding</li>
-                                            <li>• Supports riders up to 300 lbs (136 kg)</li>
-                                            <li>• Optional power swivel seat, folding rail, and power folding footrest</li>
-                                            <li>• Home2Stay promise of lasting performance and peace of mind</li>
+                                            <li>â€¢ Simple, smooth armrest controls plus wireless remotes</li>
+                                            <li>â€¢ Space-saving rail installs within inches of the wall</li>
+                                            <li>â€¢ Foldable seat, armrests, and footrest keep stairs clear</li>
+                                            <li>â€¢ Retractable seat belt, obstruction sensors, and 90Â° swivel seat</li>
+                                            <li>â€¢ Dual 12-volt batteries maintain operation during outages</li>
+                                            <li>â€¢ Seat pad ~15.75â€³ Ã— 16.75â€³ for everyday comfort</li>
+                                            <li>â€¢ Footrest ~10.5â€³ Ã— 11â€³ for stable boarding</li>
+                                            <li>â€¢ Supports riders up to 300 lbs (136 kg)</li>
+                                            <li>â€¢ Optional power swivel seat, folding rail, and power folding footrest</li>
+                                            <li>â€¢ Home2Stay promise of lasting performance and peace of mind</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -455,13 +455,13 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
                         would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
-                    <input type="hidden" name="product" value="Home2Stay – Bruno Elan Straight Stairlift">
+                    <input type="hidden" name="product" value="Home2Stay â€“ Bruno Elan Straight Stairlift">
 
                     <!-- Personal Information -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -526,7 +526,7 @@
                         <label class="block text-gray-700 font-medium mb-2" for="message">Additional Information</label>
                         <textarea id="message" name="message" rows="4"
                             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-                            placeholder="Please describe your straight staircase, mobility needs, or any questions about the Home2Stay – Bruno Elan Straight Stairlift."></textarea>
+                            placeholder="Please describe your straight staircase, mobility needs, or any questions about the Home2Stay â€“ Bruno Elan Straight Stairlift."></textarea>
                     </div>
 
                     <!-- Submit Button -->
@@ -589,15 +589,15 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
-                    <input type="hidden" id="product_name" name="product_name" value="Home2Stay – Bruno Elan Straight Stairlift">
+                    <input type="hidden" id="product_name" name="product_name" value="Home2Stay â€“ Bruno Elan Straight Stairlift">
 
                     <!-- Product Info Section -->
                     <div class="mb-6">
                         <h4 class="text-lg font-semibold mb-4 text-primary">Product Information</h4>
                         <div class="p-3 bg-gray-50 rounded-lg mb-4">
-                            <p>You're requesting a quote for: <span class="font-semibold text-primary">Home2Stay – Bruno Elan Straight Stairlift</span></p>
+                            <p>You're requesting a quote for: <span class="font-semibold text-primary">Home2Stay â€“ Bruno Elan Straight Stairlift</span></p>
                         </div>
                     </div>
 
@@ -670,7 +670,7 @@
                                 Details</label>
                             <textarea id="comments" name="comments" rows="3"
                                 class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                                placeholder="Please describe your straight staircase, mobility needs, or any questions about the Home2Stay – Bruno Elan Straight Stairlift."></textarea>
+                                placeholder="Please describe your straight staircase, mobility needs, or any questions about the Home2Stay â€“ Bruno Elan Straight Stairlift."></textarea>
                         </div>
                     </div>
 
@@ -830,21 +830,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

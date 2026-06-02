@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Home2stay Bed Rail - Home2stay')
 @section('meta_description', 'The Smart-Rail locks against the side of the bed to help laying down and moving in bed.Unlike fixed bed rails, [&hellip;]')
@@ -350,17 +350,17 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Rail Diameter:</span>
-                                                <span class="text-gray-600">1.5″ / 38mm</span>
+                                                <span class="text-gray-600">1.5â€³ / 38mm</span>
                                             </div>
                                         </div>
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Rail Length:</span>
-                                                <span class="text-gray-600">16.25″ / 413mm</span>
+                                                <span class="text-gray-600">16.25â€³ / 413mm</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Height Range:</span>
-                                                <span class="text-gray-600">27-36″ / 699-921mm</span>
+                                                <span class="text-gray-600">27-36â€³ / 699-921mm</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Warranty:</span>
@@ -378,13 +378,13 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>• Smart locking mechanism against the side of the bed</li>
-                                            <li>• Unlocks and swings open for improved standing support</li>
-                                            <li>• Open rail moves to center gravity - no twisting or reaching</li>
-                                            <li>• Adjustable height to suit mattress and comfort</li>
-                                            <li>• Durable alloy steel construction with powder coat finish</li>
-                                            <li>• High weight capacity of 300 lbs (136 kg)</li>
-                                            <li>• Available for next-day delivery and installation</li>
+                                            <li>â€¢ Smart locking mechanism against the side of the bed</li>
+                                            <li>â€¢ Unlocks and swings open for improved standing support</li>
+                                            <li>â€¢ Open rail moves to center gravity - no twisting or reaching</li>
+                                            <li>â€¢ Adjustable height to suit mattress and comfort</li>
+                                            <li>â€¢ Durable alloy steel construction with powder coat finish</li>
+                                            <li>â€¢ High weight capacity of 300 lbs (136 kg)</li>
+                                            <li>â€¢ Available for next-day delivery and installation</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -519,11 +519,11 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
                         would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Home2stay Bed Rail">
 
@@ -653,7 +653,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name" value="Home2stay Bed Rail">
 
@@ -894,21 +894,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

@@ -1,7 +1,7 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Home2stay Walk-In Bathtubs - Home2stay')
-@section('meta_description', 'American Tubs’ Walk-In Bathtubs are designed for safe, worry-free bathing. Accommodates the needs of seniors, people with mobility challenges, and [&hellip;]')
+@section('meta_description', 'American Tubsâ€™ Walk-In Bathtubs are designed for safe, worry-free bathing. Accommodates the needs of seniors, people with mobility challenges, and [&hellip;]')
 
 @section('content')
     <!-- Hero Section -->
@@ -258,7 +258,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Wall Extension Kit</h3>
-                                            <p class="text-gray-600">Fits any standard 60″ tub opening with included wall extension kit for seamless installation.</p>
+                                            <p class="text-gray-600">Fits any standard 60â€³ tub opening with included wall extension kit for seamless installation.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -321,7 +321,7 @@
                                                 <p>* High quality fiberglass construction</p>
                                                 <p>* Durable gel coat surface</p>
                                                 <p>* Anti-slip floor and built-in safety bar</p>
-                                                <p>* Wall extension kit for standard 60″ openings</p>
+                                                <p>* Wall extension kit for standard 60â€³ openings</p>
                                                 <p>* Free, no-obligation home consultation</p>
                                             </div>
                                         </div>
@@ -414,7 +414,7 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Installation Type:</span>
-                                                <span class="text-gray-600">Standard 60″ tub opening</span>
+                                                <span class="text-gray-600">Standard 60â€³ tub opening</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Material:</span>
@@ -466,18 +466,18 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>• Designed for safe, worry-free bathing</li>
-                                            <li>• Accommodates seniors and people with mobility challenges</li>
-                                            <li>• Helps users regain confidence for independent bathing</li>
-                                            <li>• High quality fiberglass construction with excellent color uniformity</li>
-                                            <li>• Durable gel coat surface with easy-to-clean high gloss finish</li>
-                                            <li>• Anti-slip floor for secure footing while bathing</li>
-                                            <li>• Built-in safety bar for entry and exit support</li>
-                                            <li>• Door-sill with silicone rubber seal for leak resistance</li>
-                                            <li>• Light-weight moveable door for easy operation</li>
-                                            <li>• Wall extension kit to fit any standard 60″ tub opening</li>
-                                            <li>• Removable access panel for convenient maintenance</li>
-                                            <li>• Choose from 15 of the safest walk-in bathtub models</li>
+                                            <li>â€¢ Designed for safe, worry-free bathing</li>
+                                            <li>â€¢ Accommodates seniors and people with mobility challenges</li>
+                                            <li>â€¢ Helps users regain confidence for independent bathing</li>
+                                            <li>â€¢ High quality fiberglass construction with excellent color uniformity</li>
+                                            <li>â€¢ Durable gel coat surface with easy-to-clean high gloss finish</li>
+                                            <li>â€¢ Anti-slip floor for secure footing while bathing</li>
+                                            <li>â€¢ Built-in safety bar for entry and exit support</li>
+                                            <li>â€¢ Door-sill with silicone rubber seal for leak resistance</li>
+                                            <li>â€¢ Light-weight moveable door for easy operation</li>
+                                            <li>â€¢ Wall extension kit to fit any standard 60â€³ tub opening</li>
+                                            <li>â€¢ Removable access panel for convenient maintenance</li>
+                                            <li>â€¢ Choose from 15 of the safest walk-in bathtub models</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -486,13 +486,13 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Installation & Consultation</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>• Free, no-obligation home consultation available</li>
-                                            <li>• Professional installation included in pricing</li>
-                                            <li>• Fits standard 60″ tub openings with wall extension kit</li>
-                                            <li>• Expert help to select the perfect bathtub for your needs</li>
-                                            <li>• Customized pricing available based on your requirements</li>
-                                            <li>• Professional assessment of your bathroom space</li>
-                                            <li>• Guidance on model selection from 15 available options</li>
+                                            <li>â€¢ Free, no-obligation home consultation available</li>
+                                            <li>â€¢ Professional installation included in pricing</li>
+                                            <li>â€¢ Fits standard 60â€³ tub openings with wall extension kit</li>
+                                            <li>â€¢ Expert help to select the perfect bathtub for your needs</li>
+                                            <li>â€¢ Customized pricing available based on your requirements</li>
+                                            <li>â€¢ Professional assessment of your bathroom space</li>
+                                            <li>â€¢ Guidance on model selection from 15 available options</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -627,11 +627,11 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
                         would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Home2stay Walk-In Bathtubs">
 
@@ -866,7 +866,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name" value="Home2stay Walk-In Bathtubs">
 
@@ -1208,21 +1208,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

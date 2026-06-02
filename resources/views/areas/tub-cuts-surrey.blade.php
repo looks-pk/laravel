@@ -1,7 +1,7 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Commercial Tub Cuts in Surrey, BC | Home2Stay')
-@section('meta_description', 'Professional commercial tub cuts in Surrey, BC. Trusted tub cut dealers for hotels, clinics, senior living, rentals & multi-unit buildings. Fast, durable & code-compliant — book your free site evaluation today.')
+@section('meta_description', 'Professional commercial tub cuts in Surrey, BC. Trusted tub cut dealers for hotels, clinics, senior living, rentals & multi-unit buildings. Fast, durable & code-compliant â€” book your free site evaluation today.')
 
 @push('styles')
 <link rel="stylesheet" href="{{ asset('css/area-page.css') }}">
@@ -18,7 +18,7 @@
                 Commercial Tub Cuts in Surrey, BC
             </h1>
             <p class="text-xl md:text-1xl mb-8 opacity-90 max-w-xl mx-auto">
-                Running a business, clinic, rental property, or multi-unit building in Surrey and need safe, reliable bath access? Home2stay specialises in Commercial Tub Cuts in Surrey designed for high-use settings. As trusted Tub Cuts Dealers in Surrey, BC, we supply and install the access solutions your facility needs — from hotel suites and outpatient clinics to senior living baths and rental units — handling everything from assessment to completion on your timeline and budget.
+                Running a business, clinic, rental property, or multi-unit building in Surrey and need safe, reliable bath access? Home2stay specialises in Commercial Tub Cuts in Surrey designed for high-use settings. As trusted Tub Cuts Dealers in Surrey, BC, we supply and install the access solutions your facility needs â€” from hotel suites and outpatient clinics to senior living baths and rental units â€” handling everything from assessment to completion on your timeline and budget.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="#contact" class="btn-secondary text-lg px-8 py-4">
@@ -47,31 +47,31 @@
                     Why Home2stay Is the Right Choice for Your Tub Cut Project
                 </h2>
                 <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                    When you need a commercial tub cut upgrade in Surrey, you need to trust your provider. Here is what sets Home2stay apart — you are putting money into a solution, not a patch-up.
+                    When you need a commercial tub cut upgrade in Surrey, you need to trust your provider. Here is what sets Home2stay apart â€” you are putting money into a solution, not a patch-up.
                 </p>
                 <ul class="space-y-3">
                     <li class="flex items-start text-gray-700">
-                        <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                        <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                         We understand commercial-scale and high-traffic requirements.
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                        <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                         We collaborate with facility managers, property owners, and strata boards to meet accessibility standards.
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                        <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                         Free site analysis with real options and explicit, transparent pricing.
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                        <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                         Installations that respect your operations and leave a clean, professional finish.
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
-                        Dealer-installer in one — one crew, one price, one program from start to finish.
+                        <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                        Dealer-installer in one â€” one crew, one price, one program from start to finish.
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                        <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                         Durable products built for frequently used wet zones and commercial environments.
                     </li>
                 </ul>
@@ -91,7 +91,7 @@
                 What the Commercial Tub Cut Service Covers
             </h2>
             <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                Our service covers every step of your tub cut project to ensure a flawless experience — as your local Tub Cuts Dealers in Surrey, BC, we supply and professionally install.
+                Our service covers every step of your tub cut project to ensure a flawless experience â€” as your local Tub Cuts Dealers in Surrey, BC, we supply and professionally install.
             </p>
         </div>
 
@@ -99,12 +99,12 @@
             <div class="step-card">
                 <div class="step-number">1</div>
                 <h3 class="text-xl font-bold text-gray-900 mb-3">On-Site Evaluation</h3>
-                <p class="text-gray-600">We visit your Surrey facility, inspect the bathtub, assess deck height, tile and wall condition, and plumbing access. We discuss your objectives — safer access, faster turnover, accessibility compliance, or tenant satisfaction.</p>
+                <p class="text-gray-600">We visit your Surrey facility, inspect the bathtub, assess deck height, tile and wall condition, and plumbing access. We discuss your objectives â€” safer access, faster turnover, accessibility compliance, or tenant satisfaction.</p>
             </div>
             <div class="step-card">
                 <div class="step-number">2</div>
                 <h3 class="text-xl font-bold text-gray-900 mb-3">Custom Project Plan & Transparent Quote</h3>
-                <p class="text-gray-600">We deliver a detailed design — how much tub wall to remove, what threshold or insert to install, finish choices, compliance features, schedule, and budget. You make an informed decision before anything begins.</p>
+                <p class="text-gray-600">We deliver a detailed design â€” how much tub wall to remove, what threshold or insert to install, finish choices, compliance features, schedule, and budget. You make an informed decision before anything begins.</p>
             </div>
             <div class="step-card">
                 <div class="step-number">3</div>
@@ -114,7 +114,7 @@
             <div class="step-card">
                 <div class="step-number">4</div>
                 <h3 class="text-xl font-bold text-gray-900 mb-3">Final Review & Support</h3>
-                <p class="text-gray-600">We test the access, walk you through the completed unit, check quality, and confirm your satisfaction. Warranty details and ongoing support are provided — this upgrade means quicker turnovers and greater usability for your rental or commercial property.</p>
+                <p class="text-gray-600">We test the access, walk you through the completed unit, check quality, and confirm your satisfaction. Warranty details and ongoing support are provided â€” this upgrade means quicker turnovers and greater usability for your rental or commercial property.</p>
             </div>
         </div>
     </div>
@@ -140,7 +140,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Commercial Installations</h3>
-                <p class="text-gray-600">For hotels, clinics, senior residences, spas, and multi-unit rental buildings in Surrey — our commercial tub-cut solutions prioritise durability, occupant safety, regulatory compliance, and minimum operational downtime.</p>
+                <p class="text-gray-600">For hotels, clinics, senior residences, spas, and multi-unit rental buildings in Surrey â€” our commercial tub-cut solutions prioritise durability, occupant safety, regulatory compliance, and minimum operational downtime.</p>
             </div>
 
             <div class="service-card p-8">
@@ -150,7 +150,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Home & Rental Upgrades</h3>
-                <p class="text-gray-600">Residential tub cuts in Surrey are equally part of our business — for aging-in-place needs, rental changeover upgrades, or home accessibility. You receive commercial-quality finishing and speed, even in residential spaces.</p>
+                <p class="text-gray-600">Residential tub cuts in Surrey are equally part of our business â€” for aging-in-place needs, rental changeover upgrades, or home accessibility. You receive commercial-quality finishing and speed, even in residential spaces.</p>
             </div>
 
             <div class="service-card p-8">
@@ -160,7 +160,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Multi-Unit & Strata Projects</h3>
-                <p class="text-gray-600">Managing dozens of units? We plan multi-unit installations, match finishes across bathrooms, and schedule work to minimise disruption to occupants — delivering consistent quality throughout.</p>
+                <p class="text-gray-600">Managing dozens of units? We plan multi-unit installations, match finishes across bathrooms, and schedule work to minimise disruption to occupants â€” delivering consistent quality throughout.</p>
             </div>
 
             <div class="service-card p-8">
@@ -170,7 +170,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Accessibility & Ageing-in-Place</h3>
-                <p class="text-gray-600">Low-threshold tubs, step-in bathrooms, non-slip floors, and handrails — comprehensive support for mobility challenges, elderly residents, and full accessibility living without a complete remodel.</p>
+                <p class="text-gray-600">Low-threshold tubs, step-in bathrooms, non-slip floors, and handrails â€” comprehensive support for mobility challenges, elderly residents, and full accessibility living without a complete remodel.</p>
             </div>
         </div>
     </div>
@@ -190,23 +190,23 @@
                 </p>
                 <ul class="space-y-4">
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
-                        <div><strong>Cost-effective:</strong> You retain the existing tub, plumbing, and finishes — no complete renovation needed.</div>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <div><strong>Cost-effective:</strong> You retain the existing tub, plumbing, and finishes â€” no complete renovation needed.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Quick installations:</strong> Many jobs complete within a day, keeping rooms rentable and facilities operational.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Less mess and downtime:</strong> Fewer trades, less disruption to units, bathrooms, and suites during the job.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Retains aesthetics:</strong> Your existing tile, bath pattern, and decor are preserved while functionality is enhanced.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Improves safety and marketability:</strong> Safer bathrooms attract tenants and guests while reducing liability exposure.</div>
                     </li>
                 </ul>
@@ -251,7 +251,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
                         </div>
-                        <p>Finishing trims and aesthetic options to match existing décor or provide a clean upgrade.</p>
+                        <p>Finishing trims and aesthetic options to match existing dÃ©cor or provide a clean upgrade.</p>
                     </div>
                     <div class="flex items-start text-gray-700">
                         <div class="service-icon w-10 h-10 mr-4 flex-shrink-0" style="margin-bottom: 0;">
@@ -295,7 +295,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Efficient Scheduling</h3>
-                <p class="text-gray-600">Scheduling tailored for rental turnovers, business closures, and strata maintenance windows — we work around your operations to minimise downtime.</p>
+                <p class="text-gray-600">Scheduling tailored for rental turnovers, business closures, and strata maintenance windows â€” we work around your operations to minimise downtime.</p>
             </div>
 
             <div class="service-card p-8 text-center">
@@ -305,7 +305,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Local Climate Knowledge</h3>
-                <p class="text-gray-600">We know Surrey's climate, how materials perform locally, and what finish expectations are standard — ensuring every job is durable and suited to the environment.</p>
+                <p class="text-gray-600">We know Surrey's climate, how materials perform locally, and what finish expectations are standard â€” ensuring every job is durable and suited to the environment.</p>
             </div>
 
             <div class="service-card p-8 text-center">
@@ -315,7 +315,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Multi-Unit Coordination</h3>
-                <p class="text-gray-600">Multi-unit project coordination with minimal impact on operations or tenants — consistent quality across all units, delivered on schedule.</p>
+                <p class="text-gray-600">Multi-unit project coordination with minimal impact on operations or tenants â€” consistent quality across all units, delivered on schedule.</p>
             </div>
 
             <div class="service-card p-8 text-center">
@@ -325,7 +325,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Stakeholder Communication</h3>
-                <p class="text-gray-600">Clear communication with facility managers, landlords, strata councils, and maintenance teams at every stage — no surprises, just smooth delivery.</p>
+                <p class="text-gray-600">Clear communication with facility managers, landlords, strata councils, and maintenance teams at every stage â€” no surprises, just smooth delivery.</p>
             </div>
         </div>
     </div>
@@ -405,12 +405,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>• Surrey (All Areas — Newton, Cloverdale, Whalley, Fleetwood)</li>
-                                <li>• Delta & Langley</li>
-                                <li>• Burnaby & New Westminster</li>
-                                <li>• White Rock & South Surrey</li>
-                                <li>• Coquitlam & Port Coquitlam</li>
-                                <li>• Greater Vancouver & Lower Mainland</li>
+                                <li>â€¢ Surrey (All Areas â€” Newton, Cloverdale, Whalley, Fleetwood)</li>
+                                <li>â€¢ Delta & Langley</li>
+                                <li>â€¢ Burnaby & New Westminster</li>
+                                <li>â€¢ White Rock & South Surrey</li>
+                                <li>â€¢ Coquitlam & Port Coquitlam</li>
+                                <li>â€¢ Greater Vancouver & Lower Mainland</li>
                             </ul>
                         </div>
                     </div>
@@ -419,7 +419,7 @@
 
             <div class="contact-card">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Request Your Free Site Evaluation</h3>
-                <form action="/submit-assessment" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="form_type" value="assessment">
                     <input type="hidden" name="form_source" value="area-surrey_tub-cuts_page_assessment_form">
@@ -486,7 +486,7 @@
                     <svg class="faq-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div class="faq-answer">
-                    <div class="faq-answer-content">Most standard units finish within 4–6 hours. Multi-unit jobs will be scheduled accordingly and clearly communicated upfront so you can plan around your operations.</div>
+                    <div class="faq-answer-content">Most standard units finish within 4â€“6 hours. Multi-unit jobs will be scheduled accordingly and clearly communicated upfront so you can plan around your operations.</div>
                 </div>
             </div>
 
@@ -496,7 +496,7 @@
                     <svg class="faq-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div class="faq-answer">
-                    <div class="faq-answer-content">We aim to minimise downtime. You may need to briefly avoid using that bathroom while sealants cure, but most units return to service quickly — same day in most cases.</div>
+                    <div class="faq-answer-content">We aim to minimise downtime. You may need to briefly avoid using that bathroom while sealants cure, but most units return to service quickly â€” same day in most cases.</div>
                 </div>
             </div>
 
@@ -516,7 +516,7 @@
                     <svg class="faq-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                 </button>
                 <div class="faq-answer">
-                    <div class="faq-answer-content">Yes. We design to meet safety, accessibility, and commercial standards for high-use bathrooms — including applicable Surrey and BC building codes.</div>
+                    <div class="faq-answer-content">Yes. We design to meet safety, accessibility, and commercial standards for high-use bathrooms â€” including applicable Surrey and BC building codes.</div>
                 </div>
             </div>
 
@@ -538,7 +538,7 @@
     <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Upgrade Your Facility's Bath Access in Surrey?</h2>
         <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-            Call Home2stay today to schedule your free site evaluation. We will guide you through the options, provide a clear and transparent quote, and get your project moving — delivering safer, smarter bath access across your Surrey property.
+            Call Home2stay today to schedule your free site evaluation. We will guide you through the options, provide a clear and transparent quote, and get your project moving â€” delivering safer, smarter bath access across your Surrey property.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:604-259-1211" class="btn-secondary text-lg px-8 py-4">
@@ -565,11 +565,21 @@ document.addEventListener('DOMContentLoaded', function() {
             const formData = new FormData(this);
             const data = Object.fromEntries(formData);
             if (!data.first_name || !data.last_name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
-            alert('Thank you for your request! Our Surrey team will contact you within 24 hours.');
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 
@@ -726,3 +736,4 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 @endpush
+

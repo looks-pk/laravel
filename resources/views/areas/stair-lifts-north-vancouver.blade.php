@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Professional Stair Lifts In North Vancouver - Home2stay')
 @section('meta_description', 'Professional stair lifts in North Vancouver, BC. Expert stairlift installation and accessibility solutions with free quotation. Call our experts for safe, trouble-free movement.')
@@ -172,12 +172,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>• North Vancouver (All Areas)</li>
-                                <li>• West Vancouver</li>
-                                <li>• Vancouver</li>
-                                <li>• Burnaby & Coquitlam</li>
-                                <li>• Richmond & Delta</li>
-                                <li>• Surrey & Langley</li>
+                                <li>â€¢ North Vancouver (All Areas)</li>
+                                <li>â€¢ West Vancouver</li>
+                                <li>â€¢ Vancouver</li>
+                                <li>â€¢ Burnaby & Coquitlam</li>
+                                <li>â€¢ Richmond & Delta</li>
+                                <li>â€¢ Surrey & Langley</li>
                             </ul>
                         </div>
                     </div>
@@ -187,7 +187,7 @@
             <!-- Quick Quote Form -->
             <div class="contact-card">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Get Your Free Quote</h3>
-                <form action="/submit-assessment" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                 @csrf
                 <input type="hidden" name="form_type" value="assessment">
                     <input type="hidden" name="form_source" value="area-north-vancouver_page_assessment_form">
@@ -363,7 +363,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-4">Stannah 600 F (Straight – Indoor)</h3>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">Stannah 600 F (Straight â€“ Indoor)</h3>
                 <p class="text-gray-600">
                     Ideal for straight staircases, this lift is small, sleek and easy to use. It's a neat-folded and easy-operated garment. Great for smaller homes.
                 </p>
@@ -604,7 +604,7 @@
                  </button>
                  <div class="faq-answer">
                      <div class="faq-answer-content">
-                         Prices are dependent on the type and model of the staircase; for a basic lift, plan on $3,000–$5,000. Custom or arched lifts are higher, from $8,000.
+                         Prices are dependent on the type and model of the staircase; for a basic lift, plan on $3,000â€“$5,000. Custom or arched lifts are higher, from $8,000.
                      </div>
                  </div>
              </div>
@@ -684,15 +684,22 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Basic validation
             if (!data.first_name || !data.last_name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
             
-            // Here you would typically send the data to your server
-            alert('Thank you for your quote request! Our North Vancouver team will contact you within 24 hours.');
-            
-            // Reset form
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 
@@ -733,3 +740,4 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 @endpush 
+

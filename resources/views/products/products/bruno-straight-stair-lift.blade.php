@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Bruno Straight Stair Lift - Home2Stay')
 @section('meta_description', 'Bruno Straight Stair Lift (General/Indoor & Outdoor) from Home2Stay. Bring effortless independence to every level of your home.')
@@ -106,7 +106,7 @@
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6 space-y-4 text-gray-700 leading-relaxed">
                         <p>
-                            Bring effortless independence to every level of your home. The Bruno Straight Stair Lift from Home2Stay provides smooth, reliable mobility for straight staircases, indoors or outdoors. Built with Bruno’s legendary expertise and supported by trusted local installation, this stair lift is engineered to make daily stair navigation safe, comfortable, and relaxed.
+                            Bring effortless independence to every level of your home. The Bruno Straight Stair Lift from Home2Stay provides smooth, reliable mobility for straight staircases, indoors or outdoors. Built with Brunoâ€™s legendary expertise and supported by trusted local installation, this stair lift is engineered to make daily stair navigation safe, comfortable, and relaxed.
                         </p>
                     </div>
                     <div class="mb-6 p-4 bg-green-50 border-l-4 border-green-400 rounded-r-lg">
@@ -166,22 +166,22 @@
                                         <h3 class="text-xl font-semibold text-gray-800 mb-3">Why customers love it:</h3>
                                         <ul class="space-y-3 list-disc list-inside">
                                             <li>Reliable daily performance: Powerful motor and continuous rail design deliver a quiet, smooth ride every time.</li>
-                                            <li>Comfortable &amp; user‑friendly: Plush seating, easy armrest controls, and intuitive operation make it simple for users of all ages.</li>
-                                            <li>Space‑saving design: Foldable seat, footrest, and armrests keep your stairs clear for family members when not in use</li>
+                                            <li>Comfortable &amp; userâ€‘friendly: Plush seating, easy armrest controls, and intuitive operation make it simple for users of all ages.</li>
+                                            <li>Spaceâ€‘saving design: Foldable seat, footrest, and armrests keep your stairs clear for family members when not in use</li>
                                             <li>Safety first: Equipped with seat belts, obstruction sensors, and swivel seat options for secure entry and exit.</li>
-                                            <li>Built for all climates: Outdoor‑ready versions feature weather‑resistant materials and durable components.</li>
+                                            <li>Built for all climates: Outdoorâ€‘ready versions feature weatherâ€‘resistant materials and durable components.</li>
                                         </ul>
                                     </div>
                                     <p>Perfect for homes with straight staircases, this stair lift helps you stay comfortable in your own space without compromise.</p>
                                     <div class="space-y-3">
                                         <h3 class="text-xl font-semibold text-gray-800">Bruno Elite Indoor Straight Stair Lift</h3>
-                                        <p>Premium comfort meets timeless quality. Our Bruno Elite Indoor Straight Stair Lift enhances everyday mobility with improved comfort and customizable options that seamlessly blend into your home environment. Designed to support up to 400 lbs with impeccable engineering, this stair lift pairs smooth performance with premium features for long‑lasting satisfaction.</p>
+                                        <p>Premium comfort meets timeless quality. Our Bruno Elite Indoor Straight Stair Lift enhances everyday mobility with improved comfort and customizable options that seamlessly blend into your home environment. Designed to support up to 400 lbs with impeccable engineering, this stair lift pairs smooth performance with premium features for longâ€‘lasting satisfaction.</p>
                                     </div>
                                     <div>
                                         <h4 class="text-lg font-semibold text-gray-800 mb-3">Features:</h4>
                                         <ul class="space-y-3 list-disc list-inside">
                                             <li>Luxurious seating: Generously cushioned with adjustable height for personalized comfort.</li>
-                                            <li>Effortless operation: Easy‑to‑reach controls plus optional power swivel and power folding footrest.</li>
+                                            <li>Effortless operation: Easyâ€‘toâ€‘reach controls plus optional power swivel and power folding footrest.</li>
                                             <li>Smart safety: Obstruction sensors and a secure seatbelt for added peace of mind.</li>
                                             <li>Elegant rail system: Sleek anodised rail with hidden gear rack for lasting beauty and performance.</li>
                                         </ul>
@@ -189,21 +189,21 @@
                                     <p>This model is best for homeowners who want style and performance in one reliable stair lift.</p>
                                     <div class="space-y-3">
                                         <h3 class="text-xl font-semibold text-gray-800">Bruno Custom Curved Stair Lift:</h3>
-                                        <p>The Bruno Custom Curved Stair Lift is a handcrafted solution designed to fit your home’s specific stair configuration with unmatched precision. Whether your staircase turns, twists, or winds, this stair lift brings you superior comfort and full-home access.</p>
+                                        <p>The Bruno Custom Curved Stair Lift is a handcrafted solution designed to fit your homeâ€™s specific stair configuration with unmatched precision. Whether your staircase turns, twists, or winds, this stair lift brings you superior comfort and full-home access.</p>
                                     </div>
                                     <div>
                                         <h4 class="text-lg font-semibold text-gray-800 mb-3">What makes it special:</h4>
                                         <ul class="space-y-3 list-disc list-inside">
                                             <li>Custom-built rail system: Expertly crafted to match every curve of your staircase for a perfect fit.</li>
                                             <li>Smooth, quiet ride: Engineered for stability and comfort from start to finish.</li>
-                                            <li>Enhanced customization: Choose power‑swivel seats, wireless call/send, and other features to suit your lifestyle.</li>
-                                            <li>Space‑efficient &amp; safe: Folding components and smart design keep walkways clear and secure.</li>
+                                            <li>Enhanced customization: Choose powerâ€‘swivel seats, wireless call/send, and other features to suit your lifestyle.</li>
+                                            <li>Spaceâ€‘efficient &amp; safe: Folding components and smart design keep walkways clear and secure.</li>
                                         </ul>
                                     </div>
                                     <p>Perfect for multi-turn staircases or homes with limited straight space, this stair lift brings effortless mobility to every level of your home.</p>
                                     <div class="space-y-3">
                                         <h3 class="text-xl font-semibold text-gray-800">Why Choose Bruno Stair Lifts Through Home2Stay?</h3>
-                                        <p>Bruno stair lifts are known for their long‑lasting quality, smooth performance, and high customer satisfaction worldwide. With years of trusted engineering backed by industry‑leading warranties and local professional installation, you’re choosing more than a product; you’re choosing freedom in your home.</p>
+                                        <p>Bruno stair lifts are known for their longâ€‘lasting quality, smooth performance, and high customer satisfaction worldwide. With years of trusted engineering backed by industryâ€‘leading warranties and local professional installation, youâ€™re choosing more than a product; youâ€™re choosing freedom in your home.</p>
                                     </div>
                                 </div>
                             </div>
@@ -340,16 +340,16 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>• Most popular American-made straight stair lift model</li>
-                                            <li>• Bruno's Elan SRE-3050 with stylish design</li>
-                                            <li>• High-quality functionality and ease-of-use operation</li>
-                                            <li>• Unique low-profile rail design</li>
-                                            <li>• Leaves plenty of open space on staircase steps</li>
-                                            <li>• Safe stair navigation for users</li>
-                                            <li>• Trusted Bruno brand quality and reliability</li>
-                                            <li>• Professional installation available</li>
-                                            <li>• Custom pricing to fit your needs</li>
-                                            <li>• Ideal for straight staircases</li>
+                                            <li>â€¢ Most popular American-made straight stair lift model</li>
+                                            <li>â€¢ Bruno's Elan SRE-3050 with stylish design</li>
+                                            <li>â€¢ High-quality functionality and ease-of-use operation</li>
+                                            <li>â€¢ Unique low-profile rail design</li>
+                                            <li>â€¢ Leaves plenty of open space on staircase steps</li>
+                                            <li>â€¢ Safe stair navigation for users</li>
+                                            <li>â€¢ Trusted Bruno brand quality and reliability</li>
+                                            <li>â€¢ Professional installation available</li>
+                                            <li>â€¢ Custom pricing to fit your needs</li>
+                                            <li>â€¢ Ideal for straight staircases</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -484,11 +484,11 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
                         would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Bruno Straight Stair Lift">
 
@@ -618,7 +618,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name" value="Bruno Straight Stair Lift">
 
@@ -859,21 +859,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

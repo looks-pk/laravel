@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Plumbing Fixtures by Home2Stay - Quality Faucets, Sinks & Bathroom Fixtures')
 @section('meta_description', 'Home2Stay Plumbing Fixtures - High-quality faucets, sinks, toilets, bidets, showerheads. Durable, water-efficient plumbing solutions for bathrooms and kitchens.')
@@ -307,9 +307,9 @@
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <h4 class="text-lg font-semibold text-gray-800 mb-3">Countertop Materials</h4>
                                         <div class="space-y-2 text-sm text-gray-600">
-                                            <p>• Quartz - Durable and low-maintenance</p>
-                                            <p>• Marble - Elegant and luxurious</p>
-                                            <p>• Engineered Stone - Practical and versatile</p>
+                                            <p>â€¢ Quartz - Durable and low-maintenance</p>
+                                            <p>â€¢ Marble - Elegant and luxurious</p>
+                                            <p>â€¢ Engineered Stone - Practical and versatile</p>
                                         </div>
                                     </div>
 
@@ -425,9 +425,9 @@
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <h4 class="text-lg font-semibold text-gray-800 mb-3">Sink Options</h4>
                                         <ul class="space-y-2 text-gray-600 text-sm">
-                                            <li>• Single Sink Configuration (36", 48")</li>
-                                            <li>• Double Sink Configuration (60", 72")</li>
-                                            <li>• Custom Sink Placements Available</li>
+                                            <li>â€¢ Single Sink Configuration (36", 48")</li>
+                                            <li>â€¢ Double Sink Configuration (60", 72")</li>
+                                            <li>â€¢ Custom Sink Placements Available</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -473,12 +473,12 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Why Choose Home2Stay Vanities</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>• Premium wood construction with moisture-resistant finishes</li>
-                                            <li>• Elegant design for modern and traditional bathrooms</li>
-                                            <li>• Customizable sizes and configurations</li>
-                                            <li>• Multiple finish options to match your style</li>
-                                            <li>• Expert installation services available</li>
-                                            <li>• Trusted by homeowners for quality and beauty</li>
+                                            <li>â€¢ Premium wood construction with moisture-resistant finishes</li>
+                                            <li>â€¢ Elegant design for modern and traditional bathrooms</li>
+                                            <li>â€¢ Customizable sizes and configurations</li>
+                                            <li>â€¢ Multiple finish options to match your style</li>
+                                            <li>â€¢ Expert installation services available</li>
+                                            <li>â€¢ Trusted by homeowners for quality and beauty</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -630,11 +630,11 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
                         would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Flooring & Plumbing Solutions">
 
@@ -763,7 +763,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name" value="Flooring & Plumbing Solutions">
 
@@ -1004,21 +1004,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

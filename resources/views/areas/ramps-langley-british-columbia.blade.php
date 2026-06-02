@@ -1,6 +1,6 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
-@section('title', 'Trusted Ramps in Langley, BC – Home2stay')
+@section('title', 'Trusted Ramps in Langley, BC â€“ Home2stay')
 @section('meta_description', 'Professional ramps in Langley, BC. Home2stay offers reliable wheelchair ramps, installation, and accessibility solutions. Free consultation available.')
 
 @push('styles')
@@ -13,7 +13,7 @@
     <div class="container mx-auto px-4 relative z-10">
         <div class="text-center">
             <h1 class="text-4xl md:text-6xl font-bold mb-6">
-            Trusted Ramps in Langley, BC – Home2stay
+            Trusted Ramps in Langley, BC â€“ Home2stay
             </h1>
             <p class="text-xl md:text-1xl mb-8 opacity-90 max-w-xl mx-auto">You have found the right place if you are looking for reliable ramps in Langley, BC. We focus on the provision of good solutions to ramps at Langley, whether it is renovating your house or furnishing your business. You will receive professional service, proper installation, and support from a local team that you can trust with us.
 
@@ -145,8 +145,8 @@
         </h2>
         <div class="max-w-4xl mx-auto prose prose-lg">
             <ul style="list-style-type: disc; padding-left: 20px;" class="text-gray-700">
-                <li>Portable / Folding Ramps: Great for low thresholds or temporary usage. Flexible, cost‑effective, and efficient.</li>
-                <li>Modular Aluminum Ramps: Durable, outdoor‑ready, ideal for entrances where daily use matters.</li>
+                <li>Portable / Folding Ramps: Great for low thresholds or temporary usage. Flexible, costâ€‘effective, and efficient.</li>
+                <li>Modular Aluminum Ramps: Durable, outdoorâ€‘ready, ideal for entrances where daily use matters.</li>
                 <li>Threshold Ramps: Perfect for a single step or door elevation.</li>
                 <li>Commercial Entrance Ramps: High capacity, wide access, built for business traffic.</li>
                 <li>Custom Built Ramps: For unique terrain, specific landings, or unusual configurations, you mention it and we design it.</li>
@@ -165,8 +165,8 @@
             <ul style="list-style-type: disc; padding-left: 20px;" class="text-gray-700">
                 <li>By choosing professional ramp installation, you enhance accessibility for family, guests, or customers.</li>
                 <li>You increase safety, especially in rain or snow, which Langley sees.</li>
-                <li>You uplift your property: a well‑installed ramp shows thoughtfulness and value.</li>
-                <li>You avoid last‑minute issues: with Home2stay, you get trusted ramps in Langley, BC from a provider who knows the area.</li>
+                <li>You uplift your property: a wellâ€‘installed ramp shows thoughtfulness and value.</li>
+                <li>You avoid lastâ€‘minute issues: with Home2stay, you get trusted ramps in Langley, BC from a provider who knows the area.</li>
                 <li>You end up with a solution, not just a product, our process ensures you're set for the long term.</li>
             </ul>
         </div>
@@ -183,7 +183,7 @@
             <ul style="list-style-type: disc; padding-left: 20px;" class="text-gray-700">
                 <li>Focused expertise: We're expert in ramps, not just generic installations.</li>
                 <li>Local commitment: We serve Langley directly and know your community's needs.</li>
-                <li>Full‑service approach: From design to installation to support, you're protected.</li>
+                <li>Fullâ€‘service approach: From design to installation to support, you're protected.</li>
                 <li>Custom solutions: Your property is unique, so is our solution.</li>
                 <li>Reliable results: You receive a ramp installed right, built to last, or everyday use.</li>
             </ul>
@@ -297,8 +297,8 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>• Langley (All Areas)</li>
-                                <li>• Throughout Metro Vancouver</li>
+                                <li>â€¢ Langley (All Areas)</li>
+                                <li>â€¢ Throughout Metro Vancouver</li>
                             </ul>
                         </div>
                     </div>
@@ -308,7 +308,7 @@
             <!-- Quick Quote Form -->
             <div class="contact-card">
                 <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center">Get Your Free Quote</h2>
-                <form action="/submit-assessment" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                 @csrf
                     <input type="hidden" name="form_type" value="assessment">
                     <input type="hidden" name="form_source" value="area-langley_page_assessment_form">
@@ -434,7 +434,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        We use robust materials suited for Langley weather: aluminium frames, anti‑slip surfaces, secure guard‑rails, and weather‑proof fasteners.
+                        We use robust materials suited for Langley weather: aluminium frames, antiâ€‘slip surfaces, secure guardâ€‘rails, and weatherâ€‘proof fasteners.
                     </div>
                 </div>
             </div>
@@ -479,7 +479,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        You'll learn how to use, maintain, and stay safe. We also provide contact support for any follow‑up service.
+                        You'll learn how to use, maintain, and stay safe. We also provide contact support for any followâ€‘up service.
                     </div>
                 </div>
             </div>
@@ -531,15 +531,22 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Basic validation
             if (!data.first_name || !data.last_name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
             
-            // Here you would typically send the data to your server
-            alert('Thank you for your quote request! Our Langley team will contact you within 24 hours.');
-            
-            // Reset form
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 
@@ -748,7 +755,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 productInfoForm.addEventListener('submit', function(e) {
                     e.preventDefault(); // Prevent normal form submission to avoid quick refresh
                     
-                    console.log('🚀 Product form submission detected!');
+                    console.log('ðŸš€ Product form submission detected!');
                     console.log('Form action:', this.action);
                     console.log('Form method:', this.method);
                     
@@ -766,18 +773,18 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                     
                     if (!allValid) {
-                        console.log('❌ Form validation failed');
+                        console.log('âŒ Form validation failed');
                         alert('Please fill in all required fields (First Name, Last Name, Email, Phone)');
                         return false;
                     }
                     
-                    console.log('✅ Form validation passed, submitting via AJAX...');
+                    console.log('âœ… Form validation passed, submitting via AJAX...');
                     
                     // Submit form via AJAX
                     const formData = new FormData(this);
                     
                     // Debug: Log all form data
-                    console.log('📋 Form data being sent:');
+                    console.log('ðŸ“‹ Form data being sent:');
                     for (let [key, value] of formData.entries()) {
                         console.log(`  ${key}: ${value}`);
                     }
@@ -791,39 +798,41 @@ document.addEventListener('DOMContentLoaded', function() {
                         }
                     })
                     .then(response => {
-                        console.log('📡 Server response status:', response.status);
+                        console.log('ðŸ“¡ Server response status:', response.status);
                         return response.json().catch(() => response.text());
                     })
                     .then(data => {
-                        console.log('✅ Server response received');
-                        console.log('📄 Response data:', data);
+                        console.log('âœ… Server response received');
+                        console.log('ðŸ“„ Response data:', data);
                         
                         // Check if it's JSON response
                         if (typeof data === 'object' && data.success !== undefined) {
                             if (data.success) {
-                                alert(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                                showFlash(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                                 
                                 // Reset form and close modal
                                 this.reset();
                                 modal.classList.add('hidden');
                                 document.body.style.overflow = 'auto';
                             } else {
-                                alert('Error: ' + (data.message || 'There was an error submitting your request.'));
+                                showFlash('Error: ' + (data.message || 'There was an error submitting your request.'), 'error');
                             }
                         } else {
                             // Fallback for HTML response (shouldn't happen now)
-                            alert('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                            showFlash('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                             this.reset();
                             modal.classList.add('hidden');
                             document.body.style.overflow = 'auto';
                         }
                     })
                     .catch(error => {
-                        console.error('❌ Error submitting form:', error);
-                        alert('There was an error submitting your request. Please try again or contact us directly.');
+                        console.error('âŒ Error submitting form:', error);
+                        showFlash('There was an error submitting your request. Please try again or contact us directly.', 'error');
                     });
                 });
             }
         });
     </script>
 @endpush
+
+

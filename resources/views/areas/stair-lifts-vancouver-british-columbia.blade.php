@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Stair Lifts in Vancouver, BC - Home2stay')
 @section('meta_description', 'Professional stair lifts in Vancouver, BC. Custom-fitted stairlifts for home and business. Free consultation and expert installation. Call our dedicated team today!')
@@ -47,7 +47,7 @@
                 </h2>
                 <div class="prose prose-lg max-w-none">
                     <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                        If going up and down your stairs has become a struggle, you're not alone. Many homeowners in Vancouver are now choosing stair lifts to make their homes safer and more comfortable. Call now to book a free in-home consultation anywhere in Vancouver – with no pressure and no obligation, just honest help. Regain your confidence, stay independent, and enjoy your home without limits.
+                        If going up and down your stairs has become a struggle, you're not alone. Many homeowners in Vancouver are now choosing stair lifts to make their homes safer and more comfortable. Call now to book a free in-home consultation anywhere in Vancouver â€“ with no pressure and no obligation, just honest help. Regain your confidence, stay independent, and enjoy your home without limits.
                     </p>
                     <p class="text-gray-600 leading-relaxed mb-6">
                         If you're an injured, elderly person or just fatigued, stairs can be challenging for you at that time. However, you don't need to worry; Home2Stay is always here to assist you. A professionally installed stair lift lets you glide smoothly between floors without any hesitation. It's a fast, affordable way to make your home better for you, so you can stay in the place you love.
@@ -70,7 +70,7 @@
 <section class="py-16">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
-            Vancouver Stair Lifts – Installed by Local Pros Who Care
+            Vancouver Stair Lifts â€“ Installed by Local Pros Who Care
         </h2>
         <div class="max-w-4xl mx-auto prose prose-lg">
             <p class="text-lg text-gray-700 leading-relaxed mb-6">
@@ -93,7 +93,7 @@
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
-            Stair Lifts in Vancouver, BC – Options for Every Staircase
+            Stair Lifts in Vancouver, BC â€“ Options for Every Staircase
         </h2>
         <div class="max-w-4xl mx-auto prose prose-lg">
             <p class="text-lg text-gray-700 leading-relaxed mb-6">
@@ -272,14 +272,14 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>• Vancouver (All Areas)</li>
-                                <li>• Lower Mainland</li>
-                                <li>• Surrey & Abbotsford</li>
-                                <li>• Richmond & Coquitlam</li>
-                                <li>• Port Moody & Tri-Cities</li>
-                                <li>• Mission & Delta</li>
-                                <li>• Burnaby & Chilliwack</li>
-                                <li>• White Rock & Langley</li>
+                                <li>â€¢ Vancouver (All Areas)</li>
+                                <li>â€¢ Lower Mainland</li>
+                                <li>â€¢ Surrey & Abbotsford</li>
+                                <li>â€¢ Richmond & Coquitlam</li>
+                                <li>â€¢ Port Moody & Tri-Cities</li>
+                                <li>â€¢ Mission & Delta</li>
+                                <li>â€¢ Burnaby & Chilliwack</li>
+                                <li>â€¢ White Rock & Langley</li>
                             </ul>
                         </div>
                     </div>
@@ -289,7 +289,7 @@
             <!-- Quick Quote Form -->
             <div class="contact-card">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Get Your Free Quote</h3>
-                <form action="/submit-assessment" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                 @csrf
                 <input type="hidden" name="form_type" value="assessment">
                     <input type="hidden" name="form_source" value="area-vancouver_page_assessment_form">
@@ -684,11 +684,11 @@
 <section class="py-16">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
-            Stair Lift Dealers in Vancouver, BC – What to Expect
+            Stair Lift Dealers in Vancouver, BC â€“ What to Expect
         </h2>
         <div class="max-w-4xl mx-auto prose prose-lg mb-12">
             <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">
-                Choosing the right stair lift dealer matters. You're not just buying equipment—you're choosing service, support, and peace of mind. That's why our Vancouver stair lift team focuses on long-term care, not one-time sales.
+                Choosing the right stair lift dealer matters. You're not just buying equipmentâ€”you're choosing service, support, and peace of mind. That's why our Vancouver stair lift team focuses on long-term care, not one-time sales.
             </p>
             <p class="text-gray-600 leading-relaxed mb-6 text-center">
                 We've worked in hundreds of homes across the Lower Mainland. We know how to spot the best fit quickly and explain it in a way that makes sense.
@@ -833,15 +833,22 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Basic validation
             if (!data.first_name || !data.last_name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
             
-            // Here you would typically send the data to your server
-            alert('Thank you for your quote request! Our Vancouver team will contact you within 24 hours.');
-            
-            // Reset form
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 
@@ -882,3 +889,4 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 @endpush
+

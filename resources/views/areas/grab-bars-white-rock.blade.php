@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Commercial Grab Bar Installation & Replacement | White Rock')
 @section('meta_description', 'Professional commercial grab bar installation & replacement in White Rock. ADA-compliant, secure mounting for businesses & facilities. Free project quote. Fast, insured service.')
@@ -47,7 +47,7 @@
                 </h2>
                 <div class="prose prose-lg max-w-none">
                     <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                      The Home2stay team will manage every step of your Grab Bars in White Rock without any hesitation or confusion.  First of all, we’ll listen to all of your projects and needs.  Our experts have vast experience in grab bar installation and replacement. Tell our crew where you feel unsafe and uncomfortable. Once we understand, we recommend the perfect style of Commercial Grab Bars in White Rock.  After the all procedure, you’ll choose from secure, stylish, and easy-to-use options that match your space and lifestyle. Every grab bar is installed with precision. We don’t cut corners. We secure into studs or use solid anchors. You’ll get lasting non-slip support, built to perform and look good.
+                      The Home2stay team will manage every step of your Grab Bars in White Rock without any hesitation or confusion.  First of all, weâ€™ll listen to all of your projects and needs.  Our experts have vast experience in grab bar installation and replacement. Tell our crew where you feel unsafe and uncomfortable. Once we understand, we recommend the perfect style of Commercial Grab Bars in White Rock.  After the all procedure, youâ€™ll choose from secure, stylish, and easy-to-use options that match your space and lifestyle. Every grab bar is installed with precision. We donâ€™t cut corners. We secure into studs or use solid anchors. Youâ€™ll get lasting non-slip support, built to perform and look good.
 
                     </p>
                     
@@ -171,7 +171,7 @@
           </h2>
           <div class="max-w-4xl mx-auto prose prose-lg">
               <p class="text-lg text-gray-700 leading-relaxed mb-6">
-              Your home should feel safe. Our residential installs focus on comfort, design, and long-term use. From the main bathroom to guest baths, we offer a range of elderly bathroom safety options that work with any layout. You don’t need to sacrifice looks for function. We help you choose Residential Grab Bars in White Rock that match your style and keep everyone safe, from ageing parents to kids learning to shower on their own.
+              Your home should feel safe. Our residential installs focus on comfort, design, and long-term use. From the main bathroom to guest baths, we offer a range of elderly bathroom safety options that work with any layout. You donâ€™t need to sacrifice looks for function. We help you choose Residential Grab Bars in White Rock that match your style and keep everyone safe, from ageing parents to kids learning to shower on their own.
 
               </p>
           </div>
@@ -283,12 +283,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>• Burnaby (All Areas)</li>
-                                <li>• Vancouver & New Westminster</li>
-                                <li>• Coquitlam & Port Moody</li>
-                                <li>• Richmond & Surrey</li>
-                                <li>• North Vancouver & West Vancouver</li>
-                                <li>• Tri-Cities & Langley</li>
+                                <li>â€¢ Burnaby (All Areas)</li>
+                                <li>â€¢ Vancouver & New Westminster</li>
+                                <li>â€¢ Coquitlam & Port Moody</li>
+                                <li>â€¢ Richmond & Surrey</li>
+                                <li>â€¢ North Vancouver & West Vancouver</li>
+                                <li>â€¢ Tri-Cities & Langley</li>
                             </ul>
                         </div>
                     </div>
@@ -298,7 +298,7 @@
             <!-- Quick Quote Form -->
             <div class="contact-card">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Get Your Free Quote</h3>
-                <form action="/submit-assessment" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                 @csrf
                     <input type="hidden" name="form_type" value="assessment">
                     <input type="hidden" name="form_source" value="area-burnaby_page_assessment_form">
@@ -373,42 +373,42 @@
         Why Choose Home2stay for Grab Bar Installation in White Rock, Homeowners?
         </h2>
         <div class="max-w-4xl mx-auto mb-12">
-            <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">We realize you have choices. But here’s why people across White Rock choose Home2stay again and again</p>
+            <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">We realize you have choices. But hereâ€™s why people across White Rock choose Home2stay again and again</p>
             <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 pl-5 md:pl-10">
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>We install it right the first time</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>Our work looks clean and feels solid
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
-                    <span>Our team shows up on time—every time
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span>Our team shows up on timeâ€”every time
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>No hidden fees, no surprises, just honest work
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
-                    <span>We’re fully insured and experienced
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span>Weâ€™re fully insured and experienced
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>You stay informed at every step</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>We specialize in assist handle installation for all needs</span>
                 </li>
             </ul>
-            <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center mt-4">Whether you’re planning ahead or upgrading for safety, we make it simple.</p>
+            <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center mt-4">Whether youâ€™re planning ahead or upgrading for safety, we make it simple.</p>
         </div>
 
     </div>
@@ -422,7 +422,7 @@
         </h2>
         <div class="max-w-4xl mx-auto prose prose-lg">
             <p class="text-lg text-gray-700 leading-relaxed mb-6">
-            We’re here with vast experience and proven methods for residential Grab Bars in White Rock. We use the best material for your upgraded bars, and we ensure you, your bar won’t wobble or rust. Before installing the grab bar, we tested for good strength. If we say it’s safe, you can count on it. We don’t just do the simple job, we do it like we’re doing all the work for our family. 
+            Weâ€™re here with vast experience and proven methods for residential Grab Bars in White Rock. We use the best material for your upgraded bars, and we ensure you, your bar wonâ€™t wobble or rust. Before installing the grab bar, we tested for good strength. If we say itâ€™s safe, you can count on it. We donâ€™t just do the simple job, we do it like weâ€™re doing all the work for our family. 
 
             </p>
             
@@ -435,7 +435,7 @@
           </h3>
           <div class="max-w-4xl mx-auto prose prose-lg">
               <p class="text-lg text-gray-700 leading-relaxed mb-6">
-              Don’t have wall studs in the spot you want? That makes sense. We use anchors rated for high weight. For tile, drywall, or fibreglass, our methods ensure strong, lasting hold. You get reliable non-slip support no matter your wall type.
+              Donâ€™t have wall studs in the spot you want? That makes sense. We use anchors rated for high weight. For tile, drywall, or fibreglass, our methods ensure strong, lasting hold. You get reliable non-slip support no matter your wall type.
               </p>
           </div>
       </div>
@@ -552,7 +552,7 @@
             Get In Touch
         </h2>
         <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-        Don’t wait for a fall to make your bathroom safer. Get secure, stylish, and professionally installed elderly bathroom safety solutions today. Whether it’s a new bath safety bar, a full assist handle installation, or replacing old gear, we’re ready to help. Call now to book your White Rock installation. Let's make your space safe, smart, and relaxing.</p>
+        Donâ€™t wait for a fall to make your bathroom safer. Get secure, stylish, and professionally installed elderly bathroom safety solutions today. Whether itâ€™s a new bath safety bar, a full assist handle installation, or replacing old gear, weâ€™re ready to help. Call now to book your White Rock installation. Let's make your space safe, smart, and relaxing.</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:604-259-1211" class="btn-secondary text-lg px-8 py-4">
                 Call (604) 259-1211
@@ -588,15 +588,22 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Basic validation
             if (!data.first_name || !data.last_name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
             
-            // Here you would typically send the data to your server
-            alert('Thank you for your quote request! Our Burnaby team will contact you within 24 hours.');
-            
-            // Reset form
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 
@@ -805,7 +812,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 productInfoForm.addEventListener('submit', function(e) {
                     e.preventDefault(); // Prevent normal form submission to avoid quick refresh
                     
-                    console.log('🚀 Product form submission detected!');
+                    console.log('ðŸš€ Product form submission detected!');
                     console.log('Form action:', this.action);
                     console.log('Form method:', this.method);
                     
@@ -823,18 +830,18 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                     
                     if (!allValid) {
-                        console.log('❌ Form validation failed');
+                        console.log('âŒ Form validation failed');
                         alert('Please fill in all required fields (First Name, Last Name, Email, Phone)');
                         return false;
                     }
                     
-                    console.log('✅ Form validation passed, submitting via AJAX...');
+                    console.log('âœ… Form validation passed, submitting via AJAX...');
                     
                     // Submit form via AJAX
                     const formData = new FormData(this);
                     
                     // Debug: Log all form data
-                    console.log('📋 Form data being sent:');
+                    console.log('ðŸ“‹ Form data being sent:');
                     for (let [key, value] of formData.entries()) {
                         console.log(`  ${key}: ${value}`);
                     }
@@ -848,39 +855,41 @@ document.addEventListener('DOMContentLoaded', function() {
                         }
                     })
                     .then(response => {
-                        console.log('📡 Server response status:', response.status);
+                        console.log('ðŸ“¡ Server response status:', response.status);
                         return response.json().catch(() => response.text());
                     })
                     .then(data => {
-                        console.log('✅ Server response received');
-                        console.log('📄 Response data:', data);
+                        console.log('âœ… Server response received');
+                        console.log('ðŸ“„ Response data:', data);
                         
                         // Check if it's JSON response
                         if (typeof data === 'object' && data.success !== undefined) {
                             if (data.success) {
-                                alert(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                                showFlash(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                                 
                                 // Reset form and close modal
                                 this.reset();
                                 modal.classList.add('hidden');
                                 document.body.style.overflow = 'auto';
                             } else {
-                                alert('Error: ' + (data.message || 'There was an error submitting your request.'));
+                                showFlash('Error: ' + (data.message || 'There was an error submitting your request.'), 'error');
                             }
                         } else {
                             // Fallback for HTML response (shouldn't happen now)
-                            alert('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                            showFlash('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                             this.reset();
                             modal.classList.add('hidden');
                             document.body.style.overflow = 'auto';
                         }
                     })
                     .catch(error => {
-                        console.error('❌ Error submitting form:', error);
-                        alert('There was an error submitting your request. Please try again or contact us directly.');
+                        console.error('âŒ Error submitting form:', error);
+                        showFlash('There was an error submitting your request. Please try again or contact us directly.', 'error');
                     });
                 });
             }
         });
     </script>
 @endpush
+
+

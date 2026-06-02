@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Grab Bar Installation Port Coquitlam, BC | Home2Stay')
 @section('meta_description', 'Professional grab bar installation & replacement in Port Coquitlam, BC. Our certified experts install bathtub, vertical & folding bars for seniors & mobility safety. Free in-home assessment.')
@@ -15,7 +15,7 @@
             <h1 class="text-4xl md:text-6xl font-bold mb-6">
             Grab Bars in Port Coquitlam, BC
             </h1>
-            <p class="text-xl md:text-1xl mb-8 opacity-90 max-w-xl mx-auto">Are you looking for professional grab bar installation in Port Coquitlam, BC? You’ve just found your best solution. Home2Stay is an expert in making homes safer, more accessible, and more comfortable for everyone, especially seniors, individuals with mobility challenges, or those recovering from injury. Our grab bars are professionally installed, beautifully integrated, and designed to bring confidence back to your daily routine.</p>
+            <p class="text-xl md:text-1xl mb-8 opacity-90 max-w-xl mx-auto">Are you looking for professional grab bar installation in Port Coquitlam, BC? Youâ€™ve just found your best solution. Home2Stay is an expert in making homes safer, more accessible, and more comfortable for everyone, especially seniors, individuals with mobility challenges, or those recovering from injury. Our grab bars are professionally installed, beautifully integrated, and designed to bring confidence back to your daily routine.</p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="#contact" class="btn-secondary text-lg px-8 py-4">
                     Get Free Quote
@@ -44,7 +44,7 @@
                 </h2>
                 <div class="prose prose-lg max-w-none">
                     <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                    We’re proud to serve Port Coquitlam with top-tier grab bar services, from consultation to installation. Whether you need a simple wall-mounted bar or a full home safety upgrade, we handle everything with professionalism and care. We understand the importance of selecting the right placement, length, and type of grab bar. That’s why we offer personalized solutions based on your home layout and the user’s physical needs.
+                    Weâ€™re proud to serve Port Coquitlam with top-tier grab bar services, from consultation to installation. Whether you need a simple wall-mounted bar or a full home safety upgrade, we handle everything with professionalism and care. We understand the importance of selecting the right placement, length, and type of grab bar. Thatâ€™s why we offer personalized solutions based on your home layout and the userâ€™s physical needs.
                 </p>
                     
                 </div>
@@ -77,7 +77,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Free Standing</h3>
                 <p class="text-gray-600">
-                Need a non-permanent or adjustable solution? Free-standing grab bars are ideal. Perfect for renters, post-surgery recovery, or temporary needs, they’re easy to move, stable, and don’t require any drilling. We’ll help you select the right style and ensure it’s placed in the most functional spot.
+                Need a non-permanent or adjustable solution? Free-standing grab bars are ideal. Perfect for renters, post-surgery recovery, or temporary needs, theyâ€™re easy to move, stable, and donâ€™t require any drilling. Weâ€™ll help you select the right style and ensure itâ€™s placed in the most functional spot.
                 </p>
             </div>
 
@@ -148,7 +148,7 @@
         </h2>
         <div class="max-w-4xl mx-auto prose prose-lg">
             <p class="text-lg text-gray-700 leading-relaxed mb-6">
-            Old or poorly installed grab bars can be more dangerous than helpful. We offer professional grab bar replacement services in Port Coquitlam. Whether your bar is loose, corroded, or no longer meets your safety needs, we’ll replace it with a secure, reliable upgrade, ensuring it’s built to last and properly anchored.
+            Old or poorly installed grab bars can be more dangerous than helpful. We offer professional grab bar replacement services in Port Coquitlam. Whether your bar is loose, corroded, or no longer meets your safety needs, weâ€™ll replace it with a secure, reliable upgrade, ensuring itâ€™s built to last and properly anchored.
             </p>
             
         </div>
@@ -160,7 +160,7 @@
           </h2>
           <div class="max-w-4xl mx-auto prose prose-lg">
               <p class="text-lg text-gray-700 leading-relaxed mb-6">
-              We always install for your home environment. We customize each grab bar, and we install it in Port Coquitlam homes so that it works best for your day-to-day life to enable ease of movement where it is most needed. Whether it’s bathrooms or stairwells, bedrooms or entryways, we are discreet and considerate in our hanging. Your home should be a sanctuary of safety. Let us help keep it that way.
+              We always install for your home environment. We customize each grab bar, and we install it in Port Coquitlam homes so that it works best for your day-to-day life to enable ease of movement where it is most needed. Whether itâ€™s bathrooms or stairwells, bedrooms or entryways, we are discreet and considerate in our hanging. Your home should be a sanctuary of safety. Let us help keep it that way.
               </p>
           </div>
       </div>
@@ -271,12 +271,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>• Burnaby (All Areas)</li>
-                                <li>• Vancouver & New Westminster</li>
-                                <li>• Coquitlam & Port Moody</li>
-                                <li>• Richmond & Surrey</li>
-                                <li>• North Vancouver & West Vancouver</li>
-                                <li>• Tri-Cities & Langley</li>
+                                <li>â€¢ Burnaby (All Areas)</li>
+                                <li>â€¢ Vancouver & New Westminster</li>
+                                <li>â€¢ Coquitlam & Port Moody</li>
+                                <li>â€¢ Richmond & Surrey</li>
+                                <li>â€¢ North Vancouver & West Vancouver</li>
+                                <li>â€¢ Tri-Cities & Langley</li>
                             </ul>
                         </div>
                     </div>
@@ -286,7 +286,7 @@
             <!-- Quick Quote Form -->
             <div class="contact-card">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Get Your Free Quote</h3>
-                <form action="/submit-assessment" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                 @csrf
                     <input type="hidden" name="form_type" value="assessment">
                     <input type="hidden" name="form_source" value="area-burnaby_page_assessment_form">
@@ -362,30 +362,30 @@
         </h2>
         <div class="max-w-4xl mx-auto mb-12">
             <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">
-            Here’s why Port Coquitlam homeowners trust us with their grab bar needs</p>
+            Hereâ€™s why Port Coquitlam homeowners trust us with their grab bar needs</p>
             <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 pl-5 md:pl-10">
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>Certified technicians with accessibility training</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>Professional installation technicians who are fully insured and bonded</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>Made of high quality, rust-proof, non-slip material</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>Customized, in-home safety assessments</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>Competitive pricing and quick turnaround</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">•</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
                     <span>Smooth scheduling and follow-up support</span>
                 </li>
             </ul>
@@ -403,7 +403,7 @@
         </h2>
         <div class="max-w-4xl mx-auto prose prose-lg">
             <p class="text-lg text-gray-700 leading-relaxed mb-6">
-            Home2stay is well-known throughout Port Coquitlam as a company that offers reliable, safe and respectful service for clients. We treat your house as if it’s our own. Each technician shows up on time, communicates well, and makes sure that they take good care of the job. Safety is not a bolt-on; it’s our core mission.
+            Home2stay is well-known throughout Port Coquitlam as a company that offers reliable, safe and respectful service for clients. We treat your house as if itâ€™s our own. Each technician shows up on time, communicates well, and makes sure that they take good care of the job. Safety is not a bolt-on; itâ€™s our core mission.
             </p>
             
         </div>
@@ -415,7 +415,7 @@
           </h3>
           <div class="max-w-4xl mx-auto prose prose-lg">
               <p class="text-lg text-gray-700 leading-relaxed mb-6">
-              Our installations are done with your home environment in mind. Every grab bar we install in Port Coquitlam homes is custom-placed to suit your daily activities and enhance mobility where it’s needed most. From bathrooms to staircases, bedrooms to entryways, we install with discretion and care. Your home should be a place of safety. Let us help keep it that way.
+              Our installations are done with your home environment in mind. Every grab bar we install in Port Coquitlam homes is custom-placed to suit your daily activities and enhance mobility where itâ€™s needed most. From bathrooms to staircases, bedrooms to entryways, we install with discretion and care. Your home should be a place of safety. Let us help keep it that way.
               </p>
           </div>
       </div>
@@ -467,7 +467,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                    When selecting a grab bar, think about what type of grip texture, bar diameter, length, and material might be best for you. We assist you in determining which is the best choice depending on who will be using it and where it’s being installed.
+                    When selecting a grab bar, think about what type of grip texture, bar diameter, length, and material might be best for you. We assist you in determining which is the best choice depending on who will be using it and where itâ€™s being installed.
 
                     </div>
                 </div>
@@ -482,7 +482,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                    Placement depends on the function. For instance, a toilet bar will typically be mounted 33–36 inches off the ground, while tub and shower bars vary depending on the height of the user. Our professionals inspect everything during your in-home estimate.
+                    Placement depends on the function. For instance, a toilet bar will typically be mounted 33â€“36 inches off the ground, while tub and shower bars vary depending on the height of the user. Our professionals inspect everything during your in-home estimate.
 
                     </div>
                 </div>
@@ -496,7 +496,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                    We size our grab bars “fit-to-end”, in inches, and we stock sizes from 12” – 48”. We will advise you on the best length for you and your uses; perhaps it's for standing, balance or maybe transferring support.
+                    We size our grab bars â€œfit-to-endâ€, in inches, and we stock sizes from 12â€ â€“ 48â€. We will advise you on the best length for you and your uses; perhaps it's for standing, balance or maybe transferring support.
 
                     </div>
                 </div>
@@ -512,7 +512,7 @@
             Get In Touch
         </h2>
         <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-        How to protect your home Ready to make your home safer? Let Home2stay do your grab bar installation in Port Coquitlam for you. Call to book your appointment today. We don’t simply install grab bars; we install confidence, comfort and care into your home.</p>
+        How to protect your home Ready to make your home safer? Let Home2stay do your grab bar installation in Port Coquitlam for you. Call to book your appointment today. We donâ€™t simply install grab bars; we install confidence, comfort and care into your home.</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:604-259-1211" class="btn-secondary text-lg px-8 py-4">
                 Call (604) 259-1211
@@ -548,15 +548,22 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Basic validation
             if (!data.first_name || !data.last_name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
             
-            // Here you would typically send the data to your server
-            alert('Thank you for your quote request! Our Burnaby team will contact you within 24 hours.');
-            
-            // Reset form
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 
@@ -765,7 +772,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 productInfoForm.addEventListener('submit', function(e) {
                     e.preventDefault(); // Prevent normal form submission to avoid quick refresh
                     
-                    console.log('🚀 Product form submission detected!');
+                    console.log('ðŸš€ Product form submission detected!');
                     console.log('Form action:', this.action);
                     console.log('Form method:', this.method);
                     
@@ -783,18 +790,18 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                     
                     if (!allValid) {
-                        console.log('❌ Form validation failed');
+                        console.log('âŒ Form validation failed');
                         alert('Please fill in all required fields (First Name, Last Name, Email, Phone)');
                         return false;
                     }
                     
-                    console.log('✅ Form validation passed, submitting via AJAX...');
+                    console.log('âœ… Form validation passed, submitting via AJAX...');
                     
                     // Submit form via AJAX
                     const formData = new FormData(this);
                     
                     // Debug: Log all form data
-                    console.log('📋 Form data being sent:');
+                    console.log('ðŸ“‹ Form data being sent:');
                     for (let [key, value] of formData.entries()) {
                         console.log(`  ${key}: ${value}`);
                     }
@@ -808,39 +815,41 @@ document.addEventListener('DOMContentLoaded', function() {
                         }
                     })
                     .then(response => {
-                        console.log('📡 Server response status:', response.status);
+                        console.log('ðŸ“¡ Server response status:', response.status);
                         return response.json().catch(() => response.text());
                     })
                     .then(data => {
-                        console.log('✅ Server response received');
-                        console.log('📄 Response data:', data);
+                        console.log('âœ… Server response received');
+                        console.log('ðŸ“„ Response data:', data);
                         
                         // Check if it's JSON response
                         if (typeof data === 'object' && data.success !== undefined) {
                             if (data.success) {
-                                alert(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                                showFlash(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                                 
                                 // Reset form and close modal
                                 this.reset();
                                 modal.classList.add('hidden');
                                 document.body.style.overflow = 'auto';
                             } else {
-                                alert('Error: ' + (data.message || 'There was an error submitting your request.'));
+                                showFlash('Error: ' + (data.message || 'There was an error submitting your request.'), 'error');
                             }
                         } else {
                             // Fallback for HTML response (shouldn't happen now)
-                            alert('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                            showFlash('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                             this.reset();
                             modal.classList.add('hidden');
                             document.body.style.overflow = 'auto';
                         }
                     })
                     .catch(error => {
-                        console.error('❌ Error submitting form:', error);
-                        alert('There was an error submitting your request. Please try again or contact us directly.');
+                        console.error('âŒ Error submitting form:', error);
+                        showFlash('There was an error submitting your request. Please try again or contact us directly.', 'error');
                     });
                 });
             }
         });
     </script>
 @endpush
+
+

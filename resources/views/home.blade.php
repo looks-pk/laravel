@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Home2stay - Stairlifts, Home Modifications &amp; Home Safety Equipment in Vancouver - Home2stay')
 @section('meta_description', 'Located in Vancouver, Home2stay is here to help you live safely and with maximum independence in your own home. We install grab bars, stair lifts, ramps &amp; more.')
@@ -724,7 +724,7 @@
         <div class="hero-content container mx-auto px-8 h-full flex items-center" style="position: relative; z-index: 5;">
             <div class="flex flex-col lg:flex-row items-center justify-between w-full">
                 <div class="text-white max-w-2xl lg:mr-8 hero-text">
-                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Stair Lifts & Accessible Bathroom Renovations in Vancouver — Aging in Place Solutions</h1>
+                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Stair Lifts & Accessible Bathroom Renovations in Vancouver â€” Aging in Place Solutions</h1>
                     <p class="text-xl mb-8 text-gray-100">We help you regain safety and independence in your space to help
                         you and your loved ones stay safe, even at home.</p>
                     <div class="flex flex-wrap gap-4">
@@ -799,7 +799,7 @@
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">Accessibility Solutions for Your
                     Home</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">At Home2stay, we specialize in making Vancouver homes safer and more accessible for seniors, individuals with mobility challenges, and families of all abilities. From stair lifts and bathroom renovations to grab bars, ramps, and safety equipment — we supply and install everything you need to stay comfortable and independent at home.</p>
+                <p class="text-gray-600 max-w-2xl mx-auto">At Home2stay, we specialize in making Vancouver homes safer and more accessible for seniors, individuals with mobility challenges, and families of all abilities. From stair lifts and bathroom renovations to grab bars, ramps, and safety equipment â€” we supply and install everything you need to stay comfortable and independent at home.</p>
             </div>
             @include('partials.services')
         </div>
@@ -2395,12 +2395,21 @@
                 form.addEventListener('submit', function (e) {
                     e.preventDefault();
                     if (validateStep(currentStep)) {
-                        // Here you'd normally submit the form
-                        alert('Form submitted successfully! Thank you for your request.');
-                        // Reset form and go back to step 1
-                        form.reset();
-                        currentStep = 1;
-                        updateFormState();
+                        var formEl = this;
+                        var formData = new FormData(formEl);
+                        fetch('/submit-assessment', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function(response) {
+                            return response.json().catch(function() { return {}; });
+                        }).then(function(result) {
+                            showFlash(result.message || 'Thank you! We will contact you shortly.');
+                            formEl.reset();
+                            currentStep = 1;
+                            updateFormState();
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error. Please try again.', 'error');
+                        });
                     }
                 });
 
@@ -2859,7 +2868,7 @@
                 productInfoForm.addEventListener('submit', function(e) {
                     e.preventDefault(); // Prevent normal form submission to avoid quick refresh
                     
-                    console.log('🚀 Product form submission detected!');
+                    console.log('ðŸš€ Product form submission detected!');
                     console.log('Form action:', this.action);
                     console.log('Form method:', this.method);
                     
@@ -2877,18 +2886,18 @@
                     });
                     
                     if (!allValid) {
-                        console.log('❌ Form validation failed');
+                        console.log('âŒ Form validation failed');
                         alert('Please fill in all required fields (First Name, Last Name, Email, Phone)');
                         return false;
                     }
                     
-                    console.log('✅ Form validation passed, submitting via AJAX...');
+                    console.log('âœ… Form validation passed, submitting via AJAX...');
                     
                     // Submit form via AJAX
                     const formData = new FormData(this);
                     
                     // Debug: Log all form data
-                    console.log('📋 Form data being sent:');
+                    console.log('ðŸ“‹ Form data being sent:');
                     for (let [key, value] of formData.entries()) {
                         console.log(`  ${key}: ${value}`);
                     }
@@ -2902,36 +2911,36 @@
                         }
                     })
                     .then(response => {
-                        console.log('📡 Server response status:', response.status);
+                        console.log('ðŸ“¡ Server response status:', response.status);
                         return response.json().catch(() => response.text());
                     })
                     .then(data => {
-                        console.log('✅ Server response received');
-                        console.log('📄 Response data:', data);
+                        console.log('âœ… Server response received');
+                        console.log('ðŸ“„ Response data:', data);
                         
                         // Check if it's JSON response
                         if (typeof data === 'object' && data.success !== undefined) {
                             if (data.success) {
-                                alert(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                                showFlash(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                                 
                                 // Reset form and close modal
                                 this.reset();
                                 modal.classList.add('hidden');
                                 document.body.style.overflow = 'auto';
                             } else {
-                                alert('Error: ' + (data.message || 'There was an error submitting your request.'));
+                                showFlash('Error: ' + (data.message || 'There was an error submitting your request.'), 'error');
                             }
                         } else {
                             // Fallback for HTML response (shouldn't happen now)
-                            alert('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                            showFlash('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                             this.reset();
                             modal.classList.add('hidden');
                             document.body.style.overflow = 'auto';
                         }
                     })
                     .catch(error => {
-                        console.error('❌ Error submitting form:', error);
-                        alert('There was an error submitting your request. Please try again or contact us directly.');
+                        console.error('âŒ Error submitting form:', error);
+                        showFlash('There was an error submitting your request. Please try again or contact us directly.', 'error');
                     });
                 });
             }

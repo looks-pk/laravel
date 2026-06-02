@@ -1,7 +1,7 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Trusted Tub Cuts in Port Coquitlam, BC | Home2Stay')
-@section('meta_description', 'Professional tub cuts in Port Coquitlam, BC. Trusted tub cut dealers for homes, rentals, strata & commercial facilities. Fast, clean & reliable bath access upgrades — book your free assessment today.')
+@section('meta_description', 'Professional tub cuts in Port Coquitlam, BC. Trusted tub cut dealers for homes, rentals, strata & commercial facilities. Fast, clean & reliable bath access upgrades â€” book your free assessment today.')
 
 @push('styles')
 <link rel="stylesheet" href="{{ asset('css/area-page.css') }}">
@@ -17,7 +17,7 @@
                 Trusted Tub Cuts in Port Coquitlam, BC
             </h1>
             <p class="text-xl md:text-1xl mb-8 opacity-90 max-w-xl mx-auto">
-                When you are looking for Tub Cuts in Port Coquitlam, you want a team that does the job right, fast, and with respect for your home or property. We are experts in trusted tub cuts and provide excellent service, clear pricing, and reliable results. Whether you manage a home, rental unit, or commercial facility, our work helps you improve access, safety, and value. As Tub Cuts Dealers in Port Coquitlam, we handle supply, planning, and installation — all in one place.
+                When you are looking for Tub Cuts in Port Coquitlam, you want a team that does the job right, fast, and with respect for your home or property. We are experts in trusted tub cuts and provide excellent service, clear pricing, and reliable results. Whether you manage a home, rental unit, or commercial facility, our work helps you improve access, safety, and value. As Tub Cuts Dealers in Port Coquitlam, we handle supply, planning, and installation â€” all in one place.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="#contact" class="btn-secondary text-lg px-8 py-4">
@@ -47,27 +47,27 @@
                 </h2>
                 <div class="prose prose-lg max-w-none">
                     <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                        For a reliable, stress-free tub cut upgrade, Home2stay brings both expertise and genuine care. You get a solution that works — not just a temporary fix.
+                        For a reliable, stress-free tub cut upgrade, Home2stay brings both expertise and genuine care. You get a solution that works â€” not just a temporary fix.
                     </p>
                     <ul class="space-y-3 mb-6">
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                             We offer free on-site assessments in Port Coquitlam.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                             We design each tub-cut job to fit your space, use, and budget.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                             Our installers are experienced, clean, and respectful of your home.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                             We use premium materials that meet local standards and weather conditions.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">✓</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
                             We deliver fast turnaround with minimal disruption to your home or facility.
                         </li>
                     </ul>
@@ -105,7 +105,7 @@
                 <div class="step-number">2</div>
                 <h3 class="text-xl font-bold text-gray-900 mb-3">Custom Proposal & Quote</h3>
                 <p class="text-gray-600">
-                    We propose a plan — how deep to cut, what threshold or insert to install, finishing trims, non-slip treatment, and a fully transparent cost. You review and approve.
+                    We propose a plan â€” how deep to cut, what threshold or insert to install, finishing trims, non-slip treatment, and a fully transparent cost. You review and approve.
                 </p>
             </div>
 
@@ -206,23 +206,23 @@
                 </p>
                 <ul class="space-y-4">
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Lower cost:</strong> You keep your existing tub and plumbing, reducing materials and labour significantly.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Faster installation:</strong> Many tub cuts complete in a few hours to one day.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Less disruption:</strong> No major demolition, less mess, fewer trades in your space.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
-                        <div><strong>Maintains existing design:</strong> Your bathroom stays mostly intact — just safer and more accessible.</div>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <div><strong>Maintains existing design:</strong> Your bathroom stays mostly intact â€” just safer and more accessible.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">✓</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
                         <div><strong>Improves safety and compliance:</strong> Step-in threshold, non-slip surfaces, and less risk of falls.</div>
                     </li>
                 </ul>
@@ -234,7 +234,7 @@
                     Materials & Features You'll Get with Home2stay
                 </h2>
                 <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                    We ensure your tub cut is not just functional — it looks good and lasts long.
+                    We ensure your tub cut is not just functional â€” it looks good and lasts long.
                 </p>
                 <div class="space-y-4">
                     <div class="flex items-start text-gray-700">
@@ -311,7 +311,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Fast Scheduling</h3>
-                <p class="text-gray-600">We schedule quickly to suit rental turnovers or business off-hours — minimising vacancy and keeping your operation running.</p>
+                <p class="text-gray-600">We schedule quickly to suit rental turnovers or business off-hours â€” minimising vacancy and keeping your operation running.</p>
             </div>
 
             <div class="service-card p-8 text-center">
@@ -321,7 +321,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">BC Code Compliance</h3>
-                <p class="text-gray-600">Proper finishes suited for BC moisture conditions and local code requirements — installed correctly the first time.</p>
+                <p class="text-gray-600">Proper finishes suited for BC moisture conditions and local code requirements â€” installed correctly the first time.</p>
             </div>
 
             <div class="service-card p-8 text-center">
@@ -331,7 +331,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Minimal Impact on Neighbours</h3>
-                <p class="text-gray-600">Minimal impact on neighbouring units and common areas when doing multi-unit strata projects — we work quietly and cleanly.</p>
+                <p class="text-gray-600">Minimal impact on neighbouring units and common areas when doing multi-unit strata projects â€” we work quietly and cleanly.</p>
             </div>
 
             <div class="service-card p-8 text-center">
@@ -443,12 +443,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>• Port Coquitlam (All Areas)</li>
-                                <li>• Coquitlam & Port Moody</li>
-                                <li>• Pitt Meadows & Maple Ridge</li>
-                                <li>• Burnaby & New Westminster</li>
-                                <li>• Surrey & Langley</li>
-                                <li>• Greater Vancouver & Lower Mainland</li>
+                                <li>â€¢ Port Coquitlam (All Areas)</li>
+                                <li>â€¢ Coquitlam & Port Moody</li>
+                                <li>â€¢ Pitt Meadows & Maple Ridge</li>
+                                <li>â€¢ Burnaby & New Westminster</li>
+                                <li>â€¢ Surrey & Langley</li>
+                                <li>â€¢ Greater Vancouver & Lower Mainland</li>
                             </ul>
                         </div>
                     </div>
@@ -458,7 +458,7 @@
             <!-- Quick Quote Form -->
             <div class="contact-card">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6 text-center">Get Your Free Quote</h3>
-                <form action="/submit-assessment" class="space-y-6">
+                <form action="/submit-assessment" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="form_type" value="assessment">
                     <input type="hidden" name="form_source" value="area-port-coquitlam_tub-cuts_page_assessment_form">
@@ -533,7 +533,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        Most standard installations finish in 4–6 hours, depending on tub type and layout.
+                        Most standard installations finish in 4â€“6 hours, depending on tub type and layout.
                     </div>
                 </div>
             </div>
@@ -575,7 +575,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        Yes. We deliver work to meet safety, access, and commercial standards where required — including applicable Port Coquitlam and BC building codes.
+                        Yes. We deliver work to meet safety, access, and commercial standards where required â€” including applicable Port Coquitlam and BC building codes.
                     </div>
                 </div>
             </div>
@@ -604,7 +604,7 @@
             Ready to Upgrade Your Bathroom Access?
         </h2>
         <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-            When you are ready for the most efficient, reliable tub-cut upgrade in Port Coquitlam, call Home2stay. We will arrange your free site assessment, present a clear quote, and get your project moving fast. You will get safer, smarter access — and peace of mind.
+            When you are ready for the most efficient, reliable tub-cut upgrade in Port Coquitlam, call Home2stay. We will arrange your free site assessment, present a clear quote, and get your project moving fast. You will get safer, smarter access â€” and peace of mind.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:604-259-1211" class="btn-secondary text-lg px-8 py-4">
@@ -635,11 +635,21 @@ document.addEventListener('DOMContentLoaded', function() {
             const formData = new FormData(this);
             const data = Object.fromEntries(formData);
             if (!data.first_name || !data.last_name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
+                showFlash('Please fill in all required fields.', 'error');
                 return;
             }
-            alert('Thank you for your quote request! Our Port Coquitlam team will contact you within 24 hours.');
-            this.reset();
+            var formEl = this;
+            fetch('/submit-assessment', {
+                method: 'POST',
+                body: formData,
+            }).then(function(response) {
+                return response.json().catch(function() { return {}; });
+            }).then(function(result) {
+                showFlash(result.message || 'Thank you! Our team will contact you within 24 hours.');
+                formEl.reset();
+            }).catch(function() {
+                showFlash('Sorry, there was an error. Please try again.', 'error');
+            });
         });
     }
 
@@ -805,15 +815,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 .then(data => {
                     if (typeof data === 'object' && data.success !== undefined) {
                         if (data.success) {
-                            alert(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                            showFlash(data.message || 'Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                             this.reset();
                             modal.classList.add('hidden');
                             document.body.style.overflow = 'auto';
                         } else {
-                            alert('Error: ' + (data.message || 'There was an error submitting your request.'));
+                            showFlash('Error: ' + (data.message || 'There was an error submitting your request.'), 'error');
                         }
                     } else {
-                        alert('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
+                        showFlash('Thank you! Your product inquiry has been submitted successfully. We will contact you soon.');
                         this.reset();
                         modal.classList.add('hidden');
                         document.body.style.overflow = 'auto';
@@ -821,10 +831,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 })
                 .catch(error => {
                     console.error('Error submitting form:', error);
-                    alert('There was an error submitting your request. Please try again or contact us directly.');
+                    showFlash('There was an error submitting your request. Please try again or contact us directly.', 'error');
                 });
             });
         }
     });
 </script>
 @endpush
+
+
+

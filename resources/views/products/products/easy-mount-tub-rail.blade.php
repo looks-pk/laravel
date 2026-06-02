@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Home2stay Easy Mount Tub-Rail - Home2stay')
 @section('meta_description', 'The TubRail provides excellent support in both getting in and out of the tub. The 2-handle grip supports you as [&hellip;]')
@@ -111,7 +111,7 @@
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Works with the majority of tub models. The 15″ handle has gripping surfaces at two different heights for comfort.
+                            Works with the majority of tub models. The 15â€³ handle has gripping surfaces at two different heights for comfort.
                         </p>
                     </div>
                     <div class="mb-6">
@@ -217,7 +217,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Ergonomic Handle Design</h3>
-                                            <p class="text-gray-600">The 15″ handle has gripping surfaces at two different heights for optimal comfort and accessibility.</p>
+                                            <p class="text-gray-600">The 15â€³ handle has gripping surfaces at two different heights for optimal comfort and accessibility.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -348,11 +348,11 @@
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Seat Dimensions:</span>
-                                                <span class="text-gray-600">24″ (W) x 16″ (D)</span>
+                                                <span class="text-gray-600">24â€³ (W) x 16â€³ (D)</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Seat Height:</span>
-                                                <span class="text-gray-600">17.75″ (L) x 21.75″ (H)</span>
+                                                <span class="text-gray-600">17.75â€³ (L) x 21.75â€³ (H)</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Weight:</span>
@@ -360,7 +360,7 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Handle Length:</span>
-                                                <span class="text-gray-600">15″</span>
+                                                <span class="text-gray-600">15â€³</span>
                                             </div>
                                         </div>
                                         <div class="space-y-3">
@@ -388,13 +388,13 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>• Excellent support for getting in and out of the tub</li>
-                                            <li>• 2-handle grip design for enhanced stability</li>
-                                            <li>• Works with majority of tub models</li>
-                                            <li>• 15″ handle with gripping surfaces at two different heights</li>
-                                            <li>• High weight capacity of 400 lbs</li>
-                                            <li>• Lightweight construction at only 11.75 lbs</li>
-                                            <li>• Available for next-day delivery and installation</li>
+                                            <li>â€¢ Excellent support for getting in and out of the tub</li>
+                                            <li>â€¢ 2-handle grip design for enhanced stability</li>
+                                            <li>â€¢ Works with majority of tub models</li>
+                                            <li>â€¢ 15â€³ handle with gripping surfaces at two different heights</li>
+                                            <li>â€¢ High weight capacity of 400 lbs</li>
+                                            <li>â€¢ Lightweight construction at only 11.75 lbs</li>
+                                            <li>â€¢ Available for next-day delivery and installation</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -529,11 +529,11 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
                         would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="Home2stay Easy Mount Tub-Rail">
 
@@ -663,7 +663,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name" value="Home2stay Easy Mount Tub-Rail">
 
@@ -904,21 +904,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'PVI Multi-Fold Reach Ramp - Home2Stay')
 @section('meta_description', 'PVI Multi-Fold Reach Ramp by Home2Stay - lightweight aluminum portable ramp with extended reach design. Easy folding, up to 800 lbs capacity. Perfect for vehicle and home accessibility.')
@@ -242,7 +242,7 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Tested at 3× Safety Factor</h3>
+                                            <h3 class="font-semibold text-gray-800">Tested at 3Ã— Safety Factor</h3>
                                             <p class="text-gray-600">Reliable performance and safety tested at 3x safety factor for confidence you can trust. Easy setup for everyday use without tools or expertise.</p>
                                         </div>
                                     </div>
@@ -351,12 +351,12 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Ideal For</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>• Wheelchair users and caregivers</li>
-                                            <li>• Scooter and power chair owners</li>
-                                            <li>• Family travel and accessibility needs</li>
-                                            <li>• Vans, SUVs, and truck applications</li>
-                                            <li>• Ageing in place and community accessibility</li>
-                                            <li>• Temporary or permanent accessibility solutions</li>
+                                            <li>â€¢ Wheelchair users and caregivers</li>
+                                            <li>â€¢ Scooter and power chair owners</li>
+                                            <li>â€¢ Family travel and accessibility needs</li>
+                                            <li>â€¢ Vans, SUVs, and truck applications</li>
+                                            <li>â€¢ Ageing in place and community accessibility</li>
+                                            <li>â€¢ Temporary or permanent accessibility solutions</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -489,11 +489,11 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need – We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
                         would love to hear from you!</p>
                 </div>
 
-                <form action="#" method="POST" class="space-y-6">
+                <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                     @csrf
                     <input type="hidden" name="product" value="PVI Multi-Fold Reach Ramp">
 
@@ -623,7 +623,7 @@
 
             <!-- Modal Body -->
             <div class="p-6">
-                <form id="quoteRequestForm">
+                <form id="quoteRequestForm" action="/submit-product-inquiry" method="POST">
                     @csrf
                     <input type="hidden" id="product_name" name="product_name" value="PVI Multi-Fold Reach Ramp">
 
@@ -864,21 +864,24 @@
                 if (quoteRequestForm) {
                     quoteRequestForm.addEventListener('submit', function (e) {
                         e.preventDefault();
-
-                        // Create FormData object to easily get form values
-                        const formData = new FormData(this);
-
-                        // You would typically send this data to your server with AJAX
-                        // For now, just display a success message
-                        alert('Your quote request has been submitted! We will contact you shortly with pricing information.');
-
-                        // Reset form and close modal
-                        this.reset();
-                        quoteRequestModal.classList.add('hidden');
-                        document.body.style.overflow = 'auto';
+                        var form = this;
+                        var formData = new FormData(this);
+                        fetch('/submit-product-inquiry', {
+                            method: 'POST',
+                            body: formData,
+                        }).then(function() {
+                            form.reset();
+                            quoteRequestModal.classList.add('hidden');
+                            document.body.style.overflow = 'auto';
+                            showFlash('Thank you! Your quote request has been submitted. We will contact you shortly.');
+                        }).catch(function() {
+                            showFlash('Sorry, there was an error submitting your request. Please try again.', 'error');
+                        });
                     });
                 }
             }
         });
     </script>
 @endpush
+
+

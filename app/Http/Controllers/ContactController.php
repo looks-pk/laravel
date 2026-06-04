@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\ContactFormSubmitted;
+use App\Mail\FormConfirmation;
 
 class ContactController extends Controller
 {
@@ -23,8 +24,11 @@ class ContactController extends Controller
             'service' => 'nullable|string',
         ]);
 
-        // Send email
+        // Notify business
         Mail::to(config('mail.from.address'))->cc('meetpaulmason@gmail.com')->send(new ContactFormSubmitted($validated));
+
+        // Confirm to submitter
+        Mail::to($validated['email'])->send(new FormConfirmation($validated['name'], 'Contact Form'));
 
         return redirect()->back()->with('success', 'Thank you for your message. We will get back to you soon!');
     }

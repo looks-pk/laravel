@@ -5,6 +5,7 @@ namespace App\Services;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Log;
 use App\Mail\UniversalFormSubmission;
+use App\Mail\FormConfirmation;
 
 class UniversalMailService
 {
@@ -57,6 +58,16 @@ class UniversalMailService
                 'to' => $config['to'],
                 'subject' => $config['subject'],
             ]);
+
+            // Send confirmation email to the submitter if they provided an email
+            $submitterEmail = $formData['email'] ?? null;
+            if ($submitterEmail && filter_var($submitterEmail, \FILTER_VALIDATE_EMAIL)) {
+                $submitterName = $formData['name']
+                    ?? trim(($formData['first_name'] ?? '') . ' ' . ($formData['last_name'] ?? ''))
+                    ?: 'Valued Customer';
+
+                Mail::to($submitterEmail)->send(new FormConfirmation($submitterName, $config['form_name']));
+            }
 
             return true;
         } catch (\Exception $e) {

@@ -41,32 +41,28 @@ class UniversalMailService
                 ];
             }
 
-            // Send email
-            Log::info('Attempting to send email', [
+            // Send email notification to admin recipient(s)
+            Log::info('Attempting to send notification email', [
                 'to' => $config['to'],
                 'subject' => $config['subject'],
                 'form_name' => $config['form_name'],
             ]);
-            
-            Mail::to($config['to'])->cc('meetpaulmason@gmail.com')->send(new UniversalFormSubmission([
-                'form_data' => $cleanedData,
-                'form_name' => $config['form_name'],
-                'subject' => $config['subject'],
-            ]));
-            
-            Log::info('Email sent successfully', [
+
+            $this->sendAdminNotification($cleanedData, $config);
+
+            Log::info('Notification email sent successfully', [
                 'to' => $config['to'],
                 'subject' => $config['subject'],
             ]);
 
-            // Send confirmation email to the submitter if they provided an email
+            // Send confirmation email only to the submitter if they provided a valid email
             $submitterEmail = $formData['email'] ?? null;
             if ($submitterEmail && filter_var($submitterEmail, \FILTER_VALIDATE_EMAIL)) {
                 $submitterName = $formData['name']
                     ?? trim(($formData['first_name'] ?? '') . ' ' . ($formData['last_name'] ?? ''))
                     ?: 'Valued Customer';
 
-                Mail::to($submitterEmail)->send(new FormConfirmation($submitterName, $config['form_name']));
+                $this->sendSubmitterConfirmation($submitterEmail, $submitterName, $config['form_name']);
             }
 
             return true;
@@ -115,6 +111,36 @@ class UniversalMailService
         }
 
         return $cleaned;
+    }
+
+    /**
+     * Send the admin notification email for a form submission.
+     *
+     * @param array $cleanedData
+     * @param array $config
+     * @return void
+     */
+    private function sendAdminNotification(array $cleanedData, array $config): void
+    {
+        Mail::to($config['to'])
+            ->send(new UniversalFormSubmission([
+                'form_data' => $cleanedData,
+                'form_name' => $config['form_name'],
+                'subject' => $config['subject'],
+            ]));
+    }
+
+    /**
+     * Send the submitter confirmation email.
+     *
+     * @param string $email
+     * @param string $name
+     * @param string $formName
+     * @return void
+     */
+    private function sendSubmitterConfirmation(string $email, string $name, string $formName): void
+    {
+        Mail::to($email)->send(new FormConfirmation($name, $formName));
     }
 
     /**

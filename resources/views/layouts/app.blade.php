@@ -365,7 +365,7 @@
         <!-- Page Content -->
         <main>
             {{-- Universal Flash Messages --}}
-            <div id="flash-messages" class="fixed top-4 right-4 z-[9999] flex flex-col gap-3 w-full max-w-sm pointer-events-none">
+            <div id="flash-messages" class="fixed top-24 right-4 z-[9999] flex flex-col gap-3 w-full max-w-sm pointer-events-none">
 
                 @if(session('success'))
                 <div class="flash-msg pointer-events-auto flex items-start gap-3 bg-green-50 border border-green-200 text-green-800 rounded-xl p-4 shadow-lg animate-fade-in">

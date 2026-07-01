@@ -304,7 +304,7 @@
                     <h3 class="text-xl font-bold text-gray-800 mb-2">Address</h3>
                     <p class="text-gray-600 mb-4">Visit our showroom</p>
                     <p class="text-gray-800 font-semibold">
-                        825 Powell St #230, Vancouver, BC V5Y 1K6, Canada
+                        230 - 825 Powell street, Vancouver, BC, V6A 1H7
                     </p>
                 </div>
 

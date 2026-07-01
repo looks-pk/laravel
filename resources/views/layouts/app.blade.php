@@ -544,7 +544,7 @@
                             <li class="flex items-start">
                                 <i class="fas fa-map-marker-alt mt-1 mr-2 text-primary"></i>
                                 <div class="text-light-800 text-xl">
-                                    <div>196 West 6 Ave, Vancouver, BC, V5Y 1K6</div>
+                                    <div>230 - 825 Powell street, Vancouver, BC, V6A 1H7</div>
                                 </div>
                             </li>
                             <li class="flex items-start">

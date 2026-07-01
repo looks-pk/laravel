@@ -273,11 +273,6 @@
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('ramps/dunlop-slope-2.jpeg') }}"
-                                            alt="Self Supporting Threshold Ramps"
-                                            class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
-                                    </div>
-                                    <div class="image-thumbnail cursor-pointer">
                                         <img src="{{ asset('ramps/dunlop-slope-3.jpeg') }}"
                                             alt="Self Supporting Threshold Ramps"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">

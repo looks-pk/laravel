@@ -266,7 +266,7 @@ Our team assesses your location of need and ease of movement and prescribes type
                             <div class="space-y-3">
                                 <div>
                                     <p class="font-semibold text-gray-800">Vancouver Office</p>
-                                    <p class="text-gray-600 text-sm">196 West 6 Ave, Vancouver, BC, V5Y 1K6</p>
+                                    <p class="text-gray-600 text-sm">230 - 825 Powell street, Vancouver, BC, V6A 1H7</p>
                                 </div>
                             </div>
                         </div>

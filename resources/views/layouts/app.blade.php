@@ -12,9 +12,9 @@
     <meta name="recaptcha-site-key" content="{{ config('services.recaptcha.site_key') }}">
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="{{ asset('Logo-clr.png') }}">
-    <meta name="google-site-verification" content="1SqsMtHtpvtm2yobN-f72IulUovndPJ7Jg4g0_lN_4E" />
-
-
+    
+  <meta name="google-site-verification" content="0Ucpkwd7zB-q9_iN_kqFxQGogRUI3lY-eEwO79XLx7k" />
+    
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-51J3BXNWJV"></script>
 <script>

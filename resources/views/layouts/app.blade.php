@@ -15,15 +15,17 @@
     <meta name="google-site-verification" content="1SqsMtHtpvtm2yobN-f72IulUovndPJ7Jg4g0_lN_4E" />
 
 
-    <!-- Google tag (gtag.js) -->
-    {{-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-51J3BXNWJV"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-51J3BXNWJV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        gtag('config', 'G-51J3BXNWJV');
-    </script> --}}
+  gtag('config', 'G-51J3BXNWJV');
+</script>
+
+
     <!-- DNS Prefetch for external resources -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">

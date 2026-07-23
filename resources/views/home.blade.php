@@ -621,9 +621,11 @@
                 height: auto;
                 min-height: 800px;
             }
-
+            .hero-content{
+               padding-block:50px
+}    
             .hero-text h1 {
-                font-size: 2.25rem;
+                font-size: 1.25rem;
             }
 
             .hero-text p {
@@ -794,12 +796,12 @@
     </div>
 </section>
     <!-- Mobility Products Section -->
-    <section class="py-20 px-10 bg-gray-50">
+    <section class="py-8 md:py-12 px-4 md:px-8 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">Accessibility Solutions for Your
                     Home</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">At Home2stay, we specialize in making Vancouver homes safer and more accessible for seniors, individuals with mobility challenges, and families of all abilities. From stair lifts and bathroom renovations to grab bars, ramps, and safety equipment â€” we supply and install everything you need to stay comfortable and independent at home.</p>
+                <p class="text-gray-600 max-w-2xl mx-auto">At Home2stay, we specialize in making Vancouver homes safer and more accessible for seniors, individuals with mobility challenges, and families of all abilities. From stair lifts and bathroom renovations to grab bars, ramps, and safety equipment, we supply and install everything you need to stay comfortable and independent at home.</p>
             </div>
             @include('partials.services')
         </div>
@@ -808,7 +810,7 @@
 
 
     <!-- Why Choose Us Section -->
-    <section class="py-24 bg-white relative overflow-hidden">
+    <section class="py-8 md:py-12 px-4 md:px-8 bg-white relative overflow-hidden">
         <!-- Abstract Background -->
         <div class="absolute inset-0 pointer-events-none opacity-5">
             
@@ -921,7 +923,7 @@
     </section>
 
     <!-- Promotional Sections -->
-    <section class="promotional-section py-24 bg-gradient-to-br from-gray-50 to-white">
+    <section class="promotional-section py-8 md:py-12 px-4 md:px-8  bg-gradient-to-br from-gray-50 to-white">
         <div class="container mx-auto px-4">
             <!-- Enhanced Bathroom Remodeling Section -->
             <div class="bg-white rounded-2xl overflow-hidden shadow-2xl border border-gray-100 hover:shadow-3xl transition-all duration-500">
@@ -935,7 +937,7 @@
                     </div>
 
                     <!-- Content Side -->
-                    <div class="w-full lg:w-1/2 p-8 lg:p-12 xl:p-16 flex flex-col justify-center relative">
+                    <div class="w-full lg:w-1/2 p-6 md:p-8 lg:p-10 flex flex-col justify-center relative">
                         <!-- Decorative Element -->
                         <div class="absolute top-6 right-6 w-20 h-20 bg-gradient-to-br from-secondary/10 to-secondary/5 rounded-full blur-xl"></div>
                         
@@ -948,7 +950,7 @@
                                 Premium Service
                             </div> --}}
 
-                            <h2 class="text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                            <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-4 leading-tight">
                                 Transform Your Bathroom with 
                                 <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-dark">
                                     Home2stay
@@ -1015,10 +1017,10 @@
     </section>
 
     <!-- Enhanced Repair Request Form Section -->
-    <section class="py-24 bg-gradient-to-br from-gray-50 via-white to-gray-50">
+    <section class="py-8 md:py-12 bg-gradient-to-br from-gray-50 via-white to-gray-50">
         <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Schedule a Service Today</h2>
+            <div class="text-center mb-8 md:mb-10">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Schedule a Service Today</h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
                     Getting support is quick and easy. Complete this form or contact a Home2stay location 
                     for availability, additional details, and pricing.
@@ -1028,7 +1030,7 @@
             <!-- Side by Side Layout -->
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 ">
                 <!-- Image Side -->
-                <div class="relative rounded-2xl overflow-hidden shadow-xl h-100">
+              <div class="relative rounded-2xl overflow-hidden shadow-xl h-[400px] lg:h-full">
                     <img src="{{ asset('/al-prod-page-imgs/5165-Best-Bath-Trench-Drain-Pan-11-02-2015b-1-1024x682-2.jpeg') }}" alt="Home Accessibility Service"
                         class="w-full h-full object-cover">
                     <div class="absolute inset-0 bg-gradient-to-r from-primary/70 to-primary/40"></div>
@@ -1222,7 +1224,7 @@
     </section>
 
     <!-- Beautiful Brand Partners Slider -->
-    <section class="py-16 bg-gradient-to-r from-gray-50 via-white to-gray-50 relative overflow-hidden">
+    <section class="py-8 md:py-16 bg-gradient-to-r from-gray-50 via-white to-gray-50 relative overflow-hidden">
         <!-- Subtle background pattern -->
         <div class="absolute inset-0 opacity-20">
             <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
@@ -1324,7 +1326,7 @@
     </section>
 
     <!-- Beautiful Image Slider -->
-    <section class="py-16 bg-gradient-to-br from-white via-gray-50 to-white relative overflow-hidden">
+    <section class="py-8 sm:py-12 md:py-16 bg-gradient-to-br from-white via-gray-50 to-white relative overflow-hidden">
         <!-- Elegant background pattern -->
         <div class="absolute inset-0 pointer-events-none opacity-20">
             <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
@@ -1411,7 +1413,7 @@
     </section>
 
     <!-- Service Features Section -->
-    <section class="py-20 bg-white">
+   <section class="py-8 md:py-12 lg:py-16 bg-white">
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
                 <div class="text-center p-8 bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
@@ -1456,7 +1458,7 @@
     </section>
 
     <!-- Enhanced Testimonials Section -->
-    <section class="py-24 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
+    <section class="py-8 sm:py-12 md:py-16 lg:py-20 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
         <!-- Background Pattern -->
         <div class="absolute inset-0 pointer-events-none opacity-5">
             <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
@@ -1746,7 +1748,7 @@
     </section>
 
     <!-- Latest Blog Posts -->
-    <section class="py-24 px-10 bg-gray-50">
+     <section class="py-8 md:py-12 lg:py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">Latest From Our Blog</h2>

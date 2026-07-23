@@ -527,7 +527,7 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto text-center text-white">
                 <h2 class="text-3xl font-bold mb-6">Ready to Renovate Your Bathroom?</h2>
-                <p class="text-xl mb-8">Contact us today to explore how Home2Stay can create a beautiful, functional bathroom — barrier-free or any style you choose.</p>
+                <p class="text-xl mb-8">Contact us today to explore how Home2stay can create a beautiful, functional bathroom — barrier-free or any style you choose.</p>
                 <div class="flex flex-wrap justify-center gap-4">
                     <a href="{{ route('contact') }}"
                         class="px-8 py-3 bg-white text-primary hover:bg-gray-100 rounded-lg font-medium transition duration-300">

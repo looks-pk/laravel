@@ -425,17 +425,17 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Step-in shower conversion for high-profile tubs</li>
-                                            <li>â€¢ Ultra-low design ideal for tubs at least 14.75" tall</li>
-                                            <li>â€¢ Non-skid step pad to reduce slips and falls</li>
-                                            <li>â€¢ Quick installation in less than one day</li>
-                                            <li>â€¢ Compatible with acrylic, fiberglass, steel, and cast iron tubs</li>
-                                            <li>â€¢ Available in 1 width</li>
-                                            <li>â€¢ Two color options: white and beige</li>
-                                            <li>â€¢ Greatly reduces possibility of falls</li>
-                                            <li>â€¢ Enables easy step-in access</li>
-                                            <li>â€¢ Our most affordable tub cut solution</li>
-                                            <li>â€¢ Next-day delivery and installation available</li>
+                                            <li> Step-in shower conversion for high-profile tubs</li>
+                                            <li> Ultra-low design ideal for tubs at least 14.75" tall</li>
+                                            <li> Non-skid step pad to reduce slips and falls</li>
+                                            <li> Quick installation in less than one day</li>
+                                            <li> Compatible with acrylic, fiberglass, steel, and cast iron tubs</li>
+                                            <li> Available in 1 width</li>
+                                            <li> Two color options: white and beige</li>
+                                            <li> Greatly reduces possibility of falls</li>
+                                            <li> Enables easy step-in access</li>
+                                            <li> Our most affordable tub cut solution</li>
+                                            <li> Next-day delivery and installation available</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -444,13 +444,13 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Installation Details</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Installation completed on existing tub</li>
-                                            <li>â€¢ Installed in less than one day</li>
-                                            <li>â€¢ Greatly reduces the possibility of falls</li>
-                                            <li>â€¢ Enables easy step-in access</li>
-                                            <li>â€¢ Our most affordable product</li>
-                                            <li>â€¢ Professional installation by CleanCut specialists</li>
-                                            <li>â€¢ Ideal for high-profile tubs (14.75" + tall)</li>
+                                            <li> Installation completed on existing tub</li>
+                                            <li> Installed in less than one day</li>
+                                            <li> Greatly reduces the possibility of falls</li>
+                                            <li> Enables easy step-in access</li>
+                                            <li> Our most affordable product</li>
+                                            <li> Professional installation by CleanCut specialists</li>
+                                            <li> Ideal for high-profile tubs (14.75" + tall)</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -585,7 +585,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We
                         would love to hear from you!</p>
                 </div>
 

@@ -79,12 +79,12 @@
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Barrier-free showers are modern shower systems designed without raised edges or thresholds, allowing smooth, safe entry and exit for users of all abilities. Best Bath Modular Barrier-Free Showers are prefabricated shower systems â€” manufactured to precise specifications off-site and installed efficiently â€” making them the top choice for accessible shower systems and universal bathroom design across British Columbia.
+                            Barrier-free showers are modern shower systems designed without raised edges or thresholds, allowing smooth, safe entry and exit for users of all abilities. Best Bath Modular Barrier-Free Showers are prefabricated shower systems manufactured to precise specifications off-site and installed efficiently making them the top choice for accessible shower systems and universal bathroom design across British Columbia.
                         </p>
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Unlike traditional showers that include raised curbs or bathtub surrounds posing tripping hazards, Best Bath walk-in showers and low-threshold designs eliminate these barriers entirely. Home2Stay is a certified distributor and installer of Best Bath Intelligent Designs, providing professional shower installation services across Vancouver, Surrey, Burnaby, Coquitlam, Langley, Abbotsford, and the wider BC region.
+                            Unlike traditional showers that include raised curbs or bathtub surrounds posing tripping hazards, Best Bath walk-in showers and low-threshold designs eliminate these barriers entirely. Home2stay is a certified distributor and installer of Best Bath Intelligent Designs, providing professional shower installation services across Vancouver, Surrey, Burnaby, Coquitlam, Langley, Abbotsford, and the wider BC region.
                         </p>
                     </div>
                     <div class="mb-6">
@@ -94,7 +94,7 @@
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Best Bath modular showers combine zero-threshold entry, full plywood-backed walls, ADA-compliant design, and customizable safety accessories into one cohesive, code-compliant solution. Their pre-engineered modular construction reduces installation complexity and time compared to traditional tile showers â€” making them ideal for both renovations and new construction projects where efficiency and accessibility matter.
+                            Best Bath modular showers combine zero-threshold entry, full plywood-backed walls, ADA-compliant design, and customizable safety accessories into one cohesive, code-compliant solution. Their pre-engineered modular construction reduces installation complexity and time compared to traditional tile showers making them ideal for both renovations and new construction projects where efficiency and accessibility matter.
                         </p>
                     </div>
 
@@ -143,7 +143,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Zero-Threshold Barrier-Free Entry</h3>
-                                            <p class="text-gray-600">Best Bath showers feature a Â¾" bevelled edge or fully flush zero-threshold base, allowing wheelchair users and those with limited mobility to roll in or step in safely â€” eliminating the dangerous curb that causes falls in traditional showers.</p>
+                                            <p class="text-gray-600">Best Bath showers feature a ¾" bevelled edge or fully flush zero-threshold base, allowing wheelchair users and those with limited mobility to roll in or step in safely eliminating the dangerous curb that causes falls in traditional showers.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -152,7 +152,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Full Plywood-Backed Walls</h3>
-                                            <p class="text-gray-600">Every wall panel includes full plywood backing, providing unbeatable structural strength across the entire unit. Grab bars, fold-down shower seats, handheld shower heads, and accessories can be mounted anywhere on the wall â€” no need to hunt for studs.</p>
+                                            <p class="text-gray-600">Every wall panel includes full plywood backing, providing unbeatable structural strength across the entire unit. Grab bars, fold-down shower seats, handheld shower heads, and accessories can be mounted anywhere on the wall no need to hunt for studs.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -170,7 +170,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Slip-Resistant Flooring & Safety Features</h3>
-                                            <p class="text-gray-600">Safety is built in at every level. Best Bath barrier-free showers include slip-resistant shower floors, reinforced walls for grab bar support, and optional built-in seating and handheld showerheads â€” essential features for handicap accessible bathrooms and senior living environments.</p>
+                                            <p class="text-gray-600">Safety is built in at every level. Best Bath barrier-free showers include slip-resistant shower floors, reinforced walls for grab bar support, and optional built-in seating and handheld showerheads essential features for handicap accessible bathrooms and senior living environments.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">

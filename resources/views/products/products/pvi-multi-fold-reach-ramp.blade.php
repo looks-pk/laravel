@@ -351,12 +351,12 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Ideal For</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Wheelchair users and caregivers</li>
-                                            <li>â€¢ Scooter and power chair owners</li>
-                                            <li>â€¢ Family travel and accessibility needs</li>
-                                            <li>â€¢ Vans, SUVs, and truck applications</li>
-                                            <li>â€¢ Ageing in place and community accessibility</li>
-                                            <li>â€¢ Temporary or permanent accessibility solutions</li>
+                                            <li> Wheelchair users and caregivers</li>
+                                            <li> Scooter and power chair owners</li>
+                                            <li> Family travel and accessibility needs</li>
+                                            <li> Vans, SUVs, and truck applications</li>
+                                            <li> Ageing in place and community accessibility</li>
+                                            <li> Temporary or permanent accessibility solutions</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -408,7 +408,7 @@
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
                         <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Yours Today at Home2Stay!</h2>
-                        <p class="text-lg text-gray-600 mb-6" >Bring freedom of movement back into daily life with a ramp engineered for safety, convenience, and long-lasting use. Explore sizes, accessories, and expert support at Home2Stay.</p>
+                        <p class="text-lg text-gray-600 mb-6" >Bring freedom of movement back into daily life with a ramp engineered for safety, convenience, and long-lasting use. Explore sizes, accessories, and expert support at Home2stay.</p>
                         <p class="mb-5">Give us a call at <a href="tel:+16042591211" class="text-secondary" style="font-weight: bold; color: red;">604-259-1211</a>
                             or submit a FREE <a href="#assessment" class="text-secondary" style="font-weight: bold; color: red;">ASSESSMENT FORM</a> to check.</p>
                     </div>
@@ -489,7 +489,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We
                         would love to hear from you!</p>
                 </div>
 

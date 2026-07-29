@@ -179,7 +179,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">ADA Compliant & Code-Ready</h3>
-                                            <p class="text-gray-600">Best Bath modular showers meet or exceed ADA and ANSI A117.1 accessibility standards, making them suitable for residential and commercial applications alike. Every unit passes a rigorous 28-point quality inspection before shipment, and Home2Stay's certified installers ensure full compliance from day one.</p>
+                                            <p class="text-gray-600">Best Bath modular showers meet or exceed ADA and ANSI A117.1 accessibility standards, making them suitable for residential and commercial applications alike. Every unit passes a rigorous 28-point quality inspection before shipment, and Home2stay's certified installers ensure full compliance from day one.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -188,7 +188,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Durable, Low-Maintenance Materials</h3>
-                                            <p class="text-gray-600">Constructed from high-quality fiberglass reinforced composite with smooth, non-porous surfaces, Best Bath modular showers resist mold, mildew, and cracking. Cleaning requires only mild, non-abrasive products â€” no grout lines to scrub, no harsh chemicals needed.</p>
+                                            <p class="text-gray-600">Constructed from high-quality fiberglass reinforced composite with smooth, non-porous surfaces, Best Bath modular showers resist mold, mildew, and cracking. Cleaning requires only mild, non-abrasive products no grout lines to scrub, no harsh chemicals needed.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -197,7 +197,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">30-Year Limited Warranty</h3>
-                                            <p class="text-gray-600">Best Bath backs every shower with an industry-leading 30-year limited warranty covering manufacturing defects â€” the longest warranty in its class and a testament to the quality of American-made construction.</p>
+                                            <p class="text-gray-600">Best Bath backs every shower with an industry-leading 30-year limited warranty covering manufacturing defects the longest warranty in its class and a testament to the quality of American-made construction.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -236,9 +236,9 @@
                                     </div>
 
                                     <div class="mt-6 space-y-3">
-                                        <p class="text-gray-600"><strong class="text-gray-800">Residential Homes:</strong> Best Bath Modular Barrier-Free Showers are increasingly popular in BC homes for their sleek design and practical functionality. Perfect for homeowners seeking aging in place solutions or upgrading to a modern accessible walk-in shower, these units support universal bathroom design â€” usable by every family member regardless of age or ability.</p>
+                                        <p class="text-gray-600"><strong class="text-gray-800">Residential Homes:</strong> Best Bath Modular Barrier-Free Showers are increasingly popular in BC homes for their sleek design and practical functionality. Perfect for homeowners seeking aging in place solutions or upgrading to a modern accessible walk-in shower, these units support universal bathroom design usable by every family member regardless of age or ability.</p>
                                         <p class="text-gray-600"><strong class="text-gray-800">Healthcare Facilities &amp; Hospitals:</strong> Healthcare settings rely heavily on accessible shower systems. ADA-compliant modular shower units are commonly installed in hospitals and clinics for patient safety and ease of maintenance. Their hygienic non-porous surfaces and durable construction make prefabricated shower systems the practical choice in clinical environments.</p>
-                                        <p class="text-gray-600"><strong class="text-gray-800">Senior &amp; Assisted Living Spaces:</strong> In senior living facilities, modular barrier-free showers are essential. They support resident independence while maintaining safety through slip-resistant flooring, grab bars, and fold-down seating â€” core features of any well-designed handicap accessible bathroom.</p>
+                                        <p class="text-gray-600"><strong class="text-gray-800">Senior &amp; Assisted Living Spaces:</strong> In senior living facilities, modular barrier-free showers are essential. They support resident independence while maintaining safety through slip-resistant flooring, grab bars, and fold-down seating core features of any well-designed handicap accessible bathroom.</p>
                                     </div>
                                 </div>
                             </div>
@@ -262,23 +262,23 @@
                                     <div class="space-y-4">
                                         <div class="border-l-4 border-primary pl-4">
                                             <h4 class="font-semibold text-gray-800">Pre-Fabricated Design Advantages</h4>
-                                            <p class="text-gray-600">Components are manufactured to precise specifications off-site, ensuring a perfect fit during on-site assembly. This reduces errors and makes professional shower installation services significantly more efficient â€” especially for large-scale or multi-unit projects.</p>
+                                            <p class="text-gray-600">Components are manufactured to precise specifications off-site, ensuring a perfect fit during on-site assembly. This reduces errors and makes professional shower installation services significantly more efficient especially for large-scale or multi-unit projects.</p>
                                         </div>
                                         <div class="border-l-4 border-primary pl-4">
                                             <h4 class="font-semibold text-gray-800">Exclusive Snap Joint Technology</h4>
-                                            <p class="text-gray-600">Best Bath's multi-piece modular panels use snap joint assembly and fit through standard doorways â€” eliminating the need to widen entrances or remove walls. This makes them the ideal choice for existing bathroom renovations where single-piece units cannot be delivered.</p>
+                                            <p class="text-gray-600">Best Bath's multi-piece modular panels use snap joint assembly and fit through standard doorways eliminating the need to widen entrances or remove walls. This makes them the ideal choice for existing bathroom renovations where single-piece units cannot be delivered.</p>
                                         </div>
                                         <div class="border-l-4 border-primary pl-4">
                                             <h4 class="font-semibold text-gray-800">Multiple Drain Locations</h4>
-                                            <p class="text-gray-600">Available with center or end drain configurations to match your existing plumbing layout â€” reducing plumber time on-site and lowering your overall installation cost.</p>
+                                            <p class="text-gray-600">Available with center or end drain configurations to match your existing plumbing layout reducing plumber time on-site and lowering your overall installation cost.</p>
                                         </div>
                                         <div class="border-l-4 border-primary pl-4">
                                             <h4 class="font-semibold text-gray-800">Time &amp; Cost Efficiency</h4>
-                                            <p class="text-gray-600">Compared to traditional tile shower construction, modular barrier-free showers save both time and money. Faster installation means lower labour costs, while durable materials reduce long-term maintenance expenses â€” making Best Bath showers a cost-effective solution for residential and commercial projects alike.</p>
+                                            <p class="text-gray-600">Compared to traditional tile shower construction, modular barrier-free showers save both time and money. Faster installation means lower labour costs, while durable materials reduce long-term maintenance expenses making Best Bath showers a cost-effective solution for residential and commercial projects alike.</p>
                                         </div>
                                         <div class="border-l-4 border-primary pl-4">
                                             <h4 class="font-semibold text-gray-800">Accessory Add-Ons at Any Time</h4>
-                                            <p class="text-gray-600">Because all walls are full plywood-backed, grab bars, fold-down seats, handheld shower heads, and soap dishes can be added at installation or retrofitted later â€” no wall demolition required.</p>
+                                            <p class="text-gray-600">Because all walls are full plywood-backed, grab bars, fold-down seats, handheld shower heads, and soap dishes can be added at installation or retrofitted later no wall demolition required.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -412,7 +412,7 @@
                             </div>
                             <h3 class="text-lg font-semibold text-gray-800">Easy Installation</h3>
                         </div>
-                        <p class="text-gray-600">As prefabricated shower systems, Best Bath modular units are faster and easier to install than traditional tile showers. Professional shower installation services from Home2Stay can complete most projects in a fraction of the time an especially important advantage for barrier-free shower systems in Vancouver, where efficient construction timelines matter.</p>
+                        <p class="text-gray-600">As prefabricated shower systems, Best Bath modular units are faster and easier to install than traditional tile showers. Professional shower installation services from Home2stay can complete most projects in a fraction of the time an especially important advantage for barrier-free shower systems in Vancouver, where efficient construction timelines matter.</p>
                     </div>
 
                     <div class="bg-white rounded-xl shadow-sm p-6 border-t-4 border-primary">
@@ -478,7 +478,7 @@
         <div class="container mx-auto px-4">
             <div class="max-w-5xl mx-auto">
                 <h2 class="text-3xl font-bold text-gray-800 mb-4 text-center">Why Choose Best Bath for Modular Barrier-Free Showers?</h2>
-                <p class="text-lg text-gray-600 text-center mb-12">Home2Stay provides certified Best Bath distribution and installation services across British Columbia â€” combining manufacturer quality with local expertise.</p>
+                <p class="text-lg text-gray-600 text-center mb-12">Home2stay provides certified Best Bath distribution and installation services across British Columbia â€” combining manufacturer quality with local expertise.</p>
 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="bg-white rounded-xl p-6 shadow-sm">
@@ -536,7 +536,7 @@
                 <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Choosing the Right Barrier-Free Shower for Your Needs</h2>
                 <p class="text-lg text-gray-600 mb-6">Choosing the right Best Bath Modular Barrier-Free Shower depends on your specific requirements including available space, accessibility needs, and design preferences. Whether you're upgrading a home bathroom in Vancouver or outfitting a commercial or healthcare facility in BC, these showers provide a reliable, stylish, and future-ready solution.</p>
                 <p class="text-lg text-gray-600 mb-6">With benefits like faster installation, enhanced safety features, ADA compliance, and a wide range of customizable designs, modular barrier-free showers are a smart long-term investment. By incorporating features like ADA-compliant layouts, walk-in entries, and accessible shower systems, you can create a bathroom that is both fully functional today and ready for whatever the future brings.</p>
-                <p class="text-lg text-gray-600">Home2Stay's certified team is here to guide you through every step from assessing your bathroom and selecting the right Best Bath configuration, to professional installation and post-install support across the Greater Vancouver area and British Columbia.</p>
+                <p class="text-lg text-gray-600">Home2stay's certified team is here to guide you through every step from assessing your bathroom and selecting the right Best Bath configuration, to professional installation and post-install support across the Greater Vancouver area and British Columbia.</p>
             </div>
         </div>
     </section>
@@ -548,7 +548,7 @@
                 <div class="flex flex-col lg:flex-row">
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
                         <h2 class="text-3xl font-bold text-gray-800 mb-4">BC's Certified Best Bath Installer</h2>
-                        <p class="text-lg text-gray-600 mb-6">Home2Stay has been providing accessibility solutions across British Columbia for nearly a decade. As a certified Best Bath distributor and installer, we're the trusted local expert for barrier-free shower systems in Vancouver, Surrey, Burnaby, Coquitlam, Langley, Abbotsford, and surrounding areas.</p>
+                        <p class="text-lg text-gray-600 mb-6">Home2stay has been providing accessibility solutions across British Columbia for nearly a decade. As a certified Best Bath distributor and installer, we're the trusted local expert for barrier-free shower systems in Vancouver, Surrey, Burnaby, Coquitlam, Langley, Abbotsford, and surrounding areas.</p>
                         <p class="mb-5">Give us a call at <a href="tel:+16042591211" style="font-weight: bold; color:red;">604-259-1211</a> or submit a FREE <a href="#assessment" style="font-weight: bold; color:red;">ASSESSMENT FORM</a> to get started.</p>
                     </div>
                     <div class="w-full lg:w-1/2">
@@ -618,7 +618,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need.“ We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We would love to hear from you!</p>
                 </div>
 
                 <form action="/submit-product-inquiry" method="POST" class="space-y-6">
@@ -692,7 +692,7 @@
         <div class="container mx-auto px-4">
             <div class="max-w-3xl mx-auto">
                 <h2 class="text-3xl font-bold text-center text-gray-800 mb-4">Schedule Your Free Barrier-Free Shower Consultation</h2>
-                <p class="text-lg text-center text-gray-600 mb-8">Our certified accessibility specialists will assess your bathroom, recommend the right Best Bath configuration for your needs, and provide a full installation quote â€” all at no cost to you.</p>
+                <p class="text-lg text-center text-gray-600 mb-8">Our certified accessibility specialists will assess your bathroom, recommend the right Best Bath configuration for your needs, and provide a full installation quote all at no cost to you.</p>
 
                 <div class="text-center">
                     <a href="{{ route('contact') }}"

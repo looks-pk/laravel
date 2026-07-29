@@ -361,12 +361,12 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Ideal For</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Thresholds in homes, apartments, and offices</li>
-                                            <li>â€¢ Doorways, interior or exterior</li>
-                                            <li>â€¢ Wheelchair and scooter access</li>
-                                            <li>â€¢ Walkers, canes & foot traffic</li>
-                                            <li>â€¢ Temporary or permanent accessibility needs</li>
-                                            <li>â€¢ Customer experience - trusted in homes worldwide</li>
+                                            <li> Thresholds in homes, apartments, and offices</li>
+                                            <li> Doorways, interior or exterior</li>
+                                            <li> Wheelchair and scooter access</li>
+                                            <li> Walkers, canes & foot traffic</li>
+                                            <li> Temporary or permanent accessibility needs</li>
+                                            <li> Customer experience - trusted in homes worldwide</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -499,7 +499,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We
                         would love to hear from you!</p>
                 </div>
 

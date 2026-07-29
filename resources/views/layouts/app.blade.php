@@ -13,8 +13,7 @@
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="{{ asset('Logo-clr.png') }}">
     
-   <meta name="google-site-verification" content="0Ucpkwd7zB-q9_iN_kqFxQGogRUI3lY-eEwO79XLx7k" />
-
+<meta name="google-site-verification" content="0Ucpkwd7zB-q9_iN_kqFxQGogRUI3lY-eEwO79XLx7k" />
 
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-51J3BXNWJV"></script>
@@ -22,6 +21,8 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'G-51J3BXNWJV');
+</script>
 
   gtag('config', 'G-51J3BXNWJV');
 </script>

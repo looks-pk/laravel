@@ -109,7 +109,7 @@
                         <p>The Bruno Elan Straight Stairlift is a premium mobility solution designed to help you or your loved ones navigate staircases with confidence, comfort, and independence. Engineered with precision and a focus on intuitive usability, this stairlift blends sleek design with reliable performance, making it one of the most sought-after straight stairlift models on the market.</p>
                         <div class="space-y-3">
                             <h3 class="text-xl font-semibold text-gray-800">Why Choose the Bruno Elan Stairlift?</h3>
-                            <p>Crafted for straight indoor staircases, the Bruno Elan redefines what a residential stairlift should be, offering a perfect balance of style, safety, and functionality. Itâ€™s best for homes with limited stair space and delivers a seamless experience every time.</p>
+                            <p>Crafted for straight indoor staircases, the Bruno Elan redefines what a residential stairlift should be, offering a perfect balance of style, safety, and functionality. It's best for homes with limited stair space and delivers a seamless experience every time.</p>
                         </div>
                     </div>
                     <div class="mb-6 p-4 bg-green-50 border-l-4 border-green-400 rounded-r-lg">
@@ -180,8 +180,8 @@
                                         <ul class="space-y-2 list-disc list-inside">
                                             <li>Model: SRE-3050</li>
                                             <li>Compact Rail: Installs within 5 in (127 mm) of the wall</li>
-                                            <li>Seat Pad Size: ~15.75â€³ wide Ã— 16.75â€³ deep</li>
-                                            <li>Footrest Dimensions: ~10.5â€³ long Ã— 11â€³ wide</li>
+                                            <li>Seat Pad Size: ~15.75" wide × 16.75" deep</li>
+                                            <li>Footrest Dimensions: ~10.5" long × 11" wide</li>
                                             <li>Lift Capacity: Up to 300 lbs (136 kg)</li>
                                         </ul>
                                     </div>
@@ -196,7 +196,7 @@
                                     </div>
                                     <div class="space-y-3">
                                         <h3 class="text-xl font-semibold text-gray-800">Who Is This For?</h3>
-                                        <p>Whether mobility challenges limit stair use or youâ€™re planning for the future, the Bruno Elan Stairlift offers:</p>
+                                        <p>Whether mobility challenges limit stair use or you are planning for the future, the Bruno Elan Stairlift offers:</p>
                                         <ul class="space-y-2 list-disc list-inside">
                                             <li>Safe, dignified stair access for seniors</li>
                                             <li>Reliable support for users with limited mobility</li>
@@ -271,11 +271,11 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Seat Pad Size:</span>
-                                                <span class="text-gray-600">~15.75â€³ W Ã— 16.75â€³ D</span>
+                                                <span class="text-gray-600">~15.75" W × 16.75" D</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Footrest Dimensions:</span>
-                                                <span class="text-gray-600">~10.5â€³ L Ã— 11â€³ W</span>
+                                                <span class="text-gray-600">~10.5" L × 11" W</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Lift Capacity:</span>
@@ -293,7 +293,7 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Safety:</span>
-                                                <span class="text-gray-600">Retractable belt, obstruction sensors, 90Â° swivel seat</span>
+                                                <span class="text-gray-600">Retractable belt, obstruction sensors, 90° swivel seat</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Controls:</span>
@@ -311,16 +311,16 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Simple, smooth armrest controls plus wireless remotes</li>
-                                            <li>â€¢ Space-saving rail installs within inches of the wall</li>
-                                            <li>â€¢ Foldable seat, armrests, and footrest keep stairs clear</li>
-                                            <li>â€¢ Retractable seat belt, obstruction sensors, and 90Â° swivel seat</li>
-                                            <li>â€¢ Dual 12-volt batteries maintain operation during outages</li>
-                                            <li>â€¢ Seat pad ~15.75â€³ Ã— 16.75â€³ for everyday comfort</li>
-                                            <li>â€¢ Footrest ~10.5â€³ Ã— 11â€³ for stable boarding</li>
-                                            <li>â€¢ Supports riders up to 300 lbs (136 kg)</li>
-                                            <li>â€¢ Optional power swivel seat, folding rail, and power folding footrest</li>
-                                            <li>â€¢ Home2Stay promise of lasting performance and peace of mind</li>
+                                            <li>Simple, smooth armrest controls plus wireless remotes</li>
+                                            <li>Space-saving rail installs within inches of the wall</li>
+                                            <li>Foldable seat, armrests, and footrest keep stairs clear</li>
+                                            <li>Retractable seat belt, obstruction sensors, and 90Â° swivel seat</li>
+                                            <li>Dual 12-volt batteries maintain operation during outages</li>
+                                            <li>Seat pad ~15.75â€³ Ã— 16.75â€³ for everyday comfort</li>
+                                            <li>Footrest ~10.5â€³ Ã— 11â€³ for stable boarding</li>
+                                            <li>Supports riders up to 300 lbs (136 kg)</li>
+                                            <li>ptional power swivel seat, folding rail, and power folding footrest</li>
+                                            <li>Home2Stay promise of lasting performance and peace of mind</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -455,7 +455,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We
                         would love to hear from you!</p>
                 </div>
 
@@ -526,7 +526,7 @@
                         <label class="block text-gray-700 font-medium mb-2" for="message">Additional Information</label>
                         <textarea id="message" name="message" rows="4"
                             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-                            placeholder="Please describe your straight staircase, mobility needs, or any questions about the Home2Stay â€“ Bruno Elan Straight Stairlift."></textarea>
+                            placeholder="Please describe your straight staircase, mobility needs, or any questions about the Home2Stay Bruno Elan Straight Stairlift."></textarea>
                     </div>
 
                     <!-- Submit Button -->

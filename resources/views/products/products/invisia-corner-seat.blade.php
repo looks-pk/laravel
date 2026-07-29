@@ -228,7 +228,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Perfect Corner Fit</h3>
-                                            <p class="text-gray-600">Radius size of seat is 18â€³ (457 mm), designed specifically for corner installation in shower spaces.</p>
+                                            <p class="text-gray-600">Radius size of seat is 18" (457 mm), designed specifically for corner installation in shower spaces.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -322,7 +322,7 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Seat Radius:</span>
-                                                <span class="text-gray-600">18â€³ (457mm)</span>
+                                                <span class="text-gray-600">18" (457mm)</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Material:</span>
@@ -465,7 +465,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We would love to hear from you!</p>
                 </div>
 
                 <form action="/submit-product-inquiry" method="POST" class="space-y-6">

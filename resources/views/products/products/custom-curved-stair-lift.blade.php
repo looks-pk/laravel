@@ -411,16 +411,16 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Top-selling curved stairlift in North America</li>
-                                            <li>â€¢ Artfully handcrafted rail made specifically for your stairs</li>
-                                            <li>â€¢ Bruno's Elite Curved Stair Lift with smooth, quiet operation</li>
-                                            <li>â€¢ Multiple options for individual needs and tastes</li>
-                                            <li>â€¢ Luxurious quality and stylish chair design</li>
-                                            <li>â€¢ Custom-crafted to maximize stairway space</li>
-                                            <li>â€¢ Offset swivel seat, flip-up arms & folding foot rest</li>
-                                            <li>â€¢ Dependable power even in electrical outages</li>
-                                            <li>â€¢ Wireless call/send controls for convenience</li>
-                                            <li>â€¢ Bruno's signature quality and comfort second to none</li>
+                                            <li> Top-selling curved stairlift in North America</li>
+                                            <li> Artfully handcrafted rail made specifically for your stairs</li>
+                                            <li> Bruno's Elite Curved Stair Lift with smooth, quiet operation</li>
+                                            <li> Multiple options for individual needs and tastes</li>
+                                            <li> Luxurious quality and stylish chair design</li>
+                                            <li> Custom-crafted to maximize stairway space</li>
+                                            <li> Offset swivel seat, flip-up arms & folding foot rest</li>
+                                            <li> Dependable power even in electrical outages</li>
+                                            <li> Wireless call/send controls for convenience</li>
+                                            <li> Bruno's signature quality and comfort second to none</li>
                                         </ul>
                                     </div>
                                 </div>

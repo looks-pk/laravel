@@ -380,7 +380,7 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Max Platform Size:</span>
-                                                <span class="text-gray-600">42â€³ L x 60â€³ W (18 sq ft)</span>
+                                                <span class="text-gray-600">42" L × 60" W (18 sq ft)</span>
                                             </div>
                                         </div>
                                         <div class="space-y-3">
@@ -416,18 +416,18 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Engineered for both indoor and outdoor spaces</li>
-                                            <li>â€¢ Intuitive wheelchair lift for vertical rises up to 14 feet</li>
-                                            <li>â€¢ Oversized "Soft Touch Controls" for limited dexterity users</li>
-                                            <li>â€¢ Non-slip metal platform with high-sided safety enclosures</li>
-                                            <li>â€¢ Proprietary all-electric drive system</li>
-                                            <li>â€¢ Zero-load start design for optimal motor performance</li>
-                                            <li>â€¢ 750 lbs lifting capacity accommodates wheelchairs</li>
-                                            <li>â€¢ Travel speed of 8 feet per minute</li>
-                                            <li>â€¢ Maximum platform size: 42â€³ L x 60â€³ W (18 square feet)</li>
-                                            <li>â€¢ Three-tier emergency power options available</li>
-                                            <li>â€¢ 50% more energy efficient than comparable products</li>
-                                            <li>â€¢ Customizable colors, trims, doors, gates, handles, and rails</li>
+                                            <li> Engineered for both indoor and outdoor spaces</li>
+                                            <li> Intuitive wheelchair lift for vertical rises up to 14 feet</li>
+                                            <li> Oversized "Soft Touch Controls" for limited dexterity users</li>
+                                            <li> Non-slip metal platform with high-sided safety enclosures</li>
+                                            <li> Proprietary all-electric drive system</li>
+                                            <li> Zero-load start design for optimal motor performance</li>
+                                            <li> 750 lbs lifting capacity accommodates wheelchairs</li>
+                                            <li> Travel speed of 8 feet per minute</li>
+                                            <li> Maximum platform size: 42â€³ L x 60â€³ W (18 square feet)</li>
+                                            <li> Three-tier emergency power options available</li>
+                                            <li> 50% more energy efficient than comparable products</li>
+                                            <li> Customizable colors, trims, doors, gates, handles, and rails</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -436,13 +436,13 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Emergency Power Options</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Emergency manual crank (Standard on all units)</li>
-                                            <li>â€¢ Battery backup lowering (Optional upgrade)</li>
-                                            <li>â€¢ Full battery 40-cycle backup (Optional upgrade)</li>
-                                            <li>â€¢ Compact size and simple installation</li>
-                                            <li>â€¢ Can be modified for three-stops</li>
-                                            <li>â€¢ Atypical platform sizes available</li>
-                                            <li>â€¢ 25+ years of proven reliability</li>
+                                            <li> Emergency manual crank (Standard on all units)</li>
+                                            <li> Battery backup lowering (Optional upgrade)</li>
+                                            <li> Full battery 40-cycle backup (Optional upgrade)</li>
+                                            <li> Compact size and simple installation</li>
+                                            <li> Can be modified for three-stops</li>
+                                            <li> Atypical platform sizes available</li>
+                                            <li> 25+ years of proven reliability</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -577,7 +577,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We
                         would love to hear from you!</p>
                 </div>
 

@@ -24,9 +24,6 @@
   gtag('config', 'G-51J3BXNWJV');
 </script>
 
-  gtag('config', 'G-51J3BXNWJV');
-</script>
-
 
     <!-- DNS Prefetch for external resources -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">

@@ -106,24 +106,24 @@
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Enhance comfort and safety throughout the home with Home2Stay Grab Bars, premium-grade support rails engineered for confidence, mobility, and peace of mind. Perfect for showers, bathtubs, hallways, and any space where secure support is needed, Home2Stay Grab Bars combine rugged durability with a smooth, modern look that enhances your home's aesthetic while delivering reliable safety.
+                            Enhance comfort and safety throughout the home with Home2stay Grab Bars, premium-grade support rails engineered for confidence, mobility, and peace of mind. Perfect for showers, bathtubs, hallways, and any space where secure support is needed, Home2stay Grab Bars combine rugged durability with a smooth, modern look that enhances your home's aesthetic while delivering reliable safety.
                         </p>
                     </div>
 
                     <div class="mb-6">
                         <h4 class="font-semibold text-gray-800 mb-3">Perfect for:</h4>
                         <ul class="text-gray-600 text-lg space-y-2">
-                            <li>â€¢ Seniors and caregivers</li>
-                            <li>â€¢ People with limited mobility or balance concerns</li>
-                            <li>â€¢ Post-surgery recovery and rehabilitation</li>
-                            <li>â€¢ Everyday support for safer living environments</li>
+                            <li>Seniors and caregivers</li>
+                            <li>People with limited mobility or balance concerns</li>
+                            <li>Post-surgery recovery and rehabilitation</li>
+                            <li>Everyday support for safer living environments</li>
                         </ul>
                     </div>
 
                     <div class="mb-6 p-4 bg-blue-50 border-l-4 border-blue-400 rounded-r-lg">
                         <h3 class="font-semibold text-blue-800 mb-2">Safety Meets Style</h3>
                         <div class="space-y-1 text-blue-700">
-                            <p><strong>Home2Stay Grab Bars deliver premium safety with elegant design, built for reliable support and lasting confidence in any bathroom or home environment.</strong></p>
+                            <p><strong>Home2stay Grab Bars deliver premium safety with elegant design, built for reliable support and lasting confidence in any bathroom or home environment.</strong></p>
                         </div>
                     </div>
 
@@ -285,7 +285,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Next-Day Express Delivery</h3>
-                                            <p class="text-gray-600">Available for next-day delivery and installation via the Home2Stay Express booking form.</p>
+                                            <p class="text-gray-600">Available for next-day delivery and installation via the Home2stay Express booking form.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -325,7 +325,7 @@
 
                                     <div class="p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
                                         <p class="text-yellow-800 font-medium">
-                                            Available for NEXT-DAY delivery and installation via the Home2Stay Express booking form! Perfect for tubs at least 14.75" tall.
+                                            Available for NEXT-DAY delivery and installation via the Home2stay Express booking form! Perfect for tubs at least 14.75" tall.
                                         </p>
                                     </div>
                                 </div>
@@ -406,17 +406,17 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Step-in shower conversion for high-profile tubs</li>
-                                            <li>â€¢ Ultra-low design ideal for tubs at least 14.75" tall</li>
-                                            <li>â€¢ Non-skid step pad to reduce slips and falls</li>
-                                            <li>â€¢ Quick installation in less than one day</li>
-                                            <li>â€¢ Compatible with acrylic, fiberglass, steel, and cast iron tubs</li>
-                                            <li>â€¢ Available in 1 width</li>
-                                            <li>â€¢ Two color options: white and beige</li>
-                                            <li>â€¢ Greatly reduces possibility of falls</li>
-                                            <li>â€¢ Enables easy step-in access</li>
-                                            <li>â€¢ Our most affordable tub cut solution</li>
-                                            <li>â€¢ Next-day delivery and installation available</li>
+                                            <li> Step-in shower conversion for high-profile tubs</li>
+                                            <li> Ultra-low design ideal for tubs at least 14.75" tall</li>
+                                            <li> Non-skid step pad to reduce slips and falls</li>
+                                            <li> Quick installation in less than one day</li>
+                                            <li> Compatible with acrylic, fiberglass, steel, and cast iron tubs</li>
+                                            <li> Available in 1 width</li>
+                                            <li> Two color options: white and beige</li>
+                                            <li> Greatly reduces possibility of falls</li>
+                                            <li> Enables easy step-in access</li>
+                                            <li> Our most affordable tub cut solution</li>
+                                            <li> Next-day delivery and installation available</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -425,13 +425,13 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Installation Details</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Installation completed on existing tub</li>
-                                            <li>â€¢ Installed in less than one day</li>
-                                            <li>â€¢ Greatly reduces the possibility of falls</li>
-                                            <li>â€¢ Enables easy step-in access</li>
-                                            <li>â€¢ Our most affordable product</li>
-                                            <li>â€¢ Professional installation by CleanCut specialists</li>
-                                            <li>â€¢ Ideal for high-profile tubs (14.75" + tall)</li>
+                                            <li> Installation completed on existing tub</li>
+                                            <li> Installed in less than one day</li>
+                                            <li> Greatly reduces the possibility of falls</li>
+                                            <li> Enables easy step-in access</li>
+                                            <li> Our most affordable product</li>
+                                            <li> Professional installation by CleanCut specialists</li>
+                                            <li> Ideal for high-profile tubs (14.75" + tall)</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -566,7 +566,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We
                         would love to hear from you!</p>
                 </div>
 

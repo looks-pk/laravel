@@ -239,19 +239,19 @@
                                             <div class="space-y-3">
                                                 <h4 class="font-medium text-gray-700">Bathroom Types:</h4>
                                                 <ul class="space-y-1 text-gray-600">
-                                                    <li>â€¢ Master ensuites</li>
-                                                    <li>â€¢ Guest bathrooms</li>
-                                                    <li>â€¢ Powder rooms</li>
-                                                    <li>â€¢ Compact or small bathrooms</li>
+                                                    <li> Master ensuites</li>
+                                                    <li> Guest bathrooms</li>
+                                                    <li> Powder rooms</li>
+                                                    <li> Compact or small bathrooms</li>
                                                 </ul>
                                             </div>
                                             <div class="space-y-3">
                                                 <h4 class="font-medium text-gray-700">Services Available:</h4>
                                                 <ul class="space-y-1 text-gray-600">
-                                                    <li>â€¢ Accessible showers</li>
-                                                    <li>â€¢ Shower upgrades & renovations</li>
-                                                    <li>â€¢ Tub to shower conversions</li>
-                                                    <li>â€¢ General bathroom renovations</li>
+                                                    <li> Accessible showers</li>
+                                                    <li> Shower upgrades & renovations</li>
+                                                    <li> Tub to shower conversions</li>
+                                                    <li> General bathroom renovations</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -352,7 +352,7 @@
                             <!-- Technical Information -->
                             <div class="tab-pane" data-tab="technical-tab" style="display: none !important;">
                                 <div class="mb-6">
-                                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Why Home2Stay is the best choice for Bathroom Renovations and Showers in General Bathrooms</h3>
+                                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Why Home2stay is the best choice for Bathroom Renovations and Showers in General Bathrooms</h3>
                                     <ul class="space-y-2">
                                         <li class="flex items-start">
                                             <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
@@ -361,7 +361,7 @@
                                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                                     clip-rule="evenodd" />
                                             </svg>
-                                            <span>Home2Stay provides expert design expertise and high-quality materials that create durable, stylish bathrooms customised to your budget, needs, and comfort</span>
+                                            <span>Home2stay provides expert design expertise and high-quality materials that create durable, stylish bathrooms customised to your budget, needs, and comfort</span>
                                         </li>
                                         <li class="flex items-start">
                                             <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
@@ -415,7 +415,7 @@
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <div class="flex items-center justify-between mb-2">
                                             <h3 class="text-xl font-semibold text-gray-800">Supplier</h3>
-                                            <span class="text-sm text-gray-800">Home2Stay</span>
+                                            <span class="text-sm text-gray-800">Home2stay</span>
                                         </div>
                                         <div class="flex items-center justify-between mb-2">
                                             <h3 class="text-xl font-semibold text-gray-800">Pricing</h3>
@@ -461,8 +461,8 @@
                 <div class="flex flex-col lg:flex-row">
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Transform Your Space With Home2Stay</h2>
-                        <p class="text-lg text-gray-600 mb-6">Home2Stay provides expert design expertise and high-quality materials that create durable, stylish bathrooms customised to your budget, needs, and comfort. Whether you're looking for contemporary shower systems, complete bathroom renovations, or accessible and safe bathing spaces, we deliver excellence in every project.</p>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Transform Your Space With Home2stay</h2>
+                        <p class="text-lg text-gray-600 mb-6">Home2stay provides expert design expertise and high-quality materials that create durable, stylish bathrooms customised to your budget, needs, and comfort. Whether you're looking for contemporary shower systems, complete bathroom renovations, or accessible and safe bathing spaces, we deliver excellence in every project.</p>
                         <p class="mb-5">Give us a call at <a href="tel:+16042591211" class="text-secondary" style="font-weight: bold; color:red;">604-259-1211</a> or submit a FREE <a href="#assessment" class="text-secondary" style="font-weight: bold; color:red;">ASSESSMENT FORM</a> to start your transformation.</p>
                     </div>
                     <!-- Image -->
@@ -534,7 +534,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We would love to hear from you!</p>
                 </div>
 
                 <form action="/submit-product-inquiry" method="POST" class="space-y-6">

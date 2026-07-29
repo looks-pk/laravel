@@ -111,7 +111,7 @@
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Healthcraft
                             </h3>
                         </a>
-                        <p class="text-gray-600 mb-4 flex-grow">Enhance comfort and safety throughout the home with Home2Stay Grab Bars, premium-grade support rails engineered for confidence</p>
+                        <p class="text-gray-600 mb-4 flex-grow">Enhance comfort and safety throughout the home with Home2stay Grab Bars, premium-grade support rails engineered for confidence</p>
                         <div class="mt-auto">
                             <a href="/products/healthcraft-grab-bars"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
@@ -133,7 +133,7 @@
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Grabcessories Premium Grab Bars – Safety Meets Style
                             </h3>
                         </a>
-                        <p class="text-gray-600 mb-4 flex-grow">Provide safety without compromising style. Grabcessories grab bars from Home2Stay provide sturdy support, a smooth design, and quiet for every home.</p>
+                        <p class="text-gray-600 mb-4 flex-grow">Provide safety without compromising style. Grabcessories grab bars from Home2stay provide sturdy support, a smooth design, and quiet for every home.</p>
                         <div class="mt-auto">
                             <a href="/products/grabcessories-premium-grab-bars"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
@@ -155,7 +155,7 @@
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Grab Bars by Ponte Giulio
                             </h3>
                         </a>
-                        <p class="text-gray-600 mb-4 flex-grow">Ensure confidence, independence, and style in your home with Ponte Giulio Grab Bars, available at Home2Stay.</p>
+                        <p class="text-gray-600 mb-4 flex-grow">Ensure confidence, independence, and style in your home with Ponte Giulio Grab Bars, available at Home2stay.</p>
                         <div class="mt-auto">
                             <a href="/products/grab-bars-by-ponte-giulio"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
@@ -177,7 +177,7 @@
                             <h3 class="text-xl font-bold text-gray-800 mb-3">Handrails
                             </h3>
                         </a>
-                        <p class="text-gray-600 mb-4 flex-grow">Enhance safety and style in your home with Home2Stay Handrails. Designed to provide reliable support on stairs, ramps, or hallways, these handrails offer stability without compromising elegance. </p>
+                        <p class="text-gray-600 mb-4 flex-grow">Enhance safety and style in your home with Home2stay Handrails. Designed to provide reliable support on stairs, ramps, or hallways, these handrails offer stability without compromising elegance. </p>
                         <div class="mt-auto">
                             <a href="/products/handrails"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">

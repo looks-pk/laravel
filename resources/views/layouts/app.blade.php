@@ -13,14 +13,16 @@
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="{{ asset('Logo-clr.png') }}">
     
-  <meta name="google-site-verification" content="0Ucpkwd7zB-q9_iN_kqFxQGogRUI3lY-eEwO79XLx7k" />
-    
-  <!-- Google tag (gtag.js) -->
+<meta name="google-site-verification" content="0Ucpkwd7zB-q9_iN_kqFxQGogRUI3lY-eEwO79XLx7k" />
+
+    <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-51J3BXNWJV"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'G-51J3BXNWJV');
+</script>
 
   gtag('config', 'G-51J3BXNWJV');
 </script>
@@ -546,7 +548,7 @@
                             <li class="flex items-start">
                                 <i class="fas fa-map-marker-alt mt-1 mr-2 text-primary"></i>
                                 <div class="text-light-800 text-xl">
-                                    <div>230 - 825 Powell street, Vancouver, BC, V6A 1H7</div>
+                                    <div>230 - 825 Powell Street, Vancouver, BC, V6A 1H7</div>
                                 </div>
                             </li>
                             <li class="flex items-start">

@@ -100,7 +100,7 @@
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Sentrel Systems Showers are solid surface shower wall panels designed for homeowners who want a modern, low-maintenance bathroom without the hassle of traditional tiles or grout. These high-quality composite panels are built to resemble natural stone â€” with none of the upkeep.
+                            Sentrel Systems Showers are solid surface shower wall panels designed for homeowners who want a modern, low-maintenance bathroom without the hassle of traditional tiles or grout. These high-quality composite panels are built to resemble natural stone with none of the upkeep.
                         </p>
                     </div>
                     <div class="mb-6">
@@ -110,7 +110,7 @@
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            With no grout lines to worry about, these systems are naturally resistant to mold and mildew â€” making them easier to clean, more hygienic, and longer lasting than conventional tile showers.
+                            With no grout lines to worry about, these systems are naturally resistant to mold and mildew making them easier to clean, more hygienic, and longer lasting than conventional tile showers.
                         </p>
                     </div>
 
@@ -171,7 +171,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Grout-Free Wall Panels</h3>
-                                            <p class="text-gray-600">Large solid surface panels with minimal joints and seams eliminate grout lines entirely â€” meaning no mold, no mildew, and no scrubbing.</p>
+                                            <p class="text-gray-600">Large solid surface panels with minimal joints and seams eliminate grout lines entirely meaning no mold, no mildew, and no scrubbing.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -195,7 +195,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Durable Solid Surface Construction</h3>
-                                            <p class="text-gray-600">Built with high-tech composite panels that resist chipping, cracking, and water damage â€” far outlasting traditional tile systems.</p>
+                                            <p class="text-gray-600">Built with high-tech composite panels that resist chipping, cracking, and water damage far outlasting traditional tile systems.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -228,7 +228,7 @@
                             <!-- Design Options Tab -->
                             <div class="tab-pane" data-tab="design-tab" style="display: none !important;">
                                 <div class="space-y-4">
-                                    <p class="text-gray-600">Sentrel Shower Systems are available in a wide range of colors and finishes designed to replicate the look of natural stone â€” including granite and marble styles â€” without the cost or maintenance.</p>
+                                    <p class="text-gray-600">Sentrel Shower Systems are available in a wide range of colors and finishes designed to replicate the look of natural stone including granite and marble styles without the cost or maintenance.</p>
 
                                     <div class="flex items-start">
                                         <svg class="h-5 w-5 text-primary flex-shrink-0 mr-3 mt-1"
@@ -275,7 +275,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Various Sizes Available</h3>
-                                            <p class="text-gray-600">Panels come in multiple sizes to suit different shower configurations â€” from compact ensuite bathrooms to larger master suite renovations.</p>
+                                            <p class="text-gray-600">Panels come in multiple sizes to suit different shower configurations from compact ensuite bathrooms to larger master suite renovations.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -305,7 +305,7 @@
                                     </div>
                                     <div class="border-l-4 border-primary pl-4">
                                         <h3 class="font-semibold text-gray-800">Step 3: Panel Installation</h3>
-                                        <p class="text-gray-600">Solid surface panels are applied to the walls. Sentrel's large-format panel design means fewer joints to seal compared to traditional tile â€” speeding up installation and improving water-tightness.</p>
+                                        <p class="text-gray-600">Solid surface panels are applied to the walls. Sentrel's large-format panel design means fewer joints to seal compared to traditional tile  speeding up installation and improving water-tightness.</p>
                                     </div>
                                     <div class="border-l-4 border-primary pl-4">
                                         <h3 class="font-semibold text-gray-800">Step 4: Fixture Integration</h3>
@@ -339,7 +339,7 @@
                                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                                     clip-rule="evenodd" />
                                             </svg>
-                                            <span>Non-porous, water-resistant surface â€” no grout required</span>
+                                            <span>Non-porous, water-resistant surface no grout required</span>
                                         </li>
                                         <li class="flex items-start">
                                             <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
@@ -384,7 +384,7 @@
                                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                                     clip-rule="evenodd" />
                                             </svg>
-                                            <span>Faster installation than traditional tile â€” reducing labour costs</span>
+                                            <span>Faster installation than traditional tile reducing labour costs</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -547,7 +547,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We would love to hear from you!</p>
                 </div>
 
                 <form action="/submit-product-inquiry" method="POST" class="space-y-6">

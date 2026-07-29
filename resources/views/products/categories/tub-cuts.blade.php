@@ -145,7 +145,7 @@
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
                     <a href="/products/clean-cut" > <h3 class="text-xl font-bold text-gray-800 mb-3"> Clean Cut</h3></a>
-                        <p class="text-gray-600 mb-4 flex-grow">The Home2Stay Clean Cut Tub Accessibility Solution is an innovative and practical way to convert a standard bathtub into a safer</p>
+                        <p class="text-gray-600 mb-4 flex-grow">The Home2stay Clean Cut Tub Accessibility Solution is an innovative and practical way to convert a standard bathtub into a safer</p>
                         <div class="mt-auto">
                             <a href="/products/clean-cut"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">

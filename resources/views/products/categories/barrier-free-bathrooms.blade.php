@@ -211,7 +211,7 @@
                 <div class="text-center mb-12">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Professional Bathroom Remodels in Vancouver</h2>
                     <p class="text-lg text-gray-600">
-                        Home2Stay creates beautiful, high-quality bathroom spaces that work for everyone. Our specialty is barrier-free design, but we handle all bathroom types — and we never sacrifice style for function.
+                        Home2stay creates beautiful, high-quality bathroom spaces that work for everyone. Our specialty is barrier-free design, but we handle all bathroom types — and we never sacrifice style for function.
                     </p>
                 </div>
 
@@ -527,7 +527,7 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto text-center text-white">
                 <h2 class="text-3xl font-bold mb-6">Ready to Renovate Your Bathroom?</h2>
-                <p class="text-xl mb-8">Contact us today to explore how Home2Stay can create a beautiful, functional bathroom — barrier-free or any style you choose.</p>
+                <p class="text-xl mb-8">Contact us today to explore how Home2stay can create a beautiful, functional bathroom — barrier-free or any style you choose.</p>
                 <div class="flex flex-wrap justify-center gap-4">
                     <a href="{{ route('contact') }}"
                         class="px-8 py-3 bg-white text-primary hover:bg-gray-100 rounded-lg font-medium transition duration-300">

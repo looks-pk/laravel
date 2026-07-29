@@ -21,3 +21,12 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+.env.bak
+storage/framework/sessions/*
+!storage/framework/sessions/.gitignore
+storage/framework/cache/*
+!storage/framework/cache/.gitignore
+storage/framework/views/*
+!storage/framework/views/.gitignore
+storage/logs/*
+!storage/logs/.gitignore

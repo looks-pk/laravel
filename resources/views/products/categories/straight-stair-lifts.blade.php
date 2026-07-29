@@ -65,7 +65,7 @@
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Bruno Straight Stair Lift</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">Bring effortless independence to every level of your home. The Bruno Straight Stair Lift from Home2Stay provides smooth, reliable mobility for straight staircases</p>
+                        <p class="text-gray-600 mb-4 flex-grow">Bring effortless independence to every level of your home. The Bruno Straight Stair Lift from Home2stay provides smooth, reliable mobility for straight staircases</p>
                         <div class="mt-auto">
                             <a href="/products/bruno-straight-stair-lift"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
@@ -102,7 +102,7 @@
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Elite Straight Indoor Stair Lift</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">Rediscover freedom and independence with Home2Stay Outdoor Stairlifts. Designed to handle the elements while providing unmatched comfort and safety, our stairlifts allow you to move between levels with ease, no matter the weather.</p>
+                        <p class="text-gray-600 mb-4 flex-grow">Rediscover freedom and independence with Home2stay Outdoor Stairlifts. Designed to handle the elements while providing unmatched comfort and safety, our stairlifts allow you to move between levels with ease, no matter the weather.</p>
                         <div class="mt-auto">
                             <a href="/products/bruno-elite-straight-indoor-stairlift"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">

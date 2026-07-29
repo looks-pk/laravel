@@ -106,7 +106,7 @@
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6 space-y-4 text-gray-700 leading-relaxed">
                         <p>Effortless Mobility, Right at Your Doorstep</p>
-                        <p>Rediscover freedom and independence with Home2Stay Outdoor Stairlifts. Designed to handle the elements while providing unmatched comfort and safety, our stairlifts allow you to move between levels with ease, no matter the weather.</p>
+                        <p>Rediscover freedom and independence with Home2stay Outdoor Stairlifts. Designed to handle the elements while providing unmatched comfort and safety, our stairlifts allow you to move between levels with ease, no matter the weather.</p>
                     </div>
                     <div class="mb-6 p-4 bg-green-50 border-l-4 border-green-400 rounded-r-lg">
                         <h3 class="font-semibold text-green-800 mb-2">Pricing:</h3>
@@ -173,16 +173,16 @@
                                         </ul>
                                     </div>
                                     <div class="space-y-3">
-                                        <h3 class="text-xl font-semibold text-gray-800">Why Choose Home2Stay Outdoor Stairlifts?</h3>
-                                        <p>Stairs shouldnâ€™t limit your independence. With Home2Stay, you get a reliable, stylish, and safe solution that blends flawlessly with your homeâ€™s exterior. Best for seniors, individuals with mobility challenges, or anyone seeking convenience without compromising safety.</p>
+                                        <h3 class="text-xl font-semibold text-gray-800">Why Choose Home2stay Outdoor Stairlifts?</h3>
+                                        <p>Stairs should not limit your independence. With Home2stay, you get a reliable, stylish, and safe solution that blends flawlessly with your home's exterior. Best for seniors, individuals with mobility challenges, or anyone seeking convenience without compromising safety.</p>
                                     </div>
                                     <div class="space-y-3">
                                         <h3 class="text-xl font-semibold text-gray-800">Enjoy Life, One Step at a Time</h3>
-                                        <p>With a Home2Stay Outdoor Stairlift, every step is stress-free. Whether youâ€™re entering your home, reaching the garden, or enjoying the deck, our stairlifts give you freedom without compromise.</p>
+                                        <p>With a Home2stay Outdoor Stairlift, every step is stress-free. Whether you are entering your home, reaching the garden, or enjoying the deck, our stairlifts give you freedom without compromise.</p>
                                     </div>
                                     <div class="space-y-3">
                                         <h3 class="text-xl font-semibold text-gray-800">Contact Us Today!</h3>
-                                        <p>Experience the difference of Home2Stay Outdoor Stairlifts. Reach out for a free consultation and find the perfect services customised to your home.</p>
+                                        <p>Experience the difference of Home2stay Outdoor Stairlifts. Reach out for a free consultation and find the perfect services customised to your home.</p>
                                     </div>
                                 </div>
                             </div>
@@ -253,7 +253,7 @@
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Brand:</span>
-                                                <span class="text-gray-600">Home2Stay Outdoor Collection</span>
+                                                <span class="text-gray-600">Home2stay Outdoor Collection</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Design:</span>
@@ -291,7 +291,7 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Supplier:</span>
-                                                <span class="text-gray-600">Home2Stay partners</span>
+                                                <span class="text-gray-600">Home2stay partners</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Warranty:</span>
@@ -305,16 +305,16 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Weather-ready construction handles rain, snow, and UV</li>
-                                            <li>â€¢ Smooth, quiet motors for outdoor transitions</li>
-                                            <li>â€¢ Fits straight or curved exterior staircases</li>
-                                            <li>â€¢ Built-in seat belts, sensors, and emergency stop</li>
-                                            <li>â€¢ Corrosion-resistant metals and finishes</li>
-                                            <li>â€¢ Simple joystick or button controls</li>
-                                            <li>â€¢ Custom installation for decks, porches, and paths</li>
-                                            <li>â€¢ Professional setup with local Home2Stay support</li>
-                                            <li>â€¢ Free consultation and quote available</li>
-                                            <li>â€¢ Ideal for seniors and anyone needing safe outdoor access</li>
+                                            <li>  Weather-ready construction handles rain, snow, and UV</li>
+                                            <li> Smooth, quiet motors for outdoor transitions</li>
+                                            <li> Fits straight or curved exterior staircases</li>
+                                            <li> Built-in seat belts, sensors, and emergency stop</li>
+                                            <li> Corrosion-resistant metals and finishes</li>
+                                            <li> Simple joystick or button controls</li>
+                                            <li> Custom installation for decks, porches, and paths</li>
+                                            <li> Professional setup with local Home2Stay support</li>
+                                            <li> Free consultation and quote available</li>
+                                            <li> Ideal for seniors and anyone needing safe outdoor access</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -449,7 +449,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need, we
                         would love to hear from you!</p>
                 </div>
 
@@ -664,7 +664,7 @@
                                 Details</label>
                             <textarea id="comments" name="comments" rows="3"
                                 class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
-                                placeholder="Please describe your outdoor staircase, mobility needs, or any questions about the Home2Stay Outdoor Stairlifts..."></textarea>
+                                placeholder="Please describe your outdoor staircase, mobility needs, or any questions about the Home2stay Outdoor Stairlifts..."></textarea>
                         </div>
                     </div>
 

@@ -106,7 +106,7 @@
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Bring freedom of movement to every doorstep with Home2Stay's Custom Wood Ramps, designed, built, and customised to fit your space perfectly. Our premium wood ramps combine superior craftsmanship, aesthetic flexibility, and reliable safety to create the perfect entryway solution for your home.
+                            Bring freedom of movement to every doorstep with Home2stay's Custom Wood Ramps, designed, built, and customised to fit your space perfectly. Our premium wood ramps combine superior craftsmanship, aesthetic flexibility, and reliable safety to create the perfect entryway solution for your home.
                         </p>
                     </div>
                     <div class="mb-6">
@@ -480,7 +480,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We
                         would love to hear from you!</p>
                 </div>
 

@@ -106,7 +106,7 @@
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Enhance safety and style in your home with Home2Stay Handrails. Designed to provide reliable support on stairs, ramps, or hallways, these handrails offer stability without compromising elegance. Crafted from high-quality materials, they are built to last, giving you confidence and quiet in every step.
+                            Enhance safety and style in your home with Home2stay Handrails. Designed to provide reliable support on stairs, ramps, or hallways, these handrails offer stability without compromising elegance. Crafted from high-quality materials, they are built to last, giving you confidence and quiet in every step.
                         </p>
                     </div>
 
@@ -115,23 +115,23 @@
                         <ul class="text-gray-600 text-lg space-y-2">
                             <li><strong>Durable & Strong:</strong> Made from premium materials to safely support weight for everyday use.</li>
                             <li><strong>Comfortable Grip:</strong> Smooth, ergonomic design ensures a secure and natural hold.</li>
-                            <li><strong>Stylish Finishes:</strong> Available in modern colors and finishes to complement any home dÃ©cor.</li>
+                            <li><strong>Stylish Finishes:</strong> Available in modern colors and finishes to complement any home decor.</li>
                             <li><strong>Easy Installation:</strong> Complete with mounting hardware for an easy setup.</li>
                             <li><strong>Versatile Use:</strong> Perfect for indoor or outdoor areas, including stairs, ramps, and hallways.</li>
                         </ul>
                     </div>
 
                     <div class="mb-6 p-4 bg-blue-50 border-l-4 border-blue-400 rounded-r-lg">
-                        <h3 class="font-semibold text-blue-800 mb-2">Why Choose Home2Stay Handrails?</h3>
+                        <h3 class="font-semibold text-blue-800 mb-2">Why Choose Home2stay Handrails?</h3>
                         <div class="space-y-1 text-blue-700">
-                            <p><strong>Safety meets sophistication. Home2Stay Handrails provide essential support for seniors, children, or anyone searching for extra stability, while enhancing the overall look of your home. Strong, stylish, and reliable, a must-have addition for any safe and comfortable living space.</strong></p>
+                            <p><strong>Safety meets sophistication. Home2stay Handrails provide essential support for seniors, children, or anyone searching for extra stability, while enhancing the overall look of your home. Strong, stylish, and reliable, a must-have addition for any safe and comfortable living space.</strong></p>
                         </div>
                     </div>
 
                     <div class="mb-6 p-4 bg-green-50 border-l-4 border-green-400 rounded-r-lg">
-                        <h3 class="font-semibold text-green-800 mb-2">Home2Stay Guarantee:</h3>
+                        <h3 class="font-semibold text-green-800 mb-2">Home2stay Guarantee:</h3>
                         <div class="space-y-1 text-green-700">
-                            <p><strong>We stand behind the quality and durability of Home2Stay Handrails. Our commitment is to provide you with exceptional products and outstanding customer service to ensure your safety and satisfaction.</strong></p>
+                            <p><strong>We stand behind the quality and durability of Home2stay Handrails. Our commitment is to provide you with exceptional products and outstanding customer service to ensure your safety and satisfaction.</strong></p>
                         </div>
                     </div>
 
@@ -209,7 +209,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Stylish Finishes</h3>
-                                            <p class="text-gray-600">Available in modern colors and finishes to complement any home dÃ©cor.</p>
+                                            <p class="text-gray-600">Available in modern colors and finishes to complement any home decor.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -264,7 +264,7 @@
 
                                     <div class="p-4 bg-blue-50 border-l-4 border-blue-400 rounded-r-lg">
                                         <p class="text-blue-800 font-medium">
-                                            Book your free assessment to receive a customized quote for Home2Stay Handrails!
+                                            Book your free assessment to receive a customized quote for Home2stay Handrails!
                                         </p>
                                     </div>
                                 </div>
@@ -355,17 +355,17 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Step-in shower conversion for high-profile tubs</li>
-                                            <li>â€¢ Ultra-low design ideal for tubs at least 14.75" tall</li>
-                                            <li>â€¢ Non-skid step pad to reduce slips and falls</li>
-                                            <li>â€¢ Quick installation in less than one day</li>
-                                            <li>â€¢ Compatible with acrylic, fiberglass, steel, and cast iron tubs</li>
-                                            <li>â€¢ Available in 1 width</li>
-                                            <li>â€¢ Two color options: white and beige</li>
-                                            <li>â€¢ Greatly reduces possibility of falls</li>
-                                            <li>â€¢ Enables easy step-in access</li>
-                                            <li>â€¢ Our most affordable tub cut solution</li>
-                                            <li>â€¢ Next-day delivery and installation available</li>
+                                            <li> Step-in shower conversion for high-profile tubs</li>
+                                            <li> Ultra-low design ideal for tubs at least 14.75" tall</li>
+                                            <li> Non-skid step pad to reduce slips and falls</li>
+                                            <li> Quick installation in less than one day</li>
+                                            <li> Compatible with acrylic, fiberglass, steel, and cast iron tubs</li>
+                                            <li> Available in 1 width</li>
+                                            <li> Two color options: white and beige</li>
+                                            <li> Greatly reduces possibility of falls</li>
+                                            <li> Enables easy step-in access</li>
+                                            <li> Our most affordable tub cut solution</li>
+                                            <li> Next-day delivery and installation available</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -374,13 +374,13 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Installation Details</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Installation completed on existing tub</li>
-                                            <li>â€¢ Installed in less than one day</li>
-                                            <li>â€¢ Greatly reduces the possibility of falls</li>
-                                            <li>â€¢ Enables easy step-in access</li>
-                                            <li>â€¢ Our most affordable product</li>
-                                            <li>â€¢ Professional installation by CleanCut specialists</li>
-                                            <li>â€¢ Ideal for high-profile tubs (14.75" + tall)</li>
+                                            <li> Installation completed on existing tub</li>
+                                            <li> Installed in less than one day</li>
+                                            <li> Greatly reduces the possibility of falls</li>
+                                            <li> Enables easy step-in access</li>
+                                            <li> Our most affordable product</li>
+                                            <li> Professional installation by CleanCut specialists</li>
+                                            <li> Ideal for high-profile tubs (14.75" + tall)</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -515,7 +515,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We
                         would love to hear from you!</p>
                 </div>
 
@@ -620,7 +620,7 @@
                             Details</label>
                         <textarea id="comments" name="comments" rows="3"
                             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-                            placeholder="Please describe your handrail needs, preferred locations, dimensions, style preferences, or any questions about Home2Stay Handrails..."></textarea>
+                            placeholder="Please describe your handrail needs, preferred locations, dimensions, style preferences, or any questions about Home2stay Handrails..."></textarea>
                     </div>
 
                     <!-- Submit Button -->

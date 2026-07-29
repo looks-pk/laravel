@@ -263,11 +263,11 @@
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Length:</span>
-                                                <span class="text-gray-600">35.5â€³</span>
+                                                <span class="text-gray-600">35.5"</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Width:</span>
-                                                <span class="text-gray-600">15.75â€³</span>
+                                                <span class="text-gray-600">15.75"</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Weight:</span>
@@ -410,7 +410,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We would love to hear from you!</p>
                 </div>
 
                 <form action="/submit-product-inquiry" method="POST" class="space-y-6">

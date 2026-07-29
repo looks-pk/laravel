@@ -262,15 +262,15 @@
                                         <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
                                             <div class="text-sm">
                                                 <span class="font-medium text-gray-700">Width:</span>
-                                                <span class="text-gray-600">22â€³</span>
+                                                <span class="text-gray-600">22"</span>
                                             </div>
                                             <div class="text-sm">
                                                 <span class="font-medium text-gray-700">Depth:</span>
-                                                <span class="text-gray-600">14.25â€³</span>
+                                                <span class="text-gray-600">14.25"</span>
                                             </div>
                                             <div class="text-sm">
                                                 <span class="font-medium text-gray-700">Height:</span>
-                                                <span class="text-gray-600">17-19â€³</span>
+                                                <span class="text-gray-600">17–19"</span>
                                             </div>
                                         </div>
                                     </div>
@@ -281,15 +281,15 @@
                                         <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
                                             <div class="text-sm">
                                                 <span class="font-medium text-gray-700">Width:</span>
-                                                <span class="text-gray-600">31Â½â€³</span>
+                                                <span class="text-gray-600">31.5"</span>
                                             </div>
                                             <div class="text-sm">
                                                 <span class="font-medium text-gray-700">Depth:</span>
-                                                <span class="text-gray-600">14.25â€³</span>
+                                                <span class="text-gray-600">14.25"</span>
                                             </div>
                                             <div class="text-sm">
                                                 <span class="font-medium text-gray-700">Height:</span>
-                                                <span class="text-gray-600">17-19â€³</span>
+                                                <span class="text-gray-600">17–19"</span>
                                             </div>
                                         </div>
                                     </div>
@@ -301,15 +301,15 @@
                                         <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
                                             <div class="text-sm">
                                                 <span class="font-medium text-gray-700">Width:</span>
-                                                <span class="text-gray-600">31.5â€³</span>
+                                                <span class="text-gray-600">31.5"</span>
                                             </div>
                                             <div class="text-sm">
                                                 <span class="font-medium text-gray-700">Depth:</span>
-                                                <span class="text-gray-600">15.75-22.75â€³</span>
+                                                <span class="text-gray-600">15.75–22.75"</span>
                                             </div>
                                             <div class="text-sm">
                                                 <span class="font-medium text-gray-700">Height:</span>
-                                                <span class="text-gray-600">17-19â€³</span>
+                                                <span class="text-gray-600">17–19"</span>
                                             </div>
                                         </div>
                                     </div>
@@ -349,7 +349,7 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Leg Adjustment:</span>
-                                                <span class="text-gray-600">17â€³ to 19â€³</span>
+                                                <span class="text-gray-600">17" to 19"</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Installation:</span>
@@ -492,7 +492,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We would love to hear from you!</p>
                 </div>
 
                 <form action="/submit-product-inquiry" method="POST" class="space-y-6">
@@ -529,11 +529,11 @@
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="seat_style" value="small" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Small (22â€³ x 14.25â€³)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Small (22" × 14.25")</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="seat_style" value="large" class="text-primary">
-                                <span class="text-gray-700" style="margin-left: 5px;">Large (31Â½â€³ x 14.25â€³)</span>
+                                <span class="text-gray-700" style="margin-left: 5px;">Large (31.5" × 14.25")</span>
                             </label>
                             <label class="flex items-center space-x-3">
                                 <input type="radio" name="seat_style" value="l_shaped" class="text-primary">

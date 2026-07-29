@@ -116,14 +116,14 @@
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            â€¢ Enhances usability, safety and security<br>
-                            â€¢ Reduces the height of the traditional bath<br>
-                            â€¢ Elevates your home's overall appearance and feel
+                            Enhances usability, safety and security<br>
+                            Reduces the height of the traditional bath<br>
+                            Elevates your home's overall appearance and feel
                         </p>
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg font-semibold">
-                            Home2Stay delivers expertly crafted bathroom upgrades that combine modern design, safety, and long-lasting quality, customized to your lifestyle. We focus on comfort, accessibility, and flawless installation to ensure results you can trust.
+                            Home2stay delivers expertly crafted bathroom upgrades that combine modern design, safety, and long-lasting quality, customized to your lifestyle. We focus on comfort, accessibility, and flawless installation to ensure results you can trust.
                         </p>
                     </div>
 
@@ -248,19 +248,19 @@
                                             <div class="space-y-3">
                                                 <h4 class="font-medium text-gray-700">Design & Tile Options:</h4>
                                                 <ul class="space-y-1 text-gray-600">
-                                                    <li>â€¢ Various tile finishes</li>
-                                                    <li>â€¢ Custom color options</li>
-                                                    <li>â€¢ Modern patterns</li>
-                                                    <li>â€¢ Classic designs</li>
+                                                    <li>Various tile finishes</li>
+                                                    <li>Custom color options</li>
+                                                    <li>Modern patterns</li>
+                                                    <li>Classic designs</li>
                                                 </ul>
                                             </div>
                                             <div class="space-y-3">
                                                 <h4 class="font-medium text-gray-700">Built-In Features:</h4>
                                                 <ul class="space-y-1 text-gray-600">
-                                                    <li>â€¢ Built-in niches</li>
-                                                    <li>â€¢ Bench seating</li>
-                                                    <li>â€¢ Grab bars</li>
-                                                    <li>â€¢ Handheld showerheads</li>
+                                                    <li>Built-in niches</li>
+                                                    <li>Bench seating</li>
+                                                    <li>Grab bars</li>
+                                                    <li>Handheld showerheads</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -321,19 +321,19 @@
                                         <div class="bg-gray-50 rounded-lg p-4">
                                             <h4 class="font-medium text-gray-700 mb-3">Safety Features:</h4>
                                             <ul class="space-y-2 text-gray-600">
-                                                <li>â€¢ Non-slip shower floors</li>
-                                                <li>â€¢ Ergonomic grab bars</li>
-                                                <li>â€¢ Low-entry thresholds</li>
-                                                <li>â€¢ Adjustable handheld shower wands</li>
+                                                <li>Non-slip shower floors</li>
+                                                <li>Ergonomic grab bars</li>
+                                                <li>Low-entry thresholds</li>
+                                                <li>Adjustable handheld shower wands</li>
                                             </ul>
                                         </div>
                                         <div class="bg-gray-50 rounded-lg p-4">
                                             <h4 class="font-medium text-gray-700 mb-3">Custom Options:</h4>
                                             <ul class="space-y-2 text-gray-600">
-                                                <li>â€¢ Built-in shower niches</li>
-                                                <li>â€¢ Bench seating</li>
-                                                <li>â€¢ Multiple tile finishes</li>
-                                                <li>â€¢ Various grab bar placements</li>
+                                                <li>Built-in shower niches</li>
+                                                <li>Bench seating</li>
+                                                <li>Multiple tile finishes</li>
+                                                <li>Various grab bar placements</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -347,7 +347,7 @@
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <div class="flex items-center justify-between mb-2">
                                             <h3 class="text-xl font-semibold text-gray-800">Supplier</h3>
-                                            <span class="text-sm text-gray-800">Home2Stay</span>
+                                            <span class="text-sm text-gray-800">Home2stay</span>
                                         </div>
                                         <div class="flex items-center justify-between mb-2">
                                             <h3 class="text-xl font-semibold text-gray-800">Pricing</h3>
@@ -394,7 +394,7 @@
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
                         <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready to Reimagine Your Bathroom?</h2>
-                        <p class="text-lg text-gray-600 mb-6">Convert your outdated bathtub into a stylish shower. This will increase both the comfort of your home and its value. Home2Stay delivers expertly crafted conversions that combine modern design, enhanced safety, and lasting comfort.</p>
+                        <p class="text-lg text-gray-600 mb-6">Convert your outdated bathtub into a stylish shower. This will increase both the comfort of your home and its value. Home2stay delivers expertly crafted conversions that combine modern design, enhanced safety, and lasting comfort.</p>
                         <p class="mb-5">Give us a call at <a href="tel:+16042591211" class="text-secondary" style="font-weight: bold; color:red;">604-259-1211</a> or submit a FREE <a href="#assessment" class="text-secondary" style="font-weight: bold; color:red;">ASSESSMENT FORM</a> to get a quote or consultation.</p>
                     </div>
                     <!-- Image -->
@@ -466,7 +466,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We would love to hear from you!</p>
                 </div>
 
                 <form action="/submit-product-inquiry" method="POST" class="space-y-6">

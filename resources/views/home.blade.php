@@ -773,6 +773,7 @@
                             </svg>
                         </a>
                         <a href="/about" class="btn-outline">Learn
+                            More</a>     <a href="/about" class="btn-outline">Learn
                             More</a>
                     </div>
                 </div>

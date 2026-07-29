@@ -121,7 +121,7 @@
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Diameter of 1.25â€³ for a comfortable grip.
+                            Diameter of 1.25" for a comfortable grip.
                         </p>
                     </div>
                     <div class="mb-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
@@ -233,7 +233,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Comfortable Grip</h3>
-                                            <p class="text-gray-600">1.25â€³ diameter provides a comfortable and secure grip for users of all ages and abilities.</p>
+                                            <p class="text-gray-600">1.25" diameter provides a comfortable and secure grip for users of all ages and abilities.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -459,7 +459,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We would love to hear from you!</p>
                 </div>
 
                 <form action="/submit-product-inquiry" method="POST" class="space-y-6">

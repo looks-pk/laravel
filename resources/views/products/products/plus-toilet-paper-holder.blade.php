@@ -258,7 +258,7 @@
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Multiple Finish Options</h3>
                                             <p class="text-gray-600">Available in polished chrome, brushed, and matte black
-                                                finishes to match your bathroom dÃ©cor and personal style preferences.</p>
+                                                finishes to match your bathroom decor and personal style preferences.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -327,7 +327,7 @@
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Rail Diameter:</span>
-                                                <span class="text-gray-600">1.25â€³ (31.8mm)</span>
+                                                <span class="text-gray-600">1.25" (31.8mm)</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Material:</span>
@@ -493,7 +493,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We
                         would love to hear from you!</p>
                 </div>
 

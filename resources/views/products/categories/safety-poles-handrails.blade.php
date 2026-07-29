@@ -222,7 +222,7 @@
 
                     <div class="prose prose-lg max-w-none">
                         <p class="text-gray-700 mb-4">
-                            Home2Stay is a proud installer of Promenaid — the premium handrail system trusted by homeowners across Vancouver and the Lower Mainland. Promenaid's high-grade aluminum construction is built to last, resisting rust, cracking, and fading through every season.
+                            Home2stay is a proud installer of Promenaid — the premium handrail system trusted by homeowners across Vancouver and the Lower Mainland. Promenaid's high-grade aluminum construction is built to last, resisting rust, cracking, and fading through every season.
                         </p>
 
                         <p class="text-gray-700 mb-4">

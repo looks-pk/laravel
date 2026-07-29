@@ -65,7 +65,7 @@
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Bruno CRE-2010</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">Bring effortless independence to every level of your home. The Bruno Straight Stair Lift from Home2Stay provides smooth, reliable mobility for straight staircases</p>
+                        <p class="text-gray-600 mb-4 flex-grow">Bring effortless independence to every level of your home. The Bruno Straight Stair Lift from Home2stay provides smooth, reliable mobility for straight staircases</p>
                         <div class="mt-auto">
                             <a href="/products/custom-curved-stair-lift"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">

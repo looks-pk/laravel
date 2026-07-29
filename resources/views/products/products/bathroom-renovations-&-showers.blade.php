@@ -234,19 +234,19 @@
                                             <div class="space-y-3">
                                                 <h4 class="font-medium text-gray-700">Bathroom Types:</h4>
                                                 <ul class="space-y-1 text-gray-600">
-                                                    <li>â€¢ Master ensuites</li>
-                                                    <li>â€¢ Guest bathrooms</li>
-                                                    <li>â€¢ Powder rooms</li>
-                                                    <li>â€¢ Compact or small bathrooms</li>
+                                                    <li> Master ensuites</li>
+                                                    <li> Guest bathrooms</li>
+                                                    <li> Powder rooms</li>
+                                                    <li> Compact or small bathrooms</li>
                                                 </ul>
                                             </div>
                                             <div class="space-y-3">
                                                 <h4 class="font-medium text-gray-700">Services Available:</h4>
                                                 <ul class="space-y-1 text-gray-600">
-                                                    <li>â€¢ Accessible showers</li>
-                                                    <li>â€¢ Shower upgrades & renovations</li>
-                                                    <li>â€¢ Tub to shower conversions</li>
-                                                    <li>â€¢ General bathroom renovations</li>
+                                                    <li> Accessible showers</li>
+                                                    <li> Shower upgrades & renovations</li>
+                                                    <li> Tub to shower conversions</li>
+                                                    <li> General bathroom renovations</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -347,7 +347,7 @@
                                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                                     clip-rule="evenodd" />
                                             </svg>
-                                            <span>7/8â€³ thick (at the perimeter) with four pitch planes and built-in gradients</span>
+                                            <span>7/8 thick (at the perimeter) with four pitch planes and built-in gradients</span>
                                         </li>
                                         <li class="flex items-start">
                                             <svg class="h-5 w-5 text-primary flex-shrink-0 mr-2 mt-0.5"
@@ -484,7 +484,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We would love to hear from you!</p>
                 </div>
 
                 <form action="/submit-product-inquiry" method="POST" class="space-y-6">

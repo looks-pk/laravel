@@ -66,7 +66,7 @@
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
                     <a href="/products/harmar-rubber-threshold-ramps"> <h3 class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300" >Harmar Rubber Threshold Ramps</h3></a>
-                        <p class="text-gray-600 mb-4 flex-grow">Make every doorway accessible with the Home2Stay Harmar Rubber Threshold Ramps, the best services for a smooth transition over thresholds, steps, and restraints.</p>
+                        <p class="text-gray-600 mb-4 flex-grow">Make every doorway accessible with the Home2stay Harmar Rubber Threshold Ramps, the best services for a smooth transition over thresholds, steps, and restraints.</p>
                         <div class="mt-auto">
                             <a href="/products/harmar-rubber-threshold-ramps"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
@@ -171,7 +171,7 @@
                             Metal Threshold Ramps</h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">
-                            Make every doorway uncomplicated with Home2Stay Metal Threshold Ramps engineered for smooth transitions over thresholds, steps, and uneven surfaces.</p>
+                            Make every doorway uncomplicated with Home2stay Metal Threshold Ramps engineered for smooth transitions over thresholds, steps, and uneven surfaces.</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
                             <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">2 Products</span> -->
                         </p>
@@ -203,7 +203,7 @@
                             PVI Multi-Fold Reach Ramp</h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">
-                            Make accessibility effortless with the Home2Stay PVI Multi-Fold Reach Ramp, a premium quality, lightweight aluminium ramp designed to provide safe and reliable access for wheelchairs</p>
+                            Make accessibility effortless with the Home2stay PVI Multi-Fold Reach Ramp, a premium quality, lightweight aluminium ramp designed to provide safe and reliable access for wheelchairs</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
                             <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">2 Products</span> -->
                         </p>
@@ -235,7 +235,7 @@
                             Custom Wood Ramps</h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">
-                            Bring freedom of movement to every doorstep with Home2Stay’s Custom Wood Ramps, designed, built, and customised to fit your space perfectly.</p>
+                            Bring freedom of movement to every doorstep with Home2stay’s Custom Wood Ramps, designed, built, and customised to fit your space perfectly.</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
                             <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">2 Products</span> -->
                         </p>
@@ -267,7 +267,7 @@
                             Folding & Rolling Ramps</h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">
-                            The Home2Stay Folding & Rolling Ramps are the perfect balance of convenience, durability, and safety for everyday accessibility.</p>
+                            The Home2stay Folding & Rolling Ramps are the perfect balance of convenience, durability, and safety for everyday accessibility.</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
                             <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">2 Products</span> -->
                         </p>

@@ -63,7 +63,11 @@
         .image-hero {
             position: relative;
             height: 90vh;
-            min-height: 600px;
+            height:90svh;
+            min-height: 700px;
+            max-height:1000px;
+            padding-top:50px;
+            padding-bottom:50px;
             overflow: hidden;
         }
 
@@ -616,6 +620,22 @@
         }
 
         /* Responsive Adjustments */
+
+       @media (max-width:1024px) {
+            .image-hero{
+              height:auto;
+              min-height:fit-content;
+             max-height:none;
+             overflow:visible;      
+}
+           .contact-form-container{
+             max-width:100%;
+
+}
+
+}       
+       
+
         @media (max-width: 768px) {
             .image-hero {
                 height: auto;
@@ -625,7 +645,7 @@
                padding-block:50px
 }    
             .hero-text h1 {
-                font-size: 1.25rem;
+                font-size: 2.25rem;
             }
 
             .hero-text p {
@@ -662,6 +682,19 @@
                 width: 350px;
             }
         }
+
+      @media (max-width:480px){
+        .image-hero{
+            padding-block:0;
+}
+        .hero-text h1{
+            font-size:1.4rem;
+
+}
+
+}
+
+
     </style>
 
     <!-- Image Hero Section -->
@@ -711,7 +744,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="hero-slide-bg">
-                            <img src="{{ asset('h2s-banners/Glass_Mount_LED_Montreal_4-scaled.jpg') }}" alt="Promenaid Grab Bar" class="hero-slide-image">
+                            <img src="{{ asset('h2s-banners/Flow X_Main_Wide 1.jpg') }}" alt="Promenaid Grab Bar" class="hero-slide-image">
                             <div class="hero-slide-overlay"></div>
                         </div>
                     </div>
@@ -1033,7 +1066,7 @@
               <div class="relative rounded-2xl overflow-hidden shadow-xl h-[400px] lg:h-full">
                     <img src="{{ asset('/al-prod-page-imgs/5165-Best-Bath-Trench-Drain-Pan-11-02-2015b-1-1024x682-2.jpeg') }}" alt="Home Accessibility Service"
                         class="w-full h-full object-cover">
-                    <div class="absolute inset-0 bg-gradient-to-r from-primary/70 to-primary/40"></div>
+                   <!-- <div class="absolute inset-0 bg-gradient-to-r from-primary/70 to-primary/40"></div> -->
                     <div class="absolute inset-0 flex items-center justify-center">
                         <div class="text-center text-white p-8">
                             <div class="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -1447,7 +1480,7 @@
 
             <!-- Call to Action -->
             <div class="text-center">
-                <a href="/about" class="inline-flex items-center px-8 py-4 bg-primary hover:bg-primary-dark text-white rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
+                <a href="/company-profile/" class="inline-flex items-center px-8 py-4 bg-primary hover:bg-primary-dark text-white rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
                     Learn More About Home2stay
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />

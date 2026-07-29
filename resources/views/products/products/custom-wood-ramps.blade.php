@@ -343,12 +343,12 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Designed For Real Life</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Home entries with custom elevation requirements</li>
-                                            <li>â€¢ Properties where aesthetics matter</li>
-                                            <li>â€¢ Wheelchair and mobility aid accessibility</li>
-                                            <li>â€¢ Ageing in place solutions</li>
-                                            <li>â€¢ Properties seeking architectural integration</li>
-                                            <li>â€¢ Long-term accessibility investments</li>
+                                            <li> Home entries with custom elevation requirements</li>
+                                            <li> Properties where aesthetics matter</li>
+                                            <li> Wheelchair and mobility aid accessibility</li>
+                                            <li> Ageing in place solutions</li>
+                                            <li> Properties seeking architectural integration</li>
+                                            <li> Long-term accessibility investments</li>
                                         </ul>
                                     </div>
                                 </div>

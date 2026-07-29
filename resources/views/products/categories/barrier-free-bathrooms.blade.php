@@ -211,7 +211,7 @@
                 <div class="text-center mb-12">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Professional Bathroom Remodels in Vancouver</h2>
                     <p class="text-lg text-gray-600">
-                        Home2Stay creates beautiful, high-quality bathroom spaces that work for everyone. Our specialty is barrier-free design, but we handle all bathroom types — and we never sacrifice style for function.
+                        Home2stay creates beautiful, high-quality bathroom spaces that work for everyone. Our specialty is barrier-free design, but we handle all bathroom types — and we never sacrifice style for function.
                     </p>
                 </div>
 

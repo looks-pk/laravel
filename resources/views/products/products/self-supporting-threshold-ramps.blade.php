@@ -389,11 +389,11 @@
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Length Available:</span>
-                                                <span class="text-gray-600">24â€³</span>
+                                                <span class="text-gray-600">24"</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Threshold Height:</span>
-                                                <span class="text-gray-600">3â€³</span>
+                                                <span class="text-gray-600">3"</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Weight:</span>
@@ -429,13 +429,13 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Anti-slip, high-traction surface for maximum safety</li>
-                                            <li>â€¢ Holes punched in top corners for easy installation</li>
-                                            <li>â€¢ Hardware included to secure ramp to surface</li>
-                                            <li>â€¢ Aligns directly against door threshold</li>
-                                            <li>â€¢ Accommodates various wheel configurations</li>
-                                            <li>â€¢ Tested to 3x safety factor for reliability</li>
-                                            <li>â€¢ Made in the USA with quality materials</li>
+                                            <li> Anti-slip, high-traction surface for maximum safety</li>
+                                            <li> Holes punched in top corners for easy installation</li>
+                                            <li> Hardware included to secure ramp to surface</li>
+                                            <li> Aligns directly against door threshold</li>
+                                            <li> Accommodates various wheel configurations</li>
+                                            <li> Tested to 3x safety factor for reliability</li>
+                                            <li> Made in the USA with quality materials</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -570,7 +570,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We
                         would love to hear from you!</p>
                 </div>
 

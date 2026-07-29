@@ -111,7 +111,7 @@
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Comes in 2 seat width options: 18â€³ or 26â€³(ADA-compliant)
+                            Comes in 2 seat width options: 18" or 26" (ADA-compliant)
                         </p>
                     </div>
                     <div class="mb-6">
@@ -197,7 +197,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">ADA-Compliant Options</h3>
-                                            <p class="text-gray-600">Available in 18â€³ or 26â€³ seat width options, with 26â€³ being ADA-compliant.</p>
+                                            <p class="text-gray-600">Available in 18" or 26" seat width options, with 26" being ADA-compliant.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -246,7 +246,7 @@
                                     
                                     <!-- 18" Seat Options -->
                                     <div class="bg-gray-50 rounded-lg p-4">
-                                        <h4 class="text-lg font-semibold text-gray-800 mb-3">18â€³ Seat Width</h4>
+                                        <h4 class="text-lg font-semibold text-gray-800 mb-3">18" Seat Width</h4>
                                         <div class="space-y-2">
                                             <div class="flex justify-between items-center">
                                                 <span class="text-gray-700">Chrome Frame Finish:</span>
@@ -273,7 +273,7 @@
 
                                     <!-- 26" Seat Options -->
                                     <div class="bg-gray-50 rounded-lg p-4">
-                                        <h4 class="text-lg font-semibold text-gray-800 mb-3">26â€³ Seat Width (ADA-Compliant)</h4>
+                                        <h4 class="text-lg font-semibold text-gray-800 mb-3">26" Seat Width (ADA-Compliant)</h4>
                                         <div class="space-y-2">
                                             <div class="flex justify-between items-center">
                                                 <span class="text-gray-700">Chrome Frame Finish:</span>
@@ -490,7 +490,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We would love to hear from you!</p>
                 </div>
 
                 <form action="/submit-product-inquiry" method="POST" class="space-y-6">

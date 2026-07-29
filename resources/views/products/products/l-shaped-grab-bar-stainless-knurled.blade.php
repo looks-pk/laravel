@@ -111,17 +111,17 @@
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Other L-shaped grab bars don't always line up with the 16â€³ on centre studs â€” which creates a mess when installing.
+                            Other L-shaped grab bars don't always line up with the 16" on centre studs which creates a mess when installing.
                         </p>
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Our nine-hole flange offers greater versatility and makes installation easy â€” and our bar is made specifically to stand up to the moisture of bathrooms, ensuring an enduring finish for years.
+                            Our nine-hole flange offers greater versatility and makes installation easy and our bar is made specifically to stand up to the moisture of bathrooms, ensuring an enduring finish for years.
                         </p>
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Comes with 9-hole flanges and with flange covers to hide the mounting screws â€“ a simple and modern finish.
+                            Comes with 9-hole flanges and with flange covers to hide the mounting screws a simple and modern finish.
                         </p>
                     </div>
                     <div class="mb-6">
@@ -202,7 +202,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Superior Stud Alignment</h3>
-                                            <p class="text-gray-600">Unlike other L-shaped grab bars that don't align with 16â€³ on centre studs, our design prevents installation mess and ensures secure mounting.</p>
+                                            <p class="text-gray-600">Unlike other L-shaped grab bars that don't align with 16" on centre studs, our design prevents installation mess and ensures secure mounting.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -327,17 +327,17 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Rail Diameter:</span>
-                                                <span class="text-gray-600">1.25â€³ (32mm)</span>
+                                                <span class="text-gray-600">1.25" (32mm)</span>
                                             </div>
                                         </div>
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Wall Clearance:</span>
-                                                <span class="text-gray-600">1.50â€³ (38mm)</span>
+                                                <span class="text-gray-600">1.50" (38mm)</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Rail Length:</span>
-                                                <span class="text-gray-600">30Ã—30â€³ (762x762mm)</span>
+                                                <span class="text-gray-600">30" × 30" (762 × 762 mm)</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Warranty:</span>
@@ -470,7 +470,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We would love to hear from you!</p>
                 </div>
 
                 <form action="/submit-product-inquiry" method="POST" class="space-y-6">

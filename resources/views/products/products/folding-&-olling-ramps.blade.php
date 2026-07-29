@@ -335,12 +335,12 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Perfect For</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Home access over steps or restraints</li>
-                                            <li>â€¢ Vehicle entry and exit</li>
-                                            <li>â€¢ Temporary setups for events or travel</li>
-                                            <li>â€¢ Rentals, caregivers, and mobility support</li>
-                                            <li>â€¢ Wheelchairs, scooters, walkers, and more</li>
-                                            <li>â€¢ Anyone seeking independence & accessibility</li>
+                                            <li> Home access over steps or restraints</li>
+                                            <li> Vehicle entry and exit</li>
+                                            <li> Temporary setups for events or travel</li>
+                                            <li> Rentals, caregivers, and mobility support</li>
+                                            <li> Wheelchairs, scooters, walkers, and more</li>
+                                            <li> Anyone seeking independence & accessibility</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -472,7 +472,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We
                         would love to hear from you!</p>
                 </div>
 

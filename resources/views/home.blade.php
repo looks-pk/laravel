@@ -772,9 +772,8 @@
                                     clip-rule="evenodd" />
                             </svg>
                         </a>
-                        <a href="/about" class="btn-outline">Learn
-                            More</a>     <a href="/about" class="btn-outline">Learn
-                            More</a>
+                        <a href="/company-profile/" class="btn-outline">Learn
+                            More</a> 
                     </div>
                 </div>
 

@@ -111,7 +111,7 @@
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            From concept to completion, Home2Stay combines expert planning, premium materials, and skilled expertise to create bathrooms that are both visually stunning and highly practical. We focus on comfort, durability, and style, ensuring every renovation enhances your daily routine while increasing the value of your home.
+                            From concept to completion, Home2stay combines expert planning, premium materials, and skilled expertise to create bathrooms that are both visually stunning and highly practical. We focus on comfort, durability, and style, ensuring every renovation enhances your daily routine while increasing the value of your home.
                         </p>
                     </div>
                     <div class="mb-6">

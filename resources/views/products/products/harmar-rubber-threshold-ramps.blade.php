@@ -340,7 +340,7 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Usable Width:</span>
-                                                <span class="text-gray-600">36â€³</span>
+                                                <span class="text-gray-600">36"</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Available Heights:</span>
@@ -376,12 +376,12 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Key Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Durable rubber construction long-lasting and weather-resistant</li>
-                                            <li>â€¢ Slip-resistant surface for safe navigation in all conditions</li>
-                                            <li>â€¢ Bevelled edges help eliminate trip hazards and support smooth wheel entry/exit</li>
-                                            <li>â€¢ Tool-free modular setup - mix & match pieces to reach the desired height</li>
-                                            <li>â€¢ Supports thresholds up to 4" high with a gentle incline</li>
-                                            <li>â€¢ ADA-compliant and ready for immediate use at your home entrance</li>
+                                            <li> Durable rubber construction long-lasting and weather-resistant</li>
+                                            <li> Slip-resistant surface for safe navigation in all conditions</li>
+                                            <li> Bevelled edges help eliminate trip hazards and support smooth wheel entry/exit</li>
+                                            <li> Tool-free modular setup - mix & match pieces to reach the desired height</li>
+                                            <li> Supports thresholds up to 4" high with a gentle incline</li>
+                                            <li> ADA-compliant and ready for immediate use at your home entrance</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -514,7 +514,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We
                         would love to hear from you!</p>
                 </div>
 

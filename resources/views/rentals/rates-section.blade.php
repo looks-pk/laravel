@@ -117,7 +117,7 @@
             <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:shadow-xl hover:-translate-y-1">
                 <div class="bg-primary text-white py-4 px-6">
                     <h3 class="text-xl font-bold">Shower Bay- Portable Shower Unit</h3>
-                    <p class="text-2xl font-bold mt-2">$425 / month</p>
+                    <p class="text-2xl font-bold mt-2">$465 / month</p>
                 </div>
                 <div class="p-8">
                     <ul class="space-y-4">
@@ -127,11 +127,11 @@
                         </li>
                         <li class="flex justify-between pb-3 border-b border-gray-200">
                             <span class="text-gray-600">Setup Fees (INCLUDING MEASURING AND INSTALLATION)</span>
-                            <span class="font-semibold whitespace-nowrap">$ 175</span>
+                            <span class="font-semibold whitespace-nowrap">$ 220</span>
                         </li>
                         <li class="flex justify-between pb-3 border-b border-gray-200">
                             <span class="text-gray-600">Removal Fees</span>
-                            <span class="font-semibold whitespace-nowrap">$ 195</span>
+                            <span class="font-semibold whitespace-nowrap">$ 245</span>
                         </li>
                     </ul>
                 </div>

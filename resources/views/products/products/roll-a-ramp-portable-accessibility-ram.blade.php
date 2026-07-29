@@ -106,7 +106,7 @@
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Roll a ramp, especially designed for your convenience, and Home2Stay provide the portable accessibility that is designed for maximum convenience, strength and versatility. Whether you're enhancing home access, loading mobility devices into vehicles, or creating a temporary ramp solution for travel or appointments, the Roll-A-Ramp makes mobility simple and reliable.
+                            Roll a ramp, especially designed for your convenience, and Home2stay provide the portable accessibility that is designed for maximum convenience, strength and versatility. Whether you're enhancing home access, loading mobility devices into vehicles, or creating a temporary ramp solution for travel or appointments, the Roll-A-Ramp makes mobility simple and reliable.
                         </p>
                     </div>
                     <div class="mb-6">
@@ -258,7 +258,7 @@
 
                                     <div class="p-4 bg-blue-50 border-l-4 border-blue-400 rounded-r-lg">
                                         <p class="text-blue-800 font-medium">
-                                            Contact Home2Stay to discuss your specific mobility needs and find the perfect Roll-A-Ramp solution. Our team provides expert guidance and personalized pricing. Call 604-259-1211.
+                                            Contact Home2stay to discuss your specific mobility needs and find the perfect Roll-A-Ramp solution. Our team provides expert guidance and personalized pricing. Call 604-259-1211.
                                         </p>
                                     </div>
                                 </div>
@@ -325,12 +325,12 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Versatile Uses</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Wheelchairs, scooters, and power chairs</li>
-                                            <li>â€¢ Vans, trucks, and RVs</li>
-                                            <li>â€¢ Stages, docks, and temporary event access</li>
-                                            <li>â€¢ Public buildings, hotels, schools, and healthcare settings</li>
-                                            <li>â€¢ Home access and enhancement</li>
-                                            <li>â€¢ Travel and temporary accessibility solutions</li>
+                                            <li> Wheelchairs, scooters, and power chairs</li>
+                                            <li> Vans, trucks, and RVs</li>
+                                            <li> Stages, docks, and temporary event access</li>
+                                            <li> Public buildings, hotels, schools, and healthcare settings</li>
+                                            <li> Home access and enhancement</li>
+                                            <li> Travel and temporary accessibility solutions</li>
                                         </ul>
                                     </div>
                                 </div>

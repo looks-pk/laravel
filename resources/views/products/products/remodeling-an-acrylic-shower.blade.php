@@ -403,7 +403,7 @@
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
                         <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready To Elevate Your Bathroom?</h2>
-                        <p class="text-lg text-gray-600 mb-6">Call Home2Stay for a free consultation and customized estimate on your acrylic shower remodeling project. Experience elegant aesthetics, low-maintenance performance, and rapid installation with our premium Bellastone acrylic solutions.</p>
+                        <p class="text-lg text-gray-600 mb-6">Call Home2stay for a free consultation and customized estimate on your acrylic shower remodeling project. Experience elegant aesthetics, low-maintenance performance, and rapid installation with our premium Bellastone acrylic solutions.</p>
                         <p class="mb-5">Give us a call at <a href="tel:+16042591211" class="text-secondary" style="font-weight: bold; color:red;">604-259-1211</a> or submit a FREE <a href="#assessment" class="text-secondary" style="font-weight: bold; color:red;">ASSESSMENT FORM</a> to start your transformation.</p>
                     </div>
                     <!-- Image -->
@@ -475,7 +475,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We would love to hear from you!</p>
                 </div>
 
                 <form action="/submit-product-inquiry" method="POST" class="space-y-6">

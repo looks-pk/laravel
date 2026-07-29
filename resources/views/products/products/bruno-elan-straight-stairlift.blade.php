@@ -171,7 +171,7 @@
                                             <li><strong>Simple, Smooth Operation:</strong> Control the stairlift effortlessly from the armrest or with the included wireless remotes, perfect for users of all abilities. The Elan ensures quiet, fluid travel up and down the staircase.</li>
                                             <li><strong>Space-Saving Masterpiece:</strong> Thanks to its narrow, vertical rail design, this stairlift installs close to the wall, preserving valuable stairway space so family members can walk freely alongside it.</li>
                                             <li><strong>Designed for Everyday Comfort:</strong> The foldable seat, armrests, and footrest allow the stairlift to remain compact when not in use, maximising accessibility for everyone.</li>
-                                            <li><strong>Safe, Secure, Dependable:</strong> Safety features like a retractable seat belt, obstruction sensors, and a swivel seat, which turns up to 90Â° at the top landing, make exiting the lift effortless and risk-free.</li>
+                                            <li><strong>Safe, Secure, Dependable:</strong> Safety features like a retractable seat belt, obstruction sensors, and a swivel seat, which turns up to 90° at the top landing, make exiting the lift effortless and risk-free.</li>
                                             <li><strong>Reliable Power, Even During Outages:</strong> Equipped with two 12-volt batteries that continuously charge along the rail, the Elan stairlift continues to operate even if the power goes out.</li>
                                         </ul>
                                     </div>
@@ -597,7 +597,7 @@
                     <div class="mb-6">
                         <h4 class="text-lg font-semibold mb-4 text-primary">Product Information</h4>
                         <div class="p-3 bg-gray-50 rounded-lg mb-4">
-                            <p>You're requesting a quote for: <span class="font-semibold text-primary">Home2Stay â€“ Bruno Elan Straight Stairlift</span></p>
+                            <p>You're requesting a quote for: <span class="font-semibold text-primary">Home2Stay Bruno Elan Straight Stairlift</span></p>
                         </div>
                     </div>
 

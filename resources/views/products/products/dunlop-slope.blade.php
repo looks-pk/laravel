@@ -325,12 +325,12 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Perfect For</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Wheelchairs, scooters & walkers</li>
-                                            <li>â€¢ Residential entrances and porches</li>
-                                            <li>â€¢ Commercial accessibility compliance</li>
-                                            <li>â€¢ Indoor and outdoor transitions</li>
-                                            <li>â€¢ Temporary and permanent installations</li>
-                                            <li>â€¢ Support for independence & dignity</li>
+                                            <li> Wheelchairs, scooters & walkers</li>
+                                            <li> Residential entrances and porches</li>
+                                            <li> Commercial accessibility compliance</li>
+                                            <li> Indoor and outdoor transitions</li>
+                                            <li> Temporary and permanent installations</li>
+                                            <li> Support for independence & dignity</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -462,7 +462,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We
                         would love to hear from you!</p>
                 </div>
 

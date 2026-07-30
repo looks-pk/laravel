@@ -172,12 +172,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Surrey (All Areas)</li>
-                                <li>â€¢ White Rock & Delta</li>
-                                <li>â€¢ Vancouver & Burnaby</li>
-                                <li>â€¢ Langley & Abbotsford</li>
-                                <li>â€¢ Richmond & Coquitlam</li>
-                                <li>â€¢ Port Coquitlam & Mission</li>
+                                <li> Surrey (All Areas)</li>
+                                <li> White Rock & Delta</li>
+                                <li> Vancouver & Burnaby</li>
+                                <li> Langley & Abbotsford</li>
+                                <li> Richmond & Coquitlam</li>
+                                <li> Port Coquitlam & Mission</li>
                             </ul>
                         </div>
                     </div>
@@ -369,9 +369,9 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Commercial Models Available</h3>
                 <div class="text-gray-600 space-y-3">
-                    <p><strong>Stannah 260 â€“ Commercial (Indoor):</strong> Designed for high-traffic areas, this model withstands repetitive use, ensuring longevity and performance.</p>
-                    <p><strong>K2 Plus â€“ Commercial:</strong> A cost-effective solution for straight staircases, balancing quality and affordability.</p>
-                    <p><strong>Stairfriend â€“ Commercial:</strong> A versatile option suitable for various commercial settings, providing reliable service.</p>
+                    <p><strong>Stannah 260 Commercial (Indoor):</strong> Designed for high-traffic areas, this model withstands repetitive use, ensuring longevity and performance.</p>
+                    <p><strong>K2 Plus Commercial:</strong> A cost-effective solution for straight staircases, balancing quality and affordability.</p>
+                    <p><strong>Stairfriend Commercial:</strong> A versatile option suitable for various commercial settings, providing reliable service.</p>
                 </div>
             </div>
         </div>

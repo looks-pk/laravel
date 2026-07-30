@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Glass Mounted Promenade Handrail Vancouver | Sleek & Safe Handrail Installation | Home2Stay')
-@section('meta_description', 'Discover premium Glass Mounted Promenade Handrails in Vancouver. Home2Stay offers expert glass-mounted handrail installation — modern design, maximum safety, and lasting durability for any home.')
+@section('meta_description', 'Discover premium Glass Mounted Promenade Handrails in Vancouver. Home2stay offers expert glass-mounted handrail installation — modern design, maximum safety, and lasting durability for any home.')
 
 @push('styles')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -26,13 +26,13 @@
             <div class="max-w-3xl">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Glass Mounted Promenade Handrail Vancouver – Modern Safety Without Compromise</h1>
                 <p class="text-xl text-white/90 mb-8">
-                    Home2Stay helps Vancouver homeowners upgrade their safety without sacrificing style. Our Glass Mounted Promenade Handrail systems combine the clean aesthetics of frameless glass with the trusted strength of the Promenade rail — giving you a sleek, open look while providing a firm, reliable grip wherever you need it most. Whether it's a staircase, balcony, deck, or entryway, a glass mounted promenade handrail is one of the most stylish safety investments you can make.
+                    Home2stay helps Vancouver homeowners upgrade their safety without sacrificing style. Our Glass Mounted Promenade Handrail systems combine the clean aesthetics of frameless glass with the trusted strength of the Promenade rail — giving you a sleek, open look while providing a firm, reliable grip wherever you need it most. Whether it's a staircase, balcony, deck, or entryway, a glass mounted promenade handrail is one of the most stylish safety investments you can make.
                 </p>
                 <p class="text-xl text-white/90 mb-8">
                     Unlike traditional wall-mounted rails, a Glass Mounted Promenade Handrail attaches directly to glass balustrade panels, preserving your sightlines and keeping spaces feeling open and bright. The aluminum Promenade rail sits cleanly on top of or alongside the glass, available in multiple finishes to complement any interior or exterior design. Homeowners across Vancouver choose this system because it elevates the look of their home while meeting the highest safety standards.
                 </p>
                 <p class="text-xl text-white/90 mb-8">
-                    At Home2Stay, our certified team handles every step of your Glass Mounted Promenade Handrail installation — from measuring and planning to fitting and final inspection. We've helped hundreds of Vancouver families create safer, more beautiful spaces. If you're ready for a handrail that looks as good as it performs, you've come to the right place.
+                    At Home2stay, our certified team handles every step of your Glass Mounted Promenade Handrail installation — from measuring and planning to fitting and final inspection. We've helped hundreds of Vancouver families create safer, more beautiful spaces. If you're ready for a handrail that looks as good as it performs, you've come to the right place.
                 </p>
                 <div class="flex flex-wrap gap-4">
                     <a href="#products"
@@ -164,10 +164,10 @@
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
                         <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Glass Mounted Promenade Handrail Installation Service:</h2>
                         <p class="text-lg text-gray-600 mb-4">
-                            Installing a Glass Mounted Promenade Handrail requires precision — both for safety and aesthetics. Home2Stay provides a complete, end-to-end service: assessment, glass panel compatibility check, custom rail fitting, and a final safety inspection. We make the process seamless so you can enjoy your upgraded space right away.
+                            Installing a Glass Mounted Promenade Handrail requires precision — both for safety and aesthetics. Home2stay provides a complete, end-to-end service: assessment, glass panel compatibility check, custom rail fitting, and a final safety inspection. We make the process seamless so you can enjoy your upgraded space right away.
                         </p>
                         <p class="text-lg text-gray-600 mb-6">
-                            Our trained installers use purpose-built glass-mount brackets and hardware to secure the Promenade rail directly to your glass panels without compromising their integrity. Every rail is leveled, torqued to spec, and tested for load before we leave. Vancouver homeowners trust Home2Stay for glass mounted promenade handrail installation because we get it right the first time.
+                            Our trained installers use purpose-built glass-mount brackets and hardware to secure the Promenade rail directly to your glass panels without compromising their integrity. Every rail is leveled, torqued to spec, and tested for load before we leave. Vancouver homeowners trust Home2stay for glass mounted promenade handrail installation because we get it right the first time.
                         </p>
                         <p class="mb-5">Give us a call at <b><a href="tel:+16042591211" style="color: red;">(604) 259-1211</a></b> or submit a <b> <a href="#assessment" style="color: red;">FREE ASSESSMENT FORM</a></b> to check.</p>
                     </div>
@@ -242,9 +242,9 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Home2Stay?</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Home2stay?</h2>
                     <p class="text-lg text-gray-600">
-                        Home2Stay has become one of Vancouver's most trusted mobility and safety companies because we care about our clients' quality of life. Our service is built on respect, honesty, and reliable craftsmanship. Here's what you can expect from us:
+                        Home2stay has become one of Vancouver's most trusted mobility and safety companies because we care about our clients' quality of life. Our service is built on respect, honesty, and reliable craftsmanship. Here's what you can expect from us:
                     </p>
                 </div>
 
@@ -368,7 +368,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready to Make Your Home Safer?</h2>
-                    <p class="text-gray-600 mb-4">If you're looking for a glass mounted promenade handrail that looks stunning and delivers lasting safety, Home2Stay has the expertise to make it happen. Hundreds of Vancouver homeowners have already upgraded their glass balustrades with our professional installation service.</p>
+                    <p class="text-gray-600 mb-4">If you're looking for a glass mounted promenade handrail that looks stunning and delivers lasting safety, Home2stay has the expertise to make it happen. Hundreds of Vancouver homeowners have already upgraded their glass balustrades with our professional installation service.</p>
                     <p class="text-gray-600">Fill out the form below for a free assessment, and our team will get back to you with a plan tailored to your space.</p>
                 </div>
 
@@ -551,7 +551,7 @@
         <div class="container mx-auto px-4">
                 <div class="max-w-4xl mx-auto text-center text-white">
                 <h2 class="text-3xl font-bold mb-6">Ready to Upgrade Your Glass Balustrade with a Promenade Handrail?</h2>
-                <p class="text-xl mb-8">Contact Home2Stay today to explore how a Glass Mounted Promenade Handrail can make your Vancouver home safer, more stylish, and accessible for everyone.</p>
+                <p class="text-xl mb-8">Contact Home2stay today to explore how a Glass Mounted Promenade Handrail can make your Vancouver home safer, more stylish, and accessible for everyone.</p>
                 <div class="flex flex-wrap justify-center gap-4">
                     <a href="{{ route('contact') }}"
                         class="px-8 py-3 bg-white text-primary hover:bg-gray-100 rounded-lg font-medium transition duration-300">

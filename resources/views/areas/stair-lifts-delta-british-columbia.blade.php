@@ -17,7 +17,7 @@
                 Expert Stair Lifts in Delta, BC
             </h1>
             <p class="text-xl md:text-2xl mb-8 opacity-90 max-w-3xl mx-auto">
-                Make the move today, and enjoy your home again with one of the best stair lifts in Delta, BC. Home2Stay is your best partner if you're in Delta.
+                Make the move today, and enjoy your home again with one of the best stair lifts in Delta, BC. Home2stay is your best partner if you're in Delta.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="#contact" class="btn-secondary text-lg px-8 py-4">
@@ -172,12 +172,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Delta (North Delta, Tsawwassen, Ladner)</li>
-                                <li>â€¢ Richmond & Surrey</li>
-                                <li>â€¢ Vancouver & Burnaby</li>
-                                <li>â€¢ White Rock & Langley</li>
-                                <li>â€¢ Coquitlam & Port Coquitlam</li>
-                                <li>â€¢ Abbotsford & Mission</li>
+                                <li> Delta (North Delta, Tsawwassen, Ladner)</li>
+                                <li> Richmond & Surrey</li>
+                                <li> Vancouver & Burnaby</li>
+                                <li> White Rock & Langley</li>
+                                <li> Coquitlam & Port Coquitlam</li>
+                                <li> Abbotsford & Mission</li>
                             </ul>
                         </div>
                     </div>

@@ -1054,10 +1054,6 @@
         <div class="container mx-auto px-4">
             <div class="text-center mb-8 md:mb-10">
                 <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Schedule a Service Today</h2>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                    Getting support is quick and easy. Complete this form or contact a Home2stay location 
-                    for availability, additional details, and pricing.
-                </p>
             </div>
 
 
@@ -1081,7 +1077,6 @@
             </div>
         </div>
     </div>
-</div>
 
             
                 <!-- Form Side -->

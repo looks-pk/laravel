@@ -26,13 +26,13 @@
             <div class="max-w-3xl">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Indoor Promenaid Handrail Vancouver – Safe, Stylish Support Inside Every Home</h1>
                 <p class="text-xl text-white/90 mb-8">
-                    Home2Stay helps Vancouver families make the inside of their homes safer without changing the way they look. Our Indoor Promenaid Handrail installations bring the trusted strength of the Promenaid system to your staircases, hallways, bathrooms, and living spaces. Whether you're supporting an aging parent, a family member with mobility challenges, or simply want a safer home for everyone, an Indoor Promenaid Handrail is one of the most effective upgrades you can make.
+                    Home2stay helps Vancouver families make the inside of their homes safer without changing the way they look. Our Indoor Promenaid Handrail installations bring the trusted strength of the Promenaid system to your staircases, hallways, bathrooms, and living spaces. Whether you're supporting an aging parent, a family member with mobility challenges, or simply want a safer home for everyone, an Indoor Promenaid Handrail is one of the most effective upgrades you can make.
                 </p>
                 <p class="text-xl text-white/90 mb-8">
                     Promenaid's interior rail system is designed to blend seamlessly into any home décor. The anodized aluminum profiles are smooth to the touch, available in finishes that complement wood, tile, carpet, and painted walls alike. Unlike bulky grab bars or clinical-looking supports, an Indoor Promenaid Handrail looks like it was always part of your home — clean, modern, and purpose-built for daily use.
                 </p>
                 <p class="text-xl text-white/90 mb-8">
-                    At Home2Stay, our certified team has installed indoor Promenaid handrails in hundreds of Vancouver homes. From a single staircase run to a complete indoor safety plan, we handle every detail — measuring, fitting, and finishing — so your handrail is secure, level, and ready to use from day one.
+                    At Home2stay, our certified team has installed indoor Promenaid handrails in hundreds of Vancouver homes. From a single staircase run to a complete indoor safety plan, we handle every detail — measuring, fitting, and finishing — so your handrail is secure, level, and ready to use from day one.
                 </p>
                 <div class="flex flex-wrap gap-4">
                     <a href="#products"
@@ -164,10 +164,10 @@
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
                         <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Indoor Promenaid Handrail Installation Service:</h2>
                         <p class="text-lg text-gray-600 mb-4">
-                            Home2Stay provides a full indoor handrail service from start to finish. Our team visits your home, assesses each area where support is needed, and installs the Promenaid rail securely into your walls using the correct anchoring hardware for your wall type — drywall, plaster, concrete, or wood stud.
+                            Home2stay provides a full indoor handrail service from start to finish. Our team visits your home, assesses each area where support is needed, and installs the Promenaid rail securely into your walls using the correct anchoring hardware for your wall type — drywall, plaster, concrete, or wood stud.
                         </p>
                         <p class="text-lg text-gray-600 mb-6">
-                            Every indoor Promenaid Handrail installation is done with care for your home's finishes. We patch, paint-match where needed, and leave the site clean. Our installers are experienced with interior environments and understand how to deliver a rail that looks intentional — not an afterthought. Vancouver homeowners trust Home2Stay because we treat your home like our own.
+                            Every indoor Promenaid Handrail installation is done with care for your home's finishes. We patch, paint-match where needed, and leave the site clean. Our installers are experienced with interior environments and understand how to deliver a rail that looks intentional — not an afterthought. Vancouver homeowners trust Home2stay because we treat your home like our own.
                         </p>
                         <p class="mb-5">Give us a call at <b><a href="tel:+16042591211" style="color: red;">(604) 259-1211</a></b> or submit a <b> <a href="#assessment" style="color: red;">FREE ASSESSMENT FORM</a></b> to get started.</p>
                     </div>
@@ -242,9 +242,9 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Home2Stay for Indoor Handrail Installation?</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Home2stay for Indoor Handrail Installation?</h2>
                     <p class="text-lg text-gray-600">
-                        Home2Stay is one of Vancouver's most trusted home safety and mobility companies. Our indoor handrail service is built on respect for your home, honest communication, and reliable workmanship. Here's what sets us apart:
+                        Home2stay is one of Vancouver's most trusted home safety and mobility companies. Our indoor handrail service is built on respect for your home, honest communication, and reliable workmanship. Here's what sets us apart:
                     </p>
                 </div>
 
@@ -296,7 +296,7 @@
                         </ul>
                         <h3 class="text-2xl font-bold text-gray-800 mb-3">Most Falls Happen Inside the Home:</h3>
                         <p class="text-lg text-gray-600 mb-4">
-                            The majority of serious fall injuries happen on interior staircases and in hallways — often in homes that have no handrail, or one that is too low, too thin, or not anchored properly. An Indoor Promenaid Handrail, professionally installed by Home2Stay, gives every person in your household a firm, reliable grip in exactly the places they need it most.
+                            The majority of serious fall injuries happen on interior staircases and in hallways — often in homes that have no handrail, or one that is too low, too thin, or not anchored properly. An Indoor Promenaid Handrail, professionally installed by Home2stay, gives every person in your household a firm, reliable grip in exactly the places they need it most.
                         </p>
                     </div>
                     <!-- Image -->
@@ -368,7 +368,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready to Make the Inside of Your Home Safer?</h2>
-                    <p class="text-gray-600 mb-4">If you're looking for a professional Indoor Promenaid Handrail installation in Vancouver, Home2Stay is ready to help. Our team will assess your home, recommend the right setup, and install everything cleanly and securely.</p>
+                    <p class="text-gray-600 mb-4">If you're looking for a professional Indoor Promenaid Handrail installation in Vancouver, Home2stay is ready to help. Our team will assess your home, recommend the right setup, and install everything cleanly and securely.</p>
                     <p class="text-gray-600">Fill out the form below and we'll be in touch to arrange your free in-home assessment.</p>
                 </div>
 
@@ -551,7 +551,7 @@
         <div class="container mx-auto px-4">
                 <div class="max-w-4xl mx-auto text-center text-white">
                 <h2 class="text-3xl font-bold mb-6">Ready to Install an Indoor Promenaid Handrail in Your Vancouver Home?</h2>
-                <p class="text-xl mb-8">Contact Home2Stay today and let our team design and install an indoor Promenaid Handrail that makes your home safer and more comfortable for everyone who lives there.</p>
+                <p class="text-xl mb-8">Contact Home2stay today and let our team design and install an indoor Promenaid Handrail that makes your home safer and more comfortable for everyone who lives there.</p>
                 <div class="flex flex-wrap justify-center gap-4">
                     <a href="{{ route('contact') }}"
                         class="px-8 py-3 bg-white text-primary hover:bg-gray-100 rounded-lg font-medium transition duration-300">

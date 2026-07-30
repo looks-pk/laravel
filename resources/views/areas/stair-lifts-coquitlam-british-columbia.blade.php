@@ -172,12 +172,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Coquitlam (All Areas)</li>
-                                <li>â€¢ Port Coquitlam & Port Moody</li>
-                                <li>â€¢ Vancouver & Burnaby</li>
-                                <li>â€¢ Surrey & Langley</li>
-                                <li>â€¢ Richmond & Delta</li>
-                                <li>â€¢ Tri-Cities & New Westminster</li>
+                                <li> Coquitlam (All Areas)</li>
+                                <li> Port Coquitlam & Port Moody</li>
+                                <li> Vancouver & Burnaby</li>
+                                <li> Surrey & Langley</li>
+                                <li> Richmond & Delta</li>
+                                <li> Tri-Cities & New Westminster</li>
                             </ul>
                         </div>
                     </div>
@@ -264,7 +264,7 @@
                 Coquitlam is a city that combines urban living with nature. Because it's a mix of new builds, older homes and commercial spaces, accessibility in this area needs to be flexible. We've assisted homeowners and businesses throughout the city to regain control over their lives, installing easy-to-use stair lifts.
             </p>
             <p class="text-gray-600 leading-relaxed">
-                When individuals look for stair lifts in Coquitlam, Home2Stay is the other name of trust.
+                When individuals look for stair lifts in Coquitlam, Home2stay is the other name of trust.
             </p>
         </div>
     </div>

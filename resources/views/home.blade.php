@@ -1070,9 +1070,7 @@
         <div class="absolute inset-0 flex items-center justify-center">
             <div class="p-8 text-center text-white">
                 <div class="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-full bg-white/20">
-                    <svg class="h-10 w-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                    </svg>
+                   
                 </div>
             </div>
         </div>
@@ -1274,16 +1272,8 @@
                             <!-- First slide with 5 partners -->
                             <div class="swiper-slide">
                                 <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 lg:gap-8">
-                                    <div class="group flex items-center justify-center transform hover:scale-110 transition-all duration-500">
-                                        <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-6 h-20 w-full flex items-center justify-center group-hover:bg-gradient-to-br group-hover:from-primary/5 group-hover:to-white shadow-md group-hover:shadow-xl transition-all duration-500">
-                                            <img src="{{ asset('brands/american-tubs-logo-min.png') }}" alt="American Tubs" class="max-h-10 w-auto grayscale group-hover:grayscale-0 filter brightness-90 group-hover:brightness-100 transition-all duration-500">
-                                        </div>
-                                    </div>
-                                    <div class="group flex items-center justify-center transform hover:scale-110 transition-all duration-500">
-                                        <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-6 h-20 w-full flex items-center justify-center group-hover:bg-gradient-to-br group-hover:from-primary/5 group-hover:to-white shadow-md group-hover:shadow-xl transition-all duration-500">
-                                            <img src="{{ asset('brands/arjo-logo-min.png') }}" alt="Arjo" class="max-h-10 w-auto grayscale group-hover:grayscale-0 filter brightness-90 group-hover:brightness-100 transition-all duration-500">
-                                        </div>
-                                    </div>
+                                    
+                                   
                                     <div class="group flex items-center justify-center transform hover:scale-110 transition-all duration-500">
                                         <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-6 h-20 w-full flex items-center justify-center group-hover:bg-gradient-to-br group-hover:from-primary/5 group-hover:to-white shadow-md group-hover:shadow-xl transition-all duration-500">
                                             <img src="{{ asset('brands/best-bath-logo-min.png') }}" alt="Best Bath" class="max-h-10 w-auto grayscale group-hover:grayscale-0 filter brightness-90 group-hover:brightness-100 transition-all duration-500">

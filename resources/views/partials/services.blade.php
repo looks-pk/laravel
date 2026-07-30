@@ -164,7 +164,7 @@
                 <!-- Product Card 3 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/railings.png') }}" alt="Promenaid and Safety Poles"
+                        <img src="{{ asset('/al-prod-page-imgs/prom-inout-1.jpg') }}" alt="Promenaid and Safety Poles"
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">

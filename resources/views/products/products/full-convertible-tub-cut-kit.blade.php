@@ -133,7 +133,7 @@
                     </div>
                     <div class="mb-6 p-4 bg-blue-50 border-l-4 border-blue-400 rounded-r-lg">
                         <p class="text-blue-800 font-medium">
-                            Available for NEXT-DAY delivery and installation via the Home2Stay Express booking form! This product is available for sale with professional installation.
+                            Available for NEXT-DAY delivery and installation via the Home2stay Express booking form! This product is available for sale with professional installation.
                         </p>
                     </div>
 
@@ -381,19 +381,19 @@
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Narrow Insert Dimensions:</span>
-                                                <span class="text-gray-600">L 27Â¾" x W 6Â¼" x H 10â…"</span>
+                                                <span class="text-gray-600">L 27¾" × W 6¼" × H 10⅝"span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Wide Insert Dimensions:</span>
-                                                <span class="text-gray-600">L 27Â¾" x W 7Â½" x H 10Â¾"</span>
+                                                <span class="text-gray-600">L 27¾" × W 7½" × H 10¾"</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Extra Deep Insert Dimensions:</span>
-                                                <span class="text-gray-600">L 33â…" x W 9â…" x H 15Â½"</span>
+                                                <span class="text-gray-600">L 33⅝" × W 9⅝" × H 15½"</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Quick Tub Cap Dimensions:</span>
-                                                <span class="text-gray-600">L 29Â¼" x W varies x H 11Â½"</span>
+                                                <span class="text-gray-600">L 29¼" × W Varies × H 11½"</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Function:</span>
@@ -411,16 +411,16 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Complete convertible system for shower and bathtub functionality</li>
-                                            <li>â€¢ Converting between modes takes only seconds</li>
-                                            <li>â€¢ Enhanced slip and fall protection</li>
-                                            <li>â€¢ 100% North American made quality</li>
-                                            <li>â€¢ Available in 3 sizes: narrow, wide, and extra deep</li>
-                                            <li>â€¢ Lightweight 8lb construction for easy handling</li>
-                                            <li>â€¢ Walk-Thru Insert with precise dimensions</li>
-                                            <li>â€¢ Quick Tub Cap system included</li>
-                                            <li>â€¢ Family-friendly design for complete flexibility</li>
-                                            <li>â€¢ Custom quotes available for specific needs</li>
+                                            <li> Complete convertible system for shower and bathtub functionality</li>
+                                            <li> Converting between modes takes only seconds</li>
+                                            <li> Enhanced slip and fall protection</li>
+                                            <li> 100% North American made quality</li>
+                                            <li> Available in 3 sizes: narrow, wide, and extra deep</li>
+                                            <li> Lightweight 8lb construction for easy handling</li>
+                                            <li> Walk-Thru Insert with precise dimensions</li>
+                                            <li> Quick Tub Cap system included</li>
+                                            <li> Family-friendly design for complete flexibility</li>
+                                            <li> Custom quotes available for specific needs</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -432,17 +432,17 @@
                                             <div>
                                                 <h5 class="font-semibold text-gray-700 mb-2">Walk-Thru Insert Dimensions (outside):</h5>
                                                 <ul class="text-sm text-gray-600 space-y-1">
-                                                    <li><strong>NARROW:</strong> L 27Â¾" x W 6Â¼" x H 10â…"</li>
-                                                    <li><strong>WIDE:</strong> L 27Â¾" x W 7Â½" x H 10Â¾"</li>
-                                                    <li><strong>XTRA DEEP:</strong> L 33â…" x W 9â…" x H 15Â½"</li>
+                                                    <li><strong>NARROW:</strong>L 27¾" × W 6¼" × H 10⅝"</li>
+                                                    <li><strong>WIDE:</strong>L 27¾" × W 7½" × H 10¾"</li>
+                                                    <li><strong>XTRA DEEP:</strong>L 33⅝" × W 9⅝" × H 15½"</li>
                                                 </ul>
                                             </div>
                                             <div>
                                                 <h5 class="font-semibold text-gray-700 mb-2">Quick Tub Cap Dimensions (outside):</h5>
                                                 <ul class="text-sm text-gray-600 space-y-1">
-                                                    <li><strong>NARROW:</strong> L 29Â¼" x W 6Â¾" x H 11Â½"</li>
-                                                    <li><strong>WIDE:</strong> L 29Â¼" x W 8" x H 11Â½"</li>
-                                                    <li><strong>XTRA DEEP:</strong> L 29Â¼" x W 8" x H 11Â½"</li>
+                                                    <li><strong>NARROW:</strong>L 29¼" × W 6¾" × H 11½"</li>
+                                                    <li><strong>WIDE:</strong> L 29¼" × W 8" × H 11½"</li>
+                                                    <li><strong>XTRA DEEP:</strong>L 29¼" × W 8" × H 11½"</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -579,7 +579,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We
                         would love to hear from you!</p>
                 </div>
 

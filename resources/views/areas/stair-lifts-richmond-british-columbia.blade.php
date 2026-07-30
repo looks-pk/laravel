@@ -70,7 +70,7 @@
 <section class="py-16">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
-            Richmond Stair Lifts â€“ Helping You Stay Comfortable at Home
+            Richmond Stair Lifts Helping You Stay Comfortable at Home
         </h2>
         <div class="max-w-4xl mx-auto prose prose-lg">
             <p class="text-lg text-gray-700 leading-relaxed mb-6">
@@ -264,15 +264,15 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Richmond (All Areas)</li>
-                                <li>â€¢ Lower Mainland</li>
-                                <li>â€¢ Vancouver & Surrey</li>
-                                <li>â€¢ Abbotsford & Coquitlam</li>
-                                <li>â€¢ Port Moody & Tri-Cities</li>
-                                <li>â€¢ Mission & Delta</li>
-                                <li>â€¢ Pitt Meadows & Burnaby</li>
-                                <li>â€¢ Chilliwack, White Rock, Aldergrove</li>
-                                <li>â€¢ Maple Ridge & Langley</li>
+                                <li> Richmond (All Areas)</li>
+                                <li> Lower Mainland</li>
+                                <li> Vancouver & Surrey</li>
+                                <li> Abbotsford & Coquitlam</li>
+                                <li> Port Moody & Tri-Cities</li>
+                                <li> Mission & Delta</li>
+                                <li> Pitt Meadows & Burnaby</li>
+                                <li> Chilliwack, White Rock, Aldergrove</li>
+                                <li> Maple Ridge & Langley</li>
                             </ul>
                         </div>
                     </div>

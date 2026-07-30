@@ -246,7 +246,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Height Adjustable</h3>
-                                            <p class="text-gray-600">Height adjustable from 93-99â€³ with other height options available for custom needs.</p>
+                                            <p class="text-gray-600">Height adjustable from 93-99" with other height options available for custom needs.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -369,21 +369,21 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Rail Diameter:</span>
-                                                <span class="text-gray-600">1.50â€³ / 38.1mm</span>
+                                                <span class="text-gray-600">1.50" / 38.1mm</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Height Adjustable:</span>
-                                                <span class="text-gray-600">93-99â€³ / 2362-2515mm</span>
+                                                <span class="text-gray-600">93-99" / 2362-2515mm</span>
                                             </div>
                                         </div>
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Rail Length:</span>
-                                                <span class="text-gray-600">28â€³ / 711mm and 32â€³ / 813mm</span>
+                                                <span class="text-gray-600">28" / 711mm and 32" / 813mm</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Wall Plate:</span>
-                                                <span class="text-gray-600">5.5Ã—9â€³ / 140x229mm</span>
+                                                <span class="text-gray-600">5.5—9" / 140x229mm</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Commercial Use:</span>
@@ -409,16 +409,16 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Dependable vertical and horizontal support for sit-to-stand transitions</li>
-                                            <li>â€¢ Award-winning ergonomic safety design with multiple hand positions</li>
-                                            <li>â€¢ Innovative "Pivot & Lock" technology for improved versatility</li>
-                                            <li>â€¢ Floor-mounted design for easy installation wherever needed</li>
-                                            <li>â€¢ Anti-microbial powder coat white finish</li>
-                                            <li>â€¢ Height adjustable from 93-99â€³ with other options available</li>
-                                            <li>â€¢ Available in 28â€³ and 32â€³ rail lengths</li>
-                                            <li>â€¢ Suitable for both commercial and residential use</li>
-                                            <li>â€¢ Water and rust resistant construction</li>
-                                            <li>â€¢ Made in Canada with quality craftsmanship</li>
+                                            <li> Dependable vertical and horizontal support for sit-to-stand transitions</li>
+                                            <li> Award-winning ergonomic safety design with multiple hand positions</li>
+                                            <li> Innovative "Pivot & Lock" technology for improved versatility</li>
+                                            <li> Floor-mounted design for easy installation wherever needed</li>
+                                            <li> Anti-microbial powder coat white finish</li>
+                                            <li> Height adjustable from 93-99â€³ with other options available</li>
+                                            <li> Available in 28â€³ and 32â€³ rail lengths</li>
+                                            <li> Suitable for both commercial and residential use</li>
+                                            <li> Water and rust resistant construction</li>
+                                            <li> Made in Canada with quality craftsmanship</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -553,7 +553,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We
                         would love to hear from you!</p>
                 </div>
 

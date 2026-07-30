@@ -204,7 +204,7 @@
                                         </ul>
                                     </div>
                                     <div class="space-y-3">
-                                        <h3 class="text-xl font-semibold text-gray-800">Home2Stay Promise:</h3>
+                                        <h3 class="text-xl font-semibold text-gray-800">Home2tay Promise:</h3>
                                         <p>We believe in enhancing the quality of life at home. The Bruno Elan Stairlift delivers everyday convenience and lasting performance, so you can enjoy full access to every part of your home with confidence and comfort.</p>
                                     </div>
                                 </div>
@@ -314,13 +314,13 @@
                                             <li>Simple, smooth armrest controls plus wireless remotes</li>
                                             <li>Space-saving rail installs within inches of the wall</li>
                                             <li>Foldable seat, armrests, and footrest keep stairs clear</li>
-                                            <li>Retractable seat belt, obstruction sensors, and 90Â° swivel seat</li>
+                                            <li>Retractable seat belt, obstruction sensors, and 90° swivel seat</li>
                                             <li>Dual 12-volt batteries maintain operation during outages</li>
-                                            <li>Seat pad ~15.75â€³ Ã— 16.75â€³ for everyday comfort</li>
-                                            <li>Footrest ~10.5â€³ Ã— 11â€³ for stable boarding</li>
+                                            <li>Seat pad ~15.75" — 16.75" for everyday comfort</li>
+                                            <li>Footrest ~10.5" — 11" for stable boarding</li>
                                             <li>Supports riders up to 300 lbs (136 kg)</li>
                                             <li>ptional power swivel seat, folding rail, and power folding footrest</li>
-                                            <li>Home2Stay promise of lasting performance and peace of mind</li>
+                                            <li>Home2stay promise of lasting performance and peace of mind</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -597,7 +597,7 @@
                     <div class="mb-6">
                         <h4 class="text-lg font-semibold mb-4 text-primary">Product Information</h4>
                         <div class="p-3 bg-gray-50 rounded-lg mb-4">
-                            <p>You're requesting a quote for: <span class="font-semibold text-primary">Home2Stay Bruno Elan Straight Stairlift</span></p>
+                            <p>You're requesting a quote for: <span class="font-semibold text-primary">Home2stay Bruno Elan Straight Stairlift</span></p>
                         </div>
                     </div>
 

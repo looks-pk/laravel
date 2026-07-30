@@ -106,7 +106,7 @@
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Make every doorway uncomplicated with Home2Stay Metal Threshold Ramps engineered for smooth transitions over thresholds, steps, and uneven surfaces. Whether it's a doorway inside the home or an exterior entrance, our ramps provide a safe and reliable path for both mobility devices and pedestrian traffic.
+                            Make every doorway uncomplicated with Home2stay Metal Threshold Ramps engineered for smooth transitions over thresholds, steps, and uneven surfaces. Whether it's a doorway inside the home or an exterior entrance, our ramps provide a safe and reliable path for both mobility devices and pedestrian traffic.
                         </p>
                     </div>
                     <div class="mb-6">
@@ -123,7 +123,7 @@
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Perfect for renters, homeowners, and anyone looking for a practical accessibility solution without construction. Home2Stay Metal Threshold Ramps combine thoughtful design with reliable performance, helping you create an inclusive environment.
+                            Perfect for renters, homeowners, and anyone looking for a practical accessibility solution without construction. Home2stay Metal Threshold Ramps combine thoughtful design with reliable performance, helping you create an inclusive environment.
                         </p>
                     </div>
                     <div class="mb-6 p-4 bg-green-50 border-l-4 border-green-400 rounded-r-lg">

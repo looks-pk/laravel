@@ -416,7 +416,7 @@
                 <div class="flex items-start">
                     <span class="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-1">1</span>
                     <div>
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">Stannah 260" Commercial (Indoor):</h3>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Stannah 260 Commercial (Indoor):</h3>
                         <p class="text-gray-600">A top choice for curved indoor staircases in public settings.</p>
                     </div>
                 </div>
@@ -474,7 +474,7 @@
             </div>
             
             <p class="text-gray-600 text-center">
-                No matter the shape or size of your staircase, Home2Stay has a lift that fits perfectly.
+                No matter the shape or size of your staircase, Home2stay has a lift that fits perfectly.
             </p>
         </div>
     </div>

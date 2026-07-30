@@ -29,7 +29,7 @@
                     Any human being should have access to their home that is safe and easy. Travelling in and out of your house must never be a scary, risky, or difficult thing to do. That is the reason we install quality Modular Ramps in Vancouver that enable seniors, persons with wheelchairs, and limited mobility to remain independent and have confidence. Our ramps are designed to be used in the long run, to be installed easily, and to be used on a daily basis, regardless of the weather or the structure of your house.
                 </p>
                 <p class="text-xl text-white/90 mb-8">
-                    Home2Stay has been able to assist hundreds of families and businesses in building safer, barrier-free areas. You may want a small ramp on your front steps or a whole system with a platform and rail- you dictate this kind of system based on your lifestyle, safety requirements, and budget. Our team is courteous, sincere, and respectable, and we ensure that you get taken care of from the initial phone call to the last installation. Many families prefer Modular Ramps in Vancouver because of their long-term reliability.
+                    Home2stay has been able to assist hundreds of families and businesses in building safer, barrier-free areas. You may want a small ramp on your front steps or a whole system with a platform and rail- you dictate this kind of system based on your lifestyle, safety requirements, and budget. Our team is courteous, sincere, and respectable, and we ensure that you get taken care of from the initial phone call to the last installation. Many families prefer Modular Ramps in Vancouver because of their long-term reliability.
                 </p>
                 <div class="flex flex-wrap gap-4">
                     <a href="#products"
@@ -121,7 +121,7 @@
                 <div class="text-center mb-12">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Professional Wheelchair Ramp Installation Vancouver Service:</h2>
                     <p class="text-lg text-gray-600">
-                        Home2Stay offers complete Wheelchair Ramp Installation Vancouver services, from assessment to final setup. We follow every safety guideline and building requirement to make sure your ramp is safe, smooth, and comfortable.
+                        Home2stay offers complete Wheelchair Ramp Installation Vancouver services, from assessment to final setup. We follow every safety guideline and building requirement to make sure your ramp is safe, smooth, and comfortable.
                     </p>
                 </div>
 
@@ -157,7 +157,7 @@
 
                     <div class="bg-gray-50 p-8 rounded-lg">
                         <h3 class="text-2xl font-bold text-gray-800 mb-4">Step 4: Final Safety Check and User Guidance</h3>
-                        <p class="text-gray-600">We take you through each section of your ramp to ensure you get to know how to operate and maintain it easily. Safety is not an add-on feature at Home2Stay; it is the basic building block.</p>
+                        <p class="text-gray-600">We take you through each section of your ramp to ensure you get to know how to operate and maintain it easily. Safety is not an add-on feature at Home2stay; it is the basic building block.</p>
                     </div>
                 </div>
             </div>
@@ -256,9 +256,9 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Home2Stay?</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Home2stay?</h2>
                     <p class="text-lg text-gray-600">
-                        Home2Stay is trusted by families across Vancouver because we care about real people, not just projects. We take the time to know your needs and design a solution that truly helps you live more easily and safer. People searching for Modular Ramps in Vancouver rely on our quality and expertise.
+                        Home2stay is trusted by families across Vancouver because we care about real people, not just projects. We take the time to know your needs and design a solution that truly helps you live more easily and safer. People searching for Modular Ramps in Vancouver rely on our quality and expertise.
                     </p>
                 </div>
 
@@ -328,7 +328,7 @@
                             <li>• Safety features added</li>
                         </ul>
                         <p class="text-lg text-gray-600">
-                            Home2Stay provides fair, honest, and transparent pricing. After your assessment, we give you a clear quote with no hidden charges.
+                            Home2stay provides fair, honest, and transparent pricing. After your assessment, we give you a clear quote with no hidden charges.
                         </p>
                     </div>
                     <!-- Image -->
@@ -399,9 +399,9 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready for Safer Access? Contact Home2Stay Today</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready for Safer Access? Contact Home2stay Today</h2>
                     <p class="text-gray-600 mb-4">If you or your loved one struggles with steps, balance, or mobility, a modular ramp can make daily life easier and safer. We offer free home assessments to help you find the best ramp for your space.</p>
-                    <p class="text-gray-600">Call Home2Stay today and let us help you build a safer, more accessible home with Modular Ramps in Vancouver or professional Wheelchair Ramp Installation Vancouver services.</p>
+                    <p class="text-gray-600">Call Home2stay today and let us help you build a safer, more accessible home with Modular Ramps in Vancouver or professional Wheelchair Ramp Installation Vancouver services.</p>
                 </div>
 
                 <form action="/submit-assessment" method="POST">
@@ -568,7 +568,7 @@
                     <div class="bg-white rounded-lg shadow-md p-6">
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Is a home assessment free?</h3>
                         <p class="text-gray-600">
-                            Yes, Home2Stay offers free assessments to help you choose the right ramp.
+                            Yes, Home2stay offers free assessments to help you choose the right ramp.
                         </p>
                     </div>
                 </div>

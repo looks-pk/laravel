@@ -107,7 +107,7 @@
                     <div class="mb-6">
                         <h2 class="text-2xl font-bold text-gray-800 mb-3">Experience Effortless Mobility with Custom-Made Curved Stairlifts</h2>
                         <p class="text-gray-600 text-lg">
-                            You shouldn't have to lose access to different parts of your house if you are limited in mobility. Installed by Home2Stay, the Flow X Curved Stairlift comes with your comfort, safety, and independence. This innovative mobility stairlift is designed for multi-level or curved staircases.
+                            You shouldn't have to lose access to different parts of your house if you are limited in mobility. Installed by Home2stay, the Flow X Curved Stairlift comes with your comfort, safety, and independence. This innovative mobility stairlift is designed for multi-level or curved staircases.
                         </p>
                     </div>
                     <div class="mb-6">
@@ -447,36 +447,36 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Key Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Custom rail design for every curve and twist</li>
-                                            <li>â€¢ Handles complex angles and steep landings</li>
-                                            <li>â€¢ Compact design ideal for tight spaces</li>
-                                            <li>â€¢ Folding seat and footrest minimize obstruction</li>
-                                            <li>â€¢ Energy-efficient motor for quiet operation</li>
-                                            <li>â€¢ No jerks or vibrations during movement</li>
-                                            <li>â€¢ Modern upholstery colors and finishes</li>
-                                            <li>â€¢ Premium materials complement any decor</li>
-                                            <li>â€¢ Integrated safety sensors detect obstacles</li>
-                                            <li>â€¢ Ergonomic seatbelt for security</li>
-                                            <li>â€¢ Automatic swivel technology for easy entry/exit</li>
-                                            <li>â€¢ Low energy consumption for cost efficiency</li>
+                                            <li> Custom rail design for every curve and twist</li>
+                                            <li> Handles complex angles and steep landings</li>
+                                            <li> Compact design ideal for tight spaces</li>
+                                            <li> Folding seat and footrest minimize obstruction</li>
+                                            <li> Energy-efficient motor for quiet operation</li>
+                                            <li> No jerks or vibrations during movement</li>
+                                            <li> Modern upholstery colors and finishes</li>
+                                            <li> Premium materials complement any decor</li>
+                                            <li> Integrated safety sensors detect obstacles</li>
+                                            <li> Ergonomic seatbelt for security</li>
+                                            <li> Automatic swivel technology for easy entry/exit</li>
+                                            <li> Low energy consumption for cost efficiency</li>
                                         </ul>
                                     </div>
                                 </div>
 
                                 <div class="mb-6">
-                                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Professional Installation by Home2Stay</h4>
+                                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Professional Installation by Home2stay</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Factory-trained and fully certified installers</li>
-                                            <li>â€¢ Compliance with manufacturer standards</li>
-                                            <li>â€¢ Meets Canadian accessibility codes</li>
-                                            <li>â€¢ Fast on-site assessment and measurement</li>
-                                            <li>â€¢ Custom rail fabrication for your staircase</li>
-                                            <li>â€¢ Typical installation completed in half a day</li>
-                                            <li>â€¢ Comprehensive warranty (parts and labor)</li>
-                                            <li>â€¢ Ongoing maintenance services available</li>
-                                            <li>â€¢ Quick repair services when needed</li>
-                                            <li>â€¢ Annual safety inspections recommended</li>
+                                            <li> Factory-trained and fully certified installers</li>
+                                            <li> Compliance with manufacturer standards</li>
+                                            <li> Meets Canadian accessibility codes</li>
+                                            <li> Fast on-site assessment and measurement</li>
+                                            <li> Custom rail fabrication for your staircase</li>
+                                            <li> Typical installation completed in half a day</li>
+                                            <li> Comprehensive warranty (parts and labor)</li>
+                                            <li> Ongoing maintenance services available</li>
+                                            <li> Quick repair services when needed</li>
+                                            <li> Annual safety inspections recommended</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -512,11 +512,11 @@
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                     <div class="bg-gray-50 rounded-lg p-6">
-                        <h3 class="text-xl font-bold text-gray-800 mb-4">Professional Installation by Home2Stay</h3>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Professional Installation by Home2stay</h3>
                         <div class="space-y-3 text-gray-600">
                             <p><strong>Certified Technicians:</strong> Our installers are factory-trained and fully certified to handle Flow X Curved Stairlift installation in Vancouver. Each step follows manufacturer standards and Canadian accessibility codes.</p>
                             <p><strong>Fast On-Site Assessment:</strong> We provide quick, professional on-site measurement to ensure a smooth and aesthetic installation.</p>
-                            <p><strong>Warranty and After-Service Support:</strong> Every Flow X stairlift installed by Home2Stay is backed by a comprehensive warranty covering both parts and labor. We also provide ongoing maintenance, safety inspections, and quick repair services.</p>
+                            <p><strong>Warranty and After-Service Support:</strong> Every Flow X stairlift installed by Home2stay is backed by a comprehensive warranty covering both parts and labor. We also provide ongoing maintenance, safety inspections, and quick repair services.</p>
                         </div>
                     </div>
                     
@@ -574,8 +574,8 @@
                             <p class="text-gray-600">Yes! The Flow X is engineered for narrow spaces and steep turns. Its folding seat stairlift and swivel design maximize comfort while minimizing space usage.</p>
                         </div>
                         <div>
-                            <h4 class="font-semibold text-gray-800 mb-2">Is there a warranty on Flow X stairlifts installed by Home2Stay?</h4>
-                            <p class="text-gray-600">Yes. Every installation includes a comprehensive manufacturer warranty plus Home2Stay's service coverage, ensuring parts, labor, and after-care support for long-term peace of mind.</p>
+                            <h4 class="font-semibold text-gray-800 mb-2">Is there a warranty on Flow X stairlifts installed by Home2stay?</h4>
+                            <p class="text-gray-600">Yes. Every installation includes a comprehensive manufacturer warranty plus Home2stay's service coverage, ensuring parts, labor, and after-care support for long-term peace of mind.</p>
                         </div>
                         <div>
                             <h4 class="font-semibold text-gray-800 mb-2">What maintenance does a curved stairlift require?</h4>
@@ -712,7 +712,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We
                         would love to hear from you!</p>
                 </div>
 

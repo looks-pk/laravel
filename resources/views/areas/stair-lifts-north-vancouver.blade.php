@@ -172,12 +172,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ North Vancouver (All Areas)</li>
-                                <li>â€¢ West Vancouver</li>
-                                <li>â€¢ Vancouver</li>
-                                <li>â€¢ Burnaby & Coquitlam</li>
-                                <li>â€¢ Richmond & Delta</li>
-                                <li>â€¢ Surrey & Langley</li>
+                                <li> North Vancouver (All Areas)</li>
+                                <li> West Vancouver</li>
+                                <li> Vancouver</li>
+                                <li> Burnaby & Coquitlam</li>
+                                <li> Richmond & Delta</li>
+                                <li> Surrey & Langley</li>
                             </ul>
                         </div>
                     </div>

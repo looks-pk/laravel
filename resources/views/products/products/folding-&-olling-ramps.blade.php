@@ -106,7 +106,7 @@
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            The Home2Stay Folding & Rolling Ramps are the perfect balance of convenience, durability, and safety for everyday accessibility. Whether you're navigating steps at home, boarding transportation, or creating easier access to any raised surface, these ramps answer the call with unmatched flexibility and dependability. Built to support independence, our ramps empower users to move with confidence and freedom, every day.
+                            The Home2stay Folding & Rolling Ramps are the perfect balance of convenience, durability, and safety for everyday accessibility. Whether you're navigating steps at home, boarding transportation, or creating easier access to any raised surface, these ramps answer the call with unmatched flexibility and dependability. Built to support independence, our ramps empower users to move with confidence and freedom, every day.
                         </p>
                     </div>
                     <div class="mb-6">
@@ -391,7 +391,7 @@
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
                         <h2 class="text-3xl font-bold text-gray-800 mb-4">Bring Accessibility Home</h2>
-                        <p class="text-lg text-gray-600 mb-6" >Give yourself or your loved ones the confidence of mobility with Home2Stay's Folding & Rolling Ramp, where thoughtful design meets everyday convenience. Order now and feel the freedom of easy access, wherever life leads.</p>
+                        <p class="text-lg text-gray-600 mb-6" >Give yourself or your loved ones the confidence of mobility with Home2stay's Folding & Rolling Ramp, where thoughtful design meets everyday convenience. Order now and feel the freedom of easy access, wherever life leads.</p>
                         <p class="mb-5">Give us a call at <a href="tel:+16042591211" class="text-secondary" style="font-weight: bold; color: red;">604-259-1211</a>
                             or submit a FREE <a href="#assessment" class="text-secondary" style="font-weight: bold; color: red;">ASSESSMENT FORM</a> to order.</p>
                     </div>

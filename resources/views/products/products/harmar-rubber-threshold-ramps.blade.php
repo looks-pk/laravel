@@ -106,12 +106,12 @@
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Make every doorway accessible with the Home2Stay Harmar Rubber Threshold Ramps, the best services for a smooth transition over thresholds, steps, and restraints. Designed with both indoor and outdoor use in mind, these ramps ensure reliable, safe access for wheelchairs, scooters, walkers, and other mobility devices without the need for tools or complicated installation.
+                            Make every doorway accessible with the Home2stay Harmar Rubber Threshold Ramps, the best services for a smooth transition over thresholds, steps, and restraints. Designed with both indoor and outdoor use in mind, these ramps ensure reliable, safe access for wheelchairs, scooters, walkers, and other mobility devices without the need for tools or complicated installation.
                         </p>
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg font-semibold">
-                            Why Choose Home2Stay Rubber Threshold Ramps?
+                            Why Choose Home2stay Rubber Threshold Ramps?
                         </p>
                         <ul class="text-gray-600 text-lg list-disc list-inside space-y-2">
                             <li><strong>Safe & Slip-Resistant:</strong> Built from durable non-slip rubber that delivers traction under any weather condition, reducing the risk of slips or falls.</li>
@@ -433,7 +433,7 @@
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
                         <h2 class="text-3xl font-bold text-gray-800 mb-4">Make Every Threshold a Step Forward</h2>
-                        <p class="text-lg text-gray-600 mb-6" >With Home2Stay Harmar Rubber Threshold Ramps, stepping into your home or helping someone else has never been easier or safer.</p>
+                        <p class="text-lg text-gray-600 mb-6" >With Home2stay Harmar Rubber Threshold Ramps, stepping into your home or helping someone else has never been easier or safer.</p>
                         <p class="mb-5">Give us a call at <a href="tel:+16042591211" class="text-secondary" style="font-weight: bold; color: red;">604-259-1211</a>
                             or submit a FREE <a href="#assessment" class="text-secondary" style="font-weight: bold; color: red;">ASSESSMENT FORM</a> to check.</p>
                     </div>

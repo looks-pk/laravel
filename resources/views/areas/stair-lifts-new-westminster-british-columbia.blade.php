@@ -172,12 +172,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ New Westminster (All Areas)</li>
-                                <li>â€¢ Burnaby & Coquitlam</li>
-                                <li>â€¢ Vancouver & Richmond</li>
-                                <li>â€¢ Surrey & Delta</li>
-                                <li>â€¢ Port Coquitlam & Port Moody</li>
-                                <li>â€¢ Tri-Cities & Mission</li>
+                                <li> New Westminster (All Areas)</li>
+                                <li> Burnaby & Coquitlam</li>
+                                <li> Vancouver & Richmond</li>
+                                <li> Surrey & Delta</li>
+                                <li> Port Coquitlam & Port Moody</li>
+                                <li> Tri-Cities & Mission</li>
                             </ul>
                         </div>
                     </div>

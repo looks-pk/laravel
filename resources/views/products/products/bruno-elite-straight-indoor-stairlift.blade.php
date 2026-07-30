@@ -105,7 +105,7 @@
                 <!-- Product Info -->
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6 space-y-4 text-gray-700 leading-relaxed">
-                        <p>Home2Stay Presents: Bruno Elite Straight Indoor Stairlift</p>
+                        <p>Home2stay Presents: Bruno Elite Straight Indoor Stairlift</p>
                         <p>The Bruno Elite Straight Indoor Stairlift sets the gold standard for residential stairlifts, blending exceptional performance, superior comfort, and sleek design that integrates flawlessly with your home. Crafted for users who refuse to compromise on quality, the Elite model delivers a smooth, reliable ride every time.</p>
                         <div class="space-y-3">
                             <h3 class="text-xl font-semibold text-gray-800">Why Choose the Bruno Elite Straight Indoor Stairlift?</h3>
@@ -120,7 +120,7 @@
                     </div>
                     <div class="mb-6 p-4 bg-blue-50 border-l-4 border-blue-400 rounded-r-lg">
                         <p class="text-blue-800 font-medium">
-                            Transform your home with effortless stair mobility. Contact Home2Stay for a free consultation and quote, and take the first step toward total comfort.
+                            Transform your home with effortless stair mobility. Contact Home2stay for a free consultation and quote, and take the first step toward total comfort.
                         </p>
                     </div>
 
@@ -226,7 +226,7 @@
 
                                     <div class="space-y-3">
                                         <h3 class="text-xl font-semibold text-gray-800">Get Started Today!</h3>
-                                        <p>Whether you are helping an aging parent maintain independence or searching greater accessibility for yourself, the Elite delivers premium comfort with industry-leading engineering. Transform your home with effortless stair mobility. Contact Home2Stay for a free consultation and quote, and take the first step toward total comfort.</p>
+                                        <p>Whether you are helping an aging parent maintain independence or searching greater accessibility for yourself, the Elite delivers premium comfort with industry-leading engineering. Transform your home with effortless stair mobility. Contact Home2stay for a free consultation and quote, and take the first step toward total comfort.</p>
                                     </div>
                                 </div>
                             </div>
@@ -249,7 +249,7 @@
 
                                     <div class="p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
                                         <p class="text-yellow-800 font-medium">
-                                            Experience the Bruno Elite Straight Indoor Stairlift premium comfort, quiet performance, and Home2Stay guidance at every step.
+                                            Experience the Bruno Elite Straight Indoor Stairlift premium comfort, quiet performance, and Home2stay guidance at every step.
                                         </p>
                                     </div>
                                 </div>
@@ -340,8 +340,8 @@
                                             <li> Built-in obstruction sensors and retractable seat belt protection</li>
                                             <li> Flip-up seat, arms, and footrest preserve staircase space</li>
                                             <li> Power swivel seat and folding footrest upgrades available</li>
-                                            <li> Custom upholstery options help the stairlift blend with dÃ©cor</li>
-                                            <li> Backed by Home2Stay installation guidance and ongoing support</li>
+                                            <li> Custom upholstery options help the stairlift blend with decor</li>
+                                            <li> Backed by Home2stay installation guidance and ongoing support</li>
                                         </ul>
                                     </div>
                                 </div>

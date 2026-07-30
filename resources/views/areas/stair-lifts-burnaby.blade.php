@@ -17,7 +17,7 @@
                 Best Stair Lifts Burnaby
             </h1>
             <p class="text-xl md:text-2xl mb-8 opacity-90 max-w-3xl mx-auto">
-                Call Home2Stay experts for installing a stair lift in Burnaby. We're available 24/7 for your assistance in Burnaby.
+                Call Home2stay experts for installing a stair lift in Burnaby. We're available 24/7 for your assistance in Burnaby.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="#contact" class="btn-secondary text-lg px-8 py-4">

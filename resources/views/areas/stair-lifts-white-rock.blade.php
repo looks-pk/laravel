@@ -416,7 +416,7 @@
                 <div class="flex items-start">
                     <span class="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-1">1</span>
                     <div>
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">Stannah 260 â€“ Commercial (Indoor):</h3>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Stannah 260" Commercial (Indoor):</h3>
                         <p class="text-gray-600">A top choice for curved indoor staircases in public settings.</p>
                     </div>
                 </div>
@@ -424,7 +424,7 @@
                 <div class="flex items-start">
                     <span class="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-1">2</span>
                     <div>
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">K2 Plus â€“ Commercial:</h3>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">K2 Plus Commercial:</h3>
                         <p class="text-gray-600">Built tough for high-traffic areas and commercial durability.</p>
                     </div>
                 </div>
@@ -432,7 +432,7 @@
                 <div class="flex items-start">
                     <span class="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold mr-4 mt-1">3</span>
                     <div>
-                        <h3 class="text-lg font-bold text-gray-900 mb-2">Stairfriend â€“ Commercial:</h3>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Stairfriend Commercial:</h3>
                         <p class="text-gray-600">Custom-made for complex or uniquely shaped stairs, including multiple levels or landings.</p>
                     </div>
                 </div>

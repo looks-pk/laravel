@@ -1067,15 +1067,7 @@
                     <img src="{{ asset('/al-prod-page-imgs/5165-Best-Bath-Trench-Drain-Pan-11-02-2015b-1-1024x682-2.jpeg') }}" alt="Home Accessibility Service"
                         class="w-full h-full object-cover">
                    <!-- <div class="absolute inset-0 bg-gradient-to-r from-primary/70 to-primary/40"></div> -->
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <div class="text-center text-white p-8">
-                            <div class="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                                <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                </svg>
-                            </div>
-                            <h3 class="text-3xl font-bold mb-4">Professional Installation</h3>
-                            <p class="text-lg opacity-90">Expert technicians with decades of experience</p>
+                    <div class="absolute inset-0 flex items-center justify-center">  
                         </div>
                     </div>
                 </div>
@@ -1224,7 +1216,6 @@
                         </svg>
                     </div>
                     <h4 class="text-xl font-bold text-gray-900 mb-2">Call Us Today</h4>
-                    <p class="text-gray-600 mb-4">Speak with our accessibility experts</p>
                     <a href="tel:604-259-1211" class="text-primary hover:text-primary-dark font-bold text-lg transition-colors">604-259-1211</a>
                 </div>
 
@@ -1236,7 +1227,6 @@
                         </svg>
                     </div>
                     <h4 class="text-xl font-bold text-gray-900 mb-2">Email Us</h4>
-                    <p class="text-gray-600 mb-4">Get detailed information via email</p>
                     <a href="mailto:info@home2stay.com" class="text-primary hover:text-primary-dark font-bold text-lg transition-colors">info@home2stay.com</a>
                 </div>
 
@@ -1249,7 +1239,6 @@
                         </svg>
                     </div>
                     <h4 class="text-xl font-bold text-gray-900 mb-2">Visit Our Showroom</h4>
-                    <p class="text-gray-600 mb-4">See our products in person</p>
                     <a href="/contact" class="text-primary hover:text-primary-dark font-bold text-lg transition-colors">Find Locations</a>
                 </div>
             </div>

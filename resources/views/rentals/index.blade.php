@@ -443,7 +443,7 @@
             <div class="intro-content bg-white rounded-2xl shadow-xl p-8 md:p-12 border-t-4 border-primary">
                 <div class="prose prose-lg max-w-none">
                     <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
-                        At <strong class="text-primary">Home2Stay</strong>, we understand that mobility challenges shouldn't limit your independence or comfort at home. Our extensive range of rental equipment is designed to provide safe, reliable accessibility solutions tailored to your unique needs.
+                        At <strong class="text-primary">Home2stay</strong>, we understand that mobility challenges shouldn't limit your independence or comfort at home. Our extensive range of rental equipment is designed to provide safe, reliable accessibility solutions tailored to your unique needs.
                     </p>
                     
                     <div class="grid md:grid-cols-2 gap-6 my-8">
@@ -477,7 +477,7 @@
                     </div>
                     
                     <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                        With <strong>flexible rental terms</strong> and <strong>transparent pricing</strong> that includes setup fees, removal fees, and monthly rental rates, Home2Stay makes accessibility affordable and stress-free.
+                        With <strong>flexible rental terms</strong> and <strong>transparent pricing</strong> that includes setup fees, removal fees, and monthly rental rates, Home2stay makes accessibility affordable and stress-free.
                     </p>
                     
                     <div class="cta-box bg-gradient-to-r from-primary to-primary-dark text-white p-8 rounded-xl text-center shadow-lg">

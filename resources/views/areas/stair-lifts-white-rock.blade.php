@@ -47,7 +47,7 @@
                 </h2>
                 <div class="prose prose-lg max-w-none">
                     <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                        If you're living in White Rock and looking for a simple, safe way to move between floors, Home2Stay experts are here for your assistance. We bring you professional, affordable, and quick services with our trusted Stairlifts in White Rock.
+                        If you're living in White Rock and looking for a simple, safe way to move between floors, Home2stay experts are here for your assistance. We bring you professional, affordable, and quick services with our trusted Stairlifts in White Rock.
                     </p>
                     <p class="text-gray-600 leading-relaxed mb-6">
                         Whether you're a homeowner, a caregiver, or managing a business property, we have stairlift options designed just for you. We believe accessibility should never be out of reach. That's why our services are priced fairly, installed professionally, and built to last.
@@ -172,12 +172,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ White Rock (All Areas)</li>
-                                <li>â€¢ Surrey & South Surrey</li>
-                                <li>â€¢ Vancouver & Richmond</li>
-                                <li>â€¢ Langley & Aldergrove</li>
-                                <li>â€¢ Delta & Tsawwassen</li>
-                                <li>â€¢ Burnaby & New Westminster</li>
+                                <li> White Rock (All Areas)</li>
+                                <li> Surrey & South Surrey</li>
+                                <li> Vancouver & Richmond</li>
+                                <li> Langley & Aldergrove</li>
+                                <li> Delta & Tsawwassen</li>
+                                <li> Burnaby & New Westminster</li>
                             </ul>
                         </div>
                     </div>
@@ -267,7 +267,7 @@
                 That's where we come in. Our stairlift services are made for this community and its needs.
             </p>
             <p class="text-gray-600 leading-relaxed">
-                Many families in White Rock are making smart moves by installing stairlifts. And when you work with Home2Stay, you're not just getting a stairlift, you're getting peace of mind.
+                Many families in White Rock are making smart moves by installing stairlifts. And when you work with Home2stay, you're not just getting a stairlift, you're getting peace of mind.
             </p>
         </div>
     </div>
@@ -281,7 +281,7 @@
         </h2>
         <div class="max-w-4xl mx-auto mb-12">
             <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">
-                You're not alone. Many families in White Rock are making smart moves by installing stairlifts. And when you work with Home2Stay, you're not just getting a stairlift, you're getting peace of mind. We're an expert in high-quality Stairlifts in White Rock, offering comfort, reliability, and modern design, all at competitive prices. From start to finish, we handle everything for you. No stress. No hassle. Just a stairlift that fits your life.
+                You're not alone. Many families in White Rock are making smart moves by installing stairlifts. And when you work with Home2stay, you're not just getting a stairlift, you're getting peace of mind. We're an expert in high-quality Stairlifts in White Rock, offering comfort, reliability, and modern design, all at competitive prices. From start to finish, we handle everything for you. No stress. No hassle. Just a stairlift that fits your life.
             </p>
         </div>
     </div>

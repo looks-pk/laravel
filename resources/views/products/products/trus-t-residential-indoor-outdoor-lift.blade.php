@@ -424,7 +424,7 @@
                                             <li> Zero-load start design for optimal motor performance</li>
                                             <li> 750 lbs lifting capacity accommodates wheelchairs</li>
                                             <li> Travel speed of 8 feet per minute</li>
-                                            <li> Maximum platform size: 42â€³ L x 60â€³ W (18 square feet)</li>
+                                            <li> Maximum platform size: 42" L x 60" W (18 square feet)</li>
                                             <li> Three-tier emergency power options available</li>
                                             <li> 50% more energy efficient than comparable products</li>
                                             <li> Customizable colors, trims, doors, gates, handles, and rails</li>

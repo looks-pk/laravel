@@ -1060,18 +1060,30 @@
                 </p>
             </div>
 
-            <!-- Side by Side Layout -->
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 ">
-                <!-- Image Side -->
-              <div class="relative rounded-2xl overflow-hidden shadow-xl h-[400px] lg:h-full">
-                    <img src="{{ asset('/al-prod-page-imgs/5165-Best-Bath-Trench-Drain-Pan-11-02-2015b-1-1024x682-2.jpeg') }}" alt="Home Accessibility Service"
-                        class="w-full h-full object-cover">
-                   <!-- <div class="absolute inset-0 bg-gradient-to-r from-primary/70 to-primary/40"></div> -->
-                    <div class="absolute inset-0 flex items-center justify-center">  
-                        </div>
-                    </div>
-                </div>
 
+            <!-- Side by Side Layout -->
+<div class="grid grid-cols-1 gap-12 lg:grid-cols-2">
+    <!-- Image Side -->
+    <div class="relative h-[400px] overflow-hidden rounded-2xl shadow-xl lg:h-full">
+        <img src="{{ asset('/al-prod-page-imgs/5165-Best-Bath-Trench-Drain-Pan-11-02-2015b-1-1024x682-2.jpeg') }}" 
+             alt="Home Accessibility Service"
+             class="h-full w-full object-cover">
+        
+        <!-- <div class="absolute inset-0 bg-gradient-to-r from-primary/70 to-primary/40"></div> -->
+        
+        <div class="absolute inset-0 flex items-center justify-center">
+            <div class="p-8 text-center text-white">
+                <div class="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-full bg-white/20">
+                    <svg class="h-10 w-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
                 <!-- Form Side -->
                 <div class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
                     <!-- Form Header -->

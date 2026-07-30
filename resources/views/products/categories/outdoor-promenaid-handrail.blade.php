@@ -26,13 +26,13 @@
             <div class="max-w-3xl">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Outdoor Promenaid Handrail Vancouver – Built for Safety in Any Weather</h1>
                 <p class="text-xl text-white/90 mb-8">
-                    Home2Stay helps Vancouver homeowners make the outside of their homes safer without compromising on looks. Our Outdoor Promenaid Handrail installations bring the trusted strength of the Promenaid system to your front steps, deck, porch, ramp, and pathways — delivering a firm, reliable grip in the wet, cold, and uneven conditions that Vancouver's climate demands. If someone in your household struggles with outdoor steps or slippery surfaces, an Outdoor Promenaid Handrail is one of the most impactful safety upgrades you can make.
+                    Home2stay helps Vancouver homeowners make the outside of their homes safer without compromising on looks. Our Outdoor Promenaid Handrail installations bring the trusted strength of the Promenaid system to your front steps, deck, porch, ramp, and pathways — delivering a firm, reliable grip in the wet, cold, and uneven conditions that Vancouver's climate demands. If someone in your household struggles with outdoor steps or slippery surfaces, an Outdoor Promenaid Handrail is one of the most impactful safety upgrades you can make.
                 </p>
                 <p class="text-xl text-white/90 mb-8">
                     Promenaid's exterior rail is built from anodized aluminum that resists rust, UV fading, and corrosion — year after year, through rain, frost, and summer heat. Unlike painted steel or wood rails that deteriorate outdoors over time, the Outdoor Promenaid Handrail holds its finish and structural integrity without regular maintenance. It's available in finishes that complement any home exterior, from heritage to modern — so your safety upgrade also improves your curb appeal.
                 </p>
                 <p class="text-xl text-white/90 mb-8">
-                    Home2Stay's certified installation team handles every step — from assessing your outdoor surfaces and anchoring conditions to fitting the rail precisely and testing it to BC building code standards. We've helped hundreds of Vancouver families make their outdoor spaces safer, and we bring that experience to every job we take on.
+                    Home2stay's certified installation team handles every step — from assessing your outdoor surfaces and anchoring conditions to fitting the rail precisely and testing it to BC building code standards. We've helped hundreds of Vancouver families make their outdoor spaces safer, and we bring that experience to every job we take on.
                 </p>
                 <div class="flex flex-wrap gap-4">
                     <a href="#products"
@@ -164,7 +164,7 @@
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
                         <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Outdoor Promenaid Handrail Installation Service:</h2>
                         <p class="text-lg text-gray-600 mb-4">
-                            Installing an outdoor handrail requires more than just mounting a rail — the anchoring must hold against load, weather movement, and years of outdoor use. Home2Stay assesses your specific outdoor surface, selects the correct bracket type and fasteners for concrete, wood, or masonry, and installs the Promenaid rail to meet BC building code requirements for exterior handrails.
+                            Installing an outdoor handrail requires more than just mounting a rail — the anchoring must hold against load, weather movement, and years of outdoor use. Home2stay assesses your specific outdoor surface, selects the correct bracket type and fasteners for concrete, wood, or masonry, and installs the Promenaid rail to meet BC building code requirements for exterior handrails.
                         </p>
                         <p class="text-lg text-gray-600 mb-6">
                             We work efficiently and leave your outdoor space clean and ready to use. Every installation includes a load test on each bracket and a final alignment check before we sign off. Vancouver homeowners choose Home2Stay for outdoor Promenaid Handrail installation because we get the anchoring right — and it shows in how the rail performs over time.
@@ -242,9 +242,9 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Home2Stay for Outdoor Handrail Installation?</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Home2stay for Outdoor Handrail Installation?</h2>
                     <p class="text-lg text-gray-600">
-                        Home2Stay is one of Vancouver's most trusted home safety companies. Our outdoor handrail service is built on solid workmanship, honest communication, and a genuine understanding of what it takes to install a handrail that holds up outdoors. Here's what sets us apart:
+                        Home2stay is one of Vancouver's most trusted home safety companies. Our outdoor handrail service is built on solid workmanship, honest communication, and a genuine understanding of what it takes to install a handrail that holds up outdoors. Here's what sets us apart:
                     </p>
                 </div>
 
@@ -271,7 +271,7 @@
 
                     <div class="bg-gray-50 p-6 rounded-lg">
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Trusted by Hundreds of Vancouver Homeowners</h3>
-                        <p class="text-gray-600">Home2Stay has built a strong reputation across Vancouver for outdoor safety installations that hold up and look great. Our clients come back to us — and refer their neighbours — because the work speaks for itself.</p>
+                        <p class="text-gray-600">Home2stay has built a strong reputation across Vancouver for outdoor safety installations that hold up and look great. Our clients come back to us — and refer their neighbours — because the work speaks for itself.</p>
                     </div>
                 </div>
             </div>
@@ -296,7 +296,7 @@
                         </ul>
                         <h3 class="text-2xl font-bold text-gray-800 mb-3">Outdoor Falls Are Preventable:</h3>
                         <p class="text-lg text-gray-600 mb-4">
-                            Wet steps, moss-covered concrete, and frosty decks are among the most common causes of serious falls in Canadian homes. A properly installed Outdoor Promenaid Handrail — anchored firmly and positioned at the correct height — gives every person in your household a reliable support at exactly the points where outdoor falls are most likely to happen. Home2Stay makes that installation straightforward and stress-free.
+                            Wet steps, moss-covered concrete, and frosty decks are among the most common causes of serious falls in Canadian homes. A properly installed Outdoor Promenaid Handrail — anchored firmly and positioned at the correct height — gives every person in your household a reliable support at exactly the points where outdoor falls are most likely to happen. Home2stay makes that installation straightforward and stress-free.
                         </p>
                     </div>
                     <!-- Image -->
@@ -368,7 +368,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready to Make the Outside of Your Home Safer?</h2>
-                    <p class="text-gray-600 mb-4">If you need a professionally installed Outdoor Promenaid Handrail in Vancouver, Home2Stay is ready to help. We'll assess your outdoor space, recommend the right setup for your surfaces and budget, and install everything to last.</p>
+                    <p class="text-gray-600 mb-4">If you need a professionally installed Outdoor Promenaid Handrail in Vancouver, Home2stay is ready to help. We'll assess your outdoor space, recommend the right setup for your surfaces and budget, and install everything to last.</p>
                     <p class="text-gray-600">Fill out the form below and our team will be in touch to arrange your free outdoor assessment.</p>
                 </div>
 
@@ -551,7 +551,7 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto text-center text-white">
                 <h2 class="text-3xl font-bold mb-6">Ready to Install an Outdoor Promenaid Handrail at Your Vancouver Home?</h2>
-                <p class="text-xl mb-8">Contact Home2Stay today and let our team design and install an Outdoor Promenaid Handrail that stands up to Vancouver's weather and keeps your family safe every time they step outside.</p>
+                <p class="text-xl mb-8">Contact Home2stay today and let our team design and install an Outdoor Promenaid Handrail that stands up to Vancouver's weather and keeps your family safe every time they step outside.</p>
                 <div class="flex flex-wrap justify-center gap-4">
                     <a href="{{ route('contact') }}"
                         class="px-8 py-3 bg-white text-primary hover:bg-gray-100 rounded-lg font-medium transition duration-300">

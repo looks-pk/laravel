@@ -47,10 +47,10 @@
                 </h2>
                 <div class="prose prose-lg max-w-none">
                     <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                        If going up and down your stairs has become a struggle, you're not alone. Many homeowners in Vancouver are now choosing stair lifts to make their homes safer and more comfortable. Call now to book a free in-home consultation anywhere in Vancouver â€“ with no pressure and no obligation, just honest help. Regain your confidence, stay independent, and enjoy your home without limits.
+                        If going up and down your stairs has become a struggle, you're not alone. Many homeowners in Vancouver are now choosing stair lifts to make their homes safer and more comfortable. Call now to book a free in-home consultation anywhere in Vancouver with no pressure and no obligation, just honest help. Regain your confidence, stay independent, and enjoy your home without limits.
                     </p>
                     <p class="text-gray-600 leading-relaxed mb-6">
-                        If you're an injured, elderly person or just fatigued, stairs can be challenging for you at that time. However, you don't need to worry; Home2Stay is always here to assist you. A professionally installed stair lift lets you glide smoothly between floors without any hesitation. It's a fast, affordable way to make your home better for you, so you can stay in the place you love.
+                        If you're an injured, elderly person or just fatigued, stairs can be challenging for you at that time. However, you don't need to worry; Home2stay is always here to assist you. A professionally installed stair lift lets you glide smoothly between floors without any hesitation. It's a fast, affordable way to make your home better for you, so you can stay in the place you love.
                     </p>
                 </div>
             </div>
@@ -70,7 +70,7 @@
 <section class="py-16">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
-            Vancouver Stair Lifts â€“ Installed by Local Pros Who Care
+            Vancouver Stair Lifts Installed by Local Pros Who Care
         </h2>
         <div class="max-w-4xl mx-auto prose prose-lg">
             <p class="text-lg text-gray-700 leading-relaxed mb-6">
@@ -93,7 +93,7 @@
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
-            Stair Lifts in Vancouver, BC â€“ Options for Every Staircase
+            Stair Lifts in Vancouver, BC Options for Every Staircase
         </h2>
         <div class="max-w-4xl mx-auto prose prose-lg">
             <p class="text-lg text-gray-700 leading-relaxed mb-6">
@@ -272,14 +272,14 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Vancouver (All Areas)</li>
-                                <li>â€¢ Lower Mainland</li>
-                                <li>â€¢ Surrey & Abbotsford</li>
-                                <li>â€¢ Richmond & Coquitlam</li>
-                                <li>â€¢ Port Moody & Tri-Cities</li>
-                                <li>â€¢ Mission & Delta</li>
-                                <li>â€¢ Burnaby & Chilliwack</li>
-                                <li>â€¢ White Rock & Langley</li>
+                                <li> Vancouver (All Areas)</li>
+                                <li> Lower Mainland</li>
+                                <li> Surrey & Abbotsford</li>
+                                <li> Richmond & Coquitlam</li>
+                                <li> Port Moody & Tri-Cities</li>
+                                <li> Mission & Delta</li>
+                                <li> Burnaby & Chilliwack</li>
+                                <li> White Rock & Langley</li>
                             </ul>
                         </div>
                     </div>
@@ -684,11 +684,11 @@
 <section class="py-16">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 section-title mb-8 text-center">
-            Stair Lift Dealers in Vancouver, BC â€“ What to Expect
+            Stair Lift Dealers in Vancouver, BC What to Expect
         </h2>
         <div class="max-w-4xl mx-auto prose prose-lg mb-12">
             <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">
-                Choosing the right stair lift dealer matters. You're not just buying equipmentâ€”you're choosing service, support, and peace of mind. That's why our Vancouver stair lift team focuses on long-term care, not one-time sales.
+                Choosing the right stair lift dealer matters. You're not just buying equipment, you're choosing service, support, and peace of mind. That's why our Vancouver stair lift team focuses on long-term care, not one-time sales.
             </p>
             <p class="text-gray-600 leading-relaxed mb-6 text-center">
                 We've worked in hundreds of homes across the Lower Mainland. We know how to spot the best fit quickly and explain it in a way that makes sense.

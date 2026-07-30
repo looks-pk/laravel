@@ -172,12 +172,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Port Coquitlam (All Areas)</li>
-                                <li>â€¢ Coquitlam & Port Moody</li>
-                                <li>â€¢ Vancouver & Burnaby</li>
-                                <li>â€¢ Surrey & Langley</li>
-                                <li>â€¢ Richmond & Delta</li>
-                                <li>â€¢ Tri-Cities & New Westminster</li>
+                                <li> Port Coquitlam (All Areas)</li>
+                                <li> Coquitlam & Port Moody</li>
+                                <li> Vancouver & Burnaby</li>
+                                <li> Surrey & Langley</li>
+                                <li> Richmond & Delta</li>
+                                <li> Tri-Cities & New Westminster</li>
                             </ul>
                         </div>
                     </div>
@@ -539,7 +539,7 @@
                  </button>
                  <div class="faq-answer">
                      <div class="faq-answer-content">
-                         A basic straight stair lift starts around $3,000â€“$5,000. Curved models are custom and may cost more, depending on your staircase.
+                         A basic straight stair lift starts around $3,000 - $5,000. Curved models are custom and may cost more, depending on your staircase.
                      </div>
                  </div>
              </div>

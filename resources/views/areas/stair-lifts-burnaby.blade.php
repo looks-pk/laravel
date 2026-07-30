@@ -200,12 +200,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Burnaby (All Areas)</li>
-                                <li>â€¢ Vancouver & New Westminster</li>
-                                <li>â€¢ Coquitlam & Port Moody</li>
-                                <li>â€¢ Richmond & Surrey</li>
-                                <li>â€¢ North Vancouver & West Vancouver</li>
-                                <li>â€¢ Tri-Cities & Langley</li>
+                                <li> Burnaby (All Areas)</li>
+                                <li> Vancouver & New Westminster</li>
+                                <li> Coquitlam & Port Moody</li>
+                                <li> Richmond & Surrey</li>
+                                <li> North Vancouver & West Vancouver</li>
+                                <li> Tri-Cities & Langley</li>
                             </ul>
                         </div>
                     </div>

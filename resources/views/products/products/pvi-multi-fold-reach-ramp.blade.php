@@ -106,7 +106,7 @@
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Make accessibility effortless with the Home2Stay PVI Multi-Fold Reach Ramp, a premium quality, lightweight aluminium ramp designed to provide safe and reliable access for wheelchairs, scooters, and mobility devices. Built for everyday use, this ramp combines strength, portability, and intelligent engineering to deliver superior performance both at home and on the go.
+                            Make accessibility effortless with the Home2stay PVI Multi-Fold Reach Ramp, a premium quality, lightweight aluminium ramp designed to provide safe and reliable access for wheelchairs, scooters, and mobility devices. Built for everyday use, this ramp combines strength, portability, and intelligent engineering to deliver superior performance both at home and on the go.
                         </p>
                     </div>
                     <div class="mb-6">
@@ -242,7 +242,7 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Tested at 3Ã— Safety Factor</h3>
+                                            <h3 class="font-semibold text-gray-800">Tested at 3× Safety Factor</h3>
                                             <p class="text-gray-600">Reliable performance and safety tested at 3x safety factor for confidence you can trust. Easy setup for everyday use without tools or expertise.</p>
                                         </div>
                                     </div>
@@ -407,7 +407,7 @@
                 <div class="flex flex-col lg:flex-row">
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Yours Today at Home2Stay!</h2>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Yours Today at Home2stay!</h2>
                         <p class="text-lg text-gray-600 mb-6" >Bring freedom of movement back into daily life with a ramp engineered for safety, convenience, and long-lasting use. Explore sizes, accessories, and expert support at Home2stay.</p>
                         <p class="mb-5">Give us a call at <a href="tel:+16042591211" class="text-secondary" style="font-weight: bold; color: red;">604-259-1211</a>
                             or submit a FREE <a href="#assessment" class="text-secondary" style="font-weight: bold; color: red;">ASSESSMENT FORM</a> to check.</p>

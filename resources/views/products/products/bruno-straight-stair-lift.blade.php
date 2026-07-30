@@ -106,7 +106,7 @@
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6 space-y-4 text-gray-700 leading-relaxed">
                         <p>
-                            Bring effortless independence to every level of your home. The Bruno Straight Stair Lift from Home2Stay provides smooth, reliable mobility for straight staircases, indoors or outdoors. Built with Bruno's legendary expertise and supported by trusted local installation, this stair lift is engineered to make daily stair navigation safe, comfortable, and relaxed.
+                            Bring effortless independence to every level of your home. The Bruno Straight Stair Lift from Home2stay provides smooth, reliable mobility for straight staircases, indoors or outdoors. Built with Bruno's legendary expertise and supported by trusted local installation, this stair lift is engineered to make daily stair navigation safe, comfortable, and relaxed.
                         </p>
                     </div>
                     <div class="mb-6 p-4 bg-green-50 border-l-4 border-green-400 rounded-r-lg">
@@ -202,7 +202,7 @@
                                     </div>
                                     <p>Perfect for multi-turn staircases or homes with limited straight space, this stair lift brings effortless mobility to every level of your home.</p>
                                     <div class="space-y-3">
-                                        <h3 class="text-xl font-semibold text-gray-800">Why Choose Bruno Stair Lifts Through Home2Stay?</h3>
+                                        <h3 class="text-xl font-semibold text-gray-800">Why Choose Bruno Stair Lifts Through Home2stay?</h3>
                                         <p>Bruno stair lifts are known for their long lasting quality, smooth performance, and high customer satisfaction worldwide. With years of trusted engineering backed by industry leading warranties and local professional installation, you are choosing more than a product; you are choosing freedom in your home.</p>
                                     </div>
                                 </div>

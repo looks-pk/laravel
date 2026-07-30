@@ -121,7 +121,7 @@
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Available in 1 width, and two color options: white and beige. Available for NEXT-DAY delivery and installation via the Home2Stay Express booking form!
+                            Available in 1 width, and two color options: white and beige. Available for NEXT-DAY delivery and installation via the Home2stay Express booking form!
                         </p>
                     </div>
                     <div class="mb-6 p-4 bg-green-50 border-l-4 border-green-400 rounded-r-lg">
@@ -294,7 +294,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Next-Day Express Delivery</h3>
-                                            <p class="text-gray-600">Available for next-day delivery and installation via the Home2Stay Express booking form.</p>
+                                            <p class="text-gray-600">Available for next-day delivery and installation via the Home2stay Express booking form.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -334,7 +334,7 @@
 
                                     <div class="p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
                                         <p class="text-yellow-800 font-medium">
-                                            Available for NEXT-DAY delivery and installation via the Home2Stay Express booking form! Configure as traditional tub or step-in shower.
+                                            Available for NEXT-DAY delivery and installation via the Home2stay Express booking form! Configure as traditional tub or step-in shower.
                                         </p>
                                     </div>
                                 </div>
@@ -430,17 +430,17 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Dual configuration: traditional tub or step-in shower</li>
-                                            <li>â€¢ Waterproof removable plug center for easy transition</li>
-                                            <li>â€¢ Non-skid step pad to reduce slips and falls</li>
-                                            <li>â€¢ Quick installation in 2-4 hours</li>
-                                            <li>â€¢ Compatible with acrylic, fiberglass, steel, and cast iron tubs</li>
-                                            <li>â€¢ Available in 1 standard width</li>
-                                            <li>â€¢ Two color options: white and beige</li>
-                                            <li>â€¢ Quick lock and unlock system</li>
-                                            <li>â€¢ Flexibility to meet changing needs</li>
-                                            <li>â€¢ Installation completed on existing tub</li>
-                                            <li>â€¢ Next-day delivery and installation available</li>
+                                            <li> Dual configuration: traditional tub or step-in shower</li>
+                                            <li> Waterproof removable plug center for easy transition</li>
+                                            <li> Non-skid step pad to reduce slips and falls</li>
+                                            <li> Quick installation in 2-4 hours</li>
+                                            <li> Compatible with acrylic, fiberglass, steel, and cast iron tubs</li>
+                                            <li> Available in 1 standard width</li>
+                                            <li> Two color options: white and beige</li>
+                                            <li> Quick lock and unlock system</li>
+                                            <li> Flexibility to meet changing needs</li>
+                                            <li> Installation completed on existing tub</li>
+                                            <li> Next-day delivery and installation available</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -449,14 +449,14 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Installation Details</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Configure as traditional tub</li>
-                                            <li>â€¢ Or configure as step-in tub</li>
-                                            <li>â€¢ Removable unit locks and unlocks quickly</li>
-                                            <li>â€¢ Flexibility to meet your changing needs</li>
-                                            <li>â€¢ Installed in 2-4 hours</li>
-                                            <li>â€¢ Installation completed on existing tub</li>
-                                            <li>â€¢ Professional installation by CleanCut specialists</li>
-                                            <li>â€¢ Water test after 48 hours included</li>
+                                            <li> Configure as traditional tub</li>
+                                            <li> Or configure as step-in tub</li>
+                                            <li> Removable unit locks and unlocks quickly</li>
+                                            <li> Flexibility to meet your changing needs</li>
+                                            <li> Installed in 2-4 hours</li>
+                                            <li> Installation completed on existing tub</li>
+                                            <li> Professional installation by CleanCut specialists</li>
+                                            <li> Water test after 48 hours included</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -591,7 +591,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need. We
                         would love to hear from you!</p>
                 </div>
 

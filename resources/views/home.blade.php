@@ -785,7 +785,12 @@
                         @csrf
                         <input type="hidden" name="form_type" value="contact">
                         <input type="hidden" name="form_source" value="home_page_contact">
-                        
+
+                        <!-- Honeypot Field (Hidden from real users, tricks bots) -->
+        <div style="display:none !important; visibility:hidden;">
+            <input type="text" name="website_url_hp" id="website_url_hp" tabindex="-1" autocomplete="off">
+        </div>
+
                         <div class="mb-4">
                             <label for="contact_name" class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
                             <input type="text" id="contact_name" name="name" required
@@ -801,6 +806,12 @@
                             <textarea id="contact_message" name="message" rows="3" required
                                 class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"></textarea>
                         </div>
+
+                <!-- 2. Cloudflare Turnstile Widget -->
+    <div class="mb-4">
+        <div class="cf-turnstile" data-sitekey="{{ env('TURNSTILE_SITE_KEY') }}"></div>
+    </div>
+                        
                         <button type="submit" class="w-full btn-primary py-2 px-4 rounded-md">Send
                             Message</button>
                     </form>
@@ -2175,6 +2186,11 @@
 @push('scripts')
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
+
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             // Initialize Hero Slider

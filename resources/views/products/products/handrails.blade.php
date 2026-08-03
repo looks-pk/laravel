@@ -299,50 +299,43 @@
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Product Type:</span>
-                                                <span class="text-gray-600">Tub Cut Ultra-Low</span>
+                                                <span class="text-gray-600">Safety Handrails</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Installation Type:</span>
-                                                <span class="text-gray-600">Existing tub installation</span>
+                                                <span class="text-gray-600">Wall-mounted installation</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Installation Time:</span>
-                                                <span class="text-gray-600">Less than one day</span>
+                                                <span class="font-medium text-gray-700">Material:</span>
+                                                <span class="text-gray-600">Heavy-duty steel or aluminum (model dependent)</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Step Surface:</span>
-                                                <span class="text-gray-600">Non-skid step pad</span>
+                                                <span class="font-medium text-gray-700">Finish Options:</span>
+                                                <span class="text-gray-600">Powder-coated or brushed finish</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Width Options:</span>
-                                                <span class="text-gray-600">1 width available</span>
+                                                <span class="font-medium text-gray-700">Available Lengths:</span>
+                                                <span class="text-gray-600">Multiple sizes available</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Color Options:</span>
-                                                <span class="text-gray-600">White and Beige</span>
+                                                <span class="font-medium text-gray-700">Grip Design:</span>
+                                                <span class="text-gray-600">Smooth, ergonomic grip surface</span>
                                             </div>
                                         </div>
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Tub Compatibility:</span>
-                                                <span class="text-gray-600">High-profile tubs (14.75" + tall)</span>
+                                                <span class="font-medium text-gray-700">Indoor/Outdoor Use:</span>
+                                                <span class="text-gray-600">Suitable for both indoor and outdoor applications</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Function:</span>
-                                                <span class="text-gray-600">Step-in shower access</span>
+                                                <span class="font-medium text-gray-700">Weight Capacity:</span>
+                                                <span class="text-gray-600">Engineered for dependable everyday support</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Safety Benefit:</span>
-                                                <span class="text-gray-600">Greatly reduces fall possibility</span>
+                                                <span class="font-medium text-gray-700">Mounting Surface:</span>
+                                                <span class="text-gray-600">Wood studs, concrete, brick, or other structurally sound surfaces</span>
                                             </div>
-                                            <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Access Type:</span>
-                                                <span class="text-gray-600">Easy step-in access</span>
-                                            </div>
-                                            <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Affordability:</span>
-                                                <span class="text-gray-600">Most affordable product</span>
-                                            </div>
+                                           
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Supplier:</span>
                                                 <span class="text-gray-600">CleanCut</span>
@@ -355,17 +348,17 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li> Step-in shower conversion for high-profile tubs</li>
-                                            <li> Ultra-low design ideal for tubs at least 14.75" tall</li>
-                                            <li> Non-skid step pad to reduce slips and falls</li>
-                                            <li> Quick installation in less than one day</li>
-                                            <li> Compatible with acrylic, fiberglass, steel, and cast iron tubs</li>
+                                            <li> Provides dependable support and stability on stairs, ramps, and walkways</li>
+                                            <li> Heavy-duty construction for long-lasting durability</li>
+                                            <li> Comfortable ergonomic grip for confident everyday use</li>
+                                            <li> Suitable for both residential and commercial environments</li>
+                                            <li> Available in multiple lengths and finish options</li>
                                             <li> Available in 1 width</li>
-                                            <li> Two color options: white and beige</li>
-                                            <li> Greatly reduces possibility of falls</li>
-                                            <li> Enables easy step-in access</li>
-                                            <li> Our most affordable tub cut solution</li>
-                                            <li> Next-day delivery and installation available</li>
+                                            <li> Corrosion-resistant finish for indoor and outdoor installation</li>
+                                            <li> Modern design complements a wide range of architectural styles</li>
+                                            <li> Secure wall-mounted installation with professional mounting hardware</li>
+                                            <li> Helps improve accessibility and reduce the risk of slips and falls</li>
+                                            <li> Professionally supplied and installed by Home2Stay</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -374,13 +367,13 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Installation Details</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li> Installation completed on existing tub</li>
-                                            <li> Installed in less than one day</li>
-                                            <li> Greatly reduces the possibility of falls</li>
-                                            <li> Enables easy step-in access</li>
-                                            <li> Our most affordable product</li>
-                                            <li> Professional installation by CleanCut specialists</li>
-                                            <li> Ideal for high-profile tubs (14.75" + tall)</li>
+                                            <li> Professionally installed by experienced Home2Stay technicians</li>
+                                            <li> Securely mounted to structurally sound wall surfaces</li>
+                                            <li> Suitable for drywall (with stud mounting), concrete, brick, and masonry walls</li>
+                                            <li> Custom placement to provide optimal support and accessibility</li>
+                                            <li> Available for both indoor and outdoor installations</li>
+                                            <li> Installation completed efficiently with minimal disruption</li>
+                                            <li> Hardware selected based on the installation surface for maximum strength</li>
                                         </ul>
                                     </div>
                                 </div>

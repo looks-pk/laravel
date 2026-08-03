@@ -4,7 +4,7 @@
 @section('meta_description', 'Home2Stay Outdoor Stairlifts deliver weather-ready comfort, safety, and independence for every outdoor staircase.')
 
 @section('content')
-    <!-- Hero Section -->
+    <!-- Hero Section 
     <section class="relative pt-16 pb-12 md:pt-24 md:pb-16 bg-gradient-to-r from-primary to-primary-dark text-white">
         <div class="container mx-auto px-4">
             <div class="flex flex-col items-start">
@@ -81,7 +81,7 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Product Details -->
     <section class="py-12 md:py-16 bg-white">

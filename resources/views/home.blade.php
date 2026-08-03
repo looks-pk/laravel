@@ -1355,92 +1355,76 @@
         </div>
     </section>
 
-    <!-- Beautiful Image Slider -->
-    <section class="py-8 sm:py-12 md:py-16 bg-gradient-to-br from-white via-gray-50 to-white relative overflow-hidden">
-        <!-- Elegant background pattern -->
-        <div class="absolute inset-0 pointer-events-none opacity-20">
-            <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-                <pattern id="image-pattern" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
-                    <circle cx="30" cy="30" r="1.5" fill="currentColor" class="text-primary"></circle>
-                </pattern>
-                <rect x="0" y="0" width="100%" height="100%" fill="url(#image-pattern)"></rect>
-            </svg>
-        </div>
 
-        <div class="container mx-auto px-4 relative z-10">
-            <!-- Clean Slider Container -->
-            <div class="max-w-7xl mx-auto relative group">
-                <!-- Subtle decorative elements -->
-                <div class="absolute -top-8 -left-8 w-32 h-32 bg-gradient-to-br from-primary/5 to-transparent rounded-full blur-2xl"></div>
-                <div class="absolute -bottom-8 -right-8 w-32 h-32 bg-gradient-to-br from-secondary/5 to-transparent rounded-full blur-2xl"></div>
+<!-- Beautiful Image Slider -->
+<section class="py-8 sm:py-12 md:py-16 bg-gradient-to-br from-white via-gray-50 to-white relative overflow-hidden">
+    <!-- Elegant background pattern -->
+    <div class="absolute inset-0 pointer-events-none opacity-20">
+        <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+            <pattern id="image-pattern" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+                <circle cx="30" cy="30" r="1.5" fill="currentColor" class="text-primary"></circle>
+            </pattern>
+            <rect x="0" y="0" width="100%" height="100%" fill="url(#image-pattern)"></rect>
+        </svg>
+    </div>
 
-                <!-- Enhanced Swiper Container -->
-                <div class="swiper-container what-we-do-slider overflow-hidden rounded-3xl shadow-2xl border border-gray-100">
-                    <div class="swiper-wrapper">
-                        <!-- Slide 1 - Home Accessibility -->
-                        <div class="swiper-slide">
-                            <div class="relative overflow-hidden transition-all duration-700 h-64 md:h-96 lg:h-[500px] group">
-                                <img src="{{ asset('h-slider/carousel-img-1-min.png') }}" alt="Home Accessibility Solutions"
-                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 filter brightness-95 group-hover:brightness-100">
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
-                            </div>
-                        </div>
-                        
-                        <!-- Slide 2 - Bathroom Modifications -->
-                        <div class="swiper-slide">
-                            <div class="relative overflow-hidden transition-all duration-700 h-64 md:h-96 lg:h-[500px] group">
-                                <img src="{{ asset('h-slider/Carousel-item-4-min.jpg') }}" alt="Bathroom Safety Solutions"
-                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 filter brightness-95 group-hover:brightness-100">
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
-                            </div>
-                        </div>
-                        
-                        <!-- Slide 3 - Mobility Solutions -->
-                        <div class="swiper-slide">
-                            <div class="relative overflow-hidden transition-all duration-700 h-64 md:h-96 lg:h-[500px] group">
-                                <img src="{{ asset('h-slider/Carousel-item-3-min.jpg') }}" alt="Mobility Independence"
-                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 filter brightness-95 group-hover:brightness-100">
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
-                            </div>
-                        </div>
-                        
-                        <!-- Slide 4 - Professional Assessment -->
-                        <div class="swiper-slide">
-                            <div class="relative overflow-hidden transition-all duration-700 h-64 md:h-96 lg:h-[500px] group">
-                                <img src="{{ asset('h-slider/Carousel-item-2-min.jpg') }}" alt="Professional Assessment"
-                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 filter brightness-95 group-hover:brightness-100">
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
-                            </div>
-                        </div>
-                        
-                        <!-- Slide 5 - Custom Design -->
-                        <div class="swiper-slide">
-                            <div class="relative overflow-hidden transition-all duration-700 h-64 md:h-96 lg:h-[500px] group">
-                                <img src="{{ asset('h-slider/Carousel-item-5-min.jpg') }}" alt="Custom Design Solutions"
-                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 filter brightness-95 group-hover:brightness-100">
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
-                            </div>
+    <div class="container mx-auto px-4 relative z-10">
+        <!-- Clean Slider Container -->
+        <div class="max-w-7xl mx-auto relative group">
+            <!-- Subtle decorative elements -->
+            <div class="absolute -top-8 -left-8 w-32 h-32 bg-gradient-to-br from-primary/5 to-transparent rounded-full blur-2xl"></div>
+            <div class="absolute -bottom-8 -right-8 w-32 h-32 bg-gradient-to-br from-secondary/5 to-transparent rounded-full blur-2xl"></div>
+
+            <!-- Enhanced Swiper Container -->
+            <div class="swiper-container what-we-do-slider overflow-hidden rounded-3xl shadow-2xl border border-gray-100">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 - Home Accessibility -->
+                    <div class="swiper-slide">
+                        <div class="relative overflow-hidden transition-all duration-700 h-48 md:h-64 lg:h-80 group">
+                            <img src="{{ asset('h-slider/carousel-img-1-min.png') }}" alt="Home Accessibility Solutions"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 filter brightness-95 group-hover:brightness-100">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
                         </div>
                     </div>
-
-                    <!-- Elegant Navigation -->
-                    <div class="swiper-button-next absolute right-6 top-1/2 transform -translate-y-1/2 z-20 bg-white/90 backdrop-blur-sm hover:bg-white text-gray-700 hover:text-primary rounded-full w-14 h-14 flex items-center justify-center shadow-xl hover:shadow-2xl cursor-pointer transition-all duration-300 opacity-0 group-hover:opacity-100">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                        </svg>
+                    
+                    <!-- Slide 2 - Bathroom Modifications -->
+                    <div class="swiper-slide">
+                        <div class="relative overflow-hidden transition-all duration-700 h-48 md:h-64 lg:h-80 group">
+                            <img src="{{ asset('h-slider/Carousel-item-4-min.jpg') }}" alt="Bathroom Safety Solutions"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 filter brightness-95 group-hover:brightness-100">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
+                        </div>
                     </div>
-                    <div class="swiper-button-prev absolute left-6 top-1/2 transform -translate-y-1/2 z-20 bg-white/90 backdrop-blur-sm hover:bg-white text-gray-700 hover:text-primary rounded-full w-14 h-14 flex items-center justify-center shadow-xl hover:shadow-2xl cursor-pointer transition-all duration-300 opacity-0 group-hover:opacity-100">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-                        </svg>
+                    
+                    <!-- Slide 3 - Mobility Solutions -->
+                    <div class="swiper-slide">
+                        <div class="relative overflow-hidden transition-all duration-700 h-48 md:h-64 lg:h-80 group">
+                            <img src="{{ asset('h-slider/Carousel-item-3-min.jpg') }}" alt="Mobility Independence"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 filter brightness-95 group-hover:brightness-100">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
+                        </div>
                     </div>
-
-                    <!-- Minimalist Pagination -->
-                    <div class="swiper-pagination bottom-6 absolute z-20"></div>
                 </div>
+
+                <!-- Elegant Navigation -->
+                <div class="swiper-button-next absolute right-6 top-1/2 transform -translate-y-1/2 z-20 bg-white/90 backdrop-blur-sm hover:bg-white text-gray-700 hover:text-primary rounded-full w-12 h-12 flex items-center justify-center shadow-xl hover:shadow-2xl cursor-pointer transition-all duration-300 opacity-0 group-hover:opacity-100">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </div>
+                <div class="swiper-button-prev absolute left-6 top-1/2 transform -translate-y-1/2 z-20 bg-white/90 backdrop-blur-sm hover:bg-white text-gray-700 hover:text-primary rounded-full w-12 h-12 flex items-center justify-center shadow-xl hover:shadow-2xl cursor-pointer transition-all duration-300 opacity-0 group-hover:opacity-100">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                    </svg>
+                </div>
+
+                <!-- Minimalist Pagination -->
+                <div class="swiper-pagination bottom-4 absolute z-20"></div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <!-- Service Features Section -->
    <section class="py-8 md:py-12 lg:py-16 bg-white">

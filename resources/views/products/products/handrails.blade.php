@@ -358,7 +358,7 @@
                                             <li> Modern design complements a wide range of architectural styles</li>
                                             <li> Secure wall-mounted installation with professional mounting hardware</li>
                                             <li> Helps improve accessibility and reduce the risk of slips and falls</li>
-                                            <li> Professionally supplied and installed by Home2Stay</li>
+                                            <li> Professionally supplied and installed by Home2stay</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -367,7 +367,7 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Installation Details</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li> Professionally installed by experienced Home2Stay technicians</li>
+                                            <li> Professionally installed by experienced Home2stay technicians</li>
                                             <li> Securely mounted to structurally sound wall surfaces</li>
                                             <li> Suitable for drywall (with stud mounting), concrete, brick, and masonry walls</li>
                                             <li> Custom placement to provide optimal support and accessibility</li>

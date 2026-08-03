@@ -124,7 +124,7 @@
                     </div>
                 </div>
 
-                <!-- Remodeling an Acrylic Shower -->
+                <!-- Remodeling an Acrylic Shower 
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
@@ -141,9 +141,9 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <!-- Tub-to-Shower Conversion -->
+                <!-- Tub-to-Shower Conversion 
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
@@ -160,7 +160,7 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Bathroom Renovations, Showers & General Bathrooms -->
                 <div

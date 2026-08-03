@@ -81,7 +81,7 @@
 
             </div>
         </div>
-    </section>
+    </section> 
 
     <!-- Product Details -->
     <section class="py-12 md:py-16 bg-white">

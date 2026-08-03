@@ -2040,7 +2040,9 @@
 
             .what-we-do-slider .swiper-slide img {
                 width: 100%;
-                max-height: 100%;
+                max-width:550px;
+                height: 100%;
+                max-height: 350px;
             }
         }
 

@@ -106,6 +106,9 @@ Route::get('/products/{product}', [ProductController::class, 'productShow'])->na
 Route::get('/rentals', [RentalController::class, 'index'])->name('rentals.index');
 Route::get('/rentals-categories/{category}', [RentalController::class, 'categoryShow'])->name('rentals.category');
 
+Route::get('/categories/{category}', [RentalController::class, 'categoryShow']);
+
+
 // Areas - Test route first
 Route::get('/areas-test', function() {
     return 'Areas test route works! Current time: ' . date('Y-m-d H:i:s');

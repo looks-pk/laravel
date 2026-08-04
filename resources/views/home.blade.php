@@ -759,9 +759,8 @@
         <div class="hero-content container mx-auto px-8 h-full flex items-center" style="position: relative; z-index: 5;">
             <div class="flex flex-col lg:flex-row items-center justify-between w-full">
                 <div class="text-white max-w-2xl lg:mr-8 hero-text">
-                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Stair Lifts & Accessible Bathroom Renovations in Vancouver Aging in Place Solutions</h1>
-                    <p class="text-xl mb-8 text-gray-100">We help you regain safety and independence in your space to help
-                        you and your loved ones stay safe, even at home.</p>
+                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Stair Lifts & Accessible Bathroom Renovations in Vancouver</h1>
+                   
                     <div class="flex flex-wrap gap-4">
                         <a href="/services" class="btn-primary inline-flex items-center">
                             Our Services

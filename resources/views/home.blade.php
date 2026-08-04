@@ -2045,6 +2045,18 @@
             }
         }
 
+
+                @media (min-width: 768px) {
+        
+
+            .what-we-do-slider .swiper-slide img {
+                width: 100%;
+                max-width:100%;
+                height: 100%;
+                max-height: 350px;
+            }
+        }
+
         /* Enhanced Home Page Styles */
         .partner-logo {
             @apply bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center grayscale hover:grayscale-0;

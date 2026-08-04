@@ -35,6 +35,13 @@ return [
         ],
     ],
 
+    
+
+'turnstile' => [
+    'key' => env('TURNSTILE_SITE_KEY'),
+    'secret' => env('TURNSTILE_SECRET_KEY'),
+],
+
     // Added Google reCAPTCHA configuration
     'recaptcha' => [
         'site_key' => env('RECAPTCHA_SITE_KEY'),

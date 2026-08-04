@@ -179,7 +179,11 @@
 }
 
 
-
+/* Target overlay div and heading inside area-map */
+.area-map .absolute,
+.area-map .absolute h3 {
+    display: none !important;
+}
 
 
 

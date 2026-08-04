@@ -809,7 +809,7 @@
 
                 <!-- 2. Cloudflare Turnstile Widget -->
     <div class="mb-4">
-        <div class="cf-turnstile" data-sitekey="{{ env('TURNSTILE_SITE_KEY') }}"></div>
+        <div class="cf-turnstile" data-sitekey="{{ config('services.turnstile.key') }}"></div>
     </div>
                         
                         <button type="submit" class="w-full btn-primary py-2 px-4 rounded-md">Send

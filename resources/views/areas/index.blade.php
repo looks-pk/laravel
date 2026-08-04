@@ -166,6 +166,24 @@
         letter-spacing: -0.5px;
     }
 
+
+/* Hide city title overlay inside area-map */
+.area-map h1,
+.area-map h2,
+.area-map h3,
+.area-map h4,
+.area-map .absolute,
+.area-map [class*="overlay"],
+.area-map [class*="title"] {
+    display: none !important;
+}
+
+
+
+
+
+
+    
     .section-title::after {
         content: '';
         position: absolute;

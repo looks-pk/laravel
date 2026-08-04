@@ -396,11 +396,11 @@
                             <div class="map-placeholder">📍</div>
                         @endif
 
-                        <div class="absolute inset-0 bg-black/30 flex items-end p-4">
+                        <!-- <div class="absolute inset-0 bg-black/30 flex items-end p-4">
                             <h3 class="text-white text-xl font-bold">
                                 {{ ucwords(str_replace('-', ' ', $area)) }}
                             </h3>
-                        </div>
+                        </div> -->
 
                     </div>
 

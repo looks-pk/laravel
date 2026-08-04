@@ -2041,7 +2041,7 @@
                 width: 100%;
                 max-width:550px;
                 height: 100%;
-                max-height: 350px;
+                max-height: 450px;
             }
         }
 

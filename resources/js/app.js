@@ -1,2 +1,2 @@
 import './bootstrap';
-import './human-verification';
+// import './human-verification';

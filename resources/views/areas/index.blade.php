@@ -224,9 +224,6 @@
                             <!-- Map Section -->
                             <div class="area-map">
                                 <!-- Overlay with city name -->
-                                <div class="absolute inset-0 bg-black bg-opacity-60 flex items-end p-4">
-                                    <h3 class="text-white text-xl font-bold">{{ ucfirst(str_replace('-', ' ', $area)) }}</h3>
-                                </div>
                             </div>
 
                             <!-- Card Body -->

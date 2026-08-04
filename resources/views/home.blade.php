@@ -2246,19 +2246,19 @@
                     },
                     // Tablet
                     640: {
-                        slidesPerView: 3,
-                        spaceBetween: 15,
+                        slidesPerView: 2,
+                        spaceBetween: 20,
                         centeredSlides: true,
                     },
                     // Desktop
                     1024: {
-                        slidesPerView: 5,
+                        slidesPerView: 3,
                         spaceBetween: 20,
                         centeredSlides: true,
                     },
                     // Large Desktop
                     1280: {
-                        slidesPerView: 5,
+                        slidesPerView: 3,
                         spaceBetween: 30,
                         centeredSlides: true,
                     }

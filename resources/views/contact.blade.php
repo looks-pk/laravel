@@ -531,6 +531,11 @@
                                 <input type="checkbox" required name="terms" class="mr-3 mt-1">
                                 <span class="text-sm text-gray-700">I agree to receive communications from Home2stay regarding my request. I understand that my information will be handled according to Home2stay's privacy policy.</span>
                             </label>
+
+
+                            <div class="mb-4">
+               <div class="cf-turnstile" data-sitekey="{{ config('services.turnstile.key') }}"></div>
+                          </div>
                             
                             <div class="flex flex-col sm:flex-row gap-4">
                                 <button type="submit" class="btn-primary flex-1">
@@ -642,6 +647,9 @@
 @endsection
 
 @push('scripts')
+
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
     <script>
         function toggleDetailedForm() {
             const quickForm = document.querySelector('.quick-form').closest('section');

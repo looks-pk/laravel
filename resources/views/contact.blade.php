@@ -371,6 +371,12 @@
                             <textarea id="quick_message" name="message" rows="4" placeholder=" " required></textarea>
                             <label for="quick_message">Brief Description</label>
                         </div>
+
+
+        <div class="mb-4">
+               <div class="cf-turnstile" data-sitekey="{{ config('services.turnstile.key') }}"></div>
+                          </div>
+                        
                         
                         <div class="md:col-span-2 flex flex-col sm:flex-row gap-4">
                             <button type="submit" class="btn-primary flex-1">

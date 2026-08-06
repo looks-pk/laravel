@@ -29,20 +29,29 @@ class UniversalFormController extends Controller
     public function submit(Request $request)
     {
         try {
-
-           // 1. Honeypot Security Check (Silent Drop for Bots)
+            // 1. Honeypot Security Check (Silent Drop for Bots)
             if (!empty($request->input('website_url_hp'))) {
                 return redirect()->back()->with('success', 'Thank you for your message. We will get back to you soon!');
             }
 
             // 2. Cloudflare Turnstile Verification Check
+            $turnstileToken = $request->input('cf-turnstile-response');
+            $secretKey = config('services.turnstile.secret');
+
             $turnstileResponse = Http::asForm()->post('https://challenges.cloudflare.com/turnstile/v0/siteverify', [
-                'secret'   => config('services.turnstile.secret'), // Safely reading config key
-                'response' => $request->input('cf-turnstile-response'),
+                'secret'   => $secretKey,
+                'response' => $turnstileToken,
                 'remoteip' => $request->ip(),
             ]);
 
             $turnstileData = $turnstileResponse->json();
+
+            // 🔍 DEBUG LOG: Check storage/logs/laravel.log for output
+            Log::info('Turnstile Debug Payload:', [
+                'has_token'        => !empty($turnstileToken),
+                'secret_configured'=> !empty($secretKey),
+                'cloudflare_data'  => $turnstileData
+            ]);
 
             if (empty($turnstileData['success']) || !$turnstileData['success']) {
                 if ($request->expectsJson() || $request->ajax()) {
@@ -54,20 +63,11 @@ class UniversalFormController extends Controller
                 return redirect()->back()->withErrors(['captcha' => 'Spam verification failed. Please try again.'])->withInput();
             }
 
-            // Get all form data (Aapka pehle se majood code yahan se start hoga)
-            $formData = $request->all();
-
-            
             // Get all form data
             $formData = $request->all();
             
             // Determine form type and configuration based on URL or form data
             $formConfig = $this->determineFormConfig($request);
-            
-            // Verify reCAPTCHA first
-            // if (!$this->verifyRecaptcha($request)) {
-            //     throw new \Exception('reCAPTCHA verification failed. Please try again.');
-            // }
             
             // Basic validation for common required fields
             $this->validateCommonFields($request, $formConfig);
@@ -108,7 +108,7 @@ class UniversalFormController extends Controller
             
         } catch (\Exception $e) {
             Log::error('Universal Form Submission Error: ' . $e->getMessage(), [
-                'form_data' => $formData,
+                'form_data' => $formData ?? $request->all(),
                 'user_ip' => $request->ip(),
                 'url' => $request->fullUrl(),
             ]);
@@ -365,13 +365,11 @@ class UniversalFormController extends Controller
                 'user_agent' => $request->userAgent(),
                 'form_data' => $request->except(['password', '_token']),
             ]);
-            // TEMPORARY: Allow submission without reCAPTCHA token for debugging
-            // TODO: Re-enable strict verification once reCAPTCHA is confirmed working
-            return true; // Changed from false to true
+            return true;
         }
 
         // Determine action based on form type
-        $action = 'submit'; // default
+        $action = 'submit'; 
         $formType = $request->input('form_type');
         if ($formType) {
             $action = $formType;

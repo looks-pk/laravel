@@ -1199,6 +1199,12 @@
                             </div>
                         </div>
 
+
+                        <div class="mb-4">
+                                 <div class="cf-turnstile" data-sitekey="{{ config('services.turnstile.key') }}"></div>
+                                              </div>
+                        
+
                         <!-- Submit Button -->
                         <div class="pt-4">
                             <button type="submit"

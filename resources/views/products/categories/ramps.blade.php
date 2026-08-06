@@ -648,6 +648,11 @@
                             placeholder="Please share any specific requirements, measurements, or concerns..."></textarea>
                     </div>
 
+                    <div class="mb-4">
+                              <div class="cf-turnstile" data-sitekey="{{ config('services.turnstile.key') }}"></div>
+                                            </div>
+
+                    
                     <!-- Submit Button -->
                     <div class="text-center">
                         <button type="submit"

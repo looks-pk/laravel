@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Home2stay - Stairlifts, Home Modifications &amp; Home Safety Equipment in Vancouver - Home2stay')
-@section('meta_description', 'Located in Vancouver, Home2stay is here to help you live safely and with maximum independence in your own home. We install grab bars, stair lifts, ramps &amp; more.')
+@section('title', 'Home2stay - Stairlifts, Home Modifications & Home Safety Equipment in Vancouver - Home2stay')
+@section('meta_description', 'Located in Vancouver, Home2stay is here to help you live safely and with maximum independence in your own home. We install grab bars, stair lifts, ramps & more.')
 
 @section('content')
     <style>

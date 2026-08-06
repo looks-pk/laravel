@@ -7,6 +7,7 @@ use App\Services\RecaptchaService;
 use Illuminate\Support\Facades\Log;
 use App\Services\UniversalMailService;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Http;
 
 class UniversalFormController extends Controller
 {
@@ -28,6 +29,35 @@ class UniversalFormController extends Controller
     public function submit(Request $request)
     {
         try {
+
+           // 1. Honeypot Security Check (Silent Drop for Bots)
+            if (!empty($request->input('website_url_hp'))) {
+                return redirect()->back()->with('success', 'Thank you for your message. We will get back to you soon!');
+            }
+
+            // 2. Cloudflare Turnstile Verification Check
+            $turnstileResponse = Http::asForm()->post('https://challenges.cloudflare.com/turnstile/v0/siteverify', [
+                'secret'   => config('services.turnstile.secret'), // Safely reading config key
+                'response' => $request->input('cf-turnstile-response'),
+                'remoteip' => $request->ip(),
+            ]);
+
+            $turnstileData = $turnstileResponse->json();
+
+            if (empty($turnstileData['success']) || !$turnstileData['success']) {
+                if ($request->expectsJson() || $request->ajax()) {
+                    return response()->json([
+                        'success' => false,
+                        'message' => 'Spam verification failed. Please refresh the page and try again.',
+                    ], 422);
+                }
+                return redirect()->back()->withErrors(['captcha' => 'Spam verification failed. Please try again.'])->withInput();
+            }
+
+            // Get all form data (Aapka pehle se majood code yahan se start hoga)
+            $formData = $request->all();
+
+            
             // Get all form data
             $formData = $request->all();
             

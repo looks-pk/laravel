@@ -1200,9 +1200,10 @@
                         </div>
 
 
-                        <div class="mb-4">
-                                 <div class="cf-turnstile" data-sitekey="{{ config('services.turnstile.key') }}"></div>
-                                              </div>
+                                     <!-- 2. Cloudflare Turnstile Widget -->
+    <div class="mb-4">
+        <div class="cf-turnstile" data-sitekey="{{ config('services.turnstile.key') }}"></div>
+    </div>
                         
 
                         <!-- Submit Button -->

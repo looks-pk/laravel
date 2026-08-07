@@ -339,7 +339,7 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Seat Width Options:</span>
-                                                <span class="text-gray-600">18â€³ (457mm) or 26â€³ (660mm)</span>
+                                                <span class="text-gray-600">18" (457mm) or 26" (660mm)</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Frame Material:</span>
@@ -347,7 +347,7 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Wood Thickness:</span>
-                                                <span class="text-gray-600">1â€³ thick</span>
+                                                <span class="text-gray-600">1" thick</span>
                                             </div>
                                         </div>
                                         <div class="space-y-3">
@@ -814,6 +814,11 @@
             display: block;
         }
 
+        .text-secondary {
+    color: #ff0000 !important;
+    font-weight: 700 !important;
+}
+        
         .line-clamp-3 {
             display: -webkit-box;
             -webkit-line-clamp: 3;

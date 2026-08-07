@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Home2Stay â€“ Bruno Elan Straight Stairlift - Home2Stay')
-@section('meta_description', 'Discover the Home2Stay Bruno Elan Straight Stairlift: effortless access, safety, and everyday freedom for straight indoor staircases.')
+@section('title', 'Home2stay Bruno Elan Straight Stairlift - Home2stay')
+@section('meta_description', 'Discover the Home2stay Bruno Elan Straight Stairlift: effortless access, safety, and everyday freedom for straight indoor staircases.')
 
 @section('content')
     <!-- Hero Section -->

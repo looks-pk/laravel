@@ -3,7 +3,7 @@
                 <!-- Product Card 1 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('/home-page-card-images/barrier-free-bathroom.jpg') }}" alt="Barrier-Free Bathrooms"
+                        <img src="{{ asset('/home-page-card-images/Corner-Shower-Frost.webp') }}" alt="Barrier-Free Bathrooms"
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
@@ -83,7 +83,7 @@
                 <!-- Product Card 2 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/Thyssen-Homeglide.webp') }}" alt="Stairlifts"
+                        <img src="{{ asset('/al-prod-page-imgs/Flow X_Detail 39.webp') }}" alt="Stairlifts"
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">

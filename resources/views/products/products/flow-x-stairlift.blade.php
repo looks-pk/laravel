@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Flow X Curved Stairlift Vancouver | Custom Mobility Solutions by Home2Stay')
-@section('meta_description', 'Experience effortless mobility with custom-made Flow X Curved Stairlifts in Vancouver. Professional installation by Home2Stay for multi-level and curved staircases.')
+@section('title', 'Flow X Curved Stairlift Vancouver | Custom Mobility Solutions by Home2stay')
+@section('meta_description', 'Experience effortless mobility with custom-made Flow X Curved Stairlifts in Vancouver. Professional installation by Home2stay for multi-level and curved staircases.')
 
 @section('content')
     <!-- Hero Section -->

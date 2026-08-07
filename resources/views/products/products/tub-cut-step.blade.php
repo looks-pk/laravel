@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
 @section('title', 'Home2stay Tub Cut Step - Home2stay')
-@section('meta_description', 'The CleanCut Stepâ„¢ tub to step-in shower conversion is the perfect solution for individuals interested in safer and easier shower access.')
+@section('meta_description', 'The CleanCut Step tub to step-in shower conversion is the perfect solution for individuals interested in safer and easier shower access.')
 
 @section('content')
     <!-- Hero Section -->
@@ -913,6 +913,11 @@
         .tab-pane.active {
             display: block;
         }
+
+        .text-secondary {
+    color: #ff0000 !important;
+    font-weight: 700 !important;
+}
 
         .line-clamp-3 {
             display: -webkit-box;

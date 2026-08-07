@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
 @section('title', 'Home2stay Trus-T Residential Indoor / Outdoor Lift - Home2stay')
-@section('meta_description', 'Trus-T Liftâ€™s legacy of affordable mobility spans over 25 years. Engineered for both indoor and outdoor spaces, the Trus-T Lift [&hellip;]')
+@section('meta_description', 'Trus-T Lift legacy of affordable mobility spans over 25 years. Engineered for both indoor and outdoor spaces, the Trus-T Lift [&hellip;]')
 
 @section('content')
     <!-- Hero Section -->
@@ -1013,6 +1013,11 @@
             display: block;
         }
 
+        .text-secondary {
+    color: #ff0000 !important;
+    font-weight: 700 !important;
+}
+        
         .line-clamp-3 {
             display: -webkit-box;
             -webkit-line-clamp: 3;

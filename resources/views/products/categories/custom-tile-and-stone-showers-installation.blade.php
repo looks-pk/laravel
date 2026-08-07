@@ -13,38 +13,7 @@
 @endpush
 
 @section('content')
-    <!-- Hero Banner -->
-    <section class="relative bg-gray-900 overflow-hidden" style="height: 100vh;">
-        <!-- Background Image with Overlay -->
-        <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('{{ asset('/bestbath/6.jpeg') }}');">
-            <div class="absolute inset-0 bg-black opacity-60"></div>
-        </div>
-
-        <!-- Hero Content -->
-        <div class="container mx-auto px-4 relative z-10 flex items-center mb-4 mt-4" style="min-height: 500px;">
-            <div class="max-w-3xl">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Custom Tiled Shower Installation Vancouver</h1>
-                <h2 class="text-2xl md:text-3xl font-bold text-white/90 mb-4">Professional Shower Remodeling & Tile Work by Home2stay</h2>
-                <p class="text-xl text-white/90 mb-8">
-                    We provide high-quality Custom Tiled Shower Installation Vancouver services for homeowners who want a beautiful, durable, and modern shower space. Our goal is simple: to create a custom shower that fits your style, your needs, and your home. Whether you want a luxury spa feel or a clean and simple design, our team is here to build a shower that lasts for years.
-                </p>
-                <p class="text-xl text-white/90 mb-8">
-                    A tiled shower is more than just a place to get ready; it's a part of your daily routine. That is why every project we take is planned with care, precision, and professional skill. With years of experience in custom shower and tile installation, we know the layout, waterproofing, and design details that make a tiled shower perfect.
-                </p>
-                <div class="flex flex-wrap gap-4">
-                    <a href="#products"
-                        class="px-6 py-3 bg-primary hover:bg-primary-dark text-white rounded-lg transition duration-300 font-medium">
-                        View Products
-                    </a>
-                    <a href="#assessment"
-                        class="px-6 py-3 bg-white hover:bg-gray-100 text-primary rounded-lg transition duration-300 font-medium">
-                        Request Assessment
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+ 
 
     <!-- Products Section -->
     <section id="products" class="py-16 bg-gray-50">

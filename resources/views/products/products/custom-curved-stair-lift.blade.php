@@ -796,6 +796,13 @@
             display: block;
         }
 
+        .text-secondary{
+
+            color: #ff0000;
+            font-weight: bold;
+
+        }
+        
         .line-clamp-3 {
             display: -webkit-box;
             -webkit-line-clamp: 3;

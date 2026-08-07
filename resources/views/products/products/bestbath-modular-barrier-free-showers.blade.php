@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Best Bath Modular Barrier-Free Showers - Home2Stay')
-@section('meta_description', 'Home2Stay is a certified distributor and installer of Best Bath modular barrier-free showers in British Columbia. ADA-compliant, roll-in accessible, zero-threshold design, 30-year warranty. Get a free quote today.')
+@section('title', 'Best Bath Modular Barrier-Free Showers - Home2stay')
+@section('meta_description', 'Home2stay is a certified distributor and installer of Best Bath modular barrier-free showers in British Columbia. ADA-compliant, roll-in accessible, zero-threshold design, 30-year warranty. Get a free quote today.')
 
 @section('content')
 
@@ -478,7 +478,7 @@
         <div class="container mx-auto px-4">
             <div class="max-w-5xl mx-auto">
                 <h2 class="text-3xl font-bold text-gray-800 mb-4 text-center">Why Choose Best Bath for Modular Barrier-Free Showers?</h2>
-                <p class="text-lg text-gray-600 text-center mb-12">Home2stay provides certified Best Bath distribution and installation services across British Columbia â€” combining manufacturer quality with local expertise.</p>
+                <p class="text-lg text-gray-600 text-center mb-12">Home2stay provides certified Best Bath distribution and installation services across British Columbia, combining manufacturer quality with local expertise.</p>
 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="bg-white rounded-xl p-6 shadow-sm">

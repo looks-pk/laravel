@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
 @section('title', 'Regular Vertical Porch Lift | Vertical Platform Wheelchair Lifts - Home2stay')
-@section('meta_description', 'Improve Independence at Home! Vertical Platform Wheelchair Lifts by Hom2stay. Safe &amp; Reliable Regular Porch Lifts.')
+@section('meta_description', 'Improve Independence at Home! Vertical Platform Wheelchair Lifts by Hom2stay. Safe & Reliable Regular Porch Lifts.')
 
 @section('content')
     <!-- Hero Section -->
@@ -988,6 +988,12 @@
             display: none;
         }
 
+         .text-secondary{
+
+            color: #ff0000;
+            font-weight: bold;
+
+        }
         .tab-pane.active {
             display: block;
         }

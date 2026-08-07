@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Modular Ramps in Vancouver | Safe Wheelchair Ramp Installation | Home2Stay')
-@section('meta_description', 'Professional Modular Ramps in Vancouver. Expert Wheelchair Ramp Installation Vancouver services. Safe, strong, and built for accessibility needs by Home2Stay.')
+@section('title', 'Modular Ramps in Vancouver | Safe Wheelchair Ramp Installation | Home2stay')
+@section('meta_description', 'Professional Modular Ramps in Vancouver. Expert Wheelchair Ramp Installation Vancouver services. Safe, strong, and built for accessibility needs by Home2stay.')
 
 @push('styles')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -13,37 +13,8 @@
 @endpush
 
 @section('content')
-    <!-- Hero Banner -->
-    <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
-        <!-- Background Image with Overlay -->
-        <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('{{ asset('ramps/modular-ramps.jpeg') }}');">
-            <div class="absolute inset-0 bg-black opacity-60"></div>
-        </div>
-
-        <!-- Hero Content -->
-        <div class="container mx-auto px-4 relative z-10 flex items-center mb-4 mt-4" style="min-height: 500px;">
-            <div class="max-w-3xl">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Modular Ramps in Vancouver – Safe, Strong, and Built for Your Needs</h1>
-                <p class="text-xl text-white/90 mb-8">
-                    Any human being should have access to their home that is safe and easy. Travelling in and out of your house must never be a scary, risky, or difficult thing to do. That is the reason we install quality Modular Ramps in Vancouver that enable seniors, persons with wheelchairs, and limited mobility to remain independent and have confidence. Our ramps are designed to be used in the long run, to be installed easily, and to be used on a daily basis, regardless of the weather or the structure of your house.
-                </p>
-                <p class="text-xl text-white/90 mb-8">
-                    Home2stay has been able to assist hundreds of families and businesses in building safer, barrier-free areas. You may want a small ramp on your front steps or a whole system with a platform and rail- you dictate this kind of system based on your lifestyle, safety requirements, and budget. Our team is courteous, sincere, and respectable, and we ensure that you get taken care of from the initial phone call to the last installation. Many families prefer Modular Ramps in Vancouver because of their long-term reliability.
-                </p>
-                <div class="flex flex-wrap gap-4">
-                    <a href="#products"
-                        class="px-6 py-3 bg-primary hover:bg-primary-dark text-white rounded-lg transition duration-300 font-medium">
-                        View Products
-                    </a>
-                    <a href="#assessment"
-                        class="px-6 py-3 bg-white hover:bg-gray-100 text-primary rounded-lg transition duration-300 font-medium">
-                        Request Assessment
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+    
+ 
 
     <!-- Products Section -->
     <section id="products" class="py-16 bg-gray-50">

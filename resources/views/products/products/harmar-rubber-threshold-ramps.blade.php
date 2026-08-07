@@ -1,6 +1,6 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Harmar Rubber Threshold Ramps - Home2Stay')
+@section('title', 'Harmar Rubber Threshold Ramps - Home2stay')
 @section('meta_description', 'Harmar Rubber Threshold Ramps for smooth doorway transitions. Non-slip, modular design supports up to 850 lbs. Tool-free installation. ADA compliant accessibility solutions.')
 
 @section('content')

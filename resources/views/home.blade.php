@@ -706,7 +706,7 @@
                     <!-- Slide 1: Stairlift Flow X -->
                     <div class="swiper-slide">
                         <div class="hero-slide-bg">
-                            <img src="{{ asset('h2s-banners/Access_BDD_Outdoor 11.jpg') }}" alt="Stairlift Flow X" class="hero-slide-image">
+                            <img src="{{ asset('h2s-banners/Flow X_Detail 25.webp') }}" alt="Stairlift Flow X" class="hero-slide-image">
                             <div class="hero-slide-overlay"></div>
                         </div>
                     </div>
@@ -714,7 +714,7 @@
                     <!-- Slide 2: Bruno SRE-3050 Stairlift -->
                     <div class="swiper-slide">
                         <div class="hero-slide-bg">
-                            <img src="{{ asset('h2s-banners/Flow X_Main_Wide 1.jpg') }}" alt="Bruno SRE-3050 Stairlift" class="hero-slide-image">
+                            <img src="{{ asset('h2s-banners/Flow X_Detail 39.webp') }}" alt="Bruno SRE-3050 Stairlift" class="hero-slide-image">
                             <div class="hero-slide-overlay"></div>
                         </div>
                     </div>
@@ -738,7 +738,7 @@
                     <!-- Slide 5: Promenaid Grab Bar -->
                     <div class="swiper-slide">
                         <div class="hero-slide-bg">
-                            <img src="{{ asset('h2s-banners/ART-05-1138x667.webp') }}" alt="Promenaid Grab Bar" class="hero-slide-image">
+                            <img src="{{ asset('h2s-banners/Flow X_Main_Wide 1.jpg') }}" alt="Promenaid Grab Bar" class="hero-slide-image">
                             <div class="hero-slide-overlay"></div>
                         </div>
                     </div>

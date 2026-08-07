@@ -414,8 +414,8 @@
                                             <li> Innovative "Pivot & Lock" technology for improved versatility</li>
                                             <li> Floor-mounted design for easy installation wherever needed</li>
                                             <li> Anti-microbial powder coat white finish</li>
-                                            <li> Height adjustable from 93-99â€³ with other options available</li>
-                                            <li> Available in 28â€³ and 32â€³ rail lengths</li>
+                                            <li> Height adjustable from 93-99" with other options available</li>
+                                            <li> Available in 28" and 32" rail lengths</li>
                                             <li> Suitable for both commercial and residential use</li>
                                             <li> Water and rust resistant construction</li>
                                             <li> Made in Canada with quality craftsmanship</li>

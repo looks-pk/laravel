@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Home2Stay Clean Cut - Tub Accessibility Solution for Safe Bathing')
-@section('meta_description', 'Home2Stay Clean Cut Tub Accessibility Solution. Convert bathtub to accessible step-in design. Quick installation, non-slip surface, suitable for acrylic, fiberglass, steel & cast iron tubs.')
+@section('title', 'Home2stay Clean Cut - Tub Accessibility Solution for Safe Bathing')
+@section('meta_description', 'Home2stay Clean Cut Tub Accessibility Solution. Convert bathtub to accessible step-in design. Quick installation, non-slip surface, suitable for acrylic, fiberglass, steel & cast iron tubs.')
 
 @section('content')
     <!-- Hero Section -->

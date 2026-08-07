@@ -257,7 +257,7 @@
                             <!-- Installation Options Tab -->
                             <div class="tab-pane" data-tab="installation-tab" style="display: none !important;">
                                 <div class="space-y-4">
-                                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Installation Process &amp; Options</h3>
+                                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Installation Process & Options</h3>
 
                                     <div class="space-y-4">
                                         <div class="border-l-4 border-primary pl-4">
@@ -332,7 +332,7 @@
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <div class="flex items-center justify-between mb-2">
                                             <h3 class="text-xl font-semibold text-gray-800">Supplier</h3>
-                                            <span class="text-sm text-gray-800">Best Bath Intelligent Designs (distributed by Home2Stay)</span>
+                                            <span class="text-sm text-gray-800">Best Bath Intelligent Designs (distributed by Home2stay)</span>
                                         </div>
                                         <div class="flex items-center justify-between mb-2">
                                             <h3 class="text-xl font-semibold text-gray-800">Origin</h3>

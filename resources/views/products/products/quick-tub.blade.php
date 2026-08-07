@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Quick Tub - Tub-to-Shower Conversion System by Home2Stay')
-@section('meta_description', 'Home2Stay Quick Tub tub-to-shower conversion. Low-threshold step-in shower system. Fast installation, safe accessibility, compatible with acrylic, fiberglass, steel & cast iron.')
+@section('title', 'Quick Tub - Tub-to-Shower Conversion System by Home2stay')
+@section('meta_description', 'Home2stay Quick Tub tub-to-shower conversion. Low-threshold step-in shower system. Fast installation, safe accessibility, compatible with acrylic, fiberglass, steel & cast iron.')
 
 @section('content')
     <!-- Hero Section -->

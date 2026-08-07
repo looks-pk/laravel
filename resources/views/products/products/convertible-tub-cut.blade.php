@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
 @section('title', 'Home2stay Convertible Tub Cut - Home2stay')
-@section('meta_description', 'The CleanCut Convertibleâ„¢ can easily be installed into your existing acrylic, fiberglass, steel or cast iron bathtub in just hours!')
+@section('meta_description', 'The CleanCut Convertible can easily be installed into your existing acrylic, fiberglass, steel or cast iron bathtub in just hours!')
 
 @section('content')
     <!-- Hero Section -->
@@ -919,6 +919,11 @@
         .tab-pane.active {
             display: block;
         }
+
+        .text-secondary {
+    color: #ff0000 !important;
+    font-weight: 700 !important;
+}
 
         .line-clamp-3 {
             display: -webkit-box;

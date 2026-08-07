@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
 @section('title', 'Home2stay Self Supporting Threshold Ramps - Home2stay')
-@section('meta_description', 'Home2stay Threshold Ramps provide easy doorway access. Self-supporting &amp; adjustable, they&#039;re perfect for wheelchairs &amp; scooters. Shop online for safe &amp; convenient home mobility.')
+@section('meta_description', 'Home2stay Threshold Ramps provide easy doorway access. Self-supporting & adjustable, they are perfect for wheelchairs and scooters. Shop online for safe and convenient home mobility.')
 
 @section('content')
     <!-- Hero Section -->
@@ -495,7 +495,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Rectangle%20320-min.png') }}" alt="Bathroom Safety Solutions"
+                        <img src="{{ asset('al-prod-page-imgs/solid-ramp-1.webp') }}" alt="Bathroom Safety Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Home2Stay Grab Bars - Safety & Style for Every Bathroom')
-@section('meta_description', 'Home2Stay Grab Bars - Premium stainless steel safety bars. ADA-compliant, rust-resistant grab bars for bathrooms, showers, hallways. Concealed mounting, 9-hole flange design.')
+@section('title', 'Home2stay Grab Bars - Safety & Style for Every Bathroom')
+@section('meta_description', 'Home2stay Grab Bars - Premium stainless steel safety bars. ADA-compliant, rust-resistant grab bars for bathrooms, showers, hallways. Concealed mounting, 9-hole flange design.')
 
 @section('content')
     <!-- Hero Section -->
@@ -298,28 +298,29 @@
 
                                     <!-- Purchase Pricing -->
                                     <div class="bg-gray-50 rounded-lg p-4">
-                                        <h4 class="text-lg font-semibold text-gray-800 mb-3">Complete Ultra-Low Tub Cut Package</h4>
+                                        <h4 class="text-lg font-semibold text-gray-800 mb-3"></h4>
                                         <div class="space-y-3">
                                             <div class="flex justify-between items-center border-b pb-2">
                                                 <span class="text-gray-700 font-medium">Starting Price:</span>
                                                 <span class="font-semibold text-primary">$1,150</span>
                                             </div>
                                             <div class="text-sm text-gray-600 mt-2">
-                                                <p>* Price includes the Home2stay Tub Cut Ultra-Low</p>
-                                                <p>* Professional installation included</p>
-                                                <p>* CleanCut quality and reliability</p>
-                                                <p>* Non-skid step pad included</p>
-                                                <p>* Ideal for high-profile tubs (14.75" + tall)</p>
-                                                <p>* Available in white and beige colors</p>
-                                                <p>* Our most affordable tub cut solution</p>
-                                                <p>* Installation completed in less than one day</p>
+                                                <p>Home2stay premium-grade grab bar included</p>
+<p>Professional installation available</p>
+<p>Durable construction designed for reliable everyday support</p>
+<p>Secure and comfortable grip</p>
+<p>Ideal for bathrooms, showers, bathtubs, hallways, and other areas requiring additional support</p>
+<p>Suitable for seniors, caregivers, and individuals with limited mobility</p>
+<p>Designed to improve stability and confidence throughout the home</p>
+<p>Available in modern styles to complement your home</p>
+<p>Installation options available based on your wall type and mounting requirements</p>
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="p-4 bg-green-50 border-l-4 border-green-400 rounded-r-lg">
                                         <p class="text-green-800 font-medium">
-                                            Complete package starting at $1,150 including installation. Our most affordable tub cut solution for high-profile tubs!
+                                           Get a customized price based on your grab bar selection, installation requirements, and the number of grab bars needed. Home2Stay combines quality products with professional installation and local expertise to help create a safer, more accessible home.
                                         </p>
                                     </div>
 

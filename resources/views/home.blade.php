@@ -1387,7 +1387,7 @@
                     <!-- Slide 1 - Home Accessibility -->
                     <div class="swiper-slide">
                         <div class="relative overflow-hidden transition-all duration-700 h-48 md:h-64 lg:h-80 group">
-                            <img src="{{ asset('h-slider/carousel-img-1-min.png') }}" alt="Home Accessibility Solutions"
+                            <img src="{{ asset('h-slider/11526-Revision-to-10981-Suburban-Home-4-12-16-2020-1-1-scaled.webp') }}" alt="Home Accessibility Solutions"
                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 filter brightness-95 group-hover:brightness-100">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
                         </div>
@@ -1396,11 +1396,81 @@
                     <!-- Slide 2 - Bathroom Modifications -->
                     <div class="swiper-slide">
                         <div class="relative overflow-hidden transition-all duration-700 h-48 md:h-64 lg:h-80 group">
-                            <img src="{{ asset('h-slider/Carousel-item-4-min.jpg') }}" alt="Bathroom Safety Solutions"
+                            <img src="{{ asset('h-slider/2 (6).webp') }}" alt="Bathroom Safety Solutions"
                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 filter brightness-95 group-hover:brightness-100">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
                         </div>
                     </div>
+
+
+                     <!-- Slide 1 - Home Accessibility -->
+                    <div class="swiper-slide">
+                        <div class="relative overflow-hidden transition-all duration-700 h-48 md:h-64 lg:h-80 group">
+                            <img src="{{ asset('h-slider/4d811be3-4f44-313d-db56-c72020fe565f.webp') }}" alt="Home Accessibility Solutions"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 filter brightness-95 group-hover:brightness-100">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 2 - Bathroom Modifications -->
+                    <div class="swiper-slide">
+                        <div class="relative overflow-hidden transition-all duration-700 h-48 md:h-64 lg:h-80 group">
+                            <img src="{{ asset('h-slider/BC_alcoveshower_023.webp') }}" alt="Bathroom Safety Solutions"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 filter brightness-95 group-hover:brightness-100">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
+                        </div>
+                    </div>
+
+
+
+
+
+                      <!-- Slide 1 - Home Accessibility -->
+                    <div class="swiper-slide">
+                        <div class="relative overflow-hidden transition-all duration-700 h-48 md:h-64 lg:h-80 group">
+                            <img src="{{ asset('h-slider/Flow X_Detail 2.webp') }}" alt="Home Accessibility Solutions"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 filter brightness-95 group-hover:brightness-100">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 2 - Bathroom Modifications -->
+                    <div class="swiper-slide">
+                        <div class="relative overflow-hidden transition-all duration-700 h-48 md:h-64 lg:h-80 group">
+                            <img src="{{ asset('h-slider/bruno-platform-lift-down-no-gate-90-degree.webp') }}" alt="Bathroom Safety Solutions"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 filter brightness-95 group-hover:brightness-100">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
+                        </div>
+                    </div>
+
+
+
+
+
+                      <!-- Slide 1 - Home Accessibility -->
+                    <div class="swiper-slide">
+                        <div class="relative overflow-hidden transition-all duration-700 h-48 md:h-64 lg:h-80 group">
+                            <img src="{{ asset('h-slider/IMG_4911-scaled.webp') }}" alt="Home Accessibility Solutions"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 filter brightness-95 group-hover:brightness-100">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 2 - Bathroom Modifications -->
+                    <div class="swiper-slide">
+                        <div class="relative overflow-hidden transition-all duration-700 h-48 md:h-64 lg:h-80 group">
+                            <img src="{{ asset('h-slider/bruno-connect-classic-in-kitchen-going-up.webp') }}" alt="Bathroom Safety Solutions"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 filter brightness-95 group-hover:brightness-100">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
+                        </div>
+                    </div>
+                    
+
+
+
+
+
+
                     
                     <!-- Slide 3 - Mobility Solutions -->
                     <div class="swiper-slide">

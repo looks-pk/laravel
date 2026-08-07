@@ -326,7 +326,7 @@
 
                                     <div class="p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
                                         <p class="text-yellow-800 font-medium">
-                                            Available for NEXT-DAY delivery and installation via the Home2stay Express booking form! Perfect for tubs at least 14.75" tall.
+                                            Contact Home2Stay today for a personalized quote and installation options.
                                         </p>
                                     </div>
                                 </div>
@@ -351,53 +351,53 @@
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Product Type:</span>
-                                                <span class="text-gray-600">Tub Cut Ultra-Low</span>
+                                                <span class="text-gray-600">Safety Grab Bar</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Installation Type:</span>
-                                                <span class="text-gray-600">Existing tub installation</span>
+                                                <span class="text-gray-600">Wall-mounted installation</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Installation Time:</span>
-                                                <span class="text-gray-600">Less than one day</span>
+                                                <span class="font-medium text-gray-700">Installation:</span>
+                                                <span class="text-gray-600">Professional installation available</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Step Surface:</span>
-                                                <span class="text-gray-600">Non-skid step pad</span>
+                                                <span class="font-medium text-gray-700">Construction:</span>
+                                                <span class="text-gray-600">Premium-grade, durable construction</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Width Options:</span>
-                                                <span class="text-gray-600">1 width available</span>
+                                                <span class="font-medium text-gray-700">Grip:</span>
+                                                <span class="text-gray-600">Secure and comfortable grip</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Color Options:</span>
-                                                <span class="text-gray-600">White and Beige</span>
+                                                <span class="font-medium text-gray-700">Application Areas:</span>
+                                                <span class="text-gray-600">Bathrooms, showers, bathtubs, hallways, and other areas requiring additional support</span>
                                             </div>
                                         </div>
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Tub Compatibility:</span>
-                                                <span class="text-gray-600">High-profile tubs (14.75" + tall)</span>
+                                                <span class="font-medium text-gray-700">Use:</span>
+                                                <span class="text-gray-600">Indoor residential support and accessibility</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Function:</span>
-                                                <span class="text-gray-600">Step-in shower access</span>
+                                                <span class="font-medium text-gray-700">Design:</span>
+                                                <span class="text-gray-600">Modern, home-friendly design</span>
+                                            </div>
+                                            <div class="flex justify-between border-b pb-2">
+                                                <span class="font-medium text-gray-700">Mounting Requirements:</span>
+                                                <span class="text-gray-600">Installation options based on wall type and mounting requirements</span>
+                                            </div>
+                                            <div class="flex justify-between border-b pb-2">
+                                                <span class="font-medium text-gray-700">Primary Function:</span>
+                                                <span class="text-gray-600">Provides additional support and stability</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Safety Benefit:</span>
-                                                <span class="text-gray-600">Greatly reduces fall possibility</span>
-                                            </div>
-                                            <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Access Type:</span>
-                                                <span class="text-gray-600">Easy step-in access</span>
-                                            </div>
-                                            <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Affordability:</span>
-                                                <span class="text-gray-600">Most affordable product</span>
+                                                <span class="text-gray-600">Helps improve stability and confidence throughout the home</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Supplier:</span>
-                                                <span class="text-gray-600">CleanCut</span>
+                                                <span class="text-gray-600">Home2Stay</span>
                                             </div>
                                         </div>
                                     </div>
@@ -407,17 +407,17 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li> Step-in shower conversion for high-profile tubs</li>
-                                            <li> Ultra-low design ideal for tubs at least 14.75" tall</li>
-                                            <li> Non-skid step pad to reduce slips and falls</li>
-                                            <li> Quick installation in less than one day</li>
-                                            <li> Compatible with acrylic, fiberglass, steel, and cast iron tubs</li>
-                                            <li> Available in 1 width</li>
-                                            <li> Two color options: white and beige</li>
-                                            <li> Greatly reduces possibility of falls</li>
-                                            <li> Enables easy step-in access</li>
-                                            <li> Our most affordable tub cut solution</li>
-                                            <li> Next-day delivery and installation available</li>
+                                                    <li>Premium-grade grab bar designed for reliable everyday support</li>
+<li>Durable construction for long-lasting performance</li>
+<li>Secure and comfortable grip</li>
+<li>Ideal for bathrooms, showers, and bathtubs</li>
+<li>Suitable for hallways and other areas requiring additional support</li>
+<li>Helps improve stability and confidence throughout the home</li>
+<li>Suitable for seniors and caregivers</li>
+<li>Designed for individuals with limited mobility</li>
+<li>Modern styles complement a variety of home interiors</li>
+<li>Professional installation available</li>
+<li>Installation options based on wall type and mounting requirements</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -426,13 +426,13 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Installation Details</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li> Installation completed on existing tub</li>
-                                            <li> Installed in less than one day</li>
-                                            <li> Greatly reduces the possibility of falls</li>
-                                            <li> Enables easy step-in access</li>
-                                            <li> Our most affordable product</li>
-                                            <li> Professional installation by CleanCut specialists</li>
-                                            <li> Ideal for high-profile tubs (14.75" + tall)</li>
+                                           <li>Designed for wall-mounted installation</li>
+<li>Professional installation available</li>
+<li>Installation requirements depend on the wall type and mounting surface</li>
+<li>Proper installation helps ensure secure and reliable support</li>
+<li>Installation location can be selected based on the user's accessibility needs</li>
+<li>Suitable for bathrooms, showers, bathtubs, hallways, and other areas requiring additional support</li>
+<li>Professional installation helps ensure proper placement and secure mounting</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -441,7 +441,7 @@
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <div class="flex items-center justify-between mb-2">
                                             <h3 class="text-xl font-semibold text-gray-800">Pricing</h3>
-                                            <span class="text-sm text-gray-800">Starts at $1,150 including installation</span>
+                                            <span class="text-sm text-gray-800">Contact us for a customized quote based on your grab bar selection and installation requirements.</span>
                                         </div>
                                         <div class="flex items-center justify-between mb-2">
                                             <h3 class="text-xl font-semibold text-gray-800">Call Us</h3>

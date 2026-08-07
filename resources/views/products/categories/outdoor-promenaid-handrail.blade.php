@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Outdoor Promenaid Handrail Vancouver | Exterior Handrail Installation | Home2Stay')
-@section('meta_description', 'Expert Outdoor Promenaid Handrail installation in Vancouver. Home2Stay installs weather-resistant exterior handrails for front steps, decks, ramps, and porches — built to handle Vancouver\'s climate.')
+@section('title', 'Outdoor Promenaid Handrail Vancouver | Exterior Handrail Installation | Home2stay')
+@section('meta_description', 'Expert Outdoor Promenaid Handrail installation in Vancouver. Home2stay installs weather-resistant exterior handrails for front steps, decks, ramps, and porches — built to handle Vancouver\'s climate.')
 
 @push('styles')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -13,40 +13,7 @@
 @endpush
 
 @section('content')
-    <!-- Hero Banner -->
-    <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
-        <!-- Background Image with Overlay -->
-        <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('{{ asset('prom/81761d38-90db-4ea6-8623-7e10a0ff4c57.jpg') }}');">
-            <div class="absolute inset-0 bg-black opacity-60"></div>
-        </div>
-
-        <!-- Hero Content -->
-        <div class="container mx-auto px-4 relative z-10 flex items-center mb-4 mt-4" style="min-height: 500px;">
-            <div class="max-w-3xl">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Outdoor Promenaid Handrail Vancouver – Built for Safety in Any Weather</h1>
-                <p class="text-xl text-white/90 mb-8">
-                    Home2stay helps Vancouver homeowners make the outside of their homes safer without compromising on looks. Our Outdoor Promenaid Handrail installations bring the trusted strength of the Promenaid system to your front steps, deck, porch, ramp, and pathways — delivering a firm, reliable grip in the wet, cold, and uneven conditions that Vancouver's climate demands. If someone in your household struggles with outdoor steps or slippery surfaces, an Outdoor Promenaid Handrail is one of the most impactful safety upgrades you can make.
-                </p>
-                <p class="text-xl text-white/90 mb-8">
-                    Promenaid's exterior rail is built from anodized aluminum that resists rust, UV fading, and corrosion — year after year, through rain, frost, and summer heat. Unlike painted steel or wood rails that deteriorate outdoors over time, the Outdoor Promenaid Handrail holds its finish and structural integrity without regular maintenance. It's available in finishes that complement any home exterior, from heritage to modern — so your safety upgrade also improves your curb appeal.
-                </p>
-                <p class="text-xl text-white/90 mb-8">
-                    Home2stay's certified installation team handles every step — from assessing your outdoor surfaces and anchoring conditions to fitting the rail precisely and testing it to BC building code standards. We've helped hundreds of Vancouver families make their outdoor spaces safer, and we bring that experience to every job we take on.
-                </p>
-                <div class="flex flex-wrap gap-4">
-                    <a href="#products"
-                        class="px-6 py-3 bg-primary hover:bg-primary-dark text-white rounded-lg transition duration-300 font-medium">
-                        View Products
-                    </a>
-                    <a href="#assessment"
-                        class="px-6 py-3 bg-white hover:bg-gray-100 text-primary rounded-lg transition duration-300 font-medium">
-                        Request Assessment
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+   
 
     <!-- Products Section -->
     <section id="products" class="py-16 bg-gray-50">

@@ -307,34 +307,38 @@
 
                                     <!-- Purchase Pricing -->
                                     <div class="bg-gray-50 rounded-lg p-4">
-                                        <h4 class="text-lg font-semibold text-gray-800 mb-3">Complete Ultra-Low Tub Cut Package</h4>
+                                        <h4 class="text-lg font-semibold text-gray-800 mb-3">Complete Vertical Porch Lift / Platform Lift Package</h4>
                                         <div class="space-y-3">
                                             <div class="flex justify-between items-center border-b pb-2">
                                                 <span class="text-gray-700 font-medium">Starting Price:</span>
-                                                <span class="font-semibold text-primary">$1,150</span>
+                                                <span class="font-semibold text-primary">$9,000 + Installation</span>
                                             </div>
                                             <div class="text-sm text-gray-600 mt-2">
-                                                <p>* Price includes the Home2stay Tub Cut Ultra-Low</p>
-                                                <p>* Professional installation included</p>
-                                                <p>* CleanCut quality and reliability</p>
-                                                <p>* Non-skid step pad included</p>
-                                                <p>* Ideal for high-profile tubs (14.75" + tall)</p>
-                                                <p>* Available in white and beige colors</p>
-                                                <p>* Our most affordable tub cut solution</p>
-                                                <p>* Installation completed in less than one day</p>
+                                                <p>Bruno VPL-3100 Vertical Platform Lift</p>
+                                                <p>Rugged and reliable construction for porch and deck access</p>
+                                                <p>Designed for wheelchair and scooter users</p>
+                                                <p>Automatic self-lowering folding ramp</p>
+                                                <p>Quiet and smooth operation</p>
+                                                <p>Weather-resistant finish and controls</p>
+                                                <p>Emergency stop switch located on the platform</p>
+                                                <p>Safety sensors help stop the lift when an obstruction is detected</p>
+                                                <p>AC power options available for standard installations</p>
+                                                <p>Reliable DC battery power available for operation during power outages</p>
+                                                <p>Separate up and down push-button controls with key switch</p>
+                                                <p>Provides mini home elevator functionality for vertical accessibility</p>
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="p-4 bg-green-50 border-l-4 border-green-400 rounded-r-lg">
                                         <p class="text-green-800 font-medium">
-                                            Complete package starting at $1,150 including installation. Our most affordable tub cut solution for high-profile tubs!
+                                            Complete package starting at $9,000 plus installation. Pricing may vary depending on lift height, power configuration, installation requirements, and site conditions.
                                         </p>
                                     </div>
 
                                     <div class="p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
                                         <p class="text-yellow-800 font-medium">
-                                            Available for NEXT-DAY delivery and installation via the Home2stay Express booking form! Perfect for tubs at least 14.75" tall.
+                                            Ideal for homeowners, wheelchair users, scooter users, and caregivers looking for a rugged, reliable, and space-efficient solution for porch, deck, and entryway access.
                                         </p>
                                     </div>
                                 </div>
@@ -369,53 +373,53 @@
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Product Type:</span>
-                                                <span class="text-gray-600">Tub Cut Ultra-Low</span>
+                                                <span class="text-gray-600">Vertical Porch Lift / Platform Lift</span>
+                                            </div>
+                                            <div class="flex justify-between border-b pb-2">
+                                                <span class="font-medium text-gray-700">Model:</span>
+                                                <span class="text-gray-600">Bruno VPL-3100</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Installation Type:</span>
-                                                <span class="text-gray-600">Existing tub installation</span>
+                                                <span class="text-gray-600">Outdoor porch, deck, and entryway installation</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Installation Time:</span>
-                                                <span class="text-gray-600">Less than one day</span>
+                                                <span class="font-medium text-gray-700">Function:</span>
+                                                <span class="text-gray-600">Vertical wheelchair and scooter access</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Step Surface:</span>
-                                                <span class="text-gray-600">Non-skid step pad</span>
+                                                <span class="font-medium text-gray-700">Power Options:</span>
+                                                <span class="text-gray-600">AC power and DC battery power</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Width Options:</span>
-                                                <span class="text-gray-600">1 width available</span>
-                                            </div>
-                                            <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Color Options:</span>
-                                                <span class="text-gray-600">White and Beige</span>
+                                                <span class="font-medium text-gray-700">Ramp Type:</span>
+                                                <span class="text-gray-600">Automatic self-lowering folding ramp</span>
                                             </div>
                                         </div>
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Tub Compatibility:</span>
-                                                <span class="text-gray-600">High-profile tubs (14.75" + tall)</span>
+                                                <span class="font-medium text-gray-700">Controls:</span>
+                                                <span class="text-gray-600">Separate up/down push-button controls with key switch</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Function:</span>
-                                                <span class="text-gray-600">Step-in shower access</span>
+                                                <span class="font-medium text-gray-700">Safety Features:</span>
+                                                <span class="text-gray-600">Emergency stop switch and obstruction safety sensors</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Safety Benefit:</span>
-                                                <span class="text-gray-600">Greatly reduces fall possibility</span>
+                                                <span class="font-medium text-gray-700">Ride Quality:</span>
+                                                <span class="text-gray-600">Quiet and smooth operation</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Access Type:</span>
-                                                <span class="text-gray-600">Easy step-in access</span>
+                                                <span class="font-medium text-gray-700">Finish:</span>
+                                                <span class="text-gray-600">Weather-resistant finish and controls</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Affordability:</span>
-                                                <span class="text-gray-600">Most affordable product</span>
+                                                <span class="font-medium text-gray-700">Installation Applications:</span>
+                                                <span class="text-gray-600">Porches, decks, entryways, and raised access points</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Supplier:</span>
-                                                <span class="text-gray-600">CleanCut</span>
+                                                <span class="font-medium text-gray-700">Design:</span>
+                                                <span class="text-gray-600">Space-efficient and compact</span>
                                             </div>
                                         </div>
                                     </div>
@@ -425,17 +429,20 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li> Step-in shower conversion for high-profile tubs</li>
-                                            <li> Ultra-low design ideal for tubs at least 14.75" tall</li>
-                                            <li> Non-skid step pad to reduce slips and falls</li>
-                                            <li> Quick installation in less than one day</li>
-                                            <li> Compatible with acrylic, fiberglass, steel, and cast iron tubs</li>
-                                            <li> Available in 1 width</li>
-                                            <li> Two color options: white and beige</li>
-                                            <li> Greatly reduces possibility of falls</li>
-                                            <li> Enables easy step-in access</li>
-                                            <li> Our most affordable tub cut solution</li>
-                                            <li> Next-day delivery and installation available</li>
+                                           <li>Provides reliable vertical access for wheelchairs and mobility scooters</li>
+<li>Designed for porch, deck, and challenging entryway access</li>
+<li>Functions like a mini home elevator for residential accessibility</li>
+<li>Automatic self-lowering folding ramp for convenient access</li>
+<li>Quiet and smooth operation for enhanced user comfort</li>
+<li>Weather-resistant finish and controls for outdoor use</li>
+<li>Emergency stop switch conveniently located on the platform</li>
+<li>Safety sensors detect obstructions and stop the lift during operation</li>
+<li>AC power options available for standard installations</li>
+<li>DC battery power provides operation during power outages</li>
+<li>Separate up and down push-button controls with key switch security</li>
+<li>Space-efficient design helps maximize available porch or deck space</li>
+<li>Rugged, reliable, and affordable accessibility solution</li>
+<li>Suitable for wheelchair users, scooter users, and caregivers</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -444,13 +451,13 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Installation Details</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li> Installation completed on existing tub</li>
-                                            <li> Installed in less than one day</li>
-                                            <li> Greatly reduces the possibility of falls</li>
-                                            <li> Enables easy step-in access</li>
-                                            <li> Our most affordable product</li>
-                                            <li> Professional installation by CleanCut specialists</li>
-                                            <li> Ideal for high-profile tubs (14.75" + tall)</li>
+                                             <li>Designed for installation at porches, decks, and raised entryways</li>
+<li>Professional installation recommended for safe and reliable operation</li>
+<li>Installation requirements vary depending on lift height and site conditions</li>
+<li>Available AC and DC power configurations based on installation requirements</li>
+<li>Proper placement allows convenient wheelchair and scooter access</li>
+<li>Installation site should be evaluated to determine the appropriate configuration</li>
+<li>Professional installation ensures proper setup, safety, and operation</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -459,7 +466,7 @@
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <div class="flex items-center justify-between mb-2">
                                             <h3 class="text-xl font-semibold text-gray-800">Pricing</h3>
-                                            <span class="text-sm text-gray-800">Starts at $1,150 including installation</span>
+                                            <span class="text-sm text-gray-800">Starts at $9,000 + installation</span>
                                         </div>
                                         <div class="flex items-center justify-between mb-2">
                                             <h3 class="text-xl font-semibold text-gray-800">Call Us</h3>

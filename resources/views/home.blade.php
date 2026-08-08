@@ -844,7 +844,6 @@
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">Accessibility Solutions for Your
                     Home</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">At Home2stay, we specialize in making Vancouver homes safer and more accessible for seniors, individuals with mobility challenges, and families of all abilities. From stair lifts and bathroom renovations to grab bars, ramps, and safety equipment, we supply and install everything you need to stay comfortable and independent at home.</p>
             </div>
             @include('partials.services')
         </div>

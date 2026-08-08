@@ -83,7 +83,7 @@
                 <!-- Product Card 2 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('/home-page-card-images/Flow X_Detail 39.webp') }}" alt="Stairlifts"
+                        <img src="{{ asset('/home-page-card-images/Flow X_Detail 34.jpg') }}" alt="Stairlifts"
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
@@ -245,7 +245,7 @@
                 <!-- Product Card 4 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/home-page-ramps-card.png') }}" alt="Ramps" class="w-full h-full object-cover">
+                        <img src="{{ asset('/home-page-card-images/elev8-goes-up-to-the-door (Small).jpg') }}" alt="Ramps" class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">
                         <a href="/products-categories/ramps/">
@@ -324,7 +324,7 @@
                 <!-- Product Card 5 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/clean-tub-cut.png') }}" alt="Tub Cuts"
+                        <img src="{{ asset('/home-page-card-images/2 (6).jpg') }}" alt="Tub Cuts"
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">

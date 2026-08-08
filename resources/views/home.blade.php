@@ -973,7 +973,7 @@
                 <div class="flex flex-col lg:flex-row">
                     <!-- Image Side -->
                     <div class="w-full lg:w-1/2 relative overflow-hidden">
-                        <img src="{{ asset('/al-prod-page-imgs/11526-Revision-to-10981-Assisted-Living-1-12-14-2020-scaled.jpg') }}" 
+                        <img src="{{ asset('/home-page-card-images/barrier-free-bathroom.jpg') }}" 
                              alt="Bathroom Remodeling Service"
                              class="w-full h-64 lg:h-full object-cover transform hover:scale-105 transition-transform duration-700">
                         <div class="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent"></div>
@@ -1071,7 +1071,7 @@
 <div class="grid grid-cols-1 gap-12 lg:grid-cols-2">
     <!-- Image Side -->
     <div class="relative h-[400px] overflow-hidden rounded-2xl shadow-xl lg:h-full">
-        <img src="{{ asset('/al-prod-page-imgs/5165-Best-Bath-Trench-Drain-Pan-11-02-2015b-1-1024x682-2.jpeg') }}" 
+        <img src="{{ asset('/home-page-card-images/Flow X_Main 35.jpg') }}" 
              alt="Home Accessibility Service"
              class="h-full w-full object-cover">
         

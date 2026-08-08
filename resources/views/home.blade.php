@@ -706,7 +706,7 @@
                     <!-- Slide 1: Stairlift Flow X -->
                     <div class="swiper-slide">
                         <div class="hero-slide-bg">
-                            <img src="{{ asset('h2s-banners/Flow X_Detail 25.webp') }}" alt="Stairlift Flow X" class="hero-slide-image">
+                            <img src="{{ asset('h2s-banners/Flow X_Main 8.jpg') }}" alt="Stairlift Flow X" class="hero-slide-image">
                             <div class="hero-slide-overlay"></div>
                         </div>
                     </div>
@@ -722,7 +722,7 @@
                     <!-- Slide 3: Sentrel Bathroom -->
                     <div class="swiper-slide">
                         <div class="hero-slide-bg">
-                            <img src="{{ asset('h2s-banners/11526-Revision-to-10981-Assisted-Living-2-12-14-2020-VM-Artwork-Option-2-scaled.jpg') }}" alt="Sentrel Bathroom" class="hero-slide-image">
+                            <img src="{{ asset('h2s-banners/Flow X_Main_Wide 6.jpg') }}" alt="Sentrel Bathroom" class="hero-slide-image">
                             <div class="hero-slide-overlay"></div>
                         </div>
                     </div>

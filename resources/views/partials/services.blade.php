@@ -83,7 +83,7 @@
                 <!-- Product Card 2 -->
                 <div class="product-card">
                     <div class="card-img">
-                        <img src="{{ asset('/al-prod-page-imgs/Flow X_Detail 39.webp') }}" alt="Stairlifts"
+                        <img src="{{ asset('/home-page-card-images/Flow X_Detail 39.webp') }}" alt="Stairlifts"
                             class="w-full h-full object-cover">
                     </div>
                     <div class="card-body">

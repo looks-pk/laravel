@@ -425,7 +425,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Rectangle%20320-min.png') }}" alt="Bathroom Safety Solutions"
+                        <img src="{{ asset('al-prod-page-imgs/11526-Revision-to-10981-Assisted-Living-2-12-14-2020-VM-Artwork-Option-2-scaled.webp') }}" alt="Bathroom Safety Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

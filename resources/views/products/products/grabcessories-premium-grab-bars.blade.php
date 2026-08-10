@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
 @section('title', 'Grabcessories Premium Grab Bars by Home2Stay - Safety Meets Style')
-@section('meta_description', 'Grabcessories Premium Grab Bars by Home2Stay. Durable, rust-resistant, stylish grab bars. Easy installation, ergonomic design, up to 250 lbs weight capacity.')
+@section('meta_description', 'Grabcessories Premium Grab Bars by Home2stay. Durable, rust-resistant, stylish grab bars. Easy installation, ergonomic design, up to 250 lbs weight capacity.')
 
 @section('content')
     <!-- Hero Section -->
@@ -52,7 +52,7 @@
                         </li>
                     </ol>
                 </nav>
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Grabcessories Premium Grab Bars â€“ Safety Meets Style</h1>
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Grabcessories Premium Grab Bars & Safety Meets Style</h1>
                 <div class="flex items-center mb-4">
                     <div class="flex text-yellow-400">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">

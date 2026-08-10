@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
 @section('title', 'Home2stay Plus Toilet Paper Holder - Home2stay')
-@section('meta_description', 'Using the wall as a grab bar doesnâ€™t have to happen. The PLUS Toilet Paper Holder mounts against the wall [&hellip;]')
+@section('meta_description', 'Using the wall as a grab bar does not have to happen. The PLUS Toilet Paper Holder mounts against the wall [&hellip;]')
 
 @section('content')
     <!-- Hero Section -->
@@ -418,7 +418,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Rectangle%20320-min.png') }}" alt="Bathroom Safety Solutions"
+                        <img src="{{ asset('al-prod-page-imgs/61022_chrome_2-in-1-grab-bars-toilet-paper-holder1 (1).webp') }}" alt="Bathroom Safety Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -772,6 +772,11 @@
         .tab-pane.active {
             display: block;
         }
+
+           .text-secondary{
+          color: #FF0000!important;
+          font-weight: 700 !important;
+   }
 
         .line-clamp-3 {
             display: -webkit-box;

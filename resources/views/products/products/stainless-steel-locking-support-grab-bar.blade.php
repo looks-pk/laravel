@@ -788,7 +788,10 @@
         .tab-pane.active {
             display: block;
         }
-
+   .text-secondary{
+          color: #FF0000 !important;
+          font-weight: 700 !important;
+   }
         .line-clamp-3 {
             display: -webkit-box;
             -webkit-line-clamp: 3;

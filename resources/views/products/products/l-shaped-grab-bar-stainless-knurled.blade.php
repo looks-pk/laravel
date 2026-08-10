@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
 @section('title', 'Home2stay L-Shaped Grab Bar (Stainless Knurled) - Home2stay')
-@section('meta_description', 'HealthCraftâ€™s L-shaped grab bar is perfect for those tricky spots in your bathroom. Other L-shaped grab bars donâ€™t always line [&hellip;]')
+@section('meta_description', 'HealthCraft L-shaped grab bar is perfect for those tricky spots in your bathroom. Other L-shaped grab bars donn't always line [&hellip;]')
 
 @section('content')
     <!-- Hero Section -->
@@ -403,7 +403,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Rectangle%20320-min.png') }}" alt="Bathroom Safety Solutions"
+                        <img src="{{  asset('bathsafety-cat/Product-Installation-GBLS06-600x401-1-min.jpg') }}" alt="Bathroom Safety Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -741,6 +741,10 @@
         .tab-pane.active {
             display: block;
         }
+           .text-secondary{
+          color: #FF0000!important;
+          font-weight: 700 !important;
+               }
 
         .line-clamp-3 {
             display: -webkit-box;

@@ -238,7 +238,7 @@
 
                     <div class="bg-gray-50 p-6 rounded-lg">
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Trusted by Families Across Vancouver</h3>
-                        <p class="text-gray-600">Home2Stay is known for quality work, friendly service, and a commitment to making homes safer for everyone.</p>
+                        <p class="text-gray-600">Home2stay is known for quality work, friendly service, and a commitment to making homes safer for everyone.</p>
                     </div>
                 </div>
             </div>
@@ -263,7 +263,7 @@
                         </ul>
                         <h3 class="text-2xl font-bold text-gray-800 mb-3">Safety and Style — No Compromise:</h3>
                         <p class="text-lg text-gray-600 mb-4">
-                            Falls are the leading cause of home injury in Canada. A properly installed glass mounted promenade handrail gives you a strong, reliable grip exactly where it's needed — without the visual heaviness of traditional wall-mounted rails. With Home2Stay handling the installation, you get peace of mind that your rail is safe, compliant, and built to last through Vancouver's climate and daily life.
+                            Falls are the leading cause of home injury in Canada. A properly installed glass mounted promenade handrail gives you a strong, reliable grip exactly where it's needed — without the visual heaviness of traditional wall-mounted rails. With Home2stay handling the installation, you get peace of mind that your rail is safe, compliant, and built to last through Vancouver's climate and daily life.
                         </p>
                     </div>
                     <!-- Image -->

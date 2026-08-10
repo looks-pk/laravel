@@ -757,7 +757,10 @@
         .tab-pane {
             display: none;
         }
-
+   .text-secondary{
+          color: #FF0000 !important;
+          font-weight: 700 !important;
+   }
         .tab-pane.active {
             display: block;
         }

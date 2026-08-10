@@ -400,7 +400,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('np-img/grab-bar-page.webp') }}" alt="Bathroom Safety Solutions"
+                        <img src="{{ asset('np-img/GB-24-CP-1138x667.webp') }}" alt="Bathroom Safety Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

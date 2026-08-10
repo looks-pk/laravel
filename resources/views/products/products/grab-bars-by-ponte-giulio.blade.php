@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Grab Bars by Ponte Giulio - Premium Safety & Style at Home2Stay')
-@section('meta_description', 'Grab Bars by Ponte Giulio at Home2Stay. Premium stainless steel, ergonomic design, multiple finishes. Custom order bars available. Safety with modern aesthetics.')
+@section('title', 'Grab Bars by Ponte Giulio - Premium Safety & Style at Home2stay')
+@section('meta_description', 'Grab Bars by Ponte Giulio at Home2stay. Premium stainless steel, ergonomic design, multiple finishes. Custom order bars available. Safety with modern aesthetics.')
 
 @section('content')
     <!-- Hero Section -->
@@ -139,7 +139,7 @@
                     </div>
 
                     <div class="mb-6 p-4 bg-green-50 border-l-4 border-green-400 rounded-r-lg">
-                        <h3 class="font-semibold text-green-800 mb-2">Home2Stay Guarantee:</h3>
+                        <h3 class="font-semibold text-green-800 mb-2">Home2stay Guarantee:</h3>
                         <div class="space-y-1 text-green-700">
                             <p><strong>We stand behind the quality and durability of Ponte Giulio Grab Bars. Our commitment is to provide you with exceptional products and outstanding customer service. Custom order bars are available to meet your specific needs.</strong></p>
                         </div>
@@ -283,7 +283,7 @@
 
                                     <div class="p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
                                         <p class="text-yellow-800 font-medium">
-                                            Available for NEXT-DAY delivery and installation via the Home2Stay Express booking form! Perfect for tubs at least 14.75" tall.
+                                            Available for NEXT-DAY delivery and installation via the Home2stay Express booking form! Perfect for tubs at least 14.75" tall.
                                         </p>
                                     </div>
                                 </div>

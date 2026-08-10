@@ -320,13 +320,13 @@
 
                                     <div class="p-4 bg-green-50 border-l-4 border-green-400 rounded-r-lg">
                                         <p class="text-green-800 font-medium">
-                                           Get a customized price based on your grab bar selection, installation requirements, and the number of grab bars needed. Home2Stay combines quality products with professional installation and local expertise to help create a safer, more accessible home.
+                                           Get a customized price based on your grab bar selection, installation requirements, and the number of grab bars needed. Home2stay combines quality products with professional installation and local expertise to help create a safer, more accessible home.
                                         </p>
                                     </div>
 
                                     <div class="p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
                                         <p class="text-yellow-800 font-medium">
-                                            Contact Home2Stay today for a personalized quote and installation options.
+                                            Contact Home2stay today for a personalized quote and installation options.
                                         </p>
                                     </div>
                                 </div>

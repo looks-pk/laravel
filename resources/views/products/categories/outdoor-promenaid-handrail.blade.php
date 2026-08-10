@@ -134,7 +134,7 @@
                             Installing an outdoor handrail requires more than just mounting a rail — the anchoring must hold against load, weather movement, and years of outdoor use. Home2stay assesses your specific outdoor surface, selects the correct bracket type and fasteners for concrete, wood, or masonry, and installs the Promenaid rail to meet BC building code requirements for exterior handrails.
                         </p>
                         <p class="text-lg text-gray-600 mb-6">
-                            We work efficiently and leave your outdoor space clean and ready to use. Every installation includes a load test on each bracket and a final alignment check before we sign off. Vancouver homeowners choose Home2Stay for outdoor Promenaid Handrail installation because we get the anchoring right — and it shows in how the rail performs over time.
+                            We work efficiently and leave your outdoor space clean and ready to use. Every installation includes a load test on each bracket and a final alignment check before we sign off. Vancouver homeowners choose Home2stay for outdoor Promenaid Handrail installation because we get the anchoring right — and it shows in how the rail performs over time.
                         </p>
                         <p class="mb-5">Give us a call at <b><a href="tel:+16042591211" style="color: red;">(604) 259-1211</a></b> or submit a <b> <a href="#assessment" style="color: red;">FREE ASSESSMENT FORM</a></b> to get started.</p>
                     </div>

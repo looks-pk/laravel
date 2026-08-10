@@ -336,22 +336,22 @@
                             <div class="tab-pane" data-tab="images-tab" style="display: none !important;">
                                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('grabbars/Grabcessories Premium Grab Bars â€“ Safety Meets Style-1.webp') }}"
+                                        <img src="{{ asset('grabbars/GB-24-BLK-1138x667.webp') }}"
                                             alt="Home2stay Tub Cut Ultra-Low"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('grabbars/Grabcessories Premium Grab Bars â€“ Safety Meets Style-2.jpg') }}"
+                                        <img src="{{ asset('grabbars/GB-24-CP-1138x667.webp') }}"
                                             alt="Home2stay Tub Cut Ultra-Low"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('grabbars/Grabcessories Premium Grab Bars â€“ Safety Meets Style-3.jpg') }}"
+                                        <img src="{{ asset('grabbars/GB-24-SK-004-1138x667.webp') }}"
                                             alt="Home2stay Tub Cut Ultra-Low"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('grabbars/Grabcessories Premium Grab Bars â€“ Safety Meets Style.webp') }}"
+                                        <img src="{{ asset('grabbars/Grabcessories Premium Grab Bars – Safety Meets Style-2.jpg') }}"
                                             alt="Home2stay Tub Cut Ultra-Low"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
@@ -507,7 +507,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('grabbars/Grabcessories Premium Grab Bars â€“ Safety Meets Style-3.jpg') }}" alt="Bathroom Safety Solutions"
+                        <img src="{{ asset('grabbars/GB-24-BLK-1138x667.webp') }}" alt="Bathroom Safety Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

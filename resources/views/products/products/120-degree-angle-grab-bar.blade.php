@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
 @section('title', 'Home2stay 120 Degree Angle Grab Bar - Home2stay')
-@section('meta_description', 'Healthcraftâ€™s 120 Degree Angle Grab provides strength and security. It is designed for shower and bathroom safety and since it [&hellip;]')
+@section('meta_description', 'Healthcraft 120 Degree Angle Grab provides strength and security. It is designed for shower and bathroom safety and since it [&hellip;]')
 
 @section('content')
     <!-- Hero Section -->
@@ -387,7 +387,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Rectangle%20320-min.png') }}" alt="Bathroom Safety Solutions"
+                        <img src="{{ asset('al-prod-page-imgs/GB-24-BLK-1138x667.webp') }}" alt="Bathroom Safety Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -721,7 +721,10 @@
         .tab-pane {
             display: none;
         }
-
+   .text-secondary{
+          color: #FF0000 !important;
+          font-weight: 700 !important;
+   }
         .tab-pane.active {
             display: block;
         }

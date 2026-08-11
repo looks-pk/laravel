@@ -446,7 +446,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Rectangle%20320-min.png') }}" alt="Ceiling Lift Solutions"
+                        <img src="{{ asset('bathsafety-cat/Untitled-2.jpg') }}" alt="Ceiling Lift Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -513,7 +513,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need, we would love to hear from you!</p>
                 </div>
 
                 <form action="/submit-product-inquiry" method="POST" class="space-y-6">
@@ -768,6 +768,11 @@
             display: block;
         }
 
+     .text-secondary {
+    color: #ff0000 !important;
+    font-weight: 700 !important;
+}
+        
         .line-clamp-3 {
             display: -webkit-box;
             -webkit-line-clamp: 3;

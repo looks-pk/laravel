@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Floating Vanity by Home2Stay - Modern Bathroom Cabinet Solutions')
-@section('meta_description', 'Home2Stay Floating Vanity - Modern wall-mounted bathroom vanity. Space-enhancing design with smart storage. Refined elegance with minimalist aesthetic for contemporary bathrooms.')
+@section('title', 'Floating Vanity by Home2stay - Modern Bathroom Cabinet Solutions')
+@section('meta_description', 'Home2stay Floating Vanity - Modern wall-mounted bathroom vanity. Space-enhancing design with smart storage. Refined elegance with minimalist aesthetic for contemporary bathrooms.')
 
 @section('content')
     <!-- Hero Section -->
@@ -106,7 +106,7 @@
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Boost your bathroom with refined modern elegance. The Home2Stay Floating Vanity blends smooth design with superior functionality for a truly transformative upgrade. Designed to maximize space while adding a minimalist aesthetic, this wall-mounted vanity becomes the centrepiece of any contemporary bathroom.
+                            Boost your bathroom with refined modern elegance. The Home2stay Floating Vanity blends smooth design with superior functionality for a truly transformative upgrade. Designed to maximize space while adding a minimalist aesthetic, this wall-mounted vanity becomes the centrepiece of any contemporary bathroom.
                         </p>
                     </div>
                     <div class="mb-6">
@@ -114,12 +114,12 @@
                             Key Features & Benefits:
                         </p>
                         <p class="text-gray-600 text-lg mb-4">
-                            The Home2Stay Floating Vanity features a smooth wall-mounted design that maximizes floor space while delivering a modern, minimalist look. Crafted from durable, moisture-resistant materials, it offers smart storage and easy maintenance for everyday comfort and style.
+                            The Home2stay Floating Vanity features a smooth wall-mounted design that maximizes floor space while delivering a modern, minimalist look. Crafted from durable, moisture-resistant materials, it offers smart storage and easy maintenance for everyday comfort and style.
                         </p>
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg font-semibold">
-                            Why Choose Home2Stay Floating Vanity?
+                            Why Choose Home2stay Floating Vanity?
                         </p>
                         <ul class="text-gray-600 text-lg space-y-2">
                             <li><strong>Space-enhancing design:</strong> The floating build visually expands your bathroom and opens up floor space.</li>
@@ -131,7 +131,7 @@
                     <div class="mb-6 p-4 bg-blue-50 border-l-4 border-blue-400 rounded-r-lg">
                         <h3 class="font-semibold text-blue-800 mb-2">Ready to Transform Your Bathroom?</h3>
                         <div class="space-y-1 text-blue-700">
-                            <p><strong>Custom millwork vanity, exclusively customized for your home by Home2Stay, brings customized elegance and functional beauty into your home.</strong></p>
+                            <p><strong>Custom millwork vanity, exclusively customized for your home by Home2stay, brings customized elegance and functional beauty into your home.</strong></p>
                         </div>
                     </div>
 
@@ -270,7 +270,7 @@
                                     <div class="bg-blue-50 rounded-lg p-6 border-l-4 border-blue-400">
                                         <h4 class="text-lg font-semibold text-blue-900 mb-3">Request a Custom Quote</h4>
                                         <p class="text-blue-800 mb-4">
-                                            Every Home2Stay Vanity is customizable based on your specific bathroom space, size requirements, material preferences, and design needs. Pricing varies depending on your selections.
+                                            Every Home2stay Vanity is customizable based on your specific bathroom space, size requirements, material preferences, and design needs. Pricing varies depending on your selections.
                                         </p>
                                         <p class="text-blue-800 font-medium">
                                             Please contact us to discuss your requirements and receive a personalized quote.
@@ -319,9 +319,9 @@
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <h4 class="text-lg font-semibold text-gray-800 mb-3">Countertop Materials</h4>
                                         <div class="space-y-2 text-sm text-gray-600">
-                                            <p>â€¢ Quartz - Durable and low-maintenance</p>
-                                            <p>â€¢ Marble - Elegant and luxurious</p>
-                                            <p>â€¢ Engineered Stone - Practical and versatile</p>
+                                            <p> Quartz - Durable and low-maintenance</p>
+                                            <p> Marble - Elegant and luxurious</p>
+                                            <p> Engineered Stone - Practical and versatile</p>
                                         </div>
                                     </div>
 
@@ -395,7 +395,7 @@
                                     <h3 class="text-xl font-semibold text-gray-800 mb-4">From Concept to Completion</h3>
 
                                     <p class="text-gray-600 mb-6">
-                                        Your Home2Stay custom vanity begins with an in-depth design consultation. We review your space, discuss style preferences, and create custom drawings so you know exactly what to expect. Once approved, our artisans begin crafting your piece, with regular updates and a commitment to on-time delivery.
+                                        Your Home2stay custom vanity begins with an in-depth design consultation. We review your space, discuss style preferences, and create custom drawings so you know exactly what to expect. Once approved, our artisans begin crafting your piece, with regular updates and a commitment to on-time delivery.
                                     </p>
 
                                     <div class="bg-blue-50 rounded-lg p-4 border-l-4 border-blue-400">
@@ -437,9 +437,9 @@
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <h4 class="text-lg font-semibold text-gray-800 mb-3">Sink Options</h4>
                                         <ul class="space-y-2 text-gray-600 text-sm">
-                                            <li>â€¢ Single Sink Configuration (36", 48")</li>
-                                            <li>â€¢ Double Sink Configuration (60", 72")</li>
-                                            <li>â€¢ Custom Sink Placements Available</li>
+                                            <li> Single Sink Configuration (36", 48")</li>
+                                            <li> Double Sink Configuration (60", 72")</li>
+                                            <li> Custom Sink Placements Available</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -485,12 +485,12 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Why Choose Home2Stay Vanities</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Premium wood construction with moisture-resistant finishes</li>
-                                            <li>â€¢ Elegant design for modern and traditional bathrooms</li>
-                                            <li>â€¢ Customizable sizes and configurations</li>
-                                            <li>â€¢ Multiple finish options to match your style</li>
-                                            <li>â€¢ Expert installation services available</li>
-                                            <li>â€¢ Trusted by homeowners for quality and beauty</li>
+                                            <li> Premium wood construction with moisture-resistant finishes</li>
+                                            <li> Elegant design for modern and traditional bathrooms</li>
+                                            <li> Customizable sizes and configurations</li>
+                                            <li> Multiple finish options to match your style</li>
+                                            <li> Expert installation services available</li>
+                                            <li> Trusted by homeowners for quality and beauty</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -561,7 +561,7 @@
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
                         <h2 class="text-3xl font-bold text-gray-800 mb-4">Transform Your Bathroom with Elegance</h2>
-                        <p class="text-lg text-gray-600 mb-6" >Home2Stay Vanities combine thoughtful design with reliable performance, creating a beautiful and functional bathroom environment. Experience the perfect blend of style and substance.</p>
+                        <p class="text-lg text-gray-600 mb-6" >Home2stay Vanities combine thoughtful design with reliable performance, creating a beautiful and functional bathroom environment. Experience the perfect blend of style and substance.</p>
                         <p class="mb-5">Give us a call at <a href="tel:+16042591211" class="text-secondary" style="font-weight: bold; color: red;">604-259-1211</a>
                             or submit a FREE <a href="#assessment" class="text-secondary" style="font-weight: bold; color: red;">ASSESSMENT FORM</a> to check.</p>
                     </div>
@@ -642,7 +642,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need, we
                         would love to hear from you!</p>
                 </div>
 
@@ -784,7 +784,7 @@
                     <div class="mb-6">
                         <h4 class="text-lg font-semibold mb-4 text-primary">Product Information</h4>
                         <div class="p-3 bg-gray-50 rounded-lg mb-4">
-                            <p>You're requesting a quote for: <span class="font-semibold text-primary">Home2Stay Floating Vanity</span></p>
+                            <p>You're requesting a quote for: <span class="font-semibold text-primary">Home2stay Floating Vanity</span></p>
                         </div>
                     </div>
 

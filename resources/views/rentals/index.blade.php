@@ -409,20 +409,17 @@
 @endpush
 
 @section('content')
-    <!-- Page Banner -->
+  <!-- 
     <section class="relative bg-gray-800 overflow-hidden" style="min-height: 350px;">
-
-
-        <!-- Banner Content -->
         <div class="container mx-auto px-4 relative z-10 flex items-center justify-center" style="min-height: 350px;">
             <div class="text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Rentals</h1>
                 <div class="w-24 h-1 bg-primary mx-auto"></div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <!-- Enhanced Intro Section -->
+
     <section class="intro-section py-16 md:py-20 relative overflow-hidden">
         <!-- Decorative Background Elements -->
         <div class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-blue-50"></div>

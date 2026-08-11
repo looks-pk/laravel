@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
 @section('title', 'Custom Millwork by Home2stay - Precision-Built Bathroom Vanities')
-@section('meta_description', 'Custom millwork bathroom vanities by Home2Stay. Precision-designed vanities crafted with premium materials and artisan accuracy. Transform your bathroom with bespoke custom vanities.')
+@section('meta_description', 'Custom millwork bathroom vanities by Home2stay. Precision-designed vanities crafted with premium materials and artisan accuracy. Transform your bathroom with bespoke custom vanities.')
 
 @section('content')
     <!-- Hero Section -->

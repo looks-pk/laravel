@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
 @section('title', 'Home2stay L-Shaped Grab Bar (Stainless Knurled) - Home2stay')
-@section('meta_description', 'HealthCraft L-shaped grab bar is perfect for those tricky spots in your bathroom. Other L-shaped grab bars donn't always line [&hellip;]')
+@section('meta_description', 'HealthCraft L-shaped grab bar is perfect for those tricky spots in your bathroom. Other L-shaped grab bars do not always line [&hellip;]')
 
 @section('content')
     <!-- Hero Section -->

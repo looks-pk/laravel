@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Flooring & Plumbing Solutions | Premium Quality Products - Home2Stay')
-@section('meta_description', 'Home2Stay flooring and plumbing solutions. High-quality engineered wood, luxury vinyl plank, laminate flooring, brass valves, and compression fittings. Professional installation available.')
+@section('title', 'Flooring & Plumbing Solutions | Premium Quality Products - Home2stay')
+@section('meta_description', 'Home2stay flooring and plumbing solutions. High-quality engineered wood, luxury vinyl plank, laminate flooring, brass valves, and compression fittings. Professional installation available.')
 
 @push('styles')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -13,20 +13,20 @@
 @endpush
 
 @section('content')
-    <!-- Hero Banner -->
-    <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
-        <!-- Background Image with Overlay -->
+
+    <!-- <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
+       
         <div class="absolute inset-0 bg-cover bg-center"
             style="background-image: url('{{ asset('al-prod-page-imgs/Ramps.jpg') }}');">
             <div class="absolute inset-0 bg-black opacity-60"></div>
         </div>
 
-        <!-- Hero Content -->
+     
         <div class="container mx-auto px-4 relative z-10 flex items-center" style="min-height: 500px;">
             <div class="max-w-3xl">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Flooring & Plumbing Solutions</h1>
                 <p class="text-xl text-white/90 mb-8">
-                    Home2Stay offers high-quality floors and plumbing products that enhance the comfort, durability and style of every home.
+                    Home2stay offers high-quality floors and plumbing products that enhance the comfort, durability and style of every home.
                 </p>
                 <div class="flex flex-wrap gap-4">
                     <a href="#products"
@@ -40,7 +40,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Products Section -->
     <section id="products" class="py-16 bg-gray-50">
@@ -68,7 +68,7 @@
                     <div class="p-6 flex-1 flex flex-col">
                         <a href="/products/flooring-and-plumbing-solutions">
                         <h3 class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">Flooring & Plumbing Solutions for Modern Living</h3> </a>
-                        <p class="text-gray-600 mb-4 flex-grow">Home2Stay offers high-quality floors that enhance the comfort, durability and style of every home. No matter if you are renovating, upgrading</p>
+                        <p class="text-gray-600 mb-4 flex-grow">Home2stay offers high-quality floors that enhance the comfort, durability and style of every home. No matter if you are renovating, upgrading</p>
                         <a href="/products/flooring-and-plumbing-solutions"
                             class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
                             View Product
@@ -88,7 +88,7 @@
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
                         <a href="/products/plumbing-fixtures">
-                        <h3 class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">Home2Stay | Flooring & Plumbing</h3> </a>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">Home2stay | Flooring & Plumbing</h3> </a>
                         <p class="text-gray-600 mb-4 flex-grow">Improve your space with High-Quality Plumbing Fixtures. Choose fixtures with durability, functionality and timeless style.</p>
                         <a href="/products/plumbing-fixtures"
                             class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
@@ -108,7 +108,7 @@
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Home2Stay Flooring & Plumbing</h2>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Choose Home2stay Flooring & Plumbing</h2>
                     <p class="text-lg text-gray-600">
                         Discover high-quality flooring and plumbing solutions that enhance comfort, durability and style while providing long-lasting performance.
                     </p>
@@ -164,7 +164,7 @@
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
                         <h2 class="text-3xl font-bold text-gray-800 mb-4">Premium Flooring & Plumbing for Modern Homes</h2>
                         <p class="text-lg text-gray-600 mb-6">
-                            Home2Stay offers high-quality floors and plumbing products that enhance the comfort, durability and style of every home. Whether you are renovating, upgrading, or building an entire room, we have flooring solutions that provide long-lasting beauty and professional-grade performance across the British Columbia region.</p>
+                            Home2stay offers high-quality floors and plumbing products that enhance the comfort, durability and style of every home. Whether you are renovating, upgrading, or building an entire room, we have flooring solutions that provide long-lasting beauty and professional-grade performance across the British Columbia region.</p>
                         <p class="mb-5">Ready to upgrade your home? Give us a call at <b><a href="tel:+16042591211" style="color: red;">(604) 259-1211</a></b> or submit a <b> <a href="#assessment" style="color: red;">FREE CONSULTATION FORM</a></b> to explore options.
                         </p>
                     </div>
@@ -187,7 +187,7 @@
 
                     <div class="prose prose-lg max-w-none">
                         <p class="text-gray-700 mb-4">
-                            At Home2Stay, we provide premium flooring and plumbing products designed for durability, performance, and style. From engineered wood flooring to luxury vinyl plank, laminate options, brass valves, and compression fittings, our products are crafted from high-quality materials to enhance your home.
+                            At Home2stay, we provide premium flooring and plumbing products designed for durability, performance, and style. From engineered wood flooring to luxury vinyl plank, laminate options, brass valves, and compression fittings, our products are crafted from high-quality materials to enhance your home.
                         </p>
 
                         <p class="text-gray-700 mb-4">
@@ -207,7 +207,7 @@
                         <h3 class="text-2xl font-bold text-gray-800 mt-8 mb-4">Expert Consultation & Professional Installation</h3>
 
                         <p class="text-gray-700 mb-4">
-                            Schedule a FREE CONSULTATION with Home2Stay and our experts will help you select the perfect flooring and plumbing products for your space. Our team will assess your requirements, discuss your preferences, and recommend solutions that fit your needs and budget.
+                            Schedule a FREE CONSULTATION with Home2stay and our experts will help you select the perfect flooring and plumbing products for your space. Our team will assess your requirements, discuss your preferences, and recommend solutions that fit your needs and budget.
                         </p>
 
                         <p class="text-gray-700 mb-4">

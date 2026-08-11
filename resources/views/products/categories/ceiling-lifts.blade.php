@@ -13,15 +13,15 @@
 @endpush
 
 @section('content')
-    <!-- Hero Banner -->
+    <!-- 
     <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
-        <!-- Background Image with Overlay -->
+       
         <div class="absolute inset-0 bg-cover bg-center"
             style="background-image: url('{{ asset('al-prod-page-imgs/celling-lifting.webp') }}');">
             <div class="absolute inset-0 bg-black opacity-60"></div>
         </div>
 
-        <!-- Hero Content -->
+    
         <div class="container mx-auto px-4 relative z-10 flex items-center" style="min-height: 500px;">
             <div class="max-w-3xl">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Ceiling Lifts</h1>
@@ -40,7 +40,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Products Section -->
     <section id="products" class="py-16 bg-gray-50">
@@ -240,7 +240,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Rectangle%20320-min.png') }}" alt="Ceiling Lift Installation"
+                        <img src="{{ asset('bathsafety-cat/Protable.jpg') }}" alt="Ceiling Lift Installation"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

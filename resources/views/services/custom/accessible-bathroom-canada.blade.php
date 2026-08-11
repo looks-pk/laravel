@@ -4,14 +4,12 @@
 @section('meta_description', 'Home2stay offers professional accessible bathroom solutions across Canada. Our team creates safe, stylish, and functional bathrooms for all mobility needs.')
 
 @section('content')
-    <!-- Hero Section -->
+  <!-- 
     <section class="relative pt-16 pb-12 md:pt-24 md:pb-16 bg-gradient-to-r from-primary to-primary-dark text-white">
-        <!-- Background Image with Overlay -->
         <div class="absolute inset-0 bg-cover bg-center z-0"
             style="background-image: url('{{ asset('/al-prod-page-imgs/grab-bar-cover.png') }}');">
             <div class="absolute inset-0 bg-black opacity-50"></div>
         </div>
-        
         <div class="container mx-auto px-4 relative z-10">
             <div class="flex flex-col items-start">
                 <nav class="flex mb-4 text-sm" aria-label="Breadcrumb">
@@ -45,7 +43,7 @@
                 <p class="text-lg md:text-xl opacity-90 max-w-3xl">The traditional bathroom can become challenging for the elderly and individuals with mobility issues. In Vancouver, almost a quarter of people aged 55 and older have trouble with their mobility. That's why our team at Home2stay is ready to help you make your bathrooms safer and more accessible. From grab bars to cutouts, Home2stay has the products you need to build your accessible bathroom in Canada.</p>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- What is an Accessible Bathroom -->
     <section class="py-12 md:py-16 bg-white">
@@ -94,7 +92,7 @@
                     <p class="text-gray-600 mb-6">
                         When installed in your accessible bathroom in Canada, these tub cuts allow the bathroom to remove one section of the tub wall. This makes it easier for people to step into the shower.
                     </p>
-                    <a href="#" class="inline-flex items-center px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-primary-dark transition duration-300">
+                    <a href="/products-categories/tub-cuts/" class="inline-flex items-center px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-primary-dark transition duration-300">
                         View Products
                     </a>
                 </div>
@@ -115,7 +113,7 @@
                     <p class="text-gray-600 mb-6">
                         Grab bars are always made from durable materials like stainless steel. Our products here at Home2stay come in different sizes, styles, and configurations for your bathroom.
                     </p>
-                    <a href="#" class="inline-flex items-center px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-primary-dark transition duration-300">
+                    <a href="/products-categories/grab-bars/" class="inline-flex items-center px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-primary-dark transition duration-300">
                         View Products
                     </a>
                 </div>
@@ -136,7 +134,7 @@
                     <p class="text-gray-600 mb-6">
                         This can include roll-in showers, handheld showerheads, raised toiles, wall-mounted sinks, and lever-handled faucets.
                     </p>
-                    <a href="#" class="inline-flex items-center px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-primary-dark transition duration-300">
+                    <a href="/products-categories/barrier-free-bathrooms/" class="inline-flex items-center px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-primary-dark transition duration-300">
                         View Products
                     </a>
                 </div>
@@ -154,6 +152,7 @@
                         In an accessible bathroom, sinks are installed at a lower height and have different features to make them more convenient to use.
                         This is done by providing more knee clearing and a deeper basin so that wheelchair users can easily roll up to the sink. They may also have a single-lever faucet. You may choose to add anti-scald devices to regulate the water temperature.
                     </p>
+                    
                 </div>
                 
                 <!-- ADA-Compliant Faucets -->
@@ -179,7 +178,7 @@
                         These can include shower chairs, non-slip mats, raised toilet seats, and transfer benches. With these installed, you reduce the chances of falls and injuries, making the entire space safer and more accessible.
                     </p>
                     <div class="mt-4">
-                        <a href="#" class="inline-flex items-center px-4 py-2 bg-primary text-white font-medium rounded-lg hover:bg-primary-dark transition duration-300 text-sm">
+                        <a href="/products-categories/bathroom-safety/" class="inline-flex items-center px-4 py-2 bg-primary text-white font-medium rounded-lg hover:bg-primary-dark transition duration-300 text-sm">
                             View Products
                         </a>
                     </div>

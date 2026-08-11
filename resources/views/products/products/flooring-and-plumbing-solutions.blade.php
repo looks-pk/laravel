@@ -548,7 +548,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Rectangle%20320-min.png') }}" alt="Flooring and Plumbing Solutions"
+                        <img src="{{ asset('/al-prod-page-imgs/flooring-plumbin-modern.png') }}" alt="Flooring and Plumbing Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

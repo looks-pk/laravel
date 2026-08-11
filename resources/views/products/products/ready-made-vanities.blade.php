@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Home2Stay Vanities - Premium Bathroom Cabinet Solutions')
-@section('meta_description', 'Premium Home2Stay Vanities with elegant wood construction, customizable sizes and finishes. Classic Oak, Espresso Walnut, Matte White options. Expert installation and timeless design.')
+@section('title', 'Home2stay Vanities - Premium Bathroom Cabinet Solutions')
+@section('meta_description', 'Premium Home2stay Vanities with elegant wood construction, customizable sizes and finishes. Classic Oak, Espresso Walnut, Matte White options. Expert installation and timeless design.')
 
 @section('content')
     <!-- Hero Section -->
@@ -106,15 +106,15 @@
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Home2Stay Vanities are the perfect way to enhance your Bathroom. They combine excellent design and everyday convenience. Our vanities, which are designed to complement modern bathrooms and maximize storage and convenience while maintaining beauty and style, provide the foundation of any bathroom that is both functional and beautiful.
+                            Home2stay Vanities are the perfect way to enhance your Bathroom. They combine excellent design and everyday convenience. Our vanities, which are designed to complement modern bathrooms and maximize storage and convenience while maintaining beauty and style, provide the foundation of any bathroom that is both functional and beautiful.
                         </p>
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg font-semibold">
-                            Why Choose Home2Stay Vanities?
+                            Why Choose Home2stay Vanities?
                         </p>
                         <p class="text-gray-600 text-lg mb-4">
-                            If you want to remodel a bathroom or refresh a powder room, the Home2Stay Ready-Made Vanities can help.
+                            If you want to remodel a bathroom or refresh a powder room, the Home2stay Ready-Made Vanities can help.
                         </p>
                     </div>
                     <div class="mb-6">
@@ -144,7 +144,7 @@
                     <div class="mb-6 p-4 bg-blue-50 border-l-4 border-blue-400 rounded-r-lg">
                         <h3 class="font-semibold text-blue-800 mb-2">Ready to Transform Your Bathroom?</h3>
                         <div class="space-y-1 text-blue-700">
-                            <p><strong>Find out the Home2Stay Vanities Today, beautiful, long-lasting, and built with your everyday needs in mind.</strong></p>
+                            <p><strong>Find out the Home2stay Vanities Today, beautiful, long-lasting, and built with your everyday needs in mind.</strong></p>
                         </div>
                     </div>
 
@@ -269,7 +269,7 @@
                                     <div class="bg-blue-50 rounded-lg p-6 border-l-4 border-blue-400">
                                         <h4 class="text-lg font-semibold text-blue-900 mb-3">Request a Custom Quote</h4>
                                         <p class="text-blue-800 mb-4">
-                                            Every Home2Stay Vanity is customizable based on your specific bathroom space, size requirements, material preferences, and design needs. Pricing varies depending on your selections.
+                                            Every Home2stay Vanity is customizable based on your specific bathroom space, size requirements, material preferences, and design needs. Pricing varies depending on your selections.
                                         </p>
                                         <p class="text-blue-800 font-medium">
                                             Please contact us to discuss your requirements and receive a personalized quote.
@@ -318,9 +318,9 @@
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <h4 class="text-lg font-semibold text-gray-800 mb-3">Countertop Materials</h4>
                                         <div class="space-y-2 text-sm text-gray-600">
-                                            <p>â€¢ Quartz - Durable and low-maintenance</p>
-                                            <p>â€¢ Marble - Elegant and luxurious</p>
-                                            <p>â€¢ Engineered Stone - Practical and versatile</p>
+                                            <p> Quartz - Durable and low-maintenance</p>
+                                            <p> Marble - Elegant and luxurious</p>
+                                            <p> Engineered Stone - Practical and versatile</p>
                                         </div>
                                     </div>
 
@@ -338,7 +338,7 @@
                                     <h3 class="text-xl font-semibold text-gray-800 mb-4">Design for Every Bathroom</h3>
 
                                     <p class="text-gray-600 mb-4">
-                                        No matter if you want to create a smaller ensuite or a larger main Bathroom. The Home2Stay ready-made vanities are available:
+                                        No matter if you want to create a smaller ensuite or a larger main Bathroom. The Home2stay ready-made vanities are available:
                                     </p>
 
                                     <div class="bg-gray-50 rounded-lg p-4 mb-4">
@@ -359,10 +359,10 @@
                                         <h4 class="text-lg font-semibold text-gray-800 mb-3">Choose a Look to Suit Your Taste</h4>
                                         <p class="text-gray-600 mb-3">Find the perfect fit at every opportunity</p>
                                         <ul class="space-y-2 text-gray-600 text-sm">
-                                            <li>â€¢ Wide variety of finishes and styles</li>
-                                            <li>â€¢ Modern and traditional designs</li>
-                                            <li>â€¢ Customizable color options</li>
-                                            <li>â€¢ Premium quality materials</li>
+                                            <li> Wide variety of finishes and styles</li>
+                                            <li> Modern and traditional designs</li>
+                                            <li> Customizable color options</li>
+                                            <li> Premium quality materials</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -399,9 +399,9 @@
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <h4 class="text-lg font-semibold text-gray-800 mb-3">Sink Options</h4>
                                         <ul class="space-y-2 text-gray-600 text-sm">
-                                            <li>â€¢ Single Sink Configuration (36", 48")</li>
-                                            <li>â€¢ Double Sink Configuration (60", 72")</li>
-                                            <li>â€¢ Custom Sink Placements Available</li>
+                                            <li> Single Sink Configuration (36", 48")</li>
+                                            <li> Double Sink Configuration (60", 72")</li>
+                                            <li> Custom Sink Placements Available</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -444,15 +444,15 @@
                                 </div>
 
                                 <div class="mb-6">
-                                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Why Choose Home2Stay Vanities</h4>
+                                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Why Choose Home2stay Vanities</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Premium wood construction with moisture-resistant finishes</li>
-                                            <li>â€¢ Elegant design for modern and traditional bathrooms</li>
-                                            <li>â€¢ Customizable sizes and configurations</li>
-                                            <li>â€¢ Multiple finish options to match your style</li>
-                                            <li>â€¢ Expert installation services available</li>
-                                            <li>â€¢ Trusted by homeowners for quality and beauty</li>
+                                            <li> Premium wood construction with moisture-resistant finishes</li>
+                                            <li> Elegant design for modern and traditional bathrooms</li>
+                                            <li> Customizable sizes and configurations</li>
+                                            <li> Multiple finish options to match your style</li>
+                                            <li> Expert installation services available</li>
+                                            <li> Trusted by homeowners for quality and beauty</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -523,7 +523,7 @@
                     <!-- Text Content -->
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
                         <h2 class="text-3xl font-bold text-gray-800 mb-4">Transform Your Bathroom with Elegance</h2>
-                        <p class="text-lg text-gray-600 mb-6" >Home2Stay Vanities combine thoughtful design with reliable performance, creating a beautiful and functional bathroom environment. Experience the perfect blend of style and substance.</p>
+                        <p class="text-lg text-gray-600 mb-6" >Home2stay Vanities combine thoughtful design with reliable performance, creating a beautiful and functional bathroom environment. Experience the perfect blend of style and substance.</p>
                         <p class="mb-5">Give us a call at <a href="tel:+16042591211" class="text-secondary" style="font-weight: bold; color: red;">604-259-1211</a>
                             or submit a FREE <a href="#assessment" class="text-secondary" style="font-weight: bold; color: red;">ASSESSMENT FORM</a> to check.</p>
                     </div>
@@ -604,7 +604,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need, we
                         would love to hear from you!</p>
                 </div>
 
@@ -746,7 +746,7 @@
                     <div class="mb-6">
                         <h4 class="text-lg font-semibold mb-4 text-primary">Product Information</h4>
                         <div class="p-3 bg-gray-50 rounded-lg mb-4">
-                            <p>You're requesting a quote for: <span class="font-semibold text-primary">Home2Stay Vanities</span></p>
+                            <p>You're requesting a quote for: <span class="font-semibold text-primary">Home2stay Vanities</span></p>
                         </div>
                     </div>
 

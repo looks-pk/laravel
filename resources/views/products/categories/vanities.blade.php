@@ -13,15 +13,15 @@
 @endpush
 
 @section('content')
-    <!-- Hero Banner -->
-    <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
-        <!-- Background Image with Overlay -->
+  
+    <!-- <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
+ 
         <div class="absolute inset-0 bg-cover bg-center"
             style="background-image: url('{{ asset('al-prod-page-imgs/bathroom-vanties-featured.png') }}');">
             <div class="absolute inset-0 bg-black opacity-60"></div>
         </div>
 
-        <!-- Hero Content -->
+       
         <div class="container mx-auto px-4 relative z-10 flex items-center" style="min-height: 500px;">
             <div class="max-w-3xl">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Bathroom Vanities</h1>
@@ -40,7 +40,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Products Section -->
     <section id="products" class="py-16 bg-gray-50">
@@ -73,9 +73,9 @@
                         >
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Home2Stay Vanities | Transform Your Bathroom with Style & Function</h3>
+                            Home2stay Vanities | Transform Your Bathroom with Style & Function</h3>
                         </a>
-                        <p class="text-gray-600 mb-4 flex-grow">Do you want to make your washroom stylish with the Home2Stay Classic Oak Vanity, where practical design meets timeless elegance?</p>
+                        <p class="text-gray-600 mb-4 flex-grow">Do you want to make your washroom stylish with the Home2stay Classic Oak Vanity, where practical design meets timeless elegance?</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
                             <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Multiple Products</span> -->
                         </p>
@@ -106,7 +106,7 @@
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
                             Ready-Made Vanities</h3>
                         </a>
-                        <p class="text-gray-600 mb-4 flex-grow">Home2Stay Vanities are the perfect way to enhance your Bathroom. They combine excellent design and everyday convenience.</p>
+                        <p class="text-gray-600 mb-4 flex-grow">Home2stay Vanities are the perfect way to enhance your Bathroom. They combine excellent design and everyday convenience.</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
                             <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Multiple Products</span> -->
                         </p>
@@ -135,7 +135,7 @@
                         >
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Custom Millwork by Home2Stay</h3>
+                            Custom Millwork by Home2stay</h3>
                         </a>
                         <p class="text-gray-600 mb-4 flex-grow">We believe your vanity should be more than just a practical fixture; it should be a beautifully crafted centrepiece that enhances your bathroom’s style</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
@@ -166,9 +166,9 @@
                         >
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
-                            Home2Stay Floating Vanity</h3>
+                            Home2stay Floating Vanity</h3>
                         </a>
-                        <p class="text-gray-600 mb-4 flex-grow">Boost your bathroom with refined modern elegance. The Home2Stay Floating Vanity blends smooth design with superior functionality</p>
+                        <p class="text-gray-600 mb-4 flex-grow">Boost your bathroom with refined modern elegance. The Home2stay Floating Vanity blends smooth design with superior functionality</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
                             <!-- <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Multiple Products</span> -->
                         </p>
@@ -244,7 +244,7 @@
                     <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
                         <h2 class="text-3xl font-bold text-gray-800 mb-4">Transform Your Bathroom with Premium Vanities</h2>
                         <p class="text-lg text-gray-600 mb-6">
-                            Home2Stay offers a comprehensive selection of high-quality bathroom vanities serving the British Columbia region, including: Vancouver, Surrey, Abbotsford, Richmond, Coquitlam, Tricities,
+                            Home2stay offers a comprehensive selection of high-quality bathroom vanities serving the British Columbia region, including: Vancouver, Surrey, Abbotsford, Richmond, Coquitlam, Tricities,
                             Mission, Delta, Pitt Meadows, Burnaby, Port Moody, Maple Ridge, Langley, Chilliwack, White
                             Rock, Aldergrove, and other nearby areas.</p>
                         <p class="mb-5">Looking for the perfect vanity for your bathroom? Give us a call at <b><a href="tel:+16042591211" style="color: red;">(604) 259-1211</a></b> or submit a <b> <a href="#assessment" style="color: red;">FREE CONSULTATION FORM</a></b> to explore options.
@@ -269,7 +269,7 @@
 
                     <div class="prose prose-lg max-w-none">
                         <p class="text-gray-700 mb-4">
-                            At Home2Stay, we provide a curated selection of bathroom vanities that combine style, functionality, and durability. Whether you prefer modern sleek designs or traditional elegant styles, our vanities are crafted from premium materials to enhance your bathroom's aesthetic and functionality.
+                            At Home2stay, we provide a curated selection of bathroom vanities that combine style, functionality, and durability. Whether you prefer modern sleek designs or traditional elegant styles, our vanities are crafted from premium materials to enhance your bathroom's aesthetic and functionality.
                         </p>
 
                         <p class="text-gray-700 mb-4">
@@ -289,7 +289,7 @@
                         <h3 class="text-2xl font-bold text-gray-800 mt-8 mb-4">Expert Design Consultation & Installation</h3>
 
                         <p class="text-gray-700 mb-4">
-                            Schedule a FREE CONSULTATION with Home2Stay and our design experts will help you select the perfect vanity for your bathroom. Our team will assess your space, discuss your style preferences, and recommend vanities that fit your needs and budget.
+                            Schedule a FREE CONSULTATION with Home2stay and our design experts will help you select the perfect vanity for your bathroom. Our team will assess your space, discuss your style preferences, and recommend vanities that fit your needs and budget.
                         </p>
 
                         <p class="text-gray-700 mb-4">

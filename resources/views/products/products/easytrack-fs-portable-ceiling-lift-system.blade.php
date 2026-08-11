@@ -302,11 +302,11 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Ceiling Height Range:</span>
-                                                <span class="text-gray-600">84 to 108â€³</span>
+                                                <span class="text-gray-600">84 to 108"</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Rail Length Range:</span>
-                                                <span class="text-gray-600">74 to 124.5â€²</span>
+                                                <span class="text-gray-600">74 to 124.5"</span>
                                             </div>
                                         </div>
                                         <div class="space-y-3">
@@ -404,11 +404,11 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Ceiling Height Range:</span>
-                                                <span class="text-gray-600">84 to 108â€³</span>
+                                                <span class="text-gray-600">84 to 108"</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Rail Length Range:</span>
-                                                <span class="text-gray-600">74 to 124.5â€²</span>
+                                                <span class="text-gray-600">74 to 124.5"</span>
                                             </div>
                                         </div>
                                         <div class="space-y-3">
@@ -462,7 +462,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Rectangle%20320-min.png') }}" alt="Ceiling Lift Solutions"
+                        <img src="{{ asset('bathsafety-cat/AHLUS-9720017KIT_image-1.jpg') }}" alt="Ceiling Lift Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -826,6 +826,11 @@
             display: block;
         }
 
+  .text-secondary{
+      color:#ff0000 !important;
+      font-weight: 700 !important; 
+  }
+        
         .line-clamp-3 {
             display: -webkit-box;
             -webkit-line-clamp: 3;

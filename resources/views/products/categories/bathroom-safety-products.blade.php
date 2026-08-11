@@ -13,15 +13,15 @@
 @endpush
 
 @section('content')
-    <!-- Hero Banner -->
+   <!-- 
     <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
-        <!-- Background Image with Overlay -->
+     
         <div class="absolute inset-0 bg-cover bg-center"
             style="background-image: url('{{ asset('/al-prod-page-imgs/Best-Plumbing-Services-Company-in-vencorvar.jpeg') }}');">
             <div class="absolute inset-0 bg-black opacity-60"></div>
         </div>
 
-        <!-- Hero Content -->
+   
         <div class="container mx-auto px-4 relative z-10 flex items-center mb-4 mt-4" style="min-height: 500px;">
             <div class="max-w-3xl">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Best Bath Services Vancouver | Home2stay</h1>
@@ -43,7 +43,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Products Section -->
     <section id="products" class="py-16 bg-gray-50">

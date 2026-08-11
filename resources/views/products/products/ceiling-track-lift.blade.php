@@ -183,7 +183,7 @@
                                         </svg>
                                         <div>
                                             <h3 class="font-semibold text-gray-800">Smallest Lift of Its Class</h3>
-                                            <p class="text-gray-600">Compact design with at least 7â€³ (18cm) of additional lifting height for enhanced versatility.</p>
+                                            <p class="text-gray-600">Compact design with at least 7" (18cm) of additional lifting height for enhanced versatility.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -276,7 +276,7 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Lifting Height:</span>
-                                                <span class="text-gray-600">At least 7â€³ (18cm) additional</span>
+                                                <span class="text-gray-600">At least 7" (18cm) additional</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Operation:</span>
@@ -298,7 +298,7 @@
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Vertical Movement:</span>
-                                                <span class="text-gray-600">7.5â€² (2.2m) foot strap</span>
+                                                <span class="text-gray-600">7.5" (2.2m) foot strap</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Availability:</span>
@@ -311,7 +311,7 @@
                                         <h4 class="font-semibold text-gray-800 mb-2">Key Features</h4>
                                         <ul class="list-disc list-inside text-gray-600 space-y-1">
                                             <li>Smallest lift of its class</li>
-                                            <li>At least 7â€³ (18cm) of additional lifting height</li>
+                                            <li>At least 7" (18cm) of additional lifting height</li>
                                             <li>Quick lifting speed</li>
                                             <li>Simple maintenance</li>
                                             <li>Easy to charge batteries</li>
@@ -325,7 +325,7 @@
                                             <li>Visual battery/charge level display</li>
                                             <li>Digital display indicates number of lifts, battery levels, and lift status</li>
                                             <li>Auto shut-off</li>
-                                            <li>7.5â€² (2.2m) foot strap vertical movement allows easily lifts from the floor</li>
+                                            <li>7.5" (2.2m) foot strap vertical movement allows easily lifts from the floor</li>
                                             <li>Emergency stop and emergency power lowering on lift</li>
                                             <li>Emergency manual raising or lowering</li>
                                             <li>Available with Return to Charge option</li>
@@ -450,7 +450,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Rectangle%20320-min.png') }}" alt="Ceiling Track Lift Solutions"
+                        <img src="{{ asset('bathsafety-cat/track-lift.jpg') }}" alt="Ceiling Track Lift Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -517,7 +517,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need, we would love to hear from you!</p>
                 </div>
 
                 <form action="/submit-product-inquiry" method="POST" class="space-y-6">
@@ -771,7 +771,12 @@
         .tab-pane.active {
             display: block;
         }
-
+        
+.text-secondary {
+    color: #ff0000 !important;
+    font-weight: 700 !important;
+}
+        
         .line-clamp-3 {
             display: -webkit-box;
             -webkit-line-clamp: 3;

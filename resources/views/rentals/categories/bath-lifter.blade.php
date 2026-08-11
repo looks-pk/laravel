@@ -4,11 +4,9 @@
 @section('meta_description', 'Rent bath lifters and other bathroom safety products for improved accessibility and mobility at home.')
 
 @section('content')
-    <!-- Hero Banner -->
-    <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
-
-
-        <!-- Hero Content -->
+   
+    <!-- <section class="relative bg-gray-900 overflow-hidden" style="min-height: 500px;">
+       
         <div class="container mx-auto px-4 relative z-10 flex items-center" style="min-height: 500px;">
             <div class="max-w-3xl">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Bath Lifter</h1>
@@ -28,7 +26,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Products Section -->
     <section id="products" class="py-16 bg-gray-50">
@@ -271,7 +269,7 @@
                         class="px-8 py-3 bg-white text-primary hover:bg-gray-100 rounded-lg font-medium transition duration-300">
                         Contact Us
                     </a>
-                    <a href="#"
+                    <a href="/all-products/"
                         class="px-8 py-3 bg-transparent border-2 border-white text-white hover:bg-white/10 rounded-lg font-medium transition duration-300">
                         View All Products
                     </a>

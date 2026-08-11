@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
 @section('title', 'Home2stay Straight Stair Lift - Home2stay')
-@section('meta_description', 'Use Bruno stair lifts to go up and down the stairs safely. Brunoâ€™s Elan Stair Lift SRE-3050 is a mix [&hellip;]')
+@section('meta_description', 'Use Bruno stair lifts to go up and down the stairs safely. Bruno Elan Stair Lift SRE-3050 is a mix [&hellip;]')
 
 @section('content')
     <!-- Hero Section -->
@@ -406,16 +406,16 @@
                                     <h4 class="text-lg font-semibold text-gray-800 mb-3">Product Features</h4>
                                     <div class="bg-gray-50 rounded-lg p-4">
                                         <ul class="text-gray-700 text-sm leading-relaxed space-y-2">
-                                            <li>â€¢ Most popular American-made straight stair lift model</li>
-                                            <li>â€¢ Bruno's Elan SRE-3050 with stylish design</li>
-                                            <li>â€¢ High-quality functionality and ease-of-use operation</li>
-                                            <li>â€¢ Unique low-profile rail design</li>
-                                            <li>â€¢ Leaves plenty of open space on staircase steps</li>
-                                            <li>â€¢ Safe stair navigation for users</li>
-                                            <li>â€¢ Trusted Bruno brand quality and reliability</li>
-                                            <li>â€¢ Professional installation available</li>
-                                            <li>â€¢ Custom pricing to fit your needs</li>
-                                            <li>â€¢ Ideal for straight staircases</li>
+                                            <li> Most popular American-made straight stair lift model</li>
+                                            <li> Bruno's Elan SRE-3050 with stylish design</li>
+                                            <li> High-quality functionality and ease-of-use operation</li>
+                                            <li> Unique low-profile rail design</li>
+                                            <li> Leaves plenty of open space on staircase steps</li>
+                                            <li> Safe stair navigation for users</li>
+                                            <li> Trusted Bruno brand quality and reliability</li>
+                                            <li> Professional installation available</li>
+                                            <li> Custom pricing to fit your needs</li>
+                                            <li> Ideal for straight staircases</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -550,7 +550,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need, we
                         would love to hear from you!</p>
                 </div>
 

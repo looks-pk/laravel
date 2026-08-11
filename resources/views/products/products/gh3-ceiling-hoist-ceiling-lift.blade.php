@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
 @section('title', 'Home2stay GH3 Ceiling Hoist / Ceiling Lift - Home2stay')
-@section('meta_description', 'Powerful and user-friendly, Guldmannâ€™s GH3 Ceiling Hoist / Lift ensures effective lifting and moving of up to 114 lbs. (250 [&hellip;]')
+@section('meta_description', 'Powerful and user-friendly, Guldmann GH3 Ceiling Hoist / Lift ensures effective lifting and moving of up to 114 lbs. (250 [&hellip;]')
 
 @section('content')
     <!-- Hero Section -->
@@ -463,7 +463,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/Rectangle%20320-min.png') }}" alt="GH3 Ceiling Hoist Solutions"
+                        <img src="{{ asset('bathsafety-cat/Remote.png') }}" alt="GH3 Ceiling Hoist Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>
@@ -530,7 +530,7 @@
             <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-12">
                 <div class="text-center mb-10">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Free Quote</h2>
-                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need â€“ We would love to hear from you!</p>
+                    <p class="text-gray-600">We're here to listen, help and provide insights. Tell us what you need, we would love to hear from you!</p>
                 </div>
 
                 <form action="/submit-product-inquiry" method="POST" class="space-y-6">
@@ -780,7 +780,10 @@
         .tab-pane {
             display: none;
         }
-
+.text-secondary {
+    color: #ff0000 !important;
+    font-weight: 700 !important;
+}
         .tab-pane.active {
             display: block;
         }

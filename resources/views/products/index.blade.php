@@ -475,7 +475,7 @@
 
                     <!-- Product Details -->
                     <div class="p-6 flex-1 flex flex-col">
-                        <a href="/products-categories/promenaid-handrail/"
+                        <a href="/products-categories/safety-poles-handrails/"
                         >
                         <h3
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">

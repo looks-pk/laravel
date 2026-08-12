@@ -339,8 +339,8 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Richmond (All Areas)</li>
-                                <li>â€¢ Throughout Metro Vancouver</li>
+                                <li> Richmond (All Areas)</li>
+                                <li> Throughout Metro Vancouver</li>
                             </ul>
                         </div>
                     </div>

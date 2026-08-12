@@ -311,8 +311,8 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Delta (All Areas)</li>
-                                <li>â€¢ Throughout Metro Vancouver</li>
+                                <li> Delta (All Areas)</li>
+                                <li> Throughout Metro Vancouver</li>
                             </ul>
                         </div>
                     </div>
@@ -418,7 +418,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        Most standard ramps can be installed within 1â€“2 days. Custom or concrete ramps may take a little longer. But we always work around your timeline.
+                        Most standard ramps can be installed within 1-2 days. Custom or concrete ramps may take a little longer. But we always work around your timeline.
                     </div>
                 </div>
             </div>

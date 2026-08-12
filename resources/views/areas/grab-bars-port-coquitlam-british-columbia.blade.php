@@ -44,7 +44,7 @@
                 </h2>
                 <div class="prose prose-lg max-w-none">
                     <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                    We are proud to serve Port Coquitlam with top-tier grab bar services, from consultation to installation. Whether you need a simple wall-mounted bar or a full home safety upgrade, we handle everything with professionalism and care. We understand the importance of selecting the right placement, length, and type of grab bar. Thats why we offer personalized solutions based on your home layout and the userâ€™s physical needs.
+                    We are proud to serve Port Coquitlam with top-tier grab bar services, from consultation to installation. Whether you need a simple wall-mounted bar or a full home safety upgrade, we handle everything with professionalism and care. We understand the importance of selecting the right placement, length, and type of grab bar. Thats why we offer personalized solutions based on your home layout and the user's physical needs.
                 </p>
                     
                 </div>

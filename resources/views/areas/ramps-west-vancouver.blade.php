@@ -9,8 +9,8 @@
 @endpush
 
 @section('content')
-<!-- Hero Section -->
-<section class="hero-section">
+
+<!-- <section class="hero-section">
     <div class="container mx-auto px-4 relative z-10">
         <div class="text-center">
             <h1 class="text-4xl md:text-6xl font-bold mb-6">
@@ -36,7 +36,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Reliable Service Section -->
 <section class="py-16 bg-gray-50">
@@ -55,7 +55,7 @@
                     <li>Retail shops</li>
                     <li>Medical clinics</li>
                     <li>Office buildings</li>
-                    <li>Restaurants & cafÃ©s</li>
+                    <li>Restaurants & cafes</li>
                     <li>Hotels & hospitality</li>
                     <li>Educational facilities</li>
                     <li>Commercial plazas</li>
@@ -348,12 +348,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ West Vancouver (All Areas)</li>
-                                <li>â€¢ Ambleside & Horseshoe Bay</li>
-                                <li>â€¢ Altamont & Gleneagles</li>
-                                <li>â€¢ Sentinel & Cypress</li>
-                                <li>â€¢ North Vancouver</li>
-                                <li>â€¢ Throughout Metro Vancouver</li>
+                                <li> West Vancouver (All Areas)</li>
+                                <li> Ambleside & Horseshoe Bay</li>
+                                <li> Altamont & Gleneagles</li>
+                                <li> Sentinel & Cypress</li>
+                                <li> North Vancouver</li>
+                                <li> Throughout Metro Vancouver</li>
                             </ul>
                         </div>
                     </div>
@@ -440,25 +440,25 @@
         <div class="max-w-4xl mx-auto mb-12">
             <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 pl-5 md:pl-10">
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Local Expertise: We understand West Vancouver's commercial landscape, terrain, and code requirements. We've worked with businesses across the area.</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Quality Materials: Our ramps are built to last. No shortcuts, no cheap components. Just real materials, done right.
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>No Disruption: We work after hours and weekends when needed to minimize impact on your business operations.</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Safety & Codes: Every ramp is ADA compliant and meets or exceeds BC Building Code requirements.
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Proven Track Record: We've built ramps for respected retail, medical, and hospitality businesses in West Vancouver and across Metro Vancouver.</span>
                 </li>
             </ul>

@@ -176,7 +176,7 @@
                 <li><strong>Step 3: Fast Installation</strong> - Professional team, efficient work, clean site.</li>
                 <li><strong>Step 4: Final Walkthrough</strong> - We make sure everything meets your needs.</li>
             </ul>
-            <p class="text-gray-700 mt-4">Fast, clean, and professionalâ€”that's the Home2stay way.</p>
+            <p class="text-gray-700 mt-4">Fast, clean, and professional, that's the Home2stay way.</p>
         </div>
     </div>
 </section>
@@ -446,7 +446,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        We work fast. Most simple ramps are installed within 1â€“3 days, depending on size and complexity. We'll give you a clear timeline during your free consultation.
+                        We work fast. Most simple ramps are installed within 1-3 days, depending on size and complexity. We'll give you a clear timeline during your free consultation.
                     </div>
                 </div>
             </div>

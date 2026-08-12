@@ -1,6 +1,6 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Grab Bar Installation North Vancouver | Home2Stay Experts')
+@section('title', 'Grab Bar Installation North Vancouver | Home2stay Experts')
 @section('meta_description', 'Professional grab bar installation & replacement in North Vancouver. Our licensed experts install bathtub, vertical, horizontal & folding bars for safety & independence. Free consultation.')
 
 @push('styles')
@@ -18,7 +18,7 @@
             <p class="text-xl md:text-1xl mb-8 opacity-90 max-w-xl mx-auto">Does someone in your family or friends require assistance in the bath? You are not alone. North Vancouver homeowners trust us as experts in the installation of grab bars that help make their homes accessible and safer. It can help prevent slips and provide peace of mind, whether you are caring for an ageing parent or simply planning. We offer the services of our specialists so that you can navigate to select the right bar, install it correctly anywhere, and secure your house problem-free. It is not only bars that we install, but also safety, comfort, and freedom in your everyday life.
             </p>
             <p class="text-xl md:text-2xl mb-8 opacity-90 max-w-3xl mx-auto">
-                Call Home2Stay experts for installing Grab Bars in North Vancouver. We're available for your assistance in North Vancouver.
+                Call Home2stay experts for installing Grab Bars in North Vancouver. We're available for your assistance in North Vancouver.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="#contact" class="btn-secondary text-lg px-8 py-4">
@@ -48,7 +48,7 @@
                 </h2>
                 <div class="prose prose-lg max-w-none">
                     <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                    Weâ€™re providing expert services for grab bar installation in North Vancouver. Our crew has vast experience in grab bar installation. </p>
+                    We are providing expert services for grab bar installation in North Vancouver. Our crew has vast experience in grab bar installation. </p>
                     
                 </div>
             </div>
@@ -67,7 +67,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Bathtub Mounted</h3>
                 <p class="text-gray-600">
-                Our bathtub-mounted grab bars in North Vancouver are designed for everyone who finds getting in and out of the tub challenging. If you call our experts, weâ€™ll install the grab bars for better and reliable support. Our expert crew members set them in the right and accurate place, so you donâ€™t need to stretch or twist. We take all these steps for your safety and comfort without changing your bathroom design. 
+                Our bathtub-mounted grab bars in North Vancouver are designed for everyone who finds getting in and out of the tub challenging. If you call our experts, we will install the grab bars for better and reliable support. Our expert crew members set them in the right and accurate place, so you do not need to stretch or twist. We take all these steps for your safety and comfort without changing your bathroom design. 
                 </p>
             </div>
 
@@ -80,7 +80,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Free Standing</h3>
                 <p class="text-gray-600">
-                For those who want mobility without drilling, the Home2 Stay Free-Standing Grab Bars North Vancouver are the best solution. If youâ€™re staying in a rented home, or when walls canâ€™t be drilled. Weâ€™ll guide you to choose a rigid, stylish model that fits your space and your needs. If you donâ€™t need these bars, you can remove them easily.</p>
+                For those who want mobility without drilling, the Home2 Stay Free-Standing Grab Bars North Vancouver are the best solution. If you are staying in a rented home, or when walls can not be drilled. We will guide you to choose a rigid, stylish model that fits your space and your needs. If you do not need these bars, you can remove them easily.</p>
             </div>
 
             <div class="service-card p-8 text-center">
@@ -117,7 +117,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Suction</h3>
                 <p class="text-gray-600">
-                For those who want mobility without drilling, the Home2 Stay Free-Standing Grab Bars North Vancouver are the best solution. If youâ€™re staying in a rented home, or when walls canâ€™t be drilled. Weâ€™ll guide you to choose a rigid, stylish model that fits your space and your needs. If you donâ€™t need these bars, you can remove them easily.Why are you looking for a temporary solution? Our suction grab bars in North Vancouver are perfect for short-term support, ideal for recovery after surgery or for visitors. These are easy to reposition and remove, and we only use high-quality models for safety.
+                For those who want mobility without drilling, the Home2 Stay Free-Standing Grab Bars North Vancouver are the best solution. If you are staying in a rented home, or when walls can not be drilled. We will guide you to choose a rigid, stylish model that fits your space and your needs. If you do not need these bars, you can remove them easily.Why are you looking for a temporary solution? Our suction grab bars in North Vancouver are perfect for short-term support, ideal for recovery after surgery or for visitors. These are easy to reposition and remove, and we only use high-quality models for safety.
                 </p>
             </div>
 
@@ -129,7 +129,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Diagonal</h3>
                 <p class="text-gray-600">
-                Our diagonal grab bars in North Vancouver offer both vertical and horizontal support in one. Great for users with arthritis or limited hand strength, this type follows your natural hand movement. We make sure itâ€™s angled just right, for balance, ease, and less strain on the wrist.
+                Our diagonal grab bars in North Vancouver offer both vertical and horizontal support in one. Great for users with arthritis or limited hand strength, this type follows your natural hand movement. We make sure its angled just right, for balance, ease, and less strain on the wrist.
                 </p>
             </div>
             <div class="service-card p-8 text-center">
@@ -140,7 +140,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Folding</h3>
                 <p class="text-gray-600">
-                Need a support bar that tucks away when not in use? Our folding grab bars in North Vancouver are smart, space-saving, and strong. These are perfect in tight bathrooms or multi-user spaces where others donâ€™t need a grab bar. Weâ€™ll install one that folds smoothly, quietly, and stays locked when in use.
+                Need a support bar that tucks away when not in use? Our folding grab bars in North Vancouver are smart, space-saving, and strong. These are perfect in tight bathrooms or multi-user spaces where others do not need a grab bar. We will install one that folds smoothly, quietly, and stays locked when in use.
 
                 </p>
             </div>
@@ -160,7 +160,7 @@
             We care about your safety. Our team is trained, licensed, and experienced. We know how important it is to feel secure at home, and we treat every home as if it were our own. We only use top-quality bars, tested for strength and style.
             </p>
             <p class="text-gray-600 leading-relaxed mb-6">
-            We install them in the best places, not just where they fit. We donâ€™t cut corners. From the first phone call to final inspection, you get personalised service, real support, and peace of mind.
+            We install them in the best places, not just where they fit. We do not cut corners. From the first phone call to final inspection, you get personalised service, real support, and peace of mind.
             </p>
         </div>
       </div>
@@ -171,11 +171,11 @@
           </h2>
           <div class="max-w-4xl mx-auto prose prose-lg">
               <p class="text-lg text-gray-700 leading-relaxed mb-6">
-              Weâ€™ve worked in hundreds of homes across North Vancouver. Families call us back because they trust our work. We show up on time, explain everything, and never leave a mess. Our pricing is clear, our materials are strong, and our work is guaranteed.
+              We have worked in hundreds of homes across North Vancouver. Families call us back because they trust our work. We show up on time, explain everything, and never leave a mess. Our pricing is clear, our materials are strong, and our work is guaranteed.
   
               </p>
               <p class="text-lg text-gray-700 leading-relaxed mb-6">
-              When it comes to grab bar installation in North Vancouver, weâ€™re your go-to team for a reason. Our goal is simple: help you or your loved ones stay safe, independent, and confident in your home.
+              When it comes to grab bar installation in North Vancouver, we are your go-to team for a reason. Our goal is simple: help you or your loved ones stay safe, independent, and confident in your home.
   
               </p>
           </div>
@@ -292,12 +292,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Burnaby (All Areas)</li>
-                                <li>â€¢ Vancouver & New Westminster</li>
-                                <li>â€¢ Coquitlam & Port Moody</li>
-                                <li>â€¢ Richmond & Surrey</li>
-                                <li>â€¢ North Vancouver & West Vancouver</li>
-                                <li>â€¢ Tri-Cities & Langley</li>
+                                <li> Burnaby (All Areas)</li>
+                                <li> Vancouver & New Westminster</li>
+                                <li> Coquitlam & Port Moody</li>
+                                <li> Richmond & Surrey</li>
+                                <li> North Vancouver & West Vancouver</li>
+                                <li> Tri-Cities & Langley</li>
                             </ul>
                         </div>
                     </div>
@@ -386,7 +386,7 @@
             Seniors deserve to feel safe in every part of their home. Our grab bar installation for seniors in North Vancouver is one of the most requested services we offer. Bathrooms can be risky, especially with wet floors and high tubs. A small slip can cause big problems.
             </p>
             <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">
-            Thatâ€™s why we work closely with seniors and their families to find the perfect grab bar. We look at routine, mobility, and bathroom layout before recommending anything. You donâ€™t need to worry about what to choose or how to install it; we handle everything with care and patience. We also help with other safety features, including shower grab bars, toilet grab bars, and custom placements to suit personal needs.
+            Thats why we work closely with seniors and their families to find the perfect grab bar. We look at routine, mobility, and bathroom layout before recommending anything. You do not need to worry about what to choose or how to install it; we handle everything with care and patience. We also help with other safety features, including shower grab bars, toilet grab bars, and custom placements to suit personal needs.
         </p>
         </div>
 
@@ -425,7 +425,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                    If your grab bar feels loose, rusty, or outdated, itâ€™s time for a replacement. We offer full grab bar replacement in North Vancouver, from removal to installation of new, stronger bars.
+                    If your grab bar feels loose, rusty, or outdated, its time for a replacement. We offer full grab bar replacement in North Vancouver, from removal to installation of new, stronger bars.
 
                     </div>
                 </div>

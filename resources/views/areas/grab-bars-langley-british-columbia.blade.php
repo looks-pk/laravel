@@ -1,6 +1,6 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Grab Bar Installation Langley, BC | Home2Stay')
+@section('title', 'Grab Bar Installation Langley, BC | Home2stay')
 @section('meta_description', 'Professional grab bar installation & replacement in Langley, BC. Certified experts install secure bathtub, shower & toilet bars for senior safety & aging in place. Free assessment.')
 
 @push('styles')
@@ -70,7 +70,7 @@ Our team assesses your location of need and ease of movement and prescribes type
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Bathtub Mounted</h3>
                 <p class="text-gray-600">
-                Slipping in the bathtub is a common hazard, but it doesnâ€™t have to be. Our bathtub-mounted grab bars offer solid support for entering, standing, and exiting the tub safely. These bars are carefully anchored into your wall to withstand strong pressure, ensuring safety every time you step in.
+                Slipping in the bathtub is a common hazard, but it does not have to be. Our bathtub-mounted grab bars offer solid support for entering, standing, and exiting the tub safely. These bars are carefully anchored into your wall to withstand strong pressure, ensuring safety every time you step in.
 
                 </p>
             </div>
@@ -84,7 +84,7 @@ Our team assesses your location of need and ease of movement and prescribes type
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Free Standing</h3>
                 <p class="text-gray-600">
-                Looking for a solution thatâ€™s flexible and non-invasive? Our free-standing grab bars are designed to provide sturdy support without any wall drilling. Perfect for renters, temporary setups, or situations where wall mounting isnâ€™t an option, these bars offer versatility without sacrificing safety.   
+                Looking for a solution thatâ€™s flexible and non-invasive? Our free-standing grab bars are designed to provide sturdy support without any wall drilling. Perfect for renters, temporary setups, or situations where wall mounting is not an option, these bars offer versatility without sacrificing safety.   
 
                 </p>
             </div>
@@ -285,12 +285,12 @@ Our team assesses your location of need and ease of movement and prescribes type
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Burnaby (All Areas)</li>
-                                <li>â€¢ Vancouver & New Westminster</li>
-                                <li>â€¢ Coquitlam & Port Moody</li>
-                                <li>â€¢ Richmond & Surrey</li>
-                                <li>â€¢ North Vancouver & West Vancouver</li>
-                                <li>â€¢ Tri-Cities & Langley</li>
+                                <li> Burnaby (All Areas)</li>
+                                <li> Vancouver & New Westminster</li>
+                                <li> Coquitlam & Port Moody</li>
+                                <li> Richmond & Surrey</li>
+                                <li> North Vancouver & West Vancouver</li>
+                                <li> Tri-Cities & Langley</li>
                             </ul>
                         </div>
                     </div>
@@ -409,7 +409,7 @@ Our team assesses your location of need and ease of movement and prescribes type
                     </span>
                 </li>
             </ul>
-            <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center mt-4">We know that grab bars are not just accessories, theyâ€™re essential safety tools. Thatâ€™s why we go the extra mile to get them right.</p>
+            <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center mt-4">We know that grab bars are not just accessories, they are essential safety tools. That's why we go the extra mile to get them right.</p>
         </div>
 
     </div>
@@ -423,7 +423,7 @@ Our team assesses your location of need and ease of movement and prescribes type
         </h2>
         <div class="max-w-4xl mx-auto prose prose-lg">
             <p class="text-lg text-gray-700 leading-relaxed mb-6">
-            When you invite Home2stay into your home, youâ€™re partnering with a company that values your safety as much as you do. Our technicians arrive on time, work efficiently, and clean up after themselves. Every installation undergoes a thorough safety check to ensure maximum strength and durability.
+            When you invite Home2stay into your home, you are partnering with a company that values your safety as much as you do. Our technicians arrive on time, work efficiently, and clean up after themselves. Every installation undergoes a thorough safety check to ensure maximum strength and durability.
 
             </p>
             
@@ -475,7 +475,7 @@ Our team assesses your location of need and ease of movement and prescribes type
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                    Grab bars should be strong, securely mounted, and placed at a height and location that suits the userâ€™s needs. While residential requirements may vary, we install bars that meet or exceed safety standards for weight support and stability.
+                    Grab bars should be strong, securely mounted, and placed at a height and location that suits the users needs. While residential requirements may vary, we install bars that meet or exceed safety standards for weight support and stability.
                     </div>
                 </div>
             </div>
@@ -522,7 +522,7 @@ Our team assesses your location of need and ease of movement and prescribes type
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                    Grab bars near the toilet are usually placed horizontally or vertically beside the toilet bowl, within easy reach. Placement depends on the userâ€™s mobility and preferences, ensuring the best possible support when sitting or standing.
+                    Grab bars near the toilet are usually placed horizontally or vertically beside the toilet bowl, within easy reach. Placement depends on the user's mobility and preferences, ensuring the best possible support when sitting or standing.
 
                     </div>
                 </div>
@@ -538,7 +538,7 @@ Our team assesses your location of need and ease of movement and prescribes type
             Get In Touch
         </h2>
         <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-        Donâ€™t compromise your safety, choose trusted grab bars in Langley, BC from Home2stay. We make your home safer with expert grab bar installation thatâ€™s built to last. Take control of your home safety, partner with the experts who care!
+        Don't compromise your safety, choose trusted grab bars in Langley, BC from Home2stay. We make your home safer with expert grab bar installation that's built to last. Take control of your home safety, partner with the experts who care!
 </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:604-259-1211" class="btn-secondary text-lg px-8 py-4">

@@ -1,6 +1,6 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Trusted Tub Cuts in Vancouver, BC | Home2Stay')
+@section('title', 'Trusted Tub Cuts in Vancouver, BC | Home2stay')
 @section('meta_description', 'Professional tub cuts in Vancouver, BC. Safe walk-in bathtub access without full renovation. Trusted tub cut dealers providing fast and affordable accessibility upgrades.')
 
 
@@ -11,8 +11,8 @@
 
 @section('content')
 
-<!-- HERO SECTION -->
-<section class="hero-section">
+
+<!-- <section class="hero-section">
 <div class="container mx-auto px-4 relative z-10 text-center">
 
 <h1 class="text-4xl md:text-6xl font-bold mb-6">
@@ -34,7 +34,7 @@ Call (604) 259-1211
 </div>
 
 </div>
-</section>
+</section> -->
 
 
 <!-- WHY CHOOSE SECTION -->
@@ -52,12 +52,12 @@ Home2stay is known across Vancouver for dependable workmanship and accessibility
 </p>
 
 <ul class="space-y-3">
-<li class="flex items-start"><span class="text-green-500 mr-3">âœ“</span>Dedicated tub cut specialists.</li>
-<li class="flex items-start"><span class="text-green-500 mr-3">âœ“</span>Licensed and insured professionals.</li>
-<li class="flex items-start"><span class="text-green-500 mr-3">âœ“</span>Residential, commercial and rental property solutions.</li>
-<li class="flex items-start"><span class="text-green-500 mr-3">âœ“</span>Transparent pricing with no hidden costs.</li>
-<li class="flex items-start"><span class="text-green-500 mr-3">âœ“</span>High-quality waterproof materials.</li>
-<li class="flex items-start"><span class="text-green-500 mr-3">âœ“</span>Fast installation with full satisfaction follow-up.</li>
+<li class="flex items-start">Dedicated tub cut specialists.</li>
+<li class="flex items-start">Licensed and insured professionals.</li>
+<li class="flex items-start">Residential, commercial and rental property solutions.</li>
+<li class="flex items-start">Transparent pricing with no hidden costs.</li>
+<li class="flex items-start">High-quality waterproof materials.</li>
+<li class="flex items-start">Fast installation with full satisfaction follow-up.</li>
 </ul>
 </div>
 
@@ -130,7 +130,7 @@ Professional Tub Cuts for Every Vancouver Property
 <div class="service-card p-8">
 <h3 class="font-bold mb-3">Residential Tub Cuts</h3>
 <p>
-Safer bathing access for families, seniors, and individuals with mobility needs while maintaining your bathroomâ€™s design.
+Safer bathing access for families, seniors, and individuals with mobility needs while maintaining your bathrooms design.
 </p>
 </div>
 
@@ -155,11 +155,11 @@ Why Choose a Tub Cut Instead of Full Renovation?
 </h2>
 
 <ul class="space-y-4 text-gray-700">
-<li>âœ“ Lower cost compared to bathroom remodeling.</li>
-<li>âœ“ Installation completed within hours.</li>
-<li>âœ“ Maintain existing tub and plumbing.</li>
-<li>âœ“ Immediate improvement in accessibility.</li>
-<li>âœ“ Enhances property safety and rental appeal.</li>
+<li> Lower cost compared to bathroom remodeling.</li>
+<li> Installation completed within hours.</li>
+<li> Maintain existing tub and plumbing.</li>
+<li> Immediate improvement in accessibility.</li>
+<li> Enhances property safety and rental appeal.</li>
 </ul>
 
 </div>
@@ -280,12 +280,12 @@ Home2stay works with trusted manufacturers and suppliers to deliver premium tub 
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Langley (All Areas)</li>
-                                <li>â€¢ Surrey & Cloverdale</li>
-                                <li>â€¢ Aldergrove & Fort Langley</li>
-                                <li>â€¢ Abbotsford & Mission</li>
-                                <li>â€¢ Delta & White Rock</li>
-                                <li>â€¢ Greater Vancouver & Lower Mainland</li>
+                                <li> Langley (All Areas)</li>
+                                <li> Surrey & Cloverdale</li>
+                                <li> Aldergrove & Fort Langley</li>
+                                <li> Abbotsford & Mission</li>
+                                <li> Delta & White Rock</li>
+                                <li> Greater Vancouver & Lower Mainland</li>
                             </ul>
                         </div>
                     </div>

@@ -273,7 +273,7 @@
 <!-- CTA Before Products -->
 <section class="py-16 bg-blue-50">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl text-center">
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Call Home2stay Today â€“ Let's Build Your Ramp</h2>
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Call Home2stay Today! Let's Build Your Ramp</h2>
         <p class="text-lg text-gray-700 leading-relaxed mb-8 max-w-2xl mx-auto">
         If you're ready to upgrade your building with Trusted Ramps in White Rock, give us a call. We'll visit your property, create a plan, and build your ramp fast. Don't wait until someone trips or a complaint comes in. Let's make your building safer, more welcoming, and fully accessible today.
         </p>
@@ -386,12 +386,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ White Rock (All Areas)</li>
-                                <li>â€¢ Crescent Beach & Peace Arch</li>
-                                <li>â€¢ Ocean Park & South Surrey</li>
-                                <li>â€¢ Blaine, WA (Cross-Border)</li>
-                                <li>â€¢ Surrey & Langley</li>
-                                <li>â€¢ Throughout Metro Vancouver</li>
+                                <li> White Rock (All Areas)</li>
+                                <li> Crescent Beach & Peace Arch</li>
+                                <li> Ocean Park & South Surrey</li>
+                                <li> Blaine, WA (Cross-Border)</li>
+                                <li> Surrey & Langley</li>
+                                <li> Throughout Metro Vancouver</li>
                             </ul>
                         </div>
                     </div>

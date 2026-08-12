@@ -282,12 +282,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Vancouver (All Areas)</li>
-                                <li>â€¢ Burnaby & New Westminster</li>
-                                <li>â€¢ Richmond & Surrey</li>
-                                <li>â€¢ North Vancouver & West Vancouver</li>
-                                <li>â€¢ Coquitlam & Port Moody</li>
-                                <li>â€¢ Langley & Delta</li>
+                                <li> Vancouver (All Areas)</li>
+                                <li> Burnaby & New Westminster</li>
+                                <li> Richmond & Surrey</li>
+                                <li> North Vancouver & West Vancouver</li>
+                                <li> Coquitlam & Port Moody</li>
+                                <li> Langley & Delta</li>
                             </ul>
                         </div>
                     </div>

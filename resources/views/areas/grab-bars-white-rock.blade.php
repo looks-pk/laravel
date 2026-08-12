@@ -47,7 +47,7 @@
                 </h2>
                 <div class="prose prose-lg max-w-none">
                     <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                      The Home2stay team will manage every step of your Grab Bars in White Rock without any hesitation or confusion.  First of all, weâ€™ll listen to all of your projects and needs.  Our experts have vast experience in grab bar installation and replacement. Tell our crew where you feel unsafe and uncomfortable. Once we understand, we recommend the perfect style of Commercial Grab Bars in White Rock.  After the all procedure, youâ€™ll choose from secure, stylish, and easy-to-use options that match your space and lifestyle. Every grab bar is installed with precision. We donâ€™t cut corners. We secure into studs or use solid anchors. Youâ€™ll get lasting non-slip support, built to perform and look good.
+                      The Home2stay team will manage every step of your Grab Bars in White Rock without any hesitation or confusion.  First of all, we will listen to all of your projects and needs.  Our experts have vast experience in grab bar installation and replacement. Tell our crew where you feel unsafe and uncomfortable. Once we understand, we recommend the perfect style of Commercial Grab Bars in White Rock.  After the all procedure, you will choose from secure, stylish, and easy-to-use options that match your space and lifestyle. Every grab bar is installed with precision. We do not cut corners. We secure into studs or use solid anchors. You will get lasting non-slip support, built to perform and look good.
 
                     </p>
                     
@@ -171,7 +171,7 @@
           </h2>
           <div class="max-w-4xl mx-auto prose prose-lg">
               <p class="text-lg text-gray-700 leading-relaxed mb-6">
-              Your home should feel safe. Our residential installs focus on comfort, design, and long-term use. From the main bathroom to guest baths, we offer a range of elderly bathroom safety options that work with any layout. You donâ€™t need to sacrifice looks for function. We help you choose Residential Grab Bars in White Rock that match your style and keep everyone safe, from ageing parents to kids learning to shower on their own.
+              Your home should feel safe. Our residential installs focus on comfort, design, and long-term use. From the main bathroom to guest baths, we offer a range of elderly bathroom safety options that work with any layout. You do not need to sacrifice looks for function. We help you choose Residential Grab Bars in White Rock that match your style and keep everyone safe, from ageing parents to kids learning to shower on their own.
 
               </p>
           </div>
@@ -283,12 +283,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Burnaby (All Areas)</li>
-                                <li>â€¢ Vancouver & New Westminster</li>
-                                <li>â€¢ Coquitlam & Port Moody</li>
-                                <li>â€¢ Richmond & Surrey</li>
-                                <li>â€¢ North Vancouver & West Vancouver</li>
-                                <li>â€¢ Tri-Cities & Langley</li>
+                                <li> Burnaby (All Areas)</li>
+                                <li> Vancouver & New Westminster</li>
+                                <li> Coquitlam & Port Moody</li>
+                                <li> Richmond & Surrey</li>
+                                <li> North Vancouver & West Vancouver</li>
+                                <li> Tri-Cities & Langley</li>
                             </ul>
                         </div>
                     </div>

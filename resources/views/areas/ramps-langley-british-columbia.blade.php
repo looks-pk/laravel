@@ -1,6 +1,6 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Trusted Ramps in Langley, BC â€“ Home2stay')
+@section('title', 'Trusted Ramps in Langley, BC Home2stay')
 @section('meta_description', 'Professional ramps in Langley, BC. Home2stay offers reliable wheelchair ramps, installation, and accessibility solutions. Free consultation available.')
 
 @push('styles')
@@ -8,12 +8,12 @@
 @endpush
 
 @section('content')
-<!-- Hero Section -->
-<section class="hero-section">
+
+<!-- <section class="hero-section">
     <div class="container mx-auto px-4 relative z-10">
         <div class="text-center">
             <h1 class="text-4xl md:text-6xl font-bold mb-6">
-            Trusted Ramps in Langley, BC â€“ Home2stay
+            Trusted Ramps in Langley, BC Home2stay
             </h1>
             <p class="text-xl md:text-1xl mb-8 opacity-90 max-w-xl mx-auto">You have found the right place if you are looking for reliable ramps in Langley, BC. We focus on the provision of good solutions to ramps at Langley, whether it is renovating your house or furnishing your business. You will receive professional service, proper installation, and support from a local team that you can trust with us.
 
@@ -35,7 +35,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Reliable Service Section -->
 <section class="py-16 bg-gray-50">
@@ -145,8 +145,8 @@
         </h2>
         <div class="max-w-4xl mx-auto prose prose-lg">
             <ul style="list-style-type: disc; padding-left: 20px;" class="text-gray-700">
-                <li>Portable / Folding Ramps: Great for low thresholds or temporary usage. Flexible, costâ€‘effective, and efficient.</li>
-                <li>Modular Aluminum Ramps: Durable, outdoorâ€‘ready, ideal for entrances where daily use matters.</li>
+                <li>Portable / Folding Ramps: Great for low thresholds or temporary usage. Flexible, cost effective, and efficient.</li>
+                <li>Modular Aluminum Ramps: Durable, outdoor ready, ideal for entrances where daily use matters.</li>
                 <li>Threshold Ramps: Perfect for a single step or door elevation.</li>
                 <li>Commercial Entrance Ramps: High capacity, wide access, built for business traffic.</li>
                 <li>Custom Built Ramps: For unique terrain, specific landings, or unusual configurations, you mention it and we design it.</li>
@@ -165,8 +165,8 @@
             <ul style="list-style-type: disc; padding-left: 20px;" class="text-gray-700">
                 <li>By choosing professional ramp installation, you enhance accessibility for family, guests, or customers.</li>
                 <li>You increase safety, especially in rain or snow, which Langley sees.</li>
-                <li>You uplift your property: a wellâ€‘installed ramp shows thoughtfulness and value.</li>
-                <li>You avoid lastâ€‘minute issues: with Home2stay, you get trusted ramps in Langley, BC from a provider who knows the area.</li>
+                <li>You uplift your property: a well installed ramp shows thoughtfulness and value.</li>
+                <li>You avoid last minute issues: with Home2stay, you get trusted ramps in Langley, BC from a provider who knows the area.</li>
                 <li>You end up with a solution, not just a product, our process ensures you're set for the long term.</li>
             </ul>
         </div>
@@ -183,7 +183,7 @@
             <ul style="list-style-type: disc; padding-left: 20px;" class="text-gray-700">
                 <li>Focused expertise: We're expert in ramps, not just generic installations.</li>
                 <li>Local commitment: We serve Langley directly and know your community's needs.</li>
-                <li>Fullâ€‘service approach: From design to installation to support, you're protected.</li>
+                <li>Full service approach: From design to installation to support, you're protected.</li>
                 <li>Custom solutions: Your property is unique, so is our solution.</li>
                 <li>Reliable results: You receive a ramp installed right, built to last, or everyday use.</li>
             </ul>
@@ -297,8 +297,8 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Langley (All Areas)</li>
-                                <li>â€¢ Throughout Metro Vancouver</li>
+                                <li> Langley (All Areas)</li>
+                                <li> Throughout Metro Vancouver</li>
                             </ul>
                         </div>
                     </div>

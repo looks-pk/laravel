@@ -385,8 +385,8 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Vancouver (All Areas)</li>
-                                <li>â€¢ Throughout Metro Vancouver</li>
+                                <li> Vancouver (All Areas)</li>
+                                <li> Throughout Metro Vancouver</li>
                             </ul>
                         </div>
                     </div>
@@ -492,7 +492,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        Most ramps are installed within 1â€“3 days. Larger or custom projects may take longer, but we'll give you a clear timeline before we start.
+                        Most ramps are installed within 1-3 days. Larger or custom projects may take longer, but we'll give you a clear timeline before we start.
                     </div>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Grab Bar Installation Burnaby, BC | Home2Stay')
+@section('title', 'Grab Bar Installation Burnaby, BC | Home2stay')
 @section('meta_description', 'Professional grab bar installation & replacement in Burnaby, BC. Trusted grab bar services with expert installation, stylish designs & reliable safety solutions for homes & facilities.')
 
 @push('styles')
@@ -82,7 +82,6 @@
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Free Standing</h3>
                 <p class="text-gray-600">
                 No drilling? No problem. These bath safety bars stand beside your tub or toilet for quick balance support. Great for renters or short-term care situations.
-
                 </p>
             </div>
 
@@ -131,7 +130,6 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Diagonal</h3>
                 <p class="text-gray-600">Angled bars work well if you need help rising from a seated position. This kind of non-slip support moves with your natural motion and feels more intuitive.
-
                 </p>
             </div>
             <div class="service-card p-8 text-center">

@@ -1,6 +1,6 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Professional Tub Cuts in Coquitlam, BC | Home2Stay')
+@section('title', 'Professional Tub Cuts in Coquitlam, BC | Home2stay')
 @section('meta_description', 'Professional tub cuts in Coquitlam, BC. Upgrade bath access with a safe step-in tub cut solution without a full remodel. Fast, clean, reliable installation â€” book your free on-site evaluation today.')
 
 @push('styles')
@@ -37,7 +37,7 @@
     </div>
 </section>
 
-<!-- Why Choose Us Section -->
+
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -51,23 +51,23 @@
                     </p>
                     <ul class="space-y-3 mb-6">
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0"></span>
                             Free on-site evaluations in Coquitlam with detailed measurements and custom recommendations.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
-                            Durable materials selected for Coquitlamâ€™s climate and the specific property type.
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0"></span>
+                            Durable materials selected for Coquitlam's climate and the specific property type.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0"></span>
                             Quick turnaround with many tub-cut installations completed within a single day.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0"></span>
                             Clean, respectful work that protects your home, condo, or rental throughout the project.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0"></span>
                             Full supply and installation service from a reputable tub-cuts dealer and installer.
                         </li>
                     </ul>
@@ -206,23 +206,23 @@
                 </p>
                 <ul class="space-y-4">
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm"></span>
                         <div><strong>Less expensive:</strong> Keep your existing tub and plumbing without major demolition.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm"></span>
                         <div><strong>Faster turnaround:</strong> Many installations can be completed within a single day.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm"></span>
                         <div><strong>Less disruption:</strong> Fewer trades, less dust, and a shorter construction period.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm"></span>
                         <div><strong>Maintains design:</strong> Retain your tile, decor, and layout while improving entry access.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm"></span>
                         <div><strong>Better safety:</strong> Step-in access plus non-slip protection for all ages and mobility levels.</div>
                     </li>
                 </ul>
@@ -443,12 +443,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Coquitlam (All Areas)</li>
-                                <li>â€¢ Port Coquitlam & Port Moody</li>
-                                <li>â€¢ Burke Mountain & Westwood Plateau</li>
-                                <li>â€¢ Maillardville & Central Coquitlam</li>
-                                <li>â€¢ New Westminster & Burnaby</li>
-                                <li>â€¢ Greater Vancouver & Lower Mainland</li>
+                                <li> Coquitlam (All Areas)</li>
+                                <li> Port Coquitlam & Port Moody</li>
+                                <li> Burke Mountain & Westwood Plateau</li>
+                                <li> Maillardville & Central Coquitlam</li>
+                                <li> New Westminster & Burnaby</li>
+                                <li> Greater Vancouver & Lower Mainland</li>
                             </ul>
                         </div>
                     </div>

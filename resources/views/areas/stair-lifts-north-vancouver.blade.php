@@ -9,8 +9,8 @@
 @endpush
 
 @section('content')
-<!-- Hero Section -->
-<section class="hero-section">
+
+<!-- <section class="hero-section">
     <div class="container mx-auto px-4 relative z-10">
         <div class="text-center">
             <h1 class="text-4xl md:text-6xl font-bold mb-6">
@@ -35,7 +35,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- About Richmond Hill Section -->
 <section class="py-16 bg-gray-50">
@@ -80,7 +80,6 @@
                     home life easier for people of all ages and abilities.</p>
             </div>
 
-            
             @include('partials.services')
         </div>
     </section>
@@ -604,7 +603,7 @@
                  </button>
                  <div class="faq-answer">
                      <div class="faq-answer-content">
-                         Prices are dependent on the type and model of the staircase; for a basic lift, plan on $3,000â€“$5,000. Custom or arched lifts are higher, from $8,000.
+                         Prices are dependent on the type and model of the staircase; for a basic lift, plan on $3,000 $5,000. Custom or arched lifts are higher, from $8,000.
                      </div>
                  </div>
              </div>

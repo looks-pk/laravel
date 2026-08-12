@@ -1,6 +1,6 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Grab Bar Installation Coquitlam, BC | Home2Stay')
+@section('title', 'Grab Bar Installation Coquitlam, BC | Home2stay')
 @section('meta_description', 'Professional grab bar installation & replacement in Coquitlam, BC. Our experts install secure bathtub, vertical & folding bars for senior safety & mobility. Free in-home assessment.')
 
 @push('styles')
@@ -15,7 +15,7 @@
             <h1 class="text-4xl md:text-6xl font-bold mb-6">
             Grab Bars in Coquitlam, BC
             </h1>
-            <p class="text-xl md:text-1xl mb-8 opacity-90 max-w-xl mx-auto">If you're looking for professional grab bars in Coquitlam, BC, youâ€™re at the ideal location. Our speciality at Home2stay is installing grab bars that improve safety, stability, and peace of mind. Our skilled staff provides precise and considerate solutions for any situation, whether you're remodeling your bathroom, assisting a loved one in maintaining their independence, or getting your house ready for aging in place.
+            <p class="text-xl md:text-1xl mb-8 opacity-90 max-w-xl mx-auto">If you're looking for professional grab bars in Coquitlam, BC, you are at the ideal location. Our speciality at Home2stay is installing grab bars that improve safety, stability, and peace of mind. Our skilled staff provides precise and considerate solutions for any situation, whether you're remodeling your bathroom, assisting a loved one in maintaining their independence, or getting your house ready for aging in place.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="#contact" class="btn-secondary text-lg px-8 py-4">
@@ -278,12 +278,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Burnaby (All Areas)</li>
-                                <li>â€¢ Vancouver & New Westminster</li>
-                                <li>â€¢ Coquitlam & Port Moody</li>
-                                <li>â€¢ Richmond & Surrey</li>
-                                <li>â€¢ North Vancouver & West Vancouver</li>
-                                <li>â€¢ Tri-Cities & Langley</li>
+                                <li> Burnaby (All Areas)</li>
+                                <li> Vancouver & New Westminster</li>
+                                <li> Coquitlam & Port Moody</li>
+                                <li> Richmond & Surrey</li>
+                                <li> North Vancouver & West Vancouver</li>
+                                <li> Tri-Cities & Langley</li>
                             </ul>
                         </div>
                     </div>
@@ -360,7 +360,6 @@
 </section>
 
 
-
 <!-- Expert Installation & Local Support Section -->
 <section class="py-16">
     <div class="container mx-auto px-6 lg:px-12 max-w-6xl">
@@ -372,25 +371,25 @@
             Selecting the correct installer is crucial. Home2stay is trusted by Coquitlam residents for the following reasons</p>
             <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 pl-5 md:pl-10">
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Trained and skilled technicians.</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Use of high-quality materials for long-lasting durability.
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Customized in-home safety assessments.</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Transparent pricing with no hidden costs.
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Quick, tidy, and expert installation; attentive customer service.
                     </span>
                 </li>

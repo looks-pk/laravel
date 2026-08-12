@@ -1,6 +1,6 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Grab Bar Installation Surrey, BC | Home2Stay')
+@section('title', 'Grab Bar Installation Surrey, BC | Home2stay')
 @section('meta_description', 'Professional grab bar installation & replacement in Surrey, BC. Trusted grab bar services with expert installation, safety solutions & accessible designs for homes and facilities.')
 
 @push('styles')
@@ -8,8 +8,8 @@
 @endpush
 
 @section('content')
-<!-- Hero Section -->
-<section class="hero-section">
+
+<!-- <section class="hero-section">
     <div class="container mx-auto px-4 relative z-10">
         <div class="text-center">
             <h1 class="text-4xl md:text-6xl font-bold mb-6">
@@ -34,7 +34,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Reliable Service Section -->
 <section class="py-16 bg-gray-50">

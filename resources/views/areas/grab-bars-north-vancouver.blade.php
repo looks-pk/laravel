@@ -80,7 +80,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Free Standing</h3>
                 <p class="text-gray-600">
-                For those who want mobility without drilling, the Home2 Stay Free-Standing Grab Bars North Vancouver are the best solution. If you are staying in a rented home, or when walls can not be drilled. We will guide you to choose a rigid, stylish model that fits your space and your needs. If you do not need these bars, you can remove them easily.</p>
+                For those who want mobility without drilling, the Home2stay Free-Standing Grab Bars North Vancouver are the best solution. If you are staying in a rented home, or when walls can not be drilled. We will guide you to choose a rigid, stylish model that fits your space and your needs. If you do not need these bars, you can remove them easily.</p>
             </div>
 
             <div class="service-card p-8 text-center">
@@ -117,7 +117,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Suction</h3>
                 <p class="text-gray-600">
-                For those who want mobility without drilling, the Home2 Stay Free-Standing Grab Bars North Vancouver are the best solution. If you are staying in a rented home, or when walls can not be drilled. We will guide you to choose a rigid, stylish model that fits your space and your needs. If you do not need these bars, you can remove them easily.Why are you looking for a temporary solution? Our suction grab bars in North Vancouver are perfect for short-term support, ideal for recovery after surgery or for visitors. These are easy to reposition and remove, and we only use high-quality models for safety.
+                For those who want mobility without drilling, the Home2stay Free-Standing Grab Bars North Vancouver are the best solution. If you are staying in a rented home, or when walls can not be drilled. We will guide you to choose a rigid, stylish model that fits your space and your needs. If you do not need these bars, you can remove them easily.Why are you looking for a temporary solution? Our suction grab bars in North Vancouver are perfect for short-term support, ideal for recovery after surgery or for visitors. These are easy to reposition and remove, and we only use high-quality models for safety.
                 </p>
             </div>
 
@@ -456,7 +456,7 @@
             Get In Touch
         </h2>
         <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-        Ready to make your home safer? Donâ€™t wait until thereâ€™s an accident. Call Home2stay today for expert grab bar installation that North Vancouver residents trust.</p>
+        Ready to make your home safer? Do not wait until there's an accident. Call Home2stay today for expert grab bar installation that North Vancouver residents trust.</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:604-259-1211" class="btn-secondary text-lg px-8 py-4">
                 Call (604) 259-1211

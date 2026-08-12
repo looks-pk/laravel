@@ -8,8 +8,8 @@
 @endpush
 
 @section('content')
-<!-- Hero Section -->
-<section class="hero-section">
+
+<!-- <section class="hero-section">
     <div class="container mx-auto px-4 relative z-10">
         <div class="text-center">
             <h1 class="text-4xl md:text-6xl font-bold mb-6">
@@ -35,7 +35,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Reliable Service Section -->
 <section class="py-16 bg-gray-50">
@@ -47,7 +47,7 @@
                 </h2>
                 <div class="prose prose-lg max-w-none">
                     <ul style="list-style-type: disc; padding-left: 20px;" class="text-gray-700">
-                        <li>We are a local company servicing Coquitlam and the surrounding Triâ€‘Cities area, so you get quick, friendly service.</li>
+                        <li>We are a local company servicing Coquitlam and the surrounding Tri-Cities area, so you get quick, friendly service.</li>
                         <li>We offer full service: ramps dealers in Coquitlam, BC AND installation, customization, and support.</li>
                         <li>Our team works with you to assess, design, and deliver the exact ramp you need, with minimum interruption.</li>
                         <li>You won't just get a product; you get a fully installed solution that's sturdy, safe and built to last.</li>
@@ -131,7 +131,7 @@
         <div class="max-w-4xl mx-auto prose prose-lg">
             <ul style="list-style-type: disc; padding-left: 20px;" class="text-gray-700">
                 <li><strong>Focused On:</strong> We focus on Professional Ramps in Coquitlam, not just random accessibility gear.</li>
-                <li><strong>We're local:</strong> you deal with a Coquitlamâ€‘based team who knows the terrain, weather, and community.</li>
+                <li><strong>We're local:</strong> you deal with a Coquitlam based team who knows the terrain, weather, and community.</li>
                 <li><strong>Delivery:</strong> We deliver full service from selection through installation and beyond.</li>
                 <li><strong>We back our work:</strong> you get peace of mind that your ramp is done the right way.</li>
                 <li><strong>We customise:</strong> we don't force you into one size fits all. We plan for your specific steps, doorways and usage.</li>
@@ -716,9 +716,9 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Coquitlam (All Areas)</li>
-                                <li>â€¢ Surrounding Tri-Cities Area</li>
-                                <li>â€¢ Throughout Metro Vancouver</li>
+                                <li> Coquitlam (All Areas)</li>
+                                <li> Surrounding Tri-Cities Area</li>
+                                <li> Throughout Metro Vancouver</li>
                             </ul>
                         </div>
                     </div>
@@ -854,7 +854,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        We use quality materials like aluminium framing, antiâ€‘slip surfaces, guardâ€‘rails, and weatherâ€‘proof hardware suitable for Coquitlam's climate.
+                        We use quality materials like aluminium framing, anti slip surfaces, guard rails, and weather proof hardware suitable for Coquitlam's climate.
                     </div>
                 </div>
             </div>
@@ -869,7 +869,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        We serve both residential and commercial clients as ramp dealers in Coquitlam, BC. We handle heavyâ€‘duty uses, wider ramps, highâ€‘traffic entrances, and compliance requirements.
+                        We serve both residential and commercial clients as ramp dealers in Coquitlam, BC. We handle heavy duty uses, wider ramps, high traffic entrances, and compliance requirements.
                     </div>
                 </div>
             </div>
@@ -884,7 +884,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        Yes. We provide a free onâ€‘site assessment and quotation so you know the cost upfront, no hidden surprises.
+                        Yes. We provide a free on-site assessment and quotation so you know the cost upfront, no hidden surprises.
                     </div>
                 </div>
             </div>

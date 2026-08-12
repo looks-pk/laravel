@@ -8,8 +8,8 @@
 @endpush
 
 @section('content')
-<!-- Hero Section -->
-<section class="hero-section">
+
+<!-- <section class="hero-section">
     <div class="container mx-auto px-4 relative z-10">
         <div class="text-center">
             <h1 class="text-4xl md:text-6xl font-bold mb-6">
@@ -33,7 +33,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Reliable Service Section -->
 <section class="py-16 bg-gray-50">

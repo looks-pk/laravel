@@ -1,6 +1,6 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Grab Bar Installation Richmond, BC | Home2Stay')
+@section('title', 'Grab Bar Installation Richmond, BC | Home2stay')
 @section('meta_description', 'Professional grab bar installation & replacement in Richmond, BC. Trusted grab bar services with expert installation, safety solutions & accessible designs for homes and facilities.')
 
 @push('styles')
@@ -81,7 +81,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Free Standing</h3>
                 <p class="text-gray-600">
-                When drilling into walls isn't possible or preferred, free-standing grab bars offer strong support. These may include vertical poles or floorâ€‘toâ€‘ceiling poles. Ideal for showers, tubs, or beside beds. We ensure base plates are secure, and floor penetration is sealed.
+                When drilling into walls isn't possible or preferred, free-standing grab bars offer strong support. These may include vertical poles or floor-to-ceiling poles. Ideal for showers, tubs, or beside beds. We ensure base plates are secure, and floor penetration is sealed.
 
                 </p>
             </div>
@@ -105,7 +105,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Vertical</h3>
-                <p class="text-gray-600">Use a vertical grab bar for pullâ€‘up support or stabilising when standing. These go near entrances to showers or beside toilets. Helps reduce slips and fall risk.
+                <p class="text-gray-600">Use a vertical grab bar for pull up support or stabilising when standing. These go near entrances to showers or beside toilets. Helps reduce slips and fall risk.
 
                 </p>
             </div>
@@ -130,7 +130,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Diagonal</h3>
-                <p class="text-gray-600">A diagonal bar gives more options. Great for people who shift between seated and standing. Helps with leverage. We customâ€‘measure and install at precise angles to balance strength and comfort.
+                <p class="text-gray-600">A diagonal bar gives more options. Great for people who shift between seated and standing. Helps with leverage. We custom measure and install at precise angles to balance strength and comfort.
 
                 </p>
             </div>
@@ -156,7 +156,7 @@
         </h2>
         <div class="max-w-4xl mx-auto prose prose-lg">
             <p class="text-lg text-gray-700 leading-relaxed mb-6">
-            Already have grab bars? Maybe they are loose, rusted, failing, or don't meet current load-bearing requirements. We offer grab bar replacement service. We remove old fixtures. We inspect the wall structure. If the backing is weak, we reinforce. Then install upgraded bars with improved grip, rustâ€‘proof bolts, and finishes.
+            Already have grab bars? Maybe they are loose, rusted, failing, or don't meet current load-bearing requirements. We offer grab bar replacement service. We remove old fixtures. We inspect the wall structure. If the backing is weak, we reinforce. Then install upgraded bars with improved grip, rust proof bolts, and finishes.
 
 
             </p>
@@ -282,12 +282,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Richmond (All Areas)</li>
-                                <li>â€¢ Vancouver & Burnaby</li>
-                                <li>â€¢ Surrey & New Westminster</li>
-                                <li>â€¢ North Vancouver & West Vancouver</li>
-                                <li>â€¢ Coquitlam & Port Moody</li>
-                                <li>â€¢ Langley & Delta</li>
+                                <li> Richmond (All Areas)</li>
+                                <li> Vancouver & Burnaby</li>
+                                <li> Surrey & New Westminster</li>
+                                <li> North Vancouver & West Vancouver</li>
+                                <li> Coquitlam & Port Moody</li>
+                                <li> Langley & Delta</li>
                             </ul>
                         </div>
                     </div>
@@ -374,29 +374,29 @@
         <div class="max-w-4xl mx-auto mb-12">
             <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 pl-5 md:pl-10">
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Skilled, Local Experts: We know Richmond homes. We know tile, drywall, concrete, and stucco.</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Compliant with Building Codes: We follow the BC Building Code and accessibility rules.
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Premium Materials: We use bars that are rustâ€‘resistant, durable. Steel, stainless steel, corrosion-resistant coatings.</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Clear Pricing: We give you a quote that includes labour, bar cost, any reinforcement and finishing.
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Fast Response and Reliable: We schedule free assessments, get work done quickly.</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Warranty & Guarantee: We stand behind our work. If the bar loosens or fails under normal use, we fix it.
                     </span>
                 </li>
@@ -442,7 +442,7 @@
         </h3>
         <div class="max-w-4xl mx-auto mb-12">
             <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center mt-4">
-            That spot needs precision. We take these steps: Measure from floor to where hand needs it. usually, 750â€‘850 mm (â‰ˆ 30â€‘34 in) for horizontal bars. Vertical or Lâ€‘shaped bars get placed 150 mm (â‰ˆ 6 in) in front of the toilet wall for grip. Reinforce behind the wall or use appropriate anchors.</p>
+            That spot needs precision. We take these steps: Measure from floor to where hand needs it. usually, 750–850 mm (≈30–34 in) for horizontal bars. Vertical or L shaped bars get placed 150 mm (≈6 in) in front of the toilet wall for grip. Reinforce behind the wall or use appropriate anchors.</p>
         </div>
 
     </div>
@@ -486,7 +486,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        For one simple grab bar in drywall or tile, usually 1â€‘2 hours. If there are multiple bars or tough surfaces, a few more hours.
+                        For one simple grab bar in drywall or tile, usually 1 hours. If there are multiple bars or tough surfaces, a few more hours.
                     </div>
                 </div>
             </div>

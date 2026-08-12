@@ -9,8 +9,8 @@
 @endpush
 
 @section('content')
-<!-- Hero Section -->
-<section class="hero-section">
+
+<!-- <section class="hero-section">
     <div class="container mx-auto px-4 relative z-10">
         <div class="text-center">
             <h1 class="text-4xl md:text-6xl font-bold mb-6">
@@ -35,7 +35,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- About Richmond Hill Section -->
 <section class="py-16 bg-gray-50">
@@ -172,12 +172,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Langley (All Areas)</li>
-                                <li>â€¢ Surrey & White Rock</li>
-                                <li>â€¢ Vancouver & Burnaby</li>
-                                <li>â€¢ Coquitlam & Port Coquitlam</li>
-                                <li>â€¢ Richmond & Delta</li>
-                                <li>â€¢ Abbotsford & Mission</li>
+                                <li> Langley (All Areas)</li>
+                                <li> Surrey & White Rock</li>
+                                <li> Vancouver & Burnaby</li>
+                                <li> Coquitlam & Port Coquitlam</li>
+                                <li> Richmond & Delta</li>
+                                <li> Abbotsford & Mission</li>
                             </ul>
                         </div>
                     </div>

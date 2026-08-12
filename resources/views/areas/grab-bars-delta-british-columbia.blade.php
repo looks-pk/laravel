@@ -1,6 +1,6 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Grab Bar Installation Delta, BC | Home2Stay')
+@section('title', 'Grab Bar Installation Delta, BC | Home2stay')
 @section('meta_description', 'Professional grab bar installation & replacement in Delta, BC. Certified experts install secure bathtub, shower & toilet bars for senior safety & mobility. Free in-home assessment.')
 
 @push('styles')
@@ -15,7 +15,7 @@
             <h1 class="text-4xl md:text-6xl font-bold mb-6">
             Grab Bars in Delta, BC
             </h1>
-            <p class="text-xl md:text-1xl mb-8 opacity-90 max-w-xl mx-auto">Are you looking for a professional grab bar installation in Delta, BC? No matter who you are, youâ€™re in the right place, whether itâ€™s for a loved one aging at home, someone recovering from surgery, or to boost bathroom safety. Home2stay provides trusted, affordable, and expertly installed grab bars. Weâ€˜re experts in helping homeowners and caregivers feel confident about mobility support, right where itâ€™s needed most. Check out our service offerings to find the right solution for your space. 
+            <p class="text-xl md:text-1xl mb-8 opacity-90 max-w-xl mx-auto">Are you looking for a professional grab bar installation in Delta, BC? No matter who you are, you are in the right place, whether its for a loved one aging at home, someone recovering from surgery, or to boost bathroom safety. Home2stay provides trusted, affordable, and expertly installed grab bars. We are experts in helping homeowners and caregivers feel confident about mobility support, right where its needed most. Check out our service offerings to find the right solution for your space. 
 
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
@@ -46,7 +46,7 @@
                 </h2>
                 <div class="prose prose-lg max-w-none">
                     <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                    Weâ€™re not just installers, weâ€™re certified safety professionals. Home2stay knows that every household is unique. Thatâ€™s why we offer an extensive variety of grab bar types, finishes, and placements customized to meet your specific needs. From modern aesthetic to heavy-duty performance, we provide grab bars that blend smoothly with your home, without compromising safety. 
+                    We are not just installers, we are certified safety professionals. Home2stay knows that every household is unique. Thats why we offer an extensive variety of grab bar types, finishes, and placements customized to meet your specific needs. From modern aesthetic to heavy-duty performance, we provide grab bars that blend smoothly with your home, without compromising safety. 
 
                 </p>
                     
@@ -156,7 +156,7 @@
         </h2>
         <div class="max-w-4xl mx-auto prose prose-lg">
             <p class="text-lg text-gray-700 leading-relaxed mb-6">
-            Already have outdated grab bars or no longer meet your safety needs? We manage grab bar replacements in Delta with precision and care. Whether itâ€™s a rusted bar, a loose fitting,  or simply a style upgrade. Our team ensures your replacement is not just functional but reliable for long-term use. Weâ€™ll also inspect your walls and mounting surfaces to make sure theyâ€™re ready for secure installation.
+            Already have outdated grab bars or no longer meet your safety needs? We manage grab bar replacements in Delta with precision and care. Whether its a rusted bar, a loose fitting,  or simply a style upgrade. Our team ensures your replacement is not just functional but reliable for long-term use. We will also inspect your walls and mounting surfaces to make sure they are ready for secure installation.
 
 
             </p>
@@ -170,7 +170,7 @@
           </h2>
           <div class="max-w-4xl mx-auto prose prose-lg">
               <p class="text-lg text-gray-700 leading-relaxed mb-6">
-              We work with homeowners across the Delta, BC, to install residential grab bars customized to everyday needs. If you're retrofitting an existing home or building new, our team will assess your space, listen to your needs, and suggest grab bars that improve safety without compromising aesthetics. From single family home to condos to townhomes, weâ€™re here with our experts. 
+              We work with homeowners across the Delta, BC, to install residential grab bars customized to everyday needs. If you're retrofitting an existing home or building new, our team will assess your space, listen to your needs, and suggest grab bars that improve safety without compromising aesthetics. From single family home to condos to townhomes, we are here with our experts. 
 
               </p>
           </div>
@@ -282,12 +282,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Burnaby (All Areas)</li>
-                                <li>â€¢ Vancouver & New Westminster</li>
-                                <li>â€¢ Coquitlam & Port Moody</li>
-                                <li>â€¢ Richmond & Surrey</li>
-                                <li>â€¢ North Vancouver & West Vancouver</li>
-                                <li>â€¢ Tri-Cities & Langley</li>
+                                <li> Burnaby (All Areas)</li>
+                                <li> Vancouver & New Westminster</li>
+                                <li> Coquitlam & Port Moody</li>
+                                <li> Richmond & Surrey</li>
+                                <li> North Vancouver & West Vancouver</li>
+                                <li> Tri-Cities & Langley</li>
                             </ul>
                         </div>
                     </div>
@@ -373,7 +373,7 @@
         </h2>
         <div class="max-w-4xl mx-auto mb-12">
             <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">
-            Your safety is our priority, and we treat every installation like weâ€™re working in our own home. Here's why Home2stay is Deltaâ€™s trusted grab bar specialist</p>
+            Your safety is our priority, and we treat every installation like weâ€™re working in our own home. Here's why Home2stay is Delta's trusted grab bar specialist</p>
             <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 pl-5 md:pl-10">
                 <li class="text-gray-700 mb-3 flex items-start">
                     <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
@@ -420,8 +420,7 @@
         </h2>
         <div class="max-w-4xl mx-auto prose prose-lg">
             <p class="text-lg text-gray-700 leading-relaxed mb-6">
-            Weâ€™re experts in grab bar installation services in Delta, BC. Our services are more reliable for all our clients, no matter whether youâ€™re in Delta or the nearby area. Homestay experts continue to be a leader in home accessibility services.  Our main priority is to provide the best services, and we believe in building trust, one home at a time. Our reliable services make your life easier and smooth.
-
+            We are experts in grab bar installation services in Delta, BC. Our services are more reliable for all our clients, no matter whether you are in Delta or the nearby area. Homestay experts continue to be a leader in home accessibility services.  Our main priority is to provide the best services, and we believe in building trust, one home at a time. Our reliable services make your life easier and smooth.
             </p>
             
         </div>
@@ -433,7 +432,7 @@
           </h3>
           <div class="max-w-4xl mx-auto prose prose-lg">
               <p class="text-lg text-gray-700 leading-relaxed mb-6">
-              Not every wall has conveniently placed studs, but that doesnâ€™t stop us. We use wall anchors and specialized fasteners designed specifically for grab bars. Our team ensures the bars are rated to hold significant weight, even without stud backing. We follow all manufacturer guidelines and safety codes, so you never have to worry.
+              Not every wall has conveniently placed studs, but that does not stop us. We use wall anchors and specialized fasteners designed specifically for grab bars. Our team ensures the bars are rated to hold significant weight, even without stud backing. We follow all manufacturer guidelines and safety codes, so you never have to worry.
               </p>
           </div>
       </div>
@@ -448,7 +447,7 @@
         </h3>
         <div class="max-w-4xl mx-auto mb-12">
             <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center mt-4">
-            Toilet areas are one of the most common spots for grab bar installations. We usually install vertical or diagonal bars just in front of or beside the toilet. These placements allow users to sit and stand with ease. We always customise the height and angle based on the userâ€™s mobility and comfort.</p>
+            Toilet areas are one of the most common spots for grab bar installations. We usually install vertical or diagonal bars just in front of or beside the toilet. These placements allow users to sit and stand with ease. We always customise the height and angle based on the user's mobility and comfort.</p>
         </div>
 
     </div>
@@ -486,7 +485,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                    Grab bars range from 12 to 48 inches. The length depends on the space and the purpose. Our team will recommend the right size based on your needs, whether itâ€™s for a small toilet corner or across a long shower wall.
+                    Grab bars range from 12 to 48 inches. The length depends on the space and the purpose. Our team will recommend the right size based on your needs, whether its for a small toilet corner or across a long shower wall.
 
 
                     </div>

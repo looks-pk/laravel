@@ -1,6 +1,6 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Grab Bar Installation New Westminster, BC | Home2Stay')
+@section('title', 'Grab Bar Installation New Westminster, BC | Home2stay')
 @section('meta_description', 'Professional grab bar installation & replacement in New Westminster, BC. Trusted grab bar services with expert installation, safety solutions & accessible designs for homes and facilities.')
 
 @push('styles')
@@ -280,12 +280,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ New Westminster (All Areas)</li>
-                                <li>â€¢ Vancouver & Burnaby</li>
-                                <li>â€¢ Richmond & Surrey</li>
-                                <li>â€¢ Coquitlam & Port Moody</li>
-                                <li>â€¢ North Vancouver & West Vancouver</li>
-                                <li>â€¢ Langley & Delta</li>
+                                <li> New Westminster (All Areas)</li>
+                                <li> Vancouver & Burnaby</li>
+                                <li> Richmond & Surrey</li>
+                                <li> Coquitlam & Port Moody</li>
+                                <li> North Vancouver & West Vancouver</li>
+                                <li> Langley & Delta</li>
                             </ul>
                         </div>
                     </div>
@@ -374,25 +374,25 @@
             When you choose Home2stay, you get more than just a grab bar installer. You get a partner in home safety. Here's why homeowners in Westminster, BC trust us:</p>
             <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 pl-5 md:pl-10">
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Experience: Skilled installers with years of hands-on work</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Quality: Durable, stylish grab bars that last
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Custom Fit: Solutions customized to your space and needs</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Efficiency: Fast, neat installations with respect for your home
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Affordability: Competitive prices without cutting corners</span>
                 </li>
             </ul>

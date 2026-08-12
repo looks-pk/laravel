@@ -373,42 +373,42 @@
         Why Choose Home2stay for Grab Bar Installation in White Rock, Homeowners?
         </h2>
         <div class="max-w-4xl mx-auto mb-12">
-            <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">We realize you have choices. But hereâ€™s why people across White Rock choose Home2stay again and again</p>
+            <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center">We realize you have choices. But here's why people across White Rock choose Home2stay again and again</p>
             <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 pl-5 md:pl-10">
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>We install it right the first time</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Our work looks clean and feels solid
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Our team shows up on timeâ€”every time
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>No hidden fees, no surprises, just honest work
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
-                    <span>Weâ€™re fully insured and experienced
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
+                    <span>We are fully insured and experienced
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>You stay informed at every step</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>We specialize in assist handle installation for all needs</span>
                 </li>
             </ul>
-            <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center mt-4">Whether youâ€™re planning ahead or upgrading for safety, we make it simple.</p>
+            <p class="text-lg text-gray-700 leading-relaxed mb-6 text-center mt-4">Whether you are planning ahead or upgrading for safety, we make it simple.</p>
         </div>
 
     </div>
@@ -422,7 +422,7 @@
         </h2>
         <div class="max-w-4xl mx-auto prose prose-lg">
             <p class="text-lg text-gray-700 leading-relaxed mb-6">
-            Weâ€™re here with vast experience and proven methods for residential Grab Bars in White Rock. We use the best material for your upgraded bars, and we ensure you, your bar wonâ€™t wobble or rust. Before installing the grab bar, we tested for good strength. If we say itâ€™s safe, you can count on it. We donâ€™t just do the simple job, we do it like weâ€™re doing all the work for our family. 
+            We are here with vast experience and proven methods for residential Grab Bars in White Rock. We use the best material for your upgraded bars, and we ensure you, your bar would not wobble or rust. Before installing the grab bar, we tested for good strength. If we say its safe, you can count on it. We do not just do the simple job, we do it like we are doing all the work for our family. 
 
             </p>
             
@@ -435,7 +435,7 @@
           </h3>
           <div class="max-w-4xl mx-auto prose prose-lg">
               <p class="text-lg text-gray-700 leading-relaxed mb-6">
-              Donâ€™t have wall studs in the spot you want? That makes sense. We use anchors rated for high weight. For tile, drywall, or fibreglass, our methods ensure strong, lasting hold. You get reliable non-slip support no matter your wall type.
+              Do not have wall studs in the spot you want? That makes sense. We use anchors rated for high weight. For tile, drywall, or fibreglass, our methods ensure strong, lasting hold. You get reliable non-slip support no matter your wall type.
               </p>
           </div>
       </div>

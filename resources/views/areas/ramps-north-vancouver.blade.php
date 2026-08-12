@@ -1,6 +1,6 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Professional Ramps in North Vancouver | Home2Stay')
+@section('title', 'Professional Ramps in North Vancouver | Home2stay')
 @section('meta_description', 'Expert ramp installation services in North Vancouver. Custom wheelchair ramps, modular systems & professional installation. Safe, durable ramps for residential and commercial properties.')
 
 @push('styles')
@@ -307,12 +307,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ North Vancouver (All Areas)</li>
-                                <li>â€¢ Lynn Valley & Deep Cove</li>
-                                <li>â€¢ Lonsdale & Lower Lonsdale</li>
-                                <li>â€¢ West Vancouver</li>
-                                <li>â€¢ Vancouver & Burnaby</li>
-                                <li>â€¢ Throughout Metro Vancouver</li>
+                                <li> North Vancouver (All Areas)</li>
+                                <li> Lynn Valley & Deep Cove</li>
+                                <li> Lonsdale & Lower Lonsdale</li>
+                                <li> West Vancouver</li>
+                                <li> Vancouver & Burnaby</li>
+                                <li> Throughout Metro Vancouver</li>
                             </ul>
                         </div>
                     </div>
@@ -399,25 +399,25 @@
         <div class="max-w-4xl mx-auto mb-12">
             <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 pl-5 md:pl-10">
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Local Expertise: We've worked with hundreds of properties across North Vancouver. From Lynn Valley to Lonsdale to Deep Cove, we know the terrain and the rules.</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Quality Materials: Our ramps are built to last. No shortcuts, no cheap components. Just real materials, done right.
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Friendly, Clear Communication: Just real advice and honest answers to your questions.</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Safety First: Everything we do follows local codes, safety guidelines, and best practices. You'll never have to second-guess your ramp's safety.
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Lifetime Support: If you're looking to expand or upgrade your ramp. We're here for you. One call and we're back on-site.</span>
                 </li>
             </ul>

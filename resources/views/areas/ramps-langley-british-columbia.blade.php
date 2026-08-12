@@ -434,7 +434,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        We use robust materials suited for Langley weather: aluminium frames, antiâ€‘slip surfaces, secure guardâ€‘rails, and weatherâ€‘proof fasteners.
+                        We use robust materials suited for Langley weather: aluminium frames, anti slip surfaces, secure guard rails, and weather proof fasteners.
                     </div>
                 </div>
             </div>
@@ -479,7 +479,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        You'll learn how to use, maintain, and stay safe. We also provide contact support for any followâ€‘up service.
+                        You'll learn how to use, maintain, and stay safe. We also provide contact support for any follow up service.
                     </div>
                 </div>
             </div>

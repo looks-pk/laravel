@@ -106,7 +106,7 @@
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Bathroom Renovations & Shower installations are what we get the knack of. We aim to improve comfort and property value while exalting everyday living. Whether modernizing a bathroom or creating an entirely new space for bathing, our team of experts will create bathrooms with style and durability that are functional.
+                      Transform your bathrooms with professional bathroom renovations. We can install showers and upgrade your entire bathroom to meet your specific needs. Our bathroom renovations are functional, stylish, and comfortable. Home2Stay offers expert bathroom renovation services that are customised to fit your budget, lifestyle, and home.
                         </p>
                     </div>
                     <div class="mb-6">

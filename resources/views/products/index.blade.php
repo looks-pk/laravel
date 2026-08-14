@@ -576,7 +576,7 @@
                             class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">
                                 Flooring & Plumbing Solutions</h3>
                         </a>
-                        <p class="text-gray-600 mb-4 flex-grow">Home2Stay offers high-quality floors that enhance the comfort, durability and style of every home. No matter if you are renovating, upgrading</p>
+                        <p class="text-gray-600 mb-4 flex-grow">Home2stay offers high-quality floors that enhance the comfort, durability and style of every home. No matter if you are renovating, upgrading</p>
                         <p class="font-bold text-primary mb-5 flex items-center">
                             <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm"> Products</span>
                         </p>

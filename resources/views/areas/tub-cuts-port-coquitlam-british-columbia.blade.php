@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Trusted Tub Cuts in Port Coquitlam, BC | Home2Stay')
-@section('meta_description', 'Professional tub cuts in Port Coquitlam, BC. Trusted tub cut dealers for homes, rentals, strata & commercial facilities. Fast, clean & reliable bath access upgrades â€” book your free assessment today.')
+@section('title', 'Trusted Tub Cuts in Port Coquitlam, BC | Home2stay')
+@section('meta_description', 'Professional tub cuts in Port Coquitlam, BC. Trusted tub cut dealers for homes, rentals, strata & commercial facilities. Fast, clean & reliable bath access upgrades book your free assessment today.')
 
 @push('styles')
 <link rel="stylesheet" href="{{ asset('css/area-page.css') }}">
@@ -9,8 +9,8 @@
 @endpush
 
 @section('content')
-<!-- Hero Section -->
-<section class="hero-section">
+
+<!-- <section class="hero-section">
     <div class="container mx-auto px-4 relative z-10">
         <div class="text-center">
             <h1 class="text-4xl md:text-6xl font-bold mb-6">
@@ -35,7 +35,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Why Choose Us Section -->
 <section class="py-16 bg-gray-50">
@@ -47,27 +47,27 @@
                 </h2>
                 <div class="prose prose-lg max-w-none">
                     <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                        For a reliable, stress-free tub cut upgrade, Home2stay brings both expertise and genuine care. You get a solution that works â€” not just a temporary fix.
+                        For a reliable, stress-free tub cut upgrade, Home2stay brings both expertise and genuine care. You get a solution that works not just a temporary fix.
                     </p>
                     <ul class="space-y-3 mb-6">
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">1</span>
                             We offer free on-site assessments in Port Coquitlam.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">2</span>
                             We design each tub-cut job to fit your space, use, and budget.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">3</span>
                             Our installers are experienced, clean, and respectful of your home.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">4</span>
                             We use premium materials that meet local standards and weather conditions.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">5</span>
                             We deliver fast turnaround with minimal disruption to your home or facility.
                         </li>
                     </ul>
@@ -105,7 +105,7 @@
                 <div class="step-number">2</div>
                 <h3 class="text-xl font-bold text-gray-900 mb-3">Custom Proposal & Quote</h3>
                 <p class="text-gray-600">
-                    We propose a plan â€” how deep to cut, what threshold or insert to install, finishing trims, non-slip treatment, and a fully transparent cost. You review and approve.
+                    We propose a plan how deep to cut, what threshold or insert to install, finishing trims, non-slip treatment, and a fully transparent cost. You review and approve.
                 </p>
             </div>
 
@@ -206,23 +206,23 @@
                 </p>
                 <ul class="space-y-4">
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm"></span>
                         <div><strong>Lower cost:</strong> You keep your existing tub and plumbing, reducing materials and labour significantly.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm"></span>
                         <div><strong>Faster installation:</strong> Many tub cuts complete in a few hours to one day.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm"></span>
                         <div><strong>Less disruption:</strong> No major demolition, less mess, fewer trades in your space.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
-                        <div><strong>Maintains existing design:</strong> Your bathroom stays mostly intact â€” just safer and more accessible.</div>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm"></span>
+                        <div><strong>Maintains existing design:</strong> Your bathroom stays mostly intact just safer and more accessible.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm"></span>
                         <div><strong>Improves safety and compliance:</strong> Step-in threshold, non-slip surfaces, and less risk of falls.</div>
                     </li>
                 </ul>
@@ -234,7 +234,7 @@
                     Materials & Features You'll Get with Home2stay
                 </h2>
                 <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                    We ensure your tub cut is not just functional â€” it looks good and lasts long.
+                    We ensure your tub cut is not just functional it looks good and lasts long.
                 </p>
                 <div class="space-y-4">
                     <div class="flex items-start text-gray-700">
@@ -311,7 +311,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Fast Scheduling</h3>
-                <p class="text-gray-600">We schedule quickly to suit rental turnovers or business off-hours â€” minimising vacancy and keeping your operation running.</p>
+                <p class="text-gray-600">We schedule quickly to suit rental turnovers or business off-hours minimising vacancy and keeping your operation running.</p>
             </div>
 
             <div class="service-card p-8 text-center">
@@ -321,7 +321,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">BC Code Compliance</h3>
-                <p class="text-gray-600">Proper finishes suited for BC moisture conditions and local code requirements â€” installed correctly the first time.</p>
+                <p class="text-gray-600">Proper finishes suited for BC moisture conditions and local code requirements installed correctly the first time.</p>
             </div>
 
             <div class="service-card p-8 text-center">
@@ -331,7 +331,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Minimal Impact on Neighbours</h3>
-                <p class="text-gray-600">Minimal impact on neighbouring units and common areas when doing multi-unit strata projects â€” we work quietly and cleanly.</p>
+                <p class="text-gray-600">Minimal impact on neighbouring units and common areas when doing multi-unit strata projects we work quietly and cleanly.</p>
             </div>
 
             <div class="service-card p-8 text-center">
@@ -443,12 +443,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Port Coquitlam (All Areas)</li>
-                                <li>â€¢ Coquitlam & Port Moody</li>
-                                <li>â€¢ Pitt Meadows & Maple Ridge</li>
-                                <li>â€¢ Burnaby & New Westminster</li>
-                                <li>â€¢ Surrey & Langley</li>
-                                <li>â€¢ Greater Vancouver & Lower Mainland</li>
+                                <li> Port Coquitlam (All Areas)</li>
+                                <li> Coquitlam & Port Moody</li>
+                                <li> Pitt Meadows & Maple Ridge</li>
+                                <li> Burnaby & New Westminster</li>
+                                <li> Surrey & Langley</li>
+                                <li> Greater Vancouver & Lower Mainland</li>
                             </ul>
                         </div>
                     </div>

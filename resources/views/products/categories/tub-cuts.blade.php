@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Convert Your Tub to a Step-In Shower or Bath - Home2stay')
-@section('meta_description', 'A tub cut out is the safest, most cost-effective way of converting your bathtub into a shower or walk-in bath. Don&#039;t risk your safety! Call Home2stay at (604) 259-1211 and get your tub cut done by our team of experts.')
+@section('meta_description', 'A tub cut out is the safest, most cost-effective way of converting your bathtub into a shower or walk-in bath. Don't risk your safety! Call Home2stay at (604) 259-1211 and get your tub cut done by our team of experts.')
 
 @push('styles')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -552,7 +552,7 @@
                         class="px-8 py-3 bg-white text-primary hover:bg-gray-100 rounded-lg font-medium transition duration-300">
                         Contact Us
                     </a>
-                    <a href="#"
+                    <a href="/all-products/"
                         class="px-8 py-3 bg-transparent border-2 border-white text-white hover:bg-white/10 rounded-lg font-medium transition duration-300">
                         View All Products
                     </a>

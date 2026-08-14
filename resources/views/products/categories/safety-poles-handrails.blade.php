@@ -103,7 +103,8 @@
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
                         <a href="{{ route('products.category', 'glass-mounted-promenaid-handrail') }}"><h3 class="text-xl font-bold text-gray-800 mb-3">Glass Mounted Promenaid</h3></a>
-                        <p class="text-gray-600 mb-4 flex-grow">Promenaid's high-grade aluminum construction resists rust, cracking, and fading — standing up to Vancouver's rain and temperature changes year after year. Available for stairs, ramps, decks, and hallways.</p>
+                        <p class="text-gray-600 mb-4 flex-grow"> Designed for modern spaces with glass railings, the Glass Mounted Promenaid provides a secure, comfortable handrail while preserving open views and a clean architectural look. Ideal for glass staircases, balconies, decks, and other glass-panel installations.
+ </p>
                         <div class="mt-auto">
                             <a href="/products-categories/glass-mounted-promenaid-handrail"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">

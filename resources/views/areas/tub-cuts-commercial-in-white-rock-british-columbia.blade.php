@@ -652,7 +652,7 @@
             Book Your White Rock Tub Cut Upgrade Today
         </h2>
         <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-            If you're ready to move ahead with professional Tub Cuts in White Rock, reach out to Home2stay today. We'll schedule your free consultation, customise a solution to your property, and get you moving forward â€” fast.
+            If you're ready to move ahead with professional Tub Cuts in White Rock, reach out to Home2stay today. We'll schedule your free consultation, customise a solution to your property, and get you moving forward fast.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:604-259-1211" class="btn-secondary text-lg px-8 py-4">

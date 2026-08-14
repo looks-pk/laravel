@@ -63,7 +63,7 @@
                 <!-- Product Image Gallery -->
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gray-100 rounded-lg overflow-hidden mb-4">
-                        <img src="{{ asset('np-img/Corner-Shower-Frost.webp) }}"
+                        <img src="{{ asset('np-img/Corner-Shower-Frost.webp') }}"
                             alt="Best Bath Modular Barrier-Free Shower - Home2Stay BC" class="w-full h-auto object-cover">
                     </div>
                     <!-- Request Quote Button -->

@@ -568,7 +568,7 @@ For us, this recognition isn't just an award — it's a reminder of why we do wh
                     </div>
                     <div class="w-full lg:w-1/2">
                         <div class="bg-white rounded-2xl overflow-hidden shadow-xl border border-gray-100">
-                            <img src="{{ asset('abt-company/CCAYVR012726-71.jpg') }}"
+                            <img src="{{ asset('logo/Vancouver-2025.png') }}"
                                  alt="2026 - Consumer Choice Award"
                                  class="w-full h-auto hover:scale-105 transition-transform duration-500">
                         </div>

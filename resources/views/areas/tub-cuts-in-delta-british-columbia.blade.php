@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Professional Tub Cuts in Delta, BC | Home2Stay')
-@section('meta_description', 'Trusted tub cuts in Delta, BC. Leading tub cuts dealers for homes, rentals, strata, care facilities & commercial properties. Fast, clean & reliable bath access upgrades â€” book your free site visit today.')
+@section('title', 'Professional Tub Cuts in Delta, BC | Home2stay')
+@section('meta_description', 'Trusted tub cuts in Delta, BC. Leading tub cuts dealers for homes, rentals, strata, care facilities & commercial properties. Fast, clean & reliable bath access upgrades book your free site visit today.')
 
 @push('styles')
 <link rel="stylesheet" href="{{ asset('css/area-page.css') }}">
@@ -9,8 +9,8 @@
 @endpush
 
 @section('content')
-<!-- Hero Section -->
-<section class="hero-section">
+
+<!-- <section class="hero-section">
     <div class="container mx-auto px-4 relative z-10">
         <div class="text-center">
             <h1 class="text-4xl md:text-6xl font-bold mb-6">
@@ -35,7 +35,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Why Choose Us Section -->
 <section class="py-16 bg-gray-50">
@@ -51,23 +51,23 @@
                     </p>
                     <ul class="space-y-3 mb-6">
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">1</span>
                                 We also offer free site tests here in Delta.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">2</span>
                             We make every solution tub-cut to suit your bath, style, and purpose.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">3</span>
                             Our installers make sure your space is tidy, mind your time, and complete the task within a short time.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">4</span>
                             Our materials are of high quality and can resist the weather and the multitasking houses of Delta.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">5</span>
                             You have a single process, since we are both dealer and installer.
                         </li>
                     </ul>
@@ -88,7 +88,7 @@
                 What the Tub Cut Service in Delta Looks Like:
             </h2>
             <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                Hereâ€™s how our process works for your bath upgrade.
+                Heres how our process works for your bath upgrade.
             </p>
         </div>
 
@@ -121,7 +121,7 @@
                 <div class="step-number">4</div>
                 <h3 class="text-xl font-bold text-gray-900 mb-3">Final Guide & Support:</h3>
                 <p class="text-gray-600">
-                    We test the result, ensure youâ€™re satisfied, talk you through maintenance, and provide support. After weâ€™re done, your bath is ready.
+                    We test the result, ensure you are satisfied, talk you through maintenance, and provide support. After we are done, your bath is ready.
                     Working with us means your tub cut in Delta is handled from start to finish with clarity and care.
                 </p>
             </div>
@@ -207,23 +207,23 @@
                 </p>
                 <ul class="space-y-4">
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">1</span>
                         <div><strong>Less expensive:</strong> You retain the current tub and plumbing while gaining meaningful access improvements.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">2</span>
                         <div><strong>Quick turnaround:</strong> Many installs can be done in just a few hours or a single day.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">3</span>
                         <div><strong>Less destruction:</strong> No big build, fewer trades, and your bathroom is out of commission for far less time.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">4</span>
                         <div><strong>Design retention:</strong> You keep your current tile, layout, and fixtures while upgrading the functionality.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">5</span>
                         <div><strong>Value added:</strong> Safety improvements, step-in access, and non-slip surfaces accessible to all ages and abilities.</div>
                     </li>
                 </ul>
@@ -300,7 +300,7 @@
                 Local Expertise for Langley Properties
             </h2>
             <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                We specialise in work across Langley â€” detached homes, townhouse developments, rental properties, and strata buildings. When you engage us, you are choosing a team tuned to the local community, property types, and expectations.
+                We specialise in work across Langley detached homes, townhouse developments, rental properties, and strata buildings. When you engage us, you are choosing a team tuned to the local community, property types, and expectations.
             </p>
         </div>
 
@@ -312,7 +312,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Faster Scheduling</h3>
-                <p class="text-gray-600">Scheduling tailored to local properties and turnover timelines â€” we work around tenant occupancy and business off-hours.</p>
+                <p class="text-gray-600">Scheduling tailored to local properties and turnover timelines we work around tenant occupancy and business off-hours.</p>
             </div>
 
             <div class="service-card p-8 text-center">
@@ -322,7 +322,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Climate-Suited Materials</h3>
-                <p class="text-gray-600">Materials and finishes suited to Langley's climate and building styles â€” built to perform in BC's moisture-heavy environment.</p>
+                <p class="text-gray-600">Materials and finishes suited to Langley's climate and building styles built to perform in BC's moisture-heavy environment.</p>
             </div>
 
             <div class="service-card p-8 text-center">
@@ -332,7 +332,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Neighbour-Respectful Installs</h3>
-                <p class="text-gray-600">Clean, respectful installations that consider neighbours and shared spaces â€” especially important in townhouse and strata settings.</p>
+                <p class="text-gray-600">Clean, respectful installations that consider neighbours and shared spaces especially important in townhouse and strata settings.</p>
             </div>
 
             <div class="service-card p-8 text-center">
@@ -342,7 +342,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Property Manager Coordination</h3>
-                <p class="text-gray-600">Coordination with property managers, strata councils, or landlords at every step â€” clear communication from booking to completion.</p>
+                <p class="text-gray-600">Coordination with property managers, strata councils, or landlords at every step clear communication from booking to completion.</p>
             </div>
         </div>
     </div>
@@ -444,12 +444,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Langley (All Areas)</li>
-                                <li>â€¢ Surrey & Cloverdale</li>
-                                <li>â€¢ Aldergrove & Fort Langley</li>
-                                <li>â€¢ Abbotsford & Mission</li>
-                                <li>â€¢ Delta & White Rock</li>
-                                <li>â€¢ Greater Vancouver & Lower Mainland</li>
+                                <li> Langley (All Areas)</li>
+                                <li> Surrey & Cloverdale</li>
+                                <li> Aldergrove & Fort Langley</li>
+                                <li> Abbotsford & Mission</li>
+                                <li> Delta & White Rock</li>
+                                <li> Greater Vancouver & Lower Mainland</li>
                             </ul>
                         </div>
                     </div>

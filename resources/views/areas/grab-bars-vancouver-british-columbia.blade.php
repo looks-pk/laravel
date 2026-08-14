@@ -376,20 +376,20 @@
             We know safety is crucial. That's why homeowners trust us for grab bar installation in Vancouver, BC. Our team brings:</p>
             <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 pl-5 md:pl-10">
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Experienced professionals who know local building codes</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>High-quality materials that last
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Custom solutions customized to your home</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Friendly service that values your time and comfort
                     </span>
                 </li>

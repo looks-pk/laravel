@@ -90,7 +90,7 @@
                 <!-- Product Image Gallery -->
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gray-100 rounded-lg overflow-hidden mb-4">
-                        <img src="{{ asset('grabbars/Grabcessories Premium Grab Bars â€“ Safety Meets Style-1.webp') }}"
+                        <img src="{{ asset('grabbars/GB-24-CP-1138x667.webp') }}"
                             alt="Home2Stay Grab Bars" class="w-full h-auto object-contain p-4">
                     </div>
                     <!-- Request Quote Button -->

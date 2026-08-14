@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Indoor & Outdoor Stair Lifts in Vancouver & Lower Mainland - Home2stay')
-@section('meta_description', 'Home2stay&#039;s stairlifts make it easy for you to go up and down stairs safely. Your local stairlift expert in Vancouver and the Lower Mainland. Free in-home or virtual assessment.')
+@section('meta_description', 'Home2stay's stairlifts make it easy for you to go up and down stairs safely. Your local stairlift expert in Vancouver and the Lower Mainland. Free in-home or virtual assessment.')
 
 @push('styles')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -222,7 +222,7 @@
 
                             <div class="prose prose-lg max-w-none">
                                 <p class="text-gray-700 mb-4">
-                                    A stair lift is a mechanical device used for transporting people up and down the stairs. It comes with the following main components: tracks, motorized seat w/ footrest, and accessories and other hardware. Your stair lift will be installed on the tread of your stairs.
+                                    A stair lift is a mechanical device used for transporting people up and down the stairs. It comes with the following main components: tracks, motorized footrest, and accessories and other hardware. Your stair lift will be installed on the tread of your stairs.
                                 </p>
 
                                 <p class="text-gray-700 mb-4">

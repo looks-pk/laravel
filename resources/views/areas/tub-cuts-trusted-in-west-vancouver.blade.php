@@ -588,7 +588,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        Most standard installations finish in 4â€“6 hours. Larger or custom jobs may span a full day.
+                        Most standard installations finish in 4-6 hours. Larger or custom jobs may span a full day.
                     </div>
                 </div>
             </div>

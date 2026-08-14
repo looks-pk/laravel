@@ -1,6 +1,6 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Trusted Tub Cuts in New Westminster, BC | Home2Stay')
+@section('title', 'Trusted Tub Cuts in New Westminster, BC | Home2stay')
 @section('meta_description', 'Professional tub cuts in New Westminster, BC. Safe walk-in bathtub access without full renovation. Trusted contractors for homes, rentals and commercial properties.')
 
 @push('styles')
@@ -10,8 +10,8 @@
 
 @section('content')
 
-<!-- Hero Section -->
-<section class="hero-section">
+
+<!-- <section class="hero-section">
 <div class="container mx-auto px-4 relative z-10">
 <div class="text-center">
 
@@ -35,7 +35,7 @@ Call (604) 259-1211
 
 </div>
 </div>
-</section>
+</section> -->
 
 
 <!-- Why Choose Section -->
@@ -53,12 +53,12 @@ Home2stay is trusted across New Westminster for reliable, clean, and efficient a
 </p>
 
 <ul class="space-y-3">
-<li class="flex items-start"><span class="text-green-500 mr-3">âœ“</span>Specialized tub cut professionals.</li>
-<li class="flex items-start"><span class="text-green-500 mr-3">âœ“</span>Residential and commercial installations.</li>
-<li class="flex items-start"><span class="text-green-500 mr-3">âœ“</span>Fast one-day installation available.</li>
-<li class="flex items-start"><span class="text-green-500 mr-3">âœ“</span>Transparent pricing with free consultation.</li>
-<li class="flex items-start"><span class="text-green-500 mr-3">âœ“</span>Durable waterproof materials built for BC homes.</li>
-<li class="flex items-start"><span class="text-green-500 mr-3">âœ“</span>Clean installation with minimal disruption.</li>
+<li class="flex items-start"><span class="text-green-500 mr-3"></span>Specialized tub cut professionals.</li>
+<li class="flex items-start"><span class="text-green-500 mr-3"></span>Residential and commercial installations.</li>
+<li class="flex items-start"><span class="text-green-500 mr-3"></span>Fast one-day installation available.</li>
+<li class="flex items-start"><span class="text-green-500 mr-3"></span>Transparent pricing with free consultation.</li>
+<li class="flex items-start"><span class="text-green-500 mr-3"></span>Durable waterproof materials built for BC homes.</li>
+<li class="flex items-start"><span class="text-green-500 mr-3"></span>Clean installation with minimal disruption.</li>
 </ul>
 </div>
 
@@ -159,11 +159,11 @@ Why Choose a Tub Cut Instead of Renovation?
 </h2>
 
 <ul class="space-y-4 text-gray-700">
-<li>âœ“ Lower cost than full bathroom remodel.</li>
-<li>âœ“ Installation completed within hours.</li>
-<li>âœ“ Preserve existing bathroom design.</li>
-<li>âœ“ Reduce fall risk instantly.</li>
-<li>âœ“ Increase property accessibility and value.</li>
+<li> Lower cost than full bathroom remodel.</li>
+<li> Installation completed within hours.</li>
+<li> Preserve existing bathroom design.</li>
+<li> Reduce fall risk instantly.</li>
+<li> Increase property accessibility and value.</li>
 </ul>
 
 </div>
@@ -284,12 +284,12 @@ From Queensborough to Sapperton and Uptown New Westminster, Home2stay proudly se
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Langley (All Areas)</li>
-                                <li>â€¢ Surrey & Cloverdale</li>
-                                <li>â€¢ Aldergrove & Fort Langley</li>
-                                <li>â€¢ Abbotsford & Mission</li>
-                                <li>â€¢ Delta & White Rock</li>
-                                <li>â€¢ Greater Vancouver & Lower Mainland</li>
+                                <li> Langley (All Areas)</li>
+                                <li> Surrey & Cloverdale</li>
+                                <li> Aldergrove & Fort Langley</li>
+                                <li> Abbotsford & Mission</li>
+                                <li> Delta & White Rock</li>
+                                <li> Greater Vancouver & Lower Mainland</li>
                             </ul>
                         </div>
                     </div>
@@ -373,7 +373,7 @@ How long does installation take?
 </button>
 <div class="faq-answer active">
 <div class="faq-answer-content">
-Most tub cuts are completed within 4â€“6 hours.
+Most tub cuts are completed within 4-6 hours.
 </div>
 </div>
 </div>

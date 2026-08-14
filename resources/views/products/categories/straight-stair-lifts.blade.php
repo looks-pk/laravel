@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Indoor & Outdoor Stair Lifts in Vancouver & Lower Mainland - Home2stay')
-@section('meta_description', 'Home2stay's stairlifts make it easy for you to go up and down stairs safely. Your local stairlift expert in Vancouver and the Lower Mainland. Free in-home or virtual assessment.')
+@section('meta_description', 'Home2stay\'s stairlifts make it easy for you to go up and down stairs safely. Your local stairlift expert in Vancouver and the Lower Mainland. Free in-home or virtual assessment.')
 
 @push('styles')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />

@@ -63,7 +63,7 @@
                 <!-- Product Image Gallery -->
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gray-100 rounded-lg overflow-hidden mb-4">
-                        <img src="{{ asset('np-img/best-bath.jpg') }}"
+                        <img src="{{ asset('np-img/Corner-Shower-Frost.webp) }}"
                             alt="Best Bath Modular Barrier-Free Shower - Home2Stay BC" class="w-full h-auto object-cover">
                     </div>
                     <!-- Request Quote Button -->
@@ -247,7 +247,7 @@
                             <div class="tab-pane" data-tab="images-tab" style="display: none !important;">
                                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('np-img/best-bath.jpg') }}"
+                                        <img src="{{ asset('np-img/11526-Revision-to-10981-Suburban-Home-4-12-16-2020-1-1-scaled.webp') }}"
                                             alt="Best Bath Barrier-Free Shower - Home2Stay"
                                             class="w-full h-32 object-cover rounded-lg hover:opacity-90 transition duration-200">
                                     </div>

@@ -68,7 +68,7 @@
                     </li>
                     <li class="flex items-start text-gray-700">
                         <span class="text-green-500 mr-3 mt-1 flex-shrink-0"></span>
-                        Dealer-installer in one â€” one crew, one price, one program from start to finish.
+                        Dealer-installer in one one crew, one price, one program from start to finish.
                     </li>
                     <li class="flex items-start text-gray-700">
                         <span class="text-green-500 mr-3 mt-1 flex-shrink-0"></span>

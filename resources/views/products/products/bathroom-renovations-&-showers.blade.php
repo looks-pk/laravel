@@ -1,6 +1,6 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Bathroom Renovations & Showers - Home2Stay')
+@section('title', 'Bathroom Renovations & Showers - Home2stay')
 @section('meta_description', 'Professional bathroom renovations and shower installations by Home2Stay. Expert design, premium materials, and skilled installation. Transform your bathroom into a beautiful, functional space.')
 
 @section('content')
@@ -90,7 +90,7 @@
                 <!-- Product Image Gallery -->
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gray-100 rounded-lg overflow-hidden mb-4">
-                        <img src="{{ asset('np-img/central-system.jpg') }}"
+                        <img src="{{ asset('np-img/1.webp') }}"
                             alt="Home2stay European Wet Room Conversion Kits" class="w-full h-auto object-cover">
                     </div>
                     <!-- Request Quote Button -->
@@ -262,7 +262,7 @@
                             <div class="tab-pane" data-tab="images-tab" style="display: none !important;">
                                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('np-img/central-system.jpg') }}"
+                                        <img src="{{ asset('np-img/11526-Revision-to-10981-Assisted-Living-2-12-14-2020-VM-Artwork-Option-2-scaled.webp') }}"
                                             alt="European Wet Room Conversion Kit"
                                             class="w-full h-32 object-cover rounded-lg hover:opacity-90 transition duration-200">
                                     </div>

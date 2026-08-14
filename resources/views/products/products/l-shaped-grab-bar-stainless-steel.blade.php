@@ -288,11 +288,7 @@
                                             alt="L-Shaped Grab Bar"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
-                                    <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('bathsafety-cat/11Untitled-1-1.jpg') }}"
-                                            alt="L-Shaped Grab Bar"
-                                            class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
-                                    </div>
+                                  
                                 </div>
                             </div>
 

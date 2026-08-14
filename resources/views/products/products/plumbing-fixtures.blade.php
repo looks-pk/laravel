@@ -327,7 +327,7 @@
                                     <h3 class="text-xl font-semibold text-gray-800 mb-4">Designed for Every Style</h3>
 
                                     <p class="text-gray-600 mb-6">
-                                        Our vanities blend perfectly into any interior theme, from contemporary spa-like bathrooms to transitional powder rooms, rustic retreats, or refined classic spaces. With Home2Stay, design versatility meets exceptional build quality.
+                                        Our vanities blend perfectly into any interior theme, from contemporary spa-like bathrooms to transitional powder rooms, rustic retreats, or refined classic spaces. With Home2stay, design versatility meets exceptional build quality.
                                     </p>
 
                                     <div class="space-y-4">

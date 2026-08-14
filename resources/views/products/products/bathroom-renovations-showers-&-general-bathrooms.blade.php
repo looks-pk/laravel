@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Bathroom Renovations & Showers - Home2Stay')
-@section('meta_description', 'Professional bathroom renovations and shower installations by Home2Stay. Expert design, premium materials, and skilled installation. Transform your bathroom into a beautiful, functional space.')
+@section('title', 'Bathroom Renovations & Showers - Home2stay')
+@section('meta_description', 'Professional bathroom renovations and shower installations by Home2stay. Expert design, premium materials, and skilled installation. Transform your bathroom into a beautiful, functional space.')
 
 @section('content')
     <!-- Hero Section -->
@@ -106,7 +106,7 @@
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                      Transform your bathrooms with professional bathroom renovations. We can install showers and upgrade your entire bathroom to meet your specific needs. Our bathroom renovations are functional, stylish, and comfortable. Home2Stay offers expert bathroom renovation services that are customised to fit your budget, lifestyle, and home.
+                      Transform your bathrooms with professional bathroom renovations. We can install showers and upgrade your entire bathroom to meet your specific needs. Our bathroom renovations are functional, stylish, and comfortable. Home2stay offers expert bathroom renovation services that are customised to fit your budget, lifestyle, and home.
                         </p>
                     </div>
                     <div class="mb-6">

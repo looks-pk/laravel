@@ -553,7 +553,7 @@
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
                     <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
-                    <span>Efficiency in rental or strata environments â€” short turnaround, minimal disruption, clear communication with tenants and managers.</span>
+                    <span>Efficiency in rental or strata environments short turnaround, minimal disruption, clear communication with tenants and managers.</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
                     <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>

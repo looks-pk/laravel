@@ -338,7 +338,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">High-End Finishes</h3>
-                <p class="text-gray-600">Premium solutions that look smooth and polished â€” matching the luxury aesthetic expected in West Vancouver properties.</p>
+                <p class="text-gray-600">Premium solutions that look smooth and polished matching the luxury aesthetic expected in West Vancouver properties.</p>
             </div>
 
             <div class="service-card p-8 text-center">

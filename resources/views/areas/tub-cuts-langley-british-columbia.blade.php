@@ -161,7 +161,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-gray-900 mb-4">Rental & Strata Property Use</h3>
                 <p class="text-gray-600">
-                    If you manage units, condos, or multi-family rental properties, our tub cuts offer efficient access upgrades with minimal downtime â€” perfect for tenant changeover or compliance upgrades.
+                    If you manage units, condos, or multi-family rental properties, our tub cuts offer efficient access upgrades with minimal downtime perfect for tenant changeover or compliance upgrades.
                 </p>
             </div>
 

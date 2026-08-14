@@ -712,7 +712,7 @@
                                 or submit a <strong>FREE Assessment Form</strong> to check service availability in your location.
                             </p>
 
-                            <a href="#quote-form" class="btn-primary">
+                            <a href="/contact" class="btn-primary">
                                 Request Free Assessment
                             </a>
                         </div>

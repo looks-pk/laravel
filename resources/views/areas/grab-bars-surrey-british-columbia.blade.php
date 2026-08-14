@@ -282,12 +282,12 @@
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Service Area</h3>
                             <p class="text-gray-600 mb-2">We proudly serve:</p>
                             <ul class="text-gray-700 space-y-1">
-                                <li>â€¢ Surrey (All Areas)</li>
-                                <li>â€¢ Vancouver & Burnaby</li>
-                                <li>â€¢ Richmond & Delta</li>
-                                <li>â€¢ Langley & White Rock</li>
-                                <li>â€¢ North Vancouver & West Vancouver</li>
-                                <li>â€¢ Coquitlam & Port Moody</li>
+                                <li> Surrey (All Areas)</li>
+                                <li> Vancouver & Burnaby</li>
+                                <li> Richmond & Delta</li>
+                                <li> Langley & White Rock</li>
+                                <li> North Vancouver & West Vancouver</li>
+                                <li> Coquitlam & Port Moody</li>
                             </ul>
                         </div>
                     </div>
@@ -376,20 +376,20 @@
             Home2stay is a reputable company in Surrey that can provide:</p>
             <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 pl-5 md:pl-10">
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Quick setup with next-day service delivery.</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Glamorous designs, such as towel bars, grab bars, accent rings, and folding designs.
                     </span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Reasonable costs beginning at a competitive level.</span>
                 </li>
                 <li class="text-gray-700 mb-3 flex items-start">
-                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0">â€¢</span>
+                    <span class="bg-blue-100 text-blue-600 rounded-full h-6 w-6 flex items-center justify-center mr-3 mt-1 shrink-0"></span>
                     <span>Professional setting and styling according to your personal requirements.
                     </span>
                 </li>

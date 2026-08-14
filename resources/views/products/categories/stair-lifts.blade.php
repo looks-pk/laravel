@@ -65,7 +65,7 @@
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Straight Stair Lift</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">Bring effortless independence to every level of your home. The Bruno Straight Stair Lift from Home2Stay provides smooth, reliable mobility for straight staircases</p>
+                        <p class="text-gray-600 mb-4 flex-grow">Bring effortless independence to every level of your home. The Bruno Straight Stair Lift from Home2stay provides smooth, reliable mobility for straight staircases</p>
                         <div class="mt-auto">
                             <a href="/products/bruno-straight-stair-lift"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
@@ -121,7 +121,7 @@
                     </div>
                     <div class="p-6 flex-1 flex flex-col">
                         <h3 class="text-xl font-bold text-gray-800 mb-3">Outdoor Stairlifts</h3>
-                        <p class="text-gray-600 mb-4 flex-grow">Rediscover freedom and independence with Home2Stay Outdoor Stairlifts. Designed to handle Vancouver's weather while providing unmatched comfort and safety — move between levels with ease year-round.</p>
+                        <p class="text-gray-600 mb-4 flex-grow">Rediscover freedom and independence with Home2stay Outdoor Stairlifts. Designed to handle Vancouver's weather while providing unmatched comfort and safety — move between levels with ease year-round.</p>
                         <div class="mt-auto">
                             <a href="/products/outdoor-stairlifts"
                                 class="block w-full bg-primary hover:bg-primary-dark text-white py-3 px-4 rounded-lg transition duration-300 text-center font-medium">
@@ -614,7 +614,7 @@
                         class="px-8 py-3 bg-white text-primary hover:bg-gray-100 rounded-lg font-medium transition duration-300">
                         Contact Us
                     </a>
-                    <a href="#"
+                    <a href="/all-products/"
                         class="px-8 py-3 bg-transparent border-2 border-white text-white hover:bg-white/10 rounded-lg font-medium transition duration-300">
                         View All Products
                     </a>

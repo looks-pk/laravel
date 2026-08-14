@@ -533,7 +533,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        Most standard installations finish in 4â€“6 hours, depending on tub type and layout.
+                        Most standard installations finish in 4-6 hours, depending on tub type and layout.
                     </div>
                 </div>
             </div>
@@ -575,7 +575,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        Yes. We deliver work to meet safety, access, and commercial standards where required â€” including applicable Port Coquitlam and BC building codes.
+                        Yes. We deliver work to meet safety, access, and commercial standards where required including applicable Port Coquitlam and BC building codes.
                     </div>
                 </div>
             </div>
@@ -604,7 +604,7 @@
             Ready to Upgrade Your Bathroom Access?
         </h2>
         <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">
-            When you are ready for the most efficient, reliable tub-cut upgrade in Port Coquitlam, call Home2stay. We will arrange your free site assessment, present a clear quote, and get your project moving fast. You will get safer, smarter access â€” and peace of mind.
+            When you are ready for the most efficient, reliable tub-cut upgrade in Port Coquitlam, call Home2stay. We will arrange your free site assessment, present a clear quote, and get your project moving fast. You will get safer, smarter access and peace of mind.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:604-259-1211" class="btn-secondary text-lg px-8 py-4">

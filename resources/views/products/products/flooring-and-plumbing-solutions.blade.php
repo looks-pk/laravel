@@ -106,7 +106,7 @@
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Flooring & Plumbing Solutions for Modern Living: Home2Stay offers high-quality floors that enhance the comfort, durability and style of every home. No matter if you are renovating, upgrading, or building an entire room, we have flooring solutions that will provide long-lasting beauty and professional-grade performance.
+                            Flooring & Plumbing Solutions for Modern Living: Home2stay offers high-quality floors that enhance the comfort, durability and style of every home. No matter if you are renovating, upgrading, or building an entire room, we have flooring solutions that will provide long-lasting beauty and professional-grade performance.
                         </p>
                     </div>
                     <div class="mb-6 p-4 bg-blue-50 border-l-4 border-blue-400 rounded-r-lg">

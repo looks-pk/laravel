@@ -418,7 +418,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('al-prod-page-imgs/PlusTPHolderBlack_570x570_crop_center.webp') }}" alt="Bathroom Safety Solutions"
+                        <img src="{{ asset('bathsafety-cat/PlusTPHolderBlack_570x570_crop_center.webp') }}" alt="Bathroom Safety Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

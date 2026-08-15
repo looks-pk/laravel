@@ -90,7 +90,7 @@
                 <!-- Product Image Gallery -->
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gray-100 rounded-lg overflow-hidden mb-4">
-                        <img src="{{ asset('bathsafety-cat/toilet-roll1-min.jpg') }}"
+                        <img src="{{ asset('bathsafety-cat/61022_chrome_2-in-1-grab-bars-toilet-paper-holder1.webp') }}"
                             alt="Home2stay Plus Toilet Paper Holder" class="w-full h-auto object-contain p-4">
                     </div>
                     <!-- Request Quote Button -->
@@ -312,7 +312,7 @@
                             <div class="tab-pane" data-tab="images-tab" style="display: none !important;">
                                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('bathsafety-cat/toilet-roll1-min.jpg') }}"
+                                        <img src="{{ asset('bathsafety-cat/61022_chrome_2-in-1-grab-bars-toilet-paper-holder1.webp') }}"
                                             alt="Plus Toilet Paper Holder"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>

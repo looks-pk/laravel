@@ -506,7 +506,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('ramps/custom-wood-ramp-1.jpeg') }}" alt="Custom Wood Ramp Installation Vancouver - Home2Stay"
+                        <img src="{{ asset('ramps/Modular-XP-Ramp-System.webp') }}" alt="Custom Wood Ramp Installation Vancouver - Home2Stay"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

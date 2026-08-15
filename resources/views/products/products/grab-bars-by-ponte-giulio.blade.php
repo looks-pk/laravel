@@ -454,7 +454,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('grabbars/Grab Bars by Ponte Giulio.avif') }}" alt="Bathroom Safety Solutions"
+                        <img src="{{ asset('grabbars/61032_bn_16__curved_grab_bar.webp') }}" alt="Bathroom Safety Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

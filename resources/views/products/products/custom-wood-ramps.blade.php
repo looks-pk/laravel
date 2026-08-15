@@ -1,6 +1,6 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Custom Wood Ramps - Home2Stay')
+@section('title', 'Custom Wood Ramps - Home2stay')
 @section('meta_description', 'Custom Wood Ramps by Home2Stay - premium, handcrafted wood ramps designed and customized to fit your space perfectly. Perfect for home accessibility and aesthetic integration.')
 
 @section('content')
@@ -90,7 +90,7 @@
                 <!-- Product Image Gallery -->
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gray-100 rounded-lg overflow-hidden mb-4">
-                        <img src="{{ asset('ramps/custom-wood-ramp.jpeg') }}"
+                        <img src="{{ asset('ramps/images (4).jfif') }}"
                             alt="Home2stay Self Supporting Threshold Ramps" class="w-full h-auto object-contain p-4">
                     </div>
                     <!-- Request Quote Button -->
@@ -281,12 +281,12 @@
                             <div class="tab-pane" data-tab="images-tab" style="display: none !important;">
                                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('ramps/custom-wood-ramp-1.jpeg') }}"
+                                        <img src="{{ asset('ramps/images (3).jfif') }}"
                                             alt="Self Supporting Threshold Ramps"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
                                     <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('ramps/custom-wood-ramp-2.jpeg') }}"
+                                        <img src="{{ asset('ramps/51CMLGSSn0L._AC_UF894,1000_QL80_.jpg') }}"
                                             alt="Self Supporting Threshold Ramps"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
@@ -295,11 +295,7 @@
                                             alt="Self Supporting Threshold Ramps"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
-                                    <div class="image-thumbnail cursor-pointer">
-                                        <img src="{{ asset('ramps/custom-wood-ramp-4.jpeg') }}"
-                                            alt="Self Supporting Threshold Ramps"
-                                            class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
-                                    </div>
+                                   
                                 </div>
                             </div>
 
@@ -405,7 +401,7 @@
                     </div>
                     <!-- Image -->
                     <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('ramps/custom-wood-ramp-5.jpeg') }}" alt="Bathroom Safety Solutions"
+                        <img src="{{ asset('ramps/images (3).jfif') }}" alt="Bathroom Safety Solutions"
                             class="w-full h-full object-cover" style="min-height: 400px;">
                     </div>
                 </div>

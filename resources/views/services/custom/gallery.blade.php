@@ -320,7 +320,7 @@
 
         <!-- Featured Projects -->
         <div class="category-section">
-            <h2 class="category-title mb-6">Bathroom Solutions</h2>
+            <h2 class="category-title mb-6">Bathroom Renovations</h2>
             <p class="text-gray-600 mb-8 text-lg">Explore our bathroom solutions through real project photos showcasing accessible showers, grab bars, walk-in tubs, barrier-free renovations, and other accessibility features.</p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -354,12 +354,12 @@
                     <div class="gallery-overlay"></div>
                 </div>
 
-                <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('np-img/ft-4.jpg') }}', '')">
+                <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('gallery-imgs/all-bathroom-images/11526-Revision-to-10981-Healthcare-2-12-18-2020-scaled.webp') }}', '')">
                     <div class="image-container">
                         <div class="image-placeholder">
                             <div class="loading-spinner"></div>
                         </div>
-                        <img data-lazy="{{ asset('np-img/ft-4.jpg') }}" alt="Modern Accessible Design" class="lazy-image" loading="lazy">
+                        <img data-lazy="{{ asset('gallery-imgs/all-bathroom-images/11526-Revision-to-10981-Healthcare-2-12-18-2020-scaled.webp') }}" alt="Modern Accessible Design" class="lazy-image" loading="lazy">
                     </div>
                     <div class="gallery-overlay"></div>
                 </div>
@@ -374,12 +374,12 @@
                     <div class="gallery-overlay"></div>
                 </div>
 
-                <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('np-img/ft-6.jpg') }}', '')">
+                <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('gallery-imgs/all-bathroom-images/11526-Revision-to-10981-Suburban-Home-4-12-16-2020-1-1-scaled.webp') }}', '')">
                     <div class="image-container">
                         <div class="image-placeholder">
                             <div class="loading-spinner"></div>
                         </div>
-                        <img data-lazy="{{ asset('np-img/ft-6.jpg') }}" alt="Luxury Accessible Bathroom" class="lazy-image" loading="lazy">
+                        <img data-lazy="{{ asset('gallery-imgs/all-bathroom-images/11526-Revision-to-10981-Suburban-Home-4-12-16-2020-1-1-scaled.webp') }}" alt="Luxury Accessible Bathroom" class="lazy-image" loading="lazy">
                     </div>
                     <div class="gallery-overlay"></div>
                 </div>

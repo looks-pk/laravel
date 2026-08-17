@@ -339,8 +339,83 @@
                     </div>
                 </div>
             </div>
+11
+  <div class="category-section">
+                <h2 class="category-title mb-6">Stairlift Installation</h2>
+                <p class="text-gray-600 mb-8 text-lg">Professional stairlift installations for safe and comfortable mobility</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('gallery-imgs/stairs-lift/Flow X_Detail 3.webp') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('gallery-imgs/stairs-lift/Flow X_Detail 3.webp') }}" 
+                                 alt="Bruno SRE-3050 Stairlift"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                        </div>
+                    </div>
 
 
+                      <div class="category-section">
+                <h2 class="category-title mb-6">Stairlift Installation</h2>
+                <p class="text-gray-600 mb-8 text-lg">Professional stairlift installations for safe and comfortable mobility</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('np-img/str-1.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/str-1.jpg') }}" 
+                                 alt="Bruno SRE-3050 Stairlift"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                        </div>
+                    </div>
+
+                      <div class="category-section">
+                <h2 class="category-title mb-6">Stairlift Installation</h2>
+                <p class="text-gray-600 mb-8 text-lg">Professional stairlift installations for safe and comfortable mobility</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('np-img/str-1.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/str-1.jpg') }}" 
+                                 alt="Bruno SRE-3050 Stairlift"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                        </div>
+                    </div>
+
+                      <div class="category-section">
+                <h2 class="category-title mb-6">Stairlift Installation</h2>
+                <p class="text-gray-600 mb-8 text-lg">Professional stairlift installations for safe and comfortable mobility</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('np-img/str-1.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/str-1.jpg') }}" 
+                                 alt="Bruno SRE-3050 Stairlift"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                        </div>
+                    </div>
             
             
             <!-- Featured Projects -->

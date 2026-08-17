@@ -455,12 +455,12 @@
                         </div>
                     </div>
                     
-                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('gallery-imgs/grab-bars/2.webp') }}', '')">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('gallery-imgs/grab-bars/24-inch-decorative-grab-bar.webp') }}', '')">
                         <div class="image-container">
                             <div class="image-placeholder">
                                 <div class="loading-spinner"></div>
                             </div>
-                            <img data-lazy="{{ asset('gallery-imgs/grab-bars/2.webp') }}" 
+                            <img data-lazy="{{ asset('gallery-imgs/grab-bars/24-inch-decorative-grab-bar.webp') }}" 
                                  alt="Advanced Grab Bar Solution"
                                  class="lazy-image"
                                  loading="lazy">
@@ -483,12 +483,12 @@
                         </div>
                     </div>
                     
-                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('gallery-imgs/grab-bars/4.webp') }}', '')">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('gallery-imgs/grab-bars/61030_2-in-1-grab-bars-towel-bar-bathroom.webp') }}', '')">
                         <div class="image-container">
                             <div class="image-placeholder">
                                 <div class="loading-spinner"></div>
                             </div>
-                            <img data-lazy="{{ asset('gallery-imgs/grab-bars/4.webp') }}" 
+                            <img data-lazy="{{ asset('gallery-imgs/grab-bars/61030_2-in-1-grab-bars-towel-bar-bathroom.webp') }}" 
                                  alt="Custom Grab Bar Configuration"
                                  class="lazy-image"
                                  loading="lazy">
@@ -512,12 +512,12 @@
                         </div>
                     </div>
                     
-                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('gallery-imgs/grab-bars/6.webp') }}', '')">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('gallery-imgs/grab-bars/61032_bn_16__curved_grab_bar.webp') }}', '')">
                         <div class="image-container">
                             <div class="image-placeholder">
                                 <div class="loading-spinner"></div>
                             </div>
-                            <img data-lazy="{{ asset('gallery-imgs/grab-bars/6.webp') }}" 
+                            <img data-lazy="{{ asset('gallery-imgs/grab-bars/61032_bn_16__curved_grab_bar.webp') }}" 
                                  alt="Custom Grab Bar Configuration"
                                  class="lazy-image"
                                  loading="lazy">
@@ -572,28 +572,16 @@
                     </div>
                     
                     
-                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('gallery-imgs/grab-bars/11.webp') }}', '')">
-                        <div class="image-container">
-                            <div class="image-placeholder">
-                                <div class="loading-spinner"></div>
-                            </div>
-                            <img data-lazy="{{ asset('gallery-imgs/grab-bars/11.webp') }}" 
-                                 alt="Custom Grab Bar Configuration"
-                                 class="lazy-image"
-                                 loading="lazy">
-                        </div>
-                        <div class="gallery-overlay">
-                        </div>
-                    </div>
+                 
 
                     
                     
-                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('gallery-imgs/grab-bars/12.webp') }}', '')">
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('gallery-imgs/grab-bars/61033_bn_16__curved_grab_bar_contemporary_1.webp') }}', '')">
                         <div class="image-container">
                             <div class="image-placeholder">
                                 <div class="loading-spinner"></div>
                             </div>
-                            <img data-lazy="{{ asset('gallery-imgs/grab-bars/12.webp') }}" 
+                            <img data-lazy="{{ asset('gallery-imgs/grab-bars/61033_bn_16__curved_grab_bar_contemporary_1.webp') }}" 
                                  alt="Custom Grab Bar Configuration"
                                  class="lazy-image"
                                  loading="lazy">

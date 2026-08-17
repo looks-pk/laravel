@@ -339,7 +339,7 @@
                     </div>
                 </div>
             </div>
-11
+
   <div class="category-section">
                 <h2 class="category-title mb-6">Stairlift Installation</h2>
                 <p class="text-gray-600 mb-8 text-lg">Professional stairlift installations for safe and comfortable mobility</p>

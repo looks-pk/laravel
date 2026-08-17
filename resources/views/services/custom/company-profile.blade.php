@@ -927,7 +927,7 @@ For us, this recognition isn't just an award, it's a reminder of why we do what 
         </div>
         
         <div class="container mx-auto px-4 relative z-10">
-            <div class="max-w-5xl mx-auto text-center">
+            <div class="max-w-6xl mx-auto text-center">
                 <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 leading-tight">
                     Transform Your Bathroom with Vancouver's Accessible Home Specialists, Grab Bars, Walk-In Showers, Barrier-Free Renovations & More at Home2stay!
                 </h2>

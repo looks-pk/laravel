@@ -499,13 +499,13 @@ For us, this recognition isn't just an award, it's a reminder of why we do what 
                         <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
                             <h3 class="text-2xl font-bold text-gray-800 mb-4 gradient-text">A Bigger Home for Bigger Dreams</h3>
                             <p class="text-lg text-gray-700 mb-4 leading-relaxed">
-                                In 2023, Home2stay made its most ambitious move yet — relocating to a sprawling
+                                In 2023, Home2stay made its most ambitious move yet relocating to a sprawling
                                 5,300 square foot warehouse showroom. 
                             </p>
                             <p class="text-lg text-gray-700 leading-relaxed">
                                 This state-of-the-art space allows us to showcase our full range of accessibility
-                                solutions — from stairlifts and porch lifts to bathroom modifications and adaptive
-                                equipment — giving our customers the hands-on experience they deserve before making
+                                solutions from stairlifts and porch lifts to bathroom modifications and adaptive
+                                equipment giving our customers the hands-on experience they deserve before making
                                 a decision.
                             </p>
                         </div>
@@ -527,7 +527,7 @@ For us, this recognition isn't just an award, it's a reminder of why we do what 
                         <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
                             <h3 class="text-2xl font-bold text-gray-800 mb-4 gradient-text">Recognized & Reaching Further</h3>
                             <p class="text-lg text-gray-700 mb-4 leading-relaxed">
-                                2025 marked a proud milestone for our team — Home2stay received its first formal
+                                2025 marked a proud milestone for our team Home2stay received its first formal
                                 industry recognition award, a testament to the dedication and care we bring to every
                                 client and every home.
                             </p>
@@ -560,7 +560,7 @@ For us, this recognition isn't just an award, it's a reminder of why we do what 
                                 quality of work our team delivers every single day.
                             </p>
                             <p class="text-lg text-gray-700 leading-relaxed">
-                                This award is not just ours — it belongs to every client who let us into their home
+                                This award is not just ours it belongs to every client who let us into their home
                                 and every team member who showed up with care, skill, and dedication. We are just
                                 getting started.
                             </p>

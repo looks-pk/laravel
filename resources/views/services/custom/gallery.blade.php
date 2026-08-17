@@ -402,15 +402,6 @@
                     <div class="gallery-overlay"></div>
                 </div>
 
-                <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('gallery-imgs/grab-bars/24-inch-decorative-grab-bar.webp') }}', '')">
-                    <div class="image-container">
-                        <div class="image-placeholder">
-                            <div class="loading-spinner"></div>
-                        </div>
-                        <img data-lazy="{{ asset('gallery-imgs/grab-bars/24-inch-decorative-grab-bar.webp') }}" alt="Advanced Grab Bar Solution" class="lazy-image" loading="lazy">
-                    </div>
-                    <div class="gallery-overlay"></div>
-                </div>
 
                 <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('gallery-imgs/grab-bars/3.webp') }}', '')">
                     <div class="image-container">
@@ -492,15 +483,7 @@
                     <div class="gallery-overlay"></div>
                 </div>
 
-                <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('gallery-imgs/grab-bars/13.webp') }}', '')">
-                    <div class="image-container">
-                        <div class="image-placeholder">
-                            <div class="loading-spinner"></div>
-                        </div>
-                        <img data-lazy="{{ asset('gallery-imgs/grab-bars/13.webp') }}" alt="Custom Grab Bar Configuration" class="lazy-image" loading="lazy">
-                    </div>
-                    <div class="gallery-overlay"></div>
-                </div>
+              
             </div>
         </div>
 

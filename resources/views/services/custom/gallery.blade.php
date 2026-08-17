@@ -512,6 +512,29 @@
                     </div>
                     <div class="gallery-overlay"></div>
                 </div>
+
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('gallery-imgs/Step-left-large-570x321.jpg') }}', '')">
+                    <div class="image-container">
+                        <div class="image-placeholder">
+                            <div class="loading-spinner"></div>
+                        </div>
+                        <img data-lazy="{{ asset('gallery-imgs/Step-left-large-570x321.jpg') }}" alt="CleanCut Tub Cut Solution" class="lazy-image" loading="lazy">
+                    </div>
+                    <div class="gallery-overlay"></div>
+                </div>
+
+
+                    <div class="gallery-item" style="height: 280px;" onclick="openLightbox('{{ asset('gallery-imgs/2 (6).webp') }}', '')">
+                    <div class="image-container">
+                        <div class="image-placeholder">
+                            <div class="loading-spinner"></div>
+                        </div>
+                        <img data-lazy="{{ asset('gallery-imgs/2 (6).webp') }}" alt="CleanCut Tub Cut Solution" class="lazy-image" loading="lazy">
+                    </div>
+                    <div class="gallery-overlay"></div>
+                </div>
+
+                
             </div>
         </div>
 

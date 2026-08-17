@@ -320,36 +320,36 @@
 
         <!-- Featured Projects -->
         <div class="category-section">
-            <h2 class="category-title mb-6">Featured Installation Projects</h2>
-            <p class="text-gray-600 mb-8 text-lg">Take a look at some of our most impressive accessibility installations</p>
+            <h2 class="category-title mb-6">Bathroom Solutions</h2>
+            <p class="text-gray-600 mb-8 text-lg">Explore our bathroom solutions through real project photos showcasing accessible showers, grab bars, walk-in tubs, barrier-free renovations, and other accessibility features.</p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('np-img/ft-1.jpg') }}', '')">
+                <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('gallery-imgs/all-bathroom-images/11526-Revision-to-10981-Apartment-Complex-1-12-14-2020-scaled.webp') }}', '')">
                     <div class="image-container">
                         <div class="image-placeholder">
                             <div class="loading-spinner"></div>
                         </div>
-                        <img data-lazy="{{ asset('np-img/ft-1.jpg') }}" alt="Barrier-Free Bathroom Installation" class="lazy-image" loading="lazy">
+                        <img data-lazy="{{ asset('gallery-imgs/all-bathroom-images/11526-Revision-to-10981-Apartment-Complex-1-12-14-2020-scaled.webp') }}" alt="Barrier-Free Bathroom Installation" class="lazy-image" loading="lazy">
                     </div>
                     <div class="gallery-overlay"></div>
                 </div>
 
-                <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('np-img/ft-2.jpg') }}', '')">
+                <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('gallery-imgs/all-bathroom-images/11526-Revision-to-10981-Assisted-Living-1-12-14-2020-scaled.webp') }}', '')">
                     <div class="image-container">
                         <div class="image-placeholder">
                             <div class="loading-spinner"></div>
                         </div>
-                        <img data-lazy="{{ asset('np-img/ft-2.jpg') }}" alt="Accessible Shower Solution" class="lazy-image" loading="lazy">
+                        <img data-lazy="{{ asset('gallery-imgs/all-bathroom-images/11526-Revision-to-10981-Assisted-Living-1-12-14-2020-scaled.webp') }}" alt="Accessible Shower Solution" class="lazy-image" loading="lazy">
                     </div>
                     <div class="gallery-overlay"></div>
                 </div>
 
-                <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('np-img/ft-3.jpg') }}', '')">
+                <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('gallery-imgs/all-bathroom-images/11526-Revision-to-10981-Assisted-Living-2-12-14-2020-VM-Artwork-Option-2-scaled.webp') }}', '')">
                     <div class="image-container">
                         <div class="image-placeholder">
                             <div class="loading-spinner"></div>
                         </div>
-                        <img data-lazy="{{ asset('np-img/ft-3.jpg') }}" alt="Complete Bathroom Renovation" class="lazy-image" loading="lazy">
+                        <img data-lazy="{{ asset('gallery-imgs/all-bathroom-images/11526-Revision-to-10981-Assisted-Living-2-12-14-2020-VM-Artwork-Option-2-scaled.webp') }}" alt="Complete Bathroom Renovation" class="lazy-image" loading="lazy">
                     </div>
                     <div class="gallery-overlay"></div>
                 </div>

@@ -321,7 +321,7 @@
         <!-- Featured Projects -->
         <div class="category-section">
             <h2 class="category-title mb-6">Bathroom Renovations</h2>
-            <p class="text-gray-600 mb-8 text-lg">Explore our bathroom solutions through real project photos showcasing accessible showers, grab bars, walk-in tubs, barrier-free renovations, and other accessibility features.</p>
+            <p class="text-gray-600 mb-8 text-lg">Explore our bathroom renovation projects through real photos showcasing accessible showers, grab bars, walk-in tubs, barrier-free upgrades, and other accessibility solutions.</p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div class="gallery-item featured-item" onclick="openLightbox('{{ asset('gallery-imgs/all-bathroom-images/11526-Revision-to-10981-Apartment-Complex-1-12-14-2020-scaled.webp') }}', '')">

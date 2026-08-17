@@ -68,7 +68,7 @@
                     <div class="p-6 flex-1 flex flex-col">
                         <a href="/products/flooring-and-plumbing-solutions">
                         <h3 class="text-2xl font-bold text-gray-800 mb-3 group-hover:text-primary transition-colors duration-300">Flooring & Plumbing Solutions for Modern Living</h3> </a>
-                        <p class="text-gray-600 mb-4 flex-grow">Home2stay offers high-quality floors that enhance the comfort, durability and style of every home. No matter if you are renovating, upgrading</p>
+                        <p class="text-gray-600 mb-4 flex-grow">Home2stay offers high-quality flooring and plumbing solutions designed to enhance the comfort, functionality, durability, and style of every home. Whether you’re renovating, upgrading, or building a new space, we provide reliable solutions tailored to your needs.</p>
                         <a href="/products/flooring-and-plumbing-solutions"
                             class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
                             View Product

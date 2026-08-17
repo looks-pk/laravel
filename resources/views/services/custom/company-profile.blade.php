@@ -159,9 +159,9 @@
                     </ol>
                 </nav>
                 <h1 class="hero-title text-3xl md:text-4xl lg:text-5xl mb-6">About Us</h1>
-                <p class="hero-description text-lg md:text-xl opacity-95 max-w-3xl mx-auto leading-relaxed">
+                <!-- <p class="hero-description text-lg md:text-xl opacity-95 max-w-3xl mx-auto leading-relaxed">
                     Home2stay is Vancouver, British Columbia's trusted provider of home accessibility solutions. We offer a wide range of products and renovations — including stairlifts, porch lifts, adaptive lamps and lighting, grab bars, wheelchair ramps, and custom modifications — all designed to make your home safer and more inclusive. Backed by decades of expertise in accessibility and universal design, we're committed to transforming spaces for people of all ages and abilities.
-                </p>
+                </p> -->
             </div>
         </div>
     </section>
@@ -189,40 +189,40 @@
                         </p>
                         <ul class="text-gray-600 text-lg leading-relaxed list-none space-y-3">
                             <li>
-                                <span class="font-semibold text-gray-700">1. Understanding Your Needs —</span>
+                                <span class="font-semibold text-gray-700">1. Understanding Your Needs</span>
                                 We start by listening. Our team takes the time to learn about your lifestyle, mobility challenges,
                                 and what matters most to you at home.
                             </li>
                             <li>
-                                <span class="font-semibold text-gray-700">2. Home Safety Assessment —</span>
+                                <span class="font-semibold text-gray-700">2. Home Safety Assessment</span>
                                 We conduct a thorough home safety checklist to identify any hazards or areas that could be improved
                                 to make your space safer and more accessible.
                             </li>
                             <li>
-                                <span class="font-semibold text-gray-700">3. Custom Design —</span>
+                                <span class="font-semibold text-gray-700">3. Custom Design</span>
                                 Based on your needs and assessment, we develop a tailored accessibility design plan that fits your
                                 home, your lifestyle, and your goals.
                             </li>
                             <li>
-                                <span class="font-semibold text-gray-700">4. Transparent Quote —</span>
+                                <span class="font-semibold text-gray-700">4. Transparent Quote</span>
                                 We provide you with a clear, detailed quote so you know exactly what to expect — no surprises,
                                 no pressure.
                             </li>
                             <li>
-                                <span class="font-semibold text-gray-700">5. Installation & Beyond —</span>
-                                Once you are happy with the quote, our experienced team gets to work. And we don't stop there —
+                                <span class="font-semibold text-gray-700">5. Installation & Beyond</span>
+                                Once you are happy with the quote, our experienced team gets to work. And we don't stop there,
                                 we are here to support you long after the job is done.
                             </li>
                         </ul>
                         <p class="text-gray-600 text-lg leading-relaxed mt-4">
                             Your trust is valuable to us. We are more than just a provider of accessibility and mobility
-                            solutions — we are your long-term partner in creating a home that works for you.
+                            solutions. We are your long-term partner in creating a home that works for you.
                         </p>
                         
                         <div class="bg-gradient-to-r from-primary/5 to-purple-600/5 p-6 rounded-xl border-l-4 border-primary">
                             <p class="text-gray-700 text-lg font-medium leading-relaxed">
                                 Home2stay's mission is simple: To make homes and spaces in British Columbia safer, more
-                                accessible and inclusive - one project at a time.
+                                accessible and inclusive, one project at a time.
                             </p>
                         </div>
                         
@@ -258,9 +258,9 @@
 
                     <div class="space-y-6">
                         <p class="text-gray-600 text-lg leading-relaxed">
-                            We're proud to have been named a Consumer Choice Award winner in Vancouver for both 2025 and 2026 — an honour voted on by the very community we serve.
+                            We're proud to have been named a Consumer Choice Award winner in Vancouver for both 2025 and 2026, an honour voted on by the very community we serve.
 The Consumer Choice Award recognizes businesses that demonstrate outstanding performance, service quality, and customer satisfaction. Being selected two years in a row reflects our ongoing commitment to delivering accessible, professional, and trustworthy solutions to families and individuals across British Columbia.
-For us, this recognition isn't just an award — it's a reminder of why we do what we do: to make every home safer, more accessible, and more inclusive, one project at a time.
+For us, this recognition isn't just an award, it's a reminder of why we do what we do: to make every home safer, more accessible, and more inclusive, one project at a time.
                         </p>
                         <div class="bg-gradient-to-r from-primary/5 to-purple-600/5 p-6 rounded-xl border-l-4 border-primary">
                             <p class="text-gray-700 text-lg font-medium leading-relaxed">
@@ -595,15 +595,11 @@ For us, this recognition isn't just an award — it's a reminder of why we do wh
 
             <!-- Brand Logos Grid -->
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mb-20">
-                <!-- Partner Brand 1 -->
-                <div class="brand-card bg-white rounded-xl p-6 flex items-center justify-center shadow-sm">
-                    <img src="{{ asset('brands/american-tubs-logo-min.png') }}" alt="American Tubs" class="max-h-16 w-auto filter grayscale hover:grayscale-0 transition-all duration-300">
-                </div>
-
-                <!-- Partner Brand 2 -->
-                <div class="brand-card bg-white rounded-xl p-6 flex items-center justify-center shadow-sm">
+               
+             
+                <!-- <div class="brand-card bg-white rounded-xl p-6 flex items-center justify-center shadow-sm">
                     <img src="{{ asset('brands/arjo-logo-min.png') }}" alt="Arjo" class="max-h-16 w-auto filter grayscale hover:grayscale-0 transition-all duration-300">
-                </div>
+                </div> -->
 
                 <!-- Partner Brand 3 -->
                 <div class="brand-card bg-white rounded-xl p-6 flex items-center justify-center shadow-sm">
@@ -698,7 +694,7 @@ For us, this recognition isn't just an award — it's a reminder of why we do wh
                                 </svg>
                             </div>
                             <h3 class="text-lg font-bold text-gray-800 mb-3">Falls Prevented</h3>
-                            <p class="text-4xl font-bold gradient-text mb-2">9,875+</p>
+                            <p class="text-4xl font-bold gradient-text mb-2">12,344</p>
                             <p class="text-gray-600 text-sm">Safety installations</p>
                         </div>
 
@@ -712,7 +708,7 @@ For us, this recognition isn't just an award — it's a reminder of why we do wh
                                 </svg>
                             </div>
                             <h3 class="text-lg font-bold text-gray-800 mb-3">Cities Served</h3>
-                            <p class="text-4xl font-bold gradient-text mb-2">82+</p>
+                            <p class="text-4xl font-bold gradient-text mb-2">103</p>
                             <p class="text-gray-600 text-sm">Across BC</p>
                         </div>
 
@@ -727,7 +723,7 @@ For us, this recognition isn't just an award — it's a reminder of why we do wh
                                 </svg>
                             </div>
                             <h3 class="text-lg font-bold text-gray-800 mb-3">Home Sales Saved</h3>
-                            <p class="text-4xl font-bold gradient-text mb-2">1,896+</p>
+                            <p class="text-4xl font-bold gradient-text mb-2">2,370</p>
                             <p class="text-gray-600 text-sm">Prevented moves</p>
                         </div>
                     </div>
@@ -932,8 +928,8 @@ For us, this recognition isn't just an award — it's a reminder of why we do wh
         
         <div class="container mx-auto px-4 relative z-10">
             <div class="max-w-5xl mx-auto text-center">
-                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 leading-tight">
-                    Transform Your Bathroom with Vancouver's Accessible Home Specialists — Grab Bars, Walk-In Showers, Barrier-Free Renovations & More at Home2stay!
+                <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 leading-tight">
+                    Transform Your Bathroom with Vancouver's Accessible Home Specialists, Grab Bars, Walk-In Showers, Barrier-Free Renovations & More at Home2stay!
                 </h2>
                 <p class="text-xl md:text-2xl mb-12 opacity-95 leading-relaxed max-w-4xl mx-auto">
                     Home2stay can provide your family with all the things you need for an accessible bathroom in Canada. 

@@ -205,7 +205,7 @@
                             </li>
                             <li>
                                 <span class="font-semibold text-gray-700">4. Transparent Quote</span>
-                                We provide you with a clear, detailed quote so you know exactly what to expect — no surprises,
+                                We provide you with a clear, detailed quote so you know exactly what to expect no surprises,
                                 no pressure.
                             </li>
                             <li>

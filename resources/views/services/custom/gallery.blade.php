@@ -245,6 +245,103 @@
     <!-- Gallery Sections -->
     <section class="py-16 bg-gray-50">
         <div class="container mx-auto px-4">
+
+
+            
+            <!-- Stairlift Installation -->
+            <div class="category-section">
+                <h2 class="category-title mb-6">Stairlift Installation</h2>
+                <p class="text-gray-600 mb-8 text-lg">Professional stairlift installations for safe and comfortable mobility</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('np-img/str-1.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/str-1.jpg') }}" 
+                                 alt="Bruno SRE-3050 Stairlift"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('np-img/str-2.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/str-2.jpg') }}" 
+                                 alt="Flow X Stairlift Installation"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('np-img/str-3.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/str-3.jpg') }}" 
+                                 alt="Custom Stairlift Configuration"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('np-img/str-4.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/str-4.jpg') }}" 
+                                 alt="Premium Stairlift Solution"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('np-img/str-5.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/str-5.jpg') }}" 
+                                 alt="Premium Stairlift Solution"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('np-img/str-6.jpg') }}', '')">
+                        <div class="image-container">
+                            <div class="image-placeholder">
+                                <div class="loading-spinner"></div>
+                            </div>
+                            <img data-lazy="{{ asset('np-img/str-6.jpg') }}" 
+                                 alt="Premium Stairlift Solution"
+                                 class="lazy-image"
+                                 loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
             
             <!-- Featured Projects -->
             <div class="category-section">
@@ -677,97 +774,6 @@
                 </div>
             </div>
 
-            <!-- Stairlift Installation -->
-            <div class="category-section">
-                <h2 class="category-title mb-6">Stairlift Installation</h2>
-                <p class="text-gray-600 mb-8 text-lg">Professional stairlift installations for safe and comfortable mobility</p>
-                
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('np-img/str-1.jpg') }}', '')">
-                        <div class="image-container">
-                            <div class="image-placeholder">
-                                <div class="loading-spinner"></div>
-                            </div>
-                            <img data-lazy="{{ asset('np-img/str-1.jpg') }}" 
-                                 alt="Bruno SRE-3050 Stairlift"
-                                 class="lazy-image"
-                                 loading="lazy">
-                        </div>
-                        <div class="gallery-overlay">
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('np-img/str-2.jpg') }}', '')">
-                        <div class="image-container">
-                            <div class="image-placeholder">
-                                <div class="loading-spinner"></div>
-                            </div>
-                            <img data-lazy="{{ asset('np-img/str-2.jpg') }}" 
-                                 alt="Flow X Stairlift Installation"
-                                 class="lazy-image"
-                                 loading="lazy">
-                        </div>
-                        <div class="gallery-overlay">
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('np-img/str-3.jpg') }}', '')">
-                        <div class="image-container">
-                            <div class="image-placeholder">
-                                <div class="loading-spinner"></div>
-                            </div>
-                            <img data-lazy="{{ asset('np-img/str-3.jpg') }}" 
-                                 alt="Custom Stairlift Configuration"
-                                 class="lazy-image"
-                                 loading="lazy">
-                        </div>
-                        <div class="gallery-overlay">
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('np-img/str-4.jpg') }}', '')">
-                        <div class="image-container">
-                            <div class="image-placeholder">
-                                <div class="loading-spinner"></div>
-                            </div>
-                            <img data-lazy="{{ asset('np-img/str-4.jpg') }}" 
-                                 alt="Premium Stairlift Solution"
-                                 class="lazy-image"
-                                 loading="lazy">
-                        </div>
-                        <div class="gallery-overlay">
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('np-img/str-5.jpg') }}', '')">
-                        <div class="image-container">
-                            <div class="image-placeholder">
-                                <div class="loading-spinner"></div>
-                            </div>
-                            <img data-lazy="{{ asset('np-img/str-5.jpg') }}" 
-                                 alt="Premium Stairlift Solution"
-                                 class="lazy-image"
-                                 loading="lazy">
-                        </div>
-                        <div class="gallery-overlay">
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" style="height: 300px;" onclick="openLightbox('{{ asset('np-img/str-6.jpg') }}', '')">
-                        <div class="image-container">
-                            <div class="image-placeholder">
-                                <div class="loading-spinner"></div>
-                            </div>
-                            <img data-lazy="{{ asset('np-img/str-6.jpg') }}" 
-                                 alt="Premium Stairlift Solution"
-                                 class="lazy-image"
-                                 loading="lazy">
-                        </div>
-                        <div class="gallery-overlay">
-                        </div>
-                    </div>
-                </div>
-            </div>
 
         </div>
     </section>

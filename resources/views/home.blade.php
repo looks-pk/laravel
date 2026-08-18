@@ -819,6 +819,18 @@
         </div>
     </section>
 
+
+        <!-- Mobility Products Section -->
+    <section class="py-8 md:py-12 px-4 md:px-8 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">Accessibility Solutions for Your
+                    Home</h2>
+            </div>
+            @include('partials.services')
+        </div>
+    </section>
+
     <!-- canada logo section -->
     <section class="py-12 bg-gray-50">
     <div class="container mx-auto px-4">
@@ -838,18 +850,8 @@
         </div>
     </div>
 </section>
-    <!-- Mobility Products Section -->
-    <section class="py-8 md:py-12 px-4 md:px-8 bg-gray-50">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold relative inline-block mb-12 section-title">Accessibility Solutions for Your
-                    Home</h2>
-            </div>
-            @include('partials.services')
-        </div>
-    </section>
-        
 
+        
 
     <!-- Why Choose Us Section -->
     <section class="py-8 md:py-12 px-4 md:px-8 bg-white relative overflow-hidden">

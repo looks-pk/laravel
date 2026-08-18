@@ -763,10 +763,14 @@
 
         <!-- Right Side (Search & Buttons) -->
         <div class="hidden lg:flex items-center space-x-4">
-            <!-- Buttons -->
-            <a href="/areas" class="btn-primary px-4 py-2 rounded-md text-sm font-medium">Visit a Location</a>
+
+               <div class="flex justify-center items-center" style="width: 250px; height: 250px;">
+                <img src="{{ asset('logo/Vancouver 2026_2-Years.png') }}" class="w-full h-full object-contain" alt="Consumer Choice Award 2026 Vancouver - 2 Year Winner">
+            </div>
+          
+            <!-- <a href="/areas" class="btn-primary px-4 py-2 rounded-md text-sm font-medium">Visit a Location</a>
             <a style="background-color:rgb(255, 0, 0); padding: 12px 20px;" href="{{ route('contact') }}" class="text-white px-4 py-2 rounded-md text-sm font-medium">Contact
-                Us Today</a>
+                Us Today</a> -->
         </div>
 
         <!-- Mobile Menu Button -->

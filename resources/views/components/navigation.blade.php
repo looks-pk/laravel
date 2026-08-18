@@ -764,7 +764,7 @@
         <!-- Right Side (Search & Buttons) -->
         <div class="hidden lg:flex items-center space-x-4">
 
-               <div class="flex justify-center items-center" style="width: 250px; height: 250px;">
+               <div class="flex justify-center items-center" style="width: 100px; height: 100px;">
                 <img src="{{ asset('logo/Vancouver 2026_2-Years.png') }}" class="w-full h-full object-contain" alt="Consumer Choice Award 2026 Vancouver - 2 Year Winner">
             </div>
           

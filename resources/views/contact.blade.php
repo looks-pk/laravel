@@ -364,7 +364,7 @@
                                 <option value="ramps">Ramps</option>
                                 <option value="other">Other</option>
                             </select>
-                            <label for="quick_service">Service Needed</label>
+                            <label for="quick_service"></label>
                         </div>
                         
                         <div class="form-floating md:col-span-2">
@@ -561,11 +561,11 @@
     <!-- Contact Methods & Map -->
     <section class="py-16 bg-white">
         <div class="container mx-auto px-4">
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-md-12 d-flex w-100 align-items-center justify-content-center mb-12">
                     <img src="{{ asset('h-banner/moving-at-month-end-banner.png') }}" alt="" style="width:100%">
                 </div>
-            </div>
+            </div> -->
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
                 <!-- Contact Methods -->
                 <div>

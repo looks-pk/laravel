@@ -228,7 +228,7 @@
                                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                             <div class="flex items-center justify-between">
                                                 <span class="font-medium text-gray-700">Monthly Rental Fee:</span>
-                                                <span class="text-lg font-bold text-primary">$425</span>
+                                                <span class="text-lg font-bold text-primary">$465</span>
                                             </div>
                                             <div class="flex items-center justify-between">
                                                 <span class="font-medium text-gray-700">Minimum Period:</span>
@@ -236,11 +236,11 @@
                                             </div>
                                             <div class="flex items-center justify-between">
                                                 <span class="font-medium text-gray-700">Setup Fees:</span>
-                                                <span class="text-gray-800">$125 (Including measuring and installation)</span>
+                                                <span class="text-gray-800">$245 (Including measuring and installation)</span>
                                             </div>
                                             <div class="flex items-center justify-between">
                                                 <span class="font-medium text-gray-700">Removal Fees:</span>
-                                                <span class="text-gray-800">$95</span>
+                                                <span class="text-gray-800">$220</span>
                                             </div>
                                         </div>
                                     </div>

@@ -267,6 +267,18 @@
                                             alt="Home2stay Portable Accessible Showers"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-4 bg-gray-50">
                                     </div>
+
+                                     <div class="image-thumbnail cursor-pointer">
+                                        <img src="{{ asset('bathrooms-images/Tub-to-Shower Conversion.webp') }}"
+                                            alt="Home2stay Portable Accessible Showers"
+                                            class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-4 bg-gray-50">
+                                    </div>
+
+                                     <div class="image-thumbnail cursor-pointer">
+                                        <img src="{{ asset('bathrooms-images/Walk-In-Shower-with-Safety-Grab-Bars.webp') }}"
+                                            alt="Home2stay Portable Accessible Showers"
+                                            class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-4 bg-gray-50">
+                                    </div>
                                 </div>
                             </div>
 

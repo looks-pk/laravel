@@ -127,11 +127,11 @@
                         </li>
                         <li class="flex justify-between pb-3 border-b border-gray-200">
                             <span class="text-gray-600">Setup Fees (INCLUDING MEASURING AND INSTALLATION)</span>
-                            <span class="font-semibold whitespace-nowrap">$ 220</span>
+                            <span class="font-semibold whitespace-nowrap">$ 245</span>
                         </li>
                         <li class="flex justify-between pb-3 border-b border-gray-200">
                             <span class="text-gray-600">Removal Fees</span>
-                            <span class="font-semibold whitespace-nowrap">$ 245</span>
+                            <span class="font-semibold whitespace-nowrap">$ 220</span>
                         </li>
                     </ul>
                 </div>

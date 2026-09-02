@@ -1,7 +1,7 @@
 ﻿@extends('layouts.app')
 
 @section('title', 'Home2stay Portable Accessible Showers - Portable Handicap Showers')
-@section('meta_description', 'content="Home2stay Portable Showers offer handicap &amp; disabled-accessible bathing solutions. Perfect for travel, temporary needs, or limited space. Safe &amp; convenient mobility at home.')
+@section('meta_description', 'content="Home2stay Portable Showers offer handicap & disabled-accessible bathing solutions. Perfect for travel, temporary needs, or limited space. Safe &amp; convenient mobility at home.')
 
 @section('content')
     <!-- Hero Section -->
@@ -361,7 +361,7 @@
                                         </div>
                                         <div class="flex items-center justify-between mb-2">
                                             <h3 class="text-xl font-semibold text-gray-800">Rental Available</h3>
-                                            <span class="text-sm text-gray-800">$375/month (minimum 1 month)</span>
+                                            <span class="text-sm text-gray-800">$465/month (minimum 1 month)</span>
                                         </div>
                                         <div class="flex items-center justify-between mb-2">
                                             <h3 class="text-xl font-semibold text-gray-800">Call Us</h3>

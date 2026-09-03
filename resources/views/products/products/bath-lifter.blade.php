@@ -5,7 +5,8 @@
 
 @section('content')
     <!-- Hero Section -->
-    <section class="relative pt-16 pb-12 md:pt-24 md:pb-16 bg-gradient-to-r from-primary to-primary-dark text-white">
+
+ <section class="relative pt-16 pb-12 md:pt-24 md:pb-16 bg-gradient-to-r from-primary to-primary-dark text-white">
         <div class="container mx-auto px-4">
             <div class="flex flex-col items-start">
                 <nav class="flex mb-4 text-sm" aria-label="Breadcrumb">
@@ -36,7 +37,7 @@
                                 </svg>
                                 <a href="{{ route('products.category', 'ceiling-lifts') }}"
                                     class="ml-1 text-white hover:text-gray-200">
-                                    Ceiling Lifts
+                                    Bath Safety
                                 </a>
                             </div>
                         </li>
@@ -47,12 +48,12 @@
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" d="m1 9 4-4-4-4" />
                                 </svg>
-                                <span class="ml-1 font-medium text-gray-100">Ceiling Track Lift</span>
+                                <span class="ml-1 font-medium text-gray-100">Bath Lifter</span>
                             </div>
                         </li>
                     </ol>
                 </nav>
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Ceiling Track Lift</h1>
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Bath Lifter</h1>
                 <div class="flex items-center mb-4">
                     <div class="flex text-yellow-400">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -91,7 +92,7 @@
                 <div class="w-full lg:w-1/2">
                     <div class="bg-gray-100 rounded-lg overflow-hidden mb-4">
                         <img src="{{ asset('bathsafety-cat/track-lift.jpg') }}"
-                            alt="Home2stay Ceiling Track Lift" class="w-full h-auto object-contain p-4">
+                            alt="Home2stay Bath Lifter" class="w-full h-auto object-contain p-4">
                     </div>
                     <!-- Request Quote Button -->
                     <div class="text-center mt-4 mb-6">
@@ -106,17 +107,17 @@
                 <div class="w-full lg:w-1/2">
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            Built for a quiet operation, the C-450 Ceiling Track Lift provides a smooth and effortless transfer that will safely enhance the working conditions of patients / residents and caregivers.
+                            Built for a quiet operation, the Bath Lifter Bath Lifter provides a smooth and effortless transfer that will safely enhance the working conditions of patients / residents and caregivers.
                         </p>
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            With its 450-lbs. weight capacity, reliability, superior comfort and safety, the C-450 can be safely and easily operated by a single caregiver, and addresses many of the issues that make patient transfer difficult.
+                            Designed with user comfort and safety in mind, the Bath Lifter helps reduce the effort required during bathtub transfers and can provide valuable assistance for users and caregivers.
                         </p>
                     </div>
                     <div class="mb-6">
                         <p class="text-gray-600 text-lg">
-                            This is one of the most advanced, yet simple-to-use, ceiling lifts available now.
+                            It is designed to be simple to use while providing dependable support for safer and more comfortable bathing.
                         </p>
                     </div>
 
@@ -182,8 +183,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Smallest Lift of Its Class</h3>
-                                            <p class="text-gray-600">Compact design with at least 7" (18cm) of additional lifting height for enhanced versatility.</p>
+                                            <h3 class="font-semibold text-gray-800">Comfortable Bathing Assistance</h3>
+                                            <p class="text-gray-600">A supportive design helps users move into and out of the bathtub with greater comfort and confidence.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -194,8 +195,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Quick Lifting Speed</h3>
-                                            <p class="text-gray-600">Fast and efficient lifting operation with smooth and effortless transfers.</p>
+                                            <h3 class="font-semibold text-gray-800">Smooth and Controlled Movement</h3>
+                                            <p class="text-gray-600">Controlled movement helps provide a smooth and comfortable transition into and out of the bathtub.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -206,8 +207,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">450-lbs Weight Capacity</h3>
-                                            <p class="text-gray-600">Reliable weight capacity with superior comfort and safety for patients and caregivers.</p>
+                                            <h3 class="font-semibold text-gray-800">Supportive Weight Capacity</h3>
+                                            <p class="text-gray-600">Designed to provide stable support while accommodating the weight capacity specified for the selected model.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -218,8 +219,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Digital Display Interface</h3>
-                                            <p class="text-gray-600">Digital display indicates number of lifts, battery levels, and lift status for enhanced control.</p>
+                                            <h3 class="font-semibold text-gray-800">Easy-to-Use Controls</h3>
+                                            <p class="text-gray-600">Simple controls help make raising and lowering the bath lifter straightforward for users and caregivers.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -230,8 +231,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Emergency Safety Features</h3>
-                                            <p class="text-gray-600">Emergency stop, emergency power lowering, and manual raising or lowering capabilities.</p>
+                                            <h3 class="font-semibold text-gray-800">Safety-Focused Design</h3>
+                                            <p class="text-gray-600">Safety-focused operation helps provide added confidence during bathing and transfers.</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -242,8 +243,8 @@
                                                 clip-rule="evenodd" />
                                         </svg>
                                         <div>
-                                            <h3 class="font-semibold text-gray-800">Simple Maintenance</h3>
-                                            <p class="text-gray-600">Easy to charge batteries with audible low battery indicator and visual battery/charge level display.</p>
+                                            <h3 class="font-semibold text-gray-800">Easy Maintenance</h3>
+                                            <p class="text-gray-600">Designed for convenient everyday use, with straightforward charging and maintenance requirements.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -254,12 +255,12 @@
                                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
                                     <div class="image-thumbnail cursor-pointer">
                                         <img src="{{ asset('bathsafety-cat/track-lift.jpg') }}"
-                                            alt="Home2stay Ceiling Track Lift"
+                                            alt="Home2stay Bath Lifter"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
                                     <div class="image-thumbnail cursor-pointer">
                                         <img src="{{ asset('bathsafety-cat/Regular-Track-Profile.jpg') }}"
-                                            alt="Ceiling Track Lift Installation"
+                                            alt="Bath Lifter Installation"
                                             class="w-full h-32 object-contain rounded-lg hover:opacity-90 transition duration-200 p-2 bg-gray-50">
                                     </div>
                                 </div>
@@ -272,33 +273,33 @@
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Weight Capacity:</span>
-                                                <span class="text-gray-600">450 lbs</span>
+                                                <span class="text-gray-600">Model Dependent</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Lifting Height:</span>
-                                                <span class="text-gray-600">At least 7" (18cm) additional</span>
+                                                <span class="font-medium text-gray-700">Lifting Range:</span>
+                                                <span class="text-gray-600">Designed for bathtub access</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Operation:</span>
-                                                <span class="text-gray-600">Single caregiver operation</span>
+                                                <span class="text-gray-600">Simple user or caregiver operation</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Lifting Speed:</span>
-                                                <span class="text-gray-600">Quick lifting speed</span>
+                                                <span class="font-medium text-gray-700">Movement:</span>
+                                                <span class="text-gray-600">Controlled and comfortable operation</span>
                                             </div>
                                         </div>
                                         <div class="space-y-3">
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Battery:</span>
-                                                <span class="text-gray-600">Easy to charge with indicators</span>
+                                                <span class="font-medium text-gray-700">Power:</span>
+                                                <span class="text-gray-600">Rechargeable battery system</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Display:</span>
-                                                <span class="text-gray-600">Digital display with status</span>
+                                                <span class="font-medium text-gray-700">Controls:</span>
+                                                <span class="text-gray-600">Easy-to-use controls</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
-                                                <span class="font-medium text-gray-700">Vertical Movement:</span>
-                                                <span class="text-gray-600">7.5" (2.2m) foot strap</span>
+                                                <span class="font-medium text-gray-700">Bathing Access:</span>
+                                                <span class="text-gray-600">Designed for bathtub transfers</span>
                                             </div>
                                             <div class="flex justify-between border-b pb-2">
                                                 <span class="font-medium text-gray-700">Availability:</span>
@@ -310,25 +311,25 @@
                                     <div class="bg-gray-50 p-4 rounded-lg">
                                         <h4 class="font-semibold text-gray-800 mb-2">Key Features</h4>
                                         <ul class="list-disc list-inside text-gray-600 space-y-1">
-                                            <li>Smallest lift of its class</li>
-                                            <li>At least 7" (18cm) of additional lifting height</li>
-                                            <li>Quick lifting speed</li>
-                                            <li>Simple maintenance</li>
-                                            <li>Easy to charge batteries</li>
+                                            <li>Safe and supportive bathing assistance</li>
+                                            <li>Smooth movement into and out of the bathtub</li>
+                                            <li>Controlled and comfortable operation</li>
+                                            <li>Easy everyday maintenance</li>
+                                            <li>Convenient rechargeable power</li>
                                         </ul>
                                     </div>
 
                                     <div class="bg-blue-50 p-4 rounded-lg">
                                         <h4 class="font-semibold text-gray-800 mb-2">Advanced Features</h4>
                                         <ul class="list-disc list-inside text-gray-600 space-y-1">
-                                            <li>Audible low battery indicator</li>
-                                            <li>Visual battery/charge level display</li>
-                                            <li>Digital display indicates number of lifts, battery levels, and lift status</li>
-                                            <li>Auto shut-off</li>
-                                            <li>7.5" (2.2m) foot strap vertical movement allows easily lifts from the floor</li>
-                                            <li>Emergency stop and emergency power lowering on lift</li>
-                                            <li>Emergency manual raising or lowering</li>
-                                            <li>Available with Return to Charge option</li>
+                                            <li>Rechargeable battery operation</li>
+                                            <li>Easy-to-use controls</li>
+                                            <li>Smooth and controlled lifting movement</li>
+                                            <li>Safety-focused operation</li>
+                                            <li>Designed for bathtub transfers vertical movement allows easily lifts from the floor</li>
+                                            <li>Supportive design for safer bathing</li>
+                                            <li>Added confidence for users and caregivers</li>
+                                            <li>Available for purchase or rental, subject to model</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -340,9 +341,9 @@
                                     <div>
                                         <h3 class="text-xl font-semibold text-gray-800 mb-4">Purchase Options</h3>
                                         <div class="bg-gray-50 p-6 rounded-lg">
-                                            <h4 class="font-semibold text-gray-800 mb-2">C-450 Ceiling Track Lift</h4>
-                                            <p class="text-2xl font-bold text-primary mb-2">Starts at $</p>
-                                            <p class="text-gray-600 text-sm">Complete system with digital display and emergency safety features</p>
+                                            <h4 class="font-semibold text-gray-800 mb-2">Bath Lifter Bath Lifter</h4>
+                                            <p class="text-2xl font-bold text-primary mb-2">Contact Us For Pricing</p>
+                                            <p class="text-gray-600 text-sm">Pricing depends on the selected Bath Lifter model and configuration</p>
                                         </div>
                                     </div>
 
@@ -352,26 +353,26 @@
                                             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                                 <div class="space-y-3">
                                                     <div class="flex justify-between">
-                                                        <span class="font-medium text-gray-700">Monthly Rental Fee:</span>
-                                                        <span class="text-gray-600 font-semibold">$300</span>
+                                                        <span class="font-medium text-gray-700">Rental Pricing:</span>
+                                                        <span class="text-gray-600 font-semibold">Contact Us</span>
                                                     </div>
                                                     <div class="flex justify-between">
-                                                        <span class="font-medium text-gray-700">Minimum Period:</span>
-                                                        <span class="text-gray-600">1 Month</span>
+                                                        <span class="font-medium text-gray-700">Rental Terms:</span>
+                                                        <span class="text-gray-600">Contact Us For Details</span>
                                                     </div>
                                                 </div>
                                                 <div class="space-y-3">
                                                     <div class="flex justify-between">
                                                         <span class="font-medium text-gray-700">Setup Fees:</span>
-                                                        <span class="text-gray-600">$125</span>
+                                                        <span class="text-gray-600">Contact Us</span>
                                                     </div>
                                                     <div class="flex justify-between">
                                                         <span class="font-medium text-gray-700">Removal Fees:</span>
-                                                        <span class="text-gray-600">$95</span>
+                                                        <span class="text-gray-600">Contact Us</span>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <p class="text-gray-600 text-sm mt-3">Setup fees include measuring and installation</p>
+                                            <p class="text-gray-600 text-sm mt-3">Contact us for available setup and installation options</p>
                                         </div>
                                     </div>
 
@@ -395,35 +396,35 @@
                                     <div class="bg-gray-50 p-6 rounded-lg">
                                         <h3 class="text-xl font-semibold text-gray-800 mb-4">Product Supplier Information</h3>
                                         <p class="text-gray-600 mb-4">
-                                            The C-450 Ceiling Track Lift is supplied by a leading provider of medical devices and solutions that enhance quality of life for people with reduced mobility and age-related health challenges.
+                                            The Bath Lifter Bath Lifter is supplied by a leading provider of medical devices and solutions that enhance quality of life for people with reduced mobility and age-related health challenges.
                                         </p>
                                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                             <div class="space-y-3">
                                                 <div class="flex justify-between border-b pb-2">
                                                     <span class="font-medium text-gray-700">Product Model:</span>
-                                                    <span class="text-gray-600">C-450</span>
+                                                    <span class="text-gray-600">Bath Lifter</span>
                                                 </div>
                                                 <div class="flex justify-between border-b pb-2">
                                                     <span class="font-medium text-gray-700">Category:</span>
-                                                    <span class="text-gray-600">Ceiling Track Lift</span>
+                                                    <span class="text-gray-600">Bath Lifter</span>
                                                 </div>
                                                 <div class="flex justify-between border-b pb-2">
                                                     <span class="font-medium text-gray-700">Weight Capacity:</span>
-                                                    <span class="text-gray-600">450 lbs</span>
+                                                    <span class="text-gray-600">Model Dependent</span>
                                                 </div>
                                             </div>
                                             <div class="space-y-3">
                                                 <div class="flex justify-between border-b pb-2">
                                                     <span class="font-medium text-gray-700">Certification:</span>
-                                                    <span class="text-gray-600">Medical device certified</span>
+                                                    <span class="text-gray-600">Certification varies by selected model</span>
                                                 </div>
                                                 <div class="flex justify-between border-b pb-2">
                                                     <span class="font-medium text-gray-700">Warranty:</span>
-                                                    <span class="text-gray-600">Manufacturer warranty included</span>
+                                                    <span class="text-gray-600">Manufacturer warranty varies by selected model</span>
                                                 </div>
                                                 <div class="flex justify-between border-b pb-2">
                                                     <span class="font-medium text-gray-700">Support:</span>
-                                                    <span class="text-gray-600">Full technical support</span>
+                                                    <span class="text-gray-600">Product guidance and support available</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -436,6 +437,9 @@
             </div>
         </div>
     </section>
+
+
+
 
     <!-- Featured Product -->
     <section class="py-16 bg-primary">

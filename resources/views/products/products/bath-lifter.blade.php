@@ -441,26 +441,26 @@
 
 
 
-    <!-- Featured Product -->
-    <section class="py-16 bg-primary">
-        <div class="container mx-auto px-4">
-            <div class="bg-gray-50 rounded-xl overflow-hidden shadow-lg">
-                <div class="flex flex-col lg:flex-row">
-                    <!-- Text Content -->
-                    <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Are you interested in having this product installed?</h2>
-                        <p class="text-lg text-gray-600 mb-6">Accessibility solutions to make everyday home life easier and safer for yourself and your loved ones.</p>
-                        <p class="mb-5">Give us a call at <a href="tel:+16042591211" class="text-secondary">604-259-1211</a> or submit a FREE <a href="#assessment" class="text-secondary">ASSESSMENT FORM</a> to check.</p>
-                    </div>
-                    <!-- Image -->
-                    <div class="w-full lg:w-1/2">
-                        <img src="{{ asset('bathsafety-cat/track-lift.jpg') }}" alt="Ceiling Track Lift Solutions"
-                            class="w-full h-full object-cover" style="min-height: 400px;">
-                    </div>
+   <!-- Featured Product -->
+<section class="py-16 bg-primary">
+    <div class="container mx-auto px-4">
+        <div class="bg-gray-50 rounded-xl overflow-hidden shadow-lg">
+            <div class="flex flex-col lg:flex-row">
+                <!-- Text Content -->
+                <div class="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Are you interested in having a Bath Lifter installed?</h2>
+                    <p class="text-lg text-gray-600 mb-6">Make bathing safer, easier, and more comfortable with a reliable Bath Lifter designed to support greater independence and peace of mind.</p>
+                    <p class="mb-5">Give us a call at <a href="tel:+16042591211" class="text-secondary">604-259-1211</a> or submit a FREE <a href="#assessment" class="text-secondary">ASSESSMENT FORM</a> to find the right solution for your needs.</p>
+                </div>
+                <!-- Image -->
+                <div class="w-full lg:w-1/2">
+                    <img src="{{ asset('bathsafety-cat/track-lift.jpg') }}" alt="Ceiling Track Lift Solutions"
+                        class="w-full h-full object-cover" style="min-height: 400px;">
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Related Blogs -->
     <section class="py-12 bg-white">

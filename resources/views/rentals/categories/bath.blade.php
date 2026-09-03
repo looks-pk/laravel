@@ -361,7 +361,7 @@
         <div class="bg-white rounded-lg p-6 max-w-md w-full mx-4 shadow-xl relative">
             <button id="closeModalBtn" class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 text-xl font-bold">&times;</button>
             <h3 class="text-xl font-bold text-gray-800 mb-4">Request a Quote for Bath Lifter</h3>
-            <form action="{{ route('contact.send') }}" method="POST" class="space-y-4">
+              <form action="/submit-product-inquiry" method="POST" class="space-y-6">
                 @csrf
                 <input type="hidden" name="product_name" value="Home2stay Bath Lifter">
                 <div>

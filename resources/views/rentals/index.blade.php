@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Accessibility Equipment Rentals - Lifts, Ramps | Home2Stay')
+@section('title', 'Accessibility Equipment Rentals - Lifts, Ramps | Home2stay')
 @section('meta_description', 'Browse our collection of mobility and accessibility equipment available for rent for your home, including bathroom safety products, mobility aids, and more.')
 
 @push('styles')
@@ -575,7 +575,7 @@
                         <p class="font-bold text-primary mb-5 flex items-center">
                             <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">1 Products</span>
                         </p>
-                        <a href="/products-categories/ramps/"
+                        <a href="/products/folding-&-olling-ramps/"
                             class="mt-auto w-full bg-primary hover:bg-primary-dark text-white py-3 px-6 rounded-lg transition duration-300 text-center font-medium">
                             View All Products
                         </a>

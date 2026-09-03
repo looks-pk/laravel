@@ -329,143 +329,67 @@
     <!-- Additional Overview Section -->
     <section class="py-12 bg-gray-50">
         <div class="container mx-auto px-4">
-            <div class="max-w-4xl mx-auto text-center mb-10">
-                <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Restore Comfort and Independence to Your Bathing Routine</h2>
-                <p class="text-gray-600 text-lg">
-                    Taking a bath should be a relaxing experience. The Home2stay Bath Lifter eliminates the barrier of high bathtub walls, allowing you to gently transition into and out of the water with peace of mind.
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-                <div class="bg-white p-6 rounded-lg shadow-sm border text-center">
-                    <div class="w-12 h-12 bg-primary/10 text-primary rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">1</div>
-                    <h3 class="font-semibold text-lg text-gray-800 mb-2">Easy Setup</h3>
-                    <p class="text-gray-600 text-sm">Places directly into your existing bathtub without requiring structural modifications.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-sm border text-center">
-                    <div class="w-12 h-12 bg-primary/10 text-primary rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">2</div>
-                    <h3 class="font-semibold text-lg text-gray-800 mb-2">Safe Transfers</h3>
-                    <p class="text-gray-600 text-sm">Side flaps automatically align with the bathtub edge for smooth lateral seating.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-sm border text-center">
-                    <div class="w-12 h-12 bg-primary/10 text-primary rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">3</div>
-                    <h3 class="font-semibold text-lg text-gray-800 mb-2">Simple Operation</h3>
-                    <p class="text-gray-600 text-sm">Lower and recline smoothly using the waterproof, floating hand controller.</p>
-                </div>
-            </div>
+            <!-- Content here -->
         </div>
     </section>
+@endsection
 
-    <!-- Quote Modal -->
-    <div id="quoteModal" class="fixed inset-0 bg-black/50 z-50 flex items-center justify-center hidden opacity-0 transition-opacity duration-300">
-        <div class="bg-white rounded-lg p-6 max-w-md w-full mx-4 shadow-xl relative">
-            <button id="closeModalBtn" class="absolute top-4 right-4 text-gray-500 hover:text-gray-800 text-xl font-bold">&times;</button>
-            <h3 class="text-xl font-bold text-gray-800 mb-4">Request a Quote for Bath Lifter</h3>
-              <form action="/submit-product-inquiry" method="POST" class="space-y-6">
-                @csrf
-                <input type="hidden" name="product_name" value="Home2stay Bath Lifter">
-                <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
-                    <input type="text" name="name" required class="w-full border border-gray-300 rounded-md p-2 text-sm focus:ring-primary focus:border-primary">
-                </div>
-                <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
-                    <input type="tel" name="phone" required class="w-full border border-gray-300 rounded-md p-2 text-sm focus:ring-primary focus:border-primary">
-                </div>
-                <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
-                    <input type="email" name="email" required class="w-full border border-gray-300 rounded-md p-2 text-sm focus:ring-primary focus:border-primary">
-                </div>
-                <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-1">Inquiry Type</label>
-                    <select name="type" class="w-full border border-gray-300 rounded-md p-2 text-sm focus:ring-primary focus:border-primary">
-                        <option value="Purchase">Purchase Inquiry</option>
-                        <option value="Rental">Rental Inquiry</option>
-                        <option value="Assessment">In-Home Assessment</option>
-                    </select>
-                </div>
-                <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-1">Additional Notes</label>
-                    <textarea name="notes" rows="3" class="w-full border border-gray-300 rounded-md p-2 text-sm focus:ring-primary focus:border-primary" placeholder="Tub type, location, special requests..."></textarea>
-                </div>
-                <button type="submit" class="w-full bg-primary text-white py-2.5 rounded-md font-medium hover:bg-primary-dark transition duration-300">
-                    Submit Request
-                </button>
-            </form>
-        </div>
-    </div>
+@push('scripts')
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Tab switching functionality
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const tabPanes = document.querySelectorAll('.tab-pane');
 
-    <!-- Client-Side Tab & Modal Script -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            // Tab switching logic
-            const tabButtons = document.querySelectorAll('.tab-btn');
-            const tabPanes = document.querySelectorAll('.tab-pane');
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', function () {
+                const targetId = this.getAttribute('data-target');
 
-            tabButtons.forEach(button => {
-                button.addEventListener('click', function () {
-                    const targetId = this.getAttribute('data-target');
+                tabBtns.forEach(b => {
+                    b.classList.remove('active', 'border-primary', 'text-primary', 'font-bold');
+                    b.classList.add('border-transparent', 'text-gray-500');
+                });
 
-                    // Reset buttons
-                    tabButtons.forEach(btn => {
-                        btn.classList.remove('active', 'border-primary', 'text-primary', 'font-bold');
-                        btn.classList.add('border-transparent', 'text-gray-500');
-                    });
+                this.classList.add('active', 'border-primary', 'text-primary', 'font-bold');
+                this.classList.remove('border-transparent', 'text-gray-500');
 
-                    // Highlight active button
-                    this.classList.add('active', 'border-primary', 'text-primary', 'font-bold');
-                    this.classList.remove('border-transparent', 'text-gray-500');
-
-                    // Hide all panes
-                    tabPanes.forEach(pane => {
+                tabPanes.forEach(pane => {
+                    if (pane.id === targetId) {
+                        pane.classList.remove('hidden');
+                        pane.classList.add('block');
+                    } else {
                         pane.classList.add('hidden');
                         pane.classList.remove('block');
-                    });
-
-                    // Show target pane
-                    const activePane = document.getElementById(targetId);
-                    if (activePane) {
-                        activePane.classList.remove('hidden');
-                        activePane.classList.add('block');
                     }
                 });
             });
-
-            // Thumbnail click logic
-            const mainImg = document.getElementById('mainProductImage');
-            const thumbs = document.querySelectorAll('.thumb-item img');
-
-            thumbs.forEach(thumb => {
-                thumb.addEventListener('click', function() {
-                    if (mainImg) {
-                        mainImg.src = this.src;
-                    }
-                });
-            });
-
-            // Modal Logic
-            const quoteBtn = document.getElementById('quoteRequestBtn');
-            const modal = document.getElementById('quoteModal');
-            const closeBtn = document.getElementById('closeModalBtn');
-
-            if (quoteBtn && modal && closeBtn) {
-                quoteBtn.addEventListener('click', () => {
-                    modal.classList.remove('hidden');
-                    setTimeout(() => modal.classList.remove('opacity-0'), 10);
-                });
-
-                closeBtn.addEventListener('click', () => {
-                    modal.classList.add('opacity-0');
-                    setTimeout(() => modal.classList.add('hidden'), 300);
-                });
-
-                modal.addEventListener('click', (e) => {
-                    if (e.target === modal) {
-                        modal.classList.add('opacity-0');
-                        setTimeout(() => modal.classList.add('hidden'), 300);
-                    }
-                });
-            }
         });
-    </script>
-@endsection
+
+        // Image switcher functionality
+        const thumbItems = document.querySelectorAll('.thumb-item img');
+        const mainImage = document.getElementById('mainProductImage');
+
+        thumbItems.forEach(thumb => {
+            thumb.addEventListener('click', function () {
+                if (mainImage) {
+                    mainImage.src = this.src;
+                    mainImage.alt = this.alt;
+                }
+            });
+        });
+
+        // Quote button scroll action
+        const quoteBtn = document.getElementById('quoteRequestBtn');
+        if (quoteBtn) {
+            quoteBtn.addEventListener('click', function () {
+                const contactSection = document.getElementById('contact') || document.getElementById('quote-form');
+                if (contactSection) {
+                    contactSection.scrollIntoView({ behavior: 'smooth' });
+                } else {
+                    window.location.href = "{{ route('contact') }}";
+                }
+            });
+        }
+    });
+</script>
+@endpush

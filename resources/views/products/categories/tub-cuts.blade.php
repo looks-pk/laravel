@@ -114,7 +114,7 @@
                 </div>
 
                 <!-- Product 4 -->
-                <div
+                <!-- <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
                         <img src="{{ asset('bathsafety-cat/quicktub.jpg') }}" alt="Home2stay Full Convertible Tub Cut Kit"
@@ -130,10 +130,10 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Product 5 -->
-
+<!-- 
                 <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
@@ -153,10 +153,10 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- Product 6 -->
 
-                <div
+                <!-- <div
                     class="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl flex flex-col h-full">
                     <div class="overflow-hidden relative">
                         <img src="{{ asset('/al-prod-page-imgs/quick-tub.png') }}" alt="Home2stay Tub Cut w/ Door"
@@ -175,7 +175,7 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
 
             </div>

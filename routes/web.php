@@ -15,6 +15,7 @@ use App\Http\Controllers\AreaController;
 use App\Http\Controllers\UniversalFormController;
 use App\Http\Controllers\TestController;
 use App\Http\Controllers\SitemapController;
+use App\Http\Controllers\SearchController; // ✅ Search Controller Import Added
 
 /*
 |--------------------------------------------------------------------------
@@ -94,20 +95,22 @@ Route::get('/gallery', function() {
     return app()->call([app(ServiceController::class), 'customShow'], ['service' => 'gallery']);
 })->name('services.custom.gallery');
 
-// Products
+// Products & Search
 Route::get('/all-products', function() {
     return view('products.index');
 })->name('products.index');
-Route::get('/products-categories/{category}', [ProductController::class, 'categoryShow'])->name('products.category');
 
+// ✅ Added Search Routes
+Route::get('/search', [SearchController::class, 'index'])->name('search');
+Route::get('/ajax-search', [SearchController::class, 'liveSearch'])->name('ajax.search');
+
+Route::get('/products-categories/{category}', [ProductController::class, 'categoryShow'])->name('products.category');
 Route::get('/products/{product}', [ProductController::class, 'productShow'])->name('products.show');
 
 // Rentals
 Route::get('/rentals', [RentalController::class, 'index'])->name('rentals.index');
 Route::get('/rentals-categories/{category}', [RentalController::class, 'categoryShow'])->name('rentals.category');
-
 Route::get('/categories/{category}', [RentalController::class, 'categoryShow']);
-
 
 // Areas - Test route first
 Route::get('/areas-test', function() {
@@ -143,9 +146,6 @@ Route::get('/areas-debug', function() {
         return 'AreaController error: ' . $e->getMessage();
     }
 });
-
-// Areas - Use controller instead of closure
-// Route::get('/areas', [AreaController::class, 'index'])->name('areas.index'); // Commented out to allow custom service routing
 
 Route::get('/areas/{area}', [AreaController::class, 'show'])->name('areas.show');
 
@@ -212,8 +212,3 @@ Route::prefix('admin')->middleware(['auth', 'admin'])->name('admin.')->group(fun
     // Category management
     Route::resource('categories', CategoryController::class);
 });
-
-// TEMPORARILY COMMENT OUT FALLBACK ROUTE FOR TESTING
-// Route::fallback(function () {
-//     return response()->view('errors.404', [], 404);
-// });

@@ -582,8 +582,9 @@
                     </button>
 
                     <!-- Areas Dropdown Menu - Multi-Column Layout -->
-                    <div class="areas-dropdown absolute left-1/2 transform -translate-x-1/2 w-[900px] bg-white rounded-xl shadow-2xl py-8 hidden group-hover:block z-40 border border-gray-100">
-                        <div class="px-8">
+                    <div class="areas-dropdown absolute left-1/2 -translate-x-1/2 w-[800px] max-w-[90vw] bg-white rounded-xl shadow-2xl py-6 hidden group-hover:block z-50 border border-gray-100 mt-1">
+                        
+                     <div class="px-8">
                             <div class="grid grid-cols-3 gap-6">
                                 
                                 <!-- Column 1: North Shore & Central -->

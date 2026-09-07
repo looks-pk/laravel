@@ -762,17 +762,31 @@
             </div>
         </div>
 
-        <!-- Right Side (Search & Buttons) -->
-        <div class="hidden lg:flex items-center space-x-4">
+            <!-- Right Side (Search & Buttons) -->
+<div class="hidden lg:flex items-center space-x-4">
 
-               <div class="flex justify-center items-center" style="width: 100px; height: 100px;">
-                <img src="{{ asset('logo/Vancouver 2026_2-Years.png') }}" class="w-full h-full object-contain" alt="Consumer Choice Award 2026 Vancouver - 2 Year Winner">
-            </div>
-          
-            <!-- <a href="/areas" class="btn-primary px-4 py-2 rounded-md text-sm font-medium">Visit a Location</a>
-            <a style="background-color:rgb(255, 0, 0); padding: 12px 20px;" href="{{ route('contact') }}" class="text-white px-4 py-2 rounded-md text-sm font-medium">Contact
-                Us Today</a> -->
+    <!-- Search Form -->
+    <form action="{{ route('products.search') }}" method="GET" class="relative">
+        <input 
+            type="text" 
+            name="q" 
+            value="{{ request('q') }}" 
+            placeholder="Search products..." 
+            class="search-input w-48 focus:w-64 pl-9 pr-4 py-1.5 border border-gray-300 rounded-full text-sm text-gray-700 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-[#800000] focus:border-transparent transition-all duration-200 ease-in-out"
+        >
+        <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+            <svg class="h-4 w-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+            </svg>
         </div>
+    </form>
+
+    <!-- Award Badge -->
+    <div class="flex justify-center items-center" style="width: 100px; height: 100px;">
+        <img src="{{ asset('logo/Vancouver 2026_2-Years.png') }}" class="w-full h-full object-contain" alt="Consumer Choice Award 2026 Vancouver - 2 Year Winner">
+    </div>
+
+</div>
 
         <!-- Mobile Menu Button -->
         <div class="lg:hidden">

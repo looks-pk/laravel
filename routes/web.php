@@ -198,6 +198,9 @@ Route::get('/all-products', function() {
 
 })->name('products.index');
 
+
+Route::get('/products-search', [ProductController::class, 'search'])->name('products.search');
+
 Route::get('/products-categories/{category}', [ProductController::class, 'categoryShow'])->name('products.category');
 
 

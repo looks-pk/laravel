@@ -790,17 +790,20 @@
     <div class="lg:hidden hidden mobile-menu" id="mobile-menu">
         <div class="px-4 pt-4 pb-6 space-y-2 bg-white/98 backdrop-blur-md border-t border-gray-200/50">
             <!-- Mobile Search Bar -->
-            <div class="relative mb-4">
-                <input type="text" placeholder="Search..."
-                    class="search-input w-full pl-10 pr-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
-                <div class="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                    </svg>
-                </div>
-            </div>
+         <form action="{{ route('products.search') }}" method="GET" class="relative mb-4">
+    <input 
+        type="text" 
+        name="q" 
+        value="{{ request('q') }}" 
+        placeholder="Search products..." 
+        class="search-input w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg text-sm text-gray-700 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-[#800000] focus:border-transparent transition duration-150 ease-in-out"
+    >
+    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+        <svg class="h-4 w-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+        </svg>
+    </div>
+</form>
 
             <a href="{{ route('home') }}"
                 class="nav-link block px-4 py-3 rounded-lg text-gray-700 hover:text-primary hover:bg-primary/5 transition-all duration-200 font-medium {{ request()->routeIs('home') ? 'active text-primary bg-primary/10' : '' }}">

@@ -85,4 +85,35 @@ class ProductController extends Controller
             'latestPosts' => $latestPosts
         ]);
     }
+
+
+    public function search(Request $request)
+{
+    $query = trim($request->input('q'));
+    $products = [];
+
+    if (!empty($query)) {
+        $path = resource_path('views/products/products');
+        
+        if (File::exists($path)) {
+            $files = File::files($path);
+            foreach ($files as $file) {
+                $fileName = pathinfo($file, PATHINFO_FILENAME);
+                $productSlug = str_replace('.blade', '', $fileName);
+                $productTitle = ucwords(str_replace(['-', '_'], ' ', $productSlug));
+
+                if (stripos($productTitle, $query) !== false || stripos($productSlug, $query) !== false) {
+                    $products[] = [
+                        'slug' => $productSlug,
+                        'title' => $productTitle,
+                    ];
+                }
+            }
+        }
+    }
+
+    return view('products.search', compact('products', 'query'));
+}
+
+    
 } 

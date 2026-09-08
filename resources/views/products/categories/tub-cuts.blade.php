@@ -324,7 +324,7 @@
                         </div>
                         <!-- Image -->
                         <div class="w-full lg:w-1/2">
-                            <img src="{{ asset('bathsafety-cat/quicktub.jpg') }}" alt="Tub Cut Process"
+                            <img src="{{ asset('bathsafety-cat/WhatsApp Image 2026-09-09 at 4.15.12 AM.webp') }}" alt="Tub Cut Process"
                                 class="w-full h-full py-20" style="min-height: 400px;">
                         </div>
                     </div>

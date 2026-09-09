@@ -987,7 +987,7 @@
 <div class="w-full lg:w-1/2 relative min-h-[320px] lg:min-h-full overflow-hidden select-none group id="before-after-container">
     
     <!-- 1. AFTER Image (Base Layer - Right Side) -->
-    <img src="{{ asset('/home-page-card-images/barrier-free-bathroom.jpg') }}" 
+    <img src="{{ asset('/home-page-card-images/WhatsApp Image 2026-09-05 at 2.13.27 AM (1).jpeg') }}" 
          alt="After Remodeling" 
          class="absolute inset-0 w-full h-full object-cover pointer-events-none">
     <span class="absolute top-4 right-4 bg-black/60 text-white text-xs font-semibold px-2.5 py-1 rounded-md backdrop-blur-sm z-10 uppercase tracking-wider">
@@ -998,7 +998,7 @@
     <div id="before-image-wrapper" 
          class="absolute inset-0 w-full h-full overflow-hidden pointer-events-none z-10" 
          style="width: 50%;">
-        <img src="{{ asset('/home-page-card-images/before-remodeling.jpg') }}" 
+        <img src="{{ asset('/home-page-card-images/WhatsApp Image 2026-09-05 at 2.13.27 AM.jpeg') }}" 
              alt="Before Remodeling" 
              class="absolute inset-0 w-full h-full object-cover max-w-none pointer-events-none" 
              id="before-image">

@@ -978,7 +978,7 @@
             <div class="flex flex-col lg:flex-row">
                 
                 <!-- BEFORE / AFTER IMAGE SLIDER SIDE -->
-                <div id="before-after-container" class="w-full lg:w-1/2 relative min-h-[320px] lg:min-h-full overflow-hidden select-none group touch-none cursor-ew-resize">
+             <div id="before-after-container" class="w-full lg:w-1/2 relative h-[350px] sm:h-[420px] lg:h-auto lg:min-h-full overflow-hidden select-none group touch-none cursor-ew-resize">
                     
                     <!-- AFTER Image (Right Side / Bottom Layer) -->
                     <img src="{{ asset('/home-page-card-images/WhatsApp Image 2026-09-10 at 4.33.20 AM.jpeg') }}" 

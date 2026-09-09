@@ -2313,6 +2313,78 @@
   <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 
 
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const container = document.getElementById('before-after-container');
+    const beforeWrapper = document.getElementById('before-image-wrapper');
+    const beforeImage = document.getElementById('before-image');
+    const handle = document.getElementById('slider-handle');
+
+    if (!container || !beforeWrapper || !handle || !beforeImage) return;
+
+    let isDragging = false;
+
+    function syncImageWidth() {
+        if (container.offsetWidth > 0) {
+            beforeImage.style.width = container.offsetWidth + 'px';
+        }
+    }
+
+    syncImageWidth();
+    window.addEventListener('resize', syncImageWidth);
+
+    function updateSliderPosition(clientX) {
+        const rect = container.getBoundingClientRect();
+        let x = clientX - rect.left;
+
+        if (x < 0) x = 0;
+        if (x > rect.width) x = rect.width;
+
+        const percentage = (x / rect.width) * 100;
+        
+        beforeWrapper.style.width = percentage + '%';
+        handle.style.left = percentage + '%';
+    }
+
+    // Mouse Events
+    container.addEventListener('mousedown', function (e) {
+        e.preventDefault();
+        isDragging = true;
+        updateSliderPosition(e.clientX);
+    });
+
+    window.addEventListener('mouseup', function () {
+        isDragging = false;
+    });
+
+    window.addEventListener('mousemove', function (e) {
+        if (!isDragging) return;
+        e.preventDefault();
+        updateSliderPosition(e.clientX);
+    });
+
+    // Touch Events (Mobile)
+    container.addEventListener('touchstart', function (e) {
+        isDragging = true;
+        updateSliderPosition(e.touches[0].clientX);
+    }, { passive: true });
+
+    window.addEventListener('touchend', function () {
+        isDragging = false;
+    });
+
+    window.addEventListener('touchmove', function (e) {
+        if (!isDragging) return;
+        updateSliderPosition(e.touches[0].clientX);
+    }, { passive: true });
+});
+</script>
+
+
+
+
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             // Initialize Hero Slider
@@ -3107,71 +3179,7 @@
     </script>
 
 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-    const container = document.getElementById('before-after-container');
-    const beforeWrapper = document.getElementById('before-image-wrapper');
-    const beforeImage = document.getElementById('before-image');
-    const handle = document.getElementById('slider-handle');
 
-    if (!container || !beforeWrapper || !handle || !beforeImage) return;
-
-    let isDragging = false;
-
-    // Keep the "Before" inner image full container width to avoid distortion
-    function syncImageWidth() {
-        const width = container.offsetWidth;
-        beforeImage.style.width = width + 'px';
-    }
-
-    syncImageWidth();
-    window.addEventListener('resize', syncImageWidth);
-
-    function updateSliderPosition(clientX) {
-        const rect = container.getBoundingClientRect();
-        let x = clientX - rect.left;
-
-        // Constrain slider within 0% to 100% boundary
-        if (x < 0) x = 0;
-        if (x > rect.width) x = rect.width;
-
-        const percentage = (x / rect.width) * 100;
-        
-        beforeWrapper.style.width = percentage + '%';
-        handle.style.left = percentage + '%';
-    }
-
-    // --- Mouse Events ---
-    container.addEventListener('mousedown', (e) => {
-        isDragging = true;
-        updateSliderPosition(e.clientX);
-    });
-
-    window.addEventListener('mouseup', () => {
-        isDragging = false;
-    });
-
-    window.addEventListener('mousemove', (e) => {
-        if (!isDragging) return;
-        updateSliderPosition(e.clientX);
-    });
-
-    // --- Touch Events (Mobile/Tablet) ---
-    container.addEventListener('touchstart', (e) => {
-        isDragging = true;
-        updateSliderPosition(e.touches[0].clientX);
-    }, { passive: true });
-
-    window.addEventListener('touchend', () => {
-        isDragging = false;
-    });
-
-    window.addEventListener('touchmove', (e) => {
-        if (!isDragging) return;
-        updateSliderPosition(e.touches[0].clientX);
-    }, { passive: true });
-});
-</script>
 
 
 

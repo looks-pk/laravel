@@ -981,7 +981,7 @@
                 <div id="before-after-container" class="w-full lg:w-1/2 relative min-h-[320px] lg:min-h-full overflow-hidden select-none group touch-none cursor-ew-resize">
                     
                     <!-- AFTER Image (Right Side / Bottom Layer) -->
-                    <img src="{{ asset('/home-page-card-images/after bathroom renovation.webp') }}" 
+                    <img src="{{ asset('/home-page-card-images/WhatsApp Image 2026-09-10 at 4.33.20 AM.jpeg') }}" 
                          alt="After Remodeling" 
                          class="absolute inset-0 w-full h-full object-cover pointer-events-none select-none">
                     

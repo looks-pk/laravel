@@ -973,12 +973,59 @@
             <div class="bg-white rounded-2xl overflow-hidden shadow-2xl border border-gray-100 hover:shadow-3xl transition-all duration-500">
                 <div class="flex flex-col lg:flex-row">
                     <!-- Image Side -->
-                    <div class="w-full lg:w-1/2 relative overflow-hidden">
+                    <!-- <div class="w-full lg:w-1/2 relative overflow-hidden">
                         <img src="{{ asset('/home-page-card-images/barrier-free-bathroom.jpg') }}" 
                              alt="Bathroom Remodeling Service"
                              class="w-full h-64 lg:h-full object-cover transform hover:scale-105 transition-transform duration-700">
                         <div class="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent"></div>
-                    </div>
+                    </div> -->
+
+
+
+
+                    <!-- Interactive Before/After Image Comparison Slider -->
+<div class="w-full lg:w-1/2 relative min-h-[320px] lg:min-h-full overflow-hidden select-none group id="before-after-container">
+    
+    <!-- 1. AFTER Image (Base Layer - Right Side) -->
+    <img src="{{ asset('/home-page-card-images/barrier-free-bathroom.jpg') }}" 
+         alt="After Remodeling" 
+         class="absolute inset-0 w-full h-full object-cover pointer-events-none">
+    <span class="absolute top-4 right-4 bg-black/60 text-white text-xs font-semibold px-2.5 py-1 rounded-md backdrop-blur-sm z-10 uppercase tracking-wider">
+        After
+    </span>
+
+    <!-- 2. BEFORE Image (Clipped Layer - Left Side) -->
+    <div id="before-image-wrapper" 
+         class="absolute inset-0 w-full h-full overflow-hidden pointer-events-none z-10" 
+         style="width: 50%;">
+        <img src="{{ asset('/home-page-card-images/before-remodeling.jpg') }}" 
+             alt="Before Remodeling" 
+             class="absolute inset-0 w-full h-full object-cover max-w-none pointer-events-none" 
+             id="before-image">
+        <span class="absolute top-4 left-4 bg-black/60 text-white text-xs font-semibold px-2.5 py-1 rounded-md backdrop-blur-sm z-10 uppercase tracking-wider">
+            Before
+        </span>
+    </div>
+
+    <!-- 3. Drag Line & Handle -->
+    <div id="slider-handle" 
+         class="absolute top-0 bottom-0 z-20 cursor-ew-resize flex items-center justify-center -translate-x-1/2" 
+         style="left: 50%;">
+        <!-- Vertical Line -->
+        <div class="w-1 h-full bg-white/90 shadow-[0_0_10px_rgba(0,0,0,0.5)]"></div>
+        
+        <!-- Center Circular Handle with Arrows -->
+        <div class="absolute w-10 h-10 bg-white text-gray-800 rounded-full shadow-lg border-2 border-primary flex items-center justify-center transform group-hover:scale-110 transition-transform duration-200">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M8 7l-5 5 5 5M16 7l5 5-5 5" />
+            </svg>
+        </div>
+    </div>
+</div>
+
+
+
+                    
 
                     <!-- Content Side -->
                     <div class="w-full lg:w-1/2 p-6 md:p-8 lg:p-10 flex flex-col justify-center relative">
@@ -3058,4 +3105,74 @@
             }
         });
     </script>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const container = document.getElementById('before-after-container');
+    const beforeWrapper = document.getElementById('before-image-wrapper');
+    const beforeImage = document.getElementById('before-image');
+    const handle = document.getElementById('slider-handle');
+
+    if (!container || !beforeWrapper || !handle || !beforeImage) return;
+
+    let isDragging = false;
+
+    // Keep the "Before" inner image full container width to avoid distortion
+    function syncImageWidth() {
+        const width = container.offsetWidth;
+        beforeImage.style.width = width + 'px';
+    }
+
+    syncImageWidth();
+    window.addEventListener('resize', syncImageWidth);
+
+    function updateSliderPosition(clientX) {
+        const rect = container.getBoundingClientRect();
+        let x = clientX - rect.left;
+
+        // Constrain slider within 0% to 100% boundary
+        if (x < 0) x = 0;
+        if (x > rect.width) x = rect.width;
+
+        const percentage = (x / rect.width) * 100;
+        
+        beforeWrapper.style.width = percentage + '%';
+        handle.style.left = percentage + '%';
+    }
+
+    // --- Mouse Events ---
+    container.addEventListener('mousedown', (e) => {
+        isDragging = true;
+        updateSliderPosition(e.clientX);
+    });
+
+    window.addEventListener('mouseup', () => {
+        isDragging = false;
+    });
+
+    window.addEventListener('mousemove', (e) => {
+        if (!isDragging) return;
+        updateSliderPosition(e.clientX);
+    });
+
+    // --- Touch Events (Mobile/Tablet) ---
+    container.addEventListener('touchstart', (e) => {
+        isDragging = true;
+        updateSliderPosition(e.touches[0].clientX);
+    }, { passive: true });
+
+    window.addEventListener('touchend', () => {
+        isDragging = false;
+    });
+
+    window.addEventListener('touchmove', (e) => {
+        if (!isDragging) return;
+        updateSliderPosition(e.touches[0].clientX);
+    }, { passive: true });
+});
+</script>
+
+
+
 @endpush

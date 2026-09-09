@@ -966,146 +966,130 @@
         </div>
     </section>
 
-    <!-- Promotional Sections -->
-    <section class="promotional-section py-8 md:py-12 px-4 md:px-8  bg-gradient-to-br from-gray-50 to-white">
-        <div class="container mx-auto px-4">
-            <!-- Enhanced Bathroom Remodeling Section -->
-            <div class="bg-white rounded-2xl overflow-hidden shadow-2xl border border-gray-100 hover:shadow-3xl transition-all duration-500">
-                <div class="flex flex-col lg:flex-row">
-                    <!-- Image Side -->
-                    <!-- <div class="w-full lg:w-1/2 relative overflow-hidden">
-                        <img src="{{ asset('/home-page-card-images/barrier-free-bathroom.jpg') }}" 
-                             alt="Bathroom Remodeling Service"
-                             class="w-full h-64 lg:h-full object-cover transform hover:scale-105 transition-transform duration-700">
-                        <div class="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent"></div>
-                    </div> -->
 
 
 
 
-                    <!-- Interactive Before/After Image Comparison Slider -->
-<div class="w-full lg:w-1/2 relative min-h-[320px] lg:min-h-full overflow-hidden select-none group id="before-after-container">
-    
-    <!-- 1. AFTER Image (Base Layer - Right Side) -->
-    <img src="{{ asset('/home-page-card-images/WhatsApp Image 2026-09-05 at 2.13.27 AM (1).jpeg') }}" 
-         alt="After Remodeling" 
-         class="absolute inset-0 w-full h-full object-cover pointer-events-none">
-    <span class="absolute top-4 right-4 bg-black/60 text-white text-xs font-semibold px-2.5 py-1 rounded-md backdrop-blur-sm z-10 uppercase tracking-wider">
-        After
-    </span>
-
-    <!-- 2. BEFORE Image (Clipped Layer - Left Side) -->
-    <div id="before-image-wrapper" 
-         class="absolute inset-0 w-full h-full overflow-hidden pointer-events-none z-10" 
-         style="width: 50%;">
-        <img src="{{ asset('/home-page-card-images/WhatsApp Image 2026-09-05 at 2.13.27 AM.jpeg') }}" 
-             alt="Before Remodeling" 
-             class="absolute inset-0 w-full h-full object-cover max-w-none pointer-events-none" 
-             id="before-image">
-        <span class="absolute top-4 left-4 bg-black/60 text-white text-xs font-semibold px-2.5 py-1 rounded-md backdrop-blur-sm z-10 uppercase tracking-wider">
-            Before
-        </span>
-    </div>
-
-    <!-- 3. Drag Line & Handle -->
-    <div id="slider-handle" 
-         class="absolute top-0 bottom-0 z-20 cursor-ew-resize flex items-center justify-center -translate-x-1/2" 
-         style="left: 50%;">
-        <!-- Vertical Line -->
-        <div class="w-1 h-full bg-white/90 shadow-[0_0_10px_rgba(0,0,0,0.5)]"></div>
-        
-        <!-- Center Circular Handle with Arrows -->
-        <div class="absolute w-10 h-10 bg-white text-gray-800 rounded-full shadow-lg border-2 border-primary flex items-center justify-center transform group-hover:scale-110 transition-transform duration-200">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M8 7l-5 5 5 5M16 7l5 5-5 5" />
-            </svg>
-        </div>
-    </div>
-</div>
-
-
-
+<!-- Promotional Sections -->
+<section class="promotional-section py-8 md:py-12 px-4 md:px-8 bg-gradient-to-br from-gray-50 to-white">
+    <div class="container mx-auto px-4">
+        <!-- Enhanced Bathroom Remodeling Section -->
+        <div class="bg-white rounded-2xl overflow-hidden shadow-2xl border border-gray-100 hover:shadow-3xl transition-all duration-500">
+            <div class="flex flex-col lg:flex-row">
+                
+                <!-- BEFORE / AFTER IMAGE SLIDER SIDE -->
+                <div id="before-after-container" class="w-full lg:w-1/2 relative min-h-[320px] lg:min-h-full overflow-hidden select-none group touch-none cursor-ew-resize">
                     
+                    <!-- AFTER Image (Right Side / Bottom Layer) -->
+                    <img src="{{ asset('/home-page-card-images/barrier-free-bathroom.jpg') }}" 
+                         alt="After Remodeling" 
+                         class="absolute inset-0 w-full h-full object-cover pointer-events-none select-none">
+                    
+                    <span class="absolute top-4 right-4 bg-black/60 text-white text-xs font-semibold px-2.5 py-1 rounded-md backdrop-blur-sm z-10 uppercase tracking-wider pointer-events-none">
+                        After
+                    </span>
 
-                    <!-- Content Side -->
-                    <div class="w-full lg:w-1/2 p-6 md:p-8 lg:p-10 flex flex-col justify-center relative">
-                        <!-- Decorative Element -->
-                        <div class="absolute top-6 right-6 w-20 h-20 bg-gradient-to-br from-secondary/10 to-secondary/5 rounded-full blur-xl"></div>
+                    <!-- BEFORE Image (Left Side / Top Clipped Layer) -->
+                    <div id="before-image-wrapper" class="absolute inset-0 w-full h-full overflow-hidden pointer-events-none z-10" style="width: 50%;">
+                        <img src="{{ asset('/home-page-card-images/before-remodeling.jpg') }}" 
+                             alt="Before Remodeling" 
+                             class="absolute inset-0 w-full h-full object-cover max-w-none pointer-events-none select-none" 
+                             id="before-image">
                         
-                        <div class="relative z-10">
-                            <!-- Badge -->
-                            {{-- <div class="inline-flex items-center px-4 py-2 bg-secondary/10 text-secondary-dark rounded-full text-sm font-semibold mb-6">
-                                <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" clip-rule="evenodd"></path>
-                                </svg>
-                                Premium Service
-                            </div> --}}
+                        <span class="absolute top-4 left-4 bg-black/60 text-white text-xs font-semibold px-2.5 py-1 rounded-md backdrop-blur-sm z-10 uppercase tracking-wider pointer-events-none">
+                            Before
+                        </span>
+                    </div>
 
-                            <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-4 leading-tight">
-                                Transform Your Bathroom with 
-                                <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-dark">
-                                    Home2stay
-                                </span>
-                            </h2>
-                            
-                            <p class="text-gray-600 text-lg mb-8 leading-relaxed">
-                                Experience luxury and functionality with our expert remodeling solutions. From sleek conversions to 
-                                custom fixtures, we create modern retreats tailored to your style with meticulous attention to detail.
-                            </p>
-
-                            <!-- Feature Points -->
-                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
-                                <div class="flex items-center">
-                                    <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-3">
-                                        <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
-                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                                        </svg>
-                                    </div>
-                                    <span class="text-gray-700 font-medium">Expert Installation</span>
-                                </div>
-                                <div class="flex items-center">
-                                    <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-3">
-                                        <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
-                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                                        </svg>
-                                    </div>
-                                    <span class="text-gray-700 font-medium">Premium Materials</span>
-                                </div>
-                                <div class="flex items-center">
-                                    <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-3">
-                                        <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
-                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                                        </svg>
-                                    </div>
-                                    <span class="text-gray-700 font-medium">Custom Design</span>
-                                </div>
-                                <div class="flex items-center">
-                                    <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-3">
-                                        <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
-                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                                        </svg>
-                                    </div>
-                                    <span class="text-gray-700 font-medium">Lifetime Support</span>
-                                </div>
-                            </div>
-
-                            <div class="flex flex-col sm:flex-row gap-4">
-                                <a href="/all-products" class="btn-primary inline-flex items-center justify-center px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
-                                    Start Your Transformation
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
-                                        <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                    </svg>
-                                </a>
-                                <a href="/contact" class="inline-flex items-center justify-center px-8 py-4 border-2 border-primary text-primary rounded-xl font-semibold text-lg transition-all duration-300">
-                                    Free Consultation
-                                </a>
-                            </div>
+                    <!-- Drag Line & Handle Center Icon -->
+                    <div id="slider-handle" class="absolute top-0 bottom-0 z-20 flex items-center justify-center -translate-x-1/2 pointer-events-none" style="left: 50%;">
+                        <div class="w-1 h-full bg-white/90 shadow-[0_0_10px_rgba(0,0,0,0.5)]"></div>
+                        <div class="absolute w-10 h-10 bg-white text-gray-800 rounded-full shadow-lg border-2 border-primary flex items-center justify-center transform group-hover:scale-110 transition-transform duration-200">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M8 7l-5 5 5 5M16 7l5 5-5 5" />
+                            </svg>
                         </div>
                     </div>
                 </div>
+
+                <!-- CONTENT SIDE -->
+                <div class="w-full lg:w-1/2 p-6 md:p-8 lg:p-10 flex flex-col justify-center relative">
+                    <div class="absolute top-6 right-6 w-20 h-20 bg-gradient-to-br from-secondary/10 to-secondary/5 rounded-full blur-xl"></div>
+                    
+                    <div class="relative z-10">
+                        <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-4 leading-tight">
+                            Transform Your Bathroom with 
+                            <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-dark">
+                                Home2stay
+                            </span>
+                        </h2>
+                        
+                        <p class="text-gray-600 text-lg mb-8 leading-relaxed">
+                            Experience luxury and functionality with our expert remodeling solutions. From sleek conversions to custom fixtures, we create modern retreats tailored to your style with meticulous attention to detail.
+                        </p>
+
+                        <!-- Feature Points -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-3">
+                                    <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                                <span class="text-gray-700 font-medium">Expert Installation</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-3">
+                                    <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                                <span class="text-gray-700 font-medium">Premium Materials</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-3">
+                                    <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                                <span class="text-gray-700 font-medium">Custom Design</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-3">
+                                    <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                                <span class="text-gray-700 font-medium">Lifetime Support</span>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <a href="/all-products" class="btn-primary inline-flex items-center justify-center px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
+                                Start Your Transformation
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                            <a href="/contact" class="inline-flex items-center justify-center px-8 py-4 border-2 border-primary text-primary rounded-xl font-semibold text-lg transition-all duration-300">
+                                Free Consultation
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+
+
+
+
+
+
+
 
     <!-- Enhanced Repair Request Form Section -->
     <section class="py-8 md:py-12 bg-gradient-to-br from-gray-50 via-white to-gray-50">

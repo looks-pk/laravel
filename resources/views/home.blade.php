@@ -1006,9 +1006,9 @@
                         </div>
 
                         <!-- Drag Line & Handle Center Icon -->
-                        <div id="slider-handle" class="absolute top-0 bottom-0 z-30 flex items-center justify-center z-999 -translate-x-1/2 pointer-events-none" style="left: 50%;">
+                        <div id="slider-handle" class="absolute top-0 bottom-0 z-30 flex items-center justify-center z-50 -translate-x-1/2 pointer-events-none" style="left: 50%;">
                             <div class="w-1 h-full bg-white/90 shadow-[0_0_10px_rgba(0,0,0,0.5)]"></div>
-                            <div class="absolute w-10 h-10 bg-white text-gray-800 rounded-full shadow-lg border-2 border-primary flex items-center justify-center transform group-hover:scale-110 transition-transform duration-200">
+                            <div class="absolute w-10 h-10 bg-white text-gray-800 rounded-full shadow-lg border-2 border-primary flex items-center justify-center x-50 transform group-hover:scale-110 transition-transform duration-200">
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M8 7l-5 5 5 5M16 7l5 5-5 5" />
                                 </svg>

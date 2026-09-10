@@ -970,51 +970,56 @@
 
 
 
+
 <!-- Promotional Sections -->
-<section class="promotional-section py-8 md:py-12 px-4 md:px-8 bg-gradient-to-br from-gray-50 to-white">
+<section class="promotional-section py-8 md:py-12 px-4 md:px-8 bg-gradient-to-br from-gray-50 to-white relative z-10">
     <div class="container mx-auto px-4">
         <!-- Enhanced Bathroom Remodeling Section -->
         <div class="bg-white rounded-2xl overflow-hidden shadow-2xl border border-gray-100 hover:shadow-3xl transition-all duration-500">
-            <div class="flex flex-col lg:flex-row">
+            <div class="flex flex-col lg:flex-row w-full">
                 
-                <!-- BEFORE / AFTER IMAGE SLIDER SIDE -->
-             <div id="before-after-container" class="w-full lg:w-1/2 relative h-[350px] sm:h-[420px] lg:h-auto lg:min-h-full overflow-hidden select-none group touch-none cursor-ew-resize">
-                    
-                    <!-- AFTER Image (Right Side / Bottom Layer) -->
-                    <img src="{{ asset('/home-page-card-images/WhatsApp Image 2026-09-10 at 4.33.20 AM.jpeg') }}" 
-                         alt="After Remodeling" 
-                         class="absolute inset-0 w-full h-full object-cover pointer-events-none select-none">
-                    
-                    <span class="absolute top-4 right-4 bg-black/60 text-white text-xs font-semibold px-2.5 py-1 rounded-md backdrop-blur-sm z-10 uppercase tracking-wider pointer-events-none">
-                        After
-                    </span>
-
-                    <!-- BEFORE Image (Left Side / Top Clipped Layer) -->
-                    <div id="before-image-wrapper" class="absolute inset-0 w-full h-full overflow-hidden pointer-events-none z-10" style="width: 50%;">
-                        <img src="{{ asset('/home-page-card-images/WhatsApp Image 2026-09-05 at 2.13.27 AM (1).jpeg') }}" 
-                             alt="Before Remodeling" 
-                             class="absolute inset-0 w-full h-full object-cover max-w-none pointer-events-none select-none" 
-                             id="before-image">
+                <!-- BEFORE / AFTER IMAGE SLIDER SIDE (Mobile Fixed Height & Stacking Context) -->
+                <div class="w-full lg:w-1/2 block relative z-10">
+                    <div id="before-after-container" 
+                         class="w-full relative overflow-hidden select-none group touch-none cursor-ew-resize bg-gray-200 aspect-[4/3] sm:aspect-[16/9] lg:aspect-auto lg:h-full lg:min-h-[450px]"
+                         style="min-height: 280px;">
                         
-                        <span class="absolute top-4 left-4 bg-black/60 text-white text-xs font-semibold px-2.5 py-1 rounded-md backdrop-blur-sm z-10 uppercase tracking-wider pointer-events-none">
-                            Before
+                        <!-- AFTER Image (Right Side / Bottom Layer) -->
+                        <img src="{{ asset('/home-page-card-images/WhatsApp Image 2026-09-10 at 4.33.20 AM.jpeg') }}" 
+                             alt="After Remodeling" 
+                             class="absolute inset-0 w-full h-full object-cover pointer-events-none select-none z-0">
+                        
+                        <span class="absolute top-4 right-4 bg-black/60 text-white text-xs font-semibold px-2.5 py-1 rounded-md backdrop-blur-sm z-20 uppercase tracking-wider pointer-events-none">
+                            After
                         </span>
-                    </div>
 
-                    <!-- Drag Line & Handle Center Icon -->
-                    <div id="slider-handle" class="absolute top-0 bottom-0 z-20 flex items-center justify-center -translate-x-1/2 pointer-events-none" style="left: 50%;">
-                        <div class="w-1 h-full bg-white/90 shadow-[0_0_10px_rgba(0,0,0,0.5)]"></div>
-                        <div class="absolute w-10 h-10 bg-white text-gray-800 rounded-full shadow-lg border-2 border-primary flex items-center justify-center transform group-hover:scale-110 transition-transform duration-200">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M8 7l-5 5 5 5M16 7l5 5-5 5" />
-                            </svg>
+                        <!-- BEFORE Image (Left Side / Top Clipped Layer) -->
+                        <div id="before-image-wrapper" class="absolute inset-0 w-full h-full overflow-hidden pointer-events-none z-10" style="width: 50%;">
+                            <img src="{{ asset('/home-page-card-images/WhatsApp Image 2026-09-05 at 2.13.27 AM (1).jpeg') }}" 
+                                 alt="Before Remodeling" 
+                                 class="absolute inset-0 w-full h-full object-cover max-w-none pointer-events-none select-none" 
+                                 id="before-image">
+                            
+                            <span class="absolute top-4 left-4 bg-black/60 text-white text-xs font-semibold px-2.5 py-1 rounded-md backdrop-blur-sm z-20 uppercase tracking-wider pointer-events-none">
+                                Before
+                            </span>
+                        </div>
+
+                        <!-- Drag Line & Handle Center Icon -->
+                        <div id="slider-handle" class="absolute top-0 bottom-0 z-30 flex items-center justify-center -translate-x-1/2 pointer-events-none" style="left: 50%;">
+                            <div class="w-1 h-full bg-white/90 shadow-[0_0_10px_rgba(0,0,0,0.5)]"></div>
+                            <div class="absolute w-10 h-10 bg-white text-gray-800 rounded-full shadow-lg border-2 border-primary flex items-center justify-center transform group-hover:scale-110 transition-transform duration-200">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M8 7l-5 5 5 5M16 7l5 5-5 5" />
+                                </svg>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- CONTENT SIDE -->
-                <div class="w-full lg:w-1/2 p-6 md:p-8 lg:p-10 flex flex-col justify-center relative">
-                    <div class="absolute top-6 right-6 w-20 h-20 bg-gradient-to-br from-secondary/10 to-secondary/5 rounded-full blur-xl"></div>
+                <div class="w-full lg:w-1/2 p-6 md:p-8 lg:p-10 flex flex-col justify-center relative z-10 bg-white">
+                    <div class="absolute top-6 right-6 w-20 h-20 bg-gradient-to-br from-secondary/10 to-secondary/5 rounded-full blur-xl pointer-events-none"></div>
                     
                     <div class="relative z-10">
                         <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-4 leading-tight">
@@ -1031,7 +1036,7 @@
                         <!-- Feature Points -->
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                             <div class="flex items-center">
-                                <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-3">
+                                <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-3 shrink-0">
                                     <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
                                         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                                     </svg>
@@ -1039,7 +1044,7 @@
                                 <span class="text-gray-700 font-medium">Expert Installation</span>
                             </div>
                             <div class="flex items-center">
-                                <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-3">
+                                <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-3 shrink-0">
                                     <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
                                         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                                     </svg>
@@ -1047,7 +1052,7 @@
                                 <span class="text-gray-700 font-medium">Premium Materials</span>
                             </div>
                             <div class="flex items-center">
-                                <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-3">
+                                <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-3 shrink-0">
                                     <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
                                         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                                     </svg>
@@ -1055,7 +1060,7 @@
                                 <span class="text-gray-700 font-medium">Custom Design</span>
                             </div>
                             <div class="flex items-center">
-                                <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-3">
+                                <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center mr-3 shrink-0">
                                     <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
                                         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                                     </svg>
@@ -1082,7 +1087,6 @@
         </div>
     </div>
 </section>
-
 
 
 

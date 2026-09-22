@@ -8,6 +8,10 @@
 
     <title>@yield('title', config('app.name', 'Laravel'))</title>
     <meta name="description" content="@yield('meta_description', 'Professional IT services and solutions')">
+
+    <!-- Dynamic Canonical Tag -->
+    <link rel="canonical" href="{{ url()->current() }}" />
+    
     <!-- Google reCAPTCHA site key for form protection -->
     <meta name="recaptcha-site-key" content="{{ config('services.recaptcha.site_key') }}">
     <!-- Favicon -->
